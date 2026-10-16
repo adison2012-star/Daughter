@@ -1,0 +1,6010 @@
+[
+  {
+    "id": "hsk1-1",
+    "no": 1,
+    "hanzi": "爱",
+    "pinyin": "ài",
+    "tones": [
+      4
+    ],
+    "partOfSpeech": "verb",
+    "english": "to love",
+    "thai": "รัก",
+    "thaiPhonetic": "รัก",
+    "category": "emotions",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“爱”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"ài\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"รัก\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-2",
+    "no": 2,
+    "hanzi": "八",
+    "pinyin": "bā",
+    "tones": [
+      1
+    ],
+    "partOfSpeech": "number",
+    "english": "eight",
+    "thai": "แปด",
+    "thaiPhonetic": "แปด",
+    "category": "numbers",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“八”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"bā\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"แปด\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-3",
+    "no": 3,
+    "hanzi": "爸爸",
+    "pinyin": "bàba",
+    "tones": [
+      4
+    ],
+    "partOfSpeech": "noun",
+    "english": "dad",
+    "thai": "พ่อ",
+    "thaiPhonetic": "พ่อ",
+    "category": "family",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“爸爸”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"bàba\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"พ่อ\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-4",
+    "no": 4,
+    "hanzi": "吧",
+    "pinyin": "ba",
+    "tones": [
+      0
+    ],
+    "partOfSpeech": "auxiliary particle",
+    "english": "indicating suggestion, confirmation, or hesitation",
+    "thai": "คําช่วยลงท้ายเพื่อเสนอแนะ ยืนยัน หรือลังเล",
+    "thaiPhonetic": "คําช่วยลงท้ายเพื่อเสนอแนะ ยืนยัน หรือลังเล",
+    "category": "animals",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“吧”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"ba\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"คําช่วยลงท้ายเพื่อเสนอแนะ ยืนยัน หรือลังเล\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-5",
+    "no": 5,
+    "hanzi": "白天",
+    "pinyin": "báitiān",
+    "tones": [
+      1
+    ],
+    "partOfSpeech": "noun",
+    "english": "daytime",
+    "thai": "เวลากลางวัน",
+    "thaiPhonetic": "เวลากลางวัน",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“白天”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"báitiān\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"เวลากลางวัน\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-6",
+    "no": 6,
+    "hanzi": "百",
+    "pinyin": "bǎi",
+    "tones": [
+      3
+    ],
+    "partOfSpeech": "number",
+    "english": "hundred",
+    "thai": "หนึ่งร้อย",
+    "thaiPhonetic": "หนึ่งร้อย",
+    "category": "numbers",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“百”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"bǎi\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"หนึ่งร้อย\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-7",
+    "no": 7,
+    "hanzi": "半",
+    "pinyin": "bàn",
+    "tones": [
+      4
+    ],
+    "partOfSpeech": "number、(adverb)",
+    "english": "half; (half, semi-)",
+    "thai": "ครึ่ง; กึ่งหนึ่ง",
+    "thaiPhonetic": "ครึ่ง",
+    "category": "numbers",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“半”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"bàn\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ครึ่ง\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-8",
+    "no": 8,
+    "hanzi": "包子",
+    "pinyin": "bāozi",
+    "tones": [
+      1
+    ],
+    "partOfSpeech": "noun",
+    "english": "steamed stuffed bun",
+    "thai": "ซาลาเปา",
+    "thaiPhonetic": "ซาลาเปา",
+    "category": "food",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“包子”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"bāozi\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ซาลาเปา\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-9",
+    "no": 9,
+    "hanzi": "杯子",
+    "pinyin": "bēizi",
+    "tones": [
+      1
+    ],
+    "partOfSpeech": "noun",
+    "english": "cup, glass",
+    "thai": "ถ้วย;แก้ว",
+    "thaiPhonetic": "ถ้วย",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“杯子”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"bēizi\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ถ้วย\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-10",
+    "no": 10,
+    "hanzi": "本",
+    "pinyin": "běn",
+    "tones": [
+      3
+    ],
+    "partOfSpeech": "classifier measure word",
+    "english": "for books",
+    "thai": "ลักษณนามสําหรับหนังสือ",
+    "thaiPhonetic": "ลักษณนามสําหรับหนังสือ",
+    "category": "school",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“本”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"běn\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ลักษณนามสําหรับหนังสือ\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-11",
+    "no": 11,
+    "hanzi": "边",
+    "pinyin": "biān",
+    "tones": [
+      1
+    ],
+    "partOfSpeech": "noun、suffix",
+    "english": "side; suffix indicating direction",
+    "thai": "ด้าน; ข้าง; คําต่อท้ายที่บอกทิศทาง",
+    "thaiPhonetic": "ด้าน",
+    "category": "animals",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“边”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"biān\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ด้าน\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-12",
+    "no": 12,
+    "hanzi": "病",
+    "pinyin": "bìng",
+    "tones": [
+      4
+    ],
+    "partOfSpeech": "noun、verb",
+    "english": "illness, disease; to be ill",
+    "thai": "โรค;เจ็บป่วย; ป่วย",
+    "thaiPhonetic": "โรค",
+    "category": "nature",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“病”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"bìng\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"โรค\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-13",
+    "no": 13,
+    "hanzi": "不",
+    "pinyin": "bù",
+    "tones": [
+      4
+    ],
+    "partOfSpeech": "adverb",
+    "english": "not, no",
+    "thai": "ไม่",
+    "thaiPhonetic": "ไม่",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“不”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"bù\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ไม่\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-14",
+    "no": 14,
+    "hanzi": "不客气",
+    "pinyin": "bú kèqi",
+    "tones": [
+      2,
+      4
+    ],
+    "partOfSpeech": "—",
+    "english": "you’re welcome",
+    "thai": "ไม่เป็นไร; ด้วยความยินดี",
+    "thaiPhonetic": "ไม่เป็นไร",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“不客气”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"bú kèqi\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ไม่เป็นไร\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-15",
+    "no": 15,
+    "hanzi": "不要",
+    "pinyin": "bú yào",
+    "tones": [
+      2,
+      4
+    ],
+    "partOfSpeech": "adverb",
+    "english": "don’t, not want",
+    "thai": "อย่า;ไม่ต้องการ",
+    "thaiPhonetic": "อย่า",
+    "category": "family",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“不要”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"bú yào\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"อย่า\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-16",
+    "no": 16,
+    "hanzi": "菜",
+    "pinyin": "cài",
+    "tones": [
+      4
+    ],
+    "partOfSpeech": "noun",
+    "english": "vegetable, dish",
+    "thai": "ผัก; อาหาร; กับข้าว",
+    "thaiPhonetic": "ผัก",
+    "category": "food",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“菜”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"cài\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ผัก\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-17",
+    "no": 17,
+    "hanzi": "茶",
+    "pinyin": "chá",
+    "tones": [
+      2
+    ],
+    "partOfSpeech": "noun",
+    "english": "tea",
+    "thai": "ชา",
+    "thaiPhonetic": "ชา",
+    "category": "food",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“茶”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"chá\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ชา\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-18",
+    "no": 18,
+    "hanzi": "唱",
+    "pinyin": "chàng",
+    "tones": [
+      4
+    ],
+    "partOfSpeech": "verb",
+    "english": "to sing",
+    "thai": "ร้องเพลง",
+    "thaiPhonetic": "ร้องเพลง",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“唱”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"chàng\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ร้องเพลง\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-19",
+    "no": 19,
+    "hanzi": "超市",
+    "pinyin": "chāoshì",
+    "tones": [
+      1
+    ],
+    "partOfSpeech": "noun",
+    "english": "supermarket",
+    "thai": "ซูเปอร์มาร์เก็ต",
+    "thaiPhonetic": "ซูเปอร์มาร์เก็ต",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“超市”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"chāoshì\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ซูเปอร์มาร์เก็ต\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-20",
+    "no": 20,
+    "hanzi": "车",
+    "pinyin": "chē",
+    "tones": [
+      1
+    ],
+    "partOfSpeech": "noun",
+    "english": "vehicle, car",
+    "thai": "ยานพาหนะ; รถ",
+    "thaiPhonetic": "ยานพาหนะ",
+    "category": "travel",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“车”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"chē\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ยานพาหนะ\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-21",
+    "no": 21,
+    "hanzi": "吃",
+    "pinyin": "chī",
+    "tones": [
+      1
+    ],
+    "partOfSpeech": "verb",
+    "english": "to eat",
+    "thai": "กิน",
+    "thaiPhonetic": "กิน",
+    "category": "food",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“吃”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"chī\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"กิน\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-22",
+    "no": 22,
+    "hanzi": "出租车",
+    "pinyin": "chūzūchē",
+    "tones": [
+      1
+    ],
+    "partOfSpeech": "noun",
+    "english": "taxi",
+    "thai": "รถแท็กซี่",
+    "thaiPhonetic": "รถแท็กซี่",
+    "category": "travel",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“出租车”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"chūzūchē\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"รถแท็กซี่\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-23",
+    "no": 23,
+    "hanzi": "穿",
+    "pinyin": "chuān",
+    "tones": [
+      1
+    ],
+    "partOfSpeech": "verb",
+    "english": "to wear",
+    "thai": "สวมใส่",
+    "thaiPhonetic": "สวมใส่",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“穿”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"chuān\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"สวมใส่\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-24",
+    "no": 24,
+    "hanzi": "打电话",
+    "pinyin": "dǎ diànhuà",
+    "tones": [
+      3,
+      4
+    ],
+    "partOfSpeech": "—",
+    "english": "to make a phone call",
+    "thai": "โทรศัพท์;โทรออก",
+    "thaiPhonetic": "โทรศัพท์",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“打电话”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"dǎ diànhuà\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"โทรศัพท์\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-25",
+    "no": 25,
+    "hanzi": "大",
+    "pinyin": "dà",
+    "tones": [
+      4
+    ],
+    "partOfSpeech": "adjective",
+    "english": "big",
+    "thai": "ใหญ่",
+    "thaiPhonetic": "ใหญ่",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“大”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"dà\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ใหญ่\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-26",
+    "no": 26,
+    "hanzi": "大家",
+    "pinyin": "dàjiā",
+    "tones": [
+      1
+    ],
+    "partOfSpeech": "pronoun",
+    "english": "everyone",
+    "thai": "ทุกคน",
+    "thaiPhonetic": "ทุกคน",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“大家”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"dàjiā\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ทุกคน\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-27",
+    "no": 27,
+    "hanzi": "大学",
+    "pinyin": "dàxué",
+    "tones": [
+      2
+    ],
+    "partOfSpeech": "noun",
+    "english": "university",
+    "thai": "มหาวิทยาลัย",
+    "thaiPhonetic": "มหาวิทยาลัย",
+    "category": "school",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“大学”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"dàxué\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"มหาวิทยาลัย\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-28",
+    "no": 28,
+    "hanzi": "大学生",
+    "pinyin": "dàxuéshēng",
+    "tones": [
+      1
+    ],
+    "partOfSpeech": "noun",
+    "english": "university student",
+    "thai": "นักศึกษามหาวิทยาลัย",
+    "thaiPhonetic": "นักศึกษามหาวิทยาลัย",
+    "category": "school",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“大学生”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"dàxuéshēng\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"นักศึกษามหาวิทยาลัย\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-29",
+    "no": 29,
+    "hanzi": "到",
+    "pinyin": "dào",
+    "tones": [
+      4
+    ],
+    "partOfSpeech": "verb",
+    "english": "to arrive",
+    "thai": "มาถึง;ไปถึง",
+    "thaiPhonetic": "มาถึง",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“到”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"dào\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"มาถึง\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-30",
+    "no": 30,
+    "hanzi": "的",
+    "pinyin": "de",
+    "tones": [
+      0
+    ],
+    "partOfSpeech": "auxiliary",
+    "english": "possessive or modifying particle",
+    "thai": "คําช่วยแสดงความเป็นเจ้าของหรือขยายคํานาม NEW HSK 1-6 VOCBURALY LIST (3.0) TOTAL 5400 WORDS Page 1",
+    "thaiPhonetic": "คําช่วยแสดงความเป็นเจ้าของหรือขยายคํานาม NEW HSK 1-6 VOCBURALY LIST (3.0) TOTAL 5400 WORDS Page 1",
+    "category": "family",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“的”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"de\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"คําช่วยแสดงความเป็นเจ้าของหรือขยายคํานาม NEW HSK 1-6 VOCBURALY LIST (3.0) TOTAL 5400 WORDS Page 1\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-31",
+    "no": 31,
+    "hanzi": "第",
+    "pinyin": "dì",
+    "tones": [
+      4
+    ],
+    "partOfSpeech": "prefix prefix",
+    "english": "for ordinal numbers",
+    "thai": "คํานําหน้าตัวเลขลําดับ",
+    "thaiPhonetic": "คํานําหน้าตัวเลขลําดับ",
+    "category": "family",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“第”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"dì\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"คํานําหน้าตัวเลขลําดับ\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-32",
+    "no": 32,
+    "hanzi": "弟弟",
+    "pinyin": "dìdi",
+    "tones": [
+      4
+    ],
+    "partOfSpeech": "noun",
+    "english": "younger brother",
+    "thai": "น้องชาย",
+    "thaiPhonetic": "น้องชาย",
+    "category": "food",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“弟弟”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"dìdi\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"น้องชาย\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-33",
+    "no": 33,
+    "hanzi": "点",
+    "pinyin": "diǎn",
+    "tones": [
+      3
+    ],
+    "partOfSpeech": "classifier、(noun) measure word",
+    "english": "for small round things; (point, dot)",
+    "thai": "ลักษณนามของสิ่งเล็ก ๆ; จุด",
+    "thaiPhonetic": "ลักษณนามของสิ่งเล็ก ๆ",
+    "category": "school",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“点”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"diǎn\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ลักษณนามของสิ่งเล็ก ๆ\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-34",
+    "no": 34,
+    "hanzi": "店",
+    "pinyin": "diàn",
+    "tones": [
+      4
+    ],
+    "partOfSpeech": "noun",
+    "english": "shop, store",
+    "thai": "ร้านค้า",
+    "thaiPhonetic": "ร้านค้า",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“店”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"diàn\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ร้านค้า\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-35",
+    "no": 35,
+    "hanzi": "电话",
+    "pinyin": "diànhuà",
+    "tones": [
+      4
+    ],
+    "partOfSpeech": "noun",
+    "english": "telephone, phone call",
+    "thai": "โทรศัพท์; การโทรศัพท์",
+    "thaiPhonetic": "โทรศัพท์",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“电话”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"diànhuà\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"โทรศัพท์\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-36",
+    "no": 36,
+    "hanzi": "电脑",
+    "pinyin": "diànnǎo",
+    "tones": [
+      3
+    ],
+    "partOfSpeech": "noun",
+    "english": "computer",
+    "thai": "คอมพิวเตอร์",
+    "thaiPhonetic": "คอมพิวเตอร์",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“电脑”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"diànnǎo\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"คอมพิวเตอร์\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-37",
+    "no": 37,
+    "hanzi": "电视",
+    "pinyin": "diànshì",
+    "tones": [
+      4
+    ],
+    "partOfSpeech": "noun",
+    "english": "television",
+    "thai": "โทรทัศน์",
+    "thaiPhonetic": "โทรทัศน์",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“电视”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"diànshì\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"โทรทัศน์\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-38",
+    "no": 38,
+    "hanzi": "电影",
+    "pinyin": "diànyǐng",
+    "tones": [
+      3
+    ],
+    "partOfSpeech": "noun",
+    "english": "movie, film",
+    "thai": "ภาพยนตร์ ; หนัง",
+    "thaiPhonetic": "ภาพยนตร์",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“电影”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"diànyǐng\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ภาพยนตร์\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-39",
+    "no": 39,
+    "hanzi": "电影院",
+    "pinyin": "diànyǐngyuàn",
+    "tones": [
+      3
+    ],
+    "partOfSpeech": "noun",
+    "english": "cinema",
+    "thai": "โรงภาพยนตร์",
+    "thaiPhonetic": "โรงภาพยนตร์",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“电影院”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"diànyǐngyuàn\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"โรงภาพยนตร์\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-40",
+    "no": 40,
+    "hanzi": "东西",
+    "pinyin": "dōngxi",
+    "tones": [
+      1
+    ],
+    "partOfSpeech": "noun",
+    "english": "thing, object",
+    "thai": "สิ่งของ; ของ",
+    "thaiPhonetic": "สิ่งของ",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“东西”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"dōngxi\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"สิ่งของ\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-41",
+    "no": 41,
+    "hanzi": "都",
+    "pinyin": "dōu",
+    "tones": [
+      1
+    ],
+    "partOfSpeech": "adverb",
+    "english": "all, both",
+    "thai": "ทั้งหมด; ทั้งสอง",
+    "thaiPhonetic": "ทั้งหมด",
+    "category": "numbers",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“都”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"dōu\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ทั้งหมด\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-42",
+    "no": 42,
+    "hanzi": "读",
+    "pinyin": "dú",
+    "tones": [
+      2
+    ],
+    "partOfSpeech": "verb",
+    "english": "to read",
+    "thai": "อ่าน",
+    "thaiPhonetic": "อ่าน",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“读”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"dú\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"อ่าน\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-43",
+    "no": 43,
+    "hanzi": "读书",
+    "pinyin": "dúshū",
+    "tones": [
+      1
+    ],
+    "partOfSpeech": "verb",
+    "english": "to read a book",
+    "thai": "อ่านหนังสือ;เรียนหนังสือ",
+    "thaiPhonetic": "อ่านหนังสือ",
+    "category": "school",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“读书”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"dúshū\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"อ่านหนังสือ\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-44",
+    "no": 44,
+    "hanzi": "对",
+    "pinyin": "duì",
+    "tones": [
+      4
+    ],
+    "partOfSpeech": "adjective、preposition、",
+    "english": "( verb、classifier) correct, right; to, toward, for; (to treat; pair)",
+    "thai": "ถูกต้อง; ต่อ;ไปทาง; สําหรับ; ปฏิบัติต่อ; คู่",
+    "thaiPhonetic": "ถูกต้อง",
+    "category": "food",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“对”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"duì\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ถูกต้อง\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-45",
+    "no": 45,
+    "hanzi": "对不起",
+    "pinyin": "duìbuqǐ",
+    "tones": [
+      3
+    ],
+    "partOfSpeech": "verb",
+    "english": "sorry",
+    "thai": "ขอโทษ",
+    "thaiPhonetic": "ขอโทษ",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“对不起”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"duìbuqǐ\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ขอโทษ\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-46",
+    "no": 46,
+    "hanzi": "多",
+    "pinyin": "duō",
+    "tones": [
+      1
+    ],
+    "partOfSpeech": "adjective、verb、",
+    "english": "pronou n、(number、adverb) many, much; to have more; how many, how much; (more, over)",
+    "thai": "มาก; มีมากกว่า;เท่าไร; มากกว่า;เกิน",
+    "thaiPhonetic": "มาก",
+    "category": "food",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“多”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"duō\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"มาก\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-47",
+    "no": 47,
+    "hanzi": "多少",
+    "pinyin": "duōshao",
+    "tones": [
+      1
+    ],
+    "partOfSpeech": "pronoun",
+    "english": "how many, how much",
+    "thai": "เท่าไร; กี่",
+    "thaiPhonetic": "เท่าไร",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“多少”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"duōshao\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"เท่าไร\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-48",
+    "no": 48,
+    "hanzi": "儿子",
+    "pinyin": "érzi",
+    "tones": [
+      2
+    ],
+    "partOfSpeech": "noun",
+    "english": "son",
+    "thai": "ลูกชาย",
+    "thaiPhonetic": "ลูกชาย",
+    "category": "food",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“儿子”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"érzi\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ลูกชาย\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-49",
+    "no": 49,
+    "hanzi": "二",
+    "pinyin": "èr",
+    "tones": [
+      4
+    ],
+    "partOfSpeech": "number",
+    "english": "two",
+    "thai": "สอง",
+    "thaiPhonetic": "สอง",
+    "category": "numbers",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“二”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"èr\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"สอง\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-50",
+    "no": 50,
+    "hanzi": "饭",
+    "pinyin": "fàn",
+    "tones": [
+      4
+    ],
+    "partOfSpeech": "noun",
+    "english": "cooked rice, meal",
+    "thai": "ข้าวสุก; อาหาร; มื้ออาหาร",
+    "thaiPhonetic": "ข้าวสุก",
+    "category": "food",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“饭”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"fàn\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ข้าวสุก\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-51",
+    "no": 51,
+    "hanzi": "饭店",
+    "pinyin": "fàndiàn",
+    "tones": [
+      4
+    ],
+    "partOfSpeech": "noun",
+    "english": "restaurant",
+    "thai": "ร้านอาหาร; ภัตตาคาร",
+    "thaiPhonetic": "ร้านอาหาร",
+    "category": "food",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“饭店”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"fàndiàn\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ร้านอาหาร\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-52",
+    "no": 52,
+    "hanzi": "房间",
+    "pinyin": "fángjiān",
+    "tones": [
+      1
+    ],
+    "partOfSpeech": "noun",
+    "english": "room",
+    "thai": "ห้อง",
+    "thaiPhonetic": "ห้อง",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“房间”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"fángjiān\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ห้อง\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-53",
+    "no": 53,
+    "hanzi": "非常",
+    "pinyin": "fēicháng",
+    "tones": [
+      1
+    ],
+    "partOfSpeech": "adverb",
+    "english": "very, extremely",
+    "thai": "มาก; อย่างยิ่ง",
+    "thaiPhonetic": "มาก",
+    "category": "family",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“非常”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"fēicháng\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"มาก\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-54",
+    "no": 54,
+    "hanzi": "飞机",
+    "pinyin": "fēijī",
+    "tones": [
+      1
+    ],
+    "partOfSpeech": "noun",
+    "english": "airplane",
+    "thai": "เครื่องบิน",
+    "thaiPhonetic": "เครื่องบิน",
+    "category": "travel",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“飞机”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"fēijī\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"เครื่องบิน\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-55",
+    "no": 55,
+    "hanzi": "分",
+    "pinyin": "fēn",
+    "tones": [
+      1
+    ],
+    "partOfSpeech": "classifier、",
+    "english": "(verb、noun) minute; (to divide, to separate; component, part)",
+    "thai": "นาที;แบ่ง;แยก; ส่วนประกอบ; ส่วน",
+    "thaiPhonetic": "นาที",
+    "category": "school",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“分”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"fēn\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"นาที\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-56",
+    "no": 56,
+    "hanzi": "分钟",
+    "pinyin": "fēnzhōng",
+    "tones": [
+      1
+    ],
+    "partOfSpeech": "classifier",
+    "english": "minute",
+    "thai": "นาที",
+    "thaiPhonetic": "นาที",
+    "category": "school",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“分钟”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"fēnzhōng\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"นาที\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-57",
+    "no": 57,
+    "hanzi": "高兴",
+    "pinyin": "gāoxìng",
+    "tones": [
+      1
+    ],
+    "partOfSpeech": "adjective",
+    "english": "happy, glad",
+    "thai": "มีความสุข; ดีใจ",
+    "thaiPhonetic": "มีความสุข",
+    "category": "emotions",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“高兴”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"gāoxìng\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"มีความสุข\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-58",
+    "no": 58,
+    "hanzi": "歌",
+    "pinyin": "gē",
+    "tones": [
+      1
+    ],
+    "partOfSpeech": "noun",
+    "english": "song",
+    "thai": "เพลง",
+    "thaiPhonetic": "เพลง",
+    "category": "family",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“歌”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"gē\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"เพลง\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-59",
+    "no": 59,
+    "hanzi": "哥哥",
+    "pinyin": "gēge",
+    "tones": [
+      1
+    ],
+    "partOfSpeech": "noun",
+    "english": "older brother",
+    "thai": "พี่ชาย",
+    "thaiPhonetic": "พี่ชาย",
+    "category": "food",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“哥哥”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"gēge\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"พี่ชาย\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-60",
+    "no": 60,
+    "hanzi": "个",
+    "pinyin": "gè",
+    "tones": [
+      4
+    ],
+    "partOfSpeech": "classifier measure word",
+    "english": "for general objects",
+    "thai": "ลักษณนามทั่วไปสําหรับสิ่งของ Page 2",
+    "thaiPhonetic": "ลักษณนามทั่วไปสําหรับสิ่งของ Page 2",
+    "category": "school",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“个”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"gè\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ลักษณนามทั่วไปสําหรับสิ่งของ Page 2\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-61",
+    "no": 61,
+    "hanzi": "给",
+    "pinyin": "gěi",
+    "tones": [
+      3
+    ],
+    "partOfSpeech": "verb、(preposition)",
+    "english": "to give; (to, for)",
+    "thai": "ให้ ;แก่; สําหรับ",
+    "thaiPhonetic": "ให้",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“给”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"gěi\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ให้\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-62",
+    "no": 62,
+    "hanzi": "公司",
+    "pinyin": "gōngsī",
+    "tones": [
+      1
+    ],
+    "partOfSpeech": "noun",
+    "english": "company",
+    "thai": "บริษัท",
+    "thaiPhonetic": "บริษัท",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“公司”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"gōngsī\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"บริษัท\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-63",
+    "no": 63,
+    "hanzi": "工作",
+    "pinyin": "gōngzuò",
+    "tones": [
+      1
+    ],
+    "partOfSpeech": "verb、noun",
+    "english": "work; to work",
+    "thai": "งาน; ทํางาน",
+    "thaiPhonetic": "งาน",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“工作”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"gōngzuò\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"งาน\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-64",
+    "no": 64,
+    "hanzi": "狗",
+    "pinyin": "gǒu",
+    "tones": [
+      3
+    ],
+    "partOfSpeech": "noun",
+    "english": "dog",
+    "thai": "สุนัข",
+    "thaiPhonetic": "สุนัข",
+    "category": "animals",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“狗”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"gǒu\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"สุนัข\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-65",
+    "no": 65,
+    "hanzi": "贵",
+    "pinyin": "guì",
+    "tones": [
+      4
+    ],
+    "partOfSpeech": "adjective",
+    "english": "expensive",
+    "thai": "แพง",
+    "thaiPhonetic": "แพง",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“贵”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"guì\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"แพง\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-66",
+    "no": 66,
+    "hanzi": "国",
+    "pinyin": "guó",
+    "tones": [
+      2
+    ],
+    "partOfSpeech": "noun",
+    "english": "country",
+    "thai": "ประเทศ",
+    "thaiPhonetic": "ประเทศ",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“国”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"guó\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ประเทศ\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-67",
+    "no": 67,
+    "hanzi": "还",
+    "pinyin": "hái",
+    "tones": [
+      2
+    ],
+    "partOfSpeech": "adverb",
+    "english": "still, also; quite",
+    "thai": "ยัง; อีกด้วย; ค่อนข้าง",
+    "thaiPhonetic": "ยัง",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“还”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"hái\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ยัง\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-68",
+    "no": 68,
+    "hanzi": "孩子",
+    "pinyin": "háizi",
+    "tones": [
+      2
+    ],
+    "partOfSpeech": "noun",
+    "english": "child",
+    "thai": "เด็ก; ลูก",
+    "thaiPhonetic": "เด็ก",
+    "category": "family",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“孩子”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"háizi\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"เด็ก\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-69",
+    "no": 69,
+    "hanzi": "汉语",
+    "pinyin": "Hànyǔ",
+    "tones": [
+      3
+    ],
+    "partOfSpeech": "noun",
+    "english": "Chinese language",
+    "thai": "ภาษาจีน",
+    "thaiPhonetic": "ภาษาจีน",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“汉语”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"Hànyǔ\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ภาษาจีน\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-70",
+    "no": 70,
+    "hanzi": "汉字",
+    "pinyin": "Hànzì",
+    "tones": [
+      4
+    ],
+    "partOfSpeech": "noun",
+    "english": "Chinese character",
+    "thai": "อักษรจีน",
+    "thaiPhonetic": "อักษรจีน",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“汉字”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"Hànzì\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"อักษรจีน\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-71",
+    "no": 71,
+    "hanzi": "好",
+    "pinyin": "hǎo",
+    "tones": [
+      3
+    ],
+    "partOfSpeech": "adjective、(adverb)、(ve rb)",
+    "english": "good; (well); (to be fond of)",
+    "thai": "ดี ; อย่างดี; ชอบ",
+    "thaiPhonetic": "ดี",
+    "category": "family",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“好”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"hǎo\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ดี\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-72",
+    "no": 72,
+    "hanzi": "好吃",
+    "pinyin": "hǎochī",
+    "tones": [
+      1
+    ],
+    "partOfSpeech": "adjective",
+    "english": "delicious, tasty",
+    "thai": "อร่อย",
+    "thaiPhonetic": "อร่อย",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“好吃”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"hǎochī\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"อร่อย\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-73",
+    "no": 73,
+    "hanzi": "好看",
+    "pinyin": "hǎokàn",
+    "tones": [
+      3
+    ],
+    "partOfSpeech": "adjective",
+    "english": "good-looking",
+    "thai": "สวย; ดูดี; น่าดู",
+    "thaiPhonetic": "สวย",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“好看”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"hǎokàn\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"สวย\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-74",
+    "no": 74,
+    "hanzi": "好听",
+    "pinyin": "hǎotīng",
+    "tones": [
+      1
+    ],
+    "partOfSpeech": "adjective",
+    "english": "pleasant to listen to",
+    "thai": "ไพเราะ; ฟังเพราะ",
+    "thaiPhonetic": "ไพเราะ",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“好听”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"hǎotīng\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ไพเราะ\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-75",
+    "no": 75,
+    "hanzi": "好玩儿",
+    "pinyin": "hǎowánr",
+    "tones": [
+      2
+    ],
+    "partOfSpeech": "adjective",
+    "english": "fun, amusing",
+    "thai": "สนุก; น่าสนุก",
+    "thaiPhonetic": "สนุก",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“好玩儿”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"hǎowánr\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"สนุก\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-76",
+    "no": 76,
+    "hanzi": "号",
+    "pinyin": "hào",
+    "tones": [
+      4
+    ],
+    "partOfSpeech": "noun、classifier number",
+    "english": "; measure word for people, items",
+    "thai": "หมายเลข; ลักษณนามสําหรับคนหรือสิ่งของ",
+    "thaiPhonetic": "หมายเลข",
+    "category": "animals",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“号”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"hào\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"หมายเลข\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-77",
+    "no": 77,
+    "hanzi": "喝",
+    "pinyin": "hē",
+    "tones": [
+      1
+    ],
+    "partOfSpeech": "verb",
+    "english": "to drink",
+    "thai": "ดื่ม",
+    "thaiPhonetic": "ดื่ม",
+    "category": "food",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“喝”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"hē\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ดื่ม\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-78",
+    "no": 78,
+    "hanzi": "和",
+    "pinyin": "hé",
+    "tones": [
+      2
+    ],
+    "partOfSpeech": "preposition、conjunction",
+    "english": "and, with",
+    "thai": "และ; กับ",
+    "thaiPhonetic": "และ",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“和”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"hé\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"และ\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-79",
+    "no": 79,
+    "hanzi": "很",
+    "pinyin": "hěn",
+    "tones": [
+      3
+    ],
+    "partOfSpeech": "adverb",
+    "english": "very",
+    "thai": "มาก",
+    "thaiPhonetic": "มาก",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“很”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"hěn\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"มาก\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-80",
+    "no": 80,
+    "hanzi": "后",
+    "pinyin": "hòu",
+    "tones": [
+      4
+    ],
+    "partOfSpeech": "noun",
+    "english": "behind, later",
+    "thai": "ด้านหลัง; ภายหลัง",
+    "thaiPhonetic": "ด้านหลัง",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“后”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"hòu\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ด้านหลัง\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-81",
+    "no": 81,
+    "hanzi": "回",
+    "pinyin": "huí",
+    "tones": [
+      2
+    ],
+    "partOfSpeech": "verb、(classifier)",
+    "english": "to return; (measure word for times)",
+    "thai": "กลับ; ลักษณนามสําหรับจํานวนครั้ง",
+    "thaiPhonetic": "กลับ",
+    "category": "school",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“回”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"huí\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"กลับ\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-82",
+    "no": 82,
+    "hanzi": "会",
+    "pinyin": "huì",
+    "tones": [
+      4
+    ],
+    "partOfSpeech": "verb",
+    "english": "can, to be able to",
+    "thai": "สามารถ; ทําเป็น",
+    "thaiPhonetic": "สามารถ",
+    "category": "travel",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“会”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"huì\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"สามารถ\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-83",
+    "no": 83,
+    "hanzi": "火车",
+    "pinyin": "huǒchē",
+    "tones": [
+      1
+    ],
+    "partOfSpeech": "noun",
+    "english": "train",
+    "thai": "รถไฟ",
+    "thaiPhonetic": "รถไฟ",
+    "category": "nature",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“火车”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"huǒchē\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"รถไฟ\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-84",
+    "no": 84,
+    "hanzi": "鸡蛋",
+    "pinyin": "jīdàn",
+    "tones": [
+      1
+    ],
+    "partOfSpeech": "noun",
+    "english": "egg",
+    "thai": "ไข่ไก่",
+    "thaiPhonetic": "ไข่ไก่",
+    "category": "animals",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“鸡蛋”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"jīdàn\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ไข่ไก่\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-85",
+    "no": 85,
+    "hanzi": "几",
+    "pinyin": "jǐ",
+    "tones": [
+      3
+    ],
+    "partOfSpeech": "pronoun、number",
+    "english": "how many, a few",
+    "thai": "กี่; สองสาม; จํานวนเล็กน้อย",
+    "thaiPhonetic": "กี่",
+    "category": "numbers",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“几”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"jǐ\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"กี่\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-86",
+    "no": 86,
+    "hanzi": "家",
+    "pinyin": "jiā",
+    "tones": [
+      1
+    ],
+    "partOfSpeech": "noun、classifier、(suffix)",
+    "english": "home, family; measure word for families; (suffix indicating a person specializing in something)",
+    "thai": "บ้าน; ครอบครัว; ลักษณนามสําหรับครอบครัว; คําต่อท้ายที่หมายถึงผู้เชี่ยวชาญ",
+    "thaiPhonetic": "บ้าน",
+    "category": "animals",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“家”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"jiā\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"บ้าน\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-87",
+    "no": 87,
+    "hanzi": "家人",
+    "pinyin": "jiārén",
+    "tones": [
+      1
+    ],
+    "partOfSpeech": "noun",
+    "english": "family member",
+    "thai": "สมาชิกในครอบครัว",
+    "thaiPhonetic": "สมาชิกในครอบครัว",
+    "category": "family",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“家人”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"jiārén\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"สมาชิกในครอบครัว\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-88",
+    "no": 88,
+    "hanzi": "见",
+    "pinyin": "jiàn",
+    "tones": [
+      4
+    ],
+    "partOfSpeech": "verb",
+    "english": "to see",
+    "thai": "เห็น; พบ",
+    "thaiPhonetic": "เห็น",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“见”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"jiàn\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"เห็น\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-89",
+    "no": 89,
+    "hanzi": "件",
+    "pinyin": "jiàn",
+    "tones": [
+      4
+    ],
+    "partOfSpeech": "classifier measure word",
+    "english": "for items",
+    "thai": "ลักษณนามสําหรับสิ่งของหรือเรื่องราว",
+    "thaiPhonetic": "ลักษณนามสําหรับสิ่งของหรือเรื่องราว",
+    "category": "school",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“件”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"jiàn\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ลักษณนามสําหรับสิ่งของหรือเรื่องราว\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-90",
+    "no": 90,
+    "hanzi": "饺子",
+    "pinyin": "jiǎozi",
+    "tones": [
+      3
+    ],
+    "partOfSpeech": "noun",
+    "english": "dumpling",
+    "thai": "เกี๊ยว Page 3",
+    "thaiPhonetic": "เกี๊ยว Page 3",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“饺子”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"jiǎozi\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"เกี๊ยว Page 3\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-91",
+    "no": 91,
+    "hanzi": "叫",
+    "pinyin": "jiào",
+    "tones": [
+      4
+    ],
+    "partOfSpeech": "verb、(preposition)",
+    "english": "to be called, to call; to make; (by)",
+    "thai": "ชื่อว่า;เรียก; ทําให้;โดย",
+    "thaiPhonetic": "ชื่อว่า",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“叫”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"jiào\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ชื่อว่า\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-92",
+    "no": 92,
+    "hanzi": "姐姐",
+    "pinyin": "jiějie",
+    "tones": [
+      3
+    ],
+    "partOfSpeech": "noun",
+    "english": "older sister",
+    "thai": "พี่สาว",
+    "thaiPhonetic": "พี่สาว",
+    "category": "family",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“姐姐”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"jiějie\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"พี่สาว\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-93",
+    "no": 93,
+    "hanzi": "今年",
+    "pinyin": "jīnnián",
+    "tones": [
+      1
+    ],
+    "partOfSpeech": "noun",
+    "english": "this year",
+    "thai": "ปีนี้",
+    "thaiPhonetic": "ปีนี้",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“今年”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"jīnnián\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ปีนี้\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-94",
+    "no": 94,
+    "hanzi": "今天",
+    "pinyin": "jīntiān",
+    "tones": [
+      1
+    ],
+    "partOfSpeech": "noun",
+    "english": "today",
+    "thai": "วันนี้",
+    "thaiPhonetic": "วันนี้",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“今天”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"jīntiān\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"วันนี้\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-95",
+    "no": 95,
+    "hanzi": "九",
+    "pinyin": "jiǔ",
+    "tones": [
+      3
+    ],
+    "partOfSpeech": "number",
+    "english": "nine",
+    "thai": "เก้า",
+    "thaiPhonetic": "เก้า",
+    "category": "numbers",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“九”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"jiǔ\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"เก้า\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-96",
+    "no": 96,
+    "hanzi": "觉得",
+    "pinyin": "juéde",
+    "tones": [
+      2
+    ],
+    "partOfSpeech": "verb",
+    "english": "to feel, to think",
+    "thai": "รู้สึกว่า; คิดว่า",
+    "thaiPhonetic": "รู้สึกว่า",
+    "category": "emotions",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“觉得”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"juéde\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"รู้สึกว่า\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-97",
+    "no": 97,
+    "hanzi": "开",
+    "pinyin": "kāi",
+    "tones": [
+      1
+    ],
+    "partOfSpeech": "verb",
+    "english": "to open",
+    "thai": "เปิด",
+    "thaiPhonetic": "เปิด",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“开”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"kāi\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"เปิด\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-98",
+    "no": 98,
+    "hanzi": "开车",
+    "pinyin": "kāichē",
+    "tones": [
+      1
+    ],
+    "partOfSpeech": "verb",
+    "english": "to drive",
+    "thai": "ขับรถ",
+    "thaiPhonetic": "ขับรถ",
+    "category": "travel",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“开车”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"kāichē\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ขับรถ\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-99",
+    "no": 99,
+    "hanzi": "看",
+    "pinyin": "kàn",
+    "tones": [
+      4
+    ],
+    "partOfSpeech": "verb",
+    "english": "to see, to look",
+    "thai": "ดู ; มอง;เห็น",
+    "thaiPhonetic": "ดู",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“看”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"kàn\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ดู\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-100",
+    "no": 100,
+    "hanzi": "看病",
+    "pinyin": "kànbìng",
+    "tones": [
+      4
+    ],
+    "partOfSpeech": "verb",
+    "english": "to see a doctor",
+    "thai": "ไปพบแพทย์ ; ตรวจรักษาโรค",
+    "thaiPhonetic": "ไปพบแพทย์",
+    "category": "emotions",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“看病”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"kànbìng\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ไปพบแพทย์\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-101",
+    "no": 101,
+    "hanzi": "看见",
+    "pinyin": "kànjiàn",
+    "tones": [
+      4
+    ],
+    "partOfSpeech": "verb",
+    "english": "to see",
+    "thai": "มองเห็น",
+    "thaiPhonetic": "มองเห็น",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“看见”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"kànjiàn\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"มองเห็น\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-102",
+    "no": 102,
+    "hanzi": "可以",
+    "pinyin": "kěyǐ",
+    "tones": [
+      3
+    ],
+    "partOfSpeech": "verb、adjective",
+    "english": "can, may; okay, fine",
+    "thai": "สามารถ,ได้ ; ตกลง,ใช้ได้",
+    "thaiPhonetic": "สามารถ",
+    "category": "travel",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“可以”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"kěyǐ\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"สามารถ,ได้\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-103",
+    "no": 103,
+    "hanzi": "课",
+    "pinyin": "kè",
+    "tones": [
+      4
+    ],
+    "partOfSpeech": "noun",
+    "english": "class, lesson",
+    "thai": "คาบเรียน, บทเรียน",
+    "thaiPhonetic": "คาบเรียน",
+    "category": "family",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“课”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"kè\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"คาบเรียน, บทเรียน\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-104",
+    "no": 104,
+    "hanzi": "口",
+    "pinyin": "kǒu",
+    "tones": [
+      3
+    ],
+    "partOfSpeech": "noun、classifier",
+    "english": "mouth; measure word for family members, bites",
+    "thai": "ปาก; ลักษณนามสําหรับสมาชิกในครอบครัวและคํากัด",
+    "thaiPhonetic": "ปาก",
+    "category": "family",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“口”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"kǒu\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ปาก\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-105",
+    "no": 105,
+    "hanzi": "块",
+    "pinyin": "kuài",
+    "tones": [
+      4
+    ],
+    "partOfSpeech": "classifier measure word",
+    "english": "for pieces, chunks, money",
+    "thai": "ลักษณนามสําหรับก้อนหรือชิ้น; หน่วยเงินหยวนในภาษาพูด",
+    "thaiPhonetic": "ลักษณนามสําหรับก้อนหรือชิ้น",
+    "category": "school",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“块”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"kuài\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ลักษณนามสําหรับก้อนหรือชิ้น\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-106",
+    "no": 106,
+    "hanzi": "来",
+    "pinyin": "lái",
+    "tones": [
+      2
+    ],
+    "partOfSpeech": "verb",
+    "english": "to come",
+    "thai": "มา",
+    "thaiPhonetic": "มา",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“来”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"lái\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"มา\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-107",
+    "no": 107,
+    "hanzi": "老师",
+    "pinyin": "lǎoshī",
+    "tones": [
+      1
+    ],
+    "partOfSpeech": "noun",
+    "english": "teacher",
+    "thai": "ครู, อาจารย์",
+    "thaiPhonetic": "ครู",
+    "category": "food",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“老师”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"lǎoshī\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ครู, อาจารย์\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-108",
+    "no": 108,
+    "hanzi": "了",
+    "pinyin": "le",
+    "tones": [
+      0
+    ],
+    "partOfSpeech": "auxiliary particle",
+    "english": "indicating completed action or change of state",
+    "thai": "คําช่วยแสดงการกระทําที่เสร็จสิ้นหรือการเปลี่ยนแปลงสถานะ",
+    "thaiPhonetic": "คําช่วยแสดงการกระทําที่เสร็จสิ้นหรือการเปลี่ยนแปลงสถานะ",
+    "category": "animals",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“了”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"le\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"คําช่วยแสดงการกระทําที่เสร็จสิ้นหรือการเปลี่ยนแปลงสถานะ\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-109",
+    "no": 109,
+    "hanzi": "冷",
+    "pinyin": "lěng",
+    "tones": [
+      3
+    ],
+    "partOfSpeech": "adjective",
+    "english": "cold",
+    "thai": "หนาว,เย็น",
+    "thaiPhonetic": "หนาว",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“冷”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"lěng\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"หนาว,เย็น\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-110",
+    "no": 110,
+    "hanzi": "里",
+    "pinyin": "lǐ",
+    "tones": [
+      3
+    ],
+    "partOfSpeech": "noun",
+    "english": "inside, in, mile",
+    "thai": "ข้างใน,ใน; ลี้ (หน่วยระยะทางจีน)",
+    "thaiPhonetic": "ข้างใน",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“里”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"lǐ\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ข้างใน,ใน\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-111",
+    "no": 111,
+    "hanzi": "两",
+    "pinyin": "liǎng",
+    "tones": [
+      3
+    ],
+    "partOfSpeech": "number",
+    "english": "two",
+    "thai": "สอง",
+    "thaiPhonetic": "สอง",
+    "category": "numbers",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“两”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"liǎng\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"สอง\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-112",
+    "no": 112,
+    "hanzi": "零",
+    "pinyin": "líng",
+    "tones": [
+      2
+    ],
+    "partOfSpeech": "number",
+    "english": "zero",
+    "thai": "ศูนย์",
+    "thaiPhonetic": "ศูนย์",
+    "category": "numbers",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“零”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"líng\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ศูนย์\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-113",
+    "no": 113,
+    "hanzi": "六",
+    "pinyin": "liù",
+    "tones": [
+      4
+    ],
+    "partOfSpeech": "number",
+    "english": "six",
+    "thai": "หก",
+    "thaiPhonetic": "หก",
+    "category": "numbers",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“六”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"liù\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"หก\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-114",
+    "no": 114,
+    "hanzi": "妈妈",
+    "pinyin": "māma",
+    "tones": [
+      1
+    ],
+    "partOfSpeech": "noun",
+    "english": "mom",
+    "thai": "แม่",
+    "thaiPhonetic": "แม่",
+    "category": "family",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“妈妈”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"māma\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"แม่\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-115",
+    "no": 115,
+    "hanzi": "吗",
+    "pinyin": "ma",
+    "tones": [
+      0
+    ],
+    "partOfSpeech": "auxiliary",
+    "english": "question particle",
+    "thai": "คําช่วยลงท้ายประโยคคําถาม",
+    "thaiPhonetic": "คําช่วยลงท้ายประโยคคําถาม",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“吗”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"ma\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"คําช่วยลงท้ายประโยคคําถาม\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-116",
+    "no": 116,
+    "hanzi": "买",
+    "pinyin": "mǎi",
+    "tones": [
+      3
+    ],
+    "partOfSpeech": "verb",
+    "english": "to buy",
+    "thai": "ซื้อ",
+    "thaiPhonetic": "ซื้อ",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“买”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"mǎi\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ซื้อ\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-117",
+    "no": 117,
+    "hanzi": "卖",
+    "pinyin": "mài",
+    "tones": [
+      4
+    ],
+    "partOfSpeech": "verb",
+    "english": "to sell",
+    "thai": "ขาย",
+    "thaiPhonetic": "ขาย",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“卖”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"mài\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ขาย\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-118",
+    "no": 118,
+    "hanzi": "忙",
+    "pinyin": "máng",
+    "tones": [
+      2
+    ],
+    "partOfSpeech": "adjective、verb",
+    "english": "busy; to be busy",
+    "thai": "ยุ่ง, มีธุระ",
+    "thaiPhonetic": "ยุ่ง",
+    "category": "travel",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“忙”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"máng\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ยุ่ง, มีธุระ\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-119",
+    "no": 119,
+    "hanzi": "猫",
+    "pinyin": "māo",
+    "tones": [
+      1
+    ],
+    "partOfSpeech": "noun",
+    "english": "cat",
+    "thai": "แมว",
+    "thaiPhonetic": "แมว",
+    "category": "animals",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“猫”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"māo\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"แมว\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-120",
+    "no": 120,
+    "hanzi": "没关系",
+    "pinyin": "méi guānxi",
+    "tones": [
+      2,
+      1
+    ],
+    "partOfSpeech": "—",
+    "english": "never mind, it’s okay",
+    "thai": "ไม่เป็นไร",
+    "thaiPhonetic": "ไม่เป็นไร",
+    "category": "emotions",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“没关系”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"méi guānxi\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ไม่เป็นไร\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-121",
+    "no": 121,
+    "hanzi": "没事",
+    "pinyin": "méi shì",
+    "tones": [
+      2,
+      4
+    ],
+    "partOfSpeech": "verb",
+    "english": "to have nothing to do, it doesn’t matter",
+    "thai": "ไม่มีอะไรทํา;ไม่เป็นไร",
+    "thaiPhonetic": "ไม่มีอะไรทํา",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“没事”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"méi shì\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ไม่มีอะไรทํา\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-122",
+    "no": 122,
+    "hanzi": "没有",
+    "pinyin": "méiyǒu",
+    "tones": [
+      2
+    ],
+    "partOfSpeech": "verb、adverb",
+    "english": "to not have; have not",
+    "thai": "ไม่มี,ไม่ได้มี Page 4",
+    "thaiPhonetic": "ไม่มี",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“没有”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"méiyǒu\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ไม่มี,ไม่ได้มี Page 4\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-123",
+    "no": 123,
+    "hanzi": "妹妹",
+    "pinyin": "mèimei",
+    "tones": [
+      4
+    ],
+    "partOfSpeech": "noun",
+    "english": "younger sister",
+    "thai": "น้องสาว",
+    "thaiPhonetic": "น้องสาว",
+    "category": "family",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“妹妹”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"mèimei\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"น้องสาว\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-124",
+    "no": 124,
+    "hanzi": "们",
+    "pinyin": "men",
+    "tones": [
+      0
+    ],
+    "partOfSpeech": "suffix",
+    "english": "plural suffix for pronouns and nouns",
+    "thai": "คําเติมท้ายเพื่อแสดงพหูพจน์ของสรรพนามและ คํานาม",
+    "thaiPhonetic": "คําเติมท้ายเพื่อแสดงพหูพจน์ของสรรพนามและ คํานาม",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“们”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"men\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"คําเติมท้ายเพื่อแสดงพหูพจน์ของสรรพนามและ คํานาม\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-125",
+    "no": 125,
+    "hanzi": "米饭",
+    "pinyin": "mǐfàn",
+    "tones": [
+      3
+    ],
+    "partOfSpeech": "noun",
+    "english": "cooked rice",
+    "thai": "ข้าวสวย",
+    "thaiPhonetic": "ข้าวสวย",
+    "category": "food",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“米饭”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"mǐfàn\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ข้าวสวย\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-126",
+    "no": 126,
+    "hanzi": "面包",
+    "pinyin": "miànbāo",
+    "tones": [
+      1
+    ],
+    "partOfSpeech": "noun",
+    "english": "bread",
+    "thai": "ขนมปัง",
+    "thaiPhonetic": "ขนมปัง",
+    "category": "food",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“面包”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"miànbāo\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ขนมปัง\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-127",
+    "no": 127,
+    "hanzi": "面条儿",
+    "pinyin": "miàntiáor",
+    "tones": [
+      2
+    ],
+    "partOfSpeech": "noun",
+    "english": "noodles",
+    "thai": "บะหมี่,เส้นก๋วยเตี๋ยว",
+    "thaiPhonetic": "บะหมี่",
+    "category": "animals",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“面条儿”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"miàntiáor\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"บะหมี่,เส้นก๋วยเตี๋ยว\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-128",
+    "no": 128,
+    "hanzi": "明年",
+    "pinyin": "míngnián",
+    "tones": [
+      2
+    ],
+    "partOfSpeech": "noun",
+    "english": "next year",
+    "thai": "ปีหน้า",
+    "thaiPhonetic": "ปีหน้า",
+    "category": "family",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“明年”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"míngnián\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ปีหน้า\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-129",
+    "no": 129,
+    "hanzi": "明天",
+    "pinyin": "míngtiān",
+    "tones": [
+      1
+    ],
+    "partOfSpeech": "noun",
+    "english": "tomorrow",
+    "thai": "พรุ่งนี้",
+    "thaiPhonetic": "พรุ่งนี้",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“明天”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"míngtiān\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"พรุ่งนี้\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-130",
+    "no": 130,
+    "hanzi": "名字",
+    "pinyin": "míngzi",
+    "tones": [
+      2
+    ],
+    "partOfSpeech": "noun",
+    "english": "name",
+    "thai": "ชื่อ",
+    "thaiPhonetic": "ชื่อ",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“名字”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"míngzi\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ชื่อ\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-131",
+    "no": 131,
+    "hanzi": "哪",
+    "pinyin": "nǎ",
+    "tones": [
+      3
+    ],
+    "partOfSpeech": "pronoun",
+    "english": "which",
+    "thai": "ไหน, อันไหน",
+    "thaiPhonetic": "ไหน",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“哪”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"nǎ\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ไหน, อันไหน\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-132",
+    "no": 132,
+    "hanzi": "哪个",
+    "pinyin": "nǎge",
+    "tones": [
+      3
+    ],
+    "partOfSpeech": "pronoun",
+    "english": "which one",
+    "thai": "อันไหน, คนไหน",
+    "thaiPhonetic": "อันไหน",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“哪个”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"nǎge\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"อันไหน, คนไหน\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-133",
+    "no": 133,
+    "hanzi": "哪里",
+    "pinyin": "nǎlǐ",
+    "tones": [
+      3
+    ],
+    "partOfSpeech": "pronoun",
+    "english": "where",
+    "thai": "ที่ไหน",
+    "thaiPhonetic": "ที่ไหน",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“哪里”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"nǎlǐ\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ที่ไหน\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-134",
+    "no": 134,
+    "hanzi": "哪儿",
+    "pinyin": "nǎr",
+    "tones": [
+      3
+    ],
+    "partOfSpeech": "pronoun",
+    "english": "where",
+    "thai": "ที่ไหน",
+    "thaiPhonetic": "ที่ไหน",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“哪儿”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"nǎr\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ที่ไหน\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-135",
+    "no": 135,
+    "hanzi": "哪些",
+    "pinyin": "nǎxiē",
+    "tones": [
+      1
+    ],
+    "partOfSpeech": "pronoun",
+    "english": "which ones",
+    "thai": "อันไหนบ้าง, สิ่งไหนบ้าง",
+    "thaiPhonetic": "อันไหนบ้าง",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“哪些”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"nǎxiē\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"อันไหนบ้าง, สิ่งไหนบ้าง\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-136",
+    "no": 136,
+    "hanzi": "那",
+    "pinyin": "nà",
+    "tones": [
+      4
+    ],
+    "partOfSpeech": "pronoun、conjunction",
+    "english": "that; (then)",
+    "thai": "นั่น, นั้น; ถ้าเช่นนั้น,แล้ว",
+    "thaiPhonetic": "นั่น",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“那”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"nà\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"นั่น, นั้น\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-137",
+    "no": 137,
+    "hanzi": "那边",
+    "pinyin": "nàbiān",
+    "tones": [
+      1
+    ],
+    "partOfSpeech": "pronoun",
+    "english": "over there",
+    "thai": "ทางโน้น, ตรงโน้น",
+    "thaiPhonetic": "ทางโน้น",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“那边”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"nàbiān\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ทางโน้น, ตรงโน้น\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-138",
+    "no": 138,
+    "hanzi": "那个",
+    "pinyin": "nàge",
+    "tones": [
+      4
+    ],
+    "partOfSpeech": "pronoun",
+    "english": "that one",
+    "thai": "อันนั้น, คนนั้น",
+    "thaiPhonetic": "อันนั้น",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“那个”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"nàge\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"อันนั้น, คนนั้น\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-139",
+    "no": 139,
+    "hanzi": "那里",
+    "pinyin": "nàlǐ",
+    "tones": [
+      3
+    ],
+    "partOfSpeech": "pronoun",
+    "english": "there",
+    "thai": "ที่นั่น",
+    "thaiPhonetic": "ที่นั่น",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“那里”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"nàlǐ\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ที่นั่น\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-140",
+    "no": 140,
+    "hanzi": "那儿",
+    "pinyin": "nàr",
+    "tones": [
+      4
+    ],
+    "partOfSpeech": "pronoun",
+    "english": "there",
+    "thai": "ที่นั่น",
+    "thaiPhonetic": "ที่นั่น",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“那儿”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"nàr\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ที่นั่น\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-141",
+    "no": 141,
+    "hanzi": "那些",
+    "pinyin": "nàxiē",
+    "tones": [
+      1
+    ],
+    "partOfSpeech": "pronoun",
+    "english": "those",
+    "thai": "เหล่านั้น",
+    "thaiPhonetic": "เหล่านั้น",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“那些”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"nàxiē\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"เหล่านั้น\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-142",
+    "no": 142,
+    "hanzi": "男",
+    "pinyin": "nán",
+    "tones": [
+      2
+    ],
+    "partOfSpeech": "adjective",
+    "english": "male",
+    "thai": "เพศชาย, ผู้ชาย",
+    "thaiPhonetic": "เพศชาย",
+    "category": "food",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“男”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"nán\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"เพศชาย, ผู้ชาย\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-143",
+    "no": 143,
+    "hanzi": "男朋友",
+    "pinyin": "nánpéngyou",
+    "tones": [
+      2
+    ],
+    "partOfSpeech": "noun",
+    "english": "boyfriend",
+    "thai": "แฟนหนุ่ม,แฟนผู้ชาย",
+    "thaiPhonetic": "แฟนหนุ่ม",
+    "category": "food",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“男朋友”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"nánpéngyou\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"แฟนหนุ่ม,แฟนผู้ชาย\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-144",
+    "no": 144,
+    "hanzi": "呢",
+    "pinyin": "ne",
+    "tones": [
+      0
+    ],
+    "partOfSpeech": "auxiliary",
+    "english": "question or continuation particle",
+    "thai": "คําช่วยใช้ในคําถามหรือแสดงการต่อเนื่องของ บทสนทนา",
+    "thaiPhonetic": "คําช่วยใช้ในคําถามหรือแสดงการต่อเนื่องของ บทสนทนา",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“呢”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"ne\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"คําช่วยใช้ในคําถามหรือแสดงการต่อเนื่องของ บทสนทนา\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-145",
+    "no": 145,
+    "hanzi": "能",
+    "pinyin": "néng",
+    "tones": [
+      2
+    ],
+    "partOfSpeech": "verb",
+    "english": "can, be able to",
+    "thai": "สามารถ, ทําได้",
+    "thaiPhonetic": "สามารถ",
+    "category": "travel",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“能”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"néng\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"สามารถ, ทําได้\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-146",
+    "no": 146,
+    "hanzi": "你",
+    "pinyin": "nǐ",
+    "tones": [
+      3
+    ],
+    "partOfSpeech": "pronoun",
+    "english": "you",
+    "thai": "คุณ,เธอ",
+    "thaiPhonetic": "คุณ",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“你”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"nǐ\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"คุณ,เธอ\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-147",
+    "no": 147,
+    "hanzi": "你好",
+    "pinyin": "nǐ hǎo",
+    "tones": [
+      3,
+      3
+    ],
+    "partOfSpeech": "—",
+    "english": "hello",
+    "thai": "สวัสดี",
+    "thaiPhonetic": "สวัสดี",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“你好”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"nǐ hǎo\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"สวัสดี\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-148",
+    "no": 148,
+    "hanzi": "你们",
+    "pinyin": "nǐmen",
+    "tones": [
+      3
+    ],
+    "partOfSpeech": "pronoun",
+    "english": "you plural",
+    "thai": "พวกคุณ, พวกเธอ",
+    "thaiPhonetic": "พวกคุณ",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“你们”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"nǐmen\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"พวกคุณ, พวกเธอ\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-149",
+    "no": 149,
+    "hanzi": "年",
+    "pinyin": "nián",
+    "tones": [
+      2
+    ],
+    "partOfSpeech": "noun、classifier",
+    "english": "year; measure word for years",
+    "thai": "ปี; ลักษณนามสําหรับปี",
+    "thaiPhonetic": "ปี",
+    "category": "school",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“年”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"nián\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ปี\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-150",
+    "no": 150,
+    "hanzi": "您",
+    "pinyin": "nín",
+    "tones": [
+      2
+    ],
+    "partOfSpeech": "pronoun",
+    "english": "you",
+    "thai": "คุณ (คําสุภาพ)",
+    "thaiPhonetic": "คุณ (คําสุภาพ)",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“您”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"nín\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"คุณ (คําสุภาพ)\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-151",
+    "no": 151,
+    "hanzi": "牛奶",
+    "pinyin": "niúnǎi",
+    "tones": [
+      2
+    ],
+    "partOfSpeech": "noun",
+    "english": "milk",
+    "thai": "นมวัว",
+    "thaiPhonetic": "นมวัว",
+    "category": "animals",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“牛奶”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"niúnǎi\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"นมวัว\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-152",
+    "no": 152,
+    "hanzi": "女",
+    "pinyin": "nǚ",
+    "tones": [
+      3
+    ],
+    "partOfSpeech": "adjective",
+    "english": "female",
+    "thai": "เพศหญิง, ผู้หญิง",
+    "thaiPhonetic": "เพศหญิง",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“女”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"nǚ\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"เพศหญิง, ผู้หญิง\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-153",
+    "no": 153,
+    "hanzi": "女儿",
+    "pinyin": "nǚ’ér",
+    "tones": [
+      3,
+      2
+    ],
+    "partOfSpeech": "noun",
+    "english": "daughter",
+    "thai": "ลูกสาว",
+    "thaiPhonetic": "ลูกสาว",
+    "category": "family",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“女儿”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"nǚ’ér\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ลูกสาว\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-154",
+    "no": 154,
+    "hanzi": "女朋友",
+    "pinyin": "nǚpéngyou",
+    "tones": [
+      2
+    ],
+    "partOfSpeech": "noun",
+    "english": "girlfriend",
+    "thai": "แฟนสาว,แฟนผู้หญิง Page 5",
+    "thaiPhonetic": "แฟนสาว",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“女朋友”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"nǚpéngyou\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"แฟนสาว,แฟนผู้หญิง Page 5\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-155",
+    "no": 155,
+    "hanzi": "女士",
+    "pinyin": "nǚshì",
+    "tones": [
+      3
+    ],
+    "partOfSpeech": "noun",
+    "english": "lady, Ms.",
+    "thai": "สุภาพสตรี, คุณผู้หญิง",
+    "thaiPhonetic": "สุภาพสตรี",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“女士”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"nǚshì\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"สุภาพสตรี, คุณผู้หญิง\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-156",
+    "no": 156,
+    "hanzi": "朋友",
+    "pinyin": "péngyou",
+    "tones": [
+      2
+    ],
+    "partOfSpeech": "noun",
+    "english": "friend",
+    "thai": "เพื่อน",
+    "thaiPhonetic": "เพื่อน",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“朋友”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"péngyou\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"เพื่อน\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-157",
+    "no": 157,
+    "hanzi": "便宜",
+    "pinyin": "piányi",
+    "tones": [
+      2
+    ],
+    "partOfSpeech": "adjective",
+    "english": "cheap",
+    "thai": "ราคาถูก",
+    "thaiPhonetic": "ราคาถูก",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“便宜”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"piányi\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ราคาถูก\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-158",
+    "no": 158,
+    "hanzi": "漂亮",
+    "pinyin": "piàoliang",
+    "tones": [
+      4
+    ],
+    "partOfSpeech": "adjective",
+    "english": "beautiful",
+    "thai": "สวย, งดงาม",
+    "thaiPhonetic": "สวย",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“漂亮”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"piàoliang\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"สวย, งดงาม\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-159",
+    "no": 159,
+    "hanzi": "苹果",
+    "pinyin": "píngguǒ",
+    "tones": [
+      2
+    ],
+    "partOfSpeech": "noun",
+    "english": "apple",
+    "thai": "แอปเปิล",
+    "thaiPhonetic": "แอปเปิล",
+    "category": "food",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“苹果”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"píngguǒ\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"แอปเปิล\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-160",
+    "no": 160,
+    "hanzi": "七",
+    "pinyin": "qī",
+    "tones": [
+      1
+    ],
+    "partOfSpeech": "number",
+    "english": "seven",
+    "thai": "เจ็ด",
+    "thaiPhonetic": "เจ็ด",
+    "category": "numbers",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“七”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"qī\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"เจ็ด\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-161",
+    "no": 161,
+    "hanzi": "起床",
+    "pinyin": "qǐchuáng",
+    "tones": [
+      2
+    ],
+    "partOfSpeech": "verb",
+    "english": "to get up",
+    "thai": "ลุกจากเตียง, ตื่นนอน",
+    "thaiPhonetic": "ลุกจากเตียง",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“起床”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"qǐchuáng\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ลุกจากเตียง, ตื่นนอน\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-162",
+    "no": 162,
+    "hanzi": "千",
+    "pinyin": "qiān",
+    "tones": [
+      1
+    ],
+    "partOfSpeech": "number",
+    "english": "thousand",
+    "thai": "หนึ่งพัน",
+    "thaiPhonetic": "หนึ่งพัน",
+    "category": "numbers",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“千”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"qiān\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"หนึ่งพัน\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-163",
+    "no": 163,
+    "hanzi": "前",
+    "pinyin": "qián",
+    "tones": [
+      2
+    ],
+    "partOfSpeech": "noun",
+    "english": "front, before",
+    "thai": "ด้านหน้า, ก่อน",
+    "thaiPhonetic": "ด้านหน้า",
+    "category": "family",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“前”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"qián\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ด้านหน้า, ก่อน\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-164",
+    "no": 164,
+    "hanzi": "钱",
+    "pinyin": "qián",
+    "tones": [
+      2
+    ],
+    "partOfSpeech": "noun",
+    "english": "money",
+    "thai": "เงิน",
+    "thaiPhonetic": "เงิน",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“钱”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"qián\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"เงิน\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-165",
+    "no": 165,
+    "hanzi": "请",
+    "pinyin": "qǐng",
+    "tones": [
+      3
+    ],
+    "partOfSpeech": "verb",
+    "english": "please",
+    "thai": "กรุณา,เชิญ",
+    "thaiPhonetic": "กรุณา",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“请”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"qǐng\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"กรุณา,เชิญ\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-166",
+    "no": 166,
+    "hanzi": "请问",
+    "pinyin": "qǐngwèn",
+    "tones": [
+      3
+    ],
+    "partOfSpeech": "verb",
+    "english": "may I ask",
+    "thai": "ขออนุญาตถาม",
+    "thaiPhonetic": "ขออนุญาตถาม",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“请问”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"qǐngwèn\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ขออนุญาตถาม\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-167",
+    "no": 167,
+    "hanzi": "去",
+    "pinyin": "qù",
+    "tones": [
+      4
+    ],
+    "partOfSpeech": "verb",
+    "english": "to go",
+    "thai": "ไป",
+    "thaiPhonetic": "ไป",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“去”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"qù\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ไป\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-168",
+    "no": 168,
+    "hanzi": "去年",
+    "pinyin": "qùnián",
+    "tones": [
+      2
+    ],
+    "partOfSpeech": "noun",
+    "english": "last year",
+    "thai": "ปีที่แล้ว",
+    "thaiPhonetic": "ปีที่แล้ว",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“去年”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"qùnián\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ปีที่แล้ว\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-169",
+    "no": 169,
+    "hanzi": "热",
+    "pinyin": "rè",
+    "tones": [
+      4
+    ],
+    "partOfSpeech": "adjective",
+    "english": "hot",
+    "thai": "ร้อน",
+    "thaiPhonetic": "ร้อน",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“热”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"rè\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ร้อน\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-170",
+    "no": 170,
+    "hanzi": "人",
+    "pinyin": "rén",
+    "tones": [
+      2
+    ],
+    "partOfSpeech": "noun",
+    "english": "person",
+    "thai": "คน",
+    "thaiPhonetic": "คน",
+    "category": "family",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“人”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"rén\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"คน\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-171",
+    "no": 171,
+    "hanzi": "认识",
+    "pinyin": "rènshi",
+    "tones": [
+      4
+    ],
+    "partOfSpeech": "verb",
+    "english": "to know, to recognize",
+    "thai": "รู้จัก, จําได้",
+    "thaiPhonetic": "รู้จัก",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“认识”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"rènshi\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"รู้จัก, จําได้\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-172",
+    "no": 172,
+    "hanzi": "日",
+    "pinyin": "rì",
+    "tones": [
+      4
+    ],
+    "partOfSpeech": "classifier、noun measure word",
+    "english": "for days; (sun)",
+    "thai": "ลักษณนามสําหรับวัน; ดวงอาทิตย์",
+    "thaiPhonetic": "ลักษณนามสําหรับวัน",
+    "category": "family",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“日”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"rì\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ลักษณนามสําหรับวัน\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-173",
+    "no": 173,
+    "hanzi": "三",
+    "pinyin": "sān",
+    "tones": [
+      1
+    ],
+    "partOfSpeech": "number",
+    "english": "three",
+    "thai": "สาม",
+    "thaiPhonetic": "สาม",
+    "category": "numbers",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“三”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"sān\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"สาม\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-174",
+    "no": 174,
+    "hanzi": "商店",
+    "pinyin": "shāngdiàn",
+    "tones": [
+      1
+    ],
+    "partOfSpeech": "noun",
+    "english": "store, shop",
+    "thai": "ร้านค้า, ร้านขายของ",
+    "thaiPhonetic": "ร้านค้า",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“商店”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"shāngdiàn\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ร้านค้า, ร้านขายของ\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-175",
+    "no": 175,
+    "hanzi": "上",
+    "pinyin": "shàng",
+    "tones": [
+      4
+    ],
+    "partOfSpeech": "noun、verb",
+    "english": "up, above; to go up",
+    "thai": "ด้านบน, ข้างบน; ขึ้น",
+    "thaiPhonetic": "ด้านบน",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“上”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"shàng\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ด้านบน, ข้างบน\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-176",
+    "no": 176,
+    "hanzi": "上班",
+    "pinyin": "shàngbān",
+    "tones": [
+      1
+    ],
+    "partOfSpeech": "verb",
+    "english": "to go to work",
+    "thai": "ไปทํางาน,เข้างาน",
+    "thaiPhonetic": "ไปทํางาน",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“上班”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"shàngbān\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ไปทํางาน,เข้างาน\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-177",
+    "no": 177,
+    "hanzi": "上课",
+    "pinyin": "shàngkè",
+    "tones": [
+      4
+    ],
+    "partOfSpeech": "verb",
+    "english": "to attend class",
+    "thai": "เข้าเรียน,เริ่มเรียน",
+    "thaiPhonetic": "เข้าเรียน",
+    "category": "school",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“上课”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"shàngkè\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"เข้าเรียน,เริ่มเรียน\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-178",
+    "no": 178,
+    "hanzi": "上午",
+    "pinyin": "shàngwǔ",
+    "tones": [
+      3
+    ],
+    "partOfSpeech": "noun",
+    "english": "morning",
+    "thai": "ช่วงเช้า",
+    "thaiPhonetic": "ช่วงเช้า",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“上午”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"shàngwǔ\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ช่วงเช้า\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-179",
+    "no": 179,
+    "hanzi": "上学",
+    "pinyin": "shàngxué",
+    "tones": [
+      2
+    ],
+    "partOfSpeech": "verb",
+    "english": "to go to school",
+    "thai": "ไปโรงเรียน",
+    "thaiPhonetic": "ไปโรงเรียน",
+    "category": "school",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“上学”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"shàngxué\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ไปโรงเรียน\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-180",
+    "no": 180,
+    "hanzi": "少",
+    "pinyin": "shǎo",
+    "tones": [
+      3
+    ],
+    "partOfSpeech": "adjective、verb",
+    "english": "few, little; to lack",
+    "thai": "น้อย; ขาด, มีไม่พอ",
+    "thaiPhonetic": "น้อย",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“少”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"shǎo\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"น้อย\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-181",
+    "no": 181,
+    "hanzi": "谁",
+    "pinyin": "shéi / shuí",
+    "tones": [
+      2,
+      2
+    ],
+    "partOfSpeech": "pronoun",
+    "english": "who",
+    "thai": "ใคร",
+    "thaiPhonetic": "ใคร",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“谁”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"shéi / shuí\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ใคร\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-182",
+    "no": 182,
+    "hanzi": "什么",
+    "pinyin": "shénme",
+    "tones": [
+      2
+    ],
+    "partOfSpeech": "pronoun",
+    "english": "what",
+    "thai": "อะไร",
+    "thaiPhonetic": "อะไร",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“什么”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"shénme\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"อะไร\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-183",
+    "no": 183,
+    "hanzi": "生病",
+    "pinyin": "shēngbìng",
+    "tones": [
+      1
+    ],
+    "partOfSpeech": "verb",
+    "english": "to get sick",
+    "thai": "ป่วย,เจ็บป่วย",
+    "thaiPhonetic": "ป่วย",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“生病”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"shēngbìng\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ป่วย,เจ็บป่วย\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-184",
+    "no": 184,
+    "hanzi": "十",
+    "pinyin": "shí",
+    "tones": [
+      2
+    ],
+    "partOfSpeech": "number",
+    "english": "ten",
+    "thai": "สิบ",
+    "thaiPhonetic": "สิบ",
+    "category": "numbers",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“十”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"shí\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"สิบ\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-185",
+    "no": 185,
+    "hanzi": "时候",
+    "pinyin": "shíhou",
+    "tones": [
+      2
+    ],
+    "partOfSpeech": "noun",
+    "english": "moment, time",
+    "thai": "เวลา, ช่วงเวลา",
+    "thaiPhonetic": "เวลา",
+    "category": "family",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“时候”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"shíhou\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"เวลา, ช่วงเวลา\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-186",
+    "no": 186,
+    "hanzi": "时间",
+    "pinyin": "shíjiān",
+    "tones": [
+      1
+    ],
+    "partOfSpeech": "noun",
+    "english": "time",
+    "thai": "เวลา",
+    "thaiPhonetic": "เวลา",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“时间”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"shíjiān\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"เวลา\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-187",
+    "no": 187,
+    "hanzi": "事",
+    "pinyin": "shì",
+    "tones": [
+      4
+    ],
+    "partOfSpeech": "noun",
+    "english": "matter, thing",
+    "thai": "เรื่อง, สิ่ง, ธุระ",
+    "thaiPhonetic": "เรื่อง",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“事”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"shì\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"เรื่อง, สิ่ง, ธุระ\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-188",
+    "no": 188,
+    "hanzi": "是",
+    "pinyin": "shì",
+    "tones": [
+      4
+    ],
+    "partOfSpeech": "verb",
+    "english": "to be",
+    "thai": "เป็น, คือ,ใช่ Page 6",
+    "thaiPhonetic": "เป็น",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“是”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"shì\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"เป็น, คือ,ใช่ Page 6\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-189",
+    "no": 189,
+    "hanzi": "手机",
+    "pinyin": "shǒujī",
+    "tones": [
+      1
+    ],
+    "partOfSpeech": "noun",
+    "english": "cell phone",
+    "thai": "โทรศัพท์มือถือ",
+    "thaiPhonetic": "โทรศัพท์มือถือ",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“手机”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"shǒujī\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"โทรศัพท์มือถือ\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-190",
+    "no": 190,
+    "hanzi": "书",
+    "pinyin": "shū",
+    "tones": [
+      1
+    ],
+    "partOfSpeech": "noun",
+    "english": "book",
+    "thai": "หนังสือ",
+    "thaiPhonetic": "หนังสือ",
+    "category": "school",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“书”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"shū\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"หนังสือ\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-191",
+    "no": 191,
+    "hanzi": "书店",
+    "pinyin": "shūdiàn",
+    "tones": [
+      1
+    ],
+    "partOfSpeech": "noun",
+    "english": "bookstore",
+    "thai": "ร้านหนังสือ",
+    "thaiPhonetic": "ร้านหนังสือ",
+    "category": "school",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“书店”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"shūdiàn\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ร้านหนังสือ\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-192",
+    "no": 192,
+    "hanzi": "水",
+    "pinyin": "shuǐ",
+    "tones": [
+      3
+    ],
+    "partOfSpeech": "noun",
+    "english": "water",
+    "thai": "นํ้า",
+    "thaiPhonetic": "นํ้า",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“水”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"shuǐ\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"นํ้า\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-193",
+    "no": 193,
+    "hanzi": "水果",
+    "pinyin": "shuǐguǒ",
+    "tones": [
+      3
+    ],
+    "partOfSpeech": "noun",
+    "english": "fruit",
+    "thai": "ผลไม้",
+    "thaiPhonetic": "ผลไม้",
+    "category": "food",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“水果”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"shuǐguǒ\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ผลไม้\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-194",
+    "no": 194,
+    "hanzi": "睡",
+    "pinyin": "shuì",
+    "tones": [
+      4
+    ],
+    "partOfSpeech": "verb",
+    "english": "to sleep",
+    "thai": "นอน, หลับ",
+    "thaiPhonetic": "นอน",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“睡”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"shuì\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"นอน, หลับ\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-195",
+    "no": 195,
+    "hanzi": "睡觉",
+    "pinyin": "shuìjiào",
+    "tones": [
+      4
+    ],
+    "partOfSpeech": "verb",
+    "english": "to sleep",
+    "thai": "นอนหลับ",
+    "thaiPhonetic": "นอนหลับ",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“睡觉”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"shuìjiào\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"นอนหลับ\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-196",
+    "no": 196,
+    "hanzi": "说",
+    "pinyin": "shuō",
+    "tones": [
+      1
+    ],
+    "partOfSpeech": "verb",
+    "english": "to speak, to say",
+    "thai": "พูด, กล่าว",
+    "thaiPhonetic": "พูด",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“说”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"shuō\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"พูด, กล่าว\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-197",
+    "no": 197,
+    "hanzi": "说话",
+    "pinyin": "shuōhuà",
+    "tones": [
+      1
+    ],
+    "partOfSpeech": "verb",
+    "english": "to talk",
+    "thai": "พูด, สนทนา",
+    "thaiPhonetic": "พูด",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“说话”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"shuōhuà\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"พูด, สนทนา\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-198",
+    "no": 198,
+    "hanzi": "四",
+    "pinyin": "sì",
+    "tones": [
+      4
+    ],
+    "partOfSpeech": "number",
+    "english": "four",
+    "thai": "สี่",
+    "thaiPhonetic": "สี่",
+    "category": "numbers",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“四”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"sì\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"สี่\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-199",
+    "no": 199,
+    "hanzi": "岁",
+    "pinyin": "suì",
+    "tones": [
+      4
+    ],
+    "partOfSpeech": "classifier measure word",
+    "english": "for age",
+    "thai": "ลักษณนามบอกอายุ",
+    "thaiPhonetic": "ลักษณนามบอกอายุ",
+    "category": "family",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“岁”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"suì\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ลักษณนามบอกอายุ\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-200",
+    "no": 200,
+    "hanzi": "他",
+    "pinyin": "tā",
+    "tones": [
+      1
+    ],
+    "partOfSpeech": "pronoun",
+    "english": "he, him",
+    "thai": "เขา (ผู้ชาย)",
+    "thaiPhonetic": "เขา (ผู้ชาย)",
+    "category": "food",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“他”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"tā\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"เขา (ผู้ชาย)\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-201",
+    "no": 201,
+    "hanzi": "它",
+    "pinyin": "tā",
+    "tones": [
+      1
+    ],
+    "partOfSpeech": "pronoun",
+    "english": "it",
+    "thai": "มัน (ใช้กับสิ่งของหรือสัตว์)",
+    "thaiPhonetic": "มัน (ใช้กับสิ่งของหรือสัตว์)",
+    "category": "animals",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“它”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"tā\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"มัน (ใช้กับสิ่งของหรือสัตว์)\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-202",
+    "no": 202,
+    "hanzi": "她",
+    "pinyin": "tā",
+    "tones": [
+      1
+    ],
+    "partOfSpeech": "pronoun",
+    "english": "she",
+    "thai": "เธอ, หล่อน",
+    "thaiPhonetic": "เธอ",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“她”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"tā\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"เธอ, หล่อน\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-203",
+    "no": 203,
+    "hanzi": "他们",
+    "pinyin": "tāmen",
+    "tones": [
+      1
+    ],
+    "partOfSpeech": "pronoun",
+    "english": "they",
+    "thai": "พวกเขา (ผู้ชายหรือกลุ่มผสม)",
+    "thaiPhonetic": "พวกเขา (ผู้ชายหรือกลุ่มผสม)",
+    "category": "food",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“他们”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"tāmen\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"พวกเขา (ผู้ชายหรือกลุ่มผสม)\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-204",
+    "no": 204,
+    "hanzi": "它们",
+    "pinyin": "tāmen",
+    "tones": [
+      1
+    ],
+    "partOfSpeech": "pronoun",
+    "english": "they",
+    "thai": "พวกมัน (สิ่งของหรือสัตว์)",
+    "thaiPhonetic": "พวกมัน (สิ่งของหรือสัตว์)",
+    "category": "animals",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“它们”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"tāmen\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"พวกมัน (สิ่งของหรือสัตว์)\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-205",
+    "no": 205,
+    "hanzi": "她们",
+    "pinyin": "tāmen",
+    "tones": [
+      1
+    ],
+    "partOfSpeech": "pronoun",
+    "english": "they",
+    "thai": "พวกเธอ (ผู้หญิง)",
+    "thaiPhonetic": "พวกเธอ (ผู้หญิง)",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“她们”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"tāmen\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"พวกเธอ (ผู้หญิง)\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-206",
+    "no": 206,
+    "hanzi": "太",
+    "pinyin": "tài",
+    "tones": [
+      4
+    ],
+    "partOfSpeech": "adverb",
+    "english": "too, extremely",
+    "thai": "เกินไป, มาก",
+    "thaiPhonetic": "เกินไป",
+    "category": "food",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“太”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"tài\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"เกินไป, มาก\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-207",
+    "no": 207,
+    "hanzi": "天",
+    "pinyin": "tiān",
+    "tones": [
+      1
+    ],
+    "partOfSpeech": "noun、classifier",
+    "english": "day; measure word for days",
+    "thai": "วัน, ท้องฟ้า; ลักษณนามสําหรับวัน",
+    "thaiPhonetic": "วัน",
+    "category": "school",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“天”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"tiān\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"วัน, ท้องฟ้า\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-208",
+    "no": 208,
+    "hanzi": "天气",
+    "pinyin": "tiānqì",
+    "tones": [
+      1
+    ],
+    "partOfSpeech": "noun",
+    "english": "weather",
+    "thai": "สภาพอากาศ",
+    "thaiPhonetic": "สภาพอากาศ",
+    "category": "food",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“天气”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"tiānqì\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"สภาพอากาศ\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-209",
+    "no": 209,
+    "hanzi": "听",
+    "pinyin": "tīng",
+    "tones": [
+      1
+    ],
+    "partOfSpeech": "verb",
+    "english": "to listen",
+    "thai": "ฟัง",
+    "thaiPhonetic": "ฟัง",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“听”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"tīng\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ฟัง\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-210",
+    "no": 210,
+    "hanzi": "听见",
+    "pinyin": "tīngjiàn",
+    "tones": [
+      1
+    ],
+    "partOfSpeech": "verb",
+    "english": "to hear",
+    "thai": "ได้ยิน",
+    "thaiPhonetic": "ได้ยิน",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“听见”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"tīngjiàn\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ได้ยิน\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-211",
+    "no": 211,
+    "hanzi": "同学",
+    "pinyin": "tóngxué",
+    "tones": [
+      2
+    ],
+    "partOfSpeech": "noun",
+    "english": "classmate",
+    "thai": "เพื่อนร่วมชั้น",
+    "thaiPhonetic": "เพื่อนร่วมชั้น",
+    "category": "school",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“同学”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"tóngxué\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"เพื่อนร่วมชั้น\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-212",
+    "no": 212,
+    "hanzi": "外",
+    "pinyin": "wài",
+    "tones": [
+      4
+    ],
+    "partOfSpeech": "noun",
+    "english": "outside, exterior",
+    "thai": "ข้างนอก, ภายนอก",
+    "thaiPhonetic": "ข้างนอก",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“外”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"wài\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ข้างนอก, ภายนอก\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-213",
+    "no": 213,
+    "hanzi": "外边",
+    "pinyin": "wàibian",
+    "tones": [
+      4
+    ],
+    "partOfSpeech": "noun",
+    "english": "outside",
+    "thai": "ด้านนอก, ข้างนอก",
+    "thaiPhonetic": "ด้านนอก",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“外边”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"wàibian\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ด้านนอก, ข้างนอก\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-214",
+    "no": 214,
+    "hanzi": "玩",
+    "pinyin": "wán",
+    "tones": [
+      2
+    ],
+    "partOfSpeech": "verb",
+    "english": "to play",
+    "thai": "เล่น",
+    "thaiPhonetic": "เล่น",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“玩”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"wán\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"เล่น\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-215",
+    "no": 215,
+    "hanzi": "晚",
+    "pinyin": "wǎn",
+    "tones": [
+      3
+    ],
+    "partOfSpeech": "adjective",
+    "english": "late",
+    "thai": "สาย, ช้า, ดึก",
+    "thaiPhonetic": "สาย",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“晚”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"wǎn\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"สาย, ช้า, ดึก\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-216",
+    "no": 216,
+    "hanzi": "晚饭",
+    "pinyin": "wǎnfàn",
+    "tones": [
+      3
+    ],
+    "partOfSpeech": "noun",
+    "english": "dinner",
+    "thai": "อาหารเย็น",
+    "thaiPhonetic": "อาหารเย็น",
+    "category": "food",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“晚饭”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"wǎnfàn\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"อาหารเย็น\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-217",
+    "no": 217,
+    "hanzi": "晚上",
+    "pinyin": "wǎnshang",
+    "tones": [
+      3
+    ],
+    "partOfSpeech": "noun",
+    "english": "evening",
+    "thai": "ตอนเย็น, ตอนกลางคืน",
+    "thaiPhonetic": "ตอนเย็น",
+    "category": "animals",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“晚上”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"wǎnshang\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ตอนเย็น, ตอนกลางคืน\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-218",
+    "no": 218,
+    "hanzi": "喂",
+    "pinyin": "wèi",
+    "tones": [
+      4
+    ],
+    "partOfSpeech": "interjection",
+    "english": "hello used when answering the phone",
+    "thai": "ฮัลโหล (ใช้รับโทรศัพท์)",
+    "thaiPhonetic": "ฮัลโหล (ใช้รับโทรศัพท์)",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“喂”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"wèi\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ฮัลโหล (ใช้รับโทรศัพท์)\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-219",
+    "no": 219,
+    "hanzi": "问",
+    "pinyin": "wèn",
+    "tones": [
+      4
+    ],
+    "partOfSpeech": "verb",
+    "english": "to ask",
+    "thai": "ถาม",
+    "thaiPhonetic": "ถาม",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“问”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"wèn\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ถาม\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-220",
+    "no": 220,
+    "hanzi": "问题",
+    "pinyin": "wèntí",
+    "tones": [
+      2
+    ],
+    "partOfSpeech": "noun",
+    "english": "question",
+    "thai": "คําถาม, ปัญหา",
+    "thaiPhonetic": "คําถาม",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“问题”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"wèntí\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"คําถาม, ปัญหา\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-221",
+    "no": 221,
+    "hanzi": "我",
+    "pinyin": "wǒ",
+    "tones": [
+      3
+    ],
+    "partOfSpeech": "pronoun",
+    "english": "I",
+    "thai": "ฉัน, ผม",
+    "thaiPhonetic": "ฉัน",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“我”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"wǒ\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ฉัน, ผม\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-222",
+    "no": 222,
+    "hanzi": "我们",
+    "pinyin": "wǒmen",
+    "tones": [
+      3
+    ],
+    "partOfSpeech": "pronoun",
+    "english": "we",
+    "thai": "พวกเรา Page 7",
+    "thaiPhonetic": "พวกเรา Page 7",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“我们”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"wǒmen\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"พวกเรา Page 7\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-223",
+    "no": 223,
+    "hanzi": "五",
+    "pinyin": "wǔ",
+    "tones": [
+      3
+    ],
+    "partOfSpeech": "number",
+    "english": "five",
+    "thai": "ห้า",
+    "thaiPhonetic": "ห้า",
+    "category": "numbers",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“五”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"wǔ\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ห้า\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-224",
+    "no": 224,
+    "hanzi": "午饭",
+    "pinyin": "wǔfàn",
+    "tones": [
+      3
+    ],
+    "partOfSpeech": "noun",
+    "english": "lunch",
+    "thai": "อาหารกลางวัน",
+    "thaiPhonetic": "อาหารกลางวัน",
+    "category": "food",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“午饭”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"wǔfàn\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"อาหารกลางวัน\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-225",
+    "no": 225,
+    "hanzi": "喜欢",
+    "pinyin": "xǐhuan",
+    "tones": [
+      3
+    ],
+    "partOfSpeech": "verb",
+    "english": "to like",
+    "thai": "ชอบ",
+    "thaiPhonetic": "ชอบ",
+    "category": "emotions",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“喜欢”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"xǐhuan\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ชอบ\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-226",
+    "no": 226,
+    "hanzi": "下",
+    "pinyin": "xià",
+    "tones": [
+      4
+    ],
+    "partOfSpeech": "noun、verb、classifier",
+    "english": "down, below; to go down; measure word for times",
+    "thai": "ด้านล่าง, ข้างล่าง; ลง; ลักษณนามสําหรับ จํานวนครั้ง",
+    "thaiPhonetic": "ด้านล่าง",
+    "category": "school",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“下”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"xià\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ด้านล่าง, ข้างล่าง\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-227",
+    "no": 227,
+    "hanzi": "下雨",
+    "pinyin": "xiàyǔ",
+    "tones": [
+      3
+    ],
+    "partOfSpeech": "—",
+    "english": "to rain",
+    "thai": "ฝนตก",
+    "thaiPhonetic": "ฝนตก",
+    "category": "nature",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“下雨”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"xiàyǔ\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ฝนตก\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-228",
+    "no": 228,
+    "hanzi": "下班",
+    "pinyin": "xiàbān",
+    "tones": [
+      1
+    ],
+    "partOfSpeech": "verb",
+    "english": "to get off work",
+    "thai": "เลิกงาน",
+    "thaiPhonetic": "เลิกงาน",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“下班”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"xiàbān\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"เลิกงาน\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-229",
+    "no": 229,
+    "hanzi": "下课",
+    "pinyin": "xiàkè",
+    "tones": [
+      4
+    ],
+    "partOfSpeech": "verb",
+    "english": "to finish class",
+    "thai": "เลิกเรียน",
+    "thaiPhonetic": "เลิกเรียน",
+    "category": "school",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“下课”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"xiàkè\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"เลิกเรียน\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-230",
+    "no": 230,
+    "hanzi": "下午",
+    "pinyin": "xiàwǔ",
+    "tones": [
+      3
+    ],
+    "partOfSpeech": "noun",
+    "english": "afternoon",
+    "thai": "ตอนบ่าย",
+    "thaiPhonetic": "ตอนบ่าย",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“下午”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"xiàwǔ\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ตอนบ่าย\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-231",
+    "no": 231,
+    "hanzi": "先生",
+    "pinyin": "xiānsheng",
+    "tones": [
+      1
+    ],
+    "partOfSpeech": "noun",
+    "english": "Mr., husband",
+    "thai": "คุณผู้ชาย, นาย; สามี",
+    "thaiPhonetic": "คุณผู้ชาย",
+    "category": "food",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“先生”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"xiānsheng\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"คุณผู้ชาย, นาย\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-232",
+    "no": 232,
+    "hanzi": "现在",
+    "pinyin": "xiànzài",
+    "tones": [
+      4
+    ],
+    "partOfSpeech": "noun",
+    "english": "now",
+    "thai": "ตอนนี้, ขณะนี้",
+    "thaiPhonetic": "ตอนนี้",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“现在”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"xiànzài\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ตอนนี้, ขณะนี้\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-233",
+    "no": 233,
+    "hanzi": "想",
+    "pinyin": "xiǎng",
+    "tones": [
+      3
+    ],
+    "partOfSpeech": "verb",
+    "english": "to think; to want",
+    "thai": "คิด; อยาก, ต้องการ",
+    "thaiPhonetic": "คิด",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“想”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"xiǎng\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"คิด\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-234",
+    "no": 234,
+    "hanzi": "小",
+    "pinyin": "xiǎo",
+    "tones": [
+      3
+    ],
+    "partOfSpeech": "adjective、prefix",
+    "english": "small; prefix indicating small size or endearment",
+    "thai": "เล็ก; คํานําหน้าที่สื่อถึงความเล็กหรือความเอ็นดู",
+    "thaiPhonetic": "เล็ก",
+    "category": "animals",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“小”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"xiǎo\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"เล็ก\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-235",
+    "no": 235,
+    "hanzi": "小朋友",
+    "pinyin": "xiǎopéngyou",
+    "tones": [
+      2
+    ],
+    "partOfSpeech": "noun",
+    "english": "little friend, child",
+    "thai": "เด็ก, หนูน้อย",
+    "thaiPhonetic": "เด็ก",
+    "category": "family",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“小朋友”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"xiǎopéngyou\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"เด็ก, หนูน้อย\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-236",
+    "no": 236,
+    "hanzi": "小时",
+    "pinyin": "xiǎoshí",
+    "tones": [
+      2
+    ],
+    "partOfSpeech": "noun",
+    "english": "hour",
+    "thai": "ชั่วโมง",
+    "thaiPhonetic": "ชั่วโมง",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“小时”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"xiǎoshí\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ชั่วโมง\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-237",
+    "no": 237,
+    "hanzi": "小学",
+    "pinyin": "xiǎoxué",
+    "tones": [
+      2
+    ],
+    "partOfSpeech": "noun",
+    "english": "primary school",
+    "thai": "โรงเรียนประถม",
+    "thaiPhonetic": "โรงเรียนประถม",
+    "category": "school",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“小学”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"xiǎoxué\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"โรงเรียนประถม\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-238",
+    "no": 238,
+    "hanzi": "小学生",
+    "pinyin": "xiǎoxuéshēng",
+    "tones": [
+      1
+    ],
+    "partOfSpeech": "noun",
+    "english": "primary school student",
+    "thai": "นักเรียนประถม",
+    "thaiPhonetic": "นักเรียนประถม",
+    "category": "school",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“小学生”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"xiǎoxuéshēng\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"นักเรียนประถม\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-239",
+    "no": 239,
+    "hanzi": "些",
+    "pinyin": "xiē",
+    "tones": [
+      1
+    ],
+    "partOfSpeech": "classifier measure word",
+    "english": "for an indefinite amount",
+    "thai": "ลักษณนามบอกจํานวนบางส่วนหรือจํานวนที่ไม่แน่นอน",
+    "thaiPhonetic": "ลักษณนามบอกจํานวนบางส่วนหรือจํานวนที่ไม่แน่นอน",
+    "category": "school",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“些”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"xiē\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ลักษณนามบอกจํานวนบางส่วนหรือจํานวนที่ไม่แน่นอน\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-240",
+    "no": 240,
+    "hanzi": "写",
+    "pinyin": "xiě",
+    "tones": [
+      3
+    ],
+    "partOfSpeech": "verb",
+    "english": "to write",
+    "thai": "เขียน",
+    "thaiPhonetic": "เขียน",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“写”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"xiě\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"เขียน\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-241",
+    "no": 241,
+    "hanzi": "谢谢",
+    "pinyin": "xièxie",
+    "tones": [
+      4
+    ],
+    "partOfSpeech": "verb",
+    "english": "to thank",
+    "thai": "ขอบคุณ",
+    "thaiPhonetic": "ขอบคุณ",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“谢谢”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"xièxie\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ขอบคุณ\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-242",
+    "no": 242,
+    "hanzi": "新",
+    "pinyin": "xīn",
+    "tones": [
+      1
+    ],
+    "partOfSpeech": "adjective",
+    "english": "new",
+    "thai": "ใหม่",
+    "thaiPhonetic": "ใหม่",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“新”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"xīn\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ใหม่\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-243",
+    "no": 243,
+    "hanzi": "星期",
+    "pinyin": "xīngqī",
+    "tones": [
+      1
+    ],
+    "partOfSpeech": "noun",
+    "english": "week",
+    "thai": "สัปดาห์",
+    "thaiPhonetic": "สัปดาห์",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“星期”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"xīngqī\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"สัปดาห์\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-244",
+    "no": 244,
+    "hanzi": "星期日",
+    "pinyin": "xīngqīrì",
+    "tones": [
+      1
+    ],
+    "partOfSpeech": "noun",
+    "english": "Sunday",
+    "thai": "วันอาทิตย์",
+    "thaiPhonetic": "วันอาทิตย์",
+    "category": "family",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“星期日”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"xīngqīrì\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"วันอาทิตย์\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-245",
+    "no": 245,
+    "hanzi": "星期天",
+    "pinyin": "xīngqītiān",
+    "tones": [
+      1
+    ],
+    "partOfSpeech": "noun",
+    "english": "Sunday",
+    "thai": "วันอาทิตย์",
+    "thaiPhonetic": "วันอาทิตย์",
+    "category": "family",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“星期天”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"xīngqītiān\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"วันอาทิตย์\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-246",
+    "no": 246,
+    "hanzi": "休息",
+    "pinyin": "xiūxi",
+    "tones": [
+      1
+    ],
+    "partOfSpeech": "verb",
+    "english": "to rest",
+    "thai": "พักผ่อน, หยุดพัก",
+    "thaiPhonetic": "พักผ่อน",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“休息”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"xiūxi\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"พักผ่อน, หยุดพัก\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-247",
+    "no": 247,
+    "hanzi": "学",
+    "pinyin": "xué",
+    "tones": [
+      2
+    ],
+    "partOfSpeech": "verb",
+    "english": "to learn, to study",
+    "thai": "เรียน, ศึกษา",
+    "thaiPhonetic": "เรียน",
+    "category": "school",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“学”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"xué\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"เรียน, ศึกษา\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-248",
+    "no": 248,
+    "hanzi": "学生",
+    "pinyin": "xuésheng",
+    "tones": [
+      2
+    ],
+    "partOfSpeech": "noun",
+    "english": "student",
+    "thai": "นักเรียน, นักศึกษา",
+    "thaiPhonetic": "นักเรียน",
+    "category": "school",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“学生”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"xuésheng\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"นักเรียน, นักศึกษา\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-249",
+    "no": 249,
+    "hanzi": "学习",
+    "pinyin": "xuéxí",
+    "tones": [
+      2
+    ],
+    "partOfSpeech": "verb",
+    "english": "to study",
+    "thai": "เรียน, ศึกษา",
+    "thaiPhonetic": "เรียน",
+    "category": "school",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“学习”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"xuéxí\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"เรียน, ศึกษา\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-250",
+    "no": 250,
+    "hanzi": "学校",
+    "pinyin": "xuéxiào",
+    "tones": [
+      2
+    ],
+    "partOfSpeech": "noun",
+    "english": "school",
+    "thai": "โรงเรียน",
+    "thaiPhonetic": "โรงเรียน",
+    "category": "school",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“学校”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"xuéxiào\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"โรงเรียน\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-251",
+    "no": 251,
+    "hanzi": "雪",
+    "pinyin": "xuě",
+    "tones": [
+      3
+    ],
+    "partOfSpeech": "noun",
+    "english": "snow",
+    "thai": "หิมะ",
+    "thaiPhonetic": "หิมะ",
+    "category": "nature",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“雪”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"xuě\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"หิมะ\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-252",
+    "no": 252,
+    "hanzi": "要",
+    "pinyin": "yào",
+    "tones": [
+      4
+    ],
+    "partOfSpeech": "verb",
+    "english": "to want, to need",
+    "thai": "ต้องการ, อยาก, จําเป็นต้อง",
+    "thaiPhonetic": "ต้องการ",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“要”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"yào\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ต้องการ, อยาก, จําเป็นต้อง\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-253",
+    "no": 253,
+    "hanzi": "也",
+    "pinyin": "yě",
+    "tones": [
+      3
+    ],
+    "partOfSpeech": "adverb",
+    "english": "also, too",
+    "thai": "ก็, ด้วย,เช่นกัน",
+    "thaiPhonetic": "ก็",
+    "category": "animals",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“也”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"yě\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ก็, ด้วย,เช่นกัน\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-254",
+    "no": 254,
+    "hanzi": "一",
+    "pinyin": "yī",
+    "tones": [
+      1
+    ],
+    "partOfSpeech": "number",
+    "english": "one",
+    "thai": "หนึ่ง Page 8",
+    "thaiPhonetic": "หนึ่ง Page 8",
+    "category": "numbers",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“一”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"yī\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"หนึ่ง Page 8\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-255",
+    "no": 255,
+    "hanzi": "衣服",
+    "pinyin": "yīfu",
+    "tones": [
+      1
+    ],
+    "partOfSpeech": "noun",
+    "english": "clothes",
+    "thai": "เสื้อผ้า",
+    "thaiPhonetic": "เสื้อผ้า",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“衣服”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"yīfu\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"เสื้อผ้า\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-256",
+    "no": 256,
+    "hanzi": "医生",
+    "pinyin": "yīshēng",
+    "tones": [
+      1
+    ],
+    "partOfSpeech": "noun",
+    "english": "doctor",
+    "thai": "แพทย์ , หมอ",
+    "thaiPhonetic": "แพทย์",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“医生”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"yīshēng\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"แพทย์ , หมอ\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-257",
+    "no": 257,
+    "hanzi": "医院",
+    "pinyin": "yīyuàn",
+    "tones": [
+      1
+    ],
+    "partOfSpeech": "noun",
+    "english": "hospital",
+    "thai": "โรงพยาบาล",
+    "thaiPhonetic": "โรงพยาบาล",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“医院”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"yīyuàn\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"โรงพยาบาล\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-258",
+    "no": 258,
+    "hanzi": "一半",
+    "pinyin": "yíbàn",
+    "tones": [
+      2
+    ],
+    "partOfSpeech": "number",
+    "english": "half",
+    "thai": "ครึ่งหนึ่ง",
+    "thaiPhonetic": "ครึ่งหนึ่ง",
+    "category": "numbers",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“一半”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"yíbàn\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ครึ่งหนึ่ง\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-259",
+    "no": 259,
+    "hanzi": "一下",
+    "pinyin": "yíxià",
+    "tones": [
+      2
+    ],
+    "partOfSpeech": "number",
+    "english": "-classifier、adverb once, a little; in a short while",
+    "thai": "สักครั้ง, สักหน่อย;ในอีกสักครู่",
+    "thaiPhonetic": "สักครั้ง",
+    "category": "school",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“一下”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"yíxià\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"สักครั้ง, สักหน่อย\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-260",
+    "no": 260,
+    "hanzi": "椅子",
+    "pinyin": "yǐzi",
+    "tones": [
+      3
+    ],
+    "partOfSpeech": "noun",
+    "english": "chair",
+    "thai": "เก้าอี้",
+    "thaiPhonetic": "เก้าอี้",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“椅子”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"yǐzi\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"เก้าอี้\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-261",
+    "no": 261,
+    "hanzi": "一点儿",
+    "pinyin": "yìdiǎnr",
+    "tones": [
+      3
+    ],
+    "partOfSpeech": "number",
+    "english": "-classifier a little, a bit",
+    "thai": "เล็กน้อย, นิดหน่อย",
+    "thaiPhonetic": "เล็กน้อย",
+    "category": "school",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“一点儿”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"yìdiǎnr\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"เล็กน้อย, นิดหน่อย\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-262",
+    "no": 262,
+    "hanzi": "一些",
+    "pinyin": "yìxiē",
+    "tones": [
+      1
+    ],
+    "partOfSpeech": "number",
+    "english": "-classifier some, a few",
+    "thai": "บางส่วน,เล็กน้อย, สองสาม",
+    "thaiPhonetic": "บางส่วน",
+    "category": "school",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“一些”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"yìxiē\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"บางส่วน,เล็กน้อย, สองสาม\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-263",
+    "no": 263,
+    "hanzi": "有",
+    "pinyin": "yǒu",
+    "tones": [
+      3
+    ],
+    "partOfSpeech": "verb",
+    "english": "to have, to exist",
+    "thai": "มี, อยู่",
+    "thaiPhonetic": "มี",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“有”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"yǒu\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"มี, อยู่\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-264",
+    "no": 264,
+    "hanzi": "有的",
+    "pinyin": "yǒude",
+    "tones": [
+      3
+    ],
+    "partOfSpeech": "pronoun",
+    "english": "some of them",
+    "thai": "บางคน, บางสิ่ง",
+    "thaiPhonetic": "บางคน",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“有的”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"yǒude\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"บางคน, บางสิ่ง\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-265",
+    "no": 265,
+    "hanzi": "有点儿",
+    "pinyin": "yǒudiǎnr",
+    "tones": [
+      3
+    ],
+    "partOfSpeech": "adverb",
+    "english": "a little, slightly",
+    "thai": "เล็กน้อย, ค่อนข้าง",
+    "thaiPhonetic": "เล็กน้อย",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“有点儿”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"yǒudiǎnr\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"เล็กน้อย, ค่อนข้าง\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-266",
+    "no": 266,
+    "hanzi": "有些",
+    "pinyin": "yǒuxiē",
+    "tones": [
+      1
+    ],
+    "partOfSpeech": "pronoun、adverb",
+    "english": "some, some of; somewhat, rather",
+    "thai": "บางส่วน, บางคน; ค่อนข้าง, ออกจะ",
+    "thaiPhonetic": "บางส่วน",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“有些”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"yǒuxiē\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"บางส่วน, บางคน\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-267",
+    "no": 267,
+    "hanzi": "雨",
+    "pinyin": "yǔ",
+    "tones": [
+      3
+    ],
+    "partOfSpeech": "noun",
+    "english": "rain",
+    "thai": "ฝน",
+    "thaiPhonetic": "ฝน",
+    "category": "nature",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“雨”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"yǔ\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ฝน\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-268",
+    "no": 268,
+    "hanzi": "元",
+    "pinyin": "yuán",
+    "tones": [
+      2
+    ],
+    "partOfSpeech": "classifier",
+    "english": "yuan",
+    "thai": "หยวน (หน่วยเงินจีน)",
+    "thaiPhonetic": "หยวน (หน่วยเงินจีน)",
+    "category": "school",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“元”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"yuán\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"หยวน (หน่วยเงินจีน)\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-269",
+    "no": 269,
+    "hanzi": "月",
+    "pinyin": "yuè",
+    "tones": [
+      4
+    ],
+    "partOfSpeech": "noun",
+    "english": "month; moon",
+    "thai": "เดือน; ดวงจันทร์",
+    "thaiPhonetic": "เดือน",
+    "category": "nature",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“月”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"yuè\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"เดือน\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-270",
+    "no": 270,
+    "hanzi": "再",
+    "pinyin": "zài",
+    "tones": [
+      4
+    ],
+    "partOfSpeech": "adverb",
+    "english": "again, then",
+    "thai": "อีกครั้ง,แล้วจึง",
+    "thaiPhonetic": "อีกครั้ง",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“再”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"zài\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"อีกครั้ง,แล้วจึง\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-271",
+    "no": 271,
+    "hanzi": "在",
+    "pinyin": "zài",
+    "tones": [
+      4
+    ],
+    "partOfSpeech": "verb、preposition、",
+    "english": "adve rb to be at; at; in the middle of",
+    "thai": "อยู่ที่; ที่, ณ; กําลังทําอยู่",
+    "thaiPhonetic": "อยู่ที่",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“在”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"zài\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"อยู่ที่\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-272",
+    "no": 272,
+    "hanzi": "再见",
+    "pinyin": "zàijiàn",
+    "tones": [
+      4
+    ],
+    "partOfSpeech": "—",
+    "english": "goodbye",
+    "thai": "ลาก่อน,แล้วพบกันใหม่",
+    "thaiPhonetic": "ลาก่อน",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“再见”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"zàijiàn\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ลาก่อน,แล้วพบกันใหม่\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-273",
+    "no": 273,
+    "hanzi": "早",
+    "pinyin": "zǎo",
+    "tones": [
+      3
+    ],
+    "partOfSpeech": "adjective",
+    "english": "early",
+    "thai": "เช้า,เร็ว",
+    "thaiPhonetic": "เช้า",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“早”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"zǎo\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"เช้า,เร็ว\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-274",
+    "no": 274,
+    "hanzi": "早饭",
+    "pinyin": "zǎofàn",
+    "tones": [
+      3
+    ],
+    "partOfSpeech": "noun",
+    "english": "breakfast",
+    "thai": "อาหารเช้า",
+    "thaiPhonetic": "อาหารเช้า",
+    "category": "food",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“早饭”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"zǎofàn\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"อาหารเช้า\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-275",
+    "no": 275,
+    "hanzi": "早上",
+    "pinyin": "zǎoshang",
+    "tones": [
+      3
+    ],
+    "partOfSpeech": "noun",
+    "english": "morning",
+    "thai": "ตอนเช้า",
+    "thaiPhonetic": "ตอนเช้า",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“早上”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"zǎoshang\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ตอนเช้า\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-276",
+    "no": 276,
+    "hanzi": "怎么",
+    "pinyin": "zěnme",
+    "tones": [
+      3
+    ],
+    "partOfSpeech": "pronoun",
+    "english": "how",
+    "thai": "อย่างไร, ยังไง",
+    "thaiPhonetic": "อย่างไร",
+    "category": "family",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“怎么”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"zěnme\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"อย่างไร, ยังไง\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-277",
+    "no": 277,
+    "hanzi": "怎么样",
+    "pinyin": "zěnmeyàng",
+    "tones": [
+      3
+    ],
+    "partOfSpeech": "pronoun",
+    "english": "how about, what do you think",
+    "thai": "เป็นอย่างไร, คิดว่าอย่างไร",
+    "thaiPhonetic": "เป็นอย่างไร",
+    "category": "family",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“怎么样”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"zěnmeyàng\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"เป็นอย่างไร, คิดว่าอย่างไร\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-278",
+    "no": 278,
+    "hanzi": "找",
+    "pinyin": "zhǎo",
+    "tones": [
+      3
+    ],
+    "partOfSpeech": "verb",
+    "english": "to look for",
+    "thai": "หา, มองหา",
+    "thaiPhonetic": "หา",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“找”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"zhǎo\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"หา, มองหา\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-279",
+    "no": 279,
+    "hanzi": "这",
+    "pinyin": "zhè",
+    "tones": [
+      4
+    ],
+    "partOfSpeech": "pronoun",
+    "english": "this",
+    "thai": "นี้, นี่",
+    "thaiPhonetic": "นี้",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“这”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"zhè\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"นี้, นี่\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-280",
+    "no": 280,
+    "hanzi": "这边",
+    "pinyin": "zhèbiān",
+    "tones": [
+      1
+    ],
+    "partOfSpeech": "pronoun",
+    "english": "here",
+    "thai": "ทางนี้, ด้านนี้",
+    "thaiPhonetic": "ทางนี้",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“这边”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"zhèbiān\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ทางนี้, ด้านนี้\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-281",
+    "no": 281,
+    "hanzi": "这个",
+    "pinyin": "zhège",
+    "tones": [
+      4
+    ],
+    "partOfSpeech": "pronoun",
+    "english": "this one",
+    "thai": "อันนี้, คนนี้",
+    "thaiPhonetic": "อันนี้",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“这个”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"zhège\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"อันนี้, คนนี้\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-282",
+    "no": 282,
+    "hanzi": "这里",
+    "pinyin": "zhèlǐ",
+    "tones": [
+      3
+    ],
+    "partOfSpeech": "pronoun",
+    "english": "here",
+    "thai": "ที่นี่",
+    "thaiPhonetic": "ที่นี่",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“这里”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"zhèlǐ\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ที่นี่\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-283",
+    "no": 283,
+    "hanzi": "这儿",
+    "pinyin": "zhèr",
+    "tones": [
+      4
+    ],
+    "partOfSpeech": "pronoun",
+    "english": "here",
+    "thai": "ที่นี่",
+    "thaiPhonetic": "ที่นี่",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“这儿”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"zhèr\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ที่นี่\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-284",
+    "no": 284,
+    "hanzi": "这些",
+    "pinyin": "zhèxiē",
+    "tones": [
+      1
+    ],
+    "partOfSpeech": "pronoun",
+    "english": "these",
+    "thai": "เหล่านี้",
+    "thaiPhonetic": "เหล่านี้",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“这些”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"zhèxiē\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"เหล่านี้\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-285",
+    "no": 285,
+    "hanzi": "真",
+    "pinyin": "zhēn",
+    "tones": [
+      1
+    ],
+    "partOfSpeech": "adverb、adjective",
+    "english": "really; true",
+    "thai": "จริง ๆ, มาก; จริง,แท้",
+    "thaiPhonetic": "จริง ๆ",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“真”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"zhēn\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"จริง ๆ, มาก\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-286",
+    "no": 286,
+    "hanzi": "正在",
+    "pinyin": "zhèngzài",
+    "tones": [
+      4
+    ],
+    "partOfSpeech": "adverb",
+    "english": "in the process of",
+    "thai": "กําลัง...อยู่ Page 9",
+    "thaiPhonetic": "กําลัง...อยู่ Page 9",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“正在”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"zhèngzài\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"กําลัง...อยู่ Page 9\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-287",
+    "no": 287,
+    "hanzi": "只",
+    "pinyin": "zhī",
+    "tones": [
+      1
+    ],
+    "partOfSpeech": "classifier measure word",
+    "english": "for animals, one of a pair",
+    "thai": "ลักษณนามสําหรับสัตว์หรือสิ่งของหนึ่งชิ้นจาก ของที่เป็นคู่",
+    "thaiPhonetic": "ลักษณนามสําหรับสัตว์หรือสิ่งของหนึ่งชิ้นจาก ของที่เป็นคู่",
+    "category": "animals",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“只”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"zhī\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ลักษณนามสําหรับสัตว์หรือสิ่งของหนึ่งชิ้นจาก ของที่เป็นคู่\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-288",
+    "no": 288,
+    "hanzi": "知道",
+    "pinyin": "zhīdào",
+    "tones": [
+      1
+    ],
+    "partOfSpeech": "verb",
+    "english": "to know",
+    "thai": "รู้ , ทราบ",
+    "thaiPhonetic": "รู้",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“知道”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"zhīdào\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"รู้ , ทราบ\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-289",
+    "no": 289,
+    "hanzi": "中国",
+    "pinyin": "Zhōngguó",
+    "tones": [
+      1
+    ],
+    "partOfSpeech": "noun",
+    "english": "China",
+    "thai": "ประเทศจีน",
+    "thaiPhonetic": "ประเทศจีน",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“中国”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"Zhōngguó\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ประเทศจีน\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-290",
+    "no": 290,
+    "hanzi": "中文",
+    "pinyin": "Zhōngwén",
+    "tones": [
+      1
+    ],
+    "partOfSpeech": "noun",
+    "english": "Chinese language",
+    "thai": "ภาษาจีน",
+    "thaiPhonetic": "ภาษาจีน",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“中文”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"Zhōngwén\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ภาษาจีน\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-291",
+    "no": 291,
+    "hanzi": "中午",
+    "pinyin": "zhōngwǔ",
+    "tones": [
+      1
+    ],
+    "partOfSpeech": "noun",
+    "english": "noon",
+    "thai": "เที่ยงวัน",
+    "thaiPhonetic": "เที่ยงวัน",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“中午”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"zhōngwǔ\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"เที่ยงวัน\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-292",
+    "no": 292,
+    "hanzi": "中学",
+    "pinyin": "zhōngxué",
+    "tones": [
+      1
+    ],
+    "partOfSpeech": "noun",
+    "english": "middle school",
+    "thai": "โรงเรียนมัธยม",
+    "thaiPhonetic": "โรงเรียนมัธยม",
+    "category": "school",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“中学”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"zhōngxué\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"โรงเรียนมัธยม\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-293",
+    "no": 293,
+    "hanzi": "中学生",
+    "pinyin": "zhōngxuéshēng",
+    "tones": [
+      1
+    ],
+    "partOfSpeech": "noun",
+    "english": "middle school student",
+    "thai": "นักเรียนมัธยม",
+    "thaiPhonetic": "นักเรียนมัธยม",
+    "category": "school",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“中学生”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"zhōngxuéshēng\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"นักเรียนมัธยม\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-294",
+    "no": 294,
+    "hanzi": "住",
+    "pinyin": "zhù",
+    "tones": [
+      4
+    ],
+    "partOfSpeech": "verb",
+    "english": "to live, to reside",
+    "thai": "อาศัยอยู่, พักอยู่",
+    "thaiPhonetic": "อาศัยอยู่",
+    "category": "family",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“住”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"zhù\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"อาศัยอยู่, พักอยู่\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-295",
+    "no": 295,
+    "hanzi": "桌子",
+    "pinyin": "zhuōzi",
+    "tones": [
+      1
+    ],
+    "partOfSpeech": "noun",
+    "english": "table, desk",
+    "thai": "โต๊ะ",
+    "thaiPhonetic": "โต๊ะ",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“桌子”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"zhuōzi\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"โต๊ะ\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-296",
+    "no": 296,
+    "hanzi": "字",
+    "pinyin": "zì",
+    "tones": [
+      4
+    ],
+    "partOfSpeech": "noun",
+    "english": "character, script",
+    "thai": "ตัวอักษร, อักขระ",
+    "thaiPhonetic": "ตัวอักษร",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“字”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"zì\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ตัวอักษร, อักขระ\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-297",
+    "no": 297,
+    "hanzi": "昨天",
+    "pinyin": "zuótiān",
+    "tones": [
+      1
+    ],
+    "partOfSpeech": "noun",
+    "english": "yesterday",
+    "thai": "เมื่อวาน",
+    "thaiPhonetic": "เมื่อวาน",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“昨天”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"zuótiān\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"เมื่อวาน\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-298",
+    "no": 298,
+    "hanzi": "坐",
+    "pinyin": "zuò",
+    "tones": [
+      4
+    ],
+    "partOfSpeech": "verb",
+    "english": "to sit",
+    "thai": "นั่ง",
+    "thaiPhonetic": "นั่ง",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“坐”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"zuò\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"นั่ง\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-299",
+    "no": 299,
+    "hanzi": "做",
+    "pinyin": "zuò",
+    "tones": [
+      4
+    ],
+    "partOfSpeech": "verb",
+    "english": "to do, to make",
+    "thai": "ทํา, สร้าง",
+    "thaiPhonetic": "ทํา",
+    "category": "daily",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“做”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"zuò\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ทํา, สร้าง\" ให้ดี"
+    }
+  },
+  {
+    "id": "hsk1-300",
+    "no": 300,
+    "hanzi": "做饭",
+    "pinyin": "zuòfàn",
+    "tones": [
+      4
+    ],
+    "partOfSpeech": "verb",
+    "english": "to cook",
+    "thai": "ทําอาหาร, หุงข้าว",
+    "thaiPhonetic": "ทําอาหาร",
+    "category": "food",
+    "hskLevel": 1,
+    "sampleSentence": {
+      "hanzi": "我们要学好“做饭”。",
+      "pinyin": "Wǒmen yào xuéhǎo \"zuòfàn\".",
+      "thai": "พวกเราต้องเรียนรู้คำว่า \"ทําอาหาร, หุงข้าว\" ให้ดี"
+    }
+  }
+]

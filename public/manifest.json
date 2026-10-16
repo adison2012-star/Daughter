@@ -1,0 +1,18 @@
+{
+  "name": "ZhongWen Duo 中文 Duo - เรียนภาษาจีนสไตล์พิกซาร์",
+  "short_name": "中文 Duo",
+  "description": "เว็บแอปเรียนภาษาจีน 4 ทักษะ (เขียนขีด, จำศัพท์ SRS, ผันเสียง, AI ติวเตอร์) สนุกสนานสไตล์ 3D Disney Pixar มังกรน้อยเสี่ยวหลง",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#FFF1F2",
+  "theme_color": "#F43F5E",
+  "icons": [
+    {
+      "src": "/dragon-icon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

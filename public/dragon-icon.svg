@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <!-- Background Gradient -->
+    <radialGradient id="bgGrad" cx="30%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#FFE4E6"/>
+      <stop offset="60%" stop-color="#F43F5E"/>
+      <stop offset="100%" stop-color="#9F1239"/>
+    </radialGradient>
+    
+    <!-- Dragon Skin Gradient -->
+    <radialGradient id="dragonSkin" cx="40%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#F472B6"/>
+      <stop offset="50%" stop-color="#EC4899"/>
+      <stop offset="100%" stop-color="#BE185D"/>
+    </radialGradient>
+
+    <!-- Horns Gold Gradient -->
+    <linearGradient id="goldHorn" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FEF08A"/>
+      <stop offset="50%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#B45309"/>
+    </linearGradient>
+
+    <!-- Belly Peach Gradient -->
+    <radialGradient id="bellyGrad" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#FFFBEB"/>
+      <stop offset="70%" stop-color="#FDE68A"/>
+      <stop offset="100%" stop-color="#FCD34D"/>
+    </radialGradient>
+
+    <!-- Eye Pupil Glow -->
+    <radialGradient id="pupilGrad" cx="35%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#1E1B4B"/>
+      <stop offset="80%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </radialGradient>
+
+    <filter id="pixarShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="16" stdDeviation="16" flood-color="#881337" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <!-- App Icon Background squircle (Apple iOS style) -->
+  <rect width="512" height="512" rx="115" fill="url(#bgGrad)"/>
+
+  <!-- Sparkles in background -->
+  <circle cx="100" cy="110" r="14" fill="#FDE047" opacity="0.8"/>
+  <circle cx="410" cy="120" r="10" fill="#FDE047" opacity="0.7"/>
+  <circle cx="430" cy="380" r="16" fill="#FDE047" opacity="0.6"/>
+  <circle cx="80" cy="400" r="12" fill="#FDE047" opacity="0.7"/>
+
+  <!-- Dragon Group -->
+  <g filter="url(#pixarShadow)">
+    <!-- Golden Horns -->
+    <!-- Left Horn -->
+    <path d="M 180 180 C 150 120, 130 90, 100 80 C 110 110, 140 140, 175 195 Z" fill="url(#goldHorn)"/>
+    <path d="M 140 125 C 120 120, 110 110, 100 80 C 115 100, 130 115, 145 130 Z" fill="#FDE047"/>
+    <!-- Right Horn -->
+    <path d="M 332 180 C 362 120, 382 90, 412 80 C 402 110, 372 140, 337 195 Z" fill="url(#goldHorn)"/>
+    <path d="M 372 125 C 392 120, 402 110, 412 80 C 397 100, 382 115, 367 130 Z" fill="#FDE047"/>
+
+    <!-- Cute Fluffy Ears -->
+    <ellipse cx="130" cy="225" rx="35" ry="22" fill="#BE185D" transform="rotate(-25 130 225)"/>
+    <ellipse cx="130" cy="225" rx="22" ry="14" fill="#F472B6" transform="rotate(-25 130 225)"/>
+
+    <ellipse cx="382" cy="225" rx="35" ry="22" fill="#BE185D" transform="rotate(25 382 225)"/>
+    <ellipse cx="382" cy="225" rx="22" ry="14" fill="#F472B6" transform="rotate(25 382 225)"/>
+
+    <!-- Dragon Head (Big, round Pixar silhouette) -->
+    <ellipse cx="256" cy="255" rx="145" ry="125" fill="url(#dragonSkin)"/>
+
+    <!-- Cute Chubby Cheeks -->
+    <ellipse cx="170" cy="300" rx="36" ry="22" fill="#FDA4AF" opacity="0.7"/>
+    <ellipse cx="342" cy="300" rx="36" ry="22" fill="#FDA4AF" opacity="0.7"/>
+
+    <!-- White Snout Area -->
+    <ellipse cx="256" cy="300" rx="75" ry="50" fill="url(#bellyGrad)"/>
+
+    <!-- Tiny Cute Nostrils -->
+    <ellipse cx="238" cy="290" rx="7" ry="9" fill="#991B1B" opacity="0.75"/>
+    <ellipse cx="274" cy="290" rx="7" ry="9" fill="#991B1B" opacity="0.75"/>
+
+    <!-- Happy Smiling Mouth -->
+    <path d="M 230 310 Q 256 335 282 310" stroke="#881337" stroke-width="7" stroke-linecap="round" fill="none"/>
+    <path d="M 242 320 Q 256 338 270 320" fill="#EF4444"/>
+
+    <!-- Huge Expressive Pixar 3D Eyes -->
+    <!-- Left Eye -->
+    <ellipse cx="195" cy="230" rx="42" ry="50" fill="#FFFFFF"/>
+    <ellipse cx="198" cy="232" rx="32" ry="38" fill="url(#pupilGrad)"/>
+    <circle cx="185" cy="216" r="14" fill="#FFFFFF"/>
+    <circle cx="210" cy="246" r="6" fill="#FFFFFF"/>
+    <ellipse cx="198" cy="245" rx="20" ry="10" fill="#38BDF8" opacity="0.5"/>
+
+    <!-- Right Eye -->
+    <ellipse cx="317" cy="230" rx="42" ry="50" fill="#FFFFFF"/>
+    <ellipse cx="314" cy="232" rx="32" ry="38" fill="url(#pupilGrad)"/>
+    <circle cx="301" cy="216" r="14" fill="#FFFFFF"/>
+    <circle cx="326" cy="246" r="6" fill="#FFFFFF"/>
+    <ellipse cx="314" cy="245" rx="20" ry="10" fill="#38BDF8" opacity="0.5"/>
+
+    <!-- Cute Whiskers (Dragon Antennas) -->
+    <path d="M 195 295 Q 140 310 105 280" stroke="#FBBF24" stroke-width="6" stroke-linecap="round" fill="none"/>
+    <path d="M 317 295 Q 372 310 407 280" stroke="#FBBF24" stroke-width="6" stroke-linecap="round" fill="none"/>
+
+    <!-- Forehead Star Mark -->
+    <polygon points="256,155 262,175 282,178 266,190 271,210 256,198 241,210 246,190 230,178 250,175" fill="#FDE047"/>
+  </g>
+
+  <!-- Bottom Badge: "中文" -->
+  <g transform="translate(186, 410)">
+    <rect width="140" height="52" rx="26" fill="#FFFFFF" opacity="0.95"/>
+    <text x="70" y="36" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="900" font-size="28" fill="#E11D48" text-anchor="middle" letter-spacing="3">中文</text>
+  </g>
+</svg>
