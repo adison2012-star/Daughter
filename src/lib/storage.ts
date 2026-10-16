@@ -6,6 +6,7 @@ import {
   switchPetType,
   PET_CATALOG,
 } from '@/lib/petSystem';
+import { syncManager } from '@/lib/syncManager';
 
 export function createInitialPets(): Record<PetType, PetCompanionData> {
   const types: PetType[] = ['dragon', 'panda', 'jellyfish', 'hippo'];
@@ -180,6 +181,9 @@ export function saveProfiles(profiles: UserProfile[]) {
   if (typeof window === 'undefined') return;
   try {
     localStorage.setItem(STORAGE_KEYS.PROFILES, JSON.stringify(profiles));
+    try {
+      syncManager?.markDirty();
+    } catch {}
   } catch (e) {
     console.error('Failed to save profiles to localStorage', e);
   }
@@ -199,6 +203,9 @@ export function setActiveProfileId(id: string) {
   if (typeof window === 'undefined') return;
   try {
     localStorage.setItem(STORAGE_KEYS.ACTIVE_PROFILE_ID, id);
+    try {
+      syncManager?.markDirty();
+    } catch {}
   } catch (e) {
     console.error('Failed to set active profile id', e);
   }
@@ -352,10 +359,8 @@ export function addNewProfile(input: {
   const current = getStoredProfiles();
   const updated = [...current, newProfile];
 
-  if (typeof window !== 'undefined') {
-    localStorage.setItem(STORAGE_KEYS.PROFILES, JSON.stringify(updated));
-    localStorage.setItem(STORAGE_KEYS.ACTIVE_PROFILE_ID, newProfile.id);
-  }
+  saveProfiles(updated);
+  setActiveProfileId(newProfile.id);
 
   return newProfile;
 }
@@ -376,9 +381,7 @@ export function updateProfile(
     ...updates,
   };
 
-  if (typeof window !== 'undefined') {
-    localStorage.setItem(STORAGE_KEYS.PROFILES, JSON.stringify(current));
-  }
+  saveProfiles(current);
   return current[idx];
 }
 
@@ -402,9 +405,7 @@ export function deleteProfile(profileId: string): {
     setActiveProfileId(activeId);
   }
 
-  if (typeof window !== 'undefined') {
-    localStorage.setItem(STORAGE_KEYS.PROFILES, JSON.stringify(filtered));
-  }
+  saveProfiles(filtered);
 
   return { success: true, remainingProfiles: filtered, activeId };
 }
@@ -484,9 +485,9 @@ export function importUserDataJSON(jsonStr: string): {
     }
 
     if (typeof window !== 'undefined') {
-      localStorage.setItem(STORAGE_KEYS.PROFILES, JSON.stringify(data.profiles));
+      saveProfiles(data.profiles);
       if (data.activeProfileId) {
-        localStorage.setItem(STORAGE_KEYS.ACTIVE_PROFILE_ID, data.activeProfileId);
+        setActiveProfileId(data.activeProfileId);
       }
       if (data.redemptions) {
         localStorage.setItem('duo_academy_redemptions_v1', JSON.stringify(data.redemptions));

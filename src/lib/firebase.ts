@@ -3,6 +3,9 @@ import {
   getAuth,
   GoogleAuthProvider,
   signInWithPopup,
+  signInWithEmailAndPassword,
+  createUserWithEmailAndPassword,
+  updateProfile,
   signOut,
   onAuthStateChanged,
   User,
@@ -17,13 +20,15 @@ import {
 } from 'firebase/firestore';
 import { CloudUser, UserProfile, RedemptionRecord, RewardItem } from '@/types';
 
+// Web App's Firebase configuration from user's tannxproject
 const firebaseConfig = {
-  apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
-  authDomain: process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN,
-  projectId: process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID,
-  storageBucket: process.env.NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET,
-  messagingSenderId: process.env.NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID,
-  appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID,
+  apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY || 'AIzaSyClhptiqZN_djXgYW8P9V4S3pMO-HQSmfY',
+  authDomain: process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN || 'tannxproject.firebaseapp.com',
+  projectId: process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID || 'tannxproject',
+  storageBucket: process.env.NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET || 'tannxproject.firebasestorage.app',
+  messagingSenderId: process.env.NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID || '563204141018',
+  appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID || '1:563204141018:web:290a424c83ff1eb76e9ae3',
+  measurementId: process.env.NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID || 'G-4V1ZCBWCHP',
 };
 
 let app: FirebaseApp | null = null;
@@ -31,18 +36,11 @@ let auth: Auth | null = null;
 let db: Firestore | null = null;
 
 export function isFirebaseConfigured(): boolean {
-  return (
-    typeof window !== 'undefined' &&
-    Boolean(
-      process.env.NEXT_PUBLIC_FIREBASE_API_KEY &&
-        process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID
-    )
-  );
+  return typeof window !== 'undefined';
 }
 
 function getFirebaseApp(): FirebaseApp | null {
   if (typeof window === 'undefined') return null;
-  if (!isFirebaseConfigured()) return null;
 
   if (!getApps().length) {
     app = initializeApp(firebaseConfig);
@@ -76,7 +74,7 @@ export function getFirebaseDb(): Firestore | null {
 export async function signInWithGoogleLive(): Promise<CloudUser | null> {
   const currentAuth = getFirebaseAuth();
   if (!currentAuth) {
-    throw new Error('Firebase credentials are not configured yet in .env.local');
+    throw new Error('Firebase Auth is not initialized');
   }
 
   const provider = new GoogleAuthProvider();
@@ -96,6 +94,65 @@ export async function signInWithGoogleLive(): Promise<CloudUser | null> {
 }
 
 /**
+ * Sign in with Email and Password.
+ */
+export async function signInWithEmailLive(
+  email: string,
+  pass: string
+): Promise<CloudUser | null> {
+  const currentAuth = getFirebaseAuth();
+  if (!currentAuth) {
+    throw new Error('Firebase Auth is not initialized');
+  }
+
+  const result = await signInWithEmailAndPassword(currentAuth, email, pass);
+  const user = result.user;
+
+  return {
+    uid: user.uid,
+    email: user.email,
+    displayName: user.displayName || email.split('@')[0],
+    photoURL: user.photoURL,
+    provider: 'email',
+    lastSyncedAt: new Date().toISOString(),
+  };
+}
+
+/**
+ * Register a new user with Email, Password and Child's Nickname.
+ */
+export async function signUpWithEmailLive(
+  email: string,
+  pass: string,
+  displayName: string
+): Promise<CloudUser | null> {
+  const currentAuth = getFirebaseAuth();
+  if (!currentAuth) {
+    throw new Error('Firebase Auth is not initialized');
+  }
+
+  const result = await createUserWithEmailAndPassword(currentAuth, email, pass);
+  const user = result.user;
+
+  if (displayName && user) {
+    try {
+      await updateProfile(user, { displayName });
+    } catch (e) {
+      // ignore
+    }
+  }
+
+  return {
+    uid: user.uid,
+    email: user.email,
+    displayName: displayName || user.displayName || email.split('@')[0],
+    photoURL: user.photoURL,
+    provider: 'email',
+    lastSyncedAt: new Date().toISOString(),
+  };
+}
+
+/**
  * Sign out from Firebase Authentication.
  */
 export async function signOutLive(): Promise<void> {
@@ -108,7 +165,9 @@ export async function signOutLive(): Promise<void> {
 /**
  * Listen to live Firebase Auth state changes.
  */
-export function onAuthChange(callback: (user: CloudUser | null) => void): () => void {
+export function onAuthChange(
+  callback: (user: CloudUser | null) => void
+): () => void {
   const currentAuth = getFirebaseAuth();
   if (!currentAuth) {
     return () => {};
@@ -121,7 +180,7 @@ export function onAuthChange(callback: (user: CloudUser | null) => void): () => 
         email: user.email,
         displayName: user.displayName,
         photoURL: user.photoURL,
-        provider: 'google',
+        provider: user.providerData[0]?.providerId === 'google.com' ? 'google' : 'email',
         lastSyncedAt: new Date().toISOString(),
       });
     } else {
@@ -130,17 +189,22 @@ export function onAuthChange(callback: (user: CloudUser | null) => void): () => 
   });
 }
 
+export interface UserCloudSyncPayload {
+  profiles: UserProfile[];
+  activeProfileId: string;
+  redemptions?: RedemptionRecord[];
+  customRewards?: RewardItem[];
+  chemistrySolvedIds?: string[];
+  mathSolvedIds?: string[];
+  updatedAt?: string;
+}
+
 /**
- * Save user profiles, stars, pet levels, and redemptions to Cloud Firestore.
+ * Save user progress to Cloud Firestore.
  */
 export async function saveUserDataToFirestore(
   uid: string,
-  data: {
-    profiles: UserProfile[];
-    activeProfileId: string;
-    redemptions?: RedemptionRecord[];
-    customRewards?: RewardItem[];
-  }
+  data: UserCloudSyncPayload
 ): Promise<boolean> {
   const currentDb = getFirebaseDb();
   if (!currentDb || !uid) return false;
@@ -163,16 +227,11 @@ export async function saveUserDataToFirestore(
 }
 
 /**
- * Load user profiles and progress from Cloud Firestore.
+ * Load user progress from Cloud Firestore.
  */
 export async function loadUserDataFromFirestore(
   uid: string
-): Promise<{
-  profiles?: UserProfile[];
-  activeProfileId?: string;
-  redemptions?: RedemptionRecord[];
-  customRewards?: RewardItem[];
-} | null> {
+): Promise<UserCloudSyncPayload | null> {
   const currentDb = getFirebaseDb();
   if (!currentDb || !uid) return null;
 
@@ -180,7 +239,7 @@ export async function loadUserDataFromFirestore(
     const userDocRef = doc(currentDb, 'users', uid);
     const snap = await getDoc(userDocRef);
     if (snap.exists()) {
-      return snap.data() as any;
+      return snap.data() as UserCloudSyncPayload;
     }
     return null;
   } catch (err) {

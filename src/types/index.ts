@@ -127,7 +127,7 @@ export interface CloudUser {
   displayName: string | null;
   photoURL: string | null;
   isAnonymous?: boolean;
-  provider: 'google' | 'guest';
+  provider: 'google' | 'email' | 'guest';
   lastSyncedAt?: string;
 }
 

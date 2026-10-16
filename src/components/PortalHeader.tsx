@@ -1,12 +1,13 @@
 'use client';
 
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { UserProfile, CloudUser } from '@/types';
 import { Star, Flame, ArrowLeft, Gift, Cloud, Plus } from 'lucide-react';
 import { sfx } from '@/lib/speech';
 import { PET_CATALOG } from '@/lib/petSystem';
+import { syncManager, SyncState } from '@/lib/syncManager';
 
 interface PortalHeaderProps {
   activeProfile: UserProfile;
@@ -37,6 +38,12 @@ export const PortalHeader: React.FC<PortalHeaderProps> = ({
   onOpenAuthModal,
   cloudUser,
 }) => {
+  const [syncState, setSyncState] = useState<SyncState>(() => syncManager.getState());
+
+  useEffect(() => {
+    return syncManager.subscribe(setSyncState);
+  }, []);
+
   return (
     <header className="sticky top-0 z-50 glass-header">
       <div className="max-w-5xl mx-auto px-4 py-3 flex items-center justify-between gap-3">
@@ -125,57 +132,102 @@ export const PortalHeader: React.FC<PortalHeaderProps> = ({
             </button>
           )}
 
-          {/* Cloud Sync Button */}
-          {onOpenAuthModal && (
+          {/* Dedicated Single-User Mode vs Multi-Profile Switcher */}
+          {cloudUser ? (
+            /* Single Account Pill for this iPad */
             <button
               onClick={() => {
                 sfx.playClick();
-                onOpenAuthModal();
+                onOpenAuthModal?.();
               }}
-              className="w-9 h-9 rounded-2xl glass-pill hover:bg-white flex items-center justify-center text-slate-700 shadow-xs hover:scale-105 active:scale-95 transition-all"
-              title={cloudUser ? `เชื่อมต่อ: ${cloudUser.email}` : 'สำรองข้อมูลบนคลาวด์'}
+              className="flex items-center gap-2 px-3 py-1 rounded-2xl glass-pill hover:bg-white text-slate-800 shadow-xs hover:scale-102 transition-all border border-amber-200/80 bg-gradient-to-r from-amber-50/70 to-rose-50/70"
+              title={`บัญชีของเครื่องนี้: ${cloudUser.email} (คลิกเพื่อดูสถานะซิงก์คลาวด์)`}
             >
-              <Cloud className={`w-4 h-4 ${cloudUser ? 'text-sky-500 fill-sky-200' : 'text-slate-400'}`} />
+              <span className="text-base leading-none">{activeProfile.avatar}</span>
+              <div className="flex flex-col text-left">
+                <span className="text-[12px] font-black leading-tight text-slate-800">
+                  {activeProfile.nickname || activeProfile.name}
+                </span>
+                <span className="flex items-center gap-1 text-[9px] font-bold">
+                  {syncState.status === 'syncing' ? (
+                    <span className="text-sky-600 flex items-center gap-1">
+                      <span className="w-1.5 h-1.5 rounded-full bg-sky-500 animate-pulse" />
+                      บันทึกคลาวด์...
+                    </span>
+                  ) : syncState.status === 'pending' ? (
+                    <span className="text-amber-600 flex items-center gap-1" title="บันทึกในเครื่องแล้ว รอส่ง Cloud ใน 5 นาที">
+                      <span className="w-1.5 h-1.5 rounded-full bg-amber-400" />
+                      รอบันทึก (5 นาที)
+                    </span>
+                  ) : syncState.status === 'error' ? (
+                    <span className="text-rose-500 flex items-center gap-1">
+                      <span className="w-1.5 h-1.5 rounded-full bg-rose-500" />
+                      ซิงก์ไม่สำเร็จ
+                    </span>
+                  ) : (
+                    <span className="text-emerald-600 flex items-center gap-1">
+                      <span className="w-1.5 h-1.5 rounded-full bg-emerald-500" />
+                      คลาวด์ปลอดภัย
+                    </span>
+                  )}
+                </span>
+              </div>
             </button>
-          )}
-
-          {/* Profile Switcher Pills */}
-          <div className="flex items-center glass-pill p-0.5 shadow-xs">
-            {profiles.slice(0, 3).map((p) => {
-              const isActive = p.id === activeProfile.id;
-              return (
+          ) : (
+            /* Guest / Local Multi-Profile Mode */
+            <div className="flex items-center gap-1.5">
+              {onOpenAuthModal && (
                 <button
-                  key={p.id}
                   onClick={() => {
-                    sfx.playCorrect();
-                    onSwitchProfile(p.id);
+                    sfx.playClick();
+                    onOpenAuthModal();
                   }}
-                  className={`flex items-center gap-1 px-2.5 py-1 rounded-xl text-xs font-black transition-all ${
-                    isActive
-                      ? 'bg-amber-100/90 text-slate-900 border border-amber-300 font-extrabold shadow-2xs'
-                      : 'text-slate-400 hover:text-slate-700'
-                  }`}
-                  title={p.name}
+                  className="flex items-center gap-1 px-2.5 py-1.5 rounded-2xl glass-pill hover:bg-white text-slate-700 shadow-xs hover:scale-105 active:scale-95 transition-all text-xs font-black border border-sky-200/80 bg-sky-50/40"
+                  title="เข้าสู่ระบบ / เชื่อมต่อคลาวด์แยกเครื่อง"
                 >
-                  <span className="text-sm">{p.avatar}</span>
-                  <span className="hidden md:inline text-[11px]">{p.nickname || p.name}</span>
+                  <Cloud className="w-4 h-4 text-sky-500" />
+                  <span className="hidden sm:inline text-[11px] text-sky-700">เข้าสู่ระบบ</span>
                 </button>
-              );
-            })}
+              )}
 
-            {onOpenProfileManager && (
-              <button
-                onClick={() => {
-                  sfx.playClick();
-                  onOpenProfileManager();
-                }}
-                className="p-1 text-slate-400 hover:text-slate-700 transition-colors"
-                title="จัดการผู้เรียน (+)"
-              >
-                <Plus className="w-3.5 h-3.5" />
-              </button>
-            )}
-          </div>
+              <div className="flex items-center glass-pill p-0.5 shadow-xs">
+                {profiles.slice(0, 3).map((p) => {
+                  const isActive = p.id === activeProfile.id;
+                  return (
+                    <button
+                      key={p.id}
+                      onClick={() => {
+                        sfx.playCorrect();
+                        onSwitchProfile(p.id);
+                      }}
+                      className={`flex items-center gap-1 px-2.5 py-1 rounded-xl text-xs font-black transition-all ${
+                        isActive
+                          ? 'bg-amber-100/90 text-slate-900 border border-amber-300 font-extrabold shadow-2xs'
+                          : 'text-slate-400 hover:text-slate-700'
+                      }`}
+                      title={p.name}
+                    >
+                      <span className="text-sm">{p.avatar}</span>
+                      <span className="hidden md:inline text-[11px]">{p.nickname || p.name}</span>
+                    </button>
+                  );
+                })}
+
+                {onOpenProfileManager && (
+                  <button
+                    onClick={() => {
+                      sfx.playClick();
+                      onOpenProfileManager();
+                    }}
+                    className="p-1 text-slate-400 hover:text-slate-700 transition-colors"
+                    title="จัดการผู้เรียน (+)"
+                  >
+                    <Plus className="w-3.5 h-3.5" />
+                  </button>
+                )}
+              </div>
+            </div>
+          )}
         </div>
       </div>
 
