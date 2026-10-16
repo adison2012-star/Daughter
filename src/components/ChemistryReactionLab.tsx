@@ -268,17 +268,15 @@ export const ChemistryReactionLab: React.FC<ChemistryReactionLabProps> = ({
   };
 
   // ==========================================
-  // Clean & Soothe Pet (ล้างตัว & ปลอบใจสัตว์เลี้ยง)
+  // Clean & Soothe Pet (ล้างตัว & ปลอบใจสัตว์เลี้ยง - ไม่แจกคะแนน เพื่อป้องกันการฟาร์ม)
   // ==========================================
   const handleCleanPet = () => {
     sfx.playBubble();
-    sfx.playCorrect();
     setIsPetSooted(false);
-    onEarnStars(5); // Lab Safety Award bonus
 
     confetti({
-      particleCount: 40,
-      spread: 60,
+      particleCount: 25,
+      spread: 50,
       origin: { y: 0.7 },
       colors: ['#06B6D4', '#3B82F6', '#FFFFFF'],
     });
@@ -287,7 +285,7 @@ export const ChemistryReactionLab: React.FC<ChemistryReactionLabProps> = ({
     if (petType === 'dragon') {
       happyCry = 'เย้! เสี่ยวหลงหายมอมแมมแล้ว ไฟในตัวกลับมาอบอุ่นเหมือนเดิม ขอบคุณนะ! 🐲✨';
     } else if (petType === 'jellyfish') {
-      happyCry = 'ตัวของเจลลี่นุ่มสะอาดใสปิ๊งแล้ว ได้รับรางวัล Lab Safety 5 ดาวด้วย เย้! 🪼🧼';
+      happyCry = 'ตัวของเจลลี่นุ่มสะอาดใสปิ๊งแล้ว ขอบคุณที่ช่วยดูแลความปลอดภัยในห้องแล็บนะ! 🪼🧼';
     } else if (petType === 'panda') {
       happyCry = 'เป่าเปาสะอาดแล้ว อบอุ่นจังเลย ต่อไปจะไม่ซนกับสารไวไฟแล้วนะ 🐼✨';
     } else if (petType === 'hippo') {
@@ -682,7 +680,7 @@ export const ChemistryReactionLab: React.FC<ChemistryReactionLabProps> = ({
                         className="w-full py-2 px-3 rounded-xl bg-gradient-to-r from-cyan-500 to-blue-600 hover:brightness-110 active:scale-95 text-white text-xs font-black shadow-md transition-all flex items-center justify-center gap-1.5"
                       >
                         <HeartHandshake className="w-3.5 h-3.5" />
-                        <span>🧼 ปลอบใจ & ล้างหน้าสัตว์เลี้ยง (+5 ⭐)</span>
+                        <span>🧼 ล้างหน้า & ปลอบใจสัตว์เลี้ยง</span>
                       </button>
                     )}
                   </div>
