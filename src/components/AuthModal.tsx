@@ -113,7 +113,20 @@ export const AuthModal: React.FC<AuthModalProps> = ({
       }
     } catch (err: any) {
       console.error('Google Sign-In Error:', err);
-      setErrorMessage(err?.message || 'ไม่สามารถเข้าสู่ระบบด้วย Google ได้');
+      const code = err?.code || '';
+      const msg = err?.message || '';
+      if (code.includes('unauthorized-domain') || msg.includes('unauthorized-domain')) {
+        const currentDomain = typeof window !== 'undefined' ? window.location.hostname : '';
+        setErrorMessage(
+          `⚠️ โดเมน "${currentDomain}" ยังไม่ได้เพิ่มใน Firebase Console: เข้าไปที่ Firebase Console > Authentication > Settings > Authorized domains แล้วกด Add domain ใส่ "${currentDomain}" หรือใช้อีเมล/รหัสผ่านด้านล่างแทนได้ทันที`
+        );
+      } else if (code.includes('popup-closed-by-user')) {
+        setErrorMessage('หน้าต่างเข้าสู่ระบบด้วย Google ถูกปิดก่อนทำรายการเสร็จ');
+      } else if (code.includes('cancelled-popup-request')) {
+        setErrorMessage('คำขอยกเลิกเนื่องจากมีหน้าต่างเปิดซ้ำ');
+      } else {
+        setErrorMessage(msg || 'ไม่สามารถเข้าสู่ระบบด้วย Google ได้');
+      }
     } finally {
       setIsLoading(false);
     }
