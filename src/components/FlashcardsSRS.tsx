@@ -322,8 +322,13 @@ export const FlashcardsSRS: React.FC<FlashcardsSRSProps> = ({
         colors: ['#10b981', '#34d399', '#fbbf24', '#f43f5e'],
       });
 
-      // Award strictly 5 stars
-      const earned = 5;
+      // Award stars based on question HSK Level:
+      // Level 1-2: 5 stars
+      // Level 3-4: 10 stars (per user request)
+      // Level 5-6: 15 stars (per user request)
+      const qLevel = currentQuestion.word?.hskLevel || selectedLevel || 1;
+      const earned = qLevel >= 5 ? 15 : qLevel >= 3 ? 10 : 5;
+
       if (onEarnReward) onEarnReward(earned);
       setRoundStarsEarned((prev) => prev + earned);
       setRoundScore((prev) => prev + 1);
@@ -336,7 +341,7 @@ export const FlashcardsSRS: React.FC<FlashcardsSRSProps> = ({
         // Combo bonus at 5 and 10 streak
         if (nextStreak === 5 || nextStreak === 10) {
           sfx.playStarFanfare();
-          const bonusStars = 5;
+          const bonusStars = earned;
           if (onEarnReward) onEarnReward(bonusStars);
           setRoundStarsEarned((s) => s + bonusStars);
           setRecentBonusToast(`🔥 สุดยอด! คอมโบ ${nextStreak} ข้อติด โบนัสพิเศษ +${bonusStars} ⭐`);
@@ -439,20 +444,32 @@ export const FlashcardsSRS: React.FC<FlashcardsSRSProps> = ({
             ทุกระดับ (1-6)
           </button>
 
-          {MASTERY_LEVELS.map((lvl) => (
-            <button
-              key={lvl.level}
-              onClick={() => setSelectedLevel(lvl.level)}
-              className={`flex items-center gap-1 px-3 py-1.5 rounded-2xl text-xs font-black whitespace-nowrap transition-all ${
-                selectedLevel === lvl.level
-                  ? 'bg-gradient-to-r from-rose-500 to-amber-500 text-white shadow-md scale-102'
-                  : 'bg-slate-100 hover:bg-slate-200 text-slate-600'
-              }`}
-            >
-              <span>{lvl.badge}</span>
-              <span>Level {lvl.level}</span>
-            </button>
-          ))}
+          {MASTERY_LEVELS.map((lvl) => {
+            const lvlStars = lvl.level >= 5 ? 15 : lvl.level >= 3 ? 10 : 5;
+            return (
+              <button
+                key={lvl.level}
+                onClick={() => setSelectedLevel(lvl.level)}
+                className={`flex items-center gap-1.5 px-3 py-1.5 rounded-2xl text-xs font-black whitespace-nowrap transition-all ${
+                  selectedLevel === lvl.level
+                    ? 'bg-gradient-to-r from-rose-500 to-amber-500 text-white shadow-md scale-102'
+                    : 'bg-slate-100 hover:bg-slate-200 text-slate-600'
+                }`}
+              >
+                <span>{lvl.badge}</span>
+                <span>Level {lvl.level}</span>
+                <span
+                  className={`text-[10px] px-1.5 py-0.2 rounded-full font-black ${
+                    selectedLevel === lvl.level
+                      ? 'bg-white/25 text-white'
+                      : 'bg-amber-100 text-amber-800'
+                  }`}
+                >
+                  +{lvlStars}⭐
+                </span>
+              </button>
+            );
+          })}
         </div>
       </div>
 
@@ -798,28 +815,63 @@ export const FlashcardsSRS: React.FC<FlashcardsSRSProps> = ({
            ======================================================== */
         <div className="space-y-4 animate-fade-in">
           {/* Quiz Top Status Bar */}
-          <div className="flex items-center justify-between bg-white/90 backdrop-blur-md p-3 rounded-2xl border-2 border-emerald-100 shadow-sm text-xs font-black">
-            {/* Question Counter */}
-            <div className="flex items-center gap-1.5 text-slate-700">
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between bg-white/90 backdrop-blur-md p-3 rounded-2xl border-2 border-emerald-100 shadow-sm text-xs font-black gap-2">
+            {/* Question Counter & Level Stars */}
+            <div className="flex items-center gap-2 text-slate-700">
               <span className="bg-emerald-100 text-emerald-800 px-2.5 py-0.5 rounded-full">
                 ข้อ {questionCount} / {QUESTIONS_PER_ROUND}
               </span>
-              <span className="text-slate-400">Level {currentQuestion.word.hskLevel}</span>
+              {(() => {
+                const qLvl = currentQuestion.word?.hskLevel || selectedLevel || 1;
+                const starVal = qLvl >= 5 ? 15 : qLvl >= 3 ? 10 : 5;
+                return (
+                  <span
+                    className={`px-2.5 py-0.5 rounded-full text-xs font-black border flex items-center gap-1 ${
+                      qLvl >= 5
+                        ? 'bg-purple-100 text-purple-800 border-purple-200'
+                        : qLvl >= 3
+                        ? 'bg-amber-100 text-amber-800 border-amber-200'
+                        : 'bg-emerald-100 text-emerald-800 border-emerald-200'
+                    }`}
+                  >
+                    <span>Level {qLvl}</span>
+                    <span className="text-[10px] font-extrabold">(+{starVal} ⭐/ข้อ)</span>
+                  </span>
+                );
+              })()}
             </div>
 
-            {/* Streak Counter */}
-            <div className="flex items-center gap-3">
+            {/* Streak Counter & Real Stars Earned Live */}
+            <div className="flex items-center gap-2 sm:gap-3 self-end sm:self-auto">
               <div className="flex items-center gap-1 text-orange-600 bg-orange-50 px-2.5 py-0.5 rounded-full border border-orange-200">
                 <Flame className="w-4 h-4 fill-orange-500 text-orange-500 animate-pulse" />
                 <span>คอมโบ {streak}</span>
               </div>
 
-              {/* Real Stars Earned Live */}
               <div className="flex items-center gap-1 text-yellow-700 bg-yellow-50 px-2.5 py-0.5 rounded-full border border-yellow-200">
                 <Star className="w-3.5 h-3.5 fill-yellow-500 text-yellow-500" />
                 <span>+{roundStarsEarned} ⭐</span>
               </div>
             </div>
+          </div>
+
+          {/* Level Star Guide Banner */}
+          <div className="bg-gradient-to-r from-emerald-50 via-amber-50 to-purple-50 border border-emerald-200/80 rounded-2xl px-3 py-1.5 flex items-center justify-between gap-2 text-[11px] font-black shadow-2xs">
+            <div className="flex items-center gap-1.5 flex-wrap">
+              <span className="text-slate-600">⭐ กฎการได้ดาว:</span>
+              <span className="text-emerald-700 bg-emerald-100/90 px-2 py-0.2 rounded-lg border border-emerald-200">
+                Level 1-2: 5 ดาว
+              </span>
+              <span className="text-amber-800 bg-amber-100/90 px-2 py-0.2 rounded-lg border border-amber-200">
+                Level 3-4: 10 ดาว
+              </span>
+              <span className="text-purple-800 bg-purple-100/90 px-2 py-0.2 rounded-lg border border-purple-200">
+                Level 5-6: 15 ดาว
+              </span>
+            </div>
+            <span className="text-slate-400 font-bold hidden md:inline">
+              ตอบถูกได้ดาวจริงทันที
+            </span>
           </div>
 
           {/* Quiz Format Selector Pills */}
@@ -1029,7 +1081,15 @@ export const FlashcardsSRS: React.FC<FlashcardsSRSProps> = ({
                   currentQuestion.choices.find((c) => c.id === selectedChoiceId)?.isCorrect ? (
                     <div className="flex items-center gap-1.5 text-emerald-700 font-black text-sm">
                       <Sparkles className="w-4 h-4 text-emerald-500 fill-emerald-500" />
-                      <span>ถูกต้อง! ยอดเยี่ยมมาก (+5 ⭐)</span>
+                      <span>
+                        ถูกต้อง! ยอดเยี่ยมมาก (+{
+                          (currentQuestion.word?.hskLevel || selectedLevel || 1) >= 5
+                            ? 15
+                            : (currentQuestion.word?.hskLevel || selectedLevel || 1) >= 3
+                            ? 10
+                            : 5
+                        } ⭐)
+                      </span>
                     </div>
                   ) : (
                     <div className="text-rose-600 text-xs font-black">
