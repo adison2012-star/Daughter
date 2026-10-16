@@ -102,31 +102,13 @@ export const Navbar: React.FC<NavbarProps> = ({
               <span className="text-amber-200 font-extrabold">Lv.{activeProfile.pet?.level || 1}</span>
             </button>
 
-            {/* Sibling Toggle Pills */}
-            <div className="flex items-center bg-slate-100/90 p-1 rounded-2xl border-2 border-slate-200/80 shadow-inner">
-              {profiles.slice(0, 3).map((p) => {
-                const isActive = p.id === activeProfile.id;
-                return (
-                  <button
-                    key={p.id}
-                    onClick={() => {
-                      if (!isActive) {
-                        sfx.playCorrect();
-                        onSwitchProfile(p.id);
-                      }
-                    }}
-                    className={`flex items-center gap-1 px-2 sm:px-2.5 py-1 rounded-xl text-xs font-black transition-all ${
-                      isActive
-                        ? 'bg-gradient-to-r from-rose-500 to-amber-500 text-white shadow-md scale-102'
-                        : 'text-slate-600 hover:text-slate-900 opacity-70 hover:opacity-100'
-                    }`}
-                    title={`สลับไปที่ ${p.nickname}`}
-                  >
-                    <span className="text-sm sm:text-base">{p.avatar}</span>
-                    <span className="hidden md:inline">{p.nickname}</span>
-                  </button>
-                );
-              })}
+            {/* Learner Profile Pill */}
+            <div
+              className="flex items-center gap-1.5 px-3 py-1.5 rounded-2xl bg-gradient-to-r from-rose-500 to-amber-500 text-white font-black text-xs shadow-md select-none"
+              title={activeProfile.nickname || activeProfile.name}
+            >
+              <span className="text-sm sm:text-base">{activeProfile.avatar}</span>
+              <span className="text-[11px] font-black">{activeProfile.nickname || activeProfile.name}</span>
             </div>
           </div>
         </div>

@@ -68,23 +68,6 @@ export const PetCompanion: React.FC<PetCompanionProps> = ({
   const [previewStageIndex, setPreviewStageIndex] = useState<number | null>(null);
   const [showEvolutionCloset, setShowEvolutionCloset] = useState(true);
 
-  // Sibling stats for showdown
-  const sister1 = profiles.find((p) => p.id === 'sister-1') || profiles[0];
-  const sister2 = profiles.find((p) => p.id === 'sister-2') || profiles[1] || profiles[0];
-
-  const s1ActivePet = sister1?.pets?.[sister1?.activePetType || sister1?.pet?.type || 'dragon'] || sister1?.pet;
-  const s2ActivePet = sister2?.pets?.[sister2?.activePetType || sister2?.pet?.type || 'panda'] || sister2?.pet;
-
-  const s1Level = s1ActivePet?.level || 1;
-  const s2Level = s2ActivePet?.level || 1;
-  const s1Fed = s1ActivePet?.totalStarsFed || 0;
-  const s2Fed = s2ActivePet?.totalStarsFed || 0;
-
-  const levelDifference = Math.abs(s1Level - s2Level);
-  const isS1Leading = s1Level > s2Level;
-  const isS2Leading = s2Level > s1Level;
-  const isTie = s1Level === s2Level;
-
   const availableStarsInWallet =
     selectedSubjectWallet === 'all'
       ? activeProfile.stars || 0
@@ -778,121 +761,81 @@ export const PetCompanion: React.FC<PetCompanionProps> = ({
       </section>
 
       {/* ========================================================
-          6. SIBLING SHOWDOWN ARENA (Friendly Comparison)
+          6. FOUR SACRED PETS SANCTUARY (All 4 Elemental Companions)
          ======================================================== */}
-      {profiles.length > 1 && (
-        <section className="bg-[#FAF7F2] rounded-3xl p-5 sm:p-6 border border-[#EAE5DB] shadow-xs space-y-4">
-          <div className="flex flex-wrap items-center justify-between gap-2 border-b border-[#EDE7DE] pb-3">
-            <div className="flex items-center gap-2">
-              <span className="text-xl">🏆</span>
-              <div>
-                <h4 className="text-base font-black text-slate-800">
-                  กระดานมิตรภาพ & ความก้าวหน้าของสองพี่น้อง
-                </h4>
-                <p className="text-xs text-slate-500 font-semibold">
-                  ฝึกฝน 4 วิชาแล้วนำดาวมาป้อนสัตว์เลี้ยงเพื่อเติบโตไปด้วยกัน
-                </p>
-              </div>
-            </div>
-
-            <div className="bg-white px-3 py-1 rounded-xl border border-[#EDE7DE] text-xs font-black text-slate-700 shadow-2xs">
-              {isTie && <span>🤝 สองพี่น้องระดับสูสีกันที่ Level {s1Level}</span>}
-              {isS1Leading && (
-                <span className="text-amber-800">
-                  👧🏻 {sister1.nickname || sister1.name} นำอยู่ +{levelDifference} เลเวล!
-                </span>
-              )}
-              {isS2Leading && (
-                <span className="text-amber-800">
-                  🧒🏻 {sister2.nickname || sister2.name} นำอยู่ +{levelDifference} เลเวล!
-                </span>
-              )}
+      <section className="bg-[#FAF7F2] rounded-3xl p-5 sm:p-6 border border-[#EAE5DB] shadow-xs space-y-4">
+        <div className="flex flex-wrap items-center justify-between gap-2 border-b border-[#EDE7DE] pb-3">
+          <div className="flex items-center gap-2">
+            <span className="text-xl">🏛️</span>
+            <div>
+              <h4 className="text-base font-black text-slate-800">
+                วิหารสัตว์เลี้ยงคู่หู 4 ธาตุของ {activeProfile.nickname || activeProfile.name}
+              </h4>
+              <p className="text-xs text-slate-500 font-semibold">
+                สะสมดาวจาก 4 วิชา เพื่อพัฒนาและปลดล็อกร่างวิวัฒนาการสัตว์เลี้ยงทุกตัว
+              </p>
             </div>
           </div>
+          <span className="bg-white px-3 py-1 rounded-xl border border-[#EDE7DE] text-xs font-black text-[#54754B] shadow-2xs">
+            คู่หูประจำกาย: {PET_CATALOG[activePetType]?.name || 'เสี่ยวหลง'}
+          </span>
+        </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            {/* Sister 1 Card */}
-            <div
-              className={`p-4 rounded-2xl border-2 transition-all flex items-center justify-between gap-3 ${
-                activeProfile.id === sister1.id
-                  ? 'bg-white border-[#6A8D60] shadow-sm ring-2 ring-[#6A8D60]/20'
-                  : 'bg-white/70 border-[#EDE7DE]'
-              }`}
-            >
-              <div className="flex items-center gap-3">
-                <span className="text-3xl">{sister1.avatar}</span>
-                <div>
-                  <span className="font-black text-sm text-slate-800 block">
-                    {sister1.nickname || sister1.name}
-                  </span>
-                  <div className="text-xs font-bold text-slate-500 mt-0.5">
-                    สัตว์เลี้ยง: <strong className="text-slate-800">{s1ActivePet?.name || 'เสี่ยวหลง'}</strong>
-                  </div>
-                  <div className="text-xs font-black text-[#6A8D60] mt-0.5">
-                    ระดับ: Level {s1Level} • ({s1Fed.toLocaleString()} ⭐)
-                  </div>
-                </div>
-              </div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-3">
+          {(['dragon', 'panda', 'jellyfish', 'hippo'] as PetType[]).map((t) => {
+            const pData = activeProfile.pets?.[t] || {
+              level: 1,
+              totalStarsFed: 0,
+              stage: 1,
+              name: PET_CATALOG[t]?.name,
+            };
+            const isCurrent = activePetType === t;
+            const catalog = PET_CATALOG[t];
 
-              {activeProfile.id !== sister1.id ? (
-                <button
-                  onClick={() => {
-                    sfx.playCorrect();
-                    onSwitchProfile?.(sister1.id);
-                  }}
-                  className="px-3 py-1.5 bg-[#FAF7F2] hover:bg-[#6A8D60] hover:text-white text-slate-700 border border-[#EDE7DE] rounded-xl text-xs font-black transition-all"
-                >
-                  สลับเล่น
-                </button>
-              ) : (
-                <span className="bg-[#EBF2E8] text-[#54754B] text-[10px] font-black px-2.5 py-1 rounded-lg">
-                  กำลังเล่นอยู่ 👈
-                </span>
-              )}
-            </div>
-
-            {/* Sister 2 Card */}
-            <div
-              className={`p-4 rounded-2xl border-2 transition-all flex items-center justify-between gap-3 ${
-                activeProfile.id === sister2.id
-                  ? 'bg-white border-[#6A8D60] shadow-sm ring-2 ring-[#6A8D60]/20'
-                  : 'bg-white/70 border-[#EDE7DE]'
-              }`}
-            >
-              <div className="flex items-center gap-3">
-                <span className="text-3xl">{sister2.avatar}</span>
-                <div>
-                  <span className="font-black text-sm text-slate-800 block">
-                    {sister2.nickname || sister2.name}
-                  </span>
-                  <div className="text-xs font-bold text-slate-500 mt-0.5">
-                    สัตว์เลี้ยง: <strong className="text-slate-800">{s2ActivePet?.name || 'เป่าเปา'}</strong>
-                  </div>
-                  <div className="text-xs font-black text-[#6A8D60] mt-0.5">
-                    ระดับ: Level {s2Level} • ({s2Fed.toLocaleString()} ⭐)
+            return (
+              <div
+                key={t}
+                className={`p-3.5 rounded-2xl border-2 transition-all flex flex-col justify-between gap-2.5 ${
+                  isCurrent
+                    ? 'bg-white border-[#6A8D60] shadow-sm ring-2 ring-[#6A8D60]/20'
+                    : 'bg-white/70 border-[#EDE7DE] hover:border-slate-300'
+                }`}
+              >
+                <div className="flex items-center gap-2.5">
+                  <span className="text-3xl">{catalog?.emoji || '🐲'}</span>
+                  <div>
+                    <span className="font-black text-sm text-slate-800 block">
+                      {catalog?.name}
+                    </span>
+                    <span className="text-[11px] text-slate-500 font-bold block">
+                      Lv.{pData.level || 1} • ร่างที่ {pData.stage || 1}
+                    </span>
+                    <span className="text-[10px] text-[#6A8D60] font-black">
+                      ⭐ ป้อนแล้ว {(pData.totalStarsFed || 0).toLocaleString()} ดวง
+                    </span>
                   </div>
                 </div>
-              </div>
 
-              {activeProfile.id !== sister2.id ? (
-                <button
-                  onClick={() => {
-                    sfx.playCorrect();
-                    onSwitchProfile?.(sister2.id);
-                  }}
-                  className="px-3 py-1.5 bg-[#FAF7F2] hover:bg-[#6A8D60] hover:text-white text-slate-700 border border-[#EDE7DE] rounded-xl text-xs font-black transition-all"
-                >
-                  สลับเล่น
-                </button>
-              ) : (
-                <span className="bg-[#EBF2E8] text-[#54754B] text-[10px] font-black px-2.5 py-1 rounded-lg">
-                  กำลังเล่นอยู่ 👈
-                </span>
-              )}
-            </div>
-          </div>
-        </section>
-      )}
+                {isCurrent ? (
+                  <span className="bg-[#EBF2E8] text-[#54754B] text-[10px] font-black px-2.5 py-1 rounded-lg text-center">
+                    กำลังใช้งาน ✓
+                  </span>
+                ) : (
+                  <button
+                    onClick={() => {
+                      sfx.playCorrect();
+                      onSwitchPetType(t);
+                    }}
+                    className="w-full py-1.5 bg-[#FAF7F2] hover:bg-[#6A8D60] hover:text-white text-slate-700 border border-[#EDE7DE] rounded-xl text-xs font-black transition-all text-center"
+                  >
+                    เลือกตัวนี้
+                  </button>
+                )}
+              </div>
+            );
+          })}
+        </div>
+      </section>
     </div>
   );
 };

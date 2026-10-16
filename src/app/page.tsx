@@ -28,6 +28,7 @@ import {
   Trophy,
   ChevronRight,
   Sparkles,
+  BarChart3,
 } from 'lucide-react';
 
 interface SubjectGuideCard {
@@ -112,12 +113,6 @@ export default function CentralPortal() {
   const activeDef = PET_CATALOG[activePetType] || PET_CATALOG.dragon;
   const activePetData = activeProfile.pets?.[activePetType] || activeProfile.pet;
   const progress = calculatePetProgress(activePetType, activePetData.totalStarsFed || 0);
-
-  // Sibling showdown data
-  const sister1 = profiles.find((p) => p.id === 'sister-1') || profiles[0];
-  const sister2 = profiles.find((p) => p.id === 'sister-2') || profiles[1] || profiles[0];
-  const s1Level = sister1?.pets?.[sister1?.activePetType || 'dragon']?.level || 1;
-  const s2Level = sister2?.pets?.[sister2?.activePetType || 'panda']?.level || 1;
 
   const handleSwitchProfile = (id: string) => {
     setActiveId(id);
@@ -421,33 +416,81 @@ export default function CentralPortal() {
         </section>
 
         {/* ========================================================
-            5. SIBLINGS SHOWDOWN (Clean & Friendly)
+            5. LEARNING ANALYTICS & PROGRESS OVERVIEW (Universal Multi-User)
            ======================================================== */}
-        <section className="kids-card p-4 sm:p-5 flex flex-col sm:flex-row items-center justify-between gap-3 border border-white/90 shadow-md">
-          <div className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-2xl bg-amber-100 text-amber-700 flex items-center justify-center text-xl shadow-2xs">
-              🏆
+        <section className="kids-card p-5 sm:p-6 border border-white/90 shadow-md space-y-4 bg-gradient-to-br from-white/90 via-indigo-50/30 to-amber-50/30">
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+            <div className="flex items-center gap-3">
+              <div className="w-11 h-11 rounded-2xl bg-gradient-to-tr from-indigo-500 to-purple-600 text-white flex items-center justify-center text-xl shadow-md">
+                📊
+              </div>
+              <div>
+                <h4 className="text-sm sm:text-base font-black text-slate-800 flex items-center gap-2">
+                  <span>แดชบอร์ดความก้าวหน้า 4 วิชา</span>
+                  <span className="text-[10px] bg-indigo-100 text-indigo-700 font-bold px-2 py-0.5 rounded-full">
+                    {activeProfile.nickname || activeProfile.name}
+                  </span>
+                </h4>
+                <p className="text-xs text-slate-500 font-bold">
+                  สะสมดาวรวม {(activeProfile.stars || 0).toLocaleString()} ⭐ • สตรีค {activeProfile.streak} วัน
+                </p>
+              </div>
             </div>
-            <div>
-              <h4 className="text-xs sm:text-sm font-black text-slate-800">
-                สนามประลองเลเวลสองพี่น้อง
-              </h4>
-              <p className="text-[11px] text-slate-400 font-bold">
-                {sister1.name} (Lv.{s1Level}) vs {sister2.name} (Lv.{s2Level})
-              </p>
-            </div>
+
+            <button
+              onClick={() => {
+                sfx.playCorrect();
+                setIsProfileManagerOpen(true);
+              }}
+              className="px-4 py-2 bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-700 hover:to-purple-700 text-white rounded-2xl text-xs font-black transition-all flex items-center justify-center gap-1.5 shadow-md hover:scale-102 active:scale-98"
+            >
+              <BarChart3 className="w-4 h-4 text-yellow-300" />
+              <span>ดูกราฟเรดาร์ & จัดการโปรไฟล์ ➔</span>
+            </button>
           </div>
 
-          <button
-            onClick={() => {
-              sfx.playCorrect();
-              setIsPetModalOpen(true);
-            }}
-            className="w-full sm:w-auto glass-pill hover:bg-white text-slate-700 px-4 py-1.5 rounded-xl text-xs font-black transition-all flex items-center justify-center gap-1.5 shadow-2xs"
-          >
-            <Trophy className="w-3.5 h-3.5 text-amber-500" />
-            <span>ดูตารางเทียบ</span>
-          </button>
+          {/* 4 Mini Subject Progress Indicators */}
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-2.5 pt-1">
+            <div className="bg-white/80 border border-rose-200/80 rounded-2xl p-2.5 flex items-center justify-between shadow-2xs">
+              <span className="text-xs font-black text-slate-700 flex items-center gap-1">
+                <span>🇨🇳</span>
+                <span>จีน</span>
+              </span>
+              <span className="text-xs font-black text-rose-600">
+                {(activeProfile.subjectStars?.chinese || 0).toLocaleString()} ⭐
+              </span>
+            </div>
+
+            <div className="bg-white/80 border border-indigo-200/80 rounded-2xl p-2.5 flex items-center justify-between shadow-2xs">
+              <span className="text-xs font-black text-slate-700 flex items-center gap-1">
+                <span>🔢</span>
+                <span>คณิต</span>
+              </span>
+              <span className="text-xs font-black text-indigo-600">
+                {(activeProfile.subjectStars?.math || 0).toLocaleString()} ⭐
+              </span>
+            </div>
+
+            <div className="bg-white/80 border border-sky-200/80 rounded-2xl p-2.5 flex items-center justify-between shadow-2xs">
+              <span className="text-xs font-black text-slate-700 flex items-center gap-1">
+                <span>🇬🇧</span>
+                <span>อังกฤษ</span>
+              </span>
+              <span className="text-xs font-black text-sky-600">
+                {(activeProfile.subjectStars?.english || 0).toLocaleString()} ⭐
+              </span>
+            </div>
+
+            <div className="bg-white/80 border border-emerald-200/80 rounded-2xl p-2.5 flex items-center justify-between shadow-2xs">
+              <span className="text-xs font-black text-slate-700 flex items-center gap-1">
+                <span>🔬</span>
+                <span>วิทย์</span>
+              </span>
+              <span className="text-xs font-black text-emerald-600">
+                {(activeProfile.subjectStars?.science || 0).toLocaleString()} ⭐
+              </span>
+            </div>
+          </div>
         </section>
       </main>
 
@@ -492,8 +535,8 @@ export default function CentralPortal() {
           }}
           className="flex flex-col items-center gap-0.5 text-slate-400 hover:text-slate-800 font-black text-[10px] group"
         >
-          <span className="text-lg group-hover:scale-115 transition-transform">👥</span>
-          <span>ผู้เรียน</span>
+          <span className="text-lg group-hover:scale-115 transition-transform">👤</span>
+          <span>โปรไฟล์ & กราฟ</span>
         </button>
       </div>
 
@@ -525,6 +568,8 @@ export default function CentralPortal() {
         onClose={() => setIsProfileManagerOpen(false)}
         activeProfile={activeProfile}
         profiles={profiles}
+        cloudUser={cloudUser}
+        onOpenAuthModal={() => setIsAuthModalOpen(true)}
         onProfilesChanged={(newProfiles: UserProfile[], newActiveId: string) => {
           setProfiles(newProfiles);
           setActiveId(newActiveId);

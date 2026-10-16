@@ -926,6 +926,8 @@ export default function EnglishPage() {
         onClose={() => setIsProfileManagerOpen(false)}
         activeProfile={activeProfile}
         profiles={profiles}
+        cloudUser={cloudUser}
+        onOpenAuthModal={() => setIsAuthModalOpen(true)}
         onProfilesChanged={(newProfiles, newActiveId) => {
           setProfiles(newProfiles);
           setActiveId(newActiveId);

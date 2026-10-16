@@ -65,7 +65,7 @@ export async function POST(req: NextRequest) {
           role: 'user',
           parts: [
             {
-              text: `${SYSTEM_PROMPT}\n\nผู้เรียนชื่อ: ${profileName || 'น้องสาว'}\nข้อความที่เด็กพูด: "${message}"\n\nจงตอบกลับอย่างอบอุ่น โดยให้มีทั้งตัวอักษรจีน (Hanzi), พินอิน (Pinyin), และคำแปลภาษาไทย ให้คำตอบอยู่ในรูปแบบ JSON: {"hanzi": "...", "pinyin": "...", "thai": "..."}`,
+              text: `${SYSTEM_PROMPT}\n\nผู้เรียนชื่อ: ${profileName || 'นักเรียน'}\nข้อความที่เด็กพูด: "${message}"\n\nจงตอบกลับอย่างอบอุ่น โดยให้มีทั้งตัวอักษรจีน (Hanzi), พินอิน (Pinyin), และคำแปลภาษาไทย ให้คำตอบอยู่ในรูปแบบ JSON: {"hanzi": "...", "pinyin": "...", "thai": "..."}`,
             },
           ],
         },

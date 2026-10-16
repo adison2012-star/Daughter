@@ -25,57 +25,34 @@ export function createInitialPets(): Record<PetType, PetCompanionData> {
   return res;
 }
 
-const sister1Pets = createInitialPets();
-const sister2Pets = createInitialPets();
+const defaultLearnerPets = createInitialPets();
 
-export const DEFAULT_PROFILES: UserProfile[] = [
-  {
-    id: 'sister-1',
-    name: 'พี่สาว (姐姐)',
-    nickname: 'พี่คนโต',
-    avatar: '👧🏻',
-    color: 'from-pink-400 to-rose-500',
-    level: 1,
-    stars: 150,
-    subjectStars: {
-      chinese: 40,
-      math: 50,
-      english: 30,
-      science: 30,
-    },
-    streak: 3,
-    lastActiveDate: new Date().toISOString().split('T')[0],
-    masteredWords: ['cat', 'apple', 'hello'],
-    unlockedLevels: [1], // Only Level 1 unlocked initially
-    parentOverrideUnlockAll: false,
-    activePetType: 'dragon',
-    pets: sister1Pets,
-    pet: sister1Pets.dragon,
+export const DEFAULT_LEARNER: UserProfile = {
+  id: 'learner-profile-default',
+  name: 'ผู้เรียน (Student)',
+  nickname: 'นักเรียนคนเก่ง',
+  avatar: '🌟',
+  color: 'from-amber-400 to-rose-500',
+  level: 1,
+  stars: 120,
+  subjectStars: {
+    chinese: 30,
+    math: 30,
+    english: 30,
+    science: 30,
   },
-  {
-    id: 'sister-2',
-    name: 'น้องสาว (妹妹)',
-    nickname: 'น้องคนเล็ก',
-    avatar: '🧒🏻',
-    color: 'from-amber-400 to-orange-500',
-    level: 1,
-    stars: 120,
-    subjectStars: {
-      chinese: 30,
-      math: 40,
-      english: 25,
-      science: 25,
-    },
-    streak: 2,
-    lastActiveDate: new Date().toISOString().split('T')[0],
-    masteredWords: ['mom', 'water', 'one'],
-    unlockedLevels: [1], // Only Level 1 unlocked initially
-    parentOverrideUnlockAll: false,
-    activePetType: 'panda',
-    pets: sister2Pets,
-    pet: sister2Pets.panda,
-  },
-];
+  streak: 1,
+  lastActiveDate: new Date().toISOString().split('T')[0],
+  masteredWords: ['cat', 'apple', 'hello'],
+  unlockedLevels: [1], // Only Level 1 unlocked initially
+  parentOverrideUnlockAll: false,
+  activePetType: 'dragon',
+  pets: defaultLearnerPets,
+  pet: defaultLearnerPets.dragon,
+  gradeLevel: 'p1_3',
+};
+
+export const DEFAULT_PROFILES: UserProfile[] = [DEFAULT_LEARNER];
 
 const STORAGE_KEYS = {
   ACTIVE_PROFILE_ID: 'zhongwen_active_profile_id',
@@ -120,8 +97,6 @@ export function getStoredProfiles(): UserProfile[] {
       const rawActive = (p.activePetType || p.pet?.type) as PetType;
       const activePetType: PetType = validTypes.includes(rawActive)
         ? rawActive
-        : p.id === 'sister-2'
-        ? 'panda'
         : 'dragon';
 
       const initialPets = createInitialPets();

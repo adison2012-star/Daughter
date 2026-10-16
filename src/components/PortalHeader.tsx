@@ -132,24 +132,27 @@ export const PortalHeader: React.FC<PortalHeaderProps> = ({
             </button>
           )}
 
-          {/* Dedicated Single-User Mode vs Multi-Profile Switcher */}
-          {cloudUser ? (
-            /* Single Account Pill for this iPad */
-            <button
-              onClick={() => {
-                sfx.playClick();
-                onOpenAuthModal?.();
-              }}
-              className="flex items-center gap-2 px-3 py-1 rounded-2xl glass-pill hover:bg-white text-slate-800 shadow-xs hover:scale-102 transition-all border border-amber-200/80 bg-gradient-to-r from-amber-50/70 to-rose-50/70"
-              title={`บัญชีของเครื่องนี้: ${cloudUser.email} (คลิกเพื่อดูสถานะซิงก์คลาวด์)`}
-            >
-              <span className="text-base leading-none">{activeProfile.avatar}</span>
-              <div className="flex flex-col text-left">
-                <span className="text-[12px] font-black leading-tight text-slate-800">
-                  {activeProfile.nickname || activeProfile.name}
-                </span>
-                <span className="flex items-center gap-1 text-[9px] font-bold">
-                  {syncState.status === 'syncing' ? (
+          {/* Universal Student Profile Pill (Click to open Profile & Analytics) */}
+          <button
+            onClick={() => {
+              sfx.playClick();
+              if (onOpenProfileManager) {
+                onOpenProfileManager();
+              } else if (onOpenAuthModal) {
+                onOpenAuthModal();
+              }
+            }}
+            className="flex items-center gap-2 px-3 py-1 rounded-2xl glass-pill hover:bg-white text-slate-800 shadow-xs hover:scale-102 transition-all border border-amber-200/80 bg-gradient-to-r from-amber-50/70 to-rose-50/70"
+            title={`${activeProfile.nickname || activeProfile.name} (คลิกเพื่อดูกราฟวิเคราะห์ & จัดการโปรไฟล์)`}
+          >
+            <span className="text-base leading-none">{activeProfile.avatar}</span>
+            <div className="flex flex-col text-left">
+              <span className="text-[12px] font-black leading-tight text-slate-800">
+                {activeProfile.nickname || activeProfile.name}
+              </span>
+              <span className="flex items-center gap-1 text-[9px] font-bold">
+                {cloudUser ? (
+                  syncState.status === 'syncing' ? (
                     <span className="text-sky-600 flex items-center gap-1">
                       <span className="w-1.5 h-1.5 rounded-full bg-sky-500 animate-pulse" />
                       บันทึกคลาวด์...
@@ -169,64 +172,30 @@ export const PortalHeader: React.FC<PortalHeaderProps> = ({
                       <span className="w-1.5 h-1.5 rounded-full bg-emerald-500" />
                       คลาวด์ปลอดภัย
                     </span>
-                  )}
-                </span>
-              </div>
-            </button>
-          ) : (
-            /* Guest / Local Multi-Profile Mode */
-            <div className="flex items-center gap-1.5">
-              {onOpenAuthModal && (
-                <button
-                  onClick={() => {
-                    sfx.playClick();
-                    onOpenAuthModal();
-                  }}
-                  className="flex items-center gap-1 px-2.5 py-1.5 rounded-2xl glass-pill hover:bg-white text-slate-700 shadow-xs hover:scale-105 active:scale-95 transition-all text-xs font-black border border-sky-200/80 bg-sky-50/40"
-                  title="เข้าสู่ระบบ / เชื่อมต่อคลาวด์แยกเครื่อง"
-                >
-                  <Cloud className="w-4 h-4 text-sky-500" />
-                  <span className="hidden sm:inline text-[11px] text-sky-700">เข้าสู่ระบบ</span>
-                </button>
-              )}
-
-              <div className="flex items-center glass-pill p-0.5 shadow-xs">
-                {profiles.slice(0, 3).map((p) => {
-                  const isActive = p.id === activeProfile.id;
-                  return (
-                    <button
-                      key={p.id}
-                      onClick={() => {
-                        sfx.playCorrect();
-                        onSwitchProfile(p.id);
-                      }}
-                      className={`flex items-center gap-1 px-2.5 py-1 rounded-xl text-xs font-black transition-all ${
-                        isActive
-                          ? 'bg-amber-100/90 text-slate-900 border border-amber-300 font-extrabold shadow-2xs'
-                          : 'text-slate-400 hover:text-slate-700'
-                      }`}
-                      title={p.name}
-                    >
-                      <span className="text-sm">{p.avatar}</span>
-                      <span className="hidden md:inline text-[11px]">{p.nickname || p.name}</span>
-                    </button>
-                  );
-                })}
-
-                {onOpenProfileManager && (
-                  <button
-                    onClick={() => {
-                      sfx.playClick();
-                      onOpenProfileManager();
-                    }}
-                    className="p-1 text-slate-400 hover:text-slate-700 transition-colors"
-                    title="จัดการผู้เรียน (+)"
-                  >
-                    <Plus className="w-3.5 h-3.5" />
-                  </button>
+                  )
+                ) : (
+                  <span className="text-slate-400 flex items-center gap-1">
+                    <span className="w-1.5 h-1.5 rounded-full bg-slate-300" />
+                    โหมดทดลอง
+                  </span>
                 )}
-              </div>
+              </span>
             </div>
+          </button>
+
+          {/* If Guest, show 1-click Sign In / Sign Up pill */}
+          {!cloudUser && onOpenAuthModal && (
+            <button
+              onClick={() => {
+                sfx.playClick();
+                onOpenAuthModal();
+              }}
+              className="flex items-center gap-1 px-2.5 py-1.5 rounded-2xl glass-pill hover:bg-white text-slate-700 shadow-xs hover:scale-105 active:scale-95 transition-all text-xs font-black border border-sky-200/80 bg-sky-50/40"
+              title="เข้าสู่ระบบ / เชื่อมต่อคลาวด์"
+            >
+              <Cloud className="w-4 h-4 text-sky-500" />
+              <span className="hidden sm:inline text-[11px] text-sky-700">เข้าสู่ระบบ</span>
+            </button>
           )}
         </div>
       </div>
