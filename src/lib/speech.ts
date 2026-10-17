@@ -1,5 +1,102 @@
 'use client';
 
+// Cached voices to ensure immediate availability and voice consistency
+let cachedVoices: SpeechSynthesisVoice[] = [];
+
+function loadVoices(): SpeechSynthesisVoice[] {
+  if (typeof window === 'undefined' || !('speechSynthesis' in window)) return [];
+  if (cachedVoices.length > 0) return cachedVoices;
+  const voices = window.speechSynthesis.getVoices();
+  if (voices && voices.length > 0) {
+    cachedVoices = voices;
+  }
+  return cachedVoices;
+}
+
+if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
+  loadVoices();
+  window.speechSynthesis.onvoiceschanged = () => {
+    cachedVoices = window.speechSynthesis.getVoices();
+  };
+}
+
+/**
+ * Finds the best Chinese voice (Prioritizing standard Mandarin zh-CN clear voices)
+ */
+function getBestChineseVoice(): SpeechSynthesisVoice | null {
+  const voices = loadVoices();
+  if (voices.length === 0) return null;
+
+  // Preferred Apple iOS & Android standard Mandarin voices:
+  // "Tingting" (iOS standard Beijing Mandarin female), "Lili", "Meijia", "Siri" zh-CN
+  const preferredNames = ['tingting', 'ting-ting', 'lili', 'meijia', 'xiaoxiao', 'siri', 'natural'];
+
+  for (const pref of preferredNames) {
+    const match = voices.find(
+      (v) =>
+        (v.lang === 'zh-CN' || v.lang === 'zh_CN') &&
+        v.name.toLowerCase().includes(pref)
+    );
+    if (match) return match;
+  }
+
+  // Fallback to any zh-CN voice (avoiding zh-HK Cantonese)
+  const anyMandarin = voices.find((v) => v.lang === 'zh-CN' || v.lang === 'zh_CN');
+  if (anyMandarin) return anyMandarin;
+
+  const mandarinByName = voices.find(
+    (v) =>
+      (v.name.toLowerCase().includes('mandarin') || v.name.toLowerCase().includes('chinese')) &&
+      !v.name.toLowerCase().includes('cantonese') &&
+      !v.lang.includes('HK')
+  );
+  if (mandarinByName) return mandarinByName;
+
+  return voices.find((v) => v.lang.startsWith('zh')) || null;
+}
+
+/**
+ * Finds the best English voice (Prioritizing friendly, standard US English voices)
+ */
+function getBestEnglishVoice(): SpeechSynthesisVoice | null {
+  const voices = loadVoices();
+  if (voices.length === 0) return null;
+
+  // Preferred friendly Apple iOS & Android voices for kids:
+  // "Samantha" (iOS standard US female), "Ava", "Allison", "Victoria", "Siri"
+  const preferredNames = ['samantha', 'ava', 'allison', 'victoria', 'siri', 'jenny', 'karen', 'alex'];
+
+  for (const pref of preferredNames) {
+    const match = voices.find(
+      (v) =>
+        (v.lang === 'en-US' || v.lang === 'en_US') &&
+        v.name.toLowerCase().includes(pref)
+    );
+    if (match) return match;
+  }
+
+  const anyUS = voices.find((v) => v.lang === 'en-US' || v.lang === 'en_US');
+  if (anyUS) return anyUS;
+
+  const anyGB = voices.find((v) => v.lang === 'en-GB' || v.lang === 'en_GB');
+  if (anyGB) return anyGB;
+
+  return voices.find((v) => v.lang.startsWith('en')) || null;
+}
+
+/**
+ * Finds the best Thai voice
+ */
+function getBestThaiVoice(): SpeechSynthesisVoice | null {
+  const voices = loadVoices();
+  if (voices.length === 0) return null;
+
+  const match = voices.find((v) => v.lang === 'th-TH' || v.lang === 'th_TH');
+  if (match) return match;
+
+  return voices.find((v) => v.lang.startsWith('th')) || null;
+}
+
 // Speech Synthesis (TTS)
 export function speakChinese(text: string, rate: number = 0.85) {
   if (typeof window === 'undefined' || !('speechSynthesis' in window)) return;
@@ -12,13 +109,9 @@ export function speakChinese(text: string, rate: number = 0.85) {
   utterance.rate = rate; // slightly slower for young learners
   utterance.pitch = 1.05; // slightly higher and clearer for kids
 
-  // Try to find a natural Chinese voice if available
-  const voices = window.speechSynthesis.getVoices();
-  const chineseVoice = voices.find(
-    (v) => v.lang.startsWith('zh') || v.name.includes('Chinese') || v.name.includes('Mandarin')
-  );
-  if (chineseVoice) {
-    utterance.voice = chineseVoice;
+  const voice = getBestChineseVoice();
+  if (voice) {
+    utterance.voice = voice;
   }
 
   window.speechSynthesis.speak(utterance);
@@ -31,6 +124,12 @@ export function speakThai(text: string, rate: number = 0.9) {
   const utterance = new SpeechSynthesisUtterance(text);
   utterance.lang = 'th-TH';
   utterance.rate = rate;
+
+  const voice = getBestThaiVoice();
+  if (voice) {
+    utterance.voice = voice;
+  }
+
   window.speechSynthesis.speak(utterance);
 }
 
@@ -41,6 +140,13 @@ export function speakEnglish(text: string, rate: number = 0.9) {
   const utterance = new SpeechSynthesisUtterance(text);
   utterance.lang = 'en-US';
   utterance.rate = rate;
+  utterance.pitch = 1.05;
+
+  const voice = getBestEnglishVoice();
+  if (voice) {
+    utterance.voice = voice;
+  }
+
   window.speechSynthesis.speak(utterance);
 }
 
