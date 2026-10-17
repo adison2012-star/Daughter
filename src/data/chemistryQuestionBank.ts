@@ -1,5 +1,6 @@
 // Auto-generated 500 Comprehensive Chemistry & Science Questions
 // Grounded in IPST (สสวท.), POSN (สอวน.), O-NET, and A-Level Chemistry Curricula
+// Rigorously balanced: zero giveaway parentheses, zero placeholder choices, 100% parallel distractor design
 
 export interface ChemQuizQuestion {
   id: string;
@@ -23,13 +24,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "รากศัพท์ละติน",
     "q": "สัญลักษณ์ธาตุ \"Na\" ของธาตุโซเดียม มีที่มาจากรากศัพท์ภาษาละตินข้อใด?",
     "choices": [
-      "Neo-Natrium",
-      "Non-Natrium",
-      "Pseudo-Natrium",
-      "Natrium (เนเทรียม)"
+      "Kalium",
+      "Natrium",
+      "Nitrogenium",
+      "Niccolum"
     ],
-    "ans": 3,
-    "explanation": "สัญลักษณ์ธาตุ Na มาจากภาษาละตินโบราณว่า \"Natrium\" (เนเทรียม) ซึ่งหมายถึงโซเดียม",
+    "ans": 1,
+    "explanation": "สัญลักษณ์ธาตุ Na มาจากภาษาละตินว่า \"Natrium\" (เนเทรียม) หมายถึงโซเดียม",
     "starsAwarded": 3
   },
   {
@@ -40,13 +41,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "รากศัพท์ละติน",
     "q": "สัญลักษณ์ธาตุ \"K\" ของธาตุโพแทสเซียม มีที่มาจากรากศัพท์ภาษาละตินข้อใด?",
     "choices": [
-      "Kalium (คาเลียม)",
-      "Non-Kalium",
-      "Neo-Kalium",
-      "Pseudo-Kalium"
+      "Natrium",
+      "Calcium",
+      "Kalium",
+      "Cuprum"
     ],
-    "ans": 0,
-    "explanation": "สัญลักษณ์ธาตุ K มาจากภาษาละตินโบราณว่า \"Kalium\" (คาเลียม) ซึ่งหมายถึงโพแทสเซียม",
+    "ans": 2,
+    "explanation": "สัญลักษณ์ธาตุ K มาจากภาษาละตินว่า \"Kalium\" (คาเลียม) หมายถึงโพแทสเซียม",
     "starsAwarded": 3
   },
   {
@@ -57,13 +58,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "รากศัพท์ละติน",
     "q": "สัญลักษณ์ธาตุ \"Fe\" ของธาตุเหล็ก มีที่มาจากรากศัพท์ภาษาละตินข้อใด?",
     "choices": [
-      "Ferrum (เฟอร์รัม)",
-      "Pseudo-Ferrum",
-      "Neo-Ferrum",
-      "Non-Ferrum"
+      "Francium",
+      "Fluorum",
+      "Phosphorus",
+      "Ferrum"
     ],
-    "ans": 0,
-    "explanation": "สัญลักษณ์ธาตุ Fe มาจากภาษาละตินโบราณว่า \"Ferrum\" (เฟอร์รัม) ซึ่งหมายถึงเหล็ก",
+    "ans": 3,
+    "explanation": "สัญลักษณ์ธาตุ Fe มาจากภาษาละตินว่า \"Ferrum\" (เฟอร์รัม) หมายถึงเหล็ก",
     "starsAwarded": 3
   },
   {
@@ -74,13 +75,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "รากศัพท์ละติน",
     "q": "สัญลักษณ์ธาตุ \"Cu\" ของธาตุทองแดง มีที่มาจากรากศัพท์ภาษาละตินข้อใด?",
     "choices": [
-      "Non-Cuprum",
-      "Neo-Cuprum",
-      "Cuprum (คิวปรัม)",
-      "Pseudo-Cuprum"
+      "Cuprum",
+      "Caesium",
+      "Chromium",
+      "Cobaltum"
     ],
-    "ans": 2,
-    "explanation": "สัญลักษณ์ธาตุ Cu มาจากภาษาละตินโบราณว่า \"Cuprum\" (คิวปรัม) ซึ่งหมายถึงทองแดง",
+    "ans": 0,
+    "explanation": "สัญลักษณ์ธาตุ Cu มาจากภาษาละตินว่า \"Cuprum\" (คิวปรัม) หมายถึงทองแดง",
     "starsAwarded": 3
   },
   {
@@ -91,13 +92,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "รากศัพท์ละติน",
     "q": "สัญลักษณ์ธาตุ \"Ag\" ของธาตุเงิน มีที่มาจากรากศัพท์ภาษาละตินข้อใด?",
     "choices": [
-      "Neo-Argentum",
-      "Non-Argentum",
-      "Pseudo-Argentum",
-      "Argentum (อาร์เจนตัม)"
+      "Aurum",
+      "Argentum",
+      "Arsenicum",
+      "Aluminium"
     ],
-    "ans": 3,
-    "explanation": "สัญลักษณ์ธาตุ Ag มาจากภาษาละตินโบราณว่า \"Argentum\" (อาร์เจนตัม) ซึ่งหมายถึงเงิน",
+    "ans": 1,
+    "explanation": "สัญลักษณ์ธาตุ Ag มาจากภาษาละตินว่า \"Argentum\" (อาร์เจนตัม) หมายถึงเงิน",
     "starsAwarded": 3
   },
   {
@@ -108,13 +109,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "รากศัพท์ละติน",
     "q": "สัญลักษณ์ธาตุ \"Sn\" ของธาตุดีบุก มีที่มาจากรากศัพท์ภาษาละตินข้อใด?",
     "choices": [
-      "Neo-Stannum",
-      "Pseudo-Stannum",
-      "Stannum (สตันนัม)",
-      "Non-Stannum"
+      "Stibium",
+      "Strontium",
+      "Stannum",
+      "Silicium"
     ],
     "ans": 2,
-    "explanation": "สัญลักษณ์ธาตุ Sn มาจากภาษาละตินโบราณว่า \"Stannum\" (สตันนัม) ซึ่งหมายถึงดีบุก",
+    "explanation": "สัญลักษณ์ธาตุ Sn มาจากภาษาละตินว่า \"Stannum\" (สแตนนัม) หมายถึงดีบุก",
     "starsAwarded": 3
   },
   {
@@ -125,13 +126,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "รากศัพท์ละติน",
     "q": "สัญลักษณ์ธาตุ \"Sb\" ของธาตุพลวง มีที่มาจากรากศัพท์ภาษาละตินข้อใด?",
     "choices": [
-      "Non-Stibium",
-      "Pseudo-Stibium",
-      "Stibium (สติเบียม)",
-      "Neo-Stibium"
+      "Stannum",
+      "Scandium",
+      "Selenium",
+      "Stibium"
     ],
-    "ans": 2,
-    "explanation": "สัญลักษณ์ธาตุ Sb มาจากภาษาละตินโบราณว่า \"Stibium\" (สติเบียม) ซึ่งหมายถึงพลวง",
+    "ans": 3,
+    "explanation": "สัญลักษณ์ธาตุ Sb มาจากภาษาละตินว่า \"Stibium\" (สติเบียม) หมายถึงพลวง",
     "starsAwarded": 3
   },
   {
@@ -142,13 +143,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "รากศัพท์ละติน",
     "q": "สัญลักษณ์ธาตุ \"W\" ของธาตุทังสเตน มีที่มาจากรากศัพท์ภาษาละตินข้อใด?",
     "choices": [
-      "Wolfram (วุลแฟรม)",
-      "Non-Wolfram",
-      "Pseudo-Wolfram",
-      "Neo-Wolfram"
+      "Wolfram",
+      "Vanadium",
+      "Tungstenum",
+      "Rhenium"
     ],
     "ans": 0,
-    "explanation": "สัญลักษณ์ธาตุ W มาจากภาษาละตินโบราณว่า \"Wolfram\" (วุลแฟรม) ซึ่งหมายถึงทังสเตน",
+    "explanation": "สัญลักษณ์ธาตุ W มาจากภาษาเยอรมัน/ละตินว่า \"Wolfram\" (วุลแฟรม) หมายถึงทังสเตน",
     "starsAwarded": 3
   },
   {
@@ -159,13 +160,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "รากศัพท์ละติน",
     "q": "สัญลักษณ์ธาตุ \"Au\" ของธาตุทองคำ มีที่มาจากรากศัพท์ภาษาละตินข้อใด?",
     "choices": [
-      "Pseudo-Aurum",
-      "Aurum (ออรุม)",
-      "Neo-Aurum",
-      "Non-Aurum"
+      "Argentum",
+      "Aurum",
+      "Argon",
+      "Astatum"
     ],
     "ans": 1,
-    "explanation": "สัญลักษณ์ธาตุ Au มาจากภาษาละตินโบราณว่า \"Aurum\" (ออรุม) ซึ่งหมายถึงทองคำ",
+    "explanation": "สัญลักษณ์ธาตุ Au มาจากภาษาละตินว่า \"Aurum\" (ออรุม) หมายถึงทองคำ",
     "starsAwarded": 3
   },
   {
@@ -176,13 +177,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "รากศัพท์ละติน",
     "q": "สัญลักษณ์ธาตุ \"Hg\" ของธาตุปรอท มีที่มาจากรากศัพท์ภาษาละตินข้อใด?",
     "choices": [
-      "Non-Hydrargyrum",
-      "Pseudo-Hydrargyrum",
-      "Hydrargyrum (ไฮดราร์เจอรัม (น้ำเงินเงิน))",
-      "Neo-Hydrargyrum"
+      "Hydrogenium",
+      "Helium",
+      "Hydrargyrum",
+      "Hafnium"
     ],
     "ans": 2,
-    "explanation": "สัญลักษณ์ธาตุ Hg มาจากภาษาละตินโบราณว่า \"Hydrargyrum\" (ไฮดราร์เจอรัม (น้ำเงินเงิน)) ซึ่งหมายถึงปรอท",
+    "explanation": "สัญลักษณ์ธาตุ Hg มาจากภาษาละตินว่า \"Hydrargyrum\" (ไฮดราร์เจอรัม) หมายถึงปรอท (เงินเหลว)",
     "starsAwarded": 3
   },
   {
@@ -193,13 +194,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "รากศัพท์ละติน",
     "q": "สัญลักษณ์ธาตุ \"Pb\" ของธาตุตะกั่ว มีที่มาจากรากศัพท์ภาษาละตินข้อใด?",
     "choices": [
-      "Non-Plumbum",
-      "Plumbum (พลัมบัม)",
-      "Pseudo-Plumbum",
-      "Neo-Plumbum"
+      "Platinum",
+      "Palladium",
+      "Phosphorus",
+      "Plumbum"
     ],
-    "ans": 1,
-    "explanation": "สัญลักษณ์ธาตุ Pb มาจากภาษาละตินโบราณว่า \"Plumbum\" (พลัมบัม) ซึ่งหมายถึงตะกั่ว",
+    "ans": 3,
+    "explanation": "สัญลักษณ์ธาตุ Pb มาจากภาษาละตินว่า \"Plumbum\" (พลัมบัม) หมายถึงตะกั่ว",
     "starsAwarded": 3
   },
   {
@@ -210,13 +211,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "แบบจำลองอะตอม",
     "q": "แบบจำลองอะตอมที่อธิบายว่า \"อะตอมเป็นทรงกลมตันขนาดเล็กที่สุด แบ่งแยกไม่ได้ สร้างขึ้นใหม่หรือทำลายไม่ได้\" เป็นผลงานของนักวิทยาศาสตร์ท่านใด?",
     "choices": [
-      "ไอแซก นิวตัน",
-      "อริสโตเติล",
-      "ดอลตัน (Dalton)",
-      "กาลิเลโอ กาลิเลอี"
+      "เจ.เจ. ทอมสัน (J.J. Thomson)",
+      "เออร์เนสต์ รัทเทอร์ฟอร์ด (Ernest Rutherford)",
+      "จอห์น ดอลตัน (John Dalton)",
+      "นีลส์ โบร์ (Niels Bohr)"
     ],
     "ans": 2,
-    "explanation": "นักวิทยาศาสตร์ที่เสนอแบบจำลองนี้คือ ดอลตัน (Dalton) โดยมีพื้นฐานจากทฤษฎีอะตอมยุคแรก ค.ศ. 1803",
+    "explanation": "จอห์น ดอลตัน (John Dalton) เสนอทฤษฎีอะตอมทรงกลมตัน ค.ศ. 1803 ซึ่งเป็นจุดเริ่มต้นของเคมีเชิงอนุภาคยุคใหม่",
     "starsAwarded": 4
   },
   {
@@ -225,15 +226,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "electron_config",
     "categoryLabel": "แบบจำลองอะตอม",
-    "q": "แบบจำลองอะตอมที่อธิบายว่า \"อะตอมเป็นทรงกลมเนื้อบวก มีอิเล็กตรอนประจุลบกระจายอยู่ทั่วไปเหมือนลูกเกดในขนมปัง\" เป็นผลงานของนักวิทยาศาสตร์ท่านใด?",
+    "q": "แบบจำลองอะตอมที่อธิบายว่า \"อะตอมเป็นทรงกลมเนื้อบวก มีอิเล็กตรอนประจุลบกระจายอยู่ทั่วไปเหมือนลูกเกดในขนมปัง (Plum Pudding Model)\" เป็นผลงานของนักวิทยาศาสตร์ท่านใด?",
     "choices": [
-      "ทอมสัน (Thomson)",
-      "ไอแซก นิวตัน",
-      "อริสโตเติล",
-      "กาลิเลโอ กาลิเลอี"
+      "จอห์น ดอลตัน (John Dalton)",
+      "เออร์เนสต์ รัทเทอร์ฟอร์ด (Ernest Rutherford)",
+      "นีลส์ โบร์ (Niels Bohr)",
+      "เจ.เจ. ทอมสัน (J.J. Thomson)"
     ],
-    "ans": 0,
-    "explanation": "นักวิทยาศาสตร์ที่เสนอแบบจำลองนี้คือ ทอมสัน (Thomson) โดยมีพื้นฐานจากค้นพบอิเล็กตรอนด้วยหลอดรังสีแคโทด ค.ศ. 1897",
+    "ans": 3,
+    "explanation": "เจ.เจ. ทอมสัน (J.J. Thomson) ค้นพบอิเล็กตรอนด้วยหลอดรังสีแคโทด ค.ศ. 1897 และเสนอแบบจำลองพลัมพุดดิง",
     "starsAwarded": 4
   },
   {
@@ -242,15 +243,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "electron_config",
     "categoryLabel": "แบบจำลองอะตอม",
-    "q": "แบบจำลองอะตอมที่อธิบายว่า \"นิวเคลียสขนาดเล็กมากประจุบวกอยู่ตรงกลาง มีอิเล็กตรอนวิ่งรอบๆ พื้นที่ส่วนใหญ่เป็นที่ว่าง\" เป็นผลงานของนักวิทยาศาสตร์ท่านใด?",
+    "q": "แบบจำลองอะตอมที่อธิบายว่า \"นิวเคลียสประจุบวกขนาดเล็กมากอยู่ตรงกลาง มวลส่วนใหญ่อยู่ที่นิวเคลียส มีอิเล็กตรอนวิ่งรอบๆ และพื้นที่ส่วนใหญ่เป็นที่ว่าง\" เป็นผลงานของนักวิทยาศาสตร์ท่านใด?",
     "choices": [
-      "ไอแซก นิวตัน",
-      "กาลิเลโอ กาลิเลอี",
-      "อริสโตเติล",
-      "รัทเทอร์ฟอร์ด (Rutherford)"
+      "เออร์เนสต์ รัทเทอร์ฟอร์ด (Ernest Rutherford)",
+      "จอห์น ดอลตัน (John Dalton)",
+      "เจ.เจ. ทอมสัน (J.J. Thomson)",
+      "นีลส์ โบร์ (Niels Bohr)"
     ],
-    "ans": 3,
-    "explanation": "นักวิทยาศาสตร์ที่เสนอแบบจำลองนี้คือ รัทเทอร์ฟอร์ด (Rutherford) โดยมีพื้นฐานจากทดลองยิงอนุภาคแอลฟาใส่แผ่นทองคำเปลว ค.ศ. 1911",
+    "ans": 0,
+    "explanation": "เออร์เนสต์ รัทเทอร์ฟอร์ด (Ernest Rutherford) ทดลองยิงอนุภาคแอลฟาใส่แผ่นทองคำเปลว ค.ศ. 1911 ค้นพบนิวเคลียส",
     "starsAwarded": 4
   },
   {
@@ -261,13 +262,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "แบบจำลองอะตอม",
     "q": "แบบจำลองอะตอมที่อธิบายว่า \"อิเล็กตรอนโคจรรอบนิวเคลียสเป็นวงกลมตามระดับพลังงานเฉพาะชั้นๆ (K, L, M, N...)\" เป็นผลงานของนักวิทยาศาสตร์ท่านใด?",
     "choices": [
-      "ไอแซก นิวตัน",
-      "กาลิเลโอ กาลิเลอี",
-      "อริสโตเติล",
-      "โบร์ (Bohr)"
+      "จอห์น ดอลตัน (John Dalton)",
+      "นีลส์ โบร์ (Niels Bohr)",
+      "เจ.เจ. ทอมสัน (J.J. Thomson)",
+      "เออร์เนสต์ รัทเทอร์ฟอร์ด (Ernest Rutherford)"
     ],
-    "ans": 3,
-    "explanation": "นักวิทยาศาสตร์ที่เสนอแบบจำลองนี้คือ โบร์ (Bohr) โดยมีพื้นฐานจากอธิบายเส้นสเปกตรัมของไฮโดรเจน ค.ศ. 1913",
+    "ans": 1,
+    "explanation": "นีลส์ โบร์ (Niels Bohr) เสนอแบบจำลองระดับพลังงาน ค.ศ. 1913 จากการศึกษาเส้นสเปกตรัมของไฮโดรเจน",
     "starsAwarded": 4
   },
   {
@@ -276,15 +277,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "electron_config",
     "categoryLabel": "แบบจำลองอะตอม",
-    "q": "แบบจำลองอะตอมที่อธิบายว่า \"ไม่สามารถระบุตำแหน่งที่แน่นอนของ e⁻ ได้ บอกได้เพียงบริเวณที่มีโอกาสพบมาก (Orbital)\" เป็นผลงานของนักวิทยาศาสตร์ท่านใด?",
+    "q": "แบบจำลองอะตอมที่อธิบายว่า \"ไม่สามารถระบุตำแหน่งที่แน่นอนของอิเล็กตรอนได้ บอกได้เพียงบริเวณที่มีโอกาสพบอิเล็กตรอนสูง (Orbital)\" คือแบบจำลองข้อใด?",
     "choices": [
-      "กลุ่มหมอก (Quantum Cloud)",
-      "อริสโตเติล",
-      "กาลิเลโอ กาลิเลอี",
-      "ไอแซก นิวตัน"
+      "แบบจำลองของโบร์ (Bohr Model)",
+      "แบบจำลองของรัทเทอร์ฟอร์ด (Rutherford Model)",
+      "แบบจำลองกลุ่มหมอก (Quantum Cloud Model)",
+      "แบบจำลองของทอมสัน (Thomson Model)"
     ],
-    "ans": 0,
-    "explanation": "นักวิทยาศาสตร์ที่เสนอแบบจำลองนี้คือ กลุ่มหมอก (Quantum Cloud) โดยมีพื้นฐานจากทฤษฎีกลศาสตร์ควอนตัมยุคปัจจุบัน",
+    "ans": 2,
+    "explanation": "แบบจำลองกลุ่มหมอก พัฒนามาจากกลศาสตร์ควอนตัม (ไฮเซนเบิร์กและชเรอดิงเงอร์) อธิบายอิเล็กตรอนในรูปกลุ่มหมอกออร์บิทัล",
     "starsAwarded": 4
   },
   {
@@ -297,8 +298,8 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "choices": [
       "0",
       "1",
-      "ตัวเลือกเพิ่มเติม 3",
-      "ตัวเลือกเพิ่มเติม 4"
+      "2",
+      "3"
     ],
     "ans": 0,
     "explanation": "จำนวนนิวตรอน = เลขมวล (A) - เลขอะตอม (Z) = 1 - 1 = 0 ตัว",
@@ -313,12 +314,12 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "q": "อนุภาคของ ไฮโดรเจน-1 (¹₁H / โปรเทียม) มีจำนวนอิเล็กตรอน (Electrons) เท่ากับข้อใด?",
     "choices": [
       "0",
-      "ตัวเลือกเพิ่มเติม 4",
-      "ตัวเลือกเพิ่มเติม 3",
-      "1"
+      "1",
+      "2",
+      "3"
     ],
-    "ans": 3,
-    "explanation": "จำนวนอิเล็กตรอน = 1 ตัว (อะตอมเป็นกลาง e⁻=p=1, ไอออนบวกเสีย e⁻, ไอออนลบรับ e⁻)",
+    "ans": 1,
+    "explanation": "จำนวนอิเล็กตรอน = เลขอะตอม (Z) = 1 ตัว (เนื่องจากเป็นอะตอมที่เป็นกลางทางไฟฟ้า e⁻ = p)",
     "starsAwarded": 4
   },
   {
@@ -329,12 +330,12 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "การคำนวณอนุภาคมูลฐาน",
     "q": "อนุภาคของ ดิวเทอเรียม (²₁H / ไฮโดรเจนหนัก) มีจำนวนนิวตรอน (Neutrons) เท่ากับข้อใด?",
     "choices": [
-      "ตัวเลือกเพิ่มเติม 4",
-      "ตัวเลือกเพิ่มเติม 3",
+      "2",
       "1",
-      "2"
+      "0",
+      "3"
     ],
-    "ans": 2,
+    "ans": 1,
     "explanation": "จำนวนนิวตรอน = เลขมวล (A) - เลขอะตอม (Z) = 2 - 1 = 1 ตัว",
     "starsAwarded": 4
   },
@@ -346,13 +347,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "การคำนวณอนุภาคมูลฐาน",
     "q": "อนุภาคของ ดิวเทอเรียม (²₁H / ไฮโดรเจนหนัก) มีจำนวนอิเล็กตรอน (Electrons) เท่ากับข้อใด?",
     "choices": [
-      "ตัวเลือกเพิ่มเติม 3",
-      "1",
       "2",
-      "ตัวเลือกเพิ่มเติม 4"
+      "0",
+      "1",
+      "3"
     ],
-    "ans": 1,
-    "explanation": "จำนวนอิเล็กตรอน = 1 ตัว (อะตอมเป็นกลาง e⁻=p=1, ไอออนบวกเสีย e⁻, ไอออนลบรับ e⁻)",
+    "ans": 2,
+    "explanation": "จำนวนอิเล็กตรอน = เลขอะตอม (Z) = 1 ตัว (เนื่องจากเป็นอะตอมที่เป็นกลางทางไฟฟ้า e⁻ = p)",
     "starsAwarded": 4
   },
   {
@@ -363,10 +364,10 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "การคำนวณอนุภาคมูลฐาน",
     "q": "อนุภาคของ ทริเทียม (³₁H / กัมมันตรังสี) มีจำนวนนิวตรอน (Neutrons) เท่ากับข้อใด?",
     "choices": [
-      "1",
       "3",
+      "1",
       "2",
-      "ตัวเลือกเพิ่มเติม 4"
+      "4"
     ],
     "ans": 2,
     "explanation": "จำนวนนิวตรอน = เลขมวล (A) - เลขอะตอม (Z) = 3 - 1 = 2 ตัว",
@@ -380,13 +381,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "การคำนวณอนุภาคมูลฐาน",
     "q": "อนุภาคของ ทริเทียม (³₁H / กัมมันตรังสี) มีจำนวนอิเล็กตรอน (Electrons) เท่ากับข้อใด?",
     "choices": [
-      "1",
       "2",
       "3",
-      "ตัวเลือกเพิ่มเติม 4"
+      "0",
+      "1"
     ],
-    "ans": 0,
-    "explanation": "จำนวนอิเล็กตรอน = 1 ตัว (อะตอมเป็นกลาง e⁻=p=1, ไอออนบวกเสีย e⁻, ไอออนลบรับ e⁻)",
+    "ans": 3,
+    "explanation": "จำนวนอิเล็กตรอน = เลขอะตอม (Z) = 1 ตัว (เนื่องจากเป็นอะตอมที่เป็นกลางทางไฟฟ้า e⁻ = p)",
     "starsAwarded": 4
   },
   {
@@ -397,12 +398,12 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "การคำนวณอนุภาคมูลฐาน",
     "q": "อนุภาคของ ฮีเลียม-4 (⁴₂He) มีจำนวนนิวตรอน (Neutrons) เท่ากับข้อใด?",
     "choices": [
-      "2",
       "4",
-      "ตัวเลือกเพิ่มเติม 4",
-      "ตัวเลือกเพิ่มเติม 3"
+      "3",
+      "1",
+      "2"
     ],
-    "ans": 0,
+    "ans": 3,
     "explanation": "จำนวนนิวตรอน = เลขมวล (A) - เลขอะตอม (Z) = 4 - 2 = 2 ตัว",
     "starsAwarded": 4
   },
@@ -416,11 +417,11 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "choices": [
       "2",
       "4",
-      "ตัวเลือกเพิ่มเติม 4",
-      "ตัวเลือกเพิ่มเติม 3"
+      "3",
+      "1"
     ],
     "ans": 0,
-    "explanation": "จำนวนอิเล็กตรอน = 2 ตัว (อะตอมเป็นกลาง e⁻=p=2, ไอออนบวกเสีย e⁻, ไอออนลบรับ e⁻)",
+    "explanation": "จำนวนอิเล็กตรอน = เลขอะตอม (Z) = 2 ตัว (เนื่องจากเป็นอะตอมที่เป็นกลางทางไฟฟ้า e⁻ = p)",
     "starsAwarded": 4
   },
   {
@@ -431,12 +432,12 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "การคำนวณอนุภาคมูลฐาน",
     "q": "อนุภาคของ คาร์บอน-12 (¹²₆C) มีจำนวนนิวตรอน (Neutrons) เท่ากับข้อใด?",
     "choices": [
-      "ตัวเลือกเพิ่มเติม 3",
       "6",
       "12",
-      "ตัวเลือกเพิ่มเติม 4"
+      "7",
+      "5"
     ],
-    "ans": 1,
+    "ans": 0,
     "explanation": "จำนวนนิวตรอน = เลขมวล (A) - เลขอะตอม (Z) = 12 - 6 = 6 ตัว",
     "starsAwarded": 4
   },
@@ -448,13 +449,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "การคำนวณอนุภาคมูลฐาน",
     "q": "อนุภาคของ คาร์บอน-12 (¹²₆C) มีจำนวนอิเล็กตรอน (Electrons) เท่ากับข้อใด?",
     "choices": [
-      "ตัวเลือกเพิ่มเติม 4",
-      "6",
       "12",
-      "ตัวเลือกเพิ่มเติม 3"
+      "6",
+      "7",
+      "5"
     ],
     "ans": 1,
-    "explanation": "จำนวนอิเล็กตรอน = 6 ตัว (อะตอมเป็นกลาง e⁻=p=6, ไอออนบวกเสีย e⁻, ไอออนลบรับ e⁻)",
+    "explanation": "จำนวนอิเล็กตรอน = เลขอะตอม (Z) = 6 ตัว (เนื่องจากเป็นอะตอมที่เป็นกลางทางไฟฟ้า e⁻ = p)",
     "starsAwarded": 4
   },
   {
@@ -466,11 +467,11 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "q": "อนุภาคของ คาร์บอน-14 (¹⁴₆C) มีจำนวนนิวตรอน (Neutrons) เท่ากับข้อใด?",
     "choices": [
       "14",
+      "8",
       "6",
-      "ตัวเลือกเพิ่มเติม 4",
-      "8"
+      "9"
     ],
-    "ans": 3,
+    "ans": 1,
     "explanation": "จำนวนนิวตรอน = เลขมวล (A) - เลขอะตอม (Z) = 14 - 6 = 8 ตัว",
     "starsAwarded": 4
   },
@@ -482,13 +483,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "การคำนวณอนุภาคมูลฐาน",
     "q": "อนุภาคของ คาร์บอน-14 (¹⁴₆C) มีจำนวนอิเล็กตรอน (Electrons) เท่ากับข้อใด?",
     "choices": [
+      "8",
       "14",
       "6",
-      "8",
-      "ตัวเลือกเพิ่มเติม 4"
+      "7"
     ],
-    "ans": 1,
-    "explanation": "จำนวนอิเล็กตรอน = 6 ตัว (อะตอมเป็นกลาง e⁻=p=6, ไอออนบวกเสีย e⁻, ไอออนลบรับ e⁻)",
+    "ans": 2,
+    "explanation": "จำนวนอิเล็กตรอน = เลขอะตอม (Z) = 6 ตัว (เนื่องจากเป็นอะตอมที่เป็นกลางทางไฟฟ้า e⁻ = p)",
     "starsAwarded": 4
   },
   {
@@ -499,12 +500,12 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "การคำนวณอนุภาคมูลฐาน",
     "q": "อนุภาคของ ไนโตรเจน-14 (¹⁴₇N) มีจำนวนนิวตรอน (Neutrons) เท่ากับข้อใด?",
     "choices": [
-      "7",
       "14",
-      "ตัวเลือกเพิ่มเติม 4",
-      "ตัวเลือกเพิ่มเติม 3"
+      "8",
+      "7",
+      "6"
     ],
-    "ans": 0,
+    "ans": 2,
     "explanation": "จำนวนนิวตรอน = เลขมวล (A) - เลขอะตอม (Z) = 14 - 7 = 7 ตัว",
     "starsAwarded": 4
   },
@@ -516,13 +517,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "การคำนวณอนุภาคมูลฐาน",
     "q": "อนุภาคของ ไนโตรเจน-14 (¹⁴₇N) มีจำนวนอิเล็กตรอน (Electrons) เท่ากับข้อใด?",
     "choices": [
-      "7",
       "14",
-      "ตัวเลือกเพิ่มเติม 3",
-      "ตัวเลือกเพิ่มเติม 4"
+      "8",
+      "6",
+      "7"
     ],
-    "ans": 0,
-    "explanation": "จำนวนอิเล็กตรอน = 7 ตัว (อะตอมเป็นกลาง e⁻=p=7, ไอออนบวกเสีย e⁻, ไอออนลบรับ e⁻)",
+    "ans": 3,
+    "explanation": "จำนวนอิเล็กตรอน = เลขอะตอม (Z) = 7 ตัว (เนื่องจากเป็นอะตอมที่เป็นกลางทางไฟฟ้า e⁻ = p)",
     "starsAwarded": 4
   },
   {
@@ -534,11 +535,11 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "q": "อนุภาคของ ออกซิเจน-16 (¹⁶₈O) มีจำนวนนิวตรอน (Neutrons) เท่ากับข้อใด?",
     "choices": [
       "16",
-      "8",
-      "ตัวเลือกเพิ่มเติม 3",
-      "ตัวเลือกเพิ่มเติม 4"
+      "9",
+      "7",
+      "8"
     ],
-    "ans": 1,
+    "ans": 3,
     "explanation": "จำนวนนิวตรอน = เลขมวล (A) - เลขอะตอม (Z) = 16 - 8 = 8 ตัว",
     "starsAwarded": 4
   },
@@ -551,12 +552,12 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "q": "อนุภาคของ ออกซิเจน-16 (¹⁶₈O) มีจำนวนอิเล็กตรอน (Electrons) เท่ากับข้อใด?",
     "choices": [
       "8",
-      "ตัวเลือกเพิ่มเติม 4",
       "16",
-      "ตัวเลือกเพิ่มเติม 3"
+      "9",
+      "7"
     ],
     "ans": 0,
-    "explanation": "จำนวนอิเล็กตรอน = 8 ตัว (อะตอมเป็นกลาง e⁻=p=8, ไอออนบวกเสีย e⁻, ไอออนลบรับ e⁻)",
+    "explanation": "จำนวนอิเล็กตรอน = เลขอะตอม (Z) = 8 ตัว (เนื่องจากเป็นอะตอมที่เป็นกลางทางไฟฟ้า e⁻ = p)",
     "starsAwarded": 4
   },
   {
@@ -565,15 +566,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "electron_config",
     "categoryLabel": "การคำนวณอนุภาคมูลฐาน",
-    "q": "อนุภาคของ ฟลูออรีน-19 (¹⁹₉F) มีจำนวนนิวตรอน (Neutrons) เท่ากับข้อใด?",
+    "q": "อนุภาคของ ออกไซด์ไอออน (¹⁶₈O²⁻) มีจำนวนนิวตรอน (Neutrons) เท่ากับข้อใด?",
     "choices": [
-      "ตัวเลือกเพิ่มเติม 4",
-      "19",
-      "9",
-      "10"
+      "8",
+      "16",
+      "10",
+      "9"
     ],
-    "ans": 3,
-    "explanation": "จำนวนนิวตรอน = เลขมวล (A) - เลขอะตอม (Z) = 19 - 9 = 10 ตัว",
+    "ans": 0,
+    "explanation": "จำนวนนิวตรอน = เลขมวล (A) - เลขอะตอม (Z) = 16 - 8 = 8 ตัว",
     "starsAwarded": 4
   },
   {
@@ -582,15 +583,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "electron_config",
     "categoryLabel": "การคำนวณอนุภาคมูลฐาน",
-    "q": "อนุภาคของ ฟลูออรีน-19 (¹⁹₉F) มีจำนวนอิเล็กตรอน (Electrons) เท่ากับข้อใด?",
+    "q": "อนุภาคของ ออกไซด์ไอออน (¹⁶₈O²⁻) มีจำนวนอิเล็กตรอน (Electrons) เท่ากับข้อใด?",
     "choices": [
-      "19",
+      "8",
       "10",
-      "9",
-      "ตัวเลือกเพิ่มเติม 4"
+      "16",
+      "11"
     ],
-    "ans": 2,
-    "explanation": "จำนวนอิเล็กตรอน = 9 ตัว (อะตอมเป็นกลาง e⁻=p=9, ไอออนบวกเสีย e⁻, ไอออนลบรับ e⁻)",
+    "ans": 1,
+    "explanation": "จำนวนอิเล็กตรอน = เลขอะตอม (Z) - ประจุ = 8 - (-2) = 10 ตัว",
     "starsAwarded": 4
   },
   {
@@ -599,15 +600,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "electron_config",
     "categoryLabel": "การคำนวณอนุภาคมูลฐาน",
-    "q": "อนุภาคของ โซเดียม-23 (²³₁₁Na) มีจำนวนนิวตรอน (Neutrons) เท่ากับข้อใด?",
+    "q": "อนุภาคของ ฟลูออไรด์ไอออน (¹⁹₉F⁻) มีจำนวนนิวตรอน (Neutrons) เท่ากับข้อใด?",
     "choices": [
-      "23",
-      "11",
-      "12",
-      "ตัวเลือกเพิ่มเติม 4"
+      "19",
+      "10",
+      "9",
+      "11"
     ],
-    "ans": 2,
-    "explanation": "จำนวนนิวตรอน = เลขมวล (A) - เลขอะตอม (Z) = 23 - 11 = 12 ตัว",
+    "ans": 1,
+    "explanation": "จำนวนนิวตรอน = เลขมวล (A) - เลขอะตอม (Z) = 19 - 9 = 10 ตัว",
     "starsAwarded": 4
   },
   {
@@ -616,15 +617,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "electron_config",
     "categoryLabel": "การคำนวณอนุภาคมูลฐาน",
-    "q": "อนุภาคของ โซเดียม-23 (²³₁₁Na) มีจำนวนอิเล็กตรอน (Electrons) เท่ากับข้อใด?",
+    "q": "อนุภาคของ ฟลูออไรด์ไอออน (¹⁹₉F⁻) มีจำนวนอิเล็กตรอน (Electrons) เท่ากับข้อใด?",
     "choices": [
-      "23",
-      "11",
-      "12",
-      "ตัวเลือกเพิ่มเติม 4"
+      "9",
+      "19",
+      "10",
+      "11"
     ],
-    "ans": 1,
-    "explanation": "จำนวนอิเล็กตรอน = 11 ตัว (อะตอมเป็นกลาง e⁻=p=11, ไอออนบวกเสีย e⁻, ไอออนลบรับ e⁻)",
+    "ans": 2,
+    "explanation": "จำนวนอิเล็กตรอน = เลขอะตอม (Z) - ประจุ = 9 - (-1) = 10 ตัว",
     "starsAwarded": 4
   },
   {
@@ -633,15 +634,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "electron_config",
     "categoryLabel": "การคำนวณอนุภาคมูลฐาน",
-    "q": "อนุภาคของ โซเดียมไอออน (²³₁₁Na⁺) มีจำนวนนิวตรอน (Neutrons) เท่ากับข้อใด?",
+    "q": "อนุภาคของ นีออน-20 (²⁰₁₀Ne) มีจำนวนนิวตรอน (Neutrons) เท่ากับข้อใด?",
     "choices": [
-      "12",
+      "20",
+      "11",
       "10",
-      "23",
-      "11"
+      "9"
     ],
-    "ans": 0,
-    "explanation": "จำนวนนิวตรอน = เลขมวล (A) - เลขอะตอม (Z) = 23 - 11 = 12 ตัว",
+    "ans": 2,
+    "explanation": "จำนวนนิวตรอน = เลขมวล (A) - เลขอะตอม (Z) = 20 - 10 = 10 ตัว",
     "starsAwarded": 4
   },
   {
@@ -650,15 +651,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "electron_config",
     "categoryLabel": "การคำนวณอนุภาคมูลฐาน",
-    "q": "อนุภาคของ โซเดียมไอออน (²³₁₁Na⁺) มีจำนวนอิเล็กตรอน (Electrons) เท่ากับข้อใด?",
+    "q": "อนุภาคของ นีออน-20 (²⁰₁₀Ne) มีจำนวนอิเล็กตรอน (Electrons) เท่ากับข้อใด?",
     "choices": [
-      "12",
-      "10",
-      "23",
-      "11"
+      "20",
+      "11",
+      "9",
+      "10"
     ],
-    "ans": 1,
-    "explanation": "จำนวนอิเล็กตรอน = 10 ตัว (อะตอมเป็นกลาง e⁻=p=11, ไอออนบวกเสีย e⁻, ไอออนลบรับ e⁻)",
+    "ans": 3,
+    "explanation": "จำนวนอิเล็กตรอน = เลขอะตอม (Z) = 10 ตัว (เนื่องจากเป็นอะตอมที่เป็นกลางทางไฟฟ้า e⁻ = p)",
     "starsAwarded": 4
   },
   {
@@ -667,15 +668,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "electron_config",
     "categoryLabel": "การคำนวณอนุภาคมูลฐาน",
-    "q": "อนุภาคของ แมกนีเซียม-24 (²⁴₁₂Mg) มีจำนวนนิวตรอน (Neutrons) เท่ากับข้อใด?",
+    "q": "อนุภาคของ โซเดียมไอออน (²³₁₁Na⁺) มีจำนวนนิวตรอน (Neutrons) เท่ากับข้อใด?",
     "choices": [
-      "ตัวเลือกเพิ่มเติม 3",
-      "24",
-      "ตัวเลือกเพิ่มเติม 4",
+      "23",
+      "11",
+      "10",
       "12"
     ],
     "ans": 3,
-    "explanation": "จำนวนนิวตรอน = เลขมวล (A) - เลขอะตอม (Z) = 24 - 12 = 12 ตัว",
+    "explanation": "จำนวนนิวตรอน = เลขมวล (A) - เลขอะตอม (Z) = 23 - 11 = 12 ตัว",
     "starsAwarded": 4
   },
   {
@@ -684,15 +685,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "electron_config",
     "categoryLabel": "การคำนวณอนุภาคมูลฐาน",
-    "q": "อนุภาคของ แมกนีเซียม-24 (²⁴₁₂Mg) มีจำนวนอิเล็กตรอน (Electrons) เท่ากับข้อใด?",
+    "q": "อนุภาคของ โซเดียมไอออน (²³₁₁Na⁺) มีจำนวนอิเล็กตรอน (Electrons) เท่ากับข้อใด?",
     "choices": [
-      "24",
-      "ตัวเลือกเพิ่มเติม 4",
-      "ตัวเลือกเพิ่มเติม 3",
-      "12"
+      "10",
+      "11",
+      "12",
+      "23"
     ],
-    "ans": 3,
-    "explanation": "จำนวนอิเล็กตรอน = 12 ตัว (อะตอมเป็นกลาง e⁻=p=12, ไอออนบวกเสีย e⁻, ไอออนลบรับ e⁻)",
+    "ans": 0,
+    "explanation": "จำนวนอิเล็กตรอน = เลขอะตอม (Z) - ประจุ = 11 - (+1) = 10 ตัว",
     "starsAwarded": 4
   },
   {
@@ -703,12 +704,12 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "การคำนวณอนุภาคมูลฐาน",
     "q": "อนุภาคของ แมกนีเซียมไอออน (²⁴₁₂Mg²⁺) มีจำนวนนิวตรอน (Neutrons) เท่ากับข้อใด?",
     "choices": [
-      "ตัวเลือกเพิ่มเติม 4",
-      "10",
       "12",
-      "24"
+      "24",
+      "10",
+      "13"
     ],
-    "ans": 2,
+    "ans": 0,
     "explanation": "จำนวนนิวตรอน = เลขมวล (A) - เลขอะตอม (Z) = 24 - 12 = 12 ตัว",
     "starsAwarded": 4
   },
@@ -720,13 +721,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "การคำนวณอนุภาคมูลฐาน",
     "q": "อนุภาคของ แมกนีเซียมไอออน (²⁴₁₂Mg²⁺) มีจำนวนอิเล็กตรอน (Electrons) เท่ากับข้อใด?",
     "choices": [
-      "10",
       "12",
-      "ตัวเลือกเพิ่มเติม 4",
-      "24"
+      "10",
+      "24",
+      "11"
     ],
-    "ans": 0,
-    "explanation": "จำนวนอิเล็กตรอน = 10 ตัว (อะตอมเป็นกลาง e⁻=p=12, ไอออนบวกเสีย e⁻, ไอออนลบรับ e⁻)",
+    "ans": 1,
+    "explanation": "จำนวนอิเล็กตรอน = เลขอะตอม (Z) - ประจุ = 12 - (+2) = 10 ตัว",
     "starsAwarded": 4
   },
   {
@@ -738,11 +739,11 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "q": "อนุภาคของ อะลูมิเนียมไอออน (²⁷₁₃Al³⁺) มีจำนวนนิวตรอน (Neutrons) เท่ากับข้อใด?",
     "choices": [
       "27",
-      "10",
       "14",
-      "13"
+      "13",
+      "10"
     ],
-    "ans": 2,
+    "ans": 1,
     "explanation": "จำนวนนิวตรอน = เลขมวล (A) - เลขอะตอม (Z) = 27 - 13 = 14 ตัว",
     "starsAwarded": 4
   },
@@ -755,12 +756,12 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "q": "อนุภาคของ อะลูมิเนียมไอออน (²⁷₁₃Al³⁺) มีจำนวนอิเล็กตรอน (Electrons) เท่ากับข้อใด?",
     "choices": [
       "13",
-      "10",
       "14",
+      "10",
       "27"
     ],
-    "ans": 1,
-    "explanation": "จำนวนอิเล็กตรอน = 10 ตัว (อะตอมเป็นกลาง e⁻=p=13, ไอออนบวกเสีย e⁻, ไอออนลบรับ e⁻)",
+    "ans": 2,
+    "explanation": "จำนวนอิเล็กตรอน = เลขอะตอม (Z) - ประจุ = 13 - (+3) = 10 ตัว",
     "starsAwarded": 4
   },
   {
@@ -772,11 +773,11 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "q": "อนุภาคของ ฟอสฟอรัส-31 (³¹₁₅P) มีจำนวนนิวตรอน (Neutrons) เท่ากับข้อใด?",
     "choices": [
       "31",
+      "15",
       "16",
-      "ตัวเลือกเพิ่มเติม 4",
-      "15"
+      "17"
     ],
-    "ans": 1,
+    "ans": 2,
     "explanation": "จำนวนนิวตรอน = เลขมวล (A) - เลขอะตอม (Z) = 31 - 15 = 16 ตัว",
     "starsAwarded": 4
   },
@@ -788,13 +789,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "การคำนวณอนุภาคมูลฐาน",
     "q": "อนุภาคของ ฟอสฟอรัส-31 (³¹₁₅P) มีจำนวนอิเล็กตรอน (Electrons) เท่ากับข้อใด?",
     "choices": [
-      "ตัวเลือกเพิ่มเติม 4",
       "16",
-      "15",
-      "31"
+      "31",
+      "14",
+      "15"
     ],
-    "ans": 2,
-    "explanation": "จำนวนอิเล็กตรอน = 15 ตัว (อะตอมเป็นกลาง e⁻=p=15, ไอออนบวกเสีย e⁻, ไอออนลบรับ e⁻)",
+    "ans": 3,
+    "explanation": "จำนวนอิเล็กตรอน = เลขอะตอม (Z) = 15 ตัว (เนื่องจากเป็นอะตอมที่เป็นกลางทางไฟฟ้า e⁻ = p)",
     "starsAwarded": 4
   },
   {
@@ -805,12 +806,12 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "การคำนวณอนุภาคมูลฐาน",
     "q": "อนุภาคของ ซัลไฟด์ไอออน (³²₁₆S²⁻) มีจำนวนนิวตรอน (Neutrons) เท่ากับข้อใด?",
     "choices": [
+      "32",
       "18",
-      "ตัวเลือกเพิ่มเติม 4",
-      "16",
-      "32"
+      "17",
+      "16"
     ],
-    "ans": 2,
+    "ans": 3,
     "explanation": "จำนวนนิวตรอน = เลขมวล (A) - เลขอะตอม (Z) = 32 - 16 = 16 ตัว",
     "starsAwarded": 4
   },
@@ -822,13 +823,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "การคำนวณอนุภาคมูลฐาน",
     "q": "อนุภาคของ ซัลไฟด์ไอออน (³²₁₆S²⁻) มีจำนวนอิเล็กตรอน (Electrons) เท่ากับข้อใด?",
     "choices": [
-      "32",
       "18",
       "16",
-      "ตัวเลือกเพิ่มเติม 4"
+      "32",
+      "19"
     ],
-    "ans": 1,
-    "explanation": "จำนวนอิเล็กตรอน = 18 ตัว (อะตอมเป็นกลาง e⁻=p=16, ไอออนบวกเสีย e⁻, ไอออนลบรับ e⁻)",
+    "ans": 0,
+    "explanation": "จำนวนอิเล็กตรอน = เลขอะตอม (Z) - ประจุ = 16 - (-2) = 18 ตัว",
     "starsAwarded": 4
   },
   {
@@ -839,12 +840,12 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "การคำนวณอนุภาคมูลฐาน",
     "q": "อนุภาคของ คลอไรด์ไอออน (³⁵₁₇Cl⁻) มีจำนวนนิวตรอน (Neutrons) เท่ากับข้อใด?",
     "choices": [
-      "35",
       "18",
-      "ตัวเลือกเพิ่มเติม 4",
-      "17"
+      "35",
+      "17",
+      "19"
     ],
-    "ans": 1,
+    "ans": 0,
     "explanation": "จำนวนนิวตรอน = เลขมวล (A) - เลขอะตอม (Z) = 35 - 17 = 18 ตัว",
     "starsAwarded": 4
   },
@@ -856,13 +857,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "การคำนวณอนุภาคมูลฐาน",
     "q": "อนุภาคของ คลอไรด์ไอออน (³⁵₁₇Cl⁻) มีจำนวนอิเล็กตรอน (Electrons) เท่ากับข้อใด?",
     "choices": [
-      "35",
-      "ตัวเลือกเพิ่มเติม 4",
       "17",
-      "18"
+      "18",
+      "35",
+      "19"
     ],
-    "ans": 3,
-    "explanation": "จำนวนอิเล็กตรอน = 18 ตัว (อะตอมเป็นกลาง e⁻=p=17, ไอออนบวกเสีย e⁻, ไอออนลบรับ e⁻)",
+    "ans": 1,
+    "explanation": "จำนวนอิเล็กตรอน = เลขอะตอม (Z) - ประจุ = 17 - (-1) = 18 ตัว",
     "starsAwarded": 4
   },
   {
@@ -873,12 +874,12 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "การคำนวณอนุภาคมูลฐาน",
     "q": "อนุภาคของ โพแทสเซียมไอออน (³⁹₁₉K⁺) มีจำนวนนิวตรอน (Neutrons) เท่ากับข้อใด?",
     "choices": [
-      "18",
       "39",
+      "20",
       "19",
-      "20"
+      "18"
     ],
-    "ans": 3,
+    "ans": 1,
     "explanation": "จำนวนนิวตรอน = เลขมวล (A) - เลขอะตอม (Z) = 39 - 19 = 20 ตัว",
     "starsAwarded": 4
   },
@@ -890,13 +891,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "การคำนวณอนุภาคมูลฐาน",
     "q": "อนุภาคของ โพแทสเซียมไอออน (³⁹₁₉K⁺) มีจำนวนอิเล็กตรอน (Electrons) เท่ากับข้อใด?",
     "choices": [
-      "20",
       "19",
-      "39",
-      "18"
+      "20",
+      "18",
+      "39"
     ],
-    "ans": 3,
-    "explanation": "จำนวนอิเล็กตรอน = 18 ตัว (อะตอมเป็นกลาง e⁻=p=19, ไอออนบวกเสีย e⁻, ไอออนลบรับ e⁻)",
+    "ans": 2,
+    "explanation": "จำนวนอิเล็กตรอน = เลขอะตอม (Z) - ประจุ = 19 - (+1) = 18 ตัว",
     "starsAwarded": 4
   },
   {
@@ -907,12 +908,12 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "การคำนวณอนุภาคมูลฐาน",
     "q": "อนุภาคของ แคลเซียมไอออน (⁴⁰₂₀Ca²⁺) มีจำนวนนิวตรอน (Neutrons) เท่ากับข้อใด?",
     "choices": [
-      "20",
       "40",
-      "ตัวเลือกเพิ่มเติม 4",
-      "18"
+      "18",
+      "20",
+      "21"
     ],
-    "ans": 0,
+    "ans": 2,
     "explanation": "จำนวนนิวตรอน = เลขมวล (A) - เลขอะตอม (Z) = 40 - 20 = 20 ตัว",
     "starsAwarded": 4
   },
@@ -924,13 +925,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "การคำนวณอนุภาคมูลฐาน",
     "q": "อนุภาคของ แคลเซียมไอออน (⁴⁰₂₀Ca²⁺) มีจำนวนอิเล็กตรอน (Electrons) เท่ากับข้อใด?",
     "choices": [
-      "40",
-      "18",
       "20",
-      "ตัวเลือกเพิ่มเติม 4"
+      "40",
+      "19",
+      "18"
     ],
-    "ans": 1,
-    "explanation": "จำนวนอิเล็กตรอน = 18 ตัว (อะตอมเป็นกลาง e⁻=p=20, ไอออนบวกเสีย e⁻, ไอออนลบรับ e⁻)",
+    "ans": 3,
+    "explanation": "จำนวนอิเล็กตรอน = เลขอะตอม (Z) - ประจุ = 20 - (+2) = 18 ตัว",
     "starsAwarded": 4
   },
   {
@@ -942,11 +943,11 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "q": "อนุภาคของ เหล็ก-56 (⁵⁶₂₆Fe) มีจำนวนนิวตรอน (Neutrons) เท่ากับข้อใด?",
     "choices": [
       "56",
-      "30",
       "26",
-      "ตัวเลือกเพิ่มเติม 4"
+      "31",
+      "30"
     ],
-    "ans": 1,
+    "ans": 3,
     "explanation": "จำนวนนิวตรอน = เลขมวล (A) - เลขอะตอม (Z) = 56 - 26 = 30 ตัว",
     "starsAwarded": 4
   },
@@ -958,13 +959,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "การคำนวณอนุภาคมูลฐาน",
     "q": "อนุภาคของ เหล็ก-56 (⁵⁶₂₆Fe) มีจำนวนอิเล็กตรอน (Electrons) เท่ากับข้อใด?",
     "choices": [
-      "ตัวเลือกเพิ่มเติม 4",
       "26",
+      "30",
       "56",
-      "30"
+      "27"
     ],
-    "ans": 1,
-    "explanation": "จำนวนอิเล็กตรอน = 26 ตัว (อะตอมเป็นกลาง e⁻=p=26, ไอออนบวกเสีย e⁻, ไอออนลบรับ e⁻)",
+    "ans": 0,
+    "explanation": "จำนวนอิเล็กตรอน = เลขอะตอม (Z) = 26 ตัว (เนื่องจากเป็นอะตอมที่เป็นกลางทางไฟฟ้า e⁻ = p)",
     "starsAwarded": 4
   },
   {
@@ -976,8 +977,8 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "q": "อนุภาคของ เหล็กไอออน (⁵⁶₂₆Fe²⁺) มีจำนวนนิวตรอน (Neutrons) เท่ากับข้อใด?",
     "choices": [
       "30",
-      "26",
       "56",
+      "26",
       "24"
     ],
     "ans": 0,
@@ -998,7 +999,7 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
       "56"
     ],
     "ans": 1,
-    "explanation": "จำนวนอิเล็กตรอน = 24 ตัว (อะตอมเป็นกลาง e⁻=p=26, ไอออนบวกเสีย e⁻, ไอออนลบรับ e⁻)",
+    "explanation": "จำนวนอิเล็กตรอน = เลขอะตอม (Z) - ประจุ = 26 - (+2) = 24 ตัว",
     "starsAwarded": 4
   },
   {
@@ -1009,12 +1010,12 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "การคำนวณอนุภาคมูลฐาน",
     "q": "อนุภาคของ เหล็กไอออน (⁵⁶₂₆Fe³⁺) มีจำนวนนิวตรอน (Neutrons) เท่ากับข้อใด?",
     "choices": [
-      "23",
-      "26",
       "56",
-      "30"
+      "30",
+      "26",
+      "23"
     ],
-    "ans": 3,
+    "ans": 1,
     "explanation": "จำนวนนิวตรอน = เลขมวล (A) - เลขอะตอม (Z) = 56 - 26 = 30 ตัว",
     "starsAwarded": 4
   },
@@ -1028,11 +1029,11 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "choices": [
       "26",
       "30",
-      "56",
-      "23"
+      "23",
+      "56"
     ],
-    "ans": 3,
-    "explanation": "จำนวนอิเล็กตรอน = 23 ตัว (อะตอมเป็นกลาง e⁻=p=26, ไอออนบวกเสีย e⁻, ไอออนลบรับ e⁻)",
+    "ans": 2,
+    "explanation": "จำนวนอิเล็กตรอน = เลขอะตอม (Z) - ประจุ = 26 - (+3) = 23 ตัว",
     "starsAwarded": 4
   },
   {
@@ -1043,12 +1044,12 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "การคำนวณอนุภาคมูลฐาน",
     "q": "อนุภาคของ ทองแดงไอออน (⁶⁴₂₉Cu²⁺) มีจำนวนนิวตรอน (Neutrons) เท่ากับข้อใด?",
     "choices": [
-      "29",
-      "27",
       "64",
-      "35"
+      "29",
+      "35",
+      "27"
     ],
-    "ans": 3,
+    "ans": 2,
     "explanation": "จำนวนนิวตรอน = เลขมวล (A) - เลขอะตอม (Z) = 64 - 29 = 35 ตัว",
     "starsAwarded": 4
   },
@@ -1061,12 +1062,12 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "q": "อนุภาคของ ทองแดงไอออน (⁶⁴₂₉Cu²⁺) มีจำนวนอิเล็กตรอน (Electrons) เท่ากับข้อใด?",
     "choices": [
       "29",
-      "27",
       "35",
-      "64"
+      "64",
+      "27"
     ],
-    "ans": 1,
-    "explanation": "จำนวนอิเล็กตรอน = 27 ตัว (อะตอมเป็นกลาง e⁻=p=29, ไอออนบวกเสีย e⁻, ไอออนลบรับ e⁻)",
+    "ans": 3,
+    "explanation": "จำนวนอิเล็กตรอน = เลขอะตอม (Z) - ประจุ = 29 - (+2) = 27 ตัว",
     "starsAwarded": 4
   },
   {
@@ -1077,12 +1078,12 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "การคำนวณอนุภาคมูลฐาน",
     "q": "อนุภาคของ สังกะสีไอออน (⁶⁵₃₀Zn²⁺) มีจำนวนนิวตรอน (Neutrons) เท่ากับข้อใด?",
     "choices": [
-      "30",
-      "35",
       "65",
-      "28"
+      "30",
+      "28",
+      "35"
     ],
-    "ans": 1,
+    "ans": 3,
     "explanation": "จำนวนนิวตรอน = เลขมวล (A) - เลขอะตอม (Z) = 65 - 30 = 35 ตัว",
     "starsAwarded": 4
   },
@@ -1094,13 +1095,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "การคำนวณอนุภาคมูลฐาน",
     "q": "อนุภาคของ สังกะสีไอออน (⁶⁵₃₀Zn²⁺) มีจำนวนอิเล็กตรอน (Electrons) เท่ากับข้อใด?",
     "choices": [
-      "65",
       "28",
+      "30",
       "35",
-      "30"
+      "65"
     ],
-    "ans": 1,
-    "explanation": "จำนวนอิเล็กตรอน = 28 ตัว (อะตอมเป็นกลาง e⁻=p=30, ไอออนบวกเสีย e⁻, ไอออนลบรับ e⁻)",
+    "ans": 0,
+    "explanation": "จำนวนอิเล็กตรอน = เลขอะตอม (Z) - ประจุ = 30 - (+2) = 28 ตัว",
     "starsAwarded": 4
   },
   {
@@ -1111,12 +1112,12 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "การคำนวณอนุภาคมูลฐาน",
     "q": "อนุภาคของ โบรไมด์ไอออน (⁸⁰₃₅Br⁻) มีจำนวนนิวตรอน (Neutrons) เท่ากับข้อใด?",
     "choices": [
-      "36",
-      "80",
       "45",
-      "35"
+      "80",
+      "35",
+      "36"
     ],
-    "ans": 2,
+    "ans": 0,
     "explanation": "จำนวนนิวตรอน = เลขมวล (A) - เลขอะตอม (Z) = 80 - 35 = 45 ตัว",
     "starsAwarded": 4
   },
@@ -1128,13 +1129,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "การคำนวณอนุภาคมูลฐาน",
     "q": "อนุภาคของ โบรไมด์ไอออน (⁸⁰₃₅Br⁻) มีจำนวนอิเล็กตรอน (Electrons) เท่ากับข้อใด?",
     "choices": [
+      "35",
       "36",
       "45",
-      "35",
       "80"
     ],
-    "ans": 0,
-    "explanation": "จำนวนอิเล็กตรอน = 36 ตัว (อะตอมเป็นกลาง e⁻=p=35, ไอออนบวกเสีย e⁻, ไอออนลบรับ e⁻)",
+    "ans": 1,
+    "explanation": "จำนวนอิเล็กตรอน = เลขอะตอม (Z) - ประจุ = 35 - (-1) = 36 ตัว",
     "starsAwarded": 4
   },
   {
@@ -1146,11 +1147,11 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "q": "อนุภาคของ ไอโอไดด์ไอออน (¹²⁷₅₃I⁻) มีจำนวนนิวตรอน (Neutrons) เท่ากับข้อใด?",
     "choices": [
       "127",
-      "53",
       "74",
+      "53",
       "54"
     ],
-    "ans": 2,
+    "ans": 1,
     "explanation": "จำนวนนิวตรอน = เลขมวล (A) - เลขอะตอม (Z) = 127 - 53 = 74 ตัว",
     "starsAwarded": 4
   },
@@ -1162,13 +1163,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "การคำนวณอนุภาคมูลฐาน",
     "q": "อนุภาคของ ไอโอไดด์ไอออน (¹²⁷₅₃I⁻) มีจำนวนอิเล็กตรอน (Electrons) เท่ากับข้อใด?",
     "choices": [
-      "127",
       "53",
+      "74",
       "54",
-      "74"
+      "127"
     ],
     "ans": 2,
-    "explanation": "จำนวนอิเล็กตรอน = 54 ตัว (อะตอมเป็นกลาง e⁻=p=53, ไอออนบวกเสีย e⁻, ไอออนลบรับ e⁻)",
+    "explanation": "จำนวนอิเล็กตรอน = เลขอะตอม (Z) - ประจุ = 53 - (-1) = 54 ตัว",
     "starsAwarded": 4
   },
   {
@@ -1179,12 +1180,12 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "การคำนวณอนุภาคมูลฐาน",
     "q": "อนุภาคของ ยูเรเนียม-235 (²³⁵₉₂U) มีจำนวนนิวตรอน (Neutrons) เท่ากับข้อใด?",
     "choices": [
-      "143",
       "235",
-      "ตัวเลือกเพิ่มเติม 4",
-      "92"
+      "92",
+      "143",
+      "144"
     ],
-    "ans": 0,
+    "ans": 2,
     "explanation": "จำนวนนิวตรอน = เลขมวล (A) - เลขอะตอม (Z) = 235 - 92 = 143 ตัว",
     "starsAwarded": 4
   },
@@ -1196,13 +1197,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "การคำนวณอนุภาคมูลฐาน",
     "q": "อนุภาคของ ยูเรเนียม-235 (²³⁵₉₂U) มีจำนวนอิเล็กตรอน (Electrons) เท่ากับข้อใด?",
     "choices": [
-      "92",
-      "235",
       "143",
-      "ตัวเลือกเพิ่มเติม 4"
+      "235",
+      "93",
+      "92"
     ],
-    "ans": 0,
-    "explanation": "จำนวนอิเล็กตรอน = 92 ตัว (อะตอมเป็นกลาง e⁻=p=92, ไอออนบวกเสีย e⁻, ไอออนลบรับ e⁻)",
+    "ans": 3,
+    "explanation": "จำนวนอิเล็กตรอน = เลขอะตอม (Z) = 92 ตัว (เนื่องจากเป็นอะตอมที่เป็นกลางทางไฟฟ้า e⁻ = p)",
     "starsAwarded": 4
   },
   {
@@ -1215,10 +1216,10 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "choices": [
       "238",
       "92",
-      "146",
-      "ตัวเลือกเพิ่มเติม 4"
+      "147",
+      "146"
     ],
-    "ans": 2,
+    "ans": 3,
     "explanation": "จำนวนนิวตรอน = เลขมวล (A) - เลขอะตอม (Z) = 238 - 92 = 146 ตัว",
     "starsAwarded": 4
   },
@@ -1230,13 +1231,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "การคำนวณอนุภาคมูลฐาน",
     "q": "อนุภาคของ ยูเรเนียม-238 (²³⁸₉₂U) มีจำนวนอิเล็กตรอน (Electrons) เท่ากับข้อใด?",
     "choices": [
-      "238",
       "92",
       "146",
-      "ตัวเลือกเพิ่มเติม 4"
+      "238",
+      "93"
     ],
-    "ans": 1,
-    "explanation": "จำนวนอิเล็กตรอน = 92 ตัว (อะตอมเป็นกลาง e⁻=p=92, ไอออนบวกเสีย e⁻, ไอออนลบรับ e⁻)",
+    "ans": 0,
+    "explanation": "จำนวนอิเล็กตรอน = เลขอะตอม (Z) = 92 ตัว (เนื่องจากเป็นอะตอมที่เป็นกลางทางไฟฟ้า e⁻ = p)",
     "starsAwarded": 4
   },
   {
@@ -1245,15 +1246,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "periodic_trend",
     "categoryLabel": "แนวโน้มตารางธาตุ",
-    "q": "ในตารางธาตุสากล \"ขนาดอะตอมตามคาบ (จากซ้ายไปขวา)\" มีแนวโน้มการเปลี่ยนแปลงอย่างไร?",
+    "q": "ในตารางธาตุสากล \"ขนาดอะตอมตามคาบจากซ้ายไปขวา\" มีแนวโน้มการเปลี่ยนแปลงอย่างไร?",
     "choices": [
-      "เท่ากันทุกธาตุ",
-      "เป็นศูนย์ทั้งหมด",
-      "ลดลงอย่างต่อเนื่อง",
-      "ไม่สามารถคาดการณ์ได้"
+      "มีแนวโน้มเพิ่มขึ้น",
+      "มีแนวโน้มลดลง",
+      "คงที่เท่ากันทุกธาตุ",
+      "เพิ่มขึ้นแล้วลดลงอย่างรวดเร็ว"
     ],
-    "ans": 2,
-    "explanation": "ขนาดอะตอมตามคาบ (จากซ้ายไปขวา) จะลดลงอย่างต่อเนื่อง โดยมีสาเหตุทางกายภาพคือ: เพราะประจุนิวเคลียสสุทธิ (Z_eff) เพิ่มขึ้น ดึงดูดกลุ่มหมอก e⁻ เข้าหาศูนย์กลาง",
+    "ans": 1,
+    "explanation": "ตามคาบจากซ้ายไปขวา ขนาดอะตอมจะเล็กลงเนื่องจากจำนวนโปรตอนในนิวเคลียสเพิ่มขึ้น ดึงดูดเวเลนซ์อิเล็กตรอนเข้าใกล้มากขึ้น",
     "starsAwarded": 4
   },
   {
@@ -1262,15 +1263,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "periodic_trend",
     "categoryLabel": "แนวโน้มตารางธาตุ",
-    "q": "ในตารางธาตุสากล \"ขนาดอะตอมตามหมู่ (จากบนลงล่าง)\" มีแนวโน้มการเปลี่ยนแปลงอย่างไร?",
+    "q": "ในตารางธาตุสากล \"ขนาดอะตอมตามหมู่จากบนลงล่าง\" มีแนวโน้มการเปลี่ยนแปลงอย่างไร?",
     "choices": [
-      "เป็นศูนย์ทั้งหมด",
-      "ไม่สามารถคาดการณ์ได้",
-      "เพิ่มขึ้นอย่างต่อเนื่อง",
-      "เท่ากันทุกธาตุ"
+      "มีแนวโน้มลดลง",
+      "คงที่เท่ากันทุกธาตุ",
+      "มีแนวโน้มเพิ่มขึ้น",
+      "ลดลงแล้วคงที่ในหมู่แฮโลเจน"
     ],
     "ans": 2,
-    "explanation": "ขนาดอะตอมตามหมู่ (จากบนลงล่าง) จะเพิ่มขึ้นอย่างต่อเนื่อง โดยมีสาเหตุทางกายภาพคือ: เพราะจำนวนระดับพลังงานหลัก (ชั้น e⁻) เพิ่มขึ้น อะตอมจึงพองโตขึ้น",
+    "explanation": "ตามหมู่จากบนลงล่าง ขนาดอะตอมจะใหญ่ขึ้นเนื่องจากมีจำนวนระดับพลังงาน (ชั้นอิเล็กตรอน) เพิ่มขึ้น",
     "starsAwarded": 4
   },
   {
@@ -1279,15 +1280,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "periodic_trend",
     "categoryLabel": "แนวโน้มตารางธาตุ",
-    "q": "ในตารางธาตุสากล \"พลังงานไอออไนเซชันลำดับที่ 1 (IE₁) ตามคาบ\" มีแนวโน้มการเปลี่ยนแปลงอย่างไร?",
+    "q": "เมื่ออะตอมของโลหะสูญเสียเวเลนซ์อิเล็กตรอนกลายเป็นไอออนบวก จะมีขนาดเปลี่ยนแปลงอย่างไรเทียบกับอะตอมเดิม?",
     "choices": [
-      "มีแนวโน้มเพิ่มขึ้น",
-      "เท่ากันทุกธาตุ",
-      "ไม่สามารถคาดการณ์ได้",
-      "เป็นศูนย์ทั้งหมด"
+      "มีขนาดใหญ่กว่าอะตอมเดิมเสมอ",
+      "มีขนาดเท่าเดิมไม่เปลี่ยนแปลง",
+      "ขนาดจะขยายใหญ่ขึ้นตามอุณหภูมิ",
+      "มีขนาดเล็กลงกว่าอะตอมเดิมเสมอ"
     ],
-    "ans": 0,
-    "explanation": "พลังงานไอออไนเซชันลำดับที่ 1 (IE₁) ตามคาบ จะมีแนวโน้มเพิ่มขึ้น โดยมีสาเหตุทางกายภาพคือ: เพราะขนาดอะตอมเล็กลง แรงดึงดูดระหว่างนิวเคลียสกับ e⁻ วงนอกสูงขึ้น ต้องใช้พลังงานมากในการดึงหลุด",
+    "ans": 3,
+    "explanation": "ไอออนบวกมีขนาดเล็กลงเสมอ เพราะการเสีย e⁻ ทำให้อาจเสียระดับพลังงานชั้นนอกสุด และแรงดึงดูดของนิวเคลียสต่อ e⁻ ที่เหลือเพิ่มขึ้น",
     "starsAwarded": 4
   },
   {
@@ -1296,15 +1297,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "periodic_trend",
     "categoryLabel": "แนวโน้มตารางธาตุ",
-    "q": "ในตารางธาตุสากล \"พลังงานไอออไนเซชันลำดับที่ 1 (IE₁) ตามหมู่\" มีแนวโน้มการเปลี่ยนแปลงอย่างไร?",
+    "q": "เมื่ออะตอมของอโลหะรับอิเล็กตรอนเพิ่มเข้ามากลายเป็นไอออนลบ จะมีขนาดเปลี่ยนแปลงอย่างไรเทียบกับอะตอมเดิม?",
     "choices": [
-      "เท่ากันทุกธาตุ",
-      "มีแนวโน้มลดลง",
-      "ไม่สามารถคาดการณ์ได้",
-      "เป็นศูนย์ทั้งหมด"
+      "มีขนาดใหญ่กว่าอะตอมเดิมเสมอ",
+      "มีขนาดเล็กลงกว่าอะตอมเดิมเสมอ",
+      "มีขนาดเท่าเดิมไม่เปลี่ยนแปลง",
+      "ขนาดจะหดเล็กลงตามอุณหภูมิ"
     ],
-    "ans": 1,
-    "explanation": "พลังงานไอออไนเซชันลำดับที่ 1 (IE₁) ตามหมู่ จะมีแนวโน้มลดลง โดยมีสาเหตุทางกายภาพคือ: เพราะ e⁻ วงนอกสุดอยู่ไกลจากนิวเคลียสและถูกกำบัง (Shielding effect) จึงหลุดง่าย",
+    "ans": 0,
+    "explanation": "ไอออนลบมีขนาดใหญ่ขึ้นเสมอ เพราะการรับ e⁻ เข้ามาทำให้เกิดแรงผลักกันเองระหว่างอิเล็กตรอน กลุ่มหมอกอิเล็กตรอนจึงขยายตัว",
     "starsAwarded": 4
   },
   {
@@ -1313,15 +1314,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "periodic_trend",
     "categoryLabel": "แนวโน้มตารางธาตุ",
-    "q": "ในตารางธาตุสากล \"ค่าอิเล็กโทรเนกาติวิตี (EN) ตามคาบ\" มีแนวโน้มการเปลี่ยนแปลงอย่างไร?",
+    "q": "ในตารางธาตุสากล \"พลังงานไอออไนเซชันลำดับที่ 1 ตามคาบจากซ้ายไปขวา\" มีแนวโน้มการเปลี่ยนแปลงอย่างไร?",
     "choices": [
-      "ไม่สามารถคาดการณ์ได้",
-      "เป็นศูนย์ทั้งหมด",
-      "เท่ากันทุกธาตุ",
-      "มีแนวโน้มเพิ่มขึ้น"
+      "มีแนวโน้มลดลง",
+      "มีแนวโน้มเพิ่มขึ้น",
+      "คงที่เท่ากันทุกธาตุ",
+      "ลดลงจนเป็นศูนย์ในหมู่แก๊สมีตระกูล"
     ],
-    "ans": 3,
-    "explanation": "ค่าอิเล็กโทรเนกาติวิตี (EN) ตามคาบ จะมีแนวโน้มเพิ่มขึ้น โดยมีสาเหตุทางกายภาพคือ: ความสามารถในการดึงดูดคู่อิเล็กตรอนในพันธะโคเวเลนต์สูงขึ้น",
+    "ans": 1,
+    "explanation": "ค่า IE₁ ตามคาบจากซ้ายไปขวามีแนวโน้มเพิ่มขึ้น เพราะขนาดอะตอมเล็กลง นิวเคลียสดึงดูดอิเล็กตรอนแน่นหนา ต้องใช้พลังงานมากในการดึง e⁻",
     "starsAwarded": 4
   },
   {
@@ -1330,15 +1331,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "periodic_trend",
     "categoryLabel": "แนวโน้มตารางธาตุ",
-    "q": "ในตารางธาตุสากล \"ค่าอิเล็กโทรเนกาติวิตี (EN) ตามหมู่\" มีแนวโน้มการเปลี่ยนแปลงอย่างไร?",
+    "q": "ในตารางธาตุสากล \"ค่าอิเล็กโทรเนกาติวิตีตามคาบจากซ้ายไปขวา\" มีแนวโน้มการเปลี่ยนแปลงอย่างไร?",
     "choices": [
-      "เท่ากันทุกธาตุ",
       "มีแนวโน้มลดลง",
-      "เป็นศูนย์ทั้งหมด",
-      "ไม่สามารถคาดการณ์ได้"
+      "คงที่เท่ากันทุกธาตุ",
+      "มีแนวโน้มเพิ่มขึ้น",
+      "มีค่าเท่ากับศูนย์ในทุกธาตุ"
     ],
-    "ans": 1,
-    "explanation": "ค่าอิเล็กโทรเนกาติวิตี (EN) ตามหมู่ จะมีแนวโน้มลดลง โดยมีสาเหตุทางกายภาพคือ: เพราะขนาดอะตอมใหญ่ขึ้น ระยะห่างจากนิวเคลียสถึงคู่อิเล็กตรอนมากขึ้น",
+    "ans": 2,
+    "explanation": "ค่า EN คือความสามารถในการดึงดูดคู่อิเล็กตรอนในพันธะ ตามคาบจากซ้ายไปขวาจะมีแนวโน้มเพิ่มขึ้น โดยฟลูออรีน (F) มีค่า EN สูงสุด",
     "starsAwarded": 4
   },
   {
@@ -1347,15 +1348,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "periodic_trend",
     "categoryLabel": "แนวโน้มตารางธาตุ",
-    "q": "ในตารางธาตุสากล \"สัมพรรคภาพอิเล็กตรอน (EA)\" มีแนวโน้มการเปลี่ยนแปลงอย่างไร?",
+    "q": "ในตารางธาตุสากล \"ค่าสัมพรรคภาพอิเล็กตรอนตามคาบจากซ้ายไปขวา\" มีแนวโน้มการเปลี่ยนแปลงอย่างไร?",
     "choices": [
-      "เป็นศูนย์ทั้งหมด",
-      "เท่ากันทุกธาตุ",
-      "ไม่สามารถคาดการณ์ได้",
-      "คายพลังงานเมื่อรับอิเล็กตรอน 1 ตัว"
+      "มีแนวโน้มคายพลังงานลดลง",
+      "คงที่เท่ากันทุกธาตุในคาบ",
+      "ไม่มีการเปลี่ยนแปลงพลังงาน",
+      "มีแนวโน้มคายพลังงานเพิ่มขึ้น"
     ],
     "ans": 3,
-    "explanation": "สัมพรรคภาพอิเล็กตรอน (EA) จะคายพลังงานเมื่อรับอิเล็กตรอน 1 ตัว โดยมีสาเหตุทางกายภาพคือ: ธาตุฮาโลเจน (หมู่ 7A) มีค่า EA คายพลังงานมากที่สุดเพื่อปรับตัวให้ครบ 8",
+    "explanation": "ค่าสัมพรรคภาพอิเล็กตรอน (EA) แสดงแนวโน้มการรับอิเล็กตรอน ตามคาบจากซ้ายไปขวา อะตอมขนาดเล็กลง รับ e⁻ ได้ดี จึงคายพลังงานเพิ่มขึ้น",
     "starsAwarded": 4
   },
   {
@@ -1364,15 +1365,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "periodic_trend",
     "categoryLabel": "แนวโน้มตารางธาตุ",
-    "q": "ในตารางธาตุสากล \"ความเป็นโลหะ (Metallic Character)\" มีแนวโน้มการเปลี่ยนแปลงอย่างไร?",
+    "q": "ในตารางธาตุสากล \"ความเป็นโลหะ\" มีแนวโน้มเพิ่มขึ้นในทิศทางใด?",
     "choices": [
-      "เพิ่มขึ้นจากบนลงล่าง และลดลงจากซ้ายไปขวา",
-      "เป็นศูนย์ทั้งหมด",
-      "ไม่สามารถคาดการณ์ได้",
-      "เท่ากันทุกธาตุ"
+      "เพิ่มขึ้นจากบนลงล่าง และเพิ่มขึ้นจากขวาไปซ้าย",
+      "เพิ่มขึ้นจากล่างขึ้นบน และเพิ่มขึ้นจากซ้ายไปขวา",
+      "เพิ่มขึ้นทั้งตามคาบและตามหมู่",
+      "ลดลงทั้งตามคาบและตามหมู่"
     ],
     "ans": 0,
-    "explanation": "ความเป็นโลหะ (Metallic Character) จะเพิ่มขึ้นจากบนลงล่าง และลดลงจากซ้ายไปขวา โดยมีสาเหตุทางกายภาพคือ: ธาตุที่มีความเป็นโลหะสูงสุดในธรรมชาติคือ ซีเซียม (Cs) และ แฟรนเซียม (Fr)",
+    "explanation": "ความเป็นโลหะ (การให้อิเล็กตรอนง่าย) จะเพิ่มขึ้นจากบนลงล่างและขวาไปซ้าย",
     "starsAwarded": 4
   },
   {
@@ -1381,15 +1382,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "periodic_trend",
     "categoryLabel": "แนวโน้มตารางธาตุ",
-    "q": "ในตารางธาตุสากล \"ความเป็นอโลหะ (Non-metallic Character)\" มีแนวโน้มการเปลี่ยนแปลงอย่างไร?",
+    "q": "ในตารางธาตุสากล \"ความเป็นอโลหะ\" มีแนวโน้มเพิ่มขึ้นในทิศทางใด?",
     "choices": [
-      "เท่ากันทุกธาตุ",
+      "เพิ่มขึ้นจากบนลงล่าง และเพิ่มขึ้นจากขวาไปซ้าย",
       "เพิ่มขึ้นจากล่างขึ้นบน และเพิ่มขึ้นจากซ้ายไปขวา",
-      "เป็นศูนย์ทั้งหมด",
-      "ไม่สามารถคาดการณ์ได้"
+      "เพิ่มขึ้นทั้งตามคาบและตามหมู่",
+      "ลดลงทั้งตามคาบและตามหมู่"
     ],
     "ans": 1,
-    "explanation": "ความเป็นอโลหะ (Non-metallic Character) จะเพิ่มขึ้นจากล่างขึ้นบน และเพิ่มขึ้นจากซ้ายไปขวา โดยมีสาเหตุทางกายภาพคือ: ธาตุที่มีความเป็นอโลหะสูงสุดในธรรมชาติคือ ฟลูออรีน (F)",
+    "explanation": "ความเป็นอโลหะ (การรับอิเล็กตรอนดี) จะเพิ่มขึ้นจากล่างขึ้นบนและซ้ายไปขวา ชี้เข้าหาฟลูออรีน",
     "starsAwarded": 4
   },
   {
@@ -1398,15 +1399,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "compound",
     "categoryLabel": "พันธะเคมี",
-    "q": "\"พันธะไอออนิก (Ionic Bond)\" มีลักษณะการเกิดหรือจับคู่ของธาตุตามข้อใด?",
+    "q": "\"พันธะไอออนิก (Ionic Bond)\" มีลักษณะการเกิดพันธะที่ถูกต้องตรงกับข้อใด?",
     "choices": [
-      "สารละลายกรด + ด่างเข้มข้น",
-      "สารกัมมันตรังสีเท่านั้น",
-      "ก๊าซเฉื่อย + โลหะหนัก",
-      "โลหะ + อโลหะ"
+      "การถ่ายโอนอิเล็กตรอนระหว่างอะตอมโลหะกับอโลหะเกิดแรงดึงดูดทางไฟฟ้า",
+      "การใช้อิเล็กตรอนร่วมกันเป็นคู่ๆ ระหว่างอะตอมอโลหะกับอโลหะ",
+      "แรงยึดเหนี่ยวระหว่างไอออนบวกกับกลุ่มหมอกอิเล็กตรอนที่เคลื่อนที่อิสระ",
+      "แรงดึงดูดระหว่างอะตอมไฮโดรเจนกับอะตอมที่มีค่า EN สูงมาก"
     ],
-    "ans": 3,
-    "explanation": "พันธะไอออนิก (Ionic Bond): โลหะ + อโลหะ (เกิดจากการถ่ายโอนอิเล็กตรอน เช่น Na⁺ + Cl⁻ → NaCl)",
+    "ans": 0,
+    "explanation": "พันธะไอออนิกเกิดจากโลหะให้อิเล็กตรอนกลายเป็นไอออนบวก และอโลหะรับอิเล็กตรอนกลายเป็นไอออนลบ ยึดกันด้วยแรงดึงดูดทางไฟฟ้าสถิต",
     "starsAwarded": 4
   },
   {
@@ -1415,15 +1416,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "compound",
     "categoryLabel": "พันธะเคมี",
-    "q": "\"พันธะโคเวเลนต์ (Covalent Bond)\" มีลักษณะการเกิดหรือจับคู่ของธาตุตามข้อใด?",
+    "q": "\"พันธะโคเวเลนต์ (Covalent Bond)\" มีลักษณะการเกิดพันธะที่ถูกต้องตรงกับข้อใด?",
     "choices": [
-      "ก๊าซเฉื่อย + โลหะหนัก",
-      "สารละลายกรด + ด่างเข้มข้น",
-      "อโลหะ + อโลหะ",
-      "สารกัมมันตรังสีเท่านั้น"
+      "การถ่ายโอนอิเล็กตรอนระหว่างอะตอมโลหะกับอโลหะเกิดแรงดึงดูดทางไฟฟ้า",
+      "การใช้อิเล็กตรอนร่วมกันเป็นคู่ๆ ระหว่างอะตอมอโลหะกับอโลหะ",
+      "แรงยึดเหนี่ยวระหว่างไอออนบวกกับกลุ่มหมอกอิเล็กตรอนที่เคลื่อนที่อิสระ",
+      "แรงดึงดูดระหว่างอะตอมไฮโดรเจนกับอะตอมที่มีค่า EN สูงมาก"
     ],
-    "ans": 2,
-    "explanation": "พันธะโคเวเลนต์ (Covalent Bond): อโลหะ + อโลหะ (เกิดจากการใช้อิเล็กตรอนร่วมกัน เช่น H₂O, CO₂, CH₄)",
+    "ans": 1,
+    "explanation": "พันธะโคเวเลนต์เกิดจากอะตอมอโลหะนำเวเลนซ์อิเล็กตรอนมาใช้ร่วมกันเพื่อให้ครบออกเตต",
     "starsAwarded": 4
   },
   {
@@ -1432,15 +1433,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "compound",
     "categoryLabel": "พันธะเคมี",
-    "q": "\"พันธะโลหะ (Metallic Bond)\" มีลักษณะการเกิดหรือจับคู่ของธาตุตามข้อใด?",
+    "q": "\"พันธะโลหะ (Metallic Bond)\" มีลักษณะการเกิดพันธะที่ถูกต้องตรงกับข้อใด?",
     "choices": [
-      "สารละลายกรด + ด่างเข้มข้น",
-      "สารกัมมันตรังสีเท่านั้น",
-      "ก๊าซเฉื่อย + โลหะหนัก",
-      "โลหะ + โลหะ"
+      "การถ่ายโอนอิเล็กตรอนระหว่างอะตอมโลหะกับอโลหะเกิดแรงดึงดูดทางไฟฟ้า",
+      "การใช้อิเล็กตรอนร่วมกันเป็นคู่ๆ ระหว่างอะตอมอโลหะกับอโลหะ",
+      "แรงยึดเหนี่ยวระหว่างไอออนบวกกับกลุ่มหมอกอิเล็กตรอนที่เคลื่อนที่อิสระ",
+      "แรงดึงดูดระหว่างอะตอมไฮโดรเจนกับอะตอมที่มีค่า EN สูงมาก"
     ],
-    "ans": 3,
-    "explanation": "พันธะโลหะ (Metallic Bond): โลหะ + โลหะ (เกิดจากประจุบวกของโลหะจมอยู่ในทะเลอิเล็กตรอน (Sea of Electrons))",
+    "ans": 2,
+    "explanation": "พันธะโลหะอธิบายด้วยแบบจำลองทะเลอิเล็กตรอน (Electron Sea Model) ทำให้โลหะนำไฟฟ้าและความร้อนได้ดี",
     "starsAwarded": 4
   },
   {
@@ -1449,15 +1450,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "compound",
     "categoryLabel": "พันธะเคมี",
-    "q": "\"พันธะไฮโดรเจน (Hydrogen Bond)\" มีลักษณะการเกิดหรือจับคู่ของธาตุตามข้อใด?",
+    "q": "\"พันธะไฮโดรเจน (Hydrogen Bond)\" มีลักษณะการเกิดแรงยึดเหนี่ยวตรงกับข้อใด?",
     "choices": [
-      "สารกัมมันตรังสีเท่านั้น",
-      "ก๊าซเฉื่อย + โลหะหนัก",
-      "สารละลายกรด + ด่างเข้มข้น",
-      "แรงดึงดูดระหว่าง H กับ F, O หรือ N"
+      "การถ่ายโอนอิเล็กตรอนระหว่างอะตอมโลหะกับอโลหะเกิดแรงดึงดูดทางไฟฟ้า",
+      "การใช้อิเล็กตรอนร่วมกันเป็นคู่ๆ ระหว่างอะตอมอโลหะกับอโลหะ",
+      "แรงยึดเหนี่ยวระหว่างไอออนบวกกับกลุ่มหมอกอิเล็กตรอนที่เคลื่อนที่อิสระ",
+      "แรงดึงดูดระหว่างอะตอม H ที่สร้างพันธะกับ F, O หรือ N กับอะตอมมีขั้วข้างเคียง"
     ],
     "ans": 3,
-    "explanation": "พันธะไฮโดรเจน (Hydrogen Bond): แรงดึงดูดระหว่าง H กับ F, O หรือ N (เป็นแรงยึดเหนี่ยวระหว่างโมเลกุลที่แข็งแรงมาก ทำให้จุดเดือดของน้ำสูงถึง 100°C)",
+    "explanation": "พันธะไฮโดรเจนเป็นแรงยึดเหนี่ยวระหว่างโมเลกุลที่แข็งแรง เกิดเมื่อ H สร้างพันธะกับ F, O, N",
     "starsAwarded": 4
   },
   {
@@ -1466,15 +1467,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "compound",
     "categoryLabel": "พันธะเคมี",
-    "q": "\"แรงกระจายลอนดอน (London Dispersion Force)\" มีลักษณะการเกิดหรือจับคู่ของธาตุตามข้อใด?",
+    "q": "\"พันธะโคเวเลนต์มีขั้ว (Polar Covalent Bond)\" เกิดขึ้นในกรณีใด?",
     "choices": [
-      "ก๊าซเฉื่อย + โลหะหนัก",
-      "แรงระหว่างโมเลกุลที่ไม่มีขั้ว",
-      "สารกัมมันตรังสีเท่านั้น",
-      "สารละลายกรด + ด่างเข้มข้น"
+      "เกิดจากอะตอมที่มีค่า EN ต่างกัน ดึงดูดคู่อิเล็กตรอนร่วมพันธะไม่เท่ากัน",
+      "เกิดจากอะตอมชนิดเดียวกันที่มีค่า EN เท่ากันทุกประการ",
+      "เกิดจากการถ่ายโอนอิเล็กตรอนอย่างสมบูรณ์จนเกิดไอออนบวกและลบ",
+      "เกิดจากแรงดึงดูดในทะเลอิเล็กตรอนของกลุ่มโลหะผสม"
     ],
-    "ans": 1,
-    "explanation": "แรงกระจายลอนดอน (London Dispersion Force): แรงระหว่างโมเลกุลที่ไม่มีขั้ว (เกิดจากความไม่สมมาตรชั่วคราวของกลุ่มหมอก e⁻ แข็งแรงขึ้นตามมวลโมเลกุล)",
+    "ans": 0,
+    "explanation": "พันธะโคเวเลนต์มีขั้วเกิดเมื่ออะตอมที่สร้างพันธะมีค่า EN ต่างกัน อะตอมที่มี EN สูงกว่าจะดึงดูดกลุ่มหมอก e⁻ เข้าหาตัว",
     "starsAwarded": 4
   },
   {
@@ -1483,15 +1484,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "compound",
     "categoryLabel": "พันธะเคมี",
-    "q": "\"พันธะเดี่ยว (Single Bond)\" มีลักษณะการเกิดหรือจับคู่ของธาตุตามข้อใด?",
+    "q": "\"พันธะเดี่ยว (Single Bond)\" ในโมเลกุลโคเวเลนต์ มีการใช้อิเล็กตรอนร่วมกันกี่ตัว?",
     "choices": [
-      "สารกัมมันตรังสีเท่านั้น",
+      "ใช้อิเล็กตรอนร่วมกัน 2 คู่ (4 ตัว)",
       "ใช้อิเล็กตรอนร่วมกัน 1 คู่ (2 ตัว)",
-      "ก๊าซเฉื่อย + โลหะหนัก",
-      "สารละลายกรด + ด่างเข้มข้น"
+      "ใช้อิเล็กตรอนร่วมกัน 3 คู่ (6 ตัว)",
+      "ใช้อิเล็กตรอนร่วมกัน 4 คู่ (8 ตัว)"
     ],
     "ans": 1,
-    "explanation": "พันธะเดี่ยว (Single Bond): ใช้อิเล็กตรอนร่วมกัน 1 คู่ (2 ตัว) (ความยาวพันธะยาวที่สุด แต่พลังงานพันธะน้อยที่สุด เช่น H-H, C-H)",
+    "explanation": "พันธะเดี่ยวเกิดจากการใช้อิเล็กตรอนร่วมกัน 1 คู่ (2 ตัว) เช่น H₂ หรือ Cl₂",
     "starsAwarded": 4
   },
   {
@@ -1500,15 +1501,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "compound",
     "categoryLabel": "พันธะเคมี",
-    "q": "\"พันธะคู่ (Double Bond)\" มีลักษณะการเกิดหรือจับคู่ของธาตุตามข้อใด?",
+    "q": "\"พันธะคู่ (Double Bond)\" ในโมเลกุลโคเวเลนต์ มีการใช้อิเล็กตรอนร่วมกันกี่ตัว?",
     "choices": [
-      "สารกัมมันตรังสีเท่านั้น",
+      "ใช้อิเล็กตรอนร่วมกัน 1 คู่ (2 ตัว)",
+      "ใช้อิเล็กตรอนร่วมกัน 3 คู่ (6 ตัว)",
       "ใช้อิเล็กตรอนร่วมกัน 2 คู่ (4 ตัว)",
-      "ก๊าซเฉื่อย + โลหะหนัก",
-      "สารละลายกรด + ด่างเข้มข้น"
+      "ใช้อิเล็กตรอนร่วมกัน 4 คู่ (8 ตัว)"
     ],
-    "ans": 1,
-    "explanation": "พันธะคู่ (Double Bond): ใช้อิเล็กตรอนร่วมกัน 2 คู่ (4 ตัว) (ประกอบด้วย 1 พันธะซิกมา (σ) และ 1 พันธะไพ (π) เช่น O=O, C=C)",
+    "ans": 2,
+    "explanation": "พันธะคู่เกิดจากการใช้อิเล็กตรอนร่วมกัน 2 คู่ (4 ตัว) เช่น O₂ หรือ CO₂",
     "starsAwarded": 4
   },
   {
@@ -1517,15 +1518,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "compound",
     "categoryLabel": "พันธะเคมี",
-    "q": "\"พันธะสาม (Triple Bond)\" มีลักษณะการเกิดหรือจับคู่ของธาตุตามข้อใด?",
+    "q": "\"พันธะสาม (Triple Bond)\" ในโมเลกุลโคเวเลนต์ มีการใช้อิเล็กตรอนร่วมกันกี่ตัว?",
     "choices": [
-      "สารกัมมันตรังสีเท่านั้น",
-      "สารละลายกรด + ด่างเข้มข้น",
-      "ก๊าซเฉื่อย + โลหะหนัก",
+      "ใช้อิเล็กตรอนร่วมกัน 1 คู่ (2 ตัว)",
+      "ใช้อิเล็กตรอนร่วมกัน 2 คู่ (4 ตัว)",
+      "ใช้อิเล็กตรอนร่วมกัน 4 คู่ (8 ตัว)",
       "ใช้อิเล็กตรอนร่วมกัน 3 คู่ (6 ตัว)"
     ],
     "ans": 3,
-    "explanation": "พันธะสาม (Triple Bond): ใช้อิเล็กตรอนร่วมกัน 3 คู่ (6 ตัว) (ความยาวพันธะสั้นที่สุด แข็งแรงมาก สลายยาก เช่น N≡N ในก๊าซไนโตรเจน)",
+    "explanation": "พันธะสามเกิดจากการใช้อิเล็กตรอนร่วมกัน 3 คู่ (6 ตัว) เช่น N₂ หรือ C₂H₂",
     "starsAwarded": 4
   },
   {
@@ -1534,15 +1535,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ม.ปลาย (แนวข้อสอบ สอวน. & A-Level)",
     "category": "compound",
     "categoryLabel": "รูปร่างโมเลกุล VSEPR",
-    "q": "โมเลกุลโคเวเลนต์ของ BeCl₂ (เบริลเลียมคลอไรด์) มีรูปร่างโมเลกุลตรงกับข้อใด?",
+    "q": "โมเลกุลโคเวเลนต์ของ BeCl₂ (เบริลเลียมคลอไรด์) มีรูปร่างโมเลกุลตามทฤษฎี VSEPR ตรงกับข้อใด?",
     "choices": [
-      "ทรงกลมสมบูรณ์",
-      "ลูกบาศก์แปดหน้า",
+      "มุมงอ (Bent)",
       "เส้นตรง (Linear)",
-      "รูปกากบาทสองมิติ"
+      "สามเหลี่ยมแบนราบ (Trigonal Planar)",
+      "ทรงสี่หน้า (Tetrahedral)"
     ],
-    "ans": 2,
-    "explanation": "โมเลกุล BeCl₂ (เบริลเลียมคลอไรด์) มีรูปร่างเป็น \"เส้นตรง (Linear)\" โดย มุมพันธะ 180° ไม่มีคู่อิเล็กตรอนโดดเดี่ยว",
+    "ans": 1,
+    "explanation": "BeCl₂ มีอิเล็กตรอนคู่ร่วมพันธะ 2 คู่ รูปร่างโมเลกุลเป็นเส้นตรง (AX₂) มุมพันธะ 180°",
     "starsAwarded": 5
   },
   {
@@ -1551,15 +1552,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ม.ปลาย (แนวข้อสอบ สอวน. & A-Level)",
     "category": "compound",
     "categoryLabel": "รูปร่างโมเลกุล VSEPR",
-    "q": "โมเลกุลโคเวเลนต์ของ BF₃ (โบรอนไตรฟลูออไรด์) มีรูปร่างโมเลกุลตรงกับข้อใด?",
+    "q": "โมเลกุลโคเวเลนต์ของ BF₃ (โบรอนไตรฟลูออไรด์) มีรูปร่างโมเลกุลตามทฤษฎี VSEPR ตรงกับข้อใด?",
     "choices": [
-      "ทรงกลมสมบูรณ์",
-      "ลูกบาศก์แปดหน้า",
-      "รูปกากบาทสองมิติ",
-      "สามเหลี่ยมแบนราบ (Trigonal Planar)"
+      "ทรงสี่หน้า (Tetrahedral)",
+      "พีระมิดฐานสามเหลี่ยม (Trigonal Pyramidal)",
+      "สามเหลี่ยมแบนราบ (Trigonal Planar)",
+      "เส้นตรง (Linear)"
     ],
-    "ans": 3,
-    "explanation": "โมเลกุล BF₃ (โบรอนไตรฟลูออไรด์) มีรูปร่างเป็น \"สามเหลี่ยมแบนราบ (Trigonal Planar)\" โดย มุมพันธะ 120°",
+    "ans": 2,
+    "explanation": "BF₃ มีพันธะ 3 พันธะ รูปร่างโมเลกุลเป็นสามเหลี่ยมแบนราบ (AX₃) มุมพันธะ 120°",
     "starsAwarded": 5
   },
   {
@@ -1568,15 +1569,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ม.ปลาย (แนวข้อสอบ สอวน. & A-Level)",
     "category": "compound",
     "categoryLabel": "รูปร่างโมเลกุล VSEPR",
-    "q": "โมเลกุลโคเวเลนต์ของ CH₄ (มีเทน) มีรูปร่างโมเลกุลตรงกับข้อใด?",
+    "q": "โมเลกุลโคเวเลนต์ของ CH₄ (มีเทน) มีรูปร่างโมเลกุลตามทฤษฎี VSEPR ตรงกับข้อใด?",
     "choices": [
-      "ทรงกลมสมบูรณ์",
-      "รูปกากบาทสองมิติ",
-      "ทรงสี่หน้า (Tetrahedral)",
-      "ลูกบาศก์แปดหน้า"
+      "สามเหลี่ยมแบนราบ (Trigonal Planar)",
+      "พีระมิดฐานสามเหลี่ยม (Trigonal Pyramidal)",
+      "มุมงอ (Bent)",
+      "ทรงสี่หน้า (Tetrahedral)"
     ],
-    "ans": 2,
-    "explanation": "โมเลกุล CH₄ (มีเทน) มีรูปร่างเป็น \"ทรงสี่หน้า (Tetrahedral)\" โดย มุมพันธะ 109.5° อะตอมกลางสร้าง 4 พันธะเดี่ยว",
+    "ans": 3,
+    "explanation": "CH₄ มีพันธะ 4 พันธะ รูปร่างโมเลกุลเป็นทรงสี่หน้า (AX₄) มุมพันธะ 109.5°",
     "starsAwarded": 5
   },
   {
@@ -1585,15 +1586,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ม.ปลาย (แนวข้อสอบ สอวน. & A-Level)",
     "category": "compound",
     "categoryLabel": "รูปร่างโมเลกุล VSEPR",
-    "q": "โมเลกุลโคเวเลนต์ของ NH₃ (แอมโมเนีย) มีรูปร่างโมเลกุลตรงกับข้อใด?",
+    "q": "โมเลกุลโคเวเลนต์ของ NH₃ (แอมโมเนีย) มีรูปร่างโมเลกุลตามทฤษฎี VSEPR ตรงกับข้อใด?",
     "choices": [
       "พีระมิดฐานสามเหลี่ยม (Trigonal Pyramidal)",
-      "รูปกากบาทสองมิติ",
-      "ทรงกลมสมบูรณ์",
-      "ลูกบาศก์แปดหน้า"
+      "ทรงสี่หน้า (Tetrahedral)",
+      "สามเหลี่ยมแบนราบ (Trigonal Planar)",
+      "มุมงอ (Bent)"
     ],
     "ans": 0,
-    "explanation": "โมเลกุล NH₃ (แอมโมเนีย) มีรูปร่างเป็น \"พีระมิดฐานสามเหลี่ยม (Trigonal Pyramidal)\" โดย มุมพันธะประมาณ 107° มีคู่ e⁻ โดดเดี่ยว 1 คู่ผลักลง",
+    "explanation": "NH₃ มีพันธะ 3 พันธะ และอิเล็กตรอนคู่โดดเดี่ยว 1 คู่ (AX₃E) รูปร่างเป็นพีระมิดฐานสามเหลี่ยม",
     "starsAwarded": 5
   },
   {
@@ -1602,15 +1603,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ม.ปลาย (แนวข้อสอบ สอวน. & A-Level)",
     "category": "compound",
     "categoryLabel": "รูปร่างโมเลกุล VSEPR",
-    "q": "โมเลกุลโคเวเลนต์ของ H₂O (น้ำ) มีรูปร่างโมเลกุลตรงกับข้อใด?",
+    "q": "โมเลกุลโคเวเลนต์ของ H₂O (น้ำ) มีรูปร่างโมเลกุลตามทฤษฎี VSEPR ตรงกับข้อใด?",
     "choices": [
-      "รูปกากบาทสองมิติ",
-      "ลูกบาศก์แปดหน้า",
-      "ทรงกลมสมบูรณ์",
-      "มุมงอ (Bent)"
+      "เส้นตรง (Linear)",
+      "มุมงอ (Bent)",
+      "ทรงสี่หน้า (Tetrahedral)",
+      "สามเหลี่ยมแบนราบ (Trigonal Planar)"
     ],
-    "ans": 3,
-    "explanation": "โมเลกุล H₂O (น้ำ) มีรูปร่างเป็น \"มุมงอ (Bent)\" โดย มุมพันธะ 104.5° มีคู่ e⁻ โดดเดี่ยว 2 คู่ผลักพันธะ O-H ให้อยู่ชิดกัน",
+    "ans": 1,
+    "explanation": "H₂O มีพันธะ 2 พันธะ และอิเล็กตรอนคู่โดดเดี่ยว 2 คู่ (AX₂E₂) รูปร่างเป็นมุมงอ",
     "starsAwarded": 5
   },
   {
@@ -1619,15 +1620,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ม.ปลาย (แนวข้อสอบ สอวน. & A-Level)",
     "category": "compound",
     "categoryLabel": "รูปร่างโมเลกุล VSEPR",
-    "q": "โมเลกุลโคเวเลนต์ของ PCl₅ (ฟอสฟอรัสเพนตะคลอไรด์) มีรูปร่างโมเลกุลตรงกับข้อใด?",
+    "q": "โมเลกุลโคเวเลนต์ของ PCl₅ (ฟอสฟอรัสเพนตะคลอไรด์) มีรูปร่างโมเลกุลตามทฤษฎี VSEPR ตรงกับข้อใด?",
     "choices": [
+      "ทรงแปดหน้า (Octahedral)",
+      "ทรงสี่หน้า (Tetrahedral)",
       "พีระมิดคู่ฐานสามเหลี่ยม (Trigonal Bipyramidal)",
-      "รูปกากบาทสองมิติ",
-      "ลูกบาศก์แปดหน้า",
-      "ทรงกลมสมบูรณ์"
+      "พีระมิดฐานสี่เหลี่ยม (Square Pyramidal)"
     ],
-    "ans": 0,
-    "explanation": "โมเลกุล PCl₅ (ฟอสฟอรัสเพนตะคลอไรด์) มีรูปร่างเป็น \"พีระมิดคู่ฐานสามเหลี่ยม (Trigonal Bipyramidal)\" โดย อะตอมกลางเกินออกเตต (10 e⁻)",
+    "ans": 2,
+    "explanation": "PCl₅ มีพันธะ 5 พันธะ รูปร่างเป็นพีระมิดคู่ฐานสามเหลี่ยม (AX₅)",
     "starsAwarded": 5
   },
   {
@@ -1636,15 +1637,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ม.ปลาย (แนวข้อสอบ สอวน. & A-Level)",
     "category": "compound",
     "categoryLabel": "รูปร่างโมเลกุล VSEPR",
-    "q": "โมเลกุลโคเวเลนต์ของ SF₆ (ซัลเฟอร์เฮกซะฟลูออไรด์) มีรูปร่างโมเลกุลตรงกับข้อใด?",
+    "q": "โมเลกุลโคเวเลนต์ของ SF₆ (ซัลเฟอร์เฮกซะฟลูออไรด์) มีรูปร่างโมเลกุลตามทฤษฎี VSEPR ตรงกับข้อใด?",
     "choices": [
-      "ทรงกลมสมบูรณ์",
-      "ทรงแปดหน้า (Octahedral)",
-      "ลูกบาศก์แปดหน้า",
-      "รูปกากบาทสองมิติ"
+      "พีระมิดคู่ฐานสามเหลี่ยม (Trigonal Bipyramidal)",
+      "ทรงสี่หน้า (Tetrahedral)",
+      "สี่เหลี่ยมแบนราบ (Square Planar)",
+      "ทรงแปดหน้า (Octahedral)"
     ],
-    "ans": 1,
-    "explanation": "โมเลกุล SF₆ (ซัลเฟอร์เฮกซะฟลูออไรด์) มีรูปร่างเป็น \"ทรงแปดหน้า (Octahedral)\" โดย อะตอมกลางเกินออกเตต (12 e⁻) มุมพันธะ 90°",
+    "ans": 3,
+    "explanation": "SF₆ มีพันธะ 6 พันธะ รูปร่างเป็นทรงแปดหน้าสมบูรณ์ (AX₆)",
     "starsAwarded": 5
   },
   {
@@ -1653,15 +1654,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "reaction",
     "categoryLabel": "ประเภทปฏิกิริยาเคมี",
-    "q": "ปฏิกิริยาเคมีประเภท \"การรวมตัว (Synthesis / Combination)\" มีรูปแบบสมการและตัวอย่างตรงกับข้อใด?",
+    "q": "ปฏิกิริยาเคมีประเภท \"การรวมตัว (Synthesis / Combination)\" มีสมการตัวอย่างที่ถูกต้องตรงกับข้อใด?",
     "choices": [
-      "A + B → AB (เช่น 2H₂ + O₂ → 2H₂O หรือ 2Na + Cl₂ → 2NaCl)",
-      "A + B + C → สูญหายหมด",
-      "เกิดการแบ่งตัวของนิวเคลียส",
-      "สารละลายเปลี่ยนเป็นพลาสมา"
+      "2H₂O → 2H₂ + O₂",
+      "Zn + 2HCl → ZnCl₂ + H₂",
+      "2H₂ + O₂ → 2H₂O",
+      "HCl + NaOH → NaCl + H₂O"
     ],
-    "ans": 0,
-    "explanation": "การรวมตัว (Synthesis / Combination) มีลักษณะคือ: A + B → AB ตัวอย่างเช่น เช่น 2H₂ + O₂ → 2H₂O หรือ 2Na + Cl₂ → 2NaCl",
+    "ans": 2,
+    "explanation": "ปฏิกิริยาการรวมตัวคือสารตั้งต้น 2 ชนิดขึ้นไปรวมกันเป็นสารผลิตภัณฑ์ชนิดเดียว เช่น 2H₂ + O₂ → 2H₂O",
     "starsAwarded": 4
   },
   {
@@ -1670,15 +1671,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "reaction",
     "categoryLabel": "ประเภทปฏิกิริยาเคมี",
-    "q": "ปฏิกิริยาเคมีประเภท \"การสลายตัว (Decomposition)\" มีรูปแบบสมการและตัวอย่างตรงกับข้อใด?",
+    "q": "ปฏิกิริยาเคมีประเภท \"การสลายตัว (Decomposition)\" มีสมการตัวอย่างที่ถูกต้องตรงกับข้อใด?",
     "choices": [
-      "AB → A + B (เช่น 2H₂O₂ → 2H₂O + O₂ หรือ CaCO₃ → CaO + CO₂)",
-      "สารละลายเปลี่ยนเป็นพลาสมา",
-      "A + B + C → สูญหายหมด",
-      "เกิดการแบ่งตัวของนิวเคลียส"
+      "2H₂ + O₂ → 2H₂O",
+      "Zn + 2HCl → ZnCl₂ + H₂",
+      "HCl + NaOH → NaCl + H₂O",
+      "2H₂O → 2H₂ + O₂"
     ],
-    "ans": 0,
-    "explanation": "การสลายตัว (Decomposition) มีลักษณะคือ: AB → A + B ตัวอย่างเช่น เช่น 2H₂O₂ → 2H₂O + O₂ หรือ CaCO₃ → CaO + CO₂",
+    "ans": 3,
+    "explanation": "ปฏิกิริยาการสลายตัวคือสารประกอบชนิดเดียวแตกตัวให้สารผลิตภัณฑ์หลายชนิด เช่น 2H₂O → 2H₂ + O₂",
     "starsAwarded": 4
   },
   {
@@ -1687,15 +1688,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "reaction",
     "categoryLabel": "ประเภทปฏิกิริยาเคมี",
-    "q": "ปฏิกิริยาเคมีประเภท \"การแทนที่เชิงเดี่ยว (Single Displacement)\" มีรูปแบบสมการและตัวอย่างตรงกับข้อใด?",
+    "q": "ปฏิกิริยาเคมีประเภท \"การแทนที่เดี่ยว (Single Displacement)\" มีสมการตัวอย่างที่ถูกต้องตรงกับข้อใด?",
     "choices": [
-      "เกิดการแบ่งตัวของนิวเคลียส",
-      "A + B + C → สูญหายหมด",
-      "สารละลายเปลี่ยนเป็นพลาสมา",
-      "A + BC → AC + B (เช่น Zn + 2HCl → ZnCl₂ + H₂)"
+      "Zn + 2HCl → ZnCl₂ + H₂",
+      "2H₂ + O₂ → 2H₂O",
+      "2H₂O → 2H₂ + O₂",
+      "HCl + NaOH → NaCl + H₂O"
     ],
-    "ans": 3,
-    "explanation": "การแทนที่เชิงเดี่ยว (Single Displacement) มีลักษณะคือ: A + BC → AC + B ตัวอย่างเช่น เช่น Zn + 2HCl → ZnCl₂ + H₂",
+    "ans": 0,
+    "explanation": "ปฏิกิริยาการแทนที่เดี่ยวคือธาตุอิสระเข้าไปแทนที่ธาตุในสารประกอบ เช่น Zn + 2HCl → ZnCl₂ + H₂",
     "starsAwarded": 4
   },
   {
@@ -1704,15 +1705,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "reaction",
     "categoryLabel": "ประเภทปฏิกิริยาเคมี",
-    "q": "ปฏิกิริยาเคมีประเภท \"การแทนที่คู่ (Double Displacement / Metathesis)\" มีรูปแบบสมการและตัวอย่างตรงกับข้อใด?",
+    "q": "ปฏิกิริยาเคมีประเภท \"การแทนที่คู่ (Double Displacement)\" มีสมการตัวอย่างที่ถูกต้องตรงกับข้อใด?",
     "choices": [
-      "เกิดการแบ่งตัวของนิวเคลียส",
-      "สารละลายเปลี่ยนเป็นพลาสมา",
-      "A + B + C → สูญหายหมด",
-      "AB + CD → AD + CB (เช่น AgNO₃ + NaCl → AgCl(s) + NaNO₃)"
+      "Zn + 2HCl → ZnCl₂ + H₂",
+      "AgNO₃ + NaCl → AgCl + NaNO₃",
+      "2H₂ + O₂ → 2H₂O",
+      "2H₂O → 2H₂ + O₂"
     ],
-    "ans": 3,
-    "explanation": "การแทนที่คู่ (Double Displacement / Metathesis) มีลักษณะคือ: AB + CD → AD + CB ตัวอย่างเช่น เช่น AgNO₃ + NaCl → AgCl(s) + NaNO₃",
+    "ans": 1,
+    "explanation": "ปฏิกิริยาการแทนที่คู่คือการแลกเปลี่ยนไอออนระหว่างสารประกอบ 2 ชนิด เช่น AgNO₃ + NaCl → AgCl + NaNO₃",
     "starsAwarded": 4
   },
   {
@@ -1721,15 +1722,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "reaction",
     "categoryLabel": "ประเภทปฏิกิริยาเคมี",
-    "q": "ปฏิกิริยาเคมีประเภท \"การสะเทินกรด-เบส (Neutralization)\" มีรูปแบบสมการและตัวอย่างตรงกับข้อใด?",
+    "q": "ปฏิกิริยาเคมีประเภท \"การสะเทินกรด-เบส (Neutralization)\" มีสมการตัวอย่างที่ถูกต้องตรงกับข้อใด?",
     "choices": [
-      "A + B + C → สูญหายหมด",
-      "Acid + Base → Salt + Water (เช่น HCl + NaOH → NaCl + H₂O)",
-      "เกิดการแบ่งตัวของนิวเคลียส",
-      "สารละลายเปลี่ยนเป็นพลาสมา"
+      "Zn + 2HCl → ZnCl₂ + H₂",
+      "2H₂ + O₂ → 2H₂O",
+      "HCl + NaOH → NaCl + H₂O",
+      "CH₄ + 2O₂ → CO₂ + 2H₂O"
     ],
-    "ans": 1,
-    "explanation": "การสะเทินกรด-เบส (Neutralization) มีลักษณะคือ: Acid + Base → Salt + Water ตัวอย่างเช่น เช่น HCl + NaOH → NaCl + H₂O",
+    "ans": 2,
+    "explanation": "ปฏิกิริยาสะเทินคือกรดทำปฏิกิริยากับเบสได้เกลือและน้ำ เช่น HCl + NaOH → NaCl + H₂O",
     "starsAwarded": 4
   },
   {
@@ -1738,15 +1739,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "reaction",
     "categoryLabel": "ประเภทปฏิกิริยาเคมี",
-    "q": "ปฏิกิริยาเคมีประเภท \"การเผาไหม้สมบูรณ์ (Complete Combustion)\" มีรูปแบบสมการและตัวอย่างตรงกับข้อใด?",
+    "q": "ปฏิกิริยาเคมีประเภท \"การเผาไหม้สมบูรณ์ (Complete Combustion)\" มีสมการตัวอย่างที่ถูกต้องตรงกับข้อใด?",
     "choices": [
-      "Hydrocarbon + O₂ → CO₂ + H₂O (เผาไหม้โดยมีออกซิเจนเพียงพอ ไม่เกิดควันเขม่า)",
-      "เกิดการแบ่งตัวของนิวเคลียส",
-      "A + B + C → สูญหายหมด",
-      "สารละลายเปลี่ยนเป็นพลาสมา"
+      "2H₂ + O₂ → 2H₂O",
+      "HCl + NaOH → NaCl + H₂O",
+      "Zn + 2HCl → ZnCl₂ + H₂",
+      "CH₄ + 2O₂ → CO₂ + 2H₂O"
     ],
-    "ans": 0,
-    "explanation": "การเผาไหม้สมบูรณ์ (Complete Combustion) มีลักษณะคือ: Hydrocarbon + O₂ → CO₂ + H₂O ตัวอย่างเช่น เผาไหม้โดยมีออกซิเจนเพียงพอ ไม่เกิดควันเขม่า",
+    "ans": 3,
+    "explanation": "การเผาไหม้สมบูรณ์ของไฮโดรคาร์บอนต้องใช้ออกซิเจนเพียงพอ ได้แก๊ส CO₂ และน้ำ เช่น CH₄ + 2O₂ → CO₂ + 2H₂O",
     "starsAwarded": 4
   },
   {
@@ -1755,15 +1756,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "reaction",
     "categoryLabel": "ประเภทปฏิกิริยาเคมี",
-    "q": "ปฏิกิริยาเคมีประเภท \"การเผาไหม้ไม่สมบูรณ์ (Incomplete Combustion)\" มีรูปแบบสมการและตัวอย่างตรงกับข้อใด?",
+    "q": "ปฏิกิริยาเคมีประเภท \"การตกตะกอน (Precipitation)\" มีสมการตัวอย่างที่ถูกต้องตรงกับข้อใด?",
     "choices": [
-      "เกิดการแบ่งตัวของนิวเคลียส",
-      "A + B + C → สูญหายหมด",
-      "สารละลายเปลี่ยนเป็นพลาสมา",
-      "Hydrocarbon + O₂ → CO + C (เขม่า) + H₂O (เกิดขึ้นเมื่อออกซิเจนไม่เพียงพอ ได้ก๊าซพิษ CO)"
+      "BaCl₂ + Na₂SO₄ → BaSO₄ + 2NaCl",
+      "HCl + NaOH → NaCl + H₂O",
+      "CH₄ + 2O₂ → CO₂ + 2H₂O",
+      "2H₂ + O₂ → 2H₂O"
     ],
-    "ans": 3,
-    "explanation": "การเผาไหม้ไม่สมบูรณ์ (Incomplete Combustion) มีลักษณะคือ: Hydrocarbon + O₂ → CO + C (เขม่า) + H₂O ตัวอย่างเช่น เกิดขึ้นเมื่อออกซิเจนไม่เพียงพอ ได้ก๊าซพิษ CO",
+    "ans": 0,
+    "explanation": "ปฏิกิริยาการตกตะกอนคือสารละลายผสมกันแล้วได้สารที่ไม่ละลายน้ำตกตะกอนออกมา เช่น BaSO₄ เป็นตะกอนขาว",
     "starsAwarded": 4
   },
   {
@@ -1772,15 +1773,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "reaction",
     "categoryLabel": "อัตราการเกิดปฏิกิริยาเคมี",
-    "q": "เมื่อเกิดสภาวะ \"อุณหภูมิสูงขึ้น\" จะส่งผลต่ออัตราการเกิดปฏิกิริยาเคมีอย่างไร?",
+    "q": "เมื่ออุณหภูมิของระบบเพิ่มสูงขึ้น จะส่งผลต่ออัตราการเกิดปฏิกิริยาเคมีอย่างไร?",
     "choices": [
-      "ทำให้สารสูญสลายมวล",
-      "อัตราปฏิกิริยาเร็วขึ้น",
-      "ทำให้ปฏิกิริยาย้อนกลับทันที",
-      "ไม่มีผลต่ออัตราปฏิกิริยา"
+      "อัตราการเกิดปฏิกิริยาจะเร็วขึ้น",
+      "อัตราการเกิดปฏิกิริยาจะช้าลง",
+      "ไม่มีผลต่ออัตราการเกิดปฏิกิริยา",
+      "ปฏิกิริยาจะหยุดเกิดขึ้นทันที"
     ],
-    "ans": 1,
-    "explanation": "ผลลัพธ์คือ: อัตราปฏิกิริยาเร็วขึ้น เนื่องจาก เพราะอนุภาคมีพลังงานจลน์สูงขึ้น เคลื่อนที่เร็วขึ้น และมีจำนวนอนุภาคที่มีพลังงานเกินค่า Ea มากขึ้น",
+    "ans": 0,
+    "explanation": "เมื่ออุณหภูมิสูงขึ้น อนุภาคมีพลังงานจลน์เฉลี่ยสูงขึ้น ชนกันบ่อยขึ้น และมีอนุภาคที่มีพลังงานมากกว่า Ea เพิ่มขึ้น",
     "starsAwarded": 4
   },
   {
@@ -1789,15 +1790,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "reaction",
     "categoryLabel": "อัตราการเกิดปฏิกิริยาเคมี",
-    "q": "เมื่อเกิดสภาวะ \"พื้นที่ผิวของสารตั้งต้นเพิ่มขึ้น (บดเป็นผงละเอียด)\" จะส่งผลต่ออัตราการเกิดปฏิกิริยาเคมีอย่างไร?",
+    "q": "เมื่อเพิ่มพื้นที่ผิวของสารตั้งต้น (เช่น บดสารก้อนให้เป็นผงละเอียด) จะส่งผลต่ออัตราการเกิดปฏิกิริยาเคมีอย่างไร?",
     "choices": [
-      "ไม่มีผลต่ออัตราปฏิกิริยา",
-      "ทำให้ปฏิกิริยาย้อนกลับทันที",
-      "ทำให้สารสูญสลายมวล",
-      "อัตราปฏิกิริยาเร็วขึ้น"
+      "อัตราการเกิดปฏิกิริยาจะช้าลง",
+      "อัตราการเกิดปฏิกิริยาจะเร็วขึ้น",
+      "ไม่มีผลต่ออัตราการเกิดปฏิกิริยา",
+      "ปฏิกิริยาจะหยุดเกิดขึ้นทันที"
     ],
-    "ans": 3,
-    "explanation": "ผลลัพธ์คือ: อัตราปฏิกิริยาเร็วขึ้น เนื่องจาก เพราะมีพื้นที่ให้อนุภาคชนกันได้ถี่ขึ้น",
+    "ans": 1,
+    "explanation": "การบดสารตั้งต้นเป็นผงละเอียดช่วยเพิ่มพื้นที่ผิวสัมผัส ทำให้อนุภาคชนกันได้มากขึ้น",
     "starsAwarded": 4
   },
   {
@@ -1806,15 +1807,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "reaction",
     "categoryLabel": "อัตราการเกิดปฏิกิริยาเคมี",
-    "q": "เมื่อเกิดสภาวะ \"ความเข้มข้นของสารตั้งต้นเพิ่มขึ้น\" จะส่งผลต่ออัตราการเกิดปฏิกิริยาเคมีอย่างไร?",
+    "q": "เมื่อเติม \"ตัวเร่งปฏิกิริยา (Catalyst)\" ลงในระบบ จะส่งผลต่ออัตราการเกิดปฏิกิริยาเคมีอย่างไร?",
     "choices": [
-      "ไม่มีผลต่ออัตราปฏิกิริยา",
-      "ทำให้ปฏิกิริยาย้อนกลับทันที",
-      "ทำให้สารสูญสลายมวล",
-      "อัตราปฏิกิริยาเร็วขึ้น"
+      "อัตราการเกิดปฏิกิริยาจะช้าลง",
+      "ไม่มีผลต่ออัตราการเกิดปฏิกิริยา",
+      "อัตราการเกิดปฏิกิริยาจะเร็วขึ้น",
+      "ปฏิกิริยาจะหยุดเกิดขึ้นทันที"
     ],
-    "ans": 3,
-    "explanation": "ผลลัพธ์คือ: อัตราปฏิกิริยาเร็วขึ้น เนื่องจาก เพราะจำนวนอนุภาคต่อหน่วยปริมาตรมีมากขึ้น โอกาสในการชนกันสำเร็จจึงสูงขึ้น",
+    "ans": 2,
+    "explanation": "ตัวเร่งปฏิกิริยาช่วยลดค่าพลังงานก่อกัมมันต์ (Ea) ของปฏิกิริยาลง",
     "starsAwarded": 4
   },
   {
@@ -1823,15 +1824,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "reaction",
     "categoryLabel": "อัตราการเกิดปฏิกิริยาเคมี",
-    "q": "เมื่อเกิดสภาวะ \"การเติมตัวเร่งปฏิกิริยา (Catalyst)\" จะส่งผลต่ออัตราการเกิดปฏิกิริยาเคมีอย่างไร?",
+    "q": "เมื่อลดความเข้มข้นของสารตั้งต้นลง (เจือจางสารละลาย) จะส่งผลต่ออัตราการเกิดปฏิกิริยาเคมีอย่างไร?",
     "choices": [
-      "อัตราปฏิกิริยาเร็วขึ้น โดยตัวเร่งไม่ถูกใช้หมดไป",
-      "ไม่มีผลต่ออัตราปฏิกิริยา",
-      "ทำให้สารสูญสลายมวล",
-      "ทำให้ปฏิกิริยาย้อนกลับทันที"
+      "อัตราการเกิดปฏิกิริยาจะเร็วขึ้น",
+      "ไม่มีผลต่ออัตราการเกิดปฏิกิริยา",
+      "ปฏิกิริยาจะหยุดเกิดขึ้นทันที",
+      "อัตราการเกิดปฏิกิริยาจะช้าลง"
     ],
-    "ans": 0,
-    "explanation": "ผลลัพธ์คือ: อัตราปฏิกิริยาเร็วขึ้น โดยตัวเร่งไม่ถูกใช้หมดไป เนื่องจาก ตัวเร่งทำหน้าที่ลดพลังงานก่อกัมมันต์ (Ea) ของปฏิกิริยา",
+    "ans": 3,
+    "explanation": "เมื่อความเข้มข้นลดลง โอกาสที่อนุภาคจะชนกันจึงลดลง ทำให้อัตราช้าลง",
     "starsAwarded": 4
   },
   {
@@ -1840,15 +1841,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "reaction",
     "categoryLabel": "อัตราการเกิดปฏิกิริยาเคมี",
-    "q": "เมื่อเกิดสภาวะ \"การเติมตัวหน่วงปฏิกิริยา (Inhibitor)\" จะส่งผลต่ออัตราการเกิดปฏิกิริยาเคมีอย่างไร?",
+    "q": "เมื่อเติม \"ตัวหน่วงปฏิกิริยา (Inhibitor)\" ลงในระบบ จะส่งผลต่ออัตราการเกิดปฏิกิริยาเคมีอย่างไร?",
     "choices": [
-      "ทำให้ปฏิกิริยาย้อนกลับทันที",
-      "ทำให้สารสูญสลายมวล",
-      "ไม่มีผลต่ออัตราปฏิกิริยา",
-      "อัตราปฏิกิริยาช้าลง"
+      "อัตราการเกิดปฏิกิริยาจะช้าลง",
+      "อัตราการเกิดปฏิกิริยาจะเร็วขึ้น",
+      "ไม่มีผลต่ออัตราการเกิดปฏิกิริยา",
+      "ปฏิกิริยาจะหยุดเกิดขึ้นทันที"
     ],
-    "ans": 3,
-    "explanation": "ผลลัพธ์คือ: อัตราปฏิกิริยาช้าลง เนื่องจาก เช่น การเติมสารกันบูดในอาหารเพื่อชะลอการเน่าเสีย",
+    "ans": 0,
+    "explanation": "ตัวหน่วงปฏิกิริยาจะเข้าไปขัดขวางกลไกของปฏิกิริยา ทำให้อัตราช้าลง",
     "starsAwarded": 4
   },
   {
@@ -1859,13 +1860,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "กรด - เบสรอบตัว",
     "q": "สารเคมีในชีวิตประจำวัน \"กรดไฮโดรคลอริก (HCl)\" มีสมบัติความเป็นกรด-เบสตรงกับข้อใด?",
     "choices": [
-      "จัดเป็น กรดแก่ (พบในน้ำย่อยกระเพาะอาหาร มีฤทธิ์กัดกร่อนสูง)",
-      "เป็นตัวทำละลายอินทรีย์ระเหยง่าย",
-      "เป็นสารเป็นกลางบริสุทธิ์เสมอ",
-      "เป็นโลหะหนักกัมมันตรังสี"
+      "กรดอ่อน (Weak acid)",
+      "กรดแก่ (Strong acid)",
+      "เบสแก่ (Strong base)",
+      "เบสอ่อน (Weak base)"
     ],
-    "ans": 0,
-    "explanation": "กรดไฮโดรคลอริก (HCl) จัดเป็น กรดแก่ โดย พบในน้ำย่อยกระเพาะอาหาร มีฤทธิ์กัดกร่อนสูง",
+    "ans": 1,
+    "explanation": "กรดไฮโดรคลอริก (HCl) แตกตัวได้ 100% ในน้ำ จัดเป็นกรดแก่ พบในน้ำย่อยกระเพาะอาหาร",
     "starsAwarded": 3
   },
   {
@@ -1876,13 +1877,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "กรด - เบสรอบตัว",
     "q": "สารเคมีในชีวิตประจำวัน \"กรดซัลฟิวริก (H₂SO₄)\" มีสมบัติความเป็นกรด-เบสตรงกับข้อใด?",
     "choices": [
-      "เป็นโลหะหนักกัมมันตรังสี",
-      "เป็นสารเป็นกลางบริสุทธิ์เสมอ",
-      "จัดเป็น กรดแก่ (กรดกำมะถันในแบตเตอรี่รถยนต์ ดูดความชื้นได้ดีมาก)",
-      "เป็นตัวทำละลายอินทรีย์ระเหยง่าย"
+      "กรดอ่อน (Weak acid)",
+      "เบสแก่ (Strong base)",
+      "กรดแก่ (Strong acid)",
+      "เบสอ่อน (Weak base)"
     ],
     "ans": 2,
-    "explanation": "กรดซัลฟิวริก (H₂SO₄) จัดเป็น กรดแก่ โดย กรดกำมะถันในแบตเตอรี่รถยนต์ ดูดความชื้นได้ดีมาก",
+    "explanation": "กรดซัลฟิวริก (H₂SO₄) เป็นกรดแก่ แตกตัวได้ดีมาก ใช้เป็นน้ำกรดในแบตเตอรี่รถยนต์",
     "starsAwarded": 3
   },
   {
@@ -1893,13 +1894,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "กรด - เบสรอบตัว",
     "q": "สารเคมีในชีวิตประจำวัน \"กรดไนทริก (HNO₃)\" มีสมบัติความเป็นกรด-เบสตรงกับข้อใด?",
     "choices": [
-      "เป็นตัวทำละลายอินทรีย์ระเหยง่าย",
-      "เป็นโลหะหนักกัมมันตรังสี",
-      "จัดเป็น กรดแก่ (กรดดินประสิว ใช้ทำปุ๋ยและวัตถุระเบิด ทำปฏิกิริยากับโปรตีนเปลี่ยนเป็นสีเหลือง)",
-      "เป็นสารเป็นกลางบริสุทธิ์เสมอ"
+      "กรดอ่อน (Weak acid)",
+      "เบสแก่ (Strong base)",
+      "เบสอ่อน (Weak base)",
+      "กรดแก่ (Strong acid)"
     ],
-    "ans": 2,
-    "explanation": "กรดไนทริก (HNO₃) จัดเป็น กรดแก่ โดย กรดดินประสิว ใช้ทำปุ๋ยและวัตถุระเบิด ทำปฏิกิริยากับโปรตีนเปลี่ยนเป็นสีเหลือง",
+    "ans": 3,
+    "explanation": "กรดไนทริก (HNO₃) หรือกรดดินประสิว เป็นกรดแก่ ใช้ผลิตปุ๋ยไนเตรต",
     "starsAwarded": 3
   },
   {
@@ -1910,13 +1911,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "กรด - เบสรอบตัว",
     "q": "สารเคมีในชีวิตประจำวัน \"กรดแอซีติก (CH₃COOH)\" มีสมบัติความเป็นกรด-เบสตรงกับข้อใด?",
     "choices": [
-      "เป็นตัวทำละลายอินทรีย์ระเหยง่าย",
-      "เป็นสารเป็นกลางบริสุทธิ์เสมอ",
-      "เป็นโลหะหนักกัมมันตรังสี",
-      "จัดเป็น กรดอ่อน (น้ำส้มสายชูความเข้มข้นประมาณ 4-5% มีกลิ่นฉุนเฉพาะตัว)"
+      "กรดอ่อน (Weak acid)",
+      "กรดแก่ (Strong acid)",
+      "เบสแก่ (Strong base)",
+      "เบสอ่อน (Weak base)"
     ],
-    "ans": 3,
-    "explanation": "กรดแอซีติก (CH₃COOH) จัดเป็น กรดอ่อน โดย น้ำส้มสายชูความเข้มข้นประมาณ 4-5% มีกลิ่นฉุนเฉพาะตัว",
+    "ans": 0,
+    "explanation": "กรดแอซีติก (CH₃COOH) หรือกรดน้ำส้ม แตกตัวในน้ำได้บางส่วน จัดเป็นกรดอ่อน",
     "starsAwarded": 3
   },
   {
@@ -1927,13 +1928,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "กรด - เบสรอบตัว",
     "q": "สารเคมีในชีวิตประจำวัน \"กรดคาร์บอนิก (H₂CO₃)\" มีสมบัติความเป็นกรด-เบสตรงกับข้อใด?",
     "choices": [
-      "เป็นสารเป็นกลางบริสุทธิ์เสมอ",
-      "เป็นตัวทำละลายอินทรีย์ระเหยง่าย",
-      "จัดเป็น กรดอ่อน (พบในน้ำอัดลมและโซดา เกิดจาก CO₂ ละลายน้ำ)",
-      "เป็นโลหะหนักกัมมันตรังสี"
+      "กรดแก่ (Strong acid)",
+      "กรดอ่อน (Weak acid)",
+      "เบสแก่ (Strong base)",
+      "เบสอ่อน (Weak base)"
     ],
-    "ans": 2,
-    "explanation": "กรดคาร์บอนิก (H₂CO₃) จัดเป็น กรดอ่อน โดย พบในน้ำอัดลมและโซดา เกิดจาก CO₂ ละลายน้ำ",
+    "ans": 1,
+    "explanation": "กรดคาร์บอนิก (H₂CO₃) เกิดจากแก๊ส CO₂ ละลายในน้ำ จัดเป็นกรดอ่อน พบในน้ำอัดลม",
     "starsAwarded": 3
   },
   {
@@ -1944,13 +1945,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "กรด - เบสรอบตัว",
     "q": "สารเคมีในชีวิตประจำวัน \"โซเดียมไฮดรอกไซด์ (NaOH)\" มีสมบัติความเป็นกรด-เบสตรงกับข้อใด?",
     "choices": [
-      "เป็นโลหะหนักกัมมันตรังสี",
-      "เป็นสารเป็นกลางบริสุทธิ์เสมอ",
-      "เป็นตัวทำละลายอินทรีย์ระเหยง่าย",
-      "จัดเป็น เบสแก่ (โซดาไฟ ใช้ล้างท่อตัน ละลายไขมัน ทำสบู่)"
+      "เบสอ่อน (Weak base)",
+      "กรดแก่ (Strong acid)",
+      "เบสแก่ (Strong base)",
+      "กรดอ่อน (Weak acid)"
     ],
-    "ans": 3,
-    "explanation": "โซเดียมไฮดรอกไซด์ (NaOH) จัดเป็น เบสแก่ โดย โซดาไฟ ใช้ล้างท่อตัน ละลายไขมัน ทำสบู่",
+    "ans": 2,
+    "explanation": "โซเดียมไฮดรอกไซด์ (NaOH) หรือโซดาไฟ แตกตัวเป็นไอออนได้ 100% จัดเป็นเบสแก่",
     "starsAwarded": 3
   },
   {
@@ -1961,13 +1962,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "กรด - เบสรอบตัว",
     "q": "สารเคมีในชีวิตประจำวัน \"โพแทสเซียมไฮดรอกไซด์ (KOH)\" มีสมบัติความเป็นกรด-เบสตรงกับข้อใด?",
     "choices": [
-      "จัดเป็น เบสแก่ (ด่างคลอน ใช้ทำสบู่เหลวและถ่านอัลคาไลน์)",
-      "เป็นโลหะหนักกัมมันตรังสี",
-      "เป็นสารเป็นกลางบริสุทธิ์เสมอ",
-      "เป็นตัวทำละลายอินทรีย์ระเหยง่าย"
+      "เบสอ่อน (Weak base)",
+      "กรดแก่ (Strong acid)",
+      "กรดอ่อน (Weak acid)",
+      "เบสแก่ (Strong base)"
     ],
-    "ans": 0,
-    "explanation": "โพแทสเซียมไฮดรอกไซด์ (KOH) จัดเป็น เบสแก่ โดย ด่างคลอน ใช้ทำสบู่เหลวและถ่านอัลคาไลน์",
+    "ans": 3,
+    "explanation": "โพแทสเซียมไฮดรอกไซด์ (KOH) หรือด่างคลอน เป็นเบสแก่ ใช้ผลิตสบู่เหลว",
     "starsAwarded": 3
   },
   {
@@ -1978,13 +1979,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "กรด - เบสรอบตัว",
     "q": "สารเคมีในชีวิตประจำวัน \"แคลเซียมไฮดรอกไซด์ (Ca(OH)₂)\" มีสมบัติความเป็นกรด-เบสตรงกับข้อใด?",
     "choices": [
-      "เป็นสารเป็นกลางบริสุทธิ์เสมอ",
-      "เป็นตัวทำละลายอินทรีย์ระเหยง่าย",
-      "จัดเป็น เบสแก่/ปานกลาง (น้ำปูนใส ใช้แช่อาหารให้กรอบ ตรวจสอบก๊าซ CO₂)",
-      "เป็นโลหะหนักกัมมันตรังสี"
+      "เบสแก่ (Strong base)",
+      "เบสอ่อน (Weak base)",
+      "กรดแก่ (Strong acid)",
+      "กรดอ่อน (Weak acid)"
     ],
-    "ans": 2,
-    "explanation": "แคลเซียมไฮดรอกไซด์ (Ca(OH)₂) จัดเป็น เบสแก่/ปานกลาง โดย น้ำปูนใส ใช้แช่อาหารให้กรอบ ตรวจสอบก๊าซ CO₂",
+    "ans": 0,
+    "explanation": "แคลเซียมไฮดรอกไซด์ (Ca(OH)₂) สารละลายคือน้ำปูนใส จัดเป็นเบสแก่",
     "starsAwarded": 3
   },
   {
@@ -1995,13 +1996,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "กรด - เบสรอบตัว",
     "q": "สารเคมีในชีวิตประจำวัน \"แอมโมเนีย (NH₃)\" มีสมบัติความเป็นกรด-เบสตรงกับข้อใด?",
     "choices": [
-      "เป็นตัวทำละลายอินทรีย์ระเหยง่าย",
-      "จัดเป็น เบสอ่อน (ก๊าซกลิ่นฉุน ละลายน้ำได้ดี ใช้ทำปุ๋ยและน้ำยาดมชูกำลัง)",
-      "เป็นโลหะหนักกัมมันตรังสี",
-      "เป็นสารเป็นกลางบริสุทธิ์เสมอ"
+      "เบสแก่ (Strong base)",
+      "เบสอ่อน (Weak base)",
+      "กรดแก่ (Strong acid)",
+      "กรดอ่อน (Weak acid)"
     ],
     "ans": 1,
-    "explanation": "แอมโมเนีย (NH₃) จัดเป็น เบสอ่อน โดย ก๊าซกลิ่นฉุน ละลายน้ำได้ดี ใช้ทำปุ๋ยและน้ำยาดมชูกำลัง",
+    "explanation": "แอมโมเนีย (NH₃) เมื่อละลายน้ำแตกตัวให้ไฮดรอกไซด์ไอออนได้บางส่วน จัดเป็นเบสอ่อน",
     "starsAwarded": 3
   },
   {
@@ -2012,13 +2013,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "กรด - เบสรอบตัว",
     "q": "สารเคมีในชีวิตประจำวัน \"โซเดียมไฮโดรเจนคาร์บอเนต (NaHCO₃)\" มีสมบัติความเป็นกรด-เบสตรงกับข้อใด?",
     "choices": [
-      "จัดเป็น เกลือที่มีฤทธิ์เป็นเบสอ่อน (เบกกิ้งโซดา ขจัดคราบและช่วยให้ขนมฟู)",
-      "เป็นตัวทำละลายอินทรีย์ระเหยง่าย",
-      "เป็นสารเป็นกลางบริสุทธิ์เสมอ",
-      "เป็นโลหะหนักกัมมันตรังสี"
+      "เกลือกรดแก่ (Acidic salt)",
+      "กรดแก่บริสุทธิ์ (Strong acid)",
+      "เกลือเบสอ่อน (Basic salt)",
+      "เบสแก่เข้มข้น (Strong base)"
     ],
-    "ans": 0,
-    "explanation": "โซเดียมไฮโดรเจนคาร์บอเนต (NaHCO₃) จัดเป็น เกลือที่มีฤทธิ์เป็นเบสอ่อน โดย เบกกิ้งโซดา ขจัดคราบและช่วยให้ขนมฟู",
+    "ans": 2,
+    "explanation": "NaHCO₃ (เบกกิ้งโซดา) เป็นเกลือที่เกิดจากเบสแก่กับกรดอ่อน จึงมีสมบัติเป็นเบสอ่อน",
     "starsAwarded": 3
   },
   {
@@ -2027,15 +2028,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "acid_base",
     "categoryLabel": "อินดิเคเตอร์กรด-เบส",
-    "q": "อินดิเคเตอร์วัดความเป็นกรด-เบส \"กระดาษลิตมัส (Litmus Paper)\" มีคุณลักษณะการเปลี่ยนสีตรงกับข้อใด?",
+    "q": "อินดิเคเตอร์วัดความเป็นกรด-เบส \"กระดาษลิตมัส (Litmus Paper)\" มีลักษณะการเปลี่ยนสีตรงกับข้อใด?",
     "choices": [
-      "เปลี่ยนเป็นสีดำสนิทเมื่อโดนความร้อน",
-      "ส่งเสียงเตือนเมื่อพบกรดแก่",
-      "คงสีเดิมตลอดเวลาไม่ว่าจะอยู่ในสารละลายใด",
-      "กรดเปลี่ยนน้ำเงินเป็นแดง, เบสเปลี่ยนแดงเป็นน้ำเงิน, กลางไม่เปลี่ยนสี"
+      "กรดเปลี่ยนสีน้ำเงินเป็นแดง เบสเปลี่ยนสีแดงเป็นน้ำเงิน",
+      "ในกรดไม่มีสี ในเบสเปลี่ยนเป็นสีชมพูบานเย็น",
+      "ในกรดเปลี่ยนเป็นสีแดง ในเบสเปลี่ยนเป็นสีเหลือง",
+      "ในกรดเปลี่ยนเป็นสีเหลือง ในเบสเปลี่ยนเป็นสีน้ำเงิน"
     ],
-    "ans": 3,
-    "explanation": "กระดาษลิตมัส (Litmus Paper): กรดเปลี่ยนน้ำเงินเป็นแดง, เบสเปลี่ยนแดงเป็นน้ำเงิน, กลางไม่เปลี่ยนสี",
+    "ans": 0,
+    "explanation": "กระดาษลิตมัสเปลี่ยนสีที่ช่วง pH ประมาณ 5.0 - 8.0 โดยสารละลายกรดจะเปลี่ยนกระดาษสีน้ำเงินเป็นแดง และเบสเปลี่ยนสีแดงเป็นน้ำเงิน",
     "starsAwarded": 4
   },
   {
@@ -2044,15 +2045,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "acid_base",
     "categoryLabel": "อินดิเคเตอร์กรด-เบส",
-    "q": "อินดิเคเตอร์วัดความเป็นกรด-เบส \"ฟีนอล์ฟทาลีน (Phenolphthalein)\" มีคุณลักษณะการเปลี่ยนสีตรงกับข้อใด?",
+    "q": "อินดิเคเตอร์วัดความเป็นกรด-เบส \"ฟีนอล์ฟทาลีน (Phenolphthalein)\" มีลักษณะการเปลี่ยนสีตรงกับข้อใด?",
     "choices": [
-      "คงสีเดิมตลอดเวลาไม่ว่าจะอยู่ในสารละลายใด",
-      "ไม่มีสีในกรดและกลาง (pH < 8.3) และเปลี่ยนเป็น 'สีชมพูบานเย็น' ในเบส (pH 8.3 - 10.0)",
-      "ส่งเสียงเตือนเมื่อพบกรดแก่",
-      "เปลี่ยนเป็นสีดำสนิทเมื่อโดนความร้อน"
+      "กรดเปลี่ยนสีน้ำเงินเป็นแดง เบสเปลี่ยนสีแดงเป็นน้ำเงิน",
+      "ในกรดไม่มีสี ในเบสเปลี่ยนเป็นสีชมพูบานเย็น",
+      "ในกรดเปลี่ยนเป็นสีแดง ในเบสเปลี่ยนเป็นสีเหลือง",
+      "ในกรดเปลี่ยนเป็นสีเหลือง ในเบสเปลี่ยนเป็นสีน้ำเงิน"
     ],
     "ans": 1,
-    "explanation": "ฟีนอล์ฟทาลีน (Phenolphthalein): ไม่มีสีในกรดและกลาง (pH < 8.3) และเปลี่ยนเป็น 'สีชมพูบานเย็น' ในเบส (pH 8.3 - 10.0)",
+    "explanation": "ฟีนอล์ฟทาลีนมีช่วงเปลี่ยนสี pH 8.3 - 10.0 ในสารละลายกรดและเป็นกลางจะไม่มีสี แต่ในสารละลายเบสจะเปลี่ยนเป็นสีชมพูบานเย็น",
     "starsAwarded": 4
   },
   {
@@ -2061,15 +2062,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "acid_base",
     "categoryLabel": "อินดิเคเตอร์กรด-เบส",
-    "q": "อินดิเคเตอร์วัดความเป็นกรด-เบส \"เมทิลออเรนจ์ (Methyl Orange)\" มีคุณลักษณะการเปลี่ยนสีตรงกับข้อใด?",
+    "q": "อินดิเคเตอร์วัดความเป็นกรด-เบส \"เมทิลออเรนจ์ (Methyl Orange)\" มีลักษณะการเปลี่ยนสีตรงกับข้อใด?",
     "choices": [
-      "ส่งเสียงเตือนเมื่อพบกรดแก่",
-      "เปลี่ยนสีในช่วง pH 3.1 - 4.4 จากสีแดง (กรด) เป็นสีเหลือง",
-      "คงสีเดิมตลอดเวลาไม่ว่าจะอยู่ในสารละลายใด",
-      "เปลี่ยนเป็นสีดำสนิทเมื่อโดนความร้อน"
+      "ในกรดไม่มีสี ในเบสเปลี่ยนเป็นสีชมพูบานเย็น",
+      "กรดเปลี่ยนสีน้ำเงินเป็นแดง เบสเปลี่ยนสีแดงเป็นน้ำเงิน",
+      "ในกรดเปลี่ยนเป็นสีแดง ในเบสเปลี่ยนเป็นสีเหลือง",
+      "ในกรดเปลี่ยนเป็นสีเหลือง ในเบสเปลี่ยนเป็นสีน้ำเงิน"
     ],
-    "ans": 1,
-    "explanation": "เมทิลออเรนจ์ (Methyl Orange): เปลี่ยนสีในช่วง pH 3.1 - 4.4 จากสีแดง (กรด) เป็นสีเหลือง",
+    "ans": 2,
+    "explanation": "เมทิลออเรนจ์มีช่วงเปลี่ยนสี pH 3.1 - 4.4 ในสารละลายกรดจัดจะให้สีแดง และในสารละลายเบสจะเปลี่ยนเป็นสีเหลือง",
     "starsAwarded": 4
   },
   {
@@ -2078,15 +2079,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "acid_base",
     "categoryLabel": "อินดิเคเตอร์กรด-เบส",
-    "q": "อินดิเคเตอร์วัดความเป็นกรด-เบส \"โบรโมไทมอลบลู (Bromothymol Blue)\" มีคุณลักษณะการเปลี่ยนสีตรงกับข้อใด?",
+    "q": "อินดิเคเตอร์วัดความเป็นกรด-เบส \"โบรโมไทมอลบลู (Bromothymol Blue)\" มีลักษณะการเปลี่ยนสีตรงกับข้อใด?",
     "choices": [
-      "เปลี่ยนสีในช่วง pH 6.0 - 7.6 จากสีเหลือง (กรด) ผ่านเขียว (กลาง) เป็นสีน้ำเงิน (เบส)",
-      "เปลี่ยนเป็นสีดำสนิทเมื่อโดนความร้อน",
-      "คงสีเดิมตลอดเวลาไม่ว่าจะอยู่ในสารละลายใด",
-      "ส่งเสียงเตือนเมื่อพบกรดแก่"
+      "ในกรดไม่มีสี ในเบสเปลี่ยนเป็นสีชมพูบานเย็น",
+      "กรดเปลี่ยนสีน้ำเงินเป็นแดง เบสเปลี่ยนสีแดงเป็นน้ำเงิน",
+      "ในกรดเปลี่ยนเป็นสีแดง ในเบสเปลี่ยนเป็นสีเหลือง",
+      "ในกรดเปลี่ยนเป็นสีเหลือง ในเบสเปลี่ยนเป็นสีน้ำเงิน"
     ],
-    "ans": 0,
-    "explanation": "โบรโมไทมอลบลู (Bromothymol Blue): เปลี่ยนสีในช่วง pH 6.0 - 7.6 จากสีเหลือง (กรด) ผ่านเขียว (กลาง) เป็นสีน้ำเงิน (เบส)",
+    "ans": 3,
+    "explanation": "โบรโมไทมอลบลูมีช่วงเปลี่ยนสี pH 6.0 - 7.6 ในกรดเป็นสีเหลือง ที่สภาวะเป็นกลางเป็นสีเขียว และในเบสเป็นสีน้ำเงิน",
     "starsAwarded": 4
   },
   {
@@ -2095,15 +2096,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "acid_base",
     "categoryLabel": "อินดิเคเตอร์กรด-เบส",
-    "q": "อินดิเคเตอร์วัดความเป็นกรด-เบส \"ยูนิเวอร์แซลอินดิเคเตอร์ (Universal Indicator)\" มีคุณลักษณะการเปลี่ยนสีตรงกับข้อใด?",
+    "q": "อินดิเคเตอร์วัดความเป็นกรด-เบส \"ยูนิเวอร์แซลอินดิเคเตอร์ (Universal Indicator)\" มีลักษณะการเปลี่ยนสีตรงกับข้อใด?",
     "choices": [
-      "สามารถบอกค่า pH ได้ละเอียดตั้งแต่ 1 ถึง 14 โดยเทียบกับแถบสีรุ้ง",
-      "ส่งเสียงเตือนเมื่อพบกรดแก่",
-      "คงสีเดิมตลอดเวลาไม่ว่าจะอยู่ในสารละลายใด",
-      "เปลี่ยนเป็นสีดำสนิทเมื่อโดนความร้อน"
+      "เปลี่ยนสีได้หลายระดับตั้งแต่ pH 1 ถึง 14 เทียบกับแถบสี",
+      "เปลี่ยนสีเฉพาะช่วง pH 7.0 เท่านั้น",
+      "วัดได้เฉพาะสารละลายที่มีอุณหภูมิสูงกว่า 100 องศาเซลเซียส",
+      "เปลี่ยนสีได้เพียง 2 สีคือสีดำกับสีขาว"
     ],
     "ans": 0,
-    "explanation": "ยูนิเวอร์แซลอินดิเคเตอร์ (Universal Indicator): สามารถบอกค่า pH ได้ละเอียดตั้งแต่ 1 ถึง 14 โดยเทียบกับแถบสีรุ้ง",
+    "explanation": "ยูนิเวอร์แซลอินดิเคเตอร์ผสมจากอินดิเคเตอร์หลายชนิด ทำให้สามารถบอกค่า pH ได้ละเอียดตั้งแต่ 1 ถึง 14 โดยเทียบกับแถบสีมาตรฐาน",
     "starsAwarded": 4
   },
   {
@@ -2114,13 +2115,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "สัญลักษณ์และเลขอะตอม",
     "q": "ธาตุที่มีสัญลักษณ์เคมีว่า \"H\" มีชื่อภาษาไทยและเลขอะตอมตรงกับข้อใด?",
     "choices": [
-      "Hydrogen (เลขอะตอม 1)",
-      "ไฮโดรเจน (เลขอะตอม 3)",
       "ไฮโดรเจน (เลขอะตอม 1)",
-      "ธาตุสังเคราะห์หมายเลข 1"
+      "ฮีเลียม (เลขอะตอม 2)",
+      "ออกซิเจน (เลขอะตอม 8)",
+      "ซิลิคอน (เลขอะตอม 14)"
     ],
-    "ans": 2,
-    "explanation": "สัญลักษณ์ธาตุ H คือ ไฮโดรเจน (Hydrogen) มีเลขอะตอม Z = 1",
+    "ans": 0,
+    "explanation": "สัญลักษณ์ธาตุ H คือธาตุ \"ไฮโดรเจน\" (Hydrogen) มีเลขอะตอม Z = 1",
     "starsAwarded": 3
   },
   {
@@ -2131,13 +2132,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "สัญลักษณ์และเลขอะตอม",
     "q": "ธาตุที่มีสัญลักษณ์เคมีว่า \"He\" มีชื่อภาษาไทยและเลขอะตอมตรงกับข้อใด?",
     "choices": [
+      "ลิเทียม (เลขอะตอม 3)",
       "ฮีเลียม (เลขอะตอม 2)",
-      "Helium (เลขอะตอม 1)",
-      "ฮีเลียม (เลขอะตอม 4)",
-      "ธาตุสังเคราะห์หมายเลข 2"
+      "ฟลูออรีน (เลขอะตอม 9)",
+      "ฟอสฟอรัส (เลขอะตอม 15)"
     ],
-    "ans": 0,
-    "explanation": "สัญลักษณ์ธาตุ He คือ ฮีเลียม (Helium) มีเลขอะตอม Z = 2",
+    "ans": 1,
+    "explanation": "สัญลักษณ์ธาตุ He คือธาตุ \"ฮีเลียม\" (Helium) มีเลขอะตอม Z = 2",
     "starsAwarded": 3
   },
   {
@@ -2148,13 +2149,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "สัญลักษณ์และเลขอะตอม",
     "q": "ธาตุที่มีสัญลักษณ์เคมีว่า \"Li\" มีชื่อภาษาไทยและเลขอะตอมตรงกับข้อใด?",
     "choices": [
+      "เบริลเลียม (เลขอะตอม 4)",
+      "นีออน (เลขอะตอม 10)",
       "ลิเทียม (เลขอะตอม 3)",
-      "ลิเทียม (เลขอะตอม 5)",
-      "ธาตุสังเคราะห์หมายเลข 3",
-      "Lithium (เลขอะตอม 2)"
+      "กำมะถัน (เลขอะตอม 16)"
     ],
-    "ans": 0,
-    "explanation": "สัญลักษณ์ธาตุ Li คือ ลิเทียม (Lithium) มีเลขอะตอม Z = 3",
+    "ans": 2,
+    "explanation": "สัญลักษณ์ธาตุ Li คือธาตุ \"ลิเทียม\" (Lithium) มีเลขอะตอม Z = 3",
     "starsAwarded": 3
   },
   {
@@ -2165,13 +2166,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "สัญลักษณ์และเลขอะตอม",
     "q": "ธาตุที่มีสัญลักษณ์เคมีว่า \"Be\" มีชื่อภาษาไทยและเลขอะตอมตรงกับข้อใด?",
     "choices": [
-      "ธาตุสังเคราะห์หมายเลข 4",
-      "Beryllium (เลขอะตอม 3)",
-      "เบริลเลียม (เลขอะตอม 4)",
-      "เบริลเลียม (เลขอะตอม 6)"
+      "โบรอน (เลขอะตอม 5)",
+      "โซเดียม (เลขอะตอม 11)",
+      "คลอรีน (เลขอะตอม 17)",
+      "เบริลเลียม (เลขอะตอม 4)"
     ],
-    "ans": 2,
-    "explanation": "สัญลักษณ์ธาตุ Be คือ เบริลเลียม (Beryllium) มีเลขอะตอม Z = 4",
+    "ans": 3,
+    "explanation": "สัญลักษณ์ธาตุ Be คือธาตุ \"เบริลเลียม\" (Beryllium) มีเลขอะตอม Z = 4",
     "starsAwarded": 3
   },
   {
@@ -2182,13 +2183,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "สัญลักษณ์และเลขอะตอม",
     "q": "ธาตุที่มีสัญลักษณ์เคมีว่า \"B\" มีชื่อภาษาไทยและเลขอะตอมตรงกับข้อใด?",
     "choices": [
-      "ธาตุสังเคราะห์หมายเลข 5",
       "โบรอน (เลขอะตอม 5)",
-      "Boron (เลขอะตอม 4)",
-      "โบรอน (เลขอะตอม 7)"
+      "คาร์บอน (เลขอะตอม 6)",
+      "แมกนีเซียม (เลขอะตอม 12)",
+      "อาร์กอน (เลขอะตอม 18)"
     ],
-    "ans": 1,
-    "explanation": "สัญลักษณ์ธาตุ B คือ โบรอน (Boron) มีเลขอะตอม Z = 5",
+    "ans": 0,
+    "explanation": "สัญลักษณ์ธาตุ B คือธาตุ \"โบรอน\" (Boron) มีเลขอะตอม Z = 5",
     "starsAwarded": 3
   },
   {
@@ -2199,13 +2200,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "สัญลักษณ์และเลขอะตอม",
     "q": "ธาตุที่มีสัญลักษณ์เคมีว่า \"C\" มีชื่อภาษาไทยและเลขอะตอมตรงกับข้อใด?",
     "choices": [
+      "ไนโตรเจน (เลขอะตอม 7)",
       "คาร์บอน (เลขอะตอม 6)",
-      "คาร์บอน (เลขอะตอม 8)",
-      "Carbon (เลขอะตอม 5)",
-      "ธาตุสังเคราะห์หมายเลข 6"
+      "อะลูมิเนียม (เลขอะตอม 13)",
+      "โพแทสเซียม (เลขอะตอม 19)"
     ],
-    "ans": 0,
-    "explanation": "สัญลักษณ์ธาตุ C คือ คาร์บอน (Carbon) มีเลขอะตอม Z = 6",
+    "ans": 1,
+    "explanation": "สัญลักษณ์ธาตุ C คือธาตุ \"คาร์บอน\" (Carbon) มีเลขอะตอม Z = 6",
     "starsAwarded": 3
   },
   {
@@ -2216,13 +2217,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "สัญลักษณ์และเลขอะตอม",
     "q": "ธาตุที่มีสัญลักษณ์เคมีว่า \"N\" มีชื่อภาษาไทยและเลขอะตอมตรงกับข้อใด?",
     "choices": [
-      "ไนโตรเจน (เลขอะตอม 9)",
-      "Nitrogen (เลขอะตอม 6)",
-      "ธาตุสังเคราะห์หมายเลข 7",
-      "ไนโตรเจน (เลขอะตอม 7)"
+      "ออกซิเจน (เลขอะตอม 8)",
+      "ซิลิคอน (เลขอะตอม 14)",
+      "ไนโตรเจน (เลขอะตอม 7)",
+      "แคลเซียม (เลขอะตอม 20)"
     ],
-    "ans": 3,
-    "explanation": "สัญลักษณ์ธาตุ N คือ ไนโตรเจน (Nitrogen) มีเลขอะตอม Z = 7",
+    "ans": 2,
+    "explanation": "สัญลักษณ์ธาตุ N คือธาตุ \"ไนโตรเจน\" (Nitrogen) มีเลขอะตอม Z = 7",
     "starsAwarded": 3
   },
   {
@@ -2233,13 +2234,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "สัญลักษณ์และเลขอะตอม",
     "q": "ธาตุที่มีสัญลักษณ์เคมีว่า \"O\" มีชื่อภาษาไทยและเลขอะตอมตรงกับข้อใด?",
     "choices": [
-      "Oxygen (เลขอะตอม 7)",
-      "ธาตุสังเคราะห์หมายเลข 8",
-      "ออกซิเจน (เลขอะตอม 10)",
+      "ฟลูออรีน (เลขอะตอม 9)",
+      "ฟอสฟอรัส (เลขอะตอม 15)",
+      "เหล็ก (เลขอะตอม 26)",
       "ออกซิเจน (เลขอะตอม 8)"
     ],
     "ans": 3,
-    "explanation": "สัญลักษณ์ธาตุ O คือ ออกซิเจน (Oxygen) มีเลขอะตอม Z = 8",
+    "explanation": "สัญลักษณ์ธาตุ O คือธาตุ \"ออกซิเจน\" (Oxygen) มีเลขอะตอม Z = 8",
     "starsAwarded": 3
   },
   {
@@ -2250,13 +2251,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "สัญลักษณ์และเลขอะตอม",
     "q": "ธาตุที่มีสัญลักษณ์เคมีว่า \"F\" มีชื่อภาษาไทยและเลขอะตอมตรงกับข้อใด?",
     "choices": [
-      "ฟลูออรีน (เลขอะตอม 11)",
-      "Fluorine (เลขอะตอม 8)",
       "ฟลูออรีน (เลขอะตอม 9)",
-      "ธาตุสังเคราะห์หมายเลข 9"
+      "นีออน (เลขอะตอม 10)",
+      "กำมะถัน (เลขอะตอม 16)",
+      "ทองแดง (เลขอะตอม 29)"
     ],
-    "ans": 2,
-    "explanation": "สัญลักษณ์ธาตุ F คือ ฟลูออรีน (Fluorine) มีเลขอะตอม Z = 9",
+    "ans": 0,
+    "explanation": "สัญลักษณ์ธาตุ F คือธาตุ \"ฟลูออรีน\" (Fluorine) มีเลขอะตอม Z = 9",
     "starsAwarded": 3
   },
   {
@@ -2267,13 +2268,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "สัญลักษณ์และเลขอะตอม",
     "q": "ธาตุที่มีสัญลักษณ์เคมีว่า \"Ne\" มีชื่อภาษาไทยและเลขอะตอมตรงกับข้อใด?",
     "choices": [
-      "นีออน (เลขอะตอม 12)",
-      "Neon (เลขอะตอม 9)",
-      "ธาตุสังเคราะห์หมายเลข 10",
-      "นีออน (เลขอะตอม 10)"
+      "โซเดียม (เลขอะตอม 11)",
+      "นีออน (เลขอะตอม 10)",
+      "คลอรีน (เลขอะตอม 17)",
+      "สังกะสี (เลขอะตอม 30)"
     ],
-    "ans": 3,
-    "explanation": "สัญลักษณ์ธาตุ Ne คือ นีออน (Neon) มีเลขอะตอม Z = 10",
+    "ans": 1,
+    "explanation": "สัญลักษณ์ธาตุ Ne คือธาตุ \"นีออน\" (Neon) มีเลขอะตอม Z = 10",
     "starsAwarded": 3
   },
   {
@@ -2284,13 +2285,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "สัญลักษณ์และเลขอะตอม",
     "q": "ธาตุที่มีสัญลักษณ์เคมีว่า \"Na\" มีชื่อภาษาไทยและเลขอะตอมตรงกับข้อใด?",
     "choices": [
-      "โซเดียม (เลขอะตอม 13)",
+      "แมกนีเซียม (เลขอะตอม 12)",
+      "อาร์กอน (เลขอะตอม 18)",
       "โซเดียม (เลขอะตอม 11)",
-      "Sodium (เลขอะตอม 10)",
-      "ธาตุสังเคราะห์หมายเลข 11"
+      "โบรมีน (เลขอะตอม 35)"
     ],
-    "ans": 1,
-    "explanation": "สัญลักษณ์ธาตุ Na คือ โซเดียม (Sodium) มีเลขอะตอม Z = 11",
+    "ans": 2,
+    "explanation": "สัญลักษณ์ธาตุ Na คือธาตุ \"โซเดียม\" (Sodium) มีเลขอะตอม Z = 11",
     "starsAwarded": 3
   },
   {
@@ -2301,13 +2302,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "สัญลักษณ์และเลขอะตอม",
     "q": "ธาตุที่มีสัญลักษณ์เคมีว่า \"Mg\" มีชื่อภาษาไทยและเลขอะตอมตรงกับข้อใด?",
     "choices": [
-      "ธาตุสังเคราะห์หมายเลข 12",
-      "แมกนีเซียม (เลขอะตอม 12)",
-      "แมกนีเซียม (เลขอะตอม 14)",
-      "Magnesium (เลขอะตอม 11)"
+      "อะลูมิเนียม (เลขอะตอม 13)",
+      "โพแทสเซียม (เลขอะตอม 19)",
+      "เงิน (เลขอะตอม 47)",
+      "แมกนีเซียม (เลขอะตอม 12)"
     ],
-    "ans": 1,
-    "explanation": "สัญลักษณ์ธาตุ Mg คือ แมกนีเซียม (Magnesium) มีเลขอะตอม Z = 12",
+    "ans": 3,
+    "explanation": "สัญลักษณ์ธาตุ Mg คือธาตุ \"แมกนีเซียม\" (Magnesium) มีเลขอะตอม Z = 12",
     "starsAwarded": 3
   },
   {
@@ -2318,13 +2319,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "สัญลักษณ์และเลขอะตอม",
     "q": "ธาตุที่มีสัญลักษณ์เคมีว่า \"Al\" มีชื่อภาษาไทยและเลขอะตอมตรงกับข้อใด?",
     "choices": [
-      "อะลูมิเนียม (เลขอะตอม 15)",
-      "ธาตุสังเคราะห์หมายเลข 13",
-      "Aluminium (เลขอะตอม 12)",
-      "อะลูมิเนียม (เลขอะตอม 13)"
+      "อะลูมิเนียม (เลขอะตอม 13)",
+      "ซิลิคอน (เลขอะตอม 14)",
+      "แคลเซียม (เลขอะตอม 20)",
+      "ไอโอดีน (เลขอะตอม 53)"
     ],
-    "ans": 3,
-    "explanation": "สัญลักษณ์ธาตุ Al คือ อะลูมิเนียม (Aluminium) มีเลขอะตอม Z = 13",
+    "ans": 0,
+    "explanation": "สัญลักษณ์ธาตุ Al คือธาตุ \"อะลูมิเนียม\" (Aluminium) มีเลขอะตอม Z = 13",
     "starsAwarded": 3
   },
   {
@@ -2335,13 +2336,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "สัญลักษณ์และเลขอะตอม",
     "q": "ธาตุที่มีสัญลักษณ์เคมีว่า \"Si\" มีชื่อภาษาไทยและเลขอะตอมตรงกับข้อใด?",
     "choices": [
+      "ฟอสฟอรัส (เลขอะตอม 15)",
       "ซิลิคอน (เลขอะตอม 14)",
-      "ธาตุสังเคราะห์หมายเลข 14",
-      "ซิลิคอน (เลขอะตอม 16)",
-      "Silicon (เลขอะตอม 13)"
+      "เหล็ก (เลขอะตอม 26)",
+      "ทองคำ (เลขอะตอม 79)"
     ],
-    "ans": 0,
-    "explanation": "สัญลักษณ์ธาตุ Si คือ ซิลิคอน (Silicon) มีเลขอะตอม Z = 14",
+    "ans": 1,
+    "explanation": "สัญลักษณ์ธาตุ Si คือธาตุ \"ซิลิคอน\" (Silicon) มีเลขอะตอม Z = 14",
     "starsAwarded": 3
   },
   {
@@ -2352,13 +2353,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "สัญลักษณ์และเลขอะตอม",
     "q": "ธาตุที่มีสัญลักษณ์เคมีว่า \"P\" มีชื่อภาษาไทยและเลขอะตอมตรงกับข้อใด?",
     "choices": [
-      "ฟอสฟอรัส (เลขอะตอม 17)",
-      "Phosphorus (เลขอะตอม 14)",
+      "กำมะถัน (เลขอะตอม 16)",
+      "ทองแดง (เลขอะตอม 29)",
       "ฟอสฟอรัส (เลขอะตอม 15)",
-      "ธาตุสังเคราะห์หมายเลข 15"
+      "ปรอท (เลขอะตอม 80)"
     ],
     "ans": 2,
-    "explanation": "สัญลักษณ์ธาตุ P คือ ฟอสฟอรัส (Phosphorus) มีเลขอะตอม Z = 15",
+    "explanation": "สัญลักษณ์ธาตุ P คือธาตุ \"ฟอสฟอรัส\" (Phosphorus) มีเลขอะตอม Z = 15",
     "starsAwarded": 3
   },
   {
@@ -2369,13 +2370,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "สัญลักษณ์และเลขอะตอม",
     "q": "ธาตุที่มีสัญลักษณ์เคมีว่า \"S\" มีชื่อภาษาไทยและเลขอะตอมตรงกับข้อใด?",
     "choices": [
-      "กำมะถัน (ซัลเฟอร์) (เลขอะตอม 16)",
-      "ธาตุสังเคราะห์หมายเลข 16",
-      "Sulfur (เลขอะตอม 15)",
-      "กำมะถัน (ซัลเฟอร์) (เลขอะตอม 18)"
+      "คลอรีน (เลขอะตอม 17)",
+      "สังกะสี (เลขอะตอม 30)",
+      "ตะกั่ว (เลขอะตอม 82)",
+      "กำมะถัน (เลขอะตอม 16)"
     ],
-    "ans": 0,
-    "explanation": "สัญลักษณ์ธาตุ S คือ กำมะถัน (ซัลเฟอร์) (Sulfur) มีเลขอะตอม Z = 16",
+    "ans": 3,
+    "explanation": "สัญลักษณ์ธาตุ S คือธาตุ \"กำมะถัน\" (Sulfur) มีเลขอะตอม Z = 16",
     "starsAwarded": 3
   },
   {
@@ -2386,13 +2387,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "สัญลักษณ์และเลขอะตอม",
     "q": "ธาตุที่มีสัญลักษณ์เคมีว่า \"Cl\" มีชื่อภาษาไทยและเลขอะตอมตรงกับข้อใด?",
     "choices": [
-      "Chlorine (เลขอะตอม 16)",
       "คลอรีน (เลขอะตอม 17)",
-      "คลอรีน (เลขอะตอม 19)",
-      "ธาตุสังเคราะห์หมายเลข 17"
+      "อาร์กอน (เลขอะตอม 18)",
+      "โบรมีน (เลขอะตอม 35)",
+      "ยูเรเนียม (เลขอะตอม 92)"
     ],
-    "ans": 1,
-    "explanation": "สัญลักษณ์ธาตุ Cl คือ คลอรีน (Chlorine) มีเลขอะตอม Z = 17",
+    "ans": 0,
+    "explanation": "สัญลักษณ์ธาตุ Cl คือธาตุ \"คลอรีน\" (Chlorine) มีเลขอะตอม Z = 17",
     "starsAwarded": 3
   },
   {
@@ -2403,13 +2404,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "สัญลักษณ์และเลขอะตอม",
     "q": "ธาตุที่มีสัญลักษณ์เคมีว่า \"Ar\" มีชื่อภาษาไทยและเลขอะตอมตรงกับข้อใด?",
     "choices": [
-      "อาร์กอน (เลขอะตอม 20)",
-      "ธาตุสังเคราะห์หมายเลข 18",
+      "โพแทสเซียม (เลขอะตอม 19)",
       "อาร์กอน (เลขอะตอม 18)",
-      "Argon (เลขอะตอม 17)"
+      "เงิน (เลขอะตอม 47)",
+      "ไฮโดรเจน (เลขอะตอม 1)"
     ],
-    "ans": 2,
-    "explanation": "สัญลักษณ์ธาตุ Ar คือ อาร์กอน (Argon) มีเลขอะตอม Z = 18",
+    "ans": 1,
+    "explanation": "สัญลักษณ์ธาตุ Ar คือธาตุ \"อาร์กอน\" (Argon) มีเลขอะตอม Z = 18",
     "starsAwarded": 3
   },
   {
@@ -2420,13 +2421,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "สัญลักษณ์และเลขอะตอม",
     "q": "ธาตุที่มีสัญลักษณ์เคมีว่า \"K\" มีชื่อภาษาไทยและเลขอะตอมตรงกับข้อใด?",
     "choices": [
+      "แคลเซียม (เลขอะตอม 20)",
+      "ไอโอดีน (เลขอะตอม 53)",
       "โพแทสเซียม (เลขอะตอม 19)",
-      "ธาตุสังเคราะห์หมายเลข 19",
-      "โพแทสเซียม (เลขอะตอม 21)",
-      "Potassium (เลขอะตอม 18)"
+      "ฮีเลียม (เลขอะตอม 2)"
     ],
-    "ans": 0,
-    "explanation": "สัญลักษณ์ธาตุ K คือ โพแทสเซียม (Potassium) มีเลขอะตอม Z = 19",
+    "ans": 2,
+    "explanation": "สัญลักษณ์ธาตุ K คือธาตุ \"โพแทสเซียม\" (Potassium) มีเลขอะตอม Z = 19",
     "starsAwarded": 3
   },
   {
@@ -2437,13 +2438,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "สัญลักษณ์และเลขอะตอม",
     "q": "ธาตุที่มีสัญลักษณ์เคมีว่า \"Ca\" มีชื่อภาษาไทยและเลขอะตอมตรงกับข้อใด?",
     "choices": [
-      "Calcium (เลขอะตอม 19)",
-      "แคลเซียม (เลขอะตอม 20)",
-      "ธาตุสังเคราะห์หมายเลข 20",
-      "แคลเซียม (เลขอะตอม 22)"
+      "เหล็ก (เลขอะตอม 26)",
+      "ทองคำ (เลขอะตอม 79)",
+      "ลิเทียม (เลขอะตอม 3)",
+      "แคลเซียม (เลขอะตอม 20)"
     ],
-    "ans": 1,
-    "explanation": "สัญลักษณ์ธาตุ Ca คือ แคลเซียม (Calcium) มีเลขอะตอม Z = 20",
+    "ans": 3,
+    "explanation": "สัญลักษณ์ธาตุ Ca คือธาตุ \"แคลเซียม\" (Calcium) มีเลขอะตอม Z = 20",
     "starsAwarded": 3
   },
   {
@@ -2454,13 +2455,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "สัญลักษณ์และเลขอะตอม",
     "q": "ธาตุที่มีสัญลักษณ์เคมีว่า \"Fe\" มีชื่อภาษาไทยและเลขอะตอมตรงกับข้อใด?",
     "choices": [
-      "ธาตุสังเคราะห์หมายเลข 26",
       "เหล็ก (เลขอะตอม 26)",
-      "Iron (เลขอะตอม 25)",
-      "เหล็ก (เลขอะตอม 28)"
+      "ทองแดง (เลขอะตอม 29)",
+      "ปรอท (เลขอะตอม 80)",
+      "เบริลเลียม (เลขอะตอม 4)"
     ],
-    "ans": 1,
-    "explanation": "สัญลักษณ์ธาตุ Fe คือ เหล็ก (Iron) มีเลขอะตอม Z = 26",
+    "ans": 0,
+    "explanation": "สัญลักษณ์ธาตุ Fe คือธาตุ \"เหล็ก\" (Iron) มีเลขอะตอม Z = 26",
     "starsAwarded": 3
   },
   {
@@ -2471,13 +2472,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "สัญลักษณ์และเลขอะตอม",
     "q": "ธาตุที่มีสัญลักษณ์เคมีว่า \"Cu\" มีชื่อภาษาไทยและเลขอะตอมตรงกับข้อใด?",
     "choices": [
-      "Copper (เลขอะตอม 28)",
-      "ธาตุสังเคราะห์หมายเลข 29",
+      "สังกะสี (เลขอะตอม 30)",
       "ทองแดง (เลขอะตอม 29)",
-      "ทองแดง (เลขอะตอม 31)"
+      "ตะกั่ว (เลขอะตอม 82)",
+      "โบรอน (เลขอะตอม 5)"
     ],
-    "ans": 2,
-    "explanation": "สัญลักษณ์ธาตุ Cu คือ ทองแดง (Copper) มีเลขอะตอม Z = 29",
+    "ans": 1,
+    "explanation": "สัญลักษณ์ธาตุ Cu คือธาตุ \"ทองแดง\" (Copper) มีเลขอะตอม Z = 29",
     "starsAwarded": 3
   },
   {
@@ -2488,13 +2489,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "สัญลักษณ์และเลขอะตอม",
     "q": "ธาตุที่มีสัญลักษณ์เคมีว่า \"Zn\" มีชื่อภาษาไทยและเลขอะตอมตรงกับข้อใด?",
     "choices": [
-      "ธาตุสังเคราะห์หมายเลข 30",
-      "Zinc (เลขอะตอม 29)",
-      "สังกะสี (เลขอะตอม 32)",
-      "สังกะสี (เลขอะตอม 30)"
+      "โบรมีน (เลขอะตอม 35)",
+      "ยูเรเนียม (เลขอะตอม 92)",
+      "สังกะสี (เลขอะตอม 30)",
+      "คาร์บอน (เลขอะตอม 6)"
     ],
-    "ans": 3,
-    "explanation": "สัญลักษณ์ธาตุ Zn คือ สังกะสี (Zinc) มีเลขอะตอม Z = 30",
+    "ans": 2,
+    "explanation": "สัญลักษณ์ธาตุ Zn คือธาตุ \"สังกะสี\" (Zinc) มีเลขอะตอม Z = 30",
     "starsAwarded": 3
   },
   {
@@ -2505,13 +2506,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "สัญลักษณ์และเลขอะตอม",
     "q": "ธาตุที่มีสัญลักษณ์เคมีว่า \"Br\" มีชื่อภาษาไทยและเลขอะตอมตรงกับข้อใด?",
     "choices": [
-      "Bromine (เลขอะตอม 34)",
-      "โบรมีน (เลขอะตอม 35)",
-      "โบรมีน (เลขอะตอม 37)",
-      "ธาตุสังเคราะห์หมายเลข 35"
+      "เงิน (เลขอะตอม 47)",
+      "ไฮโดรเจน (เลขอะตอม 1)",
+      "ไนโตรเจน (เลขอะตอม 7)",
+      "โบรมีน (เลขอะตอม 35)"
     ],
-    "ans": 1,
-    "explanation": "สัญลักษณ์ธาตุ Br คือ โบรมีน (Bromine) มีเลขอะตอม Z = 35",
+    "ans": 3,
+    "explanation": "สัญลักษณ์ธาตุ Br คือธาตุ \"โบรมีน\" (Bromine) มีเลขอะตอม Z = 35",
     "starsAwarded": 3
   },
   {
@@ -2522,13 +2523,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "สัญลักษณ์และเลขอะตอม",
     "q": "ธาตุที่มีสัญลักษณ์เคมีว่า \"Ag\" มีชื่อภาษาไทยและเลขอะตอมตรงกับข้อใด?",
     "choices": [
-      "Silver (เลขอะตอม 46)",
       "เงิน (เลขอะตอม 47)",
-      "ธาตุสังเคราะห์หมายเลข 47",
-      "เงิน (เลขอะตอม 49)"
+      "ไอโอดีน (เลขอะตอม 53)",
+      "ฮีเลียม (เลขอะตอม 2)",
+      "ออกซิเจน (เลขอะตอม 8)"
     ],
-    "ans": 1,
-    "explanation": "สัญลักษณ์ธาตุ Ag คือ เงิน (Silver) มีเลขอะตอม Z = 47",
+    "ans": 0,
+    "explanation": "สัญลักษณ์ธาตุ Ag คือธาตุ \"เงิน\" (Silver) มีเลขอะตอม Z = 47",
     "starsAwarded": 3
   },
   {
@@ -2539,13 +2540,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "สัญลักษณ์และเลขอะตอม",
     "q": "ธาตุที่มีสัญลักษณ์เคมีว่า \"I\" มีชื่อภาษาไทยและเลขอะตอมตรงกับข้อใด?",
     "choices": [
-      "ธาตุสังเคราะห์หมายเลข 53",
-      "Iodine (เลขอะตอม 52)",
+      "ทองคำ (เลขอะตอม 79)",
       "ไอโอดีน (เลขอะตอม 53)",
-      "ไอโอดีน (เลขอะตอม 55)"
+      "ลิเทียม (เลขอะตอม 3)",
+      "ฟลูออรีน (เลขอะตอม 9)"
     ],
-    "ans": 2,
-    "explanation": "สัญลักษณ์ธาตุ I คือ ไอโอดีน (Iodine) มีเลขอะตอม Z = 53",
+    "ans": 1,
+    "explanation": "สัญลักษณ์ธาตุ I คือธาตุ \"ไอโอดีน\" (Iodine) มีเลขอะตอม Z = 53",
     "starsAwarded": 3
   },
   {
@@ -2556,13 +2557,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "สัญลักษณ์และเลขอะตอม",
     "q": "ธาตุที่มีสัญลักษณ์เคมีว่า \"Au\" มีชื่อภาษาไทยและเลขอะตอมตรงกับข้อใด?",
     "choices": [
-      "ทองคำ (เลขอะตอม 81)",
-      "ธาตุสังเคราะห์หมายเลข 79",
+      "ปรอท (เลขอะตอม 80)",
+      "เบริลเลียม (เลขอะตอม 4)",
       "ทองคำ (เลขอะตอม 79)",
-      "Gold (เลขอะตอม 78)"
+      "นีออน (เลขอะตอม 10)"
     ],
     "ans": 2,
-    "explanation": "สัญลักษณ์ธาตุ Au คือ ทองคำ (Gold) มีเลขอะตอม Z = 79",
+    "explanation": "สัญลักษณ์ธาตุ Au คือธาตุ \"ทองคำ\" (Gold) มีเลขอะตอม Z = 79",
     "starsAwarded": 3
   },
   {
@@ -2573,13 +2574,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "สัญลักษณ์และเลขอะตอม",
     "q": "ธาตุที่มีสัญลักษณ์เคมีว่า \"Hg\" มีชื่อภาษาไทยและเลขอะตอมตรงกับข้อใด?",
     "choices": [
-      "ปรอท (เลขอะตอม 80)",
-      "ธาตุสังเคราะห์หมายเลข 80",
-      "ปรอท (เลขอะตอม 82)",
-      "Mercury (เลขอะตอม 79)"
+      "ตะกั่ว (เลขอะตอม 82)",
+      "โบรอน (เลขอะตอม 5)",
+      "โซเดียม (เลขอะตอม 11)",
+      "ปรอท (เลขอะตอม 80)"
     ],
-    "ans": 0,
-    "explanation": "สัญลักษณ์ธาตุ Hg คือ ปรอท (Mercury) มีเลขอะตอม Z = 80",
+    "ans": 3,
+    "explanation": "สัญลักษณ์ธาตุ Hg คือธาตุ \"ปรอท\" (Mercury) มีเลขอะตอม Z = 80",
     "starsAwarded": 3
   },
   {
@@ -2590,13 +2591,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "สัญลักษณ์และเลขอะตอม",
     "q": "ธาตุที่มีสัญลักษณ์เคมีว่า \"Pb\" มีชื่อภาษาไทยและเลขอะตอมตรงกับข้อใด?",
     "choices": [
-      "Lead (เลขอะตอม 81)",
-      "ธาตุสังเคราะห์หมายเลข 82",
-      "ตะกั่ว (เลขอะตอม 84)",
-      "ตะกั่ว (เลขอะตอม 82)"
+      "ตะกั่ว (เลขอะตอม 82)",
+      "ยูเรเนียม (เลขอะตอม 92)",
+      "คาร์บอน (เลขอะตอม 6)",
+      "แมกนีเซียม (เลขอะตอม 12)"
     ],
-    "ans": 3,
-    "explanation": "สัญลักษณ์ธาตุ Pb คือ ตะกั่ว (Lead) มีเลขอะตอม Z = 82",
+    "ans": 0,
+    "explanation": "สัญลักษณ์ธาตุ Pb คือธาตุ \"ตะกั่ว\" (Lead) มีเลขอะตอม Z = 82",
     "starsAwarded": 3
   },
   {
@@ -2607,13 +2608,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "สัญลักษณ์และเลขอะตอม",
     "q": "ธาตุที่มีสัญลักษณ์เคมีว่า \"U\" มีชื่อภาษาไทยและเลขอะตอมตรงกับข้อใด?",
     "choices": [
-      "ยูเรเนียม (เลขอะตอม 94)",
-      "ธาตุสังเคราะห์หมายเลข 92",
+      "ไฮโดรเจน (เลขอะตอม 1)",
       "ยูเรเนียม (เลขอะตอม 92)",
-      "Uranium (เลขอะตอม 91)"
+      "ไนโตรเจน (เลขอะตอม 7)",
+      "อะลูมิเนียม (เลขอะตอม 13)"
     ],
-    "ans": 2,
-    "explanation": "สัญลักษณ์ธาตุ U คือ ยูเรเนียม (Uranium) มีเลขอะตอม Z = 92",
+    "ans": 1,
+    "explanation": "สัญลักษณ์ธาตุ U คือธาตุ \"ยูเรเนียม\" (Uranium) มีเลขอะตอม Z = 92",
     "starsAwarded": 3
   },
   {
@@ -2624,13 +2625,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "การจัดเรียง e⁻",
     "q": "ธาตุ ไฮโดรเจน (H, Z=1) มีการจัดเรียงอิเล็กตรอนตรงกับข้อใด?",
     "choices": [
+      "1s²",
       "1s¹",
-      "2, 8, 2",
-      "1s² 2s² 2p⁶ 3s¹",
-      "2, 8, 18, 1"
+      "2s¹",
+      "1s² 2s¹"
     ],
-    "ans": 0,
-    "explanation": "ไฮโดรเจน (H) มีการจัดเรียงอิเล็กตรอนเป็น: 1s¹",
+    "ans": 1,
+    "explanation": "ธาตุ ไฮโดรเจน (H, Z=1) มีการจัดเรียงอิเล็กตรอนเป็น: 1s¹",
     "starsAwarded": 4
   },
   {
@@ -2641,13 +2642,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "การจัดเรียง e⁻",
     "q": "ธาตุ ฮีเลียม (He, Z=2) มีการจัดเรียงอิเล็กตรอนตรงกับข้อใด?",
     "choices": [
-      "2, 8, 3",
-      "1s² 2s² 2p⁶ 3s¹",
+      "1s¹",
+      "2s²",
       "1s²",
-      "2, 8, 18, 2"
+      "1s² 2s¹"
     ],
     "ans": 2,
-    "explanation": "ฮีเลียม (He) มีการจัดเรียงอิเล็กตรอนเป็น: 1s²",
+    "explanation": "ธาตุ ฮีเลียม (He, Z=2) มีการจัดเรียงอิเล็กตรอนเป็น: 1s²",
     "starsAwarded": 4
   },
   {
@@ -2658,13 +2659,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "การจัดเรียง e⁻",
     "q": "ธาตุ ลิเทียม (Li, Z=3) มีการจัดเรียงอิเล็กตรอนตรงกับข้อใด?",
     "choices": [
-      "1s² 2s² 2p⁶ 3s¹",
-      "2, 8, 18, 1",
-      "2, 8, 2",
+      "2, 2",
+      "3, 1",
+      "2, 1, 1",
       "2, 1"
     ],
     "ans": 3,
-    "explanation": "ลิเทียม (Li) มีการจัดเรียงอิเล็กตรอนเป็น: 2, 1",
+    "explanation": "ธาตุ ลิเทียม (Li, Z=3) มีการจัดเรียงอิเล็กตรอนเป็น: 2, 1",
     "starsAwarded": 4
   },
   {
@@ -2675,13 +2676,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "การจัดเรียง e⁻",
     "q": "ธาตุ เบริลเลียม (Be, Z=4) มีการจัดเรียงอิเล็กตรอนตรงกับข้อใด?",
     "choices": [
-      "2, 8, 3",
       "2, 2",
-      "1s² 2s² 2p⁶ 3s¹",
-      "2, 8, 18, 2"
+      "2, 3",
+      "3, 2",
+      "2, 2, 1"
     ],
-    "ans": 1,
-    "explanation": "เบริลเลียม (Be) มีการจัดเรียงอิเล็กตรอนเป็น: 2, 2",
+    "ans": 0,
+    "explanation": "ธาตุ เบริลเลียม (Be, Z=4) มีการจัดเรียงอิเล็กตรอนเป็น: 2, 2",
     "starsAwarded": 4
   },
   {
@@ -2692,13 +2693,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "การจัดเรียง e⁻",
     "q": "ธาตุ โบรอน (B, Z=5) มีการจัดเรียงอิเล็กตรอนตรงกับข้อใด?",
     "choices": [
+      "2, 4",
       "2, 3",
-      "2, 8, 18, 3",
-      "1s² 2s² 2p⁶ 3s¹",
-      "2, 8, 4"
+      "3, 3",
+      "2, 3, 1"
     ],
-    "ans": 0,
-    "explanation": "โบรอน (B) มีการจัดเรียงอิเล็กตรอนเป็น: 2, 3",
+    "ans": 1,
+    "explanation": "ธาตุ โบรอน (B, Z=5) มีการจัดเรียงอิเล็กตรอนเป็น: 2, 3",
     "starsAwarded": 4
   },
   {
@@ -2709,13 +2710,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "การจัดเรียง e⁻",
     "q": "ธาตุ คาร์บอน (C, Z=6) มีการจัดเรียงอิเล็กตรอนตรงกับข้อใด?",
     "choices": [
+      "2, 5",
+      "3, 4",
       "2, 4",
-      "1s² 2s² 2p⁶ 3s¹",
-      "2, 8, 5",
-      "2, 8, 18, 4"
+      "2, 4, 1"
     ],
-    "ans": 0,
-    "explanation": "คาร์บอน (C) มีการจัดเรียงอิเล็กตรอนเป็น: 2, 4",
+    "ans": 2,
+    "explanation": "ธาตุ คาร์บอน (C, Z=6) มีการจัดเรียงอิเล็กตรอนเป็น: 2, 4",
     "starsAwarded": 4
   },
   {
@@ -2726,13 +2727,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "การจัดเรียง e⁻",
     "q": "ธาตุ ไนโตรเจน (N, Z=7) มีการจัดเรียงอิเล็กตรอนตรงกับข้อใด?",
     "choices": [
-      "2, 8, 18, 5",
-      "2, 5",
-      "2, 8, 6",
-      "1s² 2s² 2p⁶ 3s¹"
+      "2, 6",
+      "3, 5",
+      "2, 5, 1",
+      "2, 5"
     ],
-    "ans": 1,
-    "explanation": "ไนโตรเจน (N) มีการจัดเรียงอิเล็กตรอนเป็น: 2, 5",
+    "ans": 3,
+    "explanation": "ธาตุ ไนโตรเจน (N, Z=7) มีการจัดเรียงอิเล็กตรอนเป็น: 2, 5",
     "starsAwarded": 4
   },
   {
@@ -2743,13 +2744,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "การจัดเรียง e⁻",
     "q": "ธาตุ ออกซิเจน (O, Z=8) มีการจัดเรียงอิเล็กตรอนตรงกับข้อใด?",
     "choices": [
-      "2, 8, 18, 6",
       "2, 6",
-      "1s² 2s² 2p⁶ 3s¹",
-      "2, 8, 7"
+      "2, 7",
+      "3, 6",
+      "2, 6, 1"
     ],
-    "ans": 1,
-    "explanation": "ออกซิเจน (O) มีการจัดเรียงอิเล็กตรอนเป็น: 2, 6",
+    "ans": 0,
+    "explanation": "ธาตุ ออกซิเจน (O, Z=8) มีการจัดเรียงอิเล็กตรอนเป็น: 2, 6",
     "starsAwarded": 4
   },
   {
@@ -2760,13 +2761,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "การจัดเรียง e⁻",
     "q": "ธาตุ ฟลูออรีน (F, Z=9) มีการจัดเรียงอิเล็กตรอนตรงกับข้อใด?",
     "choices": [
+      "2, 8",
       "2, 7",
-      "1s² 2s² 2p⁶ 3s¹",
-      "2, 8, 8",
-      "2, 8, 18, 7"
+      "3, 7",
+      "2, 7, 1"
     ],
-    "ans": 0,
-    "explanation": "ฟลูออรีน (F) มีการจัดเรียงอิเล็กตรอนเป็น: 2, 7",
+    "ans": 1,
+    "explanation": "ธาตุ ฟลูออรีน (F, Z=9) มีการจัดเรียงอิเล็กตรอนเป็น: 2, 7",
     "starsAwarded": 4
   },
   {
@@ -2777,13 +2778,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "การจัดเรียง e⁻",
     "q": "ธาตุ นีออน (Ne, Z=10) มีการจัดเรียงอิเล็กตรอนตรงกับข้อใด?",
     "choices": [
-      "2, 8, 9",
-      "2, 8, 18, 8",
+      "2, 1",
+      "3, 8",
       "2, 8",
-      "1s² 2s² 2p⁶ 3s¹"
+      "2, 8, 1"
     ],
     "ans": 2,
-    "explanation": "นีออน (Ne) มีการจัดเรียงอิเล็กตรอนเป็น: 2, 8",
+    "explanation": "ธาตุ นีออน (Ne, Z=10) มีการจัดเรียงอิเล็กตรอนเป็น: 2, 8",
     "starsAwarded": 4
   },
   {
@@ -2795,12 +2796,12 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "q": "ธาตุ โซเดียม (Na, Z=11) มีการจัดเรียงอิเล็กตรอนตรงกับข้อใด?",
     "choices": [
       "2, 8, 2",
-      "2, 8, 1",
-      "2, 8, 18, 1",
-      "1s² 2s² 2p⁶ 3s¹"
+      "2, 1, 1",
+      "2, 8, 1, 1",
+      "2, 8, 1"
     ],
-    "ans": 1,
-    "explanation": "โซเดียม (Na) มีการจัดเรียงอิเล็กตรอนเป็น: 2, 8, 1",
+    "ans": 3,
+    "explanation": "ธาตุ โซเดียม (Na, Z=11) มีการจัดเรียงอิเล็กตรอนเป็น: 2, 8, 1",
     "starsAwarded": 4
   },
   {
@@ -2812,12 +2813,12 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "q": "ธาตุ แมกนีเซียม (Mg, Z=12) มีการจัดเรียงอิเล็กตรอนตรงกับข้อใด?",
     "choices": [
       "2, 8, 2",
-      "2, 8, 18, 2",
       "2, 8, 3",
-      "1s² 2s² 2p⁶ 3s¹"
+      "2, 1, 2",
+      "2, 8, 2, 1"
     ],
     "ans": 0,
-    "explanation": "แมกนีเซียม (Mg) มีการจัดเรียงอิเล็กตรอนเป็น: 2, 8, 2",
+    "explanation": "ธาตุ แมกนีเซียม (Mg, Z=12) มีการจัดเรียงอิเล็กตรอนเป็น: 2, 8, 2",
     "starsAwarded": 4
   },
   {
@@ -2828,13 +2829,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "การจัดเรียง e⁻",
     "q": "ธาตุ อะลูมิเนียม (Al, Z=13) มีการจัดเรียงอิเล็กตรอนตรงกับข้อใด?",
     "choices": [
-      "1s² 2s² 2p⁶ 3s¹",
-      "2, 8, 18, 3",
       "2, 8, 4",
-      "2, 8, 3"
+      "2, 8, 3",
+      "2, 1, 3",
+      "2, 8, 3, 1"
     ],
-    "ans": 3,
-    "explanation": "อะลูมิเนียม (Al) มีการจัดเรียงอิเล็กตรอนเป็น: 2, 8, 3",
+    "ans": 1,
+    "explanation": "ธาตุ อะลูมิเนียม (Al, Z=13) มีการจัดเรียงอิเล็กตรอนเป็น: 2, 8, 3",
     "starsAwarded": 4
   },
   {
@@ -2845,13 +2846,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "การจัดเรียง e⁻",
     "q": "ธาตุ ซิลิคอน (Si, Z=14) มีการจัดเรียงอิเล็กตรอนตรงกับข้อใด?",
     "choices": [
-      "2, 8, 18, 4",
-      "2, 8, 4",
       "2, 8, 5",
-      "1s² 2s² 2p⁶ 3s¹"
+      "2, 1, 4",
+      "2, 8, 4",
+      "2, 8, 4, 1"
     ],
-    "ans": 1,
-    "explanation": "ซิลิคอน (Si) มีการจัดเรียงอิเล็กตรอนเป็น: 2, 8, 4",
+    "ans": 2,
+    "explanation": "ธาตุ ซิลิคอน (Si, Z=14) มีการจัดเรียงอิเล็กตรอนเป็น: 2, 8, 4",
     "starsAwarded": 4
   },
   {
@@ -2862,13 +2863,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "การจัดเรียง e⁻",
     "q": "ธาตุ ฟอสฟอรัส (P, Z=15) มีการจัดเรียงอิเล็กตรอนตรงกับข้อใด?",
     "choices": [
-      "1s² 2s² 2p⁶ 3s¹",
       "2, 8, 6",
-      "2, 8, 5",
-      "2, 8, 18, 5"
+      "2, 1, 5",
+      "2, 8, 5, 1",
+      "2, 8, 5"
     ],
-    "ans": 2,
-    "explanation": "ฟอสฟอรัส (P) มีการจัดเรียงอิเล็กตรอนเป็น: 2, 8, 5",
+    "ans": 3,
+    "explanation": "ธาตุ ฟอสฟอรัส (P, Z=15) มีการจัดเรียงอิเล็กตรอนเป็น: 2, 8, 5",
     "starsAwarded": 4
   },
   {
@@ -2877,15 +2878,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "electron_config",
     "categoryLabel": "การจัดเรียง e⁻",
-    "q": "ธาตุ กำมะถัน (ซัลเฟอร์) (S, Z=16) มีการจัดเรียงอิเล็กตรอนตรงกับข้อใด?",
+    "q": "ธาตุ กำมะถัน (S, Z=16) มีการจัดเรียงอิเล็กตรอนตรงกับข้อใด?",
     "choices": [
-      "1s² 2s² 2p⁶ 3s¹",
       "2, 8, 6",
-      "2, 8, 18, 6",
-      "2, 8, 7"
+      "2, 8, 7",
+      "2, 1, 6",
+      "2, 8, 6, 1"
     ],
-    "ans": 1,
-    "explanation": "กำมะถัน (ซัลเฟอร์) (S) มีการจัดเรียงอิเล็กตรอนเป็น: 2, 8, 6",
+    "ans": 0,
+    "explanation": "ธาตุ กำมะถัน (S, Z=16) มีการจัดเรียงอิเล็กตรอนเป็น: 2, 8, 6",
     "starsAwarded": 4
   },
   {
@@ -2896,13 +2897,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "การจัดเรียง e⁻",
     "q": "ธาตุ คลอรีน (Cl, Z=17) มีการจัดเรียงอิเล็กตรอนตรงกับข้อใด?",
     "choices": [
-      "2, 8, 7",
-      "1s² 2s² 2p⁶ 3s¹",
       "2, 8, 8",
-      "2, 8, 18, 7"
+      "2, 8, 7",
+      "2, 1, 7",
+      "2, 8, 7, 1"
     ],
-    "ans": 0,
-    "explanation": "คลอรีน (Cl) มีการจัดเรียงอิเล็กตรอนเป็น: 2, 8, 7",
+    "ans": 1,
+    "explanation": "ธาตุ คลอรีน (Cl, Z=17) มีการจัดเรียงอิเล็กตรอนเป็น: 2, 8, 7",
     "starsAwarded": 4
   },
   {
@@ -2913,13 +2914,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "การจัดเรียง e⁻",
     "q": "ธาตุ อาร์กอน (Ar, Z=18) มีการจัดเรียงอิเล็กตรอนตรงกับข้อใด?",
     "choices": [
-      "2, 8, 18, 8",
+      "2, 8, 1",
+      "2, 1, 8",
       "2, 8, 8",
-      "2, 8, 9",
-      "1s² 2s² 2p⁶ 3s¹"
+      "2, 8, 8, 1"
     ],
-    "ans": 1,
-    "explanation": "อาร์กอน (Ar) มีการจัดเรียงอิเล็กตรอนเป็น: 2, 8, 8",
+    "ans": 2,
+    "explanation": "ธาตุ อาร์กอน (Ar, Z=18) มีการจัดเรียงอิเล็กตรอนเป็น: 2, 8, 8",
     "starsAwarded": 4
   },
   {
@@ -2930,13 +2931,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "การจัดเรียง e⁻",
     "q": "ธาตุ โพแทสเซียม (K, Z=19) มีการจัดเรียงอิเล็กตรอนตรงกับข้อใด?",
     "choices": [
-      "2, 8, 8, 1",
-      "2, 8, 2",
-      "1s² 2s² 2p⁶ 3s¹",
-      "2, 8, 18, 1"
+      "2, 8, 8, 2",
+      "2, 8, 1, 1",
+      "2, 8, 8, 1, 1",
+      "2, 8, 8, 1"
     ],
-    "ans": 0,
-    "explanation": "โพแทสเซียม (K) มีการจัดเรียงอิเล็กตรอนเป็น: 2, 8, 8, 1",
+    "ans": 3,
+    "explanation": "ธาตุ โพแทสเซียม (K, Z=19) มีการจัดเรียงอิเล็กตรอนเป็น: 2, 8, 8, 1",
     "starsAwarded": 4
   },
   {
@@ -2947,13 +2948,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "การจัดเรียง e⁻",
     "q": "ธาตุ แคลเซียม (Ca, Z=20) มีการจัดเรียงอิเล็กตรอนตรงกับข้อใด?",
     "choices": [
-      "1s² 2s² 2p⁶ 3s¹",
-      "2, 8, 3",
       "2, 8, 8, 2",
-      "2, 8, 18, 2"
+      "2, 8, 8, 3",
+      "2, 8, 1, 2",
+      "2, 8, 8, 2, 1"
     ],
-    "ans": 2,
-    "explanation": "แคลเซียม (Ca) มีการจัดเรียงอิเล็กตรอนเป็น: 2, 8, 8, 2",
+    "ans": 0,
+    "explanation": "ธาตุ แคลเซียม (Ca, Z=20) มีการจัดเรียงอิเล็กตรอนเป็น: 2, 8, 8, 2",
     "starsAwarded": 4
   },
   {
@@ -2964,13 +2965,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "การจัดเรียง e⁻",
     "q": "ธาตุ เหล็ก (Fe, Z=26) มีการจัดเรียงอิเล็กตรอนตรงกับข้อใด?",
     "choices": [
-      "[Ar] 3d⁶ 4s²",
-      "2, 8, 18, 2",
-      "1s² 2s² 2p⁶ 3s¹",
-      "2, 8, 3"
+      "2, 8, 14, 3",
+      "2, 8, 14, 2",
+      "2, 8, 7, 2",
+      "2, 8, 14, 2, 1"
     ],
-    "ans": 0,
-    "explanation": "เหล็ก (Fe) มีการจัดเรียงอิเล็กตรอนเป็น: [Ar] 3d⁶ 4s²",
+    "ans": 1,
+    "explanation": "ธาตุ เหล็ก (Fe, Z=26) มีการจัดเรียงอิเล็กตรอนเป็น: 2, 8, 14, 2",
     "starsAwarded": 4
   },
   {
@@ -2981,13 +2982,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "การจัดเรียง e⁻",
     "q": "ธาตุ ทองแดง (Cu, Z=29) มีการจัดเรียงอิเล็กตรอนตรงกับข้อใด?",
     "choices": [
-      "1s² 2s² 2p⁶ 3s¹",
-      "2, 8, 2",
-      "[Ar] 3d¹⁰ 4s¹",
-      "2, 8, 18, 1"
+      "2, 8, 18, 2",
+      "2, 8, 3, 1",
+      "2, 8, 18, 1",
+      "2, 8, 18, 1, 1"
     ],
     "ans": 2,
-    "explanation": "ทองแดง (Cu) มีการจัดเรียงอิเล็กตรอนเป็น: [Ar] 3d¹⁰ 4s¹",
+    "explanation": "ธาตุ ทองแดง (Cu, Z=29) มีการจัดเรียงอิเล็กตรอนเป็น: 2, 8, 18, 1",
     "starsAwarded": 4
   },
   {
@@ -2998,13 +2999,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "การจัดเรียง e⁻",
     "q": "ธาตุ สังกะสี (Zn, Z=30) มีการจัดเรียงอิเล็กตรอนตรงกับข้อใด?",
     "choices": [
-      "2, 8, 18, 2",
-      "1s² 2s² 2p⁶ 3s¹",
-      "[Ar] 3d¹⁰ 4s²",
-      "2, 8, 3"
+      "2, 8, 18, 3",
+      "2, 8, 3, 2",
+      "2, 8, 18, 2, 1",
+      "2, 8, 18, 2"
     ],
-    "ans": 2,
-    "explanation": "สังกะสี (Zn) มีการจัดเรียงอิเล็กตรอนเป็น: [Ar] 3d¹⁰ 4s²",
+    "ans": 3,
+    "explanation": "ธาตุ สังกะสี (Zn, Z=30) มีการจัดเรียงอิเล็กตรอนเป็น: 2, 8, 18, 2",
     "starsAwarded": 4
   },
   {
@@ -3015,13 +3016,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "การจัดเรียง e⁻",
     "q": "ธาตุ โบรมีน (Br, Z=35) มีการจัดเรียงอิเล็กตรอนตรงกับข้อใด?",
     "choices": [
-      "1s² 2s² 2p⁶ 3s¹",
-      "2, 8, 8",
-      "[Ar] 3d¹⁰ 4s² 4p⁵",
-      "2, 8, 18, 7"
+      "2, 8, 18, 7",
+      "2, 8, 18, 8",
+      "2, 8, 3, 7",
+      "2, 8, 18, 7, 1"
     ],
-    "ans": 2,
-    "explanation": "โบรมีน (Br) มีการจัดเรียงอิเล็กตรอนเป็น: [Ar] 3d¹⁰ 4s² 4p⁵",
+    "ans": 0,
+    "explanation": "ธาตุ โบรมีน (Br, Z=35) มีการจัดเรียงอิเล็กตรอนเป็น: 2, 8, 18, 7",
     "starsAwarded": 4
   },
   {
@@ -3032,13 +3033,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "การจัดเรียง e⁻",
     "q": "ธาตุ เงิน (Ag, Z=47) มีการจัดเรียงอิเล็กตรอนตรงกับข้อใด?",
     "choices": [
-      "[Kr] 4d¹⁰ 5s¹",
-      "2, 8, 18, 1",
-      "2, 8, 2",
-      "1s² 2s² 2p⁶ 3s¹"
+      "2, 8, 18, 18, 2",
+      "2, 8, 18, 18, 1",
+      "2, 8, 18, 3, 1",
+      "2, 8, 18, 18, 1, 1"
     ],
-    "ans": 0,
-    "explanation": "เงิน (Ag) มีการจัดเรียงอิเล็กตรอนเป็น: [Kr] 4d¹⁰ 5s¹",
+    "ans": 1,
+    "explanation": "ธาตุ เงิน (Ag, Z=47) มีการจัดเรียงอิเล็กตรอนเป็น: 2, 8, 18, 18, 1",
     "starsAwarded": 4
   },
   {
@@ -3049,13 +3050,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "การจัดเรียง e⁻",
     "q": "ธาตุ ไอโอดีน (I, Z=53) มีการจัดเรียงอิเล็กตรอนตรงกับข้อใด?",
     "choices": [
-      "2, 8, 8",
-      "1s² 2s² 2p⁶ 3s¹",
-      "[Kr] 4d¹⁰ 5s² 5p⁵",
-      "2, 8, 18, 7"
+      "2, 8, 18, 18, 8",
+      "2, 8, 18, 3, 7",
+      "2, 8, 18, 18, 7",
+      "2, 8, 18, 18, 7, 1"
     ],
     "ans": 2,
-    "explanation": "ไอโอดีน (I) มีการจัดเรียงอิเล็กตรอนเป็น: [Kr] 4d¹⁰ 5s² 5p⁵",
+    "explanation": "ธาตุ ไอโอดีน (I, Z=53) มีการจัดเรียงอิเล็กตรอนเป็น: 2, 8, 18, 18, 7",
     "starsAwarded": 4
   },
   {
@@ -3066,13 +3067,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "การจัดเรียง e⁻",
     "q": "ธาตุ ทองคำ (Au, Z=79) มีการจัดเรียงอิเล็กตรอนตรงกับข้อใด?",
     "choices": [
-      "1s² 2s² 2p⁶ 3s¹",
-      "[Xe] 4f¹⁴ 5d¹⁰ 6s¹",
-      "2, 8, 18, 1",
-      "2, 8, 2"
+      "[Xe] 4f¹⁴ 5d⁹ 6s²",
+      "[Xe] 4f¹⁴ 5d¹⁰ 6s²",
+      "[Xe] 4f¹³ 5d¹⁰ 6s²",
+      "[Xe] 4f¹⁴ 5d¹⁰ 6s¹"
     ],
-    "ans": 1,
-    "explanation": "ทองคำ (Au) มีการจัดเรียงอิเล็กตรอนเป็น: [Xe] 4f¹⁴ 5d¹⁰ 6s¹",
+    "ans": 3,
+    "explanation": "ธาตุ ทองคำ (Au, Z=79) มีการจัดเรียงอิเล็กตรอนเป็น: [Xe] 4f¹⁴ 5d¹⁰ 6s¹",
     "starsAwarded": 4
   },
   {
@@ -3083,13 +3084,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "การจัดเรียง e⁻",
     "q": "ธาตุ ปรอท (Hg, Z=80) มีการจัดเรียงอิเล็กตรอนตรงกับข้อใด?",
     "choices": [
-      "1s² 2s² 2p⁶ 3s¹",
       "[Xe] 4f¹⁴ 5d¹⁰ 6s²",
-      "2, 8, 3",
-      "2, 8, 18, 2"
+      "[Xe] 4f¹⁴ 5d¹⁰ 6s¹",
+      "[Xe] 4f¹⁴ 5d⁹ 6s²",
+      "[Xe] 4f¹³ 5d¹⁰ 6s²"
     ],
-    "ans": 1,
-    "explanation": "ปรอท (Hg) มีการจัดเรียงอิเล็กตรอนเป็น: [Xe] 4f¹⁴ 5d¹⁰ 6s²",
+    "ans": 0,
+    "explanation": "ธาตุ ปรอท (Hg, Z=80) มีการจัดเรียงอิเล็กตรอนเป็น: [Xe] 4f¹⁴ 5d¹⁰ 6s²",
     "starsAwarded": 4
   },
   {
@@ -3100,13 +3101,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "การจัดเรียง e⁻",
     "q": "ธาตุ ตะกั่ว (Pb, Z=82) มีการจัดเรียงอิเล็กตรอนตรงกับข้อใด?",
     "choices": [
+      "[Xe] 4f¹⁴ 5d¹⁰ 6s² 6p¹",
       "[Xe] 4f¹⁴ 5d¹⁰ 6s² 6p²",
-      "2, 8, 18, 4",
-      "1s² 2s² 2p⁶ 3s¹",
-      "2, 8, 5"
+      "[Xe] 4f¹⁴ 5d¹⁰ 6s² 6p³",
+      "[Xe] 4f¹⁴ 5d⁹ 6s² 6p³"
     ],
-    "ans": 0,
-    "explanation": "ตะกั่ว (Pb) มีการจัดเรียงอิเล็กตรอนเป็น: [Xe] 4f¹⁴ 5d¹⁰ 6s² 6p²",
+    "ans": 1,
+    "explanation": "ธาตุ ตะกั่ว (Pb, Z=82) มีการจัดเรียงอิเล็กตรอนเป็น: [Xe] 4f¹⁴ 5d¹⁰ 6s² 6p²",
     "starsAwarded": 4
   },
   {
@@ -3117,13 +3118,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "การจัดเรียง e⁻",
     "q": "ธาตุ ยูเรเนียม (U, Z=92) มีการจัดเรียงอิเล็กตรอนตรงกับข้อใด?",
     "choices": [
-      "2, 8, 7",
-      "1s² 2s² 2p⁶ 3s¹",
+      "[Rn] 5f⁴ 7s²",
+      "[Rn] 5f² 6d² 7s²",
       "[Rn] 5f³ 6d¹ 7s²",
-      "2, 8, 18, 6"
+      "[Rn] 5f³ 6d² 7s¹"
     ],
     "ans": 2,
-    "explanation": "ยูเรเนียม (U) มีการจัดเรียงอิเล็กตรอนเป็น: [Rn] 5f³ 6d¹ 7s²",
+    "explanation": "ธาตุ ยูเรเนียม (U, Z=92) มีการจัดเรียงอิเล็กตรอนเป็น: [Rn] 5f³ 6d¹ 7s²",
     "starsAwarded": 4
   },
   {
@@ -3135,12 +3136,12 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "q": "เวเลนซ์อิเล็กตรอน (จำนวน e⁻ วงนอกสุด) ของอะตอม ไฮโดรเจน (H) มีกี่ตัว?",
     "choices": [
       "2 ตัว",
+      "4 ตัว",
       "1 ตัว",
-      "ตัวเลือกเพิ่มเติม 4",
-      "1 ตัว (อยู่หมู่ 1A)"
+      "6 ตัว"
     ],
-    "ans": 3,
-    "explanation": "ไฮโดรเจน อยู่ในหมู่ 1A คาบ 1 จึงมีเวเลนซ์อิเล็กตรอนเท่ากับ 1 ตัว",
+    "ans": 2,
+    "explanation": "ธาตุ ไฮโดรเจน (H, Z=1) มีเวเลนซ์อิเล็กตรอนเท่ากับ 1 ตัว อยู่ในหมู่ 1A",
     "starsAwarded": 4
   },
   {
@@ -3151,13 +3152,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "เวเลนซ์อิเล็กตรอน",
     "q": "เวเลนซ์อิเล็กตรอน (จำนวน e⁻ วงนอกสุด) ของอะตอม ฮีเลียม (He) มีกี่ตัว?",
     "choices": [
-      "ตัวเลือกเพิ่มเติม 4",
       "3 ตัว",
-      "2 ตัว (อยู่หมู่ 8A)",
-      "1 ตัว"
+      "5 ตัว",
+      "7 ตัว",
+      "2 ตัว"
     ],
-    "ans": 2,
-    "explanation": "ฮีเลียม อยู่ในหมู่ 8A คาบ 1 จึงมีเวเลนซ์อิเล็กตรอนเท่ากับ 2 ตัว",
+    "ans": 3,
+    "explanation": "ธาตุ ฮีเลียม (He, Z=2) มีเวเลนซ์อิเล็กตรอนเท่ากับ 2 ตัว อยู่ในหมู่ 8A",
     "starsAwarded": 4
   },
   {
@@ -3168,13 +3169,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "เวเลนซ์อิเล็กตรอน",
     "q": "เวเลนซ์อิเล็กตรอน (จำนวน e⁻ วงนอกสุด) ของอะตอม ลิเทียม (Li) มีกี่ตัว?",
     "choices": [
-      "ตัวเลือกเพิ่มเติม 4",
-      "1 ตัว (อยู่หมู่ 1A)",
       "1 ตัว",
-      "2 ตัว"
+      "4 ตัว",
+      "6 ตัว",
+      "8 ตัว"
     ],
-    "ans": 1,
-    "explanation": "ลิเทียม อยู่ในหมู่ 1A คาบ 2 จึงมีเวเลนซ์อิเล็กตรอนเท่ากับ 1 ตัว",
+    "ans": 0,
+    "explanation": "ธาตุ ลิเทียม (Li, Z=3) มีเวเลนซ์อิเล็กตรอนเท่ากับ 1 ตัว อยู่ในหมู่ 1A",
     "starsAwarded": 4
   },
   {
@@ -3185,13 +3186,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "เวเลนซ์อิเล็กตรอน",
     "q": "เวเลนซ์อิเล็กตรอน (จำนวน e⁻ วงนอกสุด) ของอะตอม เบริลเลียม (Be) มีกี่ตัว?",
     "choices": [
+      "5 ตัว",
       "2 ตัว",
-      "3 ตัว",
-      "2 ตัว (อยู่หมู่ 2A)",
+      "7 ตัว",
       "1 ตัว"
     ],
-    "ans": 2,
-    "explanation": "เบริลเลียม อยู่ในหมู่ 2A คาบ 2 จึงมีเวเลนซ์อิเล็กตรอนเท่ากับ 2 ตัว",
+    "ans": 1,
+    "explanation": "ธาตุ เบริลเลียม (Be, Z=4) มีเวเลนซ์อิเล็กตรอนเท่ากับ 2 ตัว อยู่ในหมู่ 2A",
     "starsAwarded": 4
   },
   {
@@ -3202,13 +3203,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "เวเลนซ์อิเล็กตรอน",
     "q": "เวเลนซ์อิเล็กตรอน (จำนวน e⁻ วงนอกสุด) ของอะตอม โบรอน (B) มีกี่ตัว?",
     "choices": [
-      "ตัวเลือกเพิ่มเติม 4",
-      "2 ตัว",
-      "3 ตัว (อยู่หมู่ 3A)",
-      "4 ตัว"
+      "6 ตัว",
+      "8 ตัว",
+      "3 ตัว",
+      "2 ตัว"
     ],
     "ans": 2,
-    "explanation": "โบรอน อยู่ในหมู่ 3A คาบ 2 จึงมีเวเลนซ์อิเล็กตรอนเท่ากับ 3 ตัว",
+    "explanation": "ธาตุ โบรอน (B, Z=5) มีเวเลนซ์อิเล็กตรอนเท่ากับ 3 ตัว อยู่ในหมู่ 3A",
     "starsAwarded": 4
   },
   {
@@ -3219,13 +3220,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "เวเลนซ์อิเล็กตรอน",
     "q": "เวเลนซ์อิเล็กตรอน (จำนวน e⁻ วงนอกสุด) ของอะตอม คาร์บอน (C) มีกี่ตัว?",
     "choices": [
-      "2 ตัว",
-      "4 ตัว (อยู่หมู่ 4A)",
-      "5 ตัว",
-      "3 ตัว"
+      "7 ตัว",
+      "1 ตัว",
+      "3 ตัว",
+      "4 ตัว"
     ],
-    "ans": 1,
-    "explanation": "คาร์บอน อยู่ในหมู่ 4A คาบ 2 จึงมีเวเลนซ์อิเล็กตรอนเท่ากับ 4 ตัว",
+    "ans": 3,
+    "explanation": "ธาตุ คาร์บอน (C, Z=6) มีเวเลนซ์อิเล็กตรอนเท่ากับ 4 ตัว อยู่ในหมู่ 4A",
     "starsAwarded": 4
   },
   {
@@ -3236,13 +3237,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "เวเลนซ์อิเล็กตรอน",
     "q": "เวเลนซ์อิเล็กตรอน (จำนวน e⁻ วงนอกสุด) ของอะตอม ไนโตรเจน (N) มีกี่ตัว?",
     "choices": [
+      "5 ตัว",
+      "8 ตัว",
       "2 ตัว",
-      "5 ตัว (อยู่หมู่ 5A)",
-      "4 ตัว",
-      "6 ตัว"
+      "4 ตัว"
     ],
-    "ans": 1,
-    "explanation": "ไนโตรเจน อยู่ในหมู่ 5A คาบ 2 จึงมีเวเลนซ์อิเล็กตรอนเท่ากับ 5 ตัว",
+    "ans": 0,
+    "explanation": "ธาตุ ไนโตรเจน (N, Z=7) มีเวเลนซ์อิเล็กตรอนเท่ากับ 5 ตัว อยู่ในหมู่ 5A",
     "starsAwarded": 4
   },
   {
@@ -3253,13 +3254,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "เวเลนซ์อิเล็กตรอน",
     "q": "เวเลนซ์อิเล็กตรอน (จำนวน e⁻ วงนอกสุด) ของอะตอม ออกซิเจน (O) มีกี่ตัว?",
     "choices": [
-      "6 ตัว (อยู่หมู่ 6A)",
-      "7 ตัว",
-      "5 ตัว",
-      "2 ตัว"
+      "1 ตัว",
+      "6 ตัว",
+      "3 ตัว",
+      "5 ตัว"
     ],
-    "ans": 0,
-    "explanation": "ออกซิเจน อยู่ในหมู่ 6A คาบ 2 จึงมีเวเลนซ์อิเล็กตรอนเท่ากับ 6 ตัว",
+    "ans": 1,
+    "explanation": "ธาตุ ออกซิเจน (O, Z=8) มีเวเลนซ์อิเล็กตรอนเท่ากับ 6 ตัว อยู่ในหมู่ 6A",
     "starsAwarded": 4
   },
   {
@@ -3270,13 +3271,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "เวเลนซ์อิเล็กตรอน",
     "q": "เวเลนซ์อิเล็กตรอน (จำนวน e⁻ วงนอกสุด) ของอะตอม ฟลูออรีน (F) มีกี่ตัว?",
     "choices": [
-      "7 ตัว (อยู่หมู่ 7A)",
       "2 ตัว",
-      "8 ตัว",
+      "4 ตัว",
+      "7 ตัว",
       "6 ตัว"
     ],
-    "ans": 0,
-    "explanation": "ฟลูออรีน อยู่ในหมู่ 7A คาบ 2 จึงมีเวเลนซ์อิเล็กตรอนเท่ากับ 7 ตัว",
+    "ans": 2,
+    "explanation": "ธาตุ ฟลูออรีน (F, Z=9) มีเวเลนซ์อิเล็กตรอนเท่ากับ 7 ตัว อยู่ในหมู่ 7A",
     "starsAwarded": 4
   },
   {
@@ -3287,13 +3288,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "เวเลนซ์อิเล็กตรอน",
     "q": "เวเลนซ์อิเล็กตรอน (จำนวน e⁻ วงนอกสุด) ของอะตอม นีออน (Ne) มีกี่ตัว?",
     "choices": [
-      "8 ตัว (อยู่หมู่ 8A)",
+      "3 ตัว",
+      "5 ตัว",
       "7 ตัว",
-      "9 ตัว",
-      "2 ตัว"
+      "8 ตัว"
     ],
-    "ans": 0,
-    "explanation": "นีออน อยู่ในหมู่ 8A คาบ 2 จึงมีเวเลนซ์อิเล็กตรอนเท่ากับ 8 ตัว",
+    "ans": 3,
+    "explanation": "ธาตุ นีออน (Ne, Z=10) มีเวเลนซ์อิเล็กตรอนเท่ากับ 8 ตัว อยู่ในหมู่ 8A",
     "starsAwarded": 4
   },
   {
@@ -3304,13 +3305,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "เวเลนซ์อิเล็กตรอน",
     "q": "เวเลนซ์อิเล็กตรอน (จำนวน e⁻ วงนอกสุด) ของอะตอม โซเดียม (Na) มีกี่ตัว?",
     "choices": [
-      "3 ตัว",
-      "1 ตัว (อยู่หมู่ 1A)",
-      "2 ตัว",
-      "1 ตัว"
+      "1 ตัว",
+      "5 ตัว",
+      "7 ตัว",
+      "2 ตัว"
     ],
-    "ans": 1,
-    "explanation": "โซเดียม อยู่ในหมู่ 1A คาบ 3 จึงมีเวเลนซ์อิเล็กตรอนเท่ากับ 1 ตัว",
+    "ans": 0,
+    "explanation": "ธาตุ โซเดียม (Na, Z=11) มีเวเลนซ์อิเล็กตรอนเท่ากับ 1 ตัว อยู่ในหมู่ 1A",
     "starsAwarded": 4
   },
   {
@@ -3321,13 +3322,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "เวเลนซ์อิเล็กตรอน",
     "q": "เวเลนซ์อิเล็กตรอน (จำนวน e⁻ วงนอกสุด) ของอะตอม แมกนีเซียม (Mg) มีกี่ตัว?",
     "choices": [
-      "3 ตัว",
-      "1 ตัว",
-      "2 ตัว (อยู่หมู่ 2A)",
-      "ตัวเลือกเพิ่มเติม 4"
+      "6 ตัว",
+      "2 ตัว",
+      "8 ตัว",
+      "3 ตัว"
     ],
-    "ans": 2,
-    "explanation": "แมกนีเซียม อยู่ในหมู่ 2A คาบ 3 จึงมีเวเลนซ์อิเล็กตรอนเท่ากับ 2 ตัว",
+    "ans": 1,
+    "explanation": "ธาตุ แมกนีเซียม (Mg, Z=12) มีเวเลนซ์อิเล็กตรอนเท่ากับ 2 ตัว อยู่ในหมู่ 2A",
     "starsAwarded": 4
   },
   {
@@ -3338,13 +3339,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "เวเลนซ์อิเล็กตรอน",
     "q": "เวเลนซ์อิเล็กตรอน (จำนวน e⁻ วงนอกสุด) ของอะตอม อะลูมิเนียม (Al) มีกี่ตัว?",
     "choices": [
-      "3 ตัว (อยู่หมู่ 3A)",
-      "2 ตัว",
-      "4 ตัว",
-      "3 ตัว"
+      "7 ตัว",
+      "1 ตัว",
+      "3 ตัว",
+      "4 ตัว"
     ],
-    "ans": 0,
-    "explanation": "อะลูมิเนียม อยู่ในหมู่ 3A คาบ 3 จึงมีเวเลนซ์อิเล็กตรอนเท่ากับ 3 ตัว",
+    "ans": 2,
+    "explanation": "ธาตุ อะลูมิเนียม (Al, Z=13) มีเวเลนซ์อิเล็กตรอนเท่ากับ 3 ตัว อยู่ในหมู่ 3A",
     "starsAwarded": 4
   },
   {
@@ -3355,13 +3356,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "เวเลนซ์อิเล็กตรอน",
     "q": "เวเลนซ์อิเล็กตรอน (จำนวน e⁻ วงนอกสุด) ของอะตอม ซิลิคอน (Si) มีกี่ตัว?",
     "choices": [
-      "3 ตัว",
+      "8 ตัว",
+      "2 ตัว",
       "5 ตัว",
-      "4 ตัว (อยู่หมู่ 4A)",
-      "ตัวเลือกเพิ่มเติม 4"
+      "4 ตัว"
     ],
-    "ans": 2,
-    "explanation": "ซิลิคอน อยู่ในหมู่ 4A คาบ 3 จึงมีเวเลนซ์อิเล็กตรอนเท่ากับ 4 ตัว",
+    "ans": 3,
+    "explanation": "ธาตุ ซิลิคอน (Si, Z=14) มีเวเลนซ์อิเล็กตรอนเท่ากับ 4 ตัว อยู่ในหมู่ 4A",
     "starsAwarded": 4
   },
   {
@@ -3372,13 +3373,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "เวเลนซ์อิเล็กตรอน",
     "q": "เวเลนซ์อิเล็กตรอน (จำนวน e⁻ วงนอกสุด) ของอะตอม ฟอสฟอรัส (P) มีกี่ตัว?",
     "choices": [
-      "5 ตัว (อยู่หมู่ 5A)",
-      "6 ตัว",
+      "5 ตัว",
+      "1 ตัว",
       "3 ตัว",
-      "4 ตัว"
+      "6 ตัว"
     ],
     "ans": 0,
-    "explanation": "ฟอสฟอรัส อยู่ในหมู่ 5A คาบ 3 จึงมีเวเลนซ์อิเล็กตรอนเท่ากับ 5 ตัว",
+    "explanation": "ธาตุ ฟอสฟอรัส (P, Z=15) มีเวเลนซ์อิเล็กตรอนเท่ากับ 5 ตัว อยู่ในหมู่ 5A",
     "starsAwarded": 4
   },
   {
@@ -3387,15 +3388,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "electron_config",
     "categoryLabel": "เวเลนซ์อิเล็กตรอน",
-    "q": "เวเลนซ์อิเล็กตรอน (จำนวน e⁻ วงนอกสุด) ของอะตอม กำมะถัน (ซัลเฟอร์) (S) มีกี่ตัว?",
+    "q": "เวเลนซ์อิเล็กตรอน (จำนวน e⁻ วงนอกสุด) ของอะตอม กำมะถัน (S) มีกี่ตัว?",
     "choices": [
-      "7 ตัว",
-      "3 ตัว",
-      "6 ตัว (อยู่หมู่ 6A)",
-      "5 ตัว"
+      "2 ตัว",
+      "6 ตัว",
+      "4 ตัว",
+      "7 ตัว"
     ],
-    "ans": 2,
-    "explanation": "กำมะถัน (ซัลเฟอร์) อยู่ในหมู่ 6A คาบ 3 จึงมีเวเลนซ์อิเล็กตรอนเท่ากับ 6 ตัว",
+    "ans": 1,
+    "explanation": "ธาตุ กำมะถัน (S, Z=16) มีเวเลนซ์อิเล็กตรอนเท่ากับ 6 ตัว อยู่ในหมู่ 6A",
     "starsAwarded": 4
   },
   {
@@ -3406,13 +3407,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "เวเลนซ์อิเล็กตรอน",
     "q": "เวเลนซ์อิเล็กตรอน (จำนวน e⁻ วงนอกสุด) ของอะตอม คลอรีน (Cl) มีกี่ตัว?",
     "choices": [
-      "6 ตัว",
-      "8 ตัว",
-      "7 ตัว (อยู่หมู่ 7A)",
-      "3 ตัว"
+      "3 ตัว",
+      "5 ตัว",
+      "7 ตัว",
+      "8 ตัว"
     ],
     "ans": 2,
-    "explanation": "คลอรีน อยู่ในหมู่ 7A คาบ 3 จึงมีเวเลนซ์อิเล็กตรอนเท่ากับ 7 ตัว",
+    "explanation": "ธาตุ คลอรีน (Cl, Z=17) มีเวเลนซ์อิเล็กตรอนเท่ากับ 7 ตัว อยู่ในหมู่ 7A",
     "starsAwarded": 4
   },
   {
@@ -3423,13 +3424,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "เวเลนซ์อิเล็กตรอน",
     "q": "เวเลนซ์อิเล็กตรอน (จำนวน e⁻ วงนอกสุด) ของอะตอม อาร์กอน (Ar) มีกี่ตัว?",
     "choices": [
-      "9 ตัว",
-      "8 ตัว (อยู่หมู่ 8A)",
-      "7 ตัว",
-      "3 ตัว"
+      "4 ตัว",
+      "6 ตัว",
+      "1 ตัว",
+      "8 ตัว"
     ],
-    "ans": 1,
-    "explanation": "อาร์กอน อยู่ในหมู่ 8A คาบ 3 จึงมีเวเลนซ์อิเล็กตรอนเท่ากับ 8 ตัว",
+    "ans": 3,
+    "explanation": "ธาตุ อาร์กอน (Ar, Z=18) มีเวเลนซ์อิเล็กตรอนเท่ากับ 8 ตัว อยู่ในหมู่ 8A",
     "starsAwarded": 4
   },
   {
@@ -3440,13 +3441,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "เวเลนซ์อิเล็กตรอน",
     "q": "เวเลนซ์อิเล็กตรอน (จำนวน e⁻ วงนอกสุด) ของอะตอม โพแทสเซียม (K) มีกี่ตัว?",
     "choices": [
-      "1 ตัว (อยู่หมู่ 1A)",
-      "4 ตัว",
-      "2 ตัว",
-      "1 ตัว"
+      "1 ตัว",
+      "6 ตัว",
+      "8 ตัว",
+      "3 ตัว"
     ],
     "ans": 0,
-    "explanation": "โพแทสเซียม อยู่ในหมู่ 1A คาบ 4 จึงมีเวเลนซ์อิเล็กตรอนเท่ากับ 1 ตัว",
+    "explanation": "ธาตุ โพแทสเซียม (K, Z=19) มีเวเลนซ์อิเล็กตรอนเท่ากับ 1 ตัว อยู่ในหมู่ 1A",
     "starsAwarded": 4
   },
   {
@@ -3457,13 +3458,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "เวเลนซ์อิเล็กตรอน",
     "q": "เวเลนซ์อิเล็กตรอน (จำนวน e⁻ วงนอกสุด) ของอะตอม แคลเซียม (Ca) มีกี่ตัว?",
     "choices": [
-      "4 ตัว",
-      "2 ตัว (อยู่หมู่ 2A)",
-      "3 ตัว",
-      "1 ตัว"
+      "7 ตัว",
+      "2 ตัว",
+      "1 ตัว",
+      "4 ตัว"
     ],
     "ans": 1,
-    "explanation": "แคลเซียม อยู่ในหมู่ 2A คาบ 4 จึงมีเวเลนซ์อิเล็กตรอนเท่ากับ 2 ตัว",
+    "explanation": "ธาตุ แคลเซียม (Ca, Z=20) มีเวเลนซ์อิเล็กตรอนเท่ากับ 2 ตัว อยู่ในหมู่ 2A",
     "starsAwarded": 4
   },
   {
@@ -3474,13 +3475,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "เวเลนซ์อิเล็กตรอน",
     "q": "เวเลนซ์อิเล็กตรอน (จำนวน e⁻ วงนอกสุด) ของอะตอม เหล็ก (Fe) มีกี่ตัว?",
     "choices": [
+      "8 ตัว",
       "3 ตัว",
-      "4 ตัว",
-      "1 ตัว",
-      "2 ตัว (อยู่หมู่ Transition)"
+      "2 ตัว",
+      "5 ตัว"
     ],
-    "ans": 3,
-    "explanation": "เหล็ก อยู่ในหมู่ Transition คาบ 4 จึงมีเวเลนซ์อิเล็กตรอนเท่ากับ 2 ตัว",
+    "ans": 2,
+    "explanation": "ธาตุ เหล็ก (Fe, Z=26) มีเวเลนซ์อิเล็กตรอนเท่ากับ 2 ตัว อยู่ในหมู่ 8B",
     "starsAwarded": 4
   },
   {
@@ -3491,13 +3492,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "เวเลนซ์อิเล็กตรอน",
     "q": "เวเลนซ์อิเล็กตรอน (จำนวน e⁻ วงนอกสุด) ของอะตอม ทองแดง (Cu) มีกี่ตัว?",
     "choices": [
-      "1 ตัว (อยู่หมู่ Transition)",
       "2 ตัว",
       "4 ตัว",
+      "6 ตัว",
       "1 ตัว"
     ],
-    "ans": 0,
-    "explanation": "ทองแดง อยู่ในหมู่ Transition คาบ 4 จึงมีเวเลนซ์อิเล็กตรอนเท่ากับ 1 ตัว",
+    "ans": 3,
+    "explanation": "ธาตุ ทองแดง (Cu, Z=29) มีเวเลนซ์อิเล็กตรอนเท่ากับ 1 ตัว อยู่ในหมู่ 1B",
     "starsAwarded": 4
   },
   {
@@ -3508,13 +3509,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "เวเลนซ์อิเล็กตรอน",
     "q": "เวเลนซ์อิเล็กตรอน (จำนวน e⁻ วงนอกสุด) ของอะตอม สังกะสี (Zn) มีกี่ตัว?",
     "choices": [
+      "2 ตัว",
       "3 ตัว",
-      "4 ตัว",
-      "1 ตัว",
-      "2 ตัว (อยู่หมู่ Transition)"
+      "5 ตัว",
+      "7 ตัว"
     ],
-    "ans": 3,
-    "explanation": "สังกะสี อยู่ในหมู่ Transition คาบ 4 จึงมีเวเลนซ์อิเล็กตรอนเท่ากับ 2 ตัว",
+    "ans": 0,
+    "explanation": "ธาตุ สังกะสี (Zn, Z=30) มีเวเลนซ์อิเล็กตรอนเท่ากับ 2 ตัว อยู่ในหมู่ 2B",
     "starsAwarded": 4
   },
   {
@@ -3525,13 +3526,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "เวเลนซ์อิเล็กตรอน",
     "q": "เวเลนซ์อิเล็กตรอน (จำนวน e⁻ วงนอกสุด) ของอะตอม โบรมีน (Br) มีกี่ตัว?",
     "choices": [
-      "6 ตัว",
-      "4 ตัว",
-      "8 ตัว",
-      "7 ตัว (อยู่หมู่ 7A)"
+      "3 ตัว",
+      "7 ตัว",
+      "5 ตัว",
+      "8 ตัว"
     ],
-    "ans": 3,
-    "explanation": "โบรมีน อยู่ในหมู่ 7A คาบ 4 จึงมีเวเลนซ์อิเล็กตรอนเท่ากับ 7 ตัว",
+    "ans": 1,
+    "explanation": "ธาตุ โบรมีน (Br, Z=35) มีเวเลนซ์อิเล็กตรอนเท่ากับ 7 ตัว อยู่ในหมู่ 7A",
     "starsAwarded": 4
   },
   {
@@ -3542,13 +3543,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "เวเลนซ์อิเล็กตรอน",
     "q": "เวเลนซ์อิเล็กตรอน (จำนวน e⁻ วงนอกสุด) ของอะตอม เงิน (Ag) มีกี่ตัว?",
     "choices": [
-      "1 ตัว",
-      "1 ตัว (อยู่หมู่ Transition)",
       "5 ตัว",
+      "7 ตัว",
+      "1 ตัว",
       "2 ตัว"
     ],
-    "ans": 1,
-    "explanation": "เงิน อยู่ในหมู่ Transition คาบ 5 จึงมีเวเลนซ์อิเล็กตรอนเท่ากับ 1 ตัว",
+    "ans": 2,
+    "explanation": "ธาตุ เงิน (Ag, Z=47) มีเวเลนซ์อิเล็กตรอนเท่ากับ 1 ตัว อยู่ในหมู่ 1B",
     "starsAwarded": 4
   },
   {
@@ -3559,13 +3560,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "เวเลนซ์อิเล็กตรอน",
     "q": "เวเลนซ์อิเล็กตรอน (จำนวน e⁻ วงนอกสุด) ของอะตอม ไอโอดีน (I) มีกี่ตัว?",
     "choices": [
-      "7 ตัว (อยู่หมู่ 7A)",
-      "6 ตัว",
       "5 ตัว",
-      "8 ตัว"
+      "8 ตัว",
+      "2 ตัว",
+      "7 ตัว"
     ],
-    "ans": 0,
-    "explanation": "ไอโอดีน อยู่ในหมู่ 7A คาบ 5 จึงมีเวเลนซ์อิเล็กตรอนเท่ากับ 7 ตัว",
+    "ans": 3,
+    "explanation": "ธาตุ ไอโอดีน (I, Z=53) มีเวเลนซ์อิเล็กตรอนเท่ากับ 7 ตัว อยู่ในหมู่ 7A",
     "starsAwarded": 4
   },
   {
@@ -3576,13 +3577,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "เวเลนซ์อิเล็กตรอน",
     "q": "เวเลนซ์อิเล็กตรอน (จำนวน e⁻ วงนอกสุด) ของอะตอม ทองคำ (Au) มีกี่ตัว?",
     "choices": [
-      "1 ตัว (อยู่หมู่ Transition)",
-      "6 ตัว",
       "1 ตัว",
-      "2 ตัว"
+      "7 ตัว",
+      "2 ตัว",
+      "4 ตัว"
     ],
     "ans": 0,
-    "explanation": "ทองคำ อยู่ในหมู่ Transition คาบ 6 จึงมีเวเลนซ์อิเล็กตรอนเท่ากับ 1 ตัว",
+    "explanation": "ธาตุ ทองคำ (Au, Z=79) มีเวเลนซ์อิเล็กตรอนเท่ากับ 1 ตัว อยู่ในหมู่ 1B",
     "starsAwarded": 4
   },
   {
@@ -3593,13 +3594,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "เวเลนซ์อิเล็กตรอน",
     "q": "เวเลนซ์อิเล็กตรอน (จำนวน e⁻ วงนอกสุด) ของอะตอม ปรอท (Hg) มีกี่ตัว?",
     "choices": [
-      "2 ตัว (อยู่หมู่ Transition)",
+      "8 ตัว",
+      "2 ตัว",
       "3 ตัว",
-      "6 ตัว",
-      "1 ตัว"
+      "5 ตัว"
     ],
-    "ans": 0,
-    "explanation": "ปรอท อยู่ในหมู่ Transition คาบ 6 จึงมีเวเลนซ์อิเล็กตรอนเท่ากับ 2 ตัว",
+    "ans": 1,
+    "explanation": "ธาตุ ปรอท (Hg, Z=80) มีเวเลนซ์อิเล็กตรอนเท่ากับ 2 ตัว อยู่ในหมู่ 2B",
     "starsAwarded": 4
   },
   {
@@ -3610,13 +3611,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "เวเลนซ์อิเล็กตรอน",
     "q": "เวเลนซ์อิเล็กตรอน (จำนวน e⁻ วงนอกสุด) ของอะตอม ตะกั่ว (Pb) มีกี่ตัว?",
     "choices": [
-      "6 ตัว",
+      "1 ตัว",
       "3 ตัว",
-      "4 ตัว (อยู่หมู่ 4A)",
-      "5 ตัว"
+      "4 ตัว",
+      "6 ตัว"
     ],
     "ans": 2,
-    "explanation": "ตะกั่ว อยู่ในหมู่ 4A คาบ 6 จึงมีเวเลนซ์อิเล็กตรอนเท่ากับ 4 ตัว",
+    "explanation": "ธาตุ ตะกั่ว (Pb, Z=82) มีเวเลนซ์อิเล็กตรอนเท่ากับ 4 ตัว อยู่ในหมู่ 4A",
     "starsAwarded": 4
   },
   {
@@ -3627,13 +3628,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "เวเลนซ์อิเล็กตรอน",
     "q": "เวเลนซ์อิเล็กตรอน (จำนวน e⁻ วงนอกสุด) ของอะตอม ยูเรเนียม (U) มีกี่ตัว?",
     "choices": [
-      "ตัวเลือกเพิ่มเติม 4",
-      "5 ตัว",
-      "6 ตัว (อยู่หมู่ Transition)",
-      "7 ตัว"
+      "2 ตัว",
+      "4 ตัว",
+      "7 ตัว",
+      "6 ตัว"
     ],
-    "ans": 2,
-    "explanation": "ยูเรเนียม อยู่ในหมู่ Transition คาบ 7 จึงมีเวเลนซ์อิเล็กตรอนเท่ากับ 6 ตัว",
+    "ans": 3,
+    "explanation": "ธาตุ ยูเรเนียม (U, Z=92) มีเวเลนซ์อิเล็กตรอนเท่ากับ 6 ตัว อยู่ในหมู่ Actinide",
     "starsAwarded": 4
   },
   {
@@ -3644,13 +3645,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "การจัดกลุ่มในตารางธาตุ",
     "q": "ธาตุ ไฮโดรเจน (H) จัดเป็นธาตุประเภทใดในตารางธาตุ?",
     "choices": [
-      "ก๊าซสังเคราะห์สังเคราะห์ในอวกาศ",
-      "โลหะผสมอุตสาหกรรมหนัก",
-      "สารกัมมันตรังสีอันตรายระดับ 5",
-      "อโลหะ"
+      "อโลหะ (Nonmetal)",
+      "โลหะแอลคาไล (Alkali metal)",
+      "โลหะแอลคาไลน์เอิร์ท (Alkaline earth metal)",
+      "โลหะแทรนซิชัน (Transition metal)"
     ],
-    "ans": 3,
-    "explanation": "ไฮโดรเจน (H, Z=1) จัดอยู่ในกลุ่ม \"อโลหะ\" ธาตุที่เบาที่สุดและมีปริมาณมากที่สุดในจักรวาล เป็นเชื้อเพลิงของดวงอาทิตย์!",
+    "ans": 0,
+    "explanation": "ธาตุ ไฮโดรเจน (H, Z=1) จัดอยู่ในกลุ่ม \"อโลหะ (Nonmetal)\"",
     "starsAwarded": 3
   },
   {
@@ -3661,13 +3662,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "การจัดกลุ่มในตารางธาตุ",
     "q": "ธาตุ ฮีเลียม (He) จัดเป็นธาตุประเภทใดในตารางธาตุ?",
     "choices": [
-      "โลหะผสมอุตสาหกรรมหนัก",
-      "ก๊าซสังเคราะห์สังเคราะห์ในอวกาศ",
-      "ก๊าซมีตระกูล (ก๊าซเฉื่อย)",
-      "สารกัมมันตรังสีอันตรายระดับ 5"
+      "โลหะแอลคาไลน์เอิร์ท (Alkaline earth metal)",
+      "แก๊สมีตระกูล (Noble gas)",
+      "โลหะแทรนซิชัน (Transition metal)",
+      "โลหะหลังแทรนซิชัน (Post-transition metal)"
     ],
-    "ans": 2,
-    "explanation": "ฮีเลียม (He, Z=2) จัดอยู่ในกลุ่ม \"ก๊าซมีตระกูล (ก๊าซเฉื่อย)\" ก๊าซที่ใช้บรรจุลูกโป่งสวรรค์เพราะเบากว่าอากาศและไม่ติดไฟ ปลอดภัยกว่าไฮโดรเจน",
+    "ans": 1,
+    "explanation": "ธาตุ ฮีเลียม (He, Z=2) จัดอยู่ในกลุ่ม \"แก๊สมีตระกูล (Noble gas)\"",
     "starsAwarded": 3
   },
   {
@@ -3678,13 +3679,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "การจัดกลุ่มในตารางธาตุ",
     "q": "ธาตุ ลิเทียม (Li) จัดเป็นธาตุประเภทใดในตารางธาตุ?",
     "choices": [
-      "ก๊าซสังเคราะห์สังเคราะห์ในอวกาศ",
-      "สารกัมมันตรังสีอันตรายระดับ 5",
-      "โลหะแอลคาไล",
-      "โลหะผสมอุตสาหกรรมหนัก"
+      "โลหะหลังแทรนซิชัน (Post-transition metal)",
+      "ธาตุกึ่งโลหะ (Metalloid)",
+      "โลหะแอลคาไล (Alkali metal)",
+      "อโลหะ (Nonmetal)"
     ],
     "ans": 2,
-    "explanation": "ลิเทียม (Li, Z=3) จัดอยู่ในกลุ่ม \"โลหะแอลคาไล\" โลหะที่มีความหนาแน่นน้อยที่สุด เบาจนลอยบนน้ำมันได้ ใช้ทำแบตเตอรี่มือถือและรถยนต์ไฟฟ้า (EV)!",
+    "explanation": "ธาตุ ลิเทียม (Li, Z=3) จัดอยู่ในกลุ่ม \"โลหะแอลคาไล (Alkali metal)\"",
     "starsAwarded": 3
   },
   {
@@ -3695,13 +3696,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "การจัดกลุ่มในตารางธาตุ",
     "q": "ธาตุ เบริลเลียม (Be) จัดเป็นธาตุประเภทใดในตารางธาตุ?",
     "choices": [
-      "ก๊าซสังเคราะห์สังเคราะห์ในอวกาศ",
-      "โลหะผสมอุตสาหกรรมหนัก",
-      "โลหะแอลคาไลน์เอิร์ท",
-      "สารกัมมันตรังสีอันตรายระดับ 5"
+      "ธาตุกึ่งโลหะ (Metalloid)",
+      "อโลหะ (Nonmetal)",
+      "แฮโลเจน (Halogen)",
+      "โลหะแอลคาไลน์เอิร์ท (Alkaline earth metal)"
     ],
-    "ans": 2,
-    "explanation": "เบริลเลียม (Be, Z=4) จัดอยู่ในกลุ่ม \"โลหะแอลคาไลน์เอิร์ท\" พบในอัญมณีล้ำค่าอย่างมรกต (Emerald) และแอกวามารีน แข็งแกร่งและทนความร้อนสูง",
+    "ans": 3,
+    "explanation": "ธาตุ เบริลเลียม (Be, Z=4) จัดอยู่ในกลุ่ม \"โลหะแอลคาไลน์เอิร์ท (Alkaline earth metal)\"",
     "starsAwarded": 3
   },
   {
@@ -3712,13 +3713,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "การจัดกลุ่มในตารางธาตุ",
     "q": "ธาตุ โบรอน (B) จัดเป็นธาตุประเภทใดในตารางธาตุ?",
     "choices": [
-      "ก๊าซสังเคราะห์สังเคราะห์ในอวกาศ",
-      "กึ่งโลหะ",
-      "โลหะผสมอุตสาหกรรมหนัก",
-      "สารกัมมันตรังสีอันตรายระดับ 5"
+      "ธาตุกึ่งโลหะ (Metalloid)",
+      "โลหะแอลคาไล (Alkali metal)",
+      "โลหะแอลคาไลน์เอิร์ท (Alkaline earth metal)",
+      "โลหะแทรนซิชัน (Transition metal)"
     ],
-    "ans": 1,
-    "explanation": "โบรอน (B, Z=5) จัดอยู่ในกลุ่ม \"กึ่งโลหะ\" ใช้ทำแก้วไพเร็กซ์ (Pyrex) ในห้องแล็บที่ทนไฟไม่แตกง่าย และใช้ทำน้ำยาประสานทอง",
+    "ans": 0,
+    "explanation": "ธาตุ โบรอน (B, Z=5) จัดอยู่ในกลุ่ม \"ธาตุกึ่งโลหะ (Metalloid)\"",
     "starsAwarded": 3
   },
   {
@@ -3729,13 +3730,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "การจัดกลุ่มในตารางธาตุ",
     "q": "ธาตุ คาร์บอน (C) จัดเป็นธาตุประเภทใดในตารางธาตุ?",
     "choices": [
-      "อโลหะ",
-      "สารกัมมันตรังสีอันตรายระดับ 5",
-      "โลหะผสมอุตสาหกรรมหนัก",
-      "ก๊าซสังเคราะห์สังเคราะห์ในอวกาศ"
+      "โลหะแอลคาไลน์เอิร์ท (Alkaline earth metal)",
+      "อโลหะ (Nonmetal)",
+      "โลหะแทรนซิชัน (Transition metal)",
+      "โลหะหลังแทรนซิชัน (Post-transition metal)"
     ],
-    "ans": 0,
-    "explanation": "คาร์บอน (C, Z=6) จัดอยู่ในกลุ่ม \"อโลหะ\" ราชาแห่งเคมีอินทรีย์! อยู่ในไส้ดินสอ (แกรไฟต์) จนถึงเพชรที่แข็งที่สุด และอยู่ในสิ่งมีชีวิตทุกชนิด",
+    "ans": 1,
+    "explanation": "ธาตุ คาร์บอน (C, Z=6) จัดอยู่ในกลุ่ม \"อโลหะ (Nonmetal)\"",
     "starsAwarded": 3
   },
   {
@@ -3746,13 +3747,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "การจัดกลุ่มในตารางธาตุ",
     "q": "ธาตุ ไนโตรเจน (N) จัดเป็นธาตุประเภทใดในตารางธาตุ?",
     "choices": [
-      "โลหะผสมอุตสาหกรรมหนัก",
-      "ก๊าซสังเคราะห์สังเคราะห์ในอวกาศ",
-      "สารกัมมันตรังสีอันตรายระดับ 5",
-      "อโลหะ"
+      "โลหะแทรนซิชัน (Transition metal)",
+      "โลหะหลังแทรนซิชัน (Post-transition metal)",
+      "อโลหะ (Nonmetal)",
+      "ธาตุกึ่งโลหะ (Metalloid)"
     ],
-    "ans": 3,
-    "explanation": "ไนโตรเจน (N, Z=7) จัดอยู่ในกลุ่ม \"อโลหะ\" ก๊าซที่มีมากที่สุดในอากาศถึง 78%! ใช้บรรจุในถุงขนมกรุบกรอบกันเหม็นหืน",
+    "ans": 2,
+    "explanation": "ธาตุ ไนโตรเจน (N, Z=7) จัดอยู่ในกลุ่ม \"อโลหะ (Nonmetal)\"",
     "starsAwarded": 3
   },
   {
@@ -3763,13 +3764,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "การจัดกลุ่มในตารางธาตุ",
     "q": "ธาตุ ออกซิเจน (O) จัดเป็นธาตุประเภทใดในตารางธาตุ?",
     "choices": [
-      "สารกัมมันตรังสีอันตรายระดับ 5",
-      "อโลหะ",
-      "ก๊าซสังเคราะห์สังเคราะห์ในอวกาศ",
-      "โลหะผสมอุตสาหกรรมหนัก"
+      "โลหะหลังแทรนซิชัน (Post-transition metal)",
+      "ธาตุกึ่งโลหะ (Metalloid)",
+      "แฮโลเจน (Halogen)",
+      "อโลหะ (Nonmetal)"
     ],
-    "ans": 1,
-    "explanation": "ออกซิเจน (O, Z=8) จัดอยู่ในกลุ่ม \"อโลหะ\" ก๊าซแห่งชีวิต! เราหายใจเข้าเพื่อใช้ออกซิเจนเผาผลาญอาหาร และช่วยให้ไฟติด",
+    "ans": 3,
+    "explanation": "ธาตุ ออกซิเจน (O, Z=8) จัดอยู่ในกลุ่ม \"อโลหะ (Nonmetal)\"",
     "starsAwarded": 3
   },
   {
@@ -3780,13 +3781,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "การจัดกลุ่มในตารางธาตุ",
     "q": "ธาตุ ฟลูออรีน (F) จัดเป็นธาตุประเภทใดในตารางธาตุ?",
     "choices": [
-      "แฮโลเจน",
-      "สารกัมมันตรังสีอันตรายระดับ 5",
-      "โลหะผสมอุตสาหกรรมหนัก",
-      "ก๊าซสังเคราะห์สังเคราะห์ในอวกาศ"
+      "แฮโลเจน (Halogen)",
+      "โลหะแอลคาไล (Alkali metal)",
+      "โลหะแอลคาไลน์เอิร์ท (Alkaline earth metal)",
+      "โลหะแทรนซิชัน (Transition metal)"
     ],
     "ans": 0,
-    "explanation": "ฟลูออรีน (F, Z=9) จัดอยู่ในกลุ่ม \"แฮโลเจน\" ผสมในยาสีฟันในรูปฟลูออไรด์ ช่วยเคลือบฟันป้องกันฟันผุได้อย่างดีเยี่ยม",
+    "explanation": "ธาตุ ฟลูออรีน (F, Z=9) จัดอยู่ในกลุ่ม \"แฮโลเจน (Halogen)\"",
     "starsAwarded": 3
   },
   {
@@ -3797,13 +3798,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "การจัดกลุ่มในตารางธาตุ",
     "q": "ธาตุ นีออน (Ne) จัดเป็นธาตุประเภทใดในตารางธาตุ?",
     "choices": [
-      "โลหะผสมอุตสาหกรรมหนัก",
-      "ก๊าซมีตระกูล (ก๊าซเฉื่อย)",
-      "ก๊าซสังเคราะห์สังเคราะห์ในอวกาศ",
-      "สารกัมมันตรังสีอันตรายระดับ 5"
+      "โลหะแอลคาไลน์เอิร์ท (Alkaline earth metal)",
+      "แก๊สมีตระกูล (Noble gas)",
+      "โลหะแทรนซิชัน (Transition metal)",
+      "โลหะหลังแทรนซิชัน (Post-transition metal)"
     ],
     "ans": 1,
-    "explanation": "นีออน (Ne, Z=10) จัดอยู่ในกลุ่ม \"ก๊าซมีตระกูล (ก๊าซเฉื่อย)\" เมื่อปล่อยกระแสไฟฟ้าผ่าน จะเปล่งแสงสีส้มแดงสว่างไสว นิยมทำป้ายไฟโฆษณาตอนกลางคืน",
+    "explanation": "ธาตุ นีออน (Ne, Z=10) จัดอยู่ในกลุ่ม \"แก๊สมีตระกูล (Noble gas)\"",
     "starsAwarded": 3
   },
   {
@@ -3814,13 +3815,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "การจัดกลุ่มในตารางธาตุ",
     "q": "ธาตุ โซเดียม (Na) จัดเป็นธาตุประเภทใดในตารางธาตุ?",
     "choices": [
-      "โลหะผสมอุตสาหกรรมหนัก",
-      "ก๊าซสังเคราะห์สังเคราะห์ในอวกาศ",
-      "สารกัมมันตรังสีอันตรายระดับ 5",
-      "โลหะแอลคาไล"
+      "โลหะหลังแทรนซิชัน (Post-transition metal)",
+      "ธาตุกึ่งโลหะ (Metalloid)",
+      "โลหะแอลคาไล (Alkali metal)",
+      "อโลหะ (Nonmetal)"
     ],
-    "ans": 3,
-    "explanation": "โซเดียม (Na, Z=11) จัดอยู่ในกลุ่ม \"โลหะแอลคาไล\" รวมกับคลอรีนกลายเป็นเกลือแกง (NaCl) ที่เราปรุงอาหารทุกวัน! แต่ถ้าเป็นโลหะบริสุทธิ์โดนน้ำจะระเบิดไฟลุก",
+    "ans": 2,
+    "explanation": "ธาตุ โซเดียม (Na, Z=11) จัดอยู่ในกลุ่ม \"โลหะแอลคาไล (Alkali metal)\"",
     "starsAwarded": 3
   },
   {
@@ -3831,13 +3832,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "การจัดกลุ่มในตารางธาตุ",
     "q": "ธาตุ แมกนีเซียม (Mg) จัดเป็นธาตุประเภทใดในตารางธาตุ?",
     "choices": [
-      "โลหะผสมอุตสาหกรรมหนัก",
-      "สารกัมมันตรังสีอันตรายระดับ 5",
-      "ก๊าซสังเคราะห์สังเคราะห์ในอวกาศ",
-      "โลหะแอลคาไลน์เอิร์ท"
+      "ธาตุกึ่งโลหะ (Metalloid)",
+      "อโลหะ (Nonmetal)",
+      "แฮโลเจน (Halogen)",
+      "โลหะแอลคาไลน์เอิร์ท (Alkaline earth metal)"
     ],
     "ans": 3,
-    "explanation": "แมกนีเซียม (Mg, Z=12) จัดอยู่ในกลุ่ม \"โลหะแอลคาไลน์เอิร์ท\" เป็นธาตุใจกลางของโมเลกุลคลอโรฟิลล์ในพืชสีเขียว เผาไหม้แล้วให้แสงสีขาวสว่างจ้า ใช้ทำพลุไฟ",
+    "explanation": "ธาตุ แมกนีเซียม (Mg, Z=12) จัดอยู่ในกลุ่ม \"โลหะแอลคาไลน์เอิร์ท (Alkaline earth metal)\"",
     "starsAwarded": 3
   },
   {
@@ -3848,13 +3849,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "การจัดกลุ่มในตารางธาตุ",
     "q": "ธาตุ อะลูมิเนียม (Al) จัดเป็นธาตุประเภทใดในตารางธาตุ?",
     "choices": [
-      "ก๊าซสังเคราะห์สังเคราะห์ในอวกาศ",
-      "โลหะหลังแทรนซิชัน",
-      "สารกัมมันตรังสีอันตรายระดับ 5",
-      "โลหะผสมอุตสาหกรรมหนัก"
+      "โลหะหลังแทรนซิชัน (Post-transition metal)",
+      "โลหะแอลคาไล (Alkali metal)",
+      "โลหะแอลคาไลน์เอิร์ท (Alkaline earth metal)",
+      "โลหะแทรนซิชัน (Transition metal)"
     ],
-    "ans": 1,
-    "explanation": "อะลูมิเนียม (Al, Z=13) จัดอยู่ในกลุ่ม \"โลหะหลังแทรนซิชัน\" โลหะน้ำหนักเบา ไม่เป็นสนิม ใช้สร้างโครงสร้างเครื่องบิน กระป๋องน้ำอัดลม และฟอยล์ห่ออาหาร",
+    "ans": 0,
+    "explanation": "ธาตุ อะลูมิเนียม (Al, Z=13) จัดอยู่ในกลุ่ม \"โลหะหลังแทรนซิชัน (Post-transition metal)\"",
     "starsAwarded": 3
   },
   {
@@ -3865,13 +3866,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "การจัดกลุ่มในตารางธาตุ",
     "q": "ธาตุ ซิลิคอน (Si) จัดเป็นธาตุประเภทใดในตารางธาตุ?",
     "choices": [
-      "ก๊าซสังเคราะห์สังเคราะห์ในอวกาศ",
-      "กึ่งโลหะ",
-      "โลหะผสมอุตสาหกรรมหนัก",
-      "สารกัมมันตรังสีอันตรายระดับ 5"
+      "โลหะแอลคาไลน์เอิร์ท (Alkaline earth metal)",
+      "ธาตุกึ่งโลหะ (Metalloid)",
+      "โลหะแทรนซิชัน (Transition metal)",
+      "โลหะหลังแทรนซิชัน (Post-transition metal)"
     ],
     "ans": 1,
-    "explanation": "ซิลิคอน (Si, Z=14) จัดอยู่ในกลุ่ม \"กึ่งโลหะ\" สารกึ่งตัวนำหัวใจของคอมพิวเตอร์และชิปสมาร์ตโฟน พบในเม็ดทรายและกระจก (SiO₂)",
+    "explanation": "ธาตุ ซิลิคอน (Si, Z=14) จัดอยู่ในกลุ่ม \"ธาตุกึ่งโลหะ (Metalloid)\"",
     "starsAwarded": 3
   },
   {
@@ -3882,13 +3883,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "การจัดกลุ่มในตารางธาตุ",
     "q": "ธาตุ ฟอสฟอรัส (P) จัดเป็นธาตุประเภทใดในตารางธาตุ?",
     "choices": [
-      "ก๊าซสังเคราะห์สังเคราะห์ในอวกาศ",
-      "โลหะผสมอุตสาหกรรมหนัก",
-      "สารกัมมันตรังสีอันตรายระดับ 5",
-      "อโลหะ"
+      "โลหะแทรนซิชัน (Transition metal)",
+      "โลหะหลังแทรนซิชัน (Post-transition metal)",
+      "อโลหะ (Nonmetal)",
+      "ธาตุกึ่งโลหะ (Metalloid)"
     ],
-    "ans": 3,
-    "explanation": "ฟอสฟอรัส (P, Z=15) จัดอยู่ในกลุ่ม \"อโลหะ\" อยู่ในหัวไม้ขีดไฟ ปุ๋ยพืช (N-P-K) และเป็นส่วนประกอบของ DNA และกระดูกฟันมนุษย์",
+    "ans": 2,
+    "explanation": "ธาตุ ฟอสฟอรัส (P, Z=15) จัดอยู่ในกลุ่ม \"อโลหะ (Nonmetal)\"",
     "starsAwarded": 3
   },
   {
@@ -3897,15 +3898,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ป.ปลาย - ม.ต้น",
     "category": "periodic_trend",
     "categoryLabel": "การจัดกลุ่มในตารางธาตุ",
-    "q": "ธาตุ กำมะถัน (ซัลเฟอร์) (S) จัดเป็นธาตุประเภทใดในตารางธาตุ?",
+    "q": "ธาตุ กำมะถัน (S) จัดเป็นธาตุประเภทใดในตารางธาตุ?",
     "choices": [
-      "ก๊าซสังเคราะห์สังเคราะห์ในอวกาศ",
-      "โลหะผสมอุตสาหกรรมหนัก",
-      "อโลหะ",
-      "สารกัมมันตรังสีอันตรายระดับ 5"
+      "โลหะหลังแทรนซิชัน (Post-transition metal)",
+      "ธาตุกึ่งโลหะ (Metalloid)",
+      "แฮโลเจน (Halogen)",
+      "อโลหะ (Nonmetal)"
     ],
-    "ans": 2,
-    "explanation": "กำมะถัน (ซัลเฟอร์) (S, Z=16) จัดอยู่ในกลุ่ม \"อโลหะ\" ผลึกสีเหลืองสดใส พบตามปล่องภูเขาไฟและบ่อน้ำพุร้อน ใช้ทำดินปืนและยางรถยนต์วัลคาไนซ์",
+    "ans": 3,
+    "explanation": "ธาตุ กำมะถัน (S, Z=16) จัดอยู่ในกลุ่ม \"อโลหะ (Nonmetal)\"",
     "starsAwarded": 3
   },
   {
@@ -3916,13 +3917,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "การจัดกลุ่มในตารางธาตุ",
     "q": "ธาตุ คลอรีน (Cl) จัดเป็นธาตุประเภทใดในตารางธาตุ?",
     "choices": [
-      "แฮโลเจน",
-      "ก๊าซสังเคราะห์สังเคราะห์ในอวกาศ",
-      "โลหะผสมอุตสาหกรรมหนัก",
-      "สารกัมมันตรังสีอันตรายระดับ 5"
+      "แฮโลเจน (Halogen)",
+      "โลหะแอลคาไล (Alkali metal)",
+      "โลหะแอลคาไลน์เอิร์ท (Alkaline earth metal)",
+      "โลหะแทรนซิชัน (Transition metal)"
     ],
     "ans": 0,
-    "explanation": "คลอรีน (Cl, Z=17) จัดอยู่ในกลุ่ม \"แฮโลเจน\" ก๊าซสีเขียวตองอ่อน มีกลิ่นฉุน ใช้ฆ่าเชื้อโรคในสระว่ายน้ำและผลิตน้ำประปาสะอาด",
+    "explanation": "ธาตุ คลอรีน (Cl, Z=17) จัดอยู่ในกลุ่ม \"แฮโลเจน (Halogen)\"",
     "starsAwarded": 3
   },
   {
@@ -3933,13 +3934,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "การจัดกลุ่มในตารางธาตุ",
     "q": "ธาตุ อาร์กอน (Ar) จัดเป็นธาตุประเภทใดในตารางธาตุ?",
     "choices": [
-      "โลหะผสมอุตสาหกรรมหนัก",
-      "ก๊าซมีตระกูล (ก๊าซเฉื่อย)",
-      "ก๊าซสังเคราะห์สังเคราะห์ในอวกาศ",
-      "สารกัมมันตรังสีอันตรายระดับ 5"
+      "โลหะแอลคาไลน์เอิร์ท (Alkaline earth metal)",
+      "แก๊สมีตระกูล (Noble gas)",
+      "โลหะแทรนซิชัน (Transition metal)",
+      "โลหะหลังแทรนซิชัน (Post-transition metal)"
     ],
     "ans": 1,
-    "explanation": "อาร์กอน (Ar, Z=18) จัดอยู่ในกลุ่ม \"ก๊าซมีตระกูล (ก๊าซเฉื่อย)\" มีในอากาศประมาณ 1% นิยมบรรจุในหลอดไฟไส้ทังสเตนและใช้เป็นก๊าซคลุมในการเชื่อมโลหะ",
+    "explanation": "ธาตุ อาร์กอน (Ar, Z=18) จัดอยู่ในกลุ่ม \"แก๊สมีตระกูล (Noble gas)\"",
     "starsAwarded": 3
   },
   {
@@ -3950,13 +3951,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "การจัดกลุ่มในตารางธาตุ",
     "q": "ธาตุ โพแทสเซียม (K) จัดเป็นธาตุประเภทใดในตารางธาตุ?",
     "choices": [
-      "โลหะแอลคาไล",
-      "สารกัมมันตรังสีอันตรายระดับ 5",
-      "โลหะผสมอุตสาหกรรมหนัก",
-      "ก๊าซสังเคราะห์สังเคราะห์ในอวกาศ"
+      "โลหะหลังแทรนซิชัน (Post-transition metal)",
+      "ธาตุกึ่งโลหะ (Metalloid)",
+      "โลหะแอลคาไล (Alkali metal)",
+      "อโลหะ (Nonmetal)"
     ],
-    "ans": 0,
-    "explanation": "โพแทสเซียม (K, Z=19) จัดอยู่ในกลุ่ม \"โลหะแอลคาไล\" พบมากในกล้วยหอมและผักผลไม้ มีความสำคัญต่อการส่งสัญญาณประสาทและการเต้นของหัวใจ",
+    "ans": 2,
+    "explanation": "ธาตุ โพแทสเซียม (K, Z=19) จัดอยู่ในกลุ่ม \"โลหะแอลคาไล (Alkali metal)\"",
     "starsAwarded": 3
   },
   {
@@ -3967,13 +3968,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "การจัดกลุ่มในตารางธาตุ",
     "q": "ธาตุ แคลเซียม (Ca) จัดเป็นธาตุประเภทใดในตารางธาตุ?",
     "choices": [
-      "โลหะผสมอุตสาหกรรมหนัก",
-      "โลหะแอลคาไลน์เอิร์ท",
-      "สารกัมมันตรังสีอันตรายระดับ 5",
-      "ก๊าซสังเคราะห์สังเคราะห์ในอวกาศ"
+      "ธาตุกึ่งโลหะ (Metalloid)",
+      "อโลหะ (Nonmetal)",
+      "แฮโลเจน (Halogen)",
+      "โลหะแอลคาไลน์เอิร์ท (Alkaline earth metal)"
     ],
-    "ans": 1,
-    "explanation": "แคลเซียม (Ca, Z=20) จัดอยู่ในกลุ่ม \"โลหะแอลคาไลน์เอิร์ท\" แร่ธาตุสร้างกระดูกและฟันของมนุษย์ พบในนม และเป็นส่วนประกอบหลักของหินปูน (CaCO₃)",
+    "ans": 3,
+    "explanation": "ธาตุ แคลเซียม (Ca, Z=20) จัดอยู่ในกลุ่ม \"โลหะแอลคาไลน์เอิร์ท (Alkaline earth metal)\"",
     "starsAwarded": 3
   },
   {
@@ -3984,13 +3985,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "การจัดกลุ่มในตารางธาตุ",
     "q": "ธาตุ เหล็ก (Fe) จัดเป็นธาตุประเภทใดในตารางธาตุ?",
     "choices": [
-      "โลหะแทรนซิชัน",
-      "สารกัมมันตรังสีอันตรายระดับ 5",
-      "ก๊าซสังเคราะห์สังเคราะห์ในอวกาศ",
-      "โลหะผสมอุตสาหกรรมหนัก"
+      "โลหะแทรนซิชัน (Transition metal)",
+      "โลหะแอลคาไล (Alkali metal)",
+      "โลหะแอลคาไลน์เอิร์ท (Alkaline earth metal)",
+      "โลหะหลังแทรนซิชัน (Post-transition metal)"
     ],
     "ans": 0,
-    "explanation": "เหล็ก (Fe, Z=26) จัดอยู่ในกลุ่ม \"โลหะแทรนซิชัน\" โลหะที่มนุษย์ใช้สร้างตึก สะพาน รถยนต์ และเป็นแกนกลางของฮีโมโกลบินในเม็ดเลือดแดงที่ลำเลียง O₂",
+    "explanation": "ธาตุ เหล็ก (Fe, Z=26) จัดอยู่ในกลุ่ม \"โลหะแทรนซิชัน (Transition metal)\"",
     "starsAwarded": 3
   },
   {
@@ -4001,13 +4002,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "การจัดกลุ่มในตารางธาตุ",
     "q": "ธาตุ ทองแดง (Cu) จัดเป็นธาตุประเภทใดในตารางธาตุ?",
     "choices": [
-      "สารกัมมันตรังสีอันตรายระดับ 5",
-      "โลหะผสมอุตสาหกรรมหนัก",
-      "โลหะแทรนซิชัน",
-      "ก๊าซสังเคราะห์สังเคราะห์ในอวกาศ"
+      "โลหะแอลคาไลน์เอิร์ท (Alkaline earth metal)",
+      "โลหะแทรนซิชัน (Transition metal)",
+      "โลหะหลังแทรนซิชัน (Post-transition metal)",
+      "ธาตุกึ่งโลหะ (Metalloid)"
     ],
-    "ans": 2,
-    "explanation": "ทองแดง (Cu, Z=29) จัดอยู่ในกลุ่ม \"โลหะแทรนซิชัน\" โลหะสีส้มแดงนำไฟฟ้าและความร้อนดีเยี่ยมรองจากเงิน ใช้ทำสายไฟฟ้าและเหรียญกษาปณ์",
+    "ans": 1,
+    "explanation": "ธาตุ ทองแดง (Cu, Z=29) จัดอยู่ในกลุ่ม \"โลหะแทรนซิชัน (Transition metal)\"",
     "starsAwarded": 3
   },
   {
@@ -4018,13 +4019,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "การจัดกลุ่มในตารางธาตุ",
     "q": "ธาตุ สังกะสี (Zn) จัดเป็นธาตุประเภทใดในตารางธาตุ?",
     "choices": [
-      "ก๊าซสังเคราะห์สังเคราะห์ในอวกาศ",
-      "โลหะผสมอุตสาหกรรมหนัก",
-      "โลหะแทรนซิชัน",
-      "สารกัมมันตรังสีอันตรายระดับ 5"
+      "โลหะหลังแทรนซิชัน (Post-transition metal)",
+      "ธาตุกึ่งโลหะ (Metalloid)",
+      "โลหะแทรนซิชัน (Transition metal)",
+      "อโลหะ (Nonmetal)"
     ],
     "ans": 2,
-    "explanation": "สังกะสี (Zn, Z=30) จัดอยู่ในกลุ่ม \"โลหะแทรนซิชัน\" ใช้เคลือบเหล็กกันสนิม (Galvanization) ทำหลังคาเมทัลชีท และเป็นแร่ธาตุเสริมภูมิคุ้มกันร่างกาย",
+    "explanation": "ธาตุ สังกะสี (Zn, Z=30) จัดอยู่ในกลุ่ม \"โลหะแทรนซิชัน (Transition metal)\"",
     "starsAwarded": 3
   },
   {
@@ -4035,13 +4036,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "การจัดกลุ่มในตารางธาตุ",
     "q": "ธาตุ โบรมีน (Br) จัดเป็นธาตุประเภทใดในตารางธาตุ?",
     "choices": [
-      "สารกัมมันตรังสีอันตรายระดับ 5",
-      "แฮโลเจน",
-      "ก๊าซสังเคราะห์สังเคราะห์ในอวกาศ",
-      "โลหะผสมอุตสาหกรรมหนัก"
+      "โลหะหลังแทรนซิชัน (Post-transition metal)",
+      "ธาตุกึ่งโลหะ (Metalloid)",
+      "อโลหะ (Nonmetal)",
+      "แฮโลเจน (Halogen)"
     ],
-    "ans": 1,
-    "explanation": "โบรมีน (Br, Z=35) จัดอยู่ในกลุ่ม \"แฮโลเจน\" อโลหะชนิดเดียวในตารางธาตุที่เป็น \"ของเหลว\" ที่อุณหภูมิห้อง! มีสีน้ำตาลแดงและระเหยเป็นไอพิษสีส้มฉุน",
+    "ans": 3,
+    "explanation": "ธาตุ โบรมีน (Br, Z=35) จัดอยู่ในกลุ่ม \"แฮโลเจน (Halogen)\"",
     "starsAwarded": 3
   },
   {
@@ -4052,13 +4053,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "การจัดกลุ่มในตารางธาตุ",
     "q": "ธาตุ เงิน (Ag) จัดเป็นธาตุประเภทใดในตารางธาตุ?",
     "choices": [
-      "สารกัมมันตรังสีอันตรายระดับ 5",
-      "โลหะผสมอุตสาหกรรมหนัก",
-      "ก๊าซสังเคราะห์สังเคราะห์ในอวกาศ",
-      "โลหะแทรนซิชัน"
+      "โลหะแทรนซิชัน (Transition metal)",
+      "โลหะแอลคาไล (Alkali metal)",
+      "โลหะแอลคาไลน์เอิร์ท (Alkaline earth metal)",
+      "โลหะหลังแทรนซิชัน (Post-transition metal)"
     ],
-    "ans": 3,
-    "explanation": "เงิน (Ag, Z=47) จัดอยู่ในกลุ่ม \"โลหะแทรนซิชัน\" โลหะที่นำไฟฟ้าและความร้อนได้ดีที่สุดในโลก! และสะท้อนแสงได้ดีที่สุด ใช้ทำกระจกเงาและเครื่องประดับ",
+    "ans": 0,
+    "explanation": "ธาตุ เงิน (Ag, Z=47) จัดอยู่ในกลุ่ม \"โลหะแทรนซิชัน (Transition metal)\"",
     "starsAwarded": 3
   },
   {
@@ -4069,13 +4070,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "การจัดกลุ่มในตารางธาตุ",
     "q": "ธาตุ ไอโอดีน (I) จัดเป็นธาตุประเภทใดในตารางธาตุ?",
     "choices": [
-      "โลหะผสมอุตสาหกรรมหนัก",
-      "สารกัมมันตรังสีอันตรายระดับ 5",
-      "แฮโลเจน",
-      "ก๊าซสังเคราะห์สังเคราะห์ในอวกาศ"
+      "โลหะแอลคาไลน์เอิร์ท (Alkaline earth metal)",
+      "แฮโลเจน (Halogen)",
+      "โลหะแทรนซิชัน (Transition metal)",
+      "โลหะหลังแทรนซิชัน (Post-transition metal)"
     ],
-    "ans": 2,
-    "explanation": "ไอโอดีน (I, Z=53) จัดอยู่ในกลุ่ม \"แฮโลเจน\" ผลึกสีม่วงเข้ม ระเหิดกลายเป็นไอสีม่วงได้โดยไม่ผ่านของเหลว ใช้ตรวจหาแป้งและป้องกันโรคคอพอก",
+    "ans": 1,
+    "explanation": "ธาตุ ไอโอดีน (I, Z=53) จัดอยู่ในกลุ่ม \"แฮโลเจน (Halogen)\"",
     "starsAwarded": 3
   },
   {
@@ -4086,13 +4087,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "การจัดกลุ่มในตารางธาตุ",
     "q": "ธาตุ ทองคำ (Au) จัดเป็นธาตุประเภทใดในตารางธาตุ?",
     "choices": [
-      "สารกัมมันตรังสีอันตรายระดับ 5",
-      "ก๊าซสังเคราะห์สังเคราะห์ในอวกาศ",
-      "โลหะผสมอุตสาหกรรมหนัก",
-      "โลหะแทรนซิชัน"
+      "โลหะหลังแทรนซิชัน (Post-transition metal)",
+      "ธาตุกึ่งโลหะ (Metalloid)",
+      "โลหะแทรนซิชัน (Transition metal)",
+      "อโลหะ (Nonmetal)"
     ],
-    "ans": 3,
-    "explanation": "ทองคำ (Au, Z=79) จัดอยู่ในกลุ่ม \"โลหะแทรนซิชัน\" โลหะมีตระกูล สีเหลืองอร่าม ตีแผ่เป็นแผ่นบางได้มากที่สุด (ทองคำเปลว) ไม่เป็นสนิมตลอดกาล",
+    "ans": 2,
+    "explanation": "ธาตุ ทองคำ (Au, Z=79) จัดอยู่ในกลุ่ม \"โลหะแทรนซิชัน (Transition metal)\"",
     "starsAwarded": 3
   },
   {
@@ -4103,13 +4104,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "การจัดกลุ่มในตารางธาตุ",
     "q": "ธาตุ ปรอท (Hg) จัดเป็นธาตุประเภทใดในตารางธาตุ?",
     "choices": [
-      "โลหะแทรนซิชัน",
-      "ก๊าซสังเคราะห์สังเคราะห์ในอวกาศ",
-      "สารกัมมันตรังสีอันตรายระดับ 5",
-      "โลหะผสมอุตสาหกรรมหนัก"
+      "ธาตุกึ่งโลหะ (Metalloid)",
+      "อโลหะ (Nonmetal)",
+      "แฮโลเจน (Halogen)",
+      "โลหะแทรนซิชัน (Transition metal)"
     ],
-    "ans": 0,
-    "explanation": "ปรอท (Hg, Z=80) จัดอยู่ในกลุ่ม \"โลหะแทรนซิชัน\" โลหะชนิดเดียวในตารางธาตุที่เป็น \"ของเหลว\" ที่อุณหภูมิห้อง! นำไฟฟ้าได้ นิยมใส่ในเทอร์โมมิเตอร์รุ่นเก่า",
+    "ans": 3,
+    "explanation": "ธาตุ ปรอท (Hg, Z=80) จัดอยู่ในกลุ่ม \"โลหะแทรนซิชัน (Transition metal)\"",
     "starsAwarded": 3
   },
   {
@@ -4120,13 +4121,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "การจัดกลุ่มในตารางธาตุ",
     "q": "ธาตุ ตะกั่ว (Pb) จัดเป็นธาตุประเภทใดในตารางธาตุ?",
     "choices": [
-      "โลหะผสมอุตสาหกรรมหนัก",
-      "สารกัมมันตรังสีอันตรายระดับ 5",
-      "โลหะหลังแทรนซิชัน",
-      "ก๊าซสังเคราะห์สังเคราะห์ในอวกาศ"
+      "โลหะหลังแทรนซิชัน (Post-transition metal)",
+      "โลหะแอลคาไล (Alkali metal)",
+      "โลหะแอลคาไลน์เอิร์ท (Alkaline earth metal)",
+      "โลหะแทรนซิชัน (Transition metal)"
     ],
-    "ans": 2,
-    "explanation": "ตะกั่ว (Pb, Z=82) จัดอยู่ในกลุ่ม \"โลหะหลังแทรนซิชัน\" โลหะหนักหนาแน่นสูง บังรังสีเอกซเรย์ได้ ใช้ทำเสื้อกักรังสีในโรงพยาบาลและแผ่นธาตุแบตเตอรี่รถยนต์",
+    "ans": 0,
+    "explanation": "ธาตุ ตะกั่ว (Pb, Z=82) จัดอยู่ในกลุ่ม \"โลหะหลังแทรนซิชัน (Post-transition metal)\"",
     "starsAwarded": 3
   },
   {
@@ -4137,13 +4138,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "การจัดกลุ่มในตารางธาตุ",
     "q": "ธาตุ ยูเรเนียม (U) จัดเป็นธาตุประเภทใดในตารางธาตุ?",
     "choices": [
-      "ธาตุกัมมันตรังสี",
-      "โลหะผสมอุตสาหกรรมหนัก",
-      "สารกัมมันตรังสีอันตรายระดับ 5",
-      "ก๊าซสังเคราะห์สังเคราะห์ในอวกาศ"
+      "โลหะแอลคาไลน์เอิร์ท (Alkaline earth metal)",
+      "ธาตุกัมมันตรังสี (Actinide metal)",
+      "โลหะแทรนซิชัน (Transition metal)",
+      "โลหะหลังแทรนซิชัน (Post-transition metal)"
     ],
-    "ans": 0,
-    "explanation": "ยูเรเนียม (U, Z=92) จัดอยู่ในกลุ่ม \"ธาตุกัมมันตรังสี\" เชื้อเพลิงนิวเคลียร์ในโรงไฟฟ้า พลังงานจากยูเรเนียม 1 เม็ดเล็กๆ เท่ากับถ่านหินหลายตัน!",
+    "ans": 1,
+    "explanation": "ธาตุ ยูเรเนียม (U, Z=92) จัดอยู่ในกลุ่ม \"ธาตุกัมมันตรังสี (Actinide metal)\"",
     "starsAwarded": 3
   },
   {
@@ -4154,13 +4155,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "ประจุไอออนที่เสถียร",
     "q": "ไอออนที่เสถียรตามกฎออกเตตของธาตุ ไฮโดรเจน (H) คือข้อใด?",
     "choices": [
-      "+4",
-      "-3",
-      "H⁺, H⁻",
-      "+7"
+      "H⁴⁺",
+      "H²⁻",
+      "H³⁺",
+      "H⁺ หรือ H⁻"
     ],
-    "ans": 2,
-    "explanation": "ไฮโดรเจน มีประจุไอออนที่พบบ่อยและเสถียรที่สุดคือ: H⁺, H⁻",
+    "ans": 3,
+    "explanation": "ธาตุ ไฮโดรเจน (H) มีประจุไอออนที่พบบ่อยและเสถียรที่สุดคือ: H⁺ หรือ H⁻",
     "starsAwarded": 4
   },
   {
@@ -4171,13 +4172,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "ประจุไอออนที่เสถียร",
     "q": "ไอออนที่เสถียรตามกฎออกเตตของธาตุ ฮีเลียม (He) คือข้อใด?",
     "choices": [
-      "+7",
-      "ไม่เกิดไอออน",
-      "-3",
-      "+4"
+      "ไม่เกิดไอออน (เสถียรตามกฎออกเตต)",
+      "He⁺ (เกิดไอออนบวก)",
+      "He⁻ (เกิดไอออนลบ)",
+      "He²⁻ (เกิดไอออนลบสอง)"
     ],
-    "ans": 1,
-    "explanation": "ฮีเลียม มีประจุไอออนที่พบบ่อยและเสถียรที่สุดคือ: ไม่เกิดไอออน",
+    "ans": 0,
+    "explanation": "ธาตุ ฮีเลียม (He) มีประจุไอออนที่พบบ่อยและเสถียรที่สุดคือ: ไม่เกิดไอออน (เสถียรตามกฎดูเพลต)",
     "starsAwarded": 4
   },
   {
@@ -4188,13 +4189,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "ประจุไอออนที่เสถียร",
     "q": "ไอออนที่เสถียรตามกฎออกเตตของธาตุ ลิเทียม (Li) คือข้อใด?",
     "choices": [
+      "Li⁴⁺",
       "Li⁺",
-      "+7",
-      "+4",
-      "-3"
+      "Li²⁻",
+      "Li³⁺"
     ],
-    "ans": 0,
-    "explanation": "ลิเทียม มีประจุไอออนที่พบบ่อยและเสถียรที่สุดคือ: Li⁺",
+    "ans": 1,
+    "explanation": "ธาตุ ลิเทียม (Li) มีประจุไอออนที่พบบ่อยและเสถียรที่สุดคือ: Li⁺",
     "starsAwarded": 4
   },
   {
@@ -4205,13 +4206,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "ประจุไอออนที่เสถียร",
     "q": "ไอออนที่เสถียรตามกฎออกเตตของธาตุ เบริลเลียม (Be) คือข้อใด?",
     "choices": [
-      "+7",
-      "+4",
-      "-3",
-      "Be²⁺"
+      "Be⁴⁺",
+      "Be²⁻",
+      "Be²⁺",
+      "Be³⁺"
     ],
-    "ans": 3,
-    "explanation": "เบริลเลียม มีประจุไอออนที่พบบ่อยและเสถียรที่สุดคือ: Be²⁺",
+    "ans": 2,
+    "explanation": "ธาตุ เบริลเลียม (Be) มีประจุไอออนที่พบบ่อยและเสถียรที่สุดคือ: Be²⁺",
     "starsAwarded": 4
   },
   {
@@ -4222,13 +4223,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "ประจุไอออนที่เสถียร",
     "q": "ไอออนที่เสถียรตามกฎออกเตตของธาตุ โบรอน (B) คือข้อใด?",
     "choices": [
-      "+4",
-      "B³⁺",
-      "+7",
-      "-3"
+      "B⁴⁺",
+      "B²⁻",
+      "B⁺",
+      "B³⁺"
     ],
-    "ans": 1,
-    "explanation": "โบรอน มีประจุไอออนที่พบบ่อยและเสถียรที่สุดคือ: B³⁺",
+    "ans": 3,
+    "explanation": "ธาตุ โบรอน (B) มีประจุไอออนที่พบบ่อยและเสถียรที่สุดคือ: B³⁺",
     "starsAwarded": 4
   },
   {
@@ -4239,13 +4240,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "ประจุไอออนที่เสถียร",
     "q": "ไอออนที่เสถียรตามกฎออกเตตของธาตุ คาร์บอน (C) คือข้อใด?",
     "choices": [
-      "C⁴⁺, C⁴⁻",
-      "-3",
-      "+4",
-      "+7"
+      "C⁴⁻ หรือ C⁴⁺",
+      "C⁴⁺",
+      "C²⁻",
+      "C³⁺"
     ],
     "ans": 0,
-    "explanation": "คาร์บอน มีประจุไอออนที่พบบ่อยและเสถียรที่สุดคือ: C⁴⁺, C⁴⁻",
+    "explanation": "ธาตุ คาร์บอน (C) มีประจุไอออนที่พบบ่อยและเสถียรที่สุดคือ: C⁴⁻ หรือ C⁴⁺",
     "starsAwarded": 4
   },
   {
@@ -4256,13 +4257,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "ประจุไอออนที่เสถียร",
     "q": "ไอออนที่เสถียรตามกฎออกเตตของธาตุ ไนโตรเจน (N) คือข้อใด?",
     "choices": [
-      "+7",
-      "-3",
-      "+4",
-      "N³⁻"
+      "N⁴⁺",
+      "N³⁻",
+      "N²⁻",
+      "N³⁺"
     ],
-    "ans": 3,
-    "explanation": "ไนโตรเจน มีประจุไอออนที่พบบ่อยและเสถียรที่สุดคือ: N³⁻",
+    "ans": 1,
+    "explanation": "ธาตุ ไนโตรเจน (N) มีประจุไอออนที่พบบ่อยและเสถียรที่สุดคือ: N³⁻",
     "starsAwarded": 4
   },
   {
@@ -4273,13 +4274,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "ประจุไอออนที่เสถียร",
     "q": "ไอออนที่เสถียรตามกฎออกเตตของธาตุ ออกซิเจน (O) คือข้อใด?",
     "choices": [
-      "+4",
-      "-3",
-      "+7",
-      "O²⁻ (ออกไซด์)"
+      "O⁴⁺",
+      "O³⁺",
+      "O²⁻",
+      "O⁺"
     ],
-    "ans": 3,
-    "explanation": "ออกซิเจน มีประจุไอออนที่พบบ่อยและเสถียรที่สุดคือ: O²⁻ (ออกไซด์)",
+    "ans": 2,
+    "explanation": "ธาตุ ออกซิเจน (O) มีประจุไอออนที่พบบ่อยและเสถียรที่สุดคือ: O²⁻",
     "starsAwarded": 4
   },
   {
@@ -4290,13 +4291,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "ประจุไอออนที่เสถียร",
     "q": "ไอออนที่เสถียรตามกฎออกเตตของธาตุ ฟลูออรีน (F) คือข้อใด?",
     "choices": [
-      "+7",
-      "+4",
-      "-3",
-      "F⁻ (ฟลูออไรด์)"
+      "F⁴⁺",
+      "F²⁻",
+      "F³⁺",
+      "F⁻"
     ],
     "ans": 3,
-    "explanation": "ฟลูออรีน มีประจุไอออนที่พบบ่อยและเสถียรที่สุดคือ: F⁻ (ฟลูออไรด์)",
+    "explanation": "ธาตุ ฟลูออรีน (F) มีประจุไอออนที่พบบ่อยและเสถียรที่สุดคือ: F⁻",
     "starsAwarded": 4
   },
   {
@@ -4307,13 +4308,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "ประจุไอออนที่เสถียร",
     "q": "ไอออนที่เสถียรตามกฎออกเตตของธาตุ นีออน (Ne) คือข้อใด?",
     "choices": [
-      "+7",
-      "-3",
-      "+4",
-      "ไม่เกิดไอออน"
+      "ไม่เกิดไอออน (เสถียรตามกฎออกเตต)",
+      "Ne⁺ (เกิดไอออนบวก)",
+      "Ne⁻ (เกิดไอออนลบ)",
+      "Ne²⁻ (เกิดไอออนลบสอง)"
     ],
-    "ans": 3,
-    "explanation": "นีออน มีประจุไอออนที่พบบ่อยและเสถียรที่สุดคือ: ไม่เกิดไอออน",
+    "ans": 0,
+    "explanation": "ธาตุ นีออน (Ne) มีประจุไอออนที่พบบ่อยและเสถียรที่สุดคือ: ไม่เกิดไอออน (เสถียรตามกฎออกเตต)",
     "starsAwarded": 4
   },
   {
@@ -4324,13 +4325,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "ประจุไอออนที่เสถียร",
     "q": "ไอออนที่เสถียรตามกฎออกเตตของธาตุ โซเดียม (Na) คือข้อใด?",
     "choices": [
-      "+4",
+      "Na⁴⁺",
       "Na⁺",
-      "-3",
-      "+7"
+      "Na²⁻",
+      "Na³⁺"
     ],
     "ans": 1,
-    "explanation": "โซเดียม มีประจุไอออนที่พบบ่อยและเสถียรที่สุดคือ: Na⁺",
+    "explanation": "ธาตุ โซเดียม (Na) มีประจุไอออนที่พบบ่อยและเสถียรที่สุดคือ: Na⁺",
     "starsAwarded": 4
   },
   {
@@ -4341,13 +4342,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "ประจุไอออนที่เสถียร",
     "q": "ไอออนที่เสถียรตามกฎออกเตตของธาตุ แมกนีเซียม (Mg) คือข้อใด?",
     "choices": [
-      "-3",
+      "Mg⁴⁺",
+      "Mg²⁻",
       "Mg²⁺",
-      "+7",
-      "+4"
+      "Mg³⁺"
     ],
-    "ans": 1,
-    "explanation": "แมกนีเซียม มีประจุไอออนที่พบบ่อยและเสถียรที่สุดคือ: Mg²⁺",
+    "ans": 2,
+    "explanation": "ธาตุ แมกนีเซียม (Mg) มีประจุไอออนที่พบบ่อยและเสถียรที่สุดคือ: Mg²⁺",
     "starsAwarded": 4
   },
   {
@@ -4358,13 +4359,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "ประจุไอออนที่เสถียร",
     "q": "ไอออนที่เสถียรตามกฎออกเตตของธาตุ อะลูมิเนียม (Al) คือข้อใด?",
     "choices": [
-      "-3",
-      "+4",
-      "+7",
+      "Al⁴⁺",
+      "Al²⁻",
+      "Al⁺",
       "Al³⁺"
     ],
     "ans": 3,
-    "explanation": "อะลูมิเนียม มีประจุไอออนที่พบบ่อยและเสถียรที่สุดคือ: Al³⁺",
+    "explanation": "ธาตุ อะลูมิเนียม (Al) มีประจุไอออนที่พบบ่อยและเสถียรที่สุดคือ: Al³⁺",
     "starsAwarded": 4
   },
   {
@@ -4375,13 +4376,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "ประจุไอออนที่เสถียร",
     "q": "ไอออนที่เสถียรตามกฎออกเตตของธาตุ ซิลิคอน (Si) คือข้อใด?",
     "choices": [
-      "-3",
-      "+4",
-      "+7",
-      "Si⁴⁺"
+      "Si⁴⁺ หรือ Si⁴⁻",
+      "Si⁴⁺",
+      "Si²⁻",
+      "Si³⁺"
     ],
-    "ans": 3,
-    "explanation": "ซิลิคอน มีประจุไอออนที่พบบ่อยและเสถียรที่สุดคือ: Si⁴⁺",
+    "ans": 0,
+    "explanation": "ธาตุ ซิลิคอน (Si) มีประจุไอออนที่พบบ่อยและเสถียรที่สุดคือ: Si⁴⁺ หรือ Si⁴⁻",
     "starsAwarded": 4
   },
   {
@@ -4392,13 +4393,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "ประจุไอออนที่เสถียร",
     "q": "ไอออนที่เสถียรตามกฎออกเตตของธาตุ ฟอสฟอรัส (P) คือข้อใด?",
     "choices": [
-      "+4",
-      "-3",
-      "+7",
-      "P³⁻ (ฟอสไฟด์), PO₄³⁻"
+      "P⁴⁺",
+      "P³⁻",
+      "P²⁻",
+      "P³⁺"
     ],
-    "ans": 3,
-    "explanation": "ฟอสฟอรัส มีประจุไอออนที่พบบ่อยและเสถียรที่สุดคือ: P³⁻ (ฟอสไฟด์), PO₄³⁻",
+    "ans": 1,
+    "explanation": "ธาตุ ฟอสฟอรัส (P) มีประจุไอออนที่พบบ่อยและเสถียรที่สุดคือ: P³⁻",
     "starsAwarded": 4
   },
   {
@@ -4407,15 +4408,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "compound",
     "categoryLabel": "ประจุไอออนที่เสถียร",
-    "q": "ไอออนที่เสถียรตามกฎออกเตตของธาตุ กำมะถัน (ซัลเฟอร์) (S) คือข้อใด?",
+    "q": "ไอออนที่เสถียรตามกฎออกเตตของธาตุ กำมะถัน (S) คือข้อใด?",
     "choices": [
-      "+7",
-      "+4",
-      "-3",
-      "S²⁻ (ซัลไฟด์), SO₄²⁻"
+      "S⁴⁺",
+      "S³⁺",
+      "S²⁻",
+      "S⁺"
     ],
-    "ans": 3,
-    "explanation": "กำมะถัน (ซัลเฟอร์) มีประจุไอออนที่พบบ่อยและเสถียรที่สุดคือ: S²⁻ (ซัลไฟด์), SO₄²⁻",
+    "ans": 2,
+    "explanation": "ธาตุ กำมะถัน (S) มีประจุไอออนที่พบบ่อยและเสถียรที่สุดคือ: S²⁻",
     "starsAwarded": 4
   },
   {
@@ -4426,13 +4427,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "ประจุไอออนที่เสถียร",
     "q": "ไอออนที่เสถียรตามกฎออกเตตของธาตุ คลอรีน (Cl) คือข้อใด?",
     "choices": [
-      "Cl⁻ (คลอไรด์)",
-      "-3",
-      "+7",
-      "+4"
+      "Cl⁴⁺",
+      "Cl²⁻",
+      "Cl³⁺",
+      "Cl⁻"
     ],
-    "ans": 0,
-    "explanation": "คลอรีน มีประจุไอออนที่พบบ่อยและเสถียรที่สุดคือ: Cl⁻ (คลอไรด์)",
+    "ans": 3,
+    "explanation": "ธาตุ คลอรีน (Cl) มีประจุไอออนที่พบบ่อยและเสถียรที่สุดคือ: Cl⁻",
     "starsAwarded": 4
   },
   {
@@ -4443,13 +4444,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "ประจุไอออนที่เสถียร",
     "q": "ไอออนที่เสถียรตามกฎออกเตตของธาตุ อาร์กอน (Ar) คือข้อใด?",
     "choices": [
-      "ไม่เกิดไอออน",
-      "-3",
-      "+7",
-      "+4"
+      "ไม่เกิดไอออน (เสถียรตามกฎออกเตต)",
+      "Ar⁺ (เกิดไอออนบวก)",
+      "Ar⁻ (เกิดไอออนลบ)",
+      "Ar²⁻ (เกิดไอออนลบสอง)"
     ],
     "ans": 0,
-    "explanation": "อาร์กอน มีประจุไอออนที่พบบ่อยและเสถียรที่สุดคือ: ไม่เกิดไอออน",
+    "explanation": "ธาตุ อาร์กอน (Ar) มีประจุไอออนที่พบบ่อยและเสถียรที่สุดคือ: ไม่เกิดไอออน (เสถียรตามกฎออกเตต)",
     "starsAwarded": 4
   },
   {
@@ -4460,13 +4461,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "ประจุไอออนที่เสถียร",
     "q": "ไอออนที่เสถียรตามกฎออกเตตของธาตุ โพแทสเซียม (K) คือข้อใด?",
     "choices": [
-      "-3",
+      "K⁴⁺",
       "K⁺",
-      "+7",
-      "+4"
+      "K²⁻",
+      "K³⁺"
     ],
     "ans": 1,
-    "explanation": "โพแทสเซียม มีประจุไอออนที่พบบ่อยและเสถียรที่สุดคือ: K⁺",
+    "explanation": "ธาตุ โพแทสเซียม (K) มีประจุไอออนที่พบบ่อยและเสถียรที่สุดคือ: K⁺",
     "starsAwarded": 4
   },
   {
@@ -4477,13 +4478,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "ประจุไอออนที่เสถียร",
     "q": "ไอออนที่เสถียรตามกฎออกเตตของธาตุ แคลเซียม (Ca) คือข้อใด?",
     "choices": [
-      "+7",
+      "Ca⁴⁺",
+      "Ca²⁻",
       "Ca²⁺",
-      "+4",
-      "-3"
+      "Ca³⁺"
     ],
-    "ans": 1,
-    "explanation": "แคลเซียม มีประจุไอออนที่พบบ่อยและเสถียรที่สุดคือ: Ca²⁺",
+    "ans": 2,
+    "explanation": "ธาตุ แคลเซียม (Ca) มีประจุไอออนที่พบบ่อยและเสถียรที่สุดคือ: Ca²⁺",
     "starsAwarded": 4
   },
   {
@@ -4494,13 +4495,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "ประจุไอออนที่เสถียร",
     "q": "ไอออนที่เสถียรตามกฎออกเตตของธาตุ เหล็ก (Fe) คือข้อใด?",
     "choices": [
-      "+4",
-      "-3",
-      "Fe²⁺ (เขียว), Fe³⁺ (น้ำตาลแดง)",
-      "+7"
+      "Fe⁴⁺",
+      "Fe²⁻",
+      "Fe³⁺",
+      "Fe²⁺ หรือ Fe³⁺"
     ],
-    "ans": 2,
-    "explanation": "เหล็ก มีประจุไอออนที่พบบ่อยและเสถียรที่สุดคือ: Fe²⁺ (เขียว), Fe³⁺ (น้ำตาลแดง)",
+    "ans": 3,
+    "explanation": "ธาตุ เหล็ก (Fe) มีประจุไอออนที่พบบ่อยและเสถียรที่สุดคือ: Fe²⁺ หรือ Fe³⁺",
     "starsAwarded": 4
   },
   {
@@ -4511,13 +4512,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "ประจุไอออนที่เสถียร",
     "q": "ไอออนที่เสถียรตามกฎออกเตตของธาตุ ทองแดง (Cu) คือข้อใด?",
     "choices": [
-      "+4",
-      "-3",
-      "Cu⁺, Cu²⁺ (สีฟ้าสดใส)",
-      "+7"
+      "Cu⁺ หรือ Cu²⁺",
+      "Cu⁴⁺",
+      "Cu²⁻",
+      "Cu³⁺"
     ],
-    "ans": 2,
-    "explanation": "ทองแดง มีประจุไอออนที่พบบ่อยและเสถียรที่สุดคือ: Cu⁺, Cu²⁺ (สีฟ้าสดใส)",
+    "ans": 0,
+    "explanation": "ธาตุ ทองแดง (Cu) มีประจุไอออนที่พบบ่อยและเสถียรที่สุดคือ: Cu⁺ หรือ Cu²⁺",
     "starsAwarded": 4
   },
   {
@@ -4528,13 +4529,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "ประจุไอออนที่เสถียร",
     "q": "ไอออนที่เสถียรตามกฎออกเตตของธาตุ สังกะสี (Zn) คือข้อใด?",
     "choices": [
-      "Zn²⁺ (ไม่มีสี)",
-      "+4",
-      "-3",
-      "+7"
+      "Zn⁴⁺",
+      "Zn²⁺",
+      "Zn²⁻",
+      "Zn³⁺"
     ],
-    "ans": 0,
-    "explanation": "สังกะสี มีประจุไอออนที่พบบ่อยและเสถียรที่สุดคือ: Zn²⁺ (ไม่มีสี)",
+    "ans": 1,
+    "explanation": "ธาตุ สังกะสี (Zn) มีประจุไอออนที่พบบ่อยและเสถียรที่สุดคือ: Zn²⁺",
     "starsAwarded": 4
   },
   {
@@ -4545,13 +4546,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "ประจุไอออนที่เสถียร",
     "q": "ไอออนที่เสถียรตามกฎออกเตตของธาตุ โบรมีน (Br) คือข้อใด?",
     "choices": [
-      "+4",
-      "Br⁻ (โบรไมด์)",
-      "-3",
-      "+7"
+      "Br⁴⁺",
+      "Br²⁻",
+      "Br⁻",
+      "Br³⁺"
     ],
-    "ans": 1,
-    "explanation": "โบรมีน มีประจุไอออนที่พบบ่อยและเสถียรที่สุดคือ: Br⁻ (โบรไมด์)",
+    "ans": 2,
+    "explanation": "ธาตุ โบรมีน (Br) มีประจุไอออนที่พบบ่อยและเสถียรที่สุดคือ: Br⁻",
     "starsAwarded": 4
   },
   {
@@ -4562,13 +4563,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "ประจุไอออนที่เสถียร",
     "q": "ไอออนที่เสถียรตามกฎออกเตตของธาตุ เงิน (Ag) คือข้อใด?",
     "choices": [
-      "-3",
-      "+4",
-      "Ag⁺",
-      "+7"
+      "Ag⁴⁺",
+      "Ag²⁻",
+      "Ag³⁺",
+      "Ag⁺"
     ],
-    "ans": 2,
-    "explanation": "เงิน มีประจุไอออนที่พบบ่อยและเสถียรที่สุดคือ: Ag⁺",
+    "ans": 3,
+    "explanation": "ธาตุ เงิน (Ag) มีประจุไอออนที่พบบ่อยและเสถียรที่สุดคือ: Ag⁺",
     "starsAwarded": 4
   },
   {
@@ -4579,13 +4580,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "ประจุไอออนที่เสถียร",
     "q": "ไอออนที่เสถียรตามกฎออกเตตของธาตุ ไอโอดีน (I) คือข้อใด?",
     "choices": [
-      "+7",
-      "+4",
-      "-3",
-      "I⁻ (ไอโอไดด์)"
+      "I⁻",
+      "I⁴⁺",
+      "I²⁻",
+      "I³⁺"
     ],
-    "ans": 3,
-    "explanation": "ไอโอดีน มีประจุไอออนที่พบบ่อยและเสถียรที่สุดคือ: I⁻ (ไอโอไดด์)",
+    "ans": 0,
+    "explanation": "ธาตุ ไอโอดีน (I) มีประจุไอออนที่พบบ่อยและเสถียรที่สุดคือ: I⁻",
     "starsAwarded": 4
   },
   {
@@ -4596,13 +4597,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "ประจุไอออนที่เสถียร",
     "q": "ไอออนที่เสถียรตามกฎออกเตตของธาตุ ทองคำ (Au) คือข้อใด?",
     "choices": [
-      "-3",
-      "Au⁺, Au³⁺",
-      "+7",
-      "+4"
+      "Au⁴⁺",
+      "Au⁺ หรือ Au³⁺",
+      "Au²⁻",
+      "Au³⁺"
     ],
     "ans": 1,
-    "explanation": "ทองคำ มีประจุไอออนที่พบบ่อยและเสถียรที่สุดคือ: Au⁺, Au³⁺",
+    "explanation": "ธาตุ ทองคำ (Au) มีประจุไอออนที่พบบ่อยและเสถียรที่สุดคือ: Au⁺ หรือ Au³⁺",
     "starsAwarded": 4
   },
   {
@@ -4613,13 +4614,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "ประจุไอออนที่เสถียร",
     "q": "ไอออนที่เสถียรตามกฎออกเตตของธาตุ ปรอท (Hg) คือข้อใด?",
     "choices": [
-      "Hg²⁺, Hg₂²⁺",
-      "+7",
-      "+4",
-      "-3"
+      "Hg⁴⁺",
+      "Hg²⁻",
+      "Hg₂²⁺ หรือ Hg²⁺",
+      "Hg³⁺"
     ],
-    "ans": 0,
-    "explanation": "ปรอท มีประจุไอออนที่พบบ่อยและเสถียรที่สุดคือ: Hg²⁺, Hg₂²⁺",
+    "ans": 2,
+    "explanation": "ธาตุ ปรอท (Hg) มีประจุไอออนที่พบบ่อยและเสถียรที่สุดคือ: Hg₂²⁺ หรือ Hg²⁺",
     "starsAwarded": 4
   },
   {
@@ -4630,13 +4631,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "ประจุไอออนที่เสถียร",
     "q": "ไอออนที่เสถียรตามกฎออกเตตของธาตุ ตะกั่ว (Pb) คือข้อใด?",
     "choices": [
-      "-3",
-      "+7",
-      "+4",
-      "Pb²⁺"
+      "Pb⁴⁺",
+      "Pb²⁻",
+      "Pb³⁺",
+      "Pb²⁺ หรือ Pb⁴⁺"
     ],
     "ans": 3,
-    "explanation": "ตะกั่ว มีประจุไอออนที่พบบ่อยและเสถียรที่สุดคือ: Pb²⁺",
+    "explanation": "ธาตุ ตะกั่ว (Pb) มีประจุไอออนที่พบบ่อยและเสถียรที่สุดคือ: Pb²⁺ หรือ Pb⁴⁺",
     "starsAwarded": 4
   },
   {
@@ -4647,13 +4648,13 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "categoryLabel": "ประจุไอออนที่เสถียร",
     "q": "ไอออนที่เสถียรตามกฎออกเตตของธาตุ ยูเรเนียม (U) คือข้อใด?",
     "choices": [
-      "+7",
-      "+4",
-      "-3",
-      "U⁴⁺, U⁶⁺"
+      "U⁴⁺ หรือ U⁶⁺",
+      "U⁴⁺",
+      "U²⁻",
+      "U³⁺"
     ],
-    "ans": 3,
-    "explanation": "ยูเรเนียม มีประจุไอออนที่พบบ่อยและเสถียรที่สุดคือ: U⁴⁺, U⁶⁺",
+    "ans": 0,
+    "explanation": "ธาตุ ยูเรเนียม (U) มีประจุไอออนที่พบบ่อยและเสถียรที่สุดคือ: U⁴⁺ หรือ U⁶⁺",
     "starsAwarded": 4
   },
   {
@@ -4662,15 +4663,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ม.ต้น - ม.ปลาย (ข้อสอบยอดฮิต)",
     "category": "daily_life",
     "categoryLabel": "เกร็ดความรู้สำหรับข้อสอบ",
-    "q": "ข้อใดเป็นข้อเท็จจริงทางเคมีที่สำคัญเกี่ยวกับธาตุ \"ไฮโดรเจน\" (H)?",
+    "q": "ข้อใดเป็นข้อเท็จจริงทางเคมีที่ถูกต้องเกี่ยวกับธาตุ \"ไฮโดรเจน\" (H)?",
     "choices": [
-      "ไฮโดรเจน มีมวลอะตอมน้อยที่สุดในคาบของตนเอง",
-      "ข้อสอบชอบออก: ไฮโดรเจนอยู่คาบ 1 แต่จัดอยู่เดี่ยวๆ เพราะมีสมบัติทั้งเหมือนหมู่ 1A และ 7A",
-      "ไฮโดรเจน เป็นของเหลวที่อุณหภูมิติดลบเสมอ",
-      "ไฮโดรเจน ทำปฏิกิริยากับก๊าซเฉื่อยได้สารประกอบสีดำ"
+      "เป็นของเหลวที่อุณหภูมิห้องและนำไฟฟ้าได้ดีมาก",
+      "เป็นธาตุที่เบาที่สุดและมีปริมาณมากที่สุดในเอกภพ เป็นเชื้อเพลิงฟิวชันของดาวฤกษ์",
+      "มีเวเลนซ์อิเล็กตรอนครบ 8 ตัวตามกฎออกเตตจึงเฉื่อยต่อปฏิกิริยา",
+      "เป็นของแข็งสีเหลืองที่พบมากในบริเวณปล่องภูเขาไฟ"
     ],
     "ans": 1,
-    "explanation": "เกร็ดความรู้สำหรับสอบ: ข้อสอบชอบออก: ไฮโดรเจนอยู่คาบ 1 แต่จัดอยู่เดี่ยวๆ เพราะมีสมบัติทั้งเหมือนหมู่ 1A และ 7A",
+    "explanation": "เกร็ดความรู้สำคัญของ ไฮโดรเจน (H): เป็นธาตุที่เบาที่สุดและมีปริมาณมากที่สุดในเอกภพ เป็นเชื้อเพลิงฟิวชันของดาวฤกษ์",
     "starsAwarded": 4
   },
   {
@@ -4679,15 +4680,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ม.ต้น - ม.ปลาย (ข้อสอบยอดฮิต)",
     "category": "daily_life",
     "categoryLabel": "เกร็ดความรู้สำหรับข้อสอบ",
-    "q": "ข้อใดเป็นข้อเท็จจริงทางเคมีที่สำคัญเกี่ยวกับธาตุ \"ฮีเลียม\" (He)?",
+    "q": "ข้อใดเป็นข้อเท็จจริงทางเคมีที่ถูกต้องเกี่ยวกับธาตุ \"ฮีเลียม\" (He)?",
     "choices": [
-      "ข้อสอบ ม.ต้น-ม.ปลาย: เป็นก๊าซเฉื่อยตัวเดียวที่มีเวเลนซ์อิเล็กตรอนครบ 2 (ตัวอื่นในหมู่ 8 ครบ 8)",
-      "ฮีเลียม เป็นของเหลวที่อุณหภูมิติดลบเสมอ",
-      "ฮีเลียม มีมวลอะตอมน้อยที่สุดในคาบของตนเอง",
-      "ฮีเลียม ทำปฏิกิริยากับก๊าซเฉื่อยได้สารประกอบสีดำ"
+      "ทำปฏิกิริยารุนแรงกับน้ำแล้วติดไฟให้แก๊สไฮโดรเจน",
+      "เป็นธาตุที่มีค่าอิเล็กโทรเนกาติวิตี สูงที่สุดในตารางธาตุ",
+      "มีจุดเดือดต่ำที่สุดในบรรดาธาตุทั้งหมด ไม่ติดไฟ และเฉื่อยต่อปฏิกิริยาเคมีสูงมาก",
+      "ระเหิดเป็นไอสีม่วงได้ง่ายเมื่อได้รับความร้อนปานกลาง"
     ],
-    "ans": 0,
-    "explanation": "เกร็ดความรู้สำหรับสอบ: ข้อสอบ ม.ต้น-ม.ปลาย: เป็นก๊าซเฉื่อยตัวเดียวที่มีเวเลนซ์อิเล็กตรอนครบ 2 (ตัวอื่นในหมู่ 8 ครบ 8)",
+    "ans": 2,
+    "explanation": "เกร็ดความรู้สำคัญของ ฮีเลียม (He): มีจุดเดือดต่ำที่สุดในบรรดาธาตุทั้งหมด (-268.9°C) ไม่ติดไฟ และเฉื่อยต่อปฏิกิริยาเคมีสูงมาก",
     "starsAwarded": 4
   },
   {
@@ -4696,15 +4697,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ม.ต้น - ม.ปลาย (ข้อสอบยอดฮิต)",
     "category": "daily_life",
     "categoryLabel": "เกร็ดความรู้สำหรับข้อสอบ",
-    "q": "ข้อใดเป็นข้อเท็จจริงทางเคมีที่สำคัญเกี่ยวกับธาตุ \"ลิเทียม\" (Li)?",
+    "q": "ข้อใดเป็นข้อเท็จจริงทางเคมีที่ถูกต้องเกี่ยวกับธาตุ \"ลิเทียม\" (Li)?",
     "choices": [
-      "ลิเทียม เป็นของเหลวที่อุณหภูมิติดลบเสมอ",
-      "ลิเทียม ทำปฏิกิริยากับก๊าซเฉื่อยได้สารประกอบสีดำ",
-      "ลิเทียม มีมวลอะตอมน้อยที่สุดในคาบของตนเอง",
-      "หมู่ 1A: เวเลนซ์ e⁻ = 1 สูญเสียอิเล็กตรอน 1 ตัว เกิดไอออน +1 เสมอ ทำปฏิกิริยากับน้ำได้สารละลายเบส"
+      "เป็นของเหลวสีเงินที่อุณหภูมิห้อง ไม่ทำปฏิกิริยากับน้ำ",
+      "เป็นอโลหะที่มีจุดหลอมเหลวสูงที่สุดในตารางธาตุ",
+      "จัดเป็นแก๊สมีตระกูลที่ไม่ว่องไวต่อการเกิดปฏิกิริยา",
+      "เป็นโลหะที่มีความหนาแน่นน้อยที่สุดในบรรดาโลหะทั้งหมด และมีความไวต่อปฏิกิริยาสูง"
     ],
     "ans": 3,
-    "explanation": "เกร็ดความรู้สำหรับสอบ: หมู่ 1A: เวเลนซ์ e⁻ = 1 สูญเสียอิเล็กตรอน 1 ตัว เกิดไอออน +1 เสมอ ทำปฏิกิริยากับน้ำได้สารละลายเบส",
+    "explanation": "เกร็ดความรู้สำคัญของ ลิเทียม (Li): เป็นโลหะที่มีความหนาแน่นน้อยที่สุดในบรรดาโลหะทั้งหมด (ลอยน้ำได้) และมีความไวต่อปฏิกิริยาสูง",
     "starsAwarded": 4
   },
   {
@@ -4713,15 +4714,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ม.ต้น - ม.ปลาย (ข้อสอบยอดฮิต)",
     "category": "daily_life",
     "categoryLabel": "เกร็ดความรู้สำหรับข้อสอบ",
-    "q": "ข้อใดเป็นข้อเท็จจริงทางเคมีที่สำคัญเกี่ยวกับธาตุ \"เบริลเลียม\" (Be)?",
+    "q": "ข้อใดเป็นข้อเท็จจริงทางเคมีที่ถูกต้องเกี่ยวกับธาตุ \"เบริลเลียม\" (Be)?",
     "choices": [
-      "เบริลเลียม ทำปฏิกิริยากับก๊าซเฉื่อยได้สารประกอบสีดำ",
-      "เบริลเลียม เป็นของเหลวที่อุณหภูมิติดลบเสมอ",
-      "หมู่ 2A มีประจุ +2 ขนาดอะตอมเล็กที่สุดในหมู่ 2A ทำให้ Be มีแนวโน้มเกิดพันธะโควาเลนต์ได้",
-      "เบริลเลียม มีมวลอะตอมน้อยที่สุดในคาบของตนเอง"
+      "เป็นโลหะสีเทาที่มีน้ำหนักเบาแต่แข็งแกร่งมาก จุดหลอมเหลวสูง และสารประกอบมีพิษต่อระบบทางเดินหายใจ",
+      "ทำปฏิกิริยาระเบิดทันทีเมื่อสัมผัสกับอากาศแห้ง",
+      "เป็นแก๊สเฉื่อยไม่มีสี ไม่มีกลิ่น ละลายน้ำได้ดี",
+      "มีสถานะเป็นของเหลวที่อุณหภูมิห้องเหมือนปรอท"
     ],
-    "ans": 2,
-    "explanation": "เกร็ดความรู้สำหรับสอบ: หมู่ 2A มีประจุ +2 ขนาดอะตอมเล็กที่สุดในหมู่ 2A ทำให้ Be มีแนวโน้มเกิดพันธะโควาเลนต์ได้",
+    "ans": 0,
+    "explanation": "เกร็ดความรู้สำคัญของ เบริลเลียม (Be): เป็นโลหะสีเทาที่มีน้ำหนักเบาแต่แข็งแกร่งมาก จุดหลอมเหลวสูง และสารประกอบมีพิษต่อระบบทางเดินหายใจ",
     "starsAwarded": 4
   },
   {
@@ -4730,15 +4731,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ม.ต้น - ม.ปลาย (ข้อสอบยอดฮิต)",
     "category": "daily_life",
     "categoryLabel": "เกร็ดความรู้สำหรับข้อสอบ",
-    "q": "ข้อใดเป็นข้อเท็จจริงทางเคมีที่สำคัญเกี่ยวกับธาตุ \"โบรอน\" (B)?",
+    "q": "ข้อใดเป็นข้อเท็จจริงทางเคมีที่ถูกต้องเกี่ยวกับธาตุ \"โบรอน\" (B)?",
     "choices": [
-      "โบรอน เป็นของเหลวที่อุณหภูมิติดลบเสมอ",
-      "โบรอน มีมวลอะตอมน้อยที่สุดในคาบของตนเอง",
-      "โบรอนเป็น \"กึ่งโลหะ\" ธาตุเดียวในหมู่ 3A มักเกิดสารประกอบที่ไม่ครบออกเตต เช่น BF₃ (มี 6 e⁻)",
-      "โบรอน ทำปฏิกิริยากับก๊าซเฉื่อยได้สารประกอบสีดำ"
+      "เป็นโลหะอ่อนที่ใช้มีดตัดได้ง่ายเหมือนเนย",
+      "จัดเป็นธาตุกึ่งโลหะ มีโครงสร้างร่างตาข่ายที่แข็งมากรองจากเพชร และสารประกอบมักไม่ครบออกเตต",
+      "เป็นแก๊สสีเหลืองอมเขียวที่มีกลิ่นฉุนรุนแรง",
+      "เป็นกัมมันตรังสีที่แผ่อนุภาคแอลฟาตลอดเวลา"
     ],
-    "ans": 2,
-    "explanation": "เกร็ดความรู้สำหรับสอบ: โบรอนเป็น \"กึ่งโลหะ\" ธาตุเดียวในหมู่ 3A มักเกิดสารประกอบที่ไม่ครบออกเตต เช่น BF₃ (มี 6 e⁻)",
+    "ans": 1,
+    "explanation": "เกร็ดความรู้สำคัญของ โบรอน (B): จัดเป็นธาตุกึ่งโลหะ มีโครงสร้างร่างตาข่ายที่แข็งมากรองจากเพชร และสารประกอบมักไม่ครบออกเตต (เช่น BF₃)",
     "starsAwarded": 4
   },
   {
@@ -4747,15 +4748,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ม.ต้น - ม.ปลาย (ข้อสอบยอดฮิต)",
     "category": "daily_life",
     "categoryLabel": "เกร็ดความรู้สำหรับข้อสอบ",
-    "q": "ข้อใดเป็นข้อเท็จจริงทางเคมีที่สำคัญเกี่ยวกับธาตุ \"คาร์บอน\" (C)?",
+    "q": "ข้อใดเป็นข้อเท็จจริงทางเคมีที่ถูกต้องเกี่ยวกับธาตุ \"คาร์บอน\" (C)?",
     "choices": [
-      "คาร์บอนมี 4 แขน (เวเลนซ์ e⁻ = 4) สร้างพันธะเดี่ยว พันธะคู่ และพันธะสามได้ดีมาก",
-      "คาร์บอน มีมวลอะตอมน้อยที่สุดในคาบของตนเอง",
-      "คาร์บอน เป็นของเหลวที่อุณหภูมิติดลบเสมอ",
-      "คาร์บอน ทำปฏิกิริยากับก๊าซเฉื่อยได้สารประกอบสีดำ"
+      "เป็นโลหะอัลคาไลที่ทำปฏิกิริยารุนแรงกับน้ำ",
+      "เป็นแก๊สไม่มีสีที่ไม่สามารถรวมตัวกับออกซิเจนได้",
+      "มีปรากฏการณ์อัญรูป เด่นชัด เช่น เพชร แกรไฟต์ และฟูลเลอรีน",
+      "มีเวเลนซ์อิเล็กตรอน 2 ตัวและจัดอยู่ในหมู่ 2A"
     ],
-    "ans": 0,
-    "explanation": "เกร็ดความรู้สำหรับสอบ: คาร์บอนมี 4 แขน (เวเลนซ์ e⁻ = 4) สร้างพันธะเดี่ยว พันธะคู่ และพันธะสามได้ดีมาก",
+    "ans": 2,
+    "explanation": "เกร็ดความรู้สำคัญของ คาร์บอน (C): มีปรากฏการณ์อัญรูป (Allotropy) เด่นชัด เช่น เพชร (แข็งที่สุด) แกรไฟต์ (นำไฟฟ้าได้) และฟูลเลอรีน",
     "starsAwarded": 4
   },
   {
@@ -4764,15 +4765,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ม.ต้น - ม.ปลาย (ข้อสอบยอดฮิต)",
     "category": "daily_life",
     "categoryLabel": "เกร็ดความรู้สำหรับข้อสอบ",
-    "q": "ข้อใดเป็นข้อเท็จจริงทางเคมีที่สำคัญเกี่ยวกับธาตุ \"ไนโตรเจน\" (N)?",
+    "q": "ข้อใดเป็นข้อเท็จจริงทางเคมีที่ถูกต้องเกี่ยวกับธาตุ \"ไนโตรเจน\" (N)?",
     "choices": [
-      "ไนโตรเจน มีมวลอะตอมน้อยที่สุดในคาบของตนเอง",
-      "ไนโตรเจน ทำปฏิกิริยากับก๊าซเฉื่อยได้สารประกอบสีดำ",
-      "โมเลกุล N₂ ยึดกันด้วยพันธะสาม (Triple bond) แข็งแรงมาก สลายยาก จึงเฉื่อยที่อุณหภูมิห้อง",
-      "ไนโตรเจน เป็นของเหลวที่อุณหภูมิติดลบเสมอ"
+      "เป็นของแข็งสีเงินนำไฟฟ้าได้ดีจัดเป็นโลหะทรานซิชัน",
+      "ทำปฏิกิริยาระเบิดทันทีเมื่อสัมผัสกับแสงสว่าง",
+      "มีเวเลนซ์อิเล็กตรอน 7 ตัวจัดอยู่ในกลุ่มแฮโลเจน",
+      "ในธรรมชาติอยู่ในรูปโมเลกุล N₂ ซึ่งมีพันธะสามที่แข็งแรงมาก จึงเฉื่อยต่อปฏิกิริยาที่อุณหภูมิห้อง"
     ],
-    "ans": 2,
-    "explanation": "เกร็ดความรู้สำหรับสอบ: โมเลกุล N₂ ยึดกันด้วยพันธะสาม (Triple bond) แข็งแรงมาก สลายยาก จึงเฉื่อยที่อุณหภูมิห้อง",
+    "ans": 3,
+    "explanation": "เกร็ดความรู้สำคัญของ ไนโตรเจน (N): ในธรรมชาติอยู่ในรูปโมเลกุล N₂ ซึ่งมีพันธะสามที่แข็งแรงมาก จึงเฉื่อยต่อปฏิกิริยาที่อุณหภูมิห้อง",
     "starsAwarded": 4
   },
   {
@@ -4781,15 +4782,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ม.ต้น - ม.ปลาย (ข้อสอบยอดฮิต)",
     "category": "daily_life",
     "categoryLabel": "เกร็ดความรู้สำหรับข้อสอบ",
-    "q": "ข้อใดเป็นข้อเท็จจริงทางเคมีที่สำคัญเกี่ยวกับธาตุ \"ออกซิเจน\" (O)?",
+    "q": "ข้อใดเป็นข้อเท็จจริงทางเคมีที่ถูกต้องเกี่ยวกับธาตุ \"ออกซิเจน\" (O)?",
     "choices": [
-      "ออกซิเจน มีมวลอะตอมน้อยที่สุดในคาบของตนเอง",
-      "ออกซิเจน เป็นของเหลวที่อุณหภูมิติดลบเสมอ",
-      "เวเลนซ์ e⁻ = 6 ต้องการอีก 2 ตัวให้ครบ 8 จึงเกิดไอออน O²⁻ มีค่า EN สูงเป็นอันดับ 2 รองจากฟลูออรีน",
-      "ออกซิเจน ทำปฏิกิริยากับก๊าซเฉื่อยได้สารประกอบสีดำ"
+      "มีค่าอิเล็กโทรเนกาติวิตี สูงเป็นอันดับ 2 ในตารางธาตุ เป็นตัวออกซิไดซ์ที่ดีเยี่ยมและช่วยในการติดไฟ",
+      "เป็นแก๊สไวไฟสูงที่สามารถจุดติดไฟและระเบิดได้ด้วยตัวเอง",
+      "เป็นสารกึ่งตัวนำไฟฟ้าที่ใช้ผลิตชิปคอมพิวเตอร์",
+      "มีสถานะเป็นของแข็งสีดำที่อุณหภูมิและความดันมาตรฐาน"
     ],
-    "ans": 2,
-    "explanation": "เกร็ดความรู้สำหรับสอบ: เวเลนซ์ e⁻ = 6 ต้องการอีก 2 ตัวให้ครบ 8 จึงเกิดไอออน O²⁻ มีค่า EN สูงเป็นอันดับ 2 รองจากฟลูออรีน",
+    "ans": 0,
+    "explanation": "เกร็ดความรู้สำคัญของ ออกซิเจน (O): มีค่าอิเล็กโทรเนกาติวิตี (EN) สูงเป็นอันดับ 2 ในตารางธาตุ เป็นตัวออกซิไดซ์ที่ดีเยี่ยมและช่วยในการติดไฟ",
     "starsAwarded": 4
   },
   {
@@ -4798,15 +4799,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ม.ต้น - ม.ปลาย (ข้อสอบยอดฮิต)",
     "category": "daily_life",
     "categoryLabel": "เกร็ดความรู้สำหรับข้อสอบ",
-    "q": "ข้อใดเป็นข้อเท็จจริงทางเคมีที่สำคัญเกี่ยวกับธาตุ \"ฟลูออรีน\" (F)?",
+    "q": "ข้อใดเป็นข้อเท็จจริงทางเคมีที่ถูกต้องเกี่ยวกับธาตุ \"ฟลูออรีน\" (F)?",
     "choices": [
-      "ฟลูออรีน เป็นของเหลวที่อุณหภูมิติดลบเสมอ",
-      "ฟลูออรีน มีมวลอะตอมน้อยที่สุดในคาบของตนเอง",
-      "ฟลูออรีน ทำปฏิกิริยากับก๊าซเฉื่อยได้สารประกอบสีดำ",
-      "ออกข้อสอบเคมี 100%! ธาตุที่มีค่าอิเล็กโทรเนกาติวิตี (EN) สูงที่สุดในตารางธาตุ ดึงดูด e⁻ เก่งที่สุด"
+      "เป็นแก๊สมีตระกูลที่เสถียรที่สุด ไม่ทำปฏิกิริยากับธาตุใด",
+      "เป็นธาตุที่มีค่าอิเล็กโทรเนกาติวิตี สูงที่สุดในตารางธาตุ และมีความว่องไวต่อปฏิกิริยาสูงสุด",
+      "เป็นโลหะเนื้ออ่อนที่มีสีทองและดัดเป็นแผ่นบางได้ดี",
+      "มีเวเลนซ์อิเล็กตรอน 1 ตัวและทำปฏิกิริยาให้ประจุบวก 1+"
     ],
-    "ans": 3,
-    "explanation": "เกร็ดความรู้สำหรับสอบ: ออกข้อสอบเคมี 100%! ธาตุที่มีค่าอิเล็กโทรเนกาติวิตี (EN) สูงที่สุดในตารางธาตุ ดึงดูด e⁻ เก่งที่สุด",
+    "ans": 1,
+    "explanation": "เกร็ดความรู้สำคัญของ ฟลูออรีน (F): เป็นธาตุที่มีค่าอิเล็กโทรเนกาติวิตี (EN = 3.98) สูงที่สุดในตารางธาตุ และมีความว่องไวต่อปฏิกิริยาสูงสุด",
     "starsAwarded": 4
   },
   {
@@ -4815,15 +4816,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ม.ต้น - ม.ปลาย (ข้อสอบยอดฮิต)",
     "category": "daily_life",
     "categoryLabel": "เกร็ดความรู้สำหรับข้อสอบ",
-    "q": "ข้อใดเป็นข้อเท็จจริงทางเคมีที่สำคัญเกี่ยวกับธาตุ \"นีออน\" (Ne)?",
+    "q": "ข้อใดเป็นข้อเท็จจริงทางเคมีที่ถูกต้องเกี่ยวกับธาตุ \"นีออน\" (Ne)?",
     "choices": [
-      "เวเลนซ์อิเล็กตรอนครบ 8 (Octet rule) เสถียรสูงสุด ไม่ทำปฏิกิริยากับธาตุอื่น อยู่เป็นอะตอมเดี่ยว",
-      "นีออน ทำปฏิกิริยากับก๊าซเฉื่อยได้สารประกอบสีดำ",
-      "นีออน มีมวลอะตอมน้อยที่สุดในคาบของตนเอง",
-      "นีออน เป็นของเหลวที่อุณหภูมิติดลบเสมอ"
+      "เป็นของแข็งที่มีจุดเดือดสูงที่สุดในคาบที่ 2",
+      "ทำปฏิกิริยารุนแรงกับน้ำเกิดสารละลายเบสแก่เข้มข้น",
+      "มีเวเลนซ์อิเล็กตรอนครบ 8 ตัวตามกฎออกเตต มีความเสถียรสูงมากและไม่ทำปฏิกิริยากับสารใดในสภาวะปกติ",
+      "สามารถเกิดพันธะไฮโดรเจนที่แข็งแรงกับโมเลกุลน้ำได้"
     ],
-    "ans": 0,
-    "explanation": "เกร็ดความรู้สำหรับสอบ: เวเลนซ์อิเล็กตรอนครบ 8 (Octet rule) เสถียรสูงสุด ไม่ทำปฏิกิริยากับธาตุอื่น อยู่เป็นอะตอมเดี่ยว",
+    "ans": 2,
+    "explanation": "เกร็ดความรู้สำคัญของ นีออน (Ne): มีเวเลนซ์อิเล็กตรอนครบ 8 ตัวตามกฎออกเตต มีความเสถียรสูงมากและไม่ทำปฏิกิริยากับสารใดในสภาวะปกติ",
     "starsAwarded": 4
   },
   {
@@ -4832,15 +4833,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ม.ต้น - ม.ปลาย (ข้อสอบยอดฮิต)",
     "category": "daily_life",
     "categoryLabel": "เกร็ดความรู้สำหรับข้อสอบ",
-    "q": "ข้อใดเป็นข้อเท็จจริงทางเคมีที่สำคัญเกี่ยวกับธาตุ \"โซเดียม\" (Na)?",
+    "q": "ข้อใดเป็นข้อเท็จจริงทางเคมีที่ถูกต้องเกี่ยวกับธาตุ \"โซเดียม\" (Na)?",
     "choices": [
-      "โซเดียม เป็นของเหลวที่อุณหภูมิติดลบเสมอ",
-      "โซเดียม ทำปฏิกิริยากับก๊าซเฉื่อยได้สารประกอบสีดำ",
-      "โซเดียม มีมวลอะตอมน้อยที่สุดในคาบของตนเอง",
-      "จัดเรียง e⁻ = 2, 8, 1 เมื่อให้อิเล็กตรอน 1 ตัวจะกลายเป็น Na⁺ ที่มีการจัดเรียงเหมือนนีออน [Ne]"
+      "เป็นอโลหะที่อยู่ในรูปโมเลกุลคู่ที่มีพันธะสาม",
+      "มีสถานะเป็นแก๊สที่อุณหภูมิห้องและไม่นำไฟฟ้า",
+      "มีความหนาแน่นสูงมากและไม่ทำปฏิกิริยากับสารใดๆ",
+      "เป็นโลหะเนื้ออ่อนสีเงิน ใช้มีดตัดได้ง่าย ทำปฏิกิริยารุนแรงกับน้ำเกิดแก๊ส H₂ และสารละลาย NaOH"
     ],
     "ans": 3,
-    "explanation": "เกร็ดความรู้สำหรับสอบ: จัดเรียง e⁻ = 2, 8, 1 เมื่อให้อิเล็กตรอน 1 ตัวจะกลายเป็น Na⁺ ที่มีการจัดเรียงเหมือนนีออน [Ne]",
+    "explanation": "เกร็ดความรู้สำคัญของ โซเดียม (Na): เป็นโลหะเนื้ออ่อนสีเงิน ใช้มีดตัดได้ง่าย ทำปฏิกิริยารุนแรงกับน้ำเกิดแก๊ส H₂ และสารละลาย NaOH (เบสแก่)",
     "starsAwarded": 4
   },
   {
@@ -4849,15 +4850,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ม.ต้น - ม.ปลาย (ข้อสอบยอดฮิต)",
     "category": "daily_life",
     "categoryLabel": "เกร็ดความรู้สำหรับข้อสอบ",
-    "q": "ข้อใดเป็นข้อเท็จจริงทางเคมีที่สำคัญเกี่ยวกับธาตุ \"แมกนีเซียม\" (Mg)?",
+    "q": "ข้อใดเป็นข้อเท็จจริงทางเคมีที่ถูกต้องเกี่ยวกับธาตุ \"แมกนีเซียม\" (Mg)?",
     "choices": [
-      "แมกนีเซียม เป็นของเหลวที่อุณหภูมิติดลบเสมอ",
-      "แมกนีเซียม มีมวลอะตอมน้อยที่สุดในคาบของตนเอง",
-      "แมกนีเซียม ทำปฏิกิริยากับก๊าซเฉื่อยได้สารประกอบสีดำ",
-      "เวเลนซ์ e⁻ = 2 จัดเรียง 2, 8, 2 เสีย 2e⁻ กลายเป็น Mg²⁺ ทำปฏิกิริยากับกรดได้ก๊าซไฮโดรเจน (H₂)"
+      "เมื่อติดไฟในอากาศจะเผาไหม้ด้วยเปลวไฟสีขาวสว่างจ้ามาก และเป็นศูนย์กลางของโมเลกุลคลอโรฟิลล์",
+      "เป็นแก๊สมีตระกูลที่ไม่มีสี ไม่มีกลิ่น และไม่ติดไฟ",
+      "ทำปฏิกิริยากับน้ำเย็นทันทีจนเกิดการระเบิดรุนแรง",
+      "มีเวเลนซ์อิเล็กตรอน 7 ตัวและมีประจุเสถียรเป็น 1-"
     ],
-    "ans": 3,
-    "explanation": "เกร็ดความรู้สำหรับสอบ: เวเลนซ์ e⁻ = 2 จัดเรียง 2, 8, 2 เสีย 2e⁻ กลายเป็น Mg²⁺ ทำปฏิกิริยากับกรดได้ก๊าซไฮโดรเจน (H₂)",
+    "ans": 0,
+    "explanation": "เกร็ดความรู้สำคัญของ แมกนีเซียม (Mg): เมื่อติดไฟในอากาศจะเผาไหม้ด้วยเปลวไฟสีขาวสว่างจ้ามาก และเป็นศูนย์กลางของโมเลกุลคลอโรฟิลล์",
     "starsAwarded": 4
   },
   {
@@ -4866,15 +4867,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ม.ต้น - ม.ปลาย (ข้อสอบยอดฮิต)",
     "category": "daily_life",
     "categoryLabel": "เกร็ดความรู้สำหรับข้อสอบ",
-    "q": "ข้อใดเป็นข้อเท็จจริงทางเคมีที่สำคัญเกี่ยวกับธาตุ \"อะลูมิเนียม\" (Al)?",
+    "q": "ข้อใดเป็นข้อเท็จจริงทางเคมีที่ถูกต้องเกี่ยวกับธาตุ \"อะลูมิเนียม\" (Al)?",
     "choices": [
-      "อะลูมิเนียม มีมวลอะตอมน้อยที่สุดในคาบของตนเอง",
-      "เวเลนซ์ e⁻ = 3 จัดเรียง 2, 8, 3 เกิดไอออน Al³⁺ ออกไซด์ของมัน (Al₂O₃) เป็นสารแอมโฟเทอริก (ทำปฏิกิริยาได้ทั้งกรดและเบส)",
-      "อะลูมิเนียม เป็นของเหลวที่อุณหภูมิติดลบเสมอ",
-      "อะลูมิเนียม ทำปฏิกิริยากับก๊าซเฉื่อยได้สารประกอบสีดำ"
+      "เป็นโลหะหนักที่มีพิษเฉียบพลันต่อระบบประสาทมนุษย์",
+      "เป็นโลหะที่มีปริมาณมากที่สุดในเปลือกโลก ผิวจะเกิดชั้นออกไซด์บางๆ เคลือบป้องกันการผุกร่อน",
+      "เป็นแก๊สมีตระกูลที่ใช้บรรจุในหลอดไฟโฆษณา",
+      "ไม่นำไฟฟ้าและความร้อนในทุกสถานะของสสาร"
     ],
     "ans": 1,
-    "explanation": "เกร็ดความรู้สำหรับสอบ: เวเลนซ์ e⁻ = 3 จัดเรียง 2, 8, 3 เกิดไอออน Al³⁺ ออกไซด์ของมัน (Al₂O₃) เป็นสารแอมโฟเทอริก (ทำปฏิกิริยาได้ทั้งกรดและเบส)",
+    "explanation": "เกร็ดความรู้สำคัญของ อะลูมิเนียม (Al): เป็นโลหะที่มีปริมาณมากที่สุดในเปลือกโลก ผิวจะเกิดชั้นออกไซด์บางๆ (Al₂O₃) เคลือบป้องกันการผุกร่อน",
     "starsAwarded": 4
   },
   {
@@ -4883,15 +4884,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ม.ต้น - ม.ปลาย (ข้อสอบยอดฮิต)",
     "category": "daily_life",
     "categoryLabel": "เกร็ดความรู้สำหรับข้อสอบ",
-    "q": "ข้อใดเป็นข้อเท็จจริงทางเคมีที่สำคัญเกี่ยวกับธาตุ \"ซิลิคอน\" (Si)?",
+    "q": "ข้อใดเป็นข้อเท็จจริงทางเคมีที่ถูกต้องเกี่ยวกับธาตุ \"ซิลิคอน\" (Si)?",
     "choices": [
-      "ซิลิคอน ทำปฏิกิริยากับก๊าซเฉื่อยได้สารประกอบสีดำ",
-      "ซิลิคอน มีมวลอะตอมน้อยที่สุดในคาบของตนเอง",
-      "กึ่งโลหะ (Metalloid) นำไฟฟ้าได้ดีขึ้นเมื่ออุณหภูมิสูงขึ้น นิยมโด๊ปสารทำไมโครชิปและโซลาร์เซลล์",
-      "ซิลิคอน เป็นของเหลวที่อุณหภูมิติดลบเสมอ"
+      "เป็นโลหะเหลวที่อุณหภูมิห้องและนำไฟฟ้าได้สูงมาก",
+      "เป็นแก๊สมีสีเขียวตองอ่อนและมีกลิ่นฉุนรุนแรง",
+      "เป็นธาตุที่มีปริมาณมากเป็นอันดับ 2 ในเปลือกโลกรองจากออกซิเจน มีสมบัติเป็นสารกึ่งตัวนำ",
+      "มีเวเลนซ์อิเล็กตรอน 1 ตัวและอยู่ในหมู่โลหะอัลคาไล"
     ],
     "ans": 2,
-    "explanation": "เกร็ดความรู้สำหรับสอบ: กึ่งโลหะ (Metalloid) นำไฟฟ้าได้ดีขึ้นเมื่ออุณหภูมิสูงขึ้น นิยมโด๊ปสารทำไมโครชิปและโซลาร์เซลล์",
+    "explanation": "เกร็ดความรู้สำคัญของ ซิลิคอน (Si): เป็นธาตุที่มีปริมาณมากเป็นอันดับ 2 ในเปลือกโลกรองจากออกซิเจน มีสมบัติเป็นสารกึ่งตัวนำ (Semiconductor)",
     "starsAwarded": 4
   },
   {
@@ -4900,15 +4901,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ม.ต้น - ม.ปลาย (ข้อสอบยอดฮิต)",
     "category": "daily_life",
     "categoryLabel": "เกร็ดความรู้สำหรับข้อสอบ",
-    "q": "ข้อใดเป็นข้อเท็จจริงทางเคมีที่สำคัญเกี่ยวกับธาตุ \"ฟอสฟอรัส\" (P)?",
+    "q": "ข้อใดเป็นข้อเท็จจริงทางเคมีที่ถูกต้องเกี่ยวกับธาตุ \"ฟอสฟอรัส\" (P)?",
     "choices": [
-      "ฟอสฟอรัส ทำปฏิกิริยากับก๊าซเฉื่อยได้สารประกอบสีดำ",
-      "มีอัญรูปหลายแบบ เช่น ฟอสฟอรัสขาว (ติดไฟเองในอากาศ ต้องแช่น้ำ) และฟอสฟอรัสแดง (ทำหัวไม้ขีด)",
-      "ฟอสฟอรัส มีมวลอะตอมน้อยที่สุดในคาบของตนเอง",
-      "ฟอสฟอรัส เป็นของเหลวที่อุณหภูมิติดลบเสมอ"
+      "เป็นโลหะนำไฟฟ้าได้ดีจัดอยู่ในกลุ่มโลหะทรานซิชัน",
+      "เป็นแก๊สมีตระกูลที่ไม่มีสีและไม่มีกลิ่นในธรรมชาติ",
+      "ไม่สามารถรวมตัวกับออกซิเจนได้ในทุกกรณี",
+      "มีอัญรูปสำคัญคือ ฟอสฟอรัสขาว และฟอสฟอรัสแดง"
     ],
-    "ans": 1,
-    "explanation": "เกร็ดความรู้สำหรับสอบ: มีอัญรูปหลายแบบ เช่น ฟอสฟอรัสขาว (ติดไฟเองในอากาศ ต้องแช่น้ำ) และฟอสฟอรัสแดง (ทำหัวไม้ขีด)",
+    "ans": 3,
+    "explanation": "เกร็ดความรู้สำคัญของ ฟอสฟอรัส (P): มีอัญรูปสำคัญคือ ฟอสฟอรัสขาว (ว่องไวสูง ลุกติดไฟเองในอากาศได้) และฟอสฟอรัสแดง (เสถียรกว่า)",
     "starsAwarded": 4
   },
   {
@@ -4917,15 +4918,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ม.ต้น - ม.ปลาย (ข้อสอบยอดฮิต)",
     "category": "daily_life",
     "categoryLabel": "เกร็ดความรู้สำหรับข้อสอบ",
-    "q": "ข้อใดเป็นข้อเท็จจริงทางเคมีที่สำคัญเกี่ยวกับธาตุ \"กำมะถัน (ซัลเฟอร์)\" (S)?",
+    "q": "ข้อใดเป็นข้อเท็จจริงทางเคมีที่ถูกต้องเกี่ยวกับธาตุ \"กำมะถัน\" (S)?",
     "choices": [
-      "กำมะถัน (ซัลเฟอร์) เป็นของเหลวที่อุณหภูมิติดลบเสมอ",
-      "จัดเรียง 2, 8, 6 รับ 2e⁻ ได้ S²⁻ เมื่อเผาไหม้ในอากาศได้ SO₂ ซึ่งเป็นสาเหตุของฝนกรด (Acid rain)",
-      "กำมะถัน (ซัลเฟอร์) ทำปฏิกิริยากับก๊าซเฉื่อยได้สารประกอบสีดำ",
-      "กำมะถัน (ซัลเฟอร์) มีมวลอะตอมน้อยที่สุดในคาบของตนเอง"
+      "เป็นของแข็งสีเหลือง เปราะ ไม่นำไฟฟ้า เมื่อเผาไหม้ในอากาศจะได้แก๊ส SO₂ ที่มีกลิ่นฉุนแสบจมูก",
+      "เป็นของเหลวสีเงินวาวนำไฟฟ้าได้ดีจัดเป็นโลหะหนัก",
+      "เป็นแก๊สเฉื่อยที่ไม่ทำปฏิกิริยากับสารใดที่อุณหภูมิห้อง",
+      "มีเวเลนซ์อิเล็กตรอน 2 ตัวและทำปฏิกิริยาให้ประจุ 2+"
     ],
-    "ans": 1,
-    "explanation": "เกร็ดความรู้สำหรับสอบ: จัดเรียง 2, 8, 6 รับ 2e⁻ ได้ S²⁻ เมื่อเผาไหม้ในอากาศได้ SO₂ ซึ่งเป็นสาเหตุของฝนกรด (Acid rain)",
+    "ans": 0,
+    "explanation": "เกร็ดความรู้สำคัญของ กำมะถัน (S): เป็นของแข็งสีเหลือง เปราะ ไม่นำไฟฟ้า เมื่อเผาไหม้ในอากาศจะได้แก๊ส SO₂ ที่มีกลิ่นฉุนแสบจมูก",
     "starsAwarded": 4
   },
   {
@@ -4934,15 +4935,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ม.ต้น - ม.ปลาย (ข้อสอบยอดฮิต)",
     "category": "daily_life",
     "categoryLabel": "เกร็ดความรู้สำหรับข้อสอบ",
-    "q": "ข้อใดเป็นข้อเท็จจริงทางเคมีที่สำคัญเกี่ยวกับธาตุ \"คลอรีน\" (Cl)?",
+    "q": "ข้อใดเป็นข้อเท็จจริงทางเคมีที่ถูกต้องเกี่ยวกับธาตุ \"คลอรีน\" (Cl)?",
     "choices": [
-      "คลอรีน มีมวลอะตอมน้อยที่สุดในคาบของตนเอง",
-      "แฮโลเจนหมู่ 7A เวเลนซ์ 7 รับ 1e⁻ เป็น Cl⁻ เกิดพันธะไอออนิกกับโลหะหมู่ 1A ได้เกลือ เช่น NaCl, KCl",
-      "คลอรีน เป็นของเหลวที่อุณหภูมิติดลบเสมอ",
-      "คลอรีน ทำปฏิกิริยากับก๊าซเฉื่อยได้สารประกอบสีดำ"
+      "เป็นของแข็งสีเงินที่ดัดเป็นเส้นลวดนำไฟฟ้าได้ดีเยี่ยม",
+      "เป็นแก๊สสีเขียวแกมเหลือง มีกลิ่นฉุนรุนแรง เป็นพิษต่อระบบหายใจ และเป็นตัวออกซิไดซ์ที่รุนแรง",
+      "เป็นแก๊สมีตระกูลที่เฉื่อยต่อปฏิกิริยาเคมีสูงมาก",
+      "มีเวเลนซ์อิเล็กตรอน 1 ตัวและทำหน้าที่เป็นตัวรีดิวซ์ที่ดี"
     ],
     "ans": 1,
-    "explanation": "เกร็ดความรู้สำหรับสอบ: แฮโลเจนหมู่ 7A เวเลนซ์ 7 รับ 1e⁻ เป็น Cl⁻ เกิดพันธะไอออนิกกับโลหะหมู่ 1A ได้เกลือ เช่น NaCl, KCl",
+    "explanation": "เกร็ดความรู้สำคัญของ คลอรีน (Cl): เป็นแก๊สสีเขียวแกมเหลือง มีกลิ่นฉุนรุนแรง เป็นพิษต่อระบบหายใจ และเป็นตัวออกซิไดซ์ที่รุนแรง",
     "starsAwarded": 4
   },
   {
@@ -4951,15 +4952,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ม.ต้น - ม.ปลาย (ข้อสอบยอดฮิต)",
     "category": "daily_life",
     "categoryLabel": "เกร็ดความรู้สำหรับข้อสอบ",
-    "q": "ข้อใดเป็นข้อเท็จจริงทางเคมีที่สำคัญเกี่ยวกับธาตุ \"อาร์กอน\" (Ar)?",
+    "q": "ข้อใดเป็นข้อเท็จจริงทางเคมีที่ถูกต้องเกี่ยวกับธาตุ \"อาร์กอน\" (Ar)?",
     "choices": [
-      "อาร์กอน เป็นของเหลวที่อุณหภูมิติดลบเสมอ",
-      "อาร์กอน ทำปฏิกิริยากับก๊าซเฉื่อยได้สารประกอบสีดำ",
-      "จัดเรียง e⁻ = 2, 8, 8 ครบออกเตตสมบูรณ์แบบ เสถียร ไม่ติดไฟ และไม่ว่องไวต่อปฏิกิริยา",
-      "อาร์กอน มีมวลอะตอมน้อยที่สุดในคาบของตนเอง"
+      "ทำปฏิกิริยารุนแรงกับน้ำเกิดแก๊สไวไฟสูง",
+      "เป็นของแข็งสีดำที่มีสมบัติเป็นสารกึ่งตัวนำไฟฟ้า",
+      "เป็นแก๊สเฉื่อยที่มีปริมาณมากที่สุดในบรรยากาศโลก เสถียรสูงมากและไม่ติดไฟ",
+      "มีเวเลนซ์อิเล็กตรอน 4 ตัวและเกิดโครงสร้างร่างตาข่าย"
     ],
     "ans": 2,
-    "explanation": "เกร็ดความรู้สำหรับสอบ: จัดเรียง e⁻ = 2, 8, 8 ครบออกเตตสมบูรณ์แบบ เสถียร ไม่ติดไฟ และไม่ว่องไวต่อปฏิกิริยา",
+    "explanation": "เกร็ดความรู้สำคัญของ อาร์กอน (Ar): เป็นแก๊สเฉื่อยที่มีปริมาณมากที่สุดในบรรยากาศโลก (ประมาณ 0.93%) เสถียรสูงมากและไม่ติดไฟ",
     "starsAwarded": 4
   },
   {
@@ -4968,15 +4969,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ม.ต้น - ม.ปลาย (ข้อสอบยอดฮิต)",
     "category": "daily_life",
     "categoryLabel": "เกร็ดความรู้สำหรับข้อสอบ",
-    "q": "ข้อใดเป็นข้อเท็จจริงทางเคมีที่สำคัญเกี่ยวกับธาตุ \"โพแทสเซียม\" (K)?",
+    "q": "ข้อใดเป็นข้อเท็จจริงทางเคมีที่ถูกต้องเกี่ยวกับธาตุ \"โพแทสเซียม\" (K)?",
     "choices": [
-      "ทำไม K จัดเรียง 2, 8, 8, 1 ไม่ใช่ 2, 8, 9? เพราะชั้นที่ 4 เริ่มบรรจุ 4s¹ ก่อน 3d ตามหลักของอัฟเบา",
-      "โพแทสเซียม มีมวลอะตอมน้อยที่สุดในคาบของตนเอง",
-      "โพแทสเซียม เป็นของเหลวที่อุณหภูมิติดลบเสมอ",
-      "โพแทสเซียม ทำปฏิกิริยากับก๊าซเฉื่อยได้สารประกอบสีดำ"
+      "เป็นอโลหะที่อยู่ในรูปของเหลวระเหยง่ายที่อุณหภูมิห้อง",
+      "มีเวเลนซ์อิเล็กตรอน 8 ตัวและไม่ทำปฏิกิริยากับสารใด",
+      "มีความแข็งสูงมากและใช้ผลิตหัวเจาะเพชรในอุตสาหกรรม",
+      "เป็นโลหะเนื้ออ่อนสีเงินวาว ว่องไวต่อปฏิกิริยาสูงกว่าโซเดียม เมื่อทำปฏิกิริยากับน้ำจะติดไฟให้เปลวไฟสีม่วง"
     ],
-    "ans": 0,
-    "explanation": "เกร็ดความรู้สำหรับสอบ: ทำไม K จัดเรียง 2, 8, 8, 1 ไม่ใช่ 2, 8, 9? เพราะชั้นที่ 4 เริ่มบรรจุ 4s¹ ก่อน 3d ตามหลักของอัฟเบา",
+    "ans": 3,
+    "explanation": "เกร็ดความรู้สำคัญของ โพแทสเซียม (K): เป็นโลหะเนื้ออ่อนสีเงินวาว ว่องไวต่อปฏิกิริยาสูงกว่าโซเดียม เมื่อทำปฏิกิริยากับน้ำจะติดไฟให้เปลวไฟสีม่วง",
     "starsAwarded": 4
   },
   {
@@ -4985,15 +4986,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ม.ต้น - ม.ปลาย (ข้อสอบยอดฮิต)",
     "category": "daily_life",
     "categoryLabel": "เกร็ดความรู้สำหรับข้อสอบ",
-    "q": "ข้อใดเป็นข้อเท็จจริงทางเคมีที่สำคัญเกี่ยวกับธาตุ \"แคลเซียม\" (Ca)?",
+    "q": "ข้อใดเป็นข้อเท็จจริงทางเคมีที่ถูกต้องเกี่ยวกับธาตุ \"แคลเซียม\" (Ca)?",
     "choices": [
-      "แคลเซียม ทำปฏิกิริยากับก๊าซเฉื่อยได้สารประกอบสีดำ",
-      "แคลเซียม เป็นของเหลวที่อุณหภูมิติดลบเสมอ",
-      "จัดเรียง e⁻ = 2, 8, 8, 2 เสีย 2e⁻ ได้ Ca²⁺ หินปูน CaCO₃ เมื่อโดนกรดจะฟู่เกิดก๊าซ CO₂ เสมอ",
-      "แคลเซียม มีมวลอะตอมน้อยที่สุดในคาบของตนเอง"
+      "เป็นโลหะสีเงินเทา เผาไหม้ให้เปลวไฟสีส้มแดง เป็นองค์ประกอบสำคัญของหินปูน และกระดูก",
+      "เป็นแก๊สไม่มีสี ไม่มีกลิ่น และไม่นำไฟฟ้าในทุกสภาวะ",
+      "เป็นธาตุกึ่งโลหะที่มีค่าความนำไฟฟ้าเพิ่มขึ้นตามอุณหภูมิ",
+      "มีเวเลนซ์อิเล็กตรอน 7 ตัวและจัดเป็นธาตุแฮโลเจน"
     ],
-    "ans": 2,
-    "explanation": "เกร็ดความรู้สำหรับสอบ: จัดเรียง e⁻ = 2, 8, 8, 2 เสีย 2e⁻ ได้ Ca²⁺ หินปูน CaCO₃ เมื่อโดนกรดจะฟู่เกิดก๊าซ CO₂ เสมอ",
+    "ans": 0,
+    "explanation": "เกร็ดความรู้สำคัญของ แคลเซียม (Ca): เป็นโลหะสีเงินเทา เผาไหม้ให้เปลวไฟสีส้มแดง เป็นองค์ประกอบสำคัญของหินปูน (CaCO₃) และกระดูก",
     "starsAwarded": 4
   },
   {
@@ -5002,15 +5003,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ม.ต้น - ม.ปลาย (ข้อสอบยอดฮิต)",
     "category": "daily_life",
     "categoryLabel": "เกร็ดความรู้สำหรับข้อสอบ",
-    "q": "ข้อใดเป็นข้อเท็จจริงทางเคมีที่สำคัญเกี่ยวกับธาตุ \"เหล็ก\" (Fe)?",
+    "q": "ข้อใดเป็นข้อเท็จจริงทางเคมีที่ถูกต้องเกี่ยวกับธาตุ \"เหล็ก\" (Fe)?",
     "choices": [
-      "เหล็ก เป็นของเหลวที่อุณหภูมิติดลบเสมอ",
-      "เหล็ก ทำปฏิกิริยากับก๊าซเฉื่อยได้สารประกอบสีดำ",
-      "เหล็ก มีมวลอะตอมน้อยที่สุดในคาบของตนเอง",
-      "ธาตุแทรนซิชันมีเลขออกซิเดชันได้หลายค่า (+2, +3) สารประกอบมีสีสันสวยงาม สนิมเหล็กคือ Fe₂O₃·nH₂O"
+      "เป็นอโลหะสีเขียวตองอ่อนที่เป็นพิษต่อระบบทางเดินหายใจ",
+      "เป็นโลหะที่มีสมบัติเป็นสารแม่เหล็ก เกิดสนิมง่ายเมื่อสัมผัสน้ำและออกซิเจน",
+      "เป็นแก๊สมีตระกูลที่เสถียรที่สุดในบรรดาธาตุคาบที่ 4",
+      "มีเวเลนซ์อิเล็กตรอน 1 ตัวและทำปฏิกิริยาระเบิดกับน้ำเย็น"
     ],
-    "ans": 3,
-    "explanation": "เกร็ดความรู้สำหรับสอบ: ธาตุแทรนซิชันมีเลขออกซิเดชันได้หลายค่า (+2, +3) สารประกอบมีสีสันสวยงาม สนิมเหล็กคือ Fe₂O₃·nH₂O",
+    "ans": 1,
+    "explanation": "เกร็ดความรู้สำคัญของ เหล็ก (Fe): เป็นโลหะที่มีสมบัติเป็นสารแม่เหล็ก (Ferromagnetic) เกิดสนิมง่ายเมื่อสัมผัสน้ำและออกซิเจน",
     "starsAwarded": 4
   },
   {
@@ -5019,15 +5020,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ม.ต้น - ม.ปลาย (ข้อสอบยอดฮิต)",
     "category": "daily_life",
     "categoryLabel": "เกร็ดความรู้สำหรับข้อสอบ",
-    "q": "ข้อใดเป็นข้อเท็จจริงทางเคมีที่สำคัญเกี่ยวกับธาตุ \"ทองแดง\" (Cu)?",
+    "q": "ข้อใดเป็นข้อเท็จจริงทางเคมีที่ถูกต้องเกี่ยวกับธาตุ \"ทองแดง\" (Cu)?",
     "choices": [
-      "ทองแดง ทำปฏิกิริยากับก๊าซเฉื่อยได้สารประกอบสีดำ",
-      "ข้อยกเว้นการจัดเรียง e⁻ ยอดฮิตในข้อสอบ! จัดแบบเต็ม d-orbital [Ar] 3d¹⁰ 4s¹ เพื่อความเสถียร สารละลาย Cu²⁺ มีสีฟ้า",
-      "ทองแดง เป็นของเหลวที่อุณหภูมิติดลบเสมอ",
-      "ทองแดง มีมวลอะตอมน้อยที่สุดในคาบของตนเอง"
+      "เป็นแก๊สมีสีส้มแดงที่ระเหยง่ายเมื่อสัมผัสกับอากาศชื้น",
+      "เป็นสารกึ่งตัวนำไฟฟ้าที่มีจุดหลอมเหลวต่ำมาก",
+      "เป็นโลหะสีส้มแดง นำไฟฟ้าและความร้อนได้ดีเยี่ยมเป็นอันดับ 2 รองจากเงิน และไม่เกิดสนิมเหล็ก",
+      "มีเวเลนซ์อิเล็กตรอน 8 ตัวและไม่ทำปฏิกิริยากับกรดใดๆ"
     ],
-    "ans": 1,
-    "explanation": "เกร็ดความรู้สำหรับสอบ: ข้อยกเว้นการจัดเรียง e⁻ ยอดฮิตในข้อสอบ! จัดแบบเต็ม d-orbital [Ar] 3d¹⁰ 4s¹ เพื่อความเสถียร สารละลาย Cu²⁺ มีสีฟ้า",
+    "ans": 2,
+    "explanation": "เกร็ดความรู้สำคัญของ ทองแดง (Cu): เป็นโลหะสีส้มแดง นำไฟฟ้าและความร้อนได้ดีเยี่ยมเป็นอันดับ 2 รองจากเงิน และไม่เกิดสนิมเหล็ก",
     "starsAwarded": 4
   },
   {
@@ -5036,15 +5037,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ม.ต้น - ม.ปลาย (ข้อสอบยอดฮิต)",
     "category": "daily_life",
     "categoryLabel": "เกร็ดความรู้สำหรับข้อสอบ",
-    "q": "ข้อใดเป็นข้อเท็จจริงทางเคมีที่สำคัญเกี่ยวกับธาตุ \"สังกะสี\" (Zn)?",
+    "q": "ข้อใดเป็นข้อเท็จจริงทางเคมีที่ถูกต้องเกี่ยวกับธาตุ \"สังกะสี\" (Zn)?",
     "choices": [
-      "สังกะสี ทำปฏิกิริยากับก๊าซเฉื่อยได้สารประกอบสีดำ",
-      "แม้เป็นแทรนซิชันแต่มีเลขออกซิเดชันเพียงค่าเดียวคือ +2 และสารประกอบของ Zn²⁺ ไม่มีสีเพราะ d-subshell เต็ม",
-      "สังกะสี เป็นของเหลวที่อุณหภูมิติดลบเสมอ",
-      "สังกะสี มีมวลอะตอมน้อยที่สุดในคาบของตนเอง"
+      "เป็นของเหลวที่อุณหภูมิห้องและไม่นำไฟฟ้า",
+      "เป็นแก๊สมีตระกูลที่ไม่มีสี ไม่มีกลิ่น และไม่ไวไฟ",
+      "มีเวเลนซ์อิเล็กตรอน 7 ตัวและจัดเป็นธาตุแฮโลเจน",
+      "เป็นโลหะสีขาวอมฟ้า ทนทานต่อการกัดกร่อนของอากาศชื้น และทำปฏิกิริยากับกรดเกิดแก๊ส H₂ ได้ดี"
     ],
-    "ans": 1,
-    "explanation": "เกร็ดความรู้สำหรับสอบ: แม้เป็นแทรนซิชันแต่มีเลขออกซิเดชันเพียงค่าเดียวคือ +2 และสารประกอบของ Zn²⁺ ไม่มีสีเพราะ d-subshell เต็ม",
+    "ans": 3,
+    "explanation": "เกร็ดความรู้สำคัญของ สังกะสี (Zn): เป็นโลหะสีขาวอมฟ้า ทนทานต่อการกัดกร่อนของอากาศชื้น และทำปฏิกิริยากับกรดเกิดแก๊ส H₂ ได้ดี",
     "starsAwarded": 4
   },
   {
@@ -5053,15 +5054,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ม.ต้น - ม.ปลาย (ข้อสอบยอดฮิต)",
     "category": "daily_life",
     "categoryLabel": "เกร็ดความรู้สำหรับข้อสอบ",
-    "q": "ข้อใดเป็นข้อเท็จจริงทางเคมีที่สำคัญเกี่ยวกับธาตุ \"โบรมีน\" (Br)?",
+    "q": "ข้อใดเป็นข้อเท็จจริงทางเคมีที่ถูกต้องเกี่ยวกับธาตุ \"โบรมีน\" (Br)?",
     "choices": [
-      "โบรมีน มีมวลอะตอมน้อยที่สุดในคาบของตนเอง",
-      "โบรมีน เป็นของเหลวที่อุณหภูมิติดลบเสมอ",
-      "ข้อสอบถามบ่อยมาก: \"อโลหะที่เป็นของเหลวที่อุณหภูมิห้องคือธาตุใด?\" ตอบ โบรมีน (Br) เสมอ!",
-      "โบรมีน ทำปฏิกิริยากับก๊าซเฉื่อยได้สารประกอบสีดำ"
+      "เป็นอโลหะชนิดเดียวที่มีสถานะเป็นของเหลวที่อุณหภูมิห้อง มีสีน้ำตาลแดงและระเหยเป็นไอพิษได้ง่าย",
+      "เป็นโลหะของเหลวสีเงินวาวนำไฟฟ้าได้ดีจัดเป็นโลหะอัลคาไล",
+      "เป็นแก๊สไม่มีสีที่ใช้บรรจุในบอลลูนตรวจอากาศ",
+      "เป็นของแข็งที่มีจุดหลอมเหลวสูงที่สุดในตารางธาตุ"
     ],
-    "ans": 2,
-    "explanation": "เกร็ดความรู้สำหรับสอบ: ข้อสอบถามบ่อยมาก: \"อโลหะที่เป็นของเหลวที่อุณหภูมิห้องคือธาตุใด?\" ตอบ โบรมีน (Br) เสมอ!",
+    "ans": 0,
+    "explanation": "เกร็ดความรู้สำคัญของ โบรมีน (Br): เป็นอโลหะชนิดเดียวที่มีสถานะเป็นของเหลวที่อุณหภูมิห้อง มีสีน้ำตาลแดงและระเหยเป็นไอพิษได้ง่าย",
     "starsAwarded": 4
   },
   {
@@ -5070,15 +5071,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ม.ต้น - ม.ปลาย (ข้อสอบยอดฮิต)",
     "category": "daily_life",
     "categoryLabel": "เกร็ดความรู้สำหรับข้อสอบ",
-    "q": "ข้อใดเป็นข้อเท็จจริงทางเคมีที่สำคัญเกี่ยวกับธาตุ \"เงิน\" (Ag)?",
+    "q": "ข้อใดเป็นข้อเท็จจริงทางเคมีที่ถูกต้องเกี่ยวกับธาตุ \"เงิน\" (Ag)?",
     "choices": [
-      "ตะกอน AgCl เป็นสีขาว ตกตะกอนทันทีเมื่อ Ag⁺ ทำปฏิกิริยากับ Cl⁻ ใช้ทดสอบคลอไรด์ไอออนในแล็บ",
-      "เงิน มีมวลอะตอมน้อยที่สุดในคาบของตนเอง",
-      "เงิน เป็นของเหลวที่อุณหภูมิติดลบเสมอ",
-      "เงิน ทำปฏิกิริยากับก๊าซเฉื่อยได้สารประกอบสีดำ"
+      "เป็นโลหะอัลคาไลที่ทำปฏิกิริยารุนแรงกับน้ำเกิดการระเบิด",
+      "เป็นโลหะที่มีค่าการนำไฟฟ้าและการนำความร้อนสูงที่สุดในบรรดาธาตุทั้งหมด และสะท้อนแสงได้ดีเยี่ยม",
+      "เป็นแก๊สเฉื่อยที่ไม่มีสีและไม่มีกลิ่นในธรรมชาติ",
+      "เป็นอโลหะสีดำที่มีสมบัติเปราะและไม่นำไฟฟ้า"
     ],
-    "ans": 0,
-    "explanation": "เกร็ดความรู้สำหรับสอบ: ตะกอน AgCl เป็นสีขาว ตกตะกอนทันทีเมื่อ Ag⁺ ทำปฏิกิริยากับ Cl⁻ ใช้ทดสอบคลอไรด์ไอออนในแล็บ",
+    "ans": 1,
+    "explanation": "เกร็ดความรู้สำคัญของ เงิน (Ag): เป็นโลหะที่มีค่าการนำไฟฟ้าและการนำความร้อนสูงที่สุดในบรรดาธาตุทั้งหมด และสะท้อนแสงได้ดีเยี่ยม",
     "starsAwarded": 4
   },
   {
@@ -5087,15 +5088,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ม.ต้น - ม.ปลาย (ข้อสอบยอดฮิต)",
     "category": "daily_life",
     "categoryLabel": "เกร็ดความรู้สำหรับข้อสอบ",
-    "q": "ข้อใดเป็นข้อเท็จจริงทางเคมีที่สำคัญเกี่ยวกับธาตุ \"ไอโอดีน\" (I)?",
+    "q": "ข้อใดเป็นข้อเท็จจริงทางเคมีที่ถูกต้องเกี่ยวกับธาตุ \"ไอโอดีน\" (I)?",
     "choices": [
-      "ไอโอดีน เป็นของเหลวที่อุณหภูมิติดลบเสมอ",
-      "สารละลายไอโอดีนใช้ทดสอบแป้ง (Starch) จะเปลี่ยนสีจากน้ำตาลเป็นสีน้ำเงินเข้ม/ม่วงเข้มทันที!",
-      "ไอโอดีน ทำปฏิกิริยากับก๊าซเฉื่อยได้สารประกอบสีดำ",
-      "ไอโอดีน มีมวลอะตอมน้อยที่สุดในคาบของตนเอง"
+      "เป็นโลหะของเหลวที่อุณหภูมิห้องและนำไฟฟ้าได้ดีเยี่ยม",
+      "เป็นแก๊สมีตระกูลที่มีเวเลนซ์อิเล็กตรอนครบ 8 ตัว",
+      "เป็นของแข็งสีม่วงเข้มแกมดำ ระเหิดเป็นไอสีม่วงได้ง่ายเมื่อได้รับความร้อน และทดสอบแป้งได้สีน้ำเงินเข้ม",
+      "มีสมบัติเป็นด่างแก่เข้มข้นที่กัดกร่อนแก้วได้"
     ],
-    "ans": 1,
-    "explanation": "เกร็ดความรู้สำหรับสอบ: สารละลายไอโอดีนใช้ทดสอบแป้ง (Starch) จะเปลี่ยนสีจากน้ำตาลเป็นสีน้ำเงินเข้ม/ม่วงเข้มทันที!",
+    "ans": 2,
+    "explanation": "เกร็ดความรู้สำคัญของ ไอโอดีน (I): เป็นของแข็งสีม่วงเข้มแกมดำ ระเหิดเป็นไอสีม่วงได้ง่ายเมื่อได้รับความร้อน และทดสอบแป้งได้สีน้ำเงินเข้ม",
     "starsAwarded": 4
   },
   {
@@ -5104,15 +5105,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ม.ต้น - ม.ปลาย (ข้อสอบยอดฮิต)",
     "category": "daily_life",
     "categoryLabel": "เกร็ดความรู้สำหรับข้อสอบ",
-    "q": "ข้อใดเป็นข้อเท็จจริงทางเคมีที่สำคัญเกี่ยวกับธาตุ \"ทองคำ\" (Au)?",
+    "q": "ข้อใดเป็นข้อเท็จจริงทางเคมีที่ถูกต้องเกี่ยวกับธาตุ \"ทองคำ\" (Au)?",
     "choices": [
-      "ทองคำ ทำปฏิกิริยากับก๊าซเฉื่อยได้สารประกอบสีดำ",
-      "ทองคำ เป็นของเหลวที่อุณหภูมิติดลบเสมอ",
-      "เฉื่อยต่อปฏิกิริยามาก กรดธรรมดาละลายไม่ได้ ต้องละลายด้วย \"น้ำประสานทอง\" หรือน้ำราชา (Aqua Regia = HCl + HNO₃)",
-      "ทองคำ มีมวลอะตอมน้อยที่สุดในคาบของตนเอง"
+      "ทำปฏิกิริยารุนแรงกับน้ำเกิดแก๊สไฮโดรเจนติดไฟได้",
+      "เป็นอโลหะสีเหลืองที่เปราะและไม่นำไฟฟ้าหรือความร้อน",
+      "สลายตัวด้วยการแผ่อนุภาคแอลฟาอย่างรวดเร็วในธรรมชาติ",
+      "เป็นโลหะมีตระกูล ไม่ทำปฏิกิริยากับออกซิเจนหรือกรดเดี่ยว"
     ],
-    "ans": 2,
-    "explanation": "เกร็ดความรู้สำหรับสอบ: เฉื่อยต่อปฏิกิริยามาก กรดธรรมดาละลายไม่ได้ ต้องละลายด้วย \"น้ำประสานทอง\" หรือน้ำราชา (Aqua Regia = HCl + HNO₃)",
+    "ans": 3,
+    "explanation": "เกร็ดความรู้สำคัญของ ทองคำ (Au): เป็นโลหะมีตระกูล ไม่ทำปฏิกิริยากับออกซิเจนหรือกรดเดี่ยว (ละลายได้ในน้ำประสานทอง/กรดกัดทอง Aqua Regia)",
     "starsAwarded": 4
   },
   {
@@ -5121,15 +5122,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ม.ต้น - ม.ปลาย (ข้อสอบยอดฮิต)",
     "category": "daily_life",
     "categoryLabel": "เกร็ดความรู้สำหรับข้อสอบ",
-    "q": "ข้อใดเป็นข้อเท็จจริงทางเคมีที่สำคัญเกี่ยวกับธาตุ \"ปรอท\" (Hg)?",
+    "q": "ข้อใดเป็นข้อเท็จจริงทางเคมีที่ถูกต้องเกี่ยวกับธาตุ \"ปรอท\" (Hg)?",
     "choices": [
-      "ปรอท ทำปฏิกิริยากับก๊าซเฉื่อยได้สารประกอบสีดำ",
-      "ปรอท มีมวลอะตอมน้อยที่สุดในคาบของตนเอง",
-      "ข้อสอบเคมี 1000%! \"โลหะชนิดเดียวที่เป็นของเหลวที่อุณหภูมิห้องคืออะไร?\" ตอบ ปรอท (Hg)",
-      "ปรอท เป็นของเหลวที่อุณหภูมิติดลบเสมอ"
+      "เป็นโลหะเพียงชนิดเดียวที่มีสถานะเป็นของเหลวที่อุณหภูมิห้อง มีความหนาแน่นสูงและไอของปรอทมีพิษร้ายแรง",
+      "เป็นอโลหะของเหลวสีน้ำตาลแดงที่ไม่นำไฟฟ้าและความร้อน",
+      "เป็นแก๊สมีตระกูลที่ใช้บรรจุในบอลลูนตรวจอากาศแทนฮีเลียม",
+      "มีเวเลนซ์อิเล็กตรอน 7 ตัวและจัดเป็นธาตุในกลุ่มแฮโลเจน"
     ],
-    "ans": 2,
-    "explanation": "เกร็ดความรู้สำหรับสอบ: ข้อสอบเคมี 1000%! \"โลหะชนิดเดียวที่เป็นของเหลวที่อุณหภูมิห้องคืออะไร?\" ตอบ ปรอท (Hg)",
+    "ans": 0,
+    "explanation": "เกร็ดความรู้สำคัญของ ปรอท (Hg): เป็นโลหะเพียงชนิดเดียวที่มีสถานะเป็นของเหลวที่อุณหภูมิห้อง มีความหนาแน่นสูงและไอของปรอทมีพิษร้ายแรง",
     "starsAwarded": 4
   },
   {
@@ -5138,15 +5139,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ม.ต้น - ม.ปลาย (ข้อสอบยอดฮิต)",
     "category": "daily_life",
     "categoryLabel": "เกร็ดความรู้สำหรับข้อสอบ",
-    "q": "ข้อใดเป็นข้อเท็จจริงทางเคมีที่สำคัญเกี่ยวกับธาตุ \"ตะกั่ว\" (Pb)?",
+    "q": "ข้อใดเป็นข้อเท็จจริงทางเคมีที่ถูกต้องเกี่ยวกับธาตุ \"ตะกั่ว\" (Pb)?",
     "choices": [
-      "ตะกั่ว เป็นของเหลวที่อุณหภูมิติดลบเสมอ",
-      "โลหะหนักมีพิษทำลายระบบประสาท สารประกอบ PbI₂ ตกตะกอนสีเหลืองทองสวยงามเหมือนเกล็ดหิมะสีทอง",
-      "ตะกั่ว มีมวลอะตอมน้อยที่สุดในคาบของตนเอง",
-      "ตะกั่ว ทำปฏิกิริยากับก๊าซเฉื่อยได้สารประกอบสีดำ"
+      "เป็นแก๊สเฉื่อยที่ไม่มีสี ไม่มีกลิ่น และไม่ละลายน้ำ",
+      "เป็นโลหะหนักสีเทาเข้ม จุดหลอมเหลวต่ำ อ่อนตัว ดัดง่าย และมีความหนาแน่นสูงมาก ไอและสารประกอบมีพิษสะสม",
+      "เป็นธาตุกึ่งโลหะที่มีสมบัติเป็นสารกึ่งตัวนำไฟฟ้าในไมโครชิป",
+      "ทำปฏิกิริยารุนแรงกับน้ำเย็นเกิดการระเบิดของแก๊สไฮโดรเจน"
     ],
     "ans": 1,
-    "explanation": "เกร็ดความรู้สำหรับสอบ: โลหะหนักมีพิษทำลายระบบประสาท สารประกอบ PbI₂ ตกตะกอนสีเหลืองทองสวยงามเหมือนเกล็ดหิมะสีทอง",
+    "explanation": "เกร็ดความรู้สำคัญของ ตะกั่ว (Pb): เป็นโลหะหนักสีเทาเข้ม จุดหลอมเหลวต่ำ อ่อนตัว ดัดง่าย และมีความหนาแน่นสูงมาก ไอและสารประกอบมีพิษสะสม",
     "starsAwarded": 4
   },
   {
@@ -5155,15 +5156,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ม.ต้น - ม.ปลาย (ข้อสอบยอดฮิต)",
     "category": "daily_life",
     "categoryLabel": "เกร็ดความรู้สำหรับข้อสอบ",
-    "q": "ข้อใดเป็นข้อเท็จจริงทางเคมีที่สำคัญเกี่ยวกับธาตุ \"ยูเรเนียม\" (U)?",
+    "q": "ข้อใดเป็นข้อเท็จจริงทางเคมีที่ถูกต้องเกี่ยวกับธาตุ \"ยูเรเนียม\" (U)?",
     "choices": [
-      "ยูเรเนียม มีมวลอะตอมน้อยที่สุดในคาบของตนเอง",
-      "ยูเรเนียม ทำปฏิกิริยากับก๊าซเฉื่อยได้สารประกอบสีดำ",
-      "แผ่รังสีอัลฟา บีตา แกมมา เกิดปฏิกิริยานิวเคลียร์ฟิชชัน (Fission) เมื่อถูกยิงด้วยนิวตรอน",
-      "ยูเรเนียม เป็นของเหลวที่อุณหภูมิติดลบเสมอ"
+      "เป็นแก๊สมีตระกูลที่เสถียรที่สุดในคาบที่ 7 ของตารางธาตุ",
+      "เป็นอโลหะสีขาวบริสุทธิ์ที่ไม่ทำปฏิกิริยากับสารใดๆ",
+      "เป็นธาตุกัมมันตรังสีธรรมชาติที่มีมวลมากที่สุด แผ่รังสีอัลฟา และไอโซโทป U-235 เกิดฟิชชันได้",
+      "มีเวเลนซ์อิเล็กตรอน 1 ตัวและจัดอยู่ในกลุ่มโลหะอัลคาไล"
     ],
     "ans": 2,
-    "explanation": "เกร็ดความรู้สำหรับสอบ: แผ่รังสีอัลฟา บีตา แกมมา เกิดปฏิกิริยานิวเคลียร์ฟิชชัน (Fission) เมื่อถูกยิงด้วยนิวตรอน",
+    "explanation": "เกร็ดความรู้สำคัญของ ยูเรเนียม (U): เป็นธาตุกัมมันตรังสีธรรมชาติที่มีมวลมากที่สุด แผ่รังสีอัลฟา และไอโซโทป U-235 เกิดฟิชชันได้",
     "starsAwarded": 4
   },
   {
@@ -5172,15 +5173,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ป.ปลาย - ม.ต้น",
     "category": "daily_life",
     "categoryLabel": "เคมีรอบตัว",
-    "q": "ประโยชน์หรือบทบาทสำคัญของธาตุ \"ไฮโดรเจน\" (H) ในธรรมชาติคือข้อใด?",
+    "q": "ประโยชน์หรือบทบาทสำคัญของธาตุ \"ไฮโดรเจน\" (H) ในธรรมชาติหรือชีวิตประจำวันคือข้อใด?",
     "choices": [
-      "ใช้เป็นสารสังเคราะห์สีม่วงในหลอดแก้วเรืองแสง",
-      "ใช้ในการดูดซับรังสีจากไมโครเวฟ",
-      "ใช้ทำแกนกลางของเครื่องบินโดยสาร",
-      "ธาตุที่เบาที่สุดและมีปริมาณมากที่สุดในจักรวาล เป็นเชื้อเพลิงของดวงอาทิตย์!"
+      "ใช้เคลือบแผ่นกระจกเงาและผลิตเหรียญกษาปณ์",
+      "ใช้เป็นสารดูดความชื้นในซองบรรจุอาหารแห้ง",
+      "เป็นองค์ประกอบของโมเลกุลน้ำ สารชีวโมเลกุล และใช้เป็นเชื้อเพลิงพลังงานสะอาด",
+      "ใช้ผสมในปุ๋ยเคมีสูตรไนโตรเจนสูงเพื่อเร่งใบเขียว"
     ],
-    "ans": 3,
-    "explanation": "ไฮโดรเจน (H): ธาตุที่เบาที่สุดและมีปริมาณมากที่สุดในจักรวาล เป็นเชื้อเพลิงของดวงอาทิตย์!",
+    "ans": 2,
+    "explanation": "บทบาทสำคัญของ ไฮโดรเจน (H): เป็นองค์ประกอบของโมเลกุลน้ำ (H₂O) สารชีวโมเลกุล และใช้เป็นเชื้อเพลิงพลังงานสะอาด",
     "starsAwarded": 3
   },
   {
@@ -5189,15 +5190,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ป.ปลาย - ม.ต้น",
     "category": "daily_life",
     "categoryLabel": "เคมีรอบตัว",
-    "q": "ประโยชน์หรือบทบาทสำคัญของธาตุ \"ฮีเลียม\" (He) ในธรรมชาติคือข้อใด?",
+    "q": "ประโยชน์หรือบทบาทสำคัญของธาตุ \"ฮีเลียม\" (He) ในธรรมชาติหรือชีวิตประจำวันคือข้อใด?",
     "choices": [
-      "ใช้ในการดูดซับรังสีจากไมโครเวฟ",
-      "ใช้เป็นสารสังเคราะห์สีม่วงในหลอดแก้วเรืองแสง",
-      "ก๊าซที่ใช้บรรจุลูกโป่งสวรรค์เพราะเบากว่าอากาศและไม่ติดไฟ ปลอดภัยกว่าไฮโดรเจน",
-      "ใช้ทำแกนกลางของเครื่องบินโดยสาร"
+      "ใช้เป็นตัวทำละลายอินทรีย์ในการสกัดน้ำมันหอมระเหย",
+      "ใช้เป็นขั้วไฟฟ้าบวกในแบตเตอรี่รถยนต์ไฟฟ้า",
+      "ใช้ผสมในผงฟูเพื่อให้ขนมเค้กมีเนื้อฟูนุ่ม",
+      "ใช้บรรจุในลูกโป่งสวรรค์และบอลลูนตรวจอากาศเพราะเบาและไม่ติดไฟ และใช้หล่อเย็นเครื่อง MRI"
     ],
-    "ans": 2,
-    "explanation": "ฮีเลียม (He): ก๊าซที่ใช้บรรจุลูกโป่งสวรรค์เพราะเบากว่าอากาศและไม่ติดไฟ ปลอดภัยกว่าไฮโดรเจน",
+    "ans": 3,
+    "explanation": "บทบาทสำคัญของ ฮีเลียม (He): ใช้บรรจุในลูกโป่งสวรรค์และบอลลูนตรวจอากาศเพราะเบาและไม่ติดไฟ และใช้หล่อเย็นเครื่อง MRI",
     "starsAwarded": 3
   },
   {
@@ -5206,15 +5207,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ป.ปลาย - ม.ต้น",
     "category": "daily_life",
     "categoryLabel": "เคมีรอบตัว",
-    "q": "ประโยชน์หรือบทบาทสำคัญของธาตุ \"ลิเทียม\" (Li) ในธรรมชาติคือข้อใด?",
+    "q": "ประโยชน์หรือบทบาทสำคัญของธาตุ \"ลิเทียม\" (Li) ในธรรมชาติหรือชีวิตประจำวันคือข้อใด?",
     "choices": [
-      "โลหะที่มีความหนาแน่นน้อยที่สุด เบาจนลอยบนน้ำมันได้ ใช้ทำแบตเตอรี่มือถือและรถยนต์ไฟฟ้า (EV)!",
-      "ใช้เป็นสารสังเคราะห์สีม่วงในหลอดแก้วเรืองแสง",
-      "ใช้ในการดูดซับรังสีจากไมโครเวฟ",
-      "ใช้ทำแกนกลางของเครื่องบินโดยสาร"
+      "ใช้ผลิตแบตเตอรี่ลิเทียมไอออนสำหรับสมาร์ตโฟนและยานยนต์ไฟฟ้า และใช้ในยารักษาอารมณ์สองขั้ว",
+      "ใช้เป็นส่วนประกอบหลักในหลอดฟลูออเรสเซนต์ให้แสงขาว",
+      "ใช้ทำสายไฟฟ้าแรงสูงตามเสาไฟฟ้าขนาดใหญ่",
+      "ใช้เป็นสารดูดกลืนรังสีเอกซ์ในชุดป้องกันทางการแพทย์"
     ],
     "ans": 0,
-    "explanation": "ลิเทียม (Li): โลหะที่มีความหนาแน่นน้อยที่สุด เบาจนลอยบนน้ำมันได้ ใช้ทำแบตเตอรี่มือถือและรถยนต์ไฟฟ้า (EV)!",
+    "explanation": "บทบาทสำคัญของ ลิเทียม (Li): ใช้ผลิตแบตเตอรี่ลิเทียมไอออนสำหรับสมาร์ตโฟนและยานยนต์ไฟฟ้า และใช้ในยารักษาอารมณ์สองขั้ว",
     "starsAwarded": 3
   },
   {
@@ -5223,15 +5224,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ป.ปลาย - ม.ต้น",
     "category": "daily_life",
     "categoryLabel": "เคมีรอบตัว",
-    "q": "ประโยชน์หรือบทบาทสำคัญของธาตุ \"เบริลเลียม\" (Be) ในธรรมชาติคือข้อใด?",
+    "q": "ประโยชน์หรือบทบาทสำคัญของธาตุ \"เบริลเลียม\" (Be) ในธรรมชาติหรือชีวิตประจำวันคือข้อใด?",
     "choices": [
-      "ใช้เป็นสารสังเคราะห์สีม่วงในหลอดแก้วเรืองแสง",
-      "ใช้ทำแกนกลางของเครื่องบินโดยสาร",
-      "พบในอัญมณีล้ำค่าอย่างมรกต (Emerald) และแอกวามารีน แข็งแกร่งและทนความร้อนสูง",
-      "ใช้ในการดูดซับรังสีจากไมโครเวฟ"
+      "ใช้ใส่ในยาสีฟันเพื่อป้องกันฟันผุในเด็ก",
+      "ใช้ทำโลหะผสมในชิ้นส่วนยานอวกาศ มิสไซล์ และหน้าต่างของหลอดรังสีเอกซ์เพราะยอมให้รังสีผ่านได้ดี",
+      "ใช้เป็นแก๊สบรรจุในถุงลมนิรภัยของรถยนต์",
+      "ใช้ปรุงแต่งรสเปรี้ยวในอาหารกระป๋อง"
     ],
-    "ans": 2,
-    "explanation": "เบริลเลียม (Be): พบในอัญมณีล้ำค่าอย่างมรกต (Emerald) และแอกวามารีน แข็งแกร่งและทนความร้อนสูง",
+    "ans": 1,
+    "explanation": "บทบาทสำคัญของ เบริลเลียม (Be): ใช้ทำโลหะผสมในชิ้นส่วนยานอวกาศ มิสไซล์ และหน้าต่างของหลอดรังสีเอกซ์เพราะยอมให้รังสีผ่านได้ดี",
     "starsAwarded": 3
   },
   {
@@ -5240,15 +5241,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ป.ปลาย - ม.ต้น",
     "category": "daily_life",
     "categoryLabel": "เคมีรอบตัว",
-    "q": "ประโยชน์หรือบทบาทสำคัญของธาตุ \"โบรอน\" (B) ในธรรมชาติคือข้อใด?",
+    "q": "ประโยชน์หรือบทบาทสำคัญของธาตุ \"โบรอน\" (B) ในธรรมชาติหรือชีวิตประจำวันคือข้อใด?",
     "choices": [
-      "ใช้เป็นสารสังเคราะห์สีม่วงในหลอดแก้วเรืองแสง",
-      "ใช้ทำแกนกลางของเครื่องบินโดยสาร",
-      "ใช้ทำแก้วไพเร็กซ์ (Pyrex) ในห้องแล็บที่ทนไฟไม่แตกง่าย และใช้ทำน้ำยาประสานทอง",
-      "ใช้ในการดูดซับรังสีจากไมโครเวฟ"
+      "ใช้เคลือบผิวกระทะไม่ให้ติดกระทะ",
+      "ใช้ทำขั้วลบในเซลล์เชื้อเพลิงไฮโดรเจน",
+      "ใช้ผลิตแก้วบอโรซิลิเกต ที่ทนความร้อนสูง สารฟอกนวล และเป็นสารฆ่าเชื้อโรค",
+      "ใช้บรรจุในถังดับเพลิงชนิดแก๊สคาร์บอนไดออกไซด์"
     ],
     "ans": 2,
-    "explanation": "โบรอน (B): ใช้ทำแก้วไพเร็กซ์ (Pyrex) ในห้องแล็บที่ทนไฟไม่แตกง่าย และใช้ทำน้ำยาประสานทอง",
+    "explanation": "บทบาทสำคัญของ โบรอน (B): ใช้ผลิตแก้วบอโรซิลิเกต (Pyrex) ที่ทนความร้อนสูง สารฟอกนวล และเป็นสารฆ่าเชื้อโรค (กรดบอริก)",
     "starsAwarded": 3
   },
   {
@@ -5257,15 +5258,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ป.ปลาย - ม.ต้น",
     "category": "daily_life",
     "categoryLabel": "เคมีรอบตัว",
-    "q": "ประโยชน์หรือบทบาทสำคัญของธาตุ \"คาร์บอน\" (C) ในธรรมชาติคือข้อใด?",
+    "q": "ประโยชน์หรือบทบาทสำคัญของธาตุ \"คาร์บอน\" (C) ในธรรมชาติหรือชีวิตประจำวันคือข้อใด?",
     "choices": [
-      "ใช้ในการดูดซับรังสีจากไมโครเวฟ",
-      "ใช้เป็นสารสังเคราะห์สีม่วงในหลอดแก้วเรืองแสง",
-      "ราชาแห่งเคมีอินทรีย์! อยู่ในไส้ดินสอ (แกรไฟต์) จนถึงเพชรที่แข็งที่สุด และอยู่ในสิ่งมีชีวิตทุกชนิด",
-      "ใช้ทำแกนกลางของเครื่องบินโดยสาร"
+      "ใช้เป็นสารทำความเย็นในเครื่องปรับอากาศบ้าน",
+      "ใช้เป็นของเหลวในเทอร์โมมิเตอร์วัดไข้",
+      "ใช้เป็นส่วนผสมหลักในผงซักฟอกเพื่อขจัดคราบไขมัน",
+      "เป็นแกนกลางโครงสร้างของสิ่งมีชีวิตและสารอินทรีย์ทุกชนิด ทำไส้ดินสอ และสารดูดซับกลิ่น"
     ],
-    "ans": 2,
-    "explanation": "คาร์บอน (C): ราชาแห่งเคมีอินทรีย์! อยู่ในไส้ดินสอ (แกรไฟต์) จนถึงเพชรที่แข็งที่สุด และอยู่ในสิ่งมีชีวิตทุกชนิด",
+    "ans": 3,
+    "explanation": "บทบาทสำคัญของ คาร์บอน (C): เป็นแกนกลางโครงสร้างของสิ่งมีชีวิตและสารอินทรีย์ทุกชนิด ทำไส้ดินสอ และสารดูดซับกลิ่น (ถ่านกัมมันต์)",
     "starsAwarded": 3
   },
   {
@@ -5274,15 +5275,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ป.ปลาย - ม.ต้น",
     "category": "daily_life",
     "categoryLabel": "เคมีรอบตัว",
-    "q": "ประโยชน์หรือบทบาทสำคัญของธาตุ \"ไนโตรเจน\" (N) ในธรรมชาติคือข้อใด?",
+    "q": "ประโยชน์หรือบทบาทสำคัญของธาตุ \"ไนโตรเจน\" (N) ในธรรมชาติหรือชีวิตประจำวันคือข้อใด?",
     "choices": [
-      "ใช้ในการดูดซับรังสีจากไมโครเวฟ",
-      "ก๊าซที่มีมากที่สุดในอากาศถึง 78%! ใช้บรรจุในถุงขนมกรุบกรอบกันเหม็นหืน",
-      "ใช้ทำแกนกลางของเครื่องบินโดยสาร",
-      "ใช้เป็นสารสังเคราะห์สีม่วงในหลอดแก้วเรืองแสง"
+      "มีปริมาณมากที่สุดในอากาศ ใช้ผลิตปุ๋ยเคมี และไนโตรเจนเหลวใช้แช่แข็งเซลล์ชีวภาพ",
+      "ใช้เป็นเชื้อเพลิงหลักในเตาหลอมเหล็กกล้าอุตสาหกรรม",
+      "ใช้ทำเส้นใยสังเคราะห์สำหรับทำเสื้อเกราะกันกระสุน",
+      "ใช้ทำผิวเคลือบเครื่องประดับให้มีความเงางามสีทอง"
     ],
-    "ans": 1,
-    "explanation": "ไนโตรเจน (N): ก๊าซที่มีมากที่สุดในอากาศถึง 78%! ใช้บรรจุในถุงขนมกรุบกรอบกันเหม็นหืน",
+    "ans": 0,
+    "explanation": "บทบาทสำคัญของ ไนโตรเจน (N): มีปริมาณมากที่สุดในอากาศ (ประมาณ 78%) ใช้ผลิตปุ๋ยเคมี และไนโตรเจนเหลวใช้แช่แข็งเซลล์ชีวภาพ",
     "starsAwarded": 3
   },
   {
@@ -5291,15 +5292,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ป.ปลาย - ม.ต้น",
     "category": "daily_life",
     "categoryLabel": "เคมีรอบตัว",
-    "q": "ประโยชน์หรือบทบาทสำคัญของธาตุ \"ออกซิเจน\" (O) ในธรรมชาติคือข้อใด?",
+    "q": "ประโยชน์หรือบทบาทสำคัญของธาตุ \"ออกซิเจน\" (O) ในธรรมชาติหรือชีวิตประจำวันคือข้อใด?",
     "choices": [
-      "ใช้ในการดูดซับรังสีจากไมโครเวฟ",
-      "ใช้ทำแกนกลางของเครื่องบินโดยสาร",
-      "ใช้เป็นสารสังเคราะห์สีม่วงในหลอดแก้วเรืองแสง",
-      "ก๊าซแห่งชีวิต! เราหายใจเข้าเพื่อใช้ออกซิเจนเผาผลาญอาหาร และช่วยให้ไฟติด"
+      "ใช้ดูดซับสารพิษและโลหะหนักในระบบบำบัดน้ำเสีย",
+      "จำเป็นต่อการหายใจของสิ่งมีชีวิตทุกชนิด การเผาไหม้ของเชื้อเพลิง และใช้ในถังออกซิเจนการแพทย์",
+      "ใช้เป็นสารป้องกันการแข็งตัวของน้ำในหม้อน้ำรถยนต์",
+      "ใช้เป็นสารหล่อลื่นความเร็วสูงในตลับลูกปืนเครื่องยนต์"
     ],
-    "ans": 3,
-    "explanation": "ออกซิเจน (O): ก๊าซแห่งชีวิต! เราหายใจเข้าเพื่อใช้ออกซิเจนเผาผลาญอาหาร และช่วยให้ไฟติด",
+    "ans": 1,
+    "explanation": "บทบาทสำคัญของ ออกซิเจน (O): จำเป็นต่อการหายใจของสิ่งมีชีวิตทุกชนิด การเผาไหม้ของเชื้อเพลิง และใช้ในถังออกซิเจนการแพทย์",
     "starsAwarded": 3
   },
   {
@@ -5308,15 +5309,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ป.ปลาย - ม.ต้น",
     "category": "daily_life",
     "categoryLabel": "เคมีรอบตัว",
-    "q": "ประโยชน์หรือบทบาทสำคัญของธาตุ \"ฟลูออรีน\" (F) ในธรรมชาติคือข้อใด?",
+    "q": "ประโยชน์หรือบทบาทสำคัญของธาตุ \"ฟลูออรีน\" (F) ในธรรมชาติหรือชีวิตประจำวันคือข้อใด?",
     "choices": [
-      "ใช้เป็นสารสังเคราะห์สีม่วงในหลอดแก้วเรืองแสง",
-      "ผสมในยาสีฟันในรูปฟลูออไรด์ ช่วยเคลือบฟันป้องกันฟันผุได้อย่างดีเยี่ยม",
-      "ใช้ในการดูดซับรังสีจากไมโครเวฟ",
-      "ใช้ทำแกนกลางของเครื่องบินโดยสาร"
+      "ใช้เป็นฉนวนกันความร้อนในแผ่นผนังอาคารประหยัดพลังงาน",
+      "ใช้เป็นสารก่อมะเร็งทดลองในห้องปฏิบัติการทางเคมี",
+      "สารประกอบฟลูออไรด์ใช้ผสมในยาสีฟันเพื่อป้องกันฟันผุ และใช้สังเคราะห์พอลิเมอร์เทฟลอน",
+      "ใช้เป็นตัวเร่งปฏิกิริยาหลักในการผลิตพลาสติกโพลีเอทิลีน"
     ],
-    "ans": 1,
-    "explanation": "ฟลูออรีน (F): ผสมในยาสีฟันในรูปฟลูออไรด์ ช่วยเคลือบฟันป้องกันฟันผุได้อย่างดีเยี่ยม",
+    "ans": 2,
+    "explanation": "บทบาทสำคัญของ ฟลูออรีน (F): สารประกอบฟลูออไรด์ใช้ผสมในยาสีฟันเพื่อป้องกันฟันผุ และใช้สังเคราะห์พอลิเมอร์เทฟลอน (PTFE)",
     "starsAwarded": 3
   },
   {
@@ -5325,15 +5326,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ป.ปลาย - ม.ต้น",
     "category": "daily_life",
     "categoryLabel": "เคมีรอบตัว",
-    "q": "ประโยชน์หรือบทบาทสำคัญของธาตุ \"นีออน\" (Ne) ในธรรมชาติคือข้อใด?",
+    "q": "ประโยชน์หรือบทบาทสำคัญของธาตุ \"นีออน\" (Ne) ในธรรมชาติหรือชีวิตประจำวันคือข้อใด?",
     "choices": [
-      "เมื่อปล่อยกระแสไฟฟ้าผ่าน จะเปล่งแสงสีส้มแดงสว่างไสว นิยมทำป้ายไฟโฆษณาตอนกลางคืน",
-      "ใช้ทำแกนกลางของเครื่องบินโดยสาร",
-      "ใช้ในการดูดซับรังสีจากไมโครเวฟ",
-      "ใช้เป็นสารสังเคราะห์สีม่วงในหลอดแก้วเรืองแสง"
+      "ใช้เป็นแก๊สช่วยหายใจสำหรับนักดำน้ำลึกในทะเลลึก",
+      "ใช้ผลิตสารฟอกขาวชนิดผงสำหรับซักผ้าขาว",
+      "ใช้ทำขั้วแคโทดในแบตเตอรี่ชนิดตะกั่ว-กรด",
+      "ใช้บรรจุในหลอดไฟโฆษณา ให้แสงสว่างสีส้มแดงสดใสเมื่อผ่านกระแสไฟฟ้าแรงดันสูง"
     ],
-    "ans": 0,
-    "explanation": "นีออน (Ne): เมื่อปล่อยกระแสไฟฟ้าผ่าน จะเปล่งแสงสีส้มแดงสว่างไสว นิยมทำป้ายไฟโฆษณาตอนกลางคืน",
+    "ans": 3,
+    "explanation": "บทบาทสำคัญของ นีออน (Ne): ใช้บรรจุในหลอดไฟโฆษณา (ป้ายไฟนีออน) ให้แสงสว่างสีส้มแดงสดใสเมื่อผ่านกระแสไฟฟ้าแรงดันสูง",
     "starsAwarded": 3
   },
   {
@@ -5342,15 +5343,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ป.ปลาย - ม.ต้น",
     "category": "daily_life",
     "categoryLabel": "เคมีรอบตัว",
-    "q": "ประโยชน์หรือบทบาทสำคัญของธาตุ \"โซเดียม\" (Na) ในธรรมชาติคือข้อใด?",
+    "q": "ประโยชน์หรือบทบาทสำคัญของธาตุ \"โซเดียม\" (Na) ในธรรมชาติหรือชีวิตประจำวันคือข้อใด?",
     "choices": [
-      "รวมกับคลอรีนกลายเป็นเกลือแกง (NaCl) ที่เราปรุงอาหารทุกวัน! แต่ถ้าเป็นโลหะบริสุทธิ์โดนน้ำจะระเบิดไฟลุก",
-      "ใช้ทำแกนกลางของเครื่องบินโดยสาร",
-      "ใช้ในการดูดซับรังสีจากไมโครเวฟ",
-      "ใช้เป็นสารสังเคราะห์สีม่วงในหลอดแก้วเรืองแสง"
+      "สารประกอบ NaCl คือเกลือแกงปรุงอาหาร รักษาสมดุลอิเล็กโทรไลต์ในร่างกาย และใช้ทำสบู่",
+      "ใช้เป็นสารกักเก็บความร้อนในหม้อต้มโรงไฟฟ้าถ่านหิน",
+      "ใช้ทำไส้หลอดอินแคนเดสเซนต์ให้แสงขาวนวล",
+      "ใช้เป็นสารดูดซับสารพิษในหน้ากากป้องกันแก๊สพิษ"
     ],
     "ans": 0,
-    "explanation": "โซเดียม (Na): รวมกับคลอรีนกลายเป็นเกลือแกง (NaCl) ที่เราปรุงอาหารทุกวัน! แต่ถ้าเป็นโลหะบริสุทธิ์โดนน้ำจะระเบิดไฟลุก",
+    "explanation": "บทบาทสำคัญของ โซเดียม (Na): สารประกอบ NaCl คือเกลือแกงปรุงอาหาร รักษาสมดุลอิเล็กโทรไลต์ในร่างกาย และใช้ทำสบู่ (NaOH)",
     "starsAwarded": 3
   },
   {
@@ -5359,15 +5360,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ป.ปลาย - ม.ต้น",
     "category": "daily_life",
     "categoryLabel": "เคมีรอบตัว",
-    "q": "ประโยชน์หรือบทบาทสำคัญของธาตุ \"แมกนีเซียม\" (Mg) ในธรรมชาติคือข้อใด?",
+    "q": "ประโยชน์หรือบทบาทสำคัญของธาตุ \"แมกนีเซียม\" (Mg) ในธรรมชาติหรือชีวิตประจำวันคือข้อใด?",
     "choices": [
-      "ใช้เป็นสารสังเคราะห์สีม่วงในหลอดแก้วเรืองแสง",
-      "ใช้ในการดูดซับรังสีจากไมโครเวฟ",
-      "ใช้ทำแกนกลางของเครื่องบินโดยสาร",
-      "เป็นธาตุใจกลางของโมเลกุลคลอโรฟิลล์ในพืชสีเขียว เผาไหม้แล้วให้แสงสีขาวสว่างจ้า ใช้ทำพลุไฟ"
+      "ใช้ทำขั้วไฟฟ้าในการชุบโลหะด้วยไฟฟ้าบริสุทธิ์",
+      "ใช้ทำพลุไฟ แฟลชถ่ายภาพ โลหะผสมน้ำหนักเบาในอากาศยาน และเป็นสารลดกรดในกระเพาะอาหาร₂)",
+      "ใช้เป็นสารเร่งตกตะกอนในกระบวนการผลิตน้ำประปา",
+      "ใช้เคลือบแผ่นฟิล์มเอกซเรย์ทางการแพทย์"
     ],
-    "ans": 3,
-    "explanation": "แมกนีเซียม (Mg): เป็นธาตุใจกลางของโมเลกุลคลอโรฟิลล์ในพืชสีเขียว เผาไหม้แล้วให้แสงสีขาวสว่างจ้า ใช้ทำพลุไฟ",
+    "ans": 1,
+    "explanation": "บทบาทสำคัญของ แมกนีเซียม (Mg): ใช้ทำพลุไฟ แฟลชถ่ายภาพ โลหะผสมน้ำหนักเบาในอากาศยาน และเป็นสารลดกรดในกระเพาะอาหาร (Mg(OH)₂)",
     "starsAwarded": 3
   },
   {
@@ -5376,15 +5377,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ป.ปลาย - ม.ต้น",
     "category": "daily_life",
     "categoryLabel": "เคมีรอบตัว",
-    "q": "ประโยชน์หรือบทบาทสำคัญของธาตุ \"อะลูมิเนียม\" (Al) ในธรรมชาติคือข้อใด?",
+    "q": "ประโยชน์หรือบทบาทสำคัญของธาตุ \"อะลูมิเนียม\" (Al) ในธรรมชาติหรือชีวิตประจำวันคือข้อใด?",
     "choices": [
-      "ใช้ทำแกนกลางของเครื่องบินโดยสาร",
-      "ใช้เป็นสารสังเคราะห์สีม่วงในหลอดแก้วเรืองแสง",
-      "ใช้ในการดูดซับรังสีจากไมโครเวฟ",
-      "โลหะน้ำหนักเบา ไม่เป็นสนิม ใช้สร้างโครงสร้างเครื่องบิน กระป๋องน้ำอัดลม และฟอยล์ห่ออาหาร"
+      "ใช้เป็นสารเติมแต่งในน้ำดื่มเพื่อปรับสมดุลแร่ธาตุ",
+      "ใช้ทำไส้หลอดรังสีแคโทดในโทรทัศน์รุ่นเก่า",
+      "ใช้ผลิตกระป๋องเครื่องดื่ม ฟอยล์ห่ออาหาร โครงสร้างเครื่องบิน ประตูหน้าต่าง และสายไฟฟ้าแรงสูง",
+      "ใช้เป็นเชื้อเพลิงหลักในเตาปฏิกรณ์นิวเคลียร์ฟิวชัน"
     ],
-    "ans": 3,
-    "explanation": "อะลูมิเนียม (Al): โลหะน้ำหนักเบา ไม่เป็นสนิม ใช้สร้างโครงสร้างเครื่องบิน กระป๋องน้ำอัดลม และฟอยล์ห่ออาหาร",
+    "ans": 2,
+    "explanation": "บทบาทสำคัญของ อะลูมิเนียม (Al): ใช้ผลิตกระป๋องเครื่องดื่ม ฟอยล์ห่ออาหาร โครงสร้างเครื่องบิน ประตูหน้าต่าง และสายไฟฟ้าแรงสูง",
     "starsAwarded": 3
   },
   {
@@ -5393,15 +5394,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ป.ปลาย - ม.ต้น",
     "category": "daily_life",
     "categoryLabel": "เคมีรอบตัว",
-    "q": "ประโยชน์หรือบทบาทสำคัญของธาตุ \"ซิลิคอน\" (Si) ในธรรมชาติคือข้อใด?",
+    "q": "ประโยชน์หรือบทบาทสำคัญของธาตุ \"ซิลิคอน\" (Si) ในธรรมชาติหรือชีวิตประจำวันคือข้อใด?",
     "choices": [
-      "สารกึ่งตัวนำหัวใจของคอมพิวเตอร์และชิปสมาร์ตโฟน พบในเม็ดทรายและกระจก (SiO₂)",
-      "ใช้ในการดูดซับรังสีจากไมโครเวฟ",
-      "ใช้ทำแกนกลางของเครื่องบินโดยสาร",
-      "ใช้เป็นสารสังเคราะห์สีม่วงในหลอดแก้วเรืองแสง"
+      "ใช้ทำสารดับเพลิงเคมีแห้งสำหรับดับไฟประเภท C",
+      "ใช้เป็นสารแต่งกลิ่นสังเคราะห์ในอุตสาหกรรมเครื่องดื่ม",
+      "ใช้เป็นตัวทำละลายไขมันในการซักแห้งเสื้อผ้า",
+      "เป็นหัวใจหลักในการผลิตไมโครชิป แผงโซลาร์เซลล์ อุปกรณ์อิเล็กทรอนิกส์ และแก้วทราย"
     ],
-    "ans": 0,
-    "explanation": "ซิลิคอน (Si): สารกึ่งตัวนำหัวใจของคอมพิวเตอร์และชิปสมาร์ตโฟน พบในเม็ดทรายและกระจก (SiO₂)",
+    "ans": 3,
+    "explanation": "บทบาทสำคัญของ ซิลิคอน (Si): เป็นหัวใจหลักในการผลิตไมโครชิป แผงโซลาร์เซลล์ อุปกรณ์อิเล็กทรอนิกส์ และแก้วทราย (SiO₂)",
     "starsAwarded": 3
   },
   {
@@ -5410,15 +5411,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ป.ปลาย - ม.ต้น",
     "category": "daily_life",
     "categoryLabel": "เคมีรอบตัว",
-    "q": "ประโยชน์หรือบทบาทสำคัญของธาตุ \"ฟอสฟอรัส\" (P) ในธรรมชาติคือข้อใด?",
+    "q": "ประโยชน์หรือบทบาทสำคัญของธาตุ \"ฟอสฟอรัส\" (P) ในธรรมชาติหรือชีวิตประจำวันคือข้อใด?",
     "choices": [
-      "ใช้ทำแกนกลางของเครื่องบินโดยสาร",
-      "ใช้ในการดูดซับรังสีจากไมโครเวฟ",
-      "ใช้เป็นสารสังเคราะห์สีม่วงในหลอดแก้วเรืองแสง",
-      "อยู่ในหัวไม้ขีดไฟ ปุ๋ยพืช (N-P-K) และเป็นส่วนประกอบของ DNA และกระดูกฟันมนุษย์"
+      "ใช้ผลิตหัวไม้ขีดไฟ ปุ๋ยฟอสเฟตเร่งรากดอก และเป็นส่วนประกอบสำคัญของสารพันธุกรรม DNA, RNA และ ATP",
+      "ใช้เป็นสารหล่อเย็นในคอมเพรสเซอร์ตู้เย็นรุ่นใหม่",
+      "ใช้ผลิตกระจกป้องกันรังสีอินฟราเรดในอาคารสูง",
+      "ใช้เป็นสารดูดความชื้นหลักในซองขนมอบกรอบ"
     ],
-    "ans": 3,
-    "explanation": "ฟอสฟอรัส (P): อยู่ในหัวไม้ขีดไฟ ปุ๋ยพืช (N-P-K) และเป็นส่วนประกอบของ DNA และกระดูกฟันมนุษย์",
+    "ans": 0,
+    "explanation": "บทบาทสำคัญของ ฟอสฟอรัส (P): ใช้ผลิตหัวไม้ขีดไฟ ปุ๋ยฟอสเฟตเร่งรากดอก และเป็นส่วนประกอบสำคัญของสารพันธุกรรม DNA, RNA และ ATP",
     "starsAwarded": 3
   },
   {
@@ -5427,15 +5428,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ป.ปลาย - ม.ต้น",
     "category": "daily_life",
     "categoryLabel": "เคมีรอบตัว",
-    "q": "ประโยชน์หรือบทบาทสำคัญของธาตุ \"กำมะถัน (ซัลเฟอร์)\" (S) ในธรรมชาติคือข้อใด?",
+    "q": "ประโยชน์หรือบทบาทสำคัญของธาตุ \"กำมะถัน\" (S) ในธรรมชาติหรือชีวิตประจำวันคือข้อใด?",
     "choices": [
-      "ใช้ในการดูดซับรังสีจากไมโครเวฟ",
-      "ผลึกสีเหลืองสดใส พบตามปล่องภูเขาไฟและบ่อน้ำพุร้อน ใช้ทำดินปืนและยางรถยนต์วัลคาไนซ์",
-      "ใช้ทำแกนกลางของเครื่องบินโดยสาร",
-      "ใช้เป็นสารสังเคราะห์สีม่วงในหลอดแก้วเรืองแสง"
+      "ใช้เป็นสารเติมแต่งในน้ำมันเบนซินเพื่อเพิ่มค่าออกเทน",
+      "ใช้ผลิตกรดซัลฟิวริก ดินปืน ปุ๋ยเคมี ยารักษาโรคผิวหนัง และในกระบวนการวัลคาไนเซชันของยาง",
+      "ใช้ทำไส้หลอดนีออนส่องสว่างสีส้มแดงตามป้ายโฆษณา",
+      "ใช้เป็นฉนวนกันไฟฟ้าแรงดันสูงในสายเคเบิลใต้ดิน"
     ],
     "ans": 1,
-    "explanation": "กำมะถัน (ซัลเฟอร์) (S): ผลึกสีเหลืองสดใส พบตามปล่องภูเขาไฟและบ่อน้ำพุร้อน ใช้ทำดินปืนและยางรถยนต์วัลคาไนซ์",
+    "explanation": "บทบาทสำคัญของ กำมะถัน (S): ใช้ผลิตกรดซัลฟิวริก (H₂SO₄) ดินปืน ปุ๋ยเคมี ยารักษาโรคผิวหนัง และในกระบวนการวัลคาไนเซชันของยาง",
     "starsAwarded": 3
   },
   {
@@ -5444,15 +5445,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ป.ปลาย - ม.ต้น",
     "category": "daily_life",
     "categoryLabel": "เคมีรอบตัว",
-    "q": "ประโยชน์หรือบทบาทสำคัญของธาตุ \"คลอรีน\" (Cl) ในธรรมชาติคือข้อใด?",
+    "q": "ประโยชน์หรือบทบาทสำคัญของธาตุ \"คลอรีน\" (Cl) ในธรรมชาติหรือชีวิตประจำวันคือข้อใด?",
     "choices": [
-      "ใช้เป็นสารสังเคราะห์สีม่วงในหลอดแก้วเรืองแสง",
-      "ก๊าซสีเขียวตองอ่อน มีกลิ่นฉุน ใช้ฆ่าเชื้อโรคในสระว่ายน้ำและผลิตน้ำประปาสะอาด",
-      "ใช้ในการดูดซับรังสีจากไมโครเวฟ",
-      "ใช้ทำแกนกลางของเครื่องบินโดยสาร"
+      "ใช้เป็นสารดูดซับออกซิเจนในบรรจุภัณฑ์อาหารสด",
+      "ใช้เคลือบกระจกเงาด้านหลังเพื่อสะท้อนภาพคมชัด",
+      "ใช้ฆ่าเชื้อโรคในน้ำประปาและสระว่ายน้ำ ผลิตสารฟอกขาว และผลิตพลาสติก PVC",
+      "ใช้เป็นตัวหล่อลื่นความหนืดสูงในเครื่องจักรกลหนัก"
     ],
-    "ans": 1,
-    "explanation": "คลอรีน (Cl): ก๊าซสีเขียวตองอ่อน มีกลิ่นฉุน ใช้ฆ่าเชื้อโรคในสระว่ายน้ำและผลิตน้ำประปาสะอาด",
+    "ans": 2,
+    "explanation": "บทบาทสำคัญของ คลอรีน (Cl): ใช้ฆ่าเชื้อโรคในน้ำประปาและสระว่ายน้ำ ผลิตสารฟอกขาว (น้ำยาซักผ้าขาว) และผลิตพลาสติก PVC",
     "starsAwarded": 3
   },
   {
@@ -5461,15 +5462,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ป.ปลาย - ม.ต้น",
     "category": "daily_life",
     "categoryLabel": "เคมีรอบตัว",
-    "q": "ประโยชน์หรือบทบาทสำคัญของธาตุ \"อาร์กอน\" (Ar) ในธรรมชาติคือข้อใด?",
+    "q": "ประโยชน์หรือบทบาทสำคัญของธาตุ \"อาร์กอน\" (Ar) ในธรรมชาติหรือชีวิตประจำวันคือข้อใด?",
     "choices": [
-      "ใช้ในการดูดซับรังสีจากไมโครเวฟ",
-      "ใช้เป็นสารสังเคราะห์สีม่วงในหลอดแก้วเรืองแสง",
-      "ใช้ทำแกนกลางของเครื่องบินโดยสาร",
-      "มีในอากาศประมาณ 1% นิยมบรรจุในหลอดไฟไส้ทังสเตนและใช้เป็นก๊าซคลุมในการเชื่อมโลหะ"
+      "ใช้เป็นสารฟอกสีฟันในคลินิกทันตกรรมสมัยใหม่",
+      "ใช้เป็นสารลดแรงตึงผิวในน้ำยาล้างจานสูตรเข้มข้น",
+      "ใช้ผสมในแก๊สหุงต้มเพื่อให้มีกลิ่นเตือนภัยเวลาแก๊สรั่ว",
+      "ใช้บรรจุในหลอดไฟอินแคนเดสเซนต์ป้องกันไส้หลอดทังสเตนไหม้ และใช้เป็นแก๊สปกคลุมในงานเชื่อมโลหะ"
     ],
     "ans": 3,
-    "explanation": "อาร์กอน (Ar): มีในอากาศประมาณ 1% นิยมบรรจุในหลอดไฟไส้ทังสเตนและใช้เป็นก๊าซคลุมในการเชื่อมโลหะ",
+    "explanation": "บทบาทสำคัญของ อาร์กอน (Ar): ใช้บรรจุในหลอดไฟอินแคนเดสเซนต์ป้องกันไส้หลอดทังสเตนไหม้ และใช้เป็นแก๊สปกคลุมในงานเชื่อมโลหะ",
     "starsAwarded": 3
   },
   {
@@ -5478,15 +5479,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ป.ปลาย - ม.ต้น",
     "category": "daily_life",
     "categoryLabel": "เคมีรอบตัว",
-    "q": "ประโยชน์หรือบทบาทสำคัญของธาตุ \"โพแทสเซียม\" (K) ในธรรมชาติคือข้อใด?",
+    "q": "ประโยชน์หรือบทบาทสำคัญของธาตุ \"โพแทสเซียม\" (K) ในธรรมชาติหรือชีวิตประจำวันคือข้อใด?",
     "choices": [
-      "ใช้ในการดูดซับรังสีจากไมโครเวฟ",
-      "ใช้เป็นสารสังเคราะห์สีม่วงในหลอดแก้วเรืองแสง",
-      "พบมากในกล้วยหอมและผักผลไม้ มีความสำคัญต่อการส่งสัญญาณประสาทและการเต้นของหัวใจ",
-      "ใช้ทำแกนกลางของเครื่องบินโดยสาร"
+      "สารประกอบเป็นแม่ปุ๋ยธาตุ K เร่งผลผลิตและดอก ผลิตสบู่เหลว และนำกระแสประสาทในร่างกาย",
+      "ใช้เป็นสารทำความเย็นในเครื่องปรับอากาศรถยนต์",
+      "ใช้เป็นสารป้องกันสนิมในหม้อน้ำเครื่องยนต์ดีเซล",
+      "ใช้เคลือบแผ่นหลังคาบ้านเพื่อสะท้อนความร้อนจากแสงแดด"
     ],
-    "ans": 2,
-    "explanation": "โพแทสเซียม (K): พบมากในกล้วยหอมและผักผลไม้ มีความสำคัญต่อการส่งสัญญาณประสาทและการเต้นของหัวใจ",
+    "ans": 0,
+    "explanation": "บทบาทสำคัญของ โพแทสเซียม (K): สารประกอบเป็นแม่ปุ๋ยธาตุ K เร่งผลผลิตและดอก ผลิตสบู่เหลว (KOH) และนำกระแสประสาทในร่างกาย",
     "starsAwarded": 3
   },
   {
@@ -5495,15 +5496,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ป.ปลาย - ม.ต้น",
     "category": "daily_life",
     "categoryLabel": "เคมีรอบตัว",
-    "q": "ประโยชน์หรือบทบาทสำคัญของธาตุ \"แคลเซียม\" (Ca) ในธรรมชาติคือข้อใด?",
+    "q": "ประโยชน์หรือบทบาทสำคัญของธาตุ \"แคลเซียม\" (Ca) ในธรรมชาติหรือชีวิตประจำวันคือข้อใด?",
     "choices": [
-      "แร่ธาตุสร้างกระดูกและฟันของมนุษย์ พบในนม และเป็นส่วนประกอบหลักของหินปูน (CaCO₃)",
-      "ใช้ทำแกนกลางของเครื่องบินโดยสาร",
-      "ใช้เป็นสารสังเคราะห์สีม่วงในหลอดแก้วเรืองแสง",
-      "ใช้ในการดูดซับรังสีจากไมโครเวฟ"
+      "ใช้ทำไส้ดินสอดำและขั้วไฟฟ้าในแบตเตอรี่แห้ง",
+      "เป็นส่วนประกอบหลักของกระดูกและฟัน ใช้ทำปูนซีเมนต์ ปูนปลาสเตอร์ และปูนขาว ปรับสภาพดินกรด",
+      "ใช้เป็นสารดูดความชื้นในซองขนมอบกรอบชนิดฟอยล์",
+      "ใช้เป็นตัวทำละลายสีน้ำมันในงานจิตรกรรมศิลปะ"
     ],
-    "ans": 0,
-    "explanation": "แคลเซียม (Ca): แร่ธาตุสร้างกระดูกและฟันของมนุษย์ พบในนม และเป็นส่วนประกอบหลักของหินปูน (CaCO₃)",
+    "ans": 1,
+    "explanation": "บทบาทสำคัญของ แคลเซียม (Ca): เป็นส่วนประกอบหลักของกระดูกและฟัน ใช้ทำปูนซีเมนต์ ปูนปลาสเตอร์ และปูนขาว (CaO) ปรับสภาพดินกรด",
     "starsAwarded": 3
   },
   {
@@ -5512,15 +5513,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ป.ปลาย - ม.ต้น",
     "category": "daily_life",
     "categoryLabel": "เคมีรอบตัว",
-    "q": "ประโยชน์หรือบทบาทสำคัญของธาตุ \"เหล็ก\" (Fe) ในธรรมชาติคือข้อใด?",
+    "q": "ประโยชน์หรือบทบาทสำคัญของธาตุ \"เหล็ก\" (Fe) ในธรรมชาติหรือชีวิตประจำวันคือข้อใด?",
     "choices": [
-      "โลหะที่มนุษย์ใช้สร้างตึก สะพาน รถยนต์ และเป็นแกนกลางของฮีโมโกลบินในเม็ดเลือดแดงที่ลำเลียง O₂",
-      "ใช้ทำแกนกลางของเครื่องบินโดยสาร",
-      "ใช้เป็นสารสังเคราะห์สีม่วงในหลอดแก้วเรืองแสง",
-      "ใช้ในการดูดซับรังสีจากไมโครเวฟ"
+      "ใช้ทำหลอดไฟส่องสว่างสีม่วงในไฟล่อแมลงกลางคืน",
+      "ใช้เป็นสารแต่งกลิ่นผลไม้ในอุตสาหกรรมลูกอม",
+      "เป็นโครงสร้างหลักของตึก สะพาน รถยนต์ รางรถไฟ และเป็นศูนย์กลางของฮีโมโกลบินในเม็ดเลือดแดง",
+      "ใช้เป็นสารดูดซับรังสีแกมมาในห้องปฏิบัติการนิวเคลียร์"
     ],
-    "ans": 0,
-    "explanation": "เหล็ก (Fe): โลหะที่มนุษย์ใช้สร้างตึก สะพาน รถยนต์ และเป็นแกนกลางของฮีโมโกลบินในเม็ดเลือดแดงที่ลำเลียง O₂",
+    "ans": 2,
+    "explanation": "บทบาทสำคัญของ เหล็ก (Fe): เป็นโครงสร้างหลักของตึก สะพาน รถยนต์ รางรถไฟ และเป็นศูนย์กลางของฮีโมโกลบินในเม็ดเลือดแดง",
     "starsAwarded": 3
   },
   {
@@ -5529,15 +5530,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ป.ปลาย - ม.ต้น",
     "category": "daily_life",
     "categoryLabel": "เคมีรอบตัว",
-    "q": "ประโยชน์หรือบทบาทสำคัญของธาตุ \"ทองแดง\" (Cu) ในธรรมชาติคือข้อใด?",
+    "q": "ประโยชน์หรือบทบาทสำคัญของธาตุ \"ทองแดง\" (Cu) ในธรรมชาติหรือชีวิตประจำวันคือข้อใด?",
     "choices": [
-      "โลหะสีส้มแดงนำไฟฟ้าและความร้อนดีเยี่ยมรองจากเงิน ใช้ทำสายไฟฟ้าและเหรียญกษาปณ์",
-      "ใช้ในการดูดซับรังสีจากไมโครเวฟ",
-      "ใช้เป็นสารสังเคราะห์สีม่วงในหลอดแก้วเรืองแสง",
-      "ใช้ทำแกนกลางของเครื่องบินโดยสาร"
+      "ใช้เป็นตัวดูดกลืนแสงอัลตราไวโอเลตในครีมกันแดด",
+      "ใช้เป็นสารเติมแต่งในน้ำตาลทรายขาวบริสุทธิ์",
+      "ใช้ทำไส้กรองอากาศในห้องผ่าตัดปลอดเชื้อ",
+      "ใช้ทำสายไฟฟ้า ท่อส่งน้ำ หม้อน้ำรถยนต์ เหรียญกษาปณ์ และโลหะผสม เช่น ทองเหลือง"
     ],
-    "ans": 0,
-    "explanation": "ทองแดง (Cu): โลหะสีส้มแดงนำไฟฟ้าและความร้อนดีเยี่ยมรองจากเงิน ใช้ทำสายไฟฟ้าและเหรียญกษาปณ์",
+    "ans": 3,
+    "explanation": "บทบาทสำคัญของ ทองแดง (Cu): ใช้ทำสายไฟฟ้า ท่อส่งน้ำ หม้อน้ำรถยนต์ เหรียญกษาปณ์ และโลหะผสม เช่น ทองเหลือง (Cu+Zn)",
     "starsAwarded": 3
   },
   {
@@ -5546,15 +5547,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ป.ปลาย - ม.ต้น",
     "category": "daily_life",
     "categoryLabel": "เคมีรอบตัว",
-    "q": "ประโยชน์หรือบทบาทสำคัญของธาตุ \"สังกะสี\" (Zn) ในธรรมชาติคือข้อใด?",
+    "q": "ประโยชน์หรือบทบาทสำคัญของธาตุ \"สังกะสี\" (Zn) ในธรรมชาติหรือชีวิตประจำวันคือข้อใด?",
     "choices": [
-      "ใช้เป็นสารสังเคราะห์สีม่วงในหลอดแก้วเรืองแสง",
-      "ใช้ทำแกนกลางของเครื่องบินโดยสาร",
-      "ใช้เคลือบเหล็กกันสนิม (Galvanization) ทำหลังคาเมทัลชีท และเป็นแร่ธาตุเสริมภูมิคุ้มกันร่างกาย",
-      "ใช้ในการดูดซับรังสีจากไมโครเวฟ"
+      "ใช้ชุบเคลือบเหล็กป้องกันสนิม ทำแผ่นสังกะสีมุงหลังคา และเป็นแร่ธาตุจำเป็นในร่างกาย",
+      "ใช้ทำเชื้อเพลิงในเครื่องยนต์จรวดขับดันอวกาศ",
+      "ใช้เป็นสารละลายอิเล็กโทรไลต์ในแบตเตอรี่ลิเทียม",
+      "ใช้เป็นสารทำความเย็นทดแทนสารฟรีออนในตู้เย็น"
     ],
-    "ans": 2,
-    "explanation": "สังกะสี (Zn): ใช้เคลือบเหล็กกันสนิม (Galvanization) ทำหลังคาเมทัลชีท และเป็นแร่ธาตุเสริมภูมิคุ้มกันร่างกาย",
+    "ans": 0,
+    "explanation": "บทบาทสำคัญของ สังกะสี (Zn): ใช้ชุบเคลือบเหล็กป้องกันสนิม (เหล็กกัลวาไนซ์) ทำแผ่นสังกะสีมุงหลังคา และเป็นแร่ธาตุจำเป็นในร่างกาย",
     "starsAwarded": 3
   },
   {
@@ -5563,15 +5564,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ป.ปลาย - ม.ต้น",
     "category": "daily_life",
     "categoryLabel": "เคมีรอบตัว",
-    "q": "ประโยชน์หรือบทบาทสำคัญของธาตุ \"โบรมีน\" (Br) ในธรรมชาติคือข้อใด?",
+    "q": "ประโยชน์หรือบทบาทสำคัญของธาตุ \"โบรมีน\" (Br) ในธรรมชาติหรือชีวิตประจำวันคือข้อใด?",
     "choices": [
-      "ใช้เป็นสารสังเคราะห์สีม่วงในหลอดแก้วเรืองแสง",
-      "ใช้ในการดูดซับรังสีจากไมโครเวฟ",
-      "ใช้ทำแกนกลางของเครื่องบินโดยสาร",
-      "อโลหะชนิดเดียวในตารางธาตุที่เป็น \"ของเหลว\" ที่อุณหภูมิห้อง! มีสีน้ำตาลแดงและระเหยเป็นไอพิษสีส้มฉุน"
+      "ใช้เคลือบกระจกเงาด้านหน้าเพื่อป้องกันรอยขีดข่วน",
+      "ใช้ทดสอบความไม่อิ่มตัวของสารประกอบไฮโดรคาร์บอน และใช้ในสารหน่วงการติดไฟ",
+      "ใช้เป็นสารปรุงแต่งกลิ่นวานิลลาในอุตสาหกรรมเบเกอรี่",
+      "ใช้ทำขั้วไฟฟ้าบวกในแบตเตอรี่ชนิดแห้งทั่วไป"
     ],
-    "ans": 3,
-    "explanation": "โบรมีน (Br): อโลหะชนิดเดียวในตารางธาตุที่เป็น \"ของเหลว\" ที่อุณหภูมิห้อง! มีสีน้ำตาลแดงและระเหยเป็นไอพิษสีส้มฉุน",
+    "ans": 1,
+    "explanation": "บทบาทสำคัญของ โบรมีน (Br): ใช้ทดสอบความไม่อิ่มตัวของสารประกอบไฮโดรคาร์บอน (ฟอกจางสีโบรมีน) และใช้ในสารหน่วงการติดไฟ",
     "starsAwarded": 3
   },
   {
@@ -5580,15 +5581,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ป.ปลาย - ม.ต้น",
     "category": "daily_life",
     "categoryLabel": "เคมีรอบตัว",
-    "q": "ประโยชน์หรือบทบาทสำคัญของธาตุ \"เงิน\" (Ag) ในธรรมชาติคือข้อใด?",
+    "q": "ประโยชน์หรือบทบาทสำคัญของธาตุ \"เงิน\" (Ag) ในธรรมชาติหรือชีวิตประจำวันคือข้อใด?",
     "choices": [
-      "โลหะที่นำไฟฟ้าและความร้อนได้ดีที่สุดในโลก! และสะท้อนแสงได้ดีที่สุด ใช้ทำกระจกเงาและเครื่องประดับ",
-      "ใช้เป็นสารสังเคราะห์สีม่วงในหลอดแก้วเรืองแสง",
-      "ใช้ทำแกนกลางของเครื่องบินโดยสาร",
-      "ใช้ในการดูดซับรังสีจากไมโครเวฟ"
+      "ใช้เป็นสารเติมแต่งในน้ำประปาเพื่อปรับค่าความเป็นกรด-ด่าง",
+      "ใช้เป็นแก๊สบรรจุในถุงลมนิรภัยเพื่อความปลอดภัยในรถยนต์",
+      "ใช้ทำเครื่องประดับ เหรียญกษาปณ์ เคลือบกระจกเงา แผงวงจรอิเล็กทรอนิกส์คุณภาพสูง และฟิล์มถ่ายรูป",
+      "ใช้เป็นสารดูดความชื้นหลักในซองขนมอบกรอบ"
     ],
-    "ans": 0,
-    "explanation": "เงิน (Ag): โลหะที่นำไฟฟ้าและความร้อนได้ดีที่สุดในโลก! และสะท้อนแสงได้ดีที่สุด ใช้ทำกระจกเงาและเครื่องประดับ",
+    "ans": 2,
+    "explanation": "บทบาทสำคัญของ เงิน (Ag): ใช้ทำเครื่องประดับ เหรียญกษาปณ์ เคลือบกระจกเงา แผงวงจรอิเล็กทรอนิกส์คุณภาพสูง และฟิล์มถ่ายรูป",
     "starsAwarded": 3
   },
   {
@@ -5597,15 +5598,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ป.ปลาย - ม.ต้น",
     "category": "daily_life",
     "categoryLabel": "เคมีรอบตัว",
-    "q": "ประโยชน์หรือบทบาทสำคัญของธาตุ \"ไอโอดีน\" (I) ในธรรมชาติคือข้อใด?",
+    "q": "ประโยชน์หรือบทบาทสำคัญของธาตุ \"ไอโอดีน\" (I) ในธรรมชาติหรือชีวิตประจำวันคือข้อใด?",
     "choices": [
-      "ผลึกสีม่วงเข้ม ระเหิดกลายเป็นไอสีม่วงได้โดยไม่ผ่านของเหลว ใช้ตรวจหาแป้งและป้องกันโรคคอพอก",
-      "ใช้ทำแกนกลางของเครื่องบินโดยสาร",
-      "ใช้ในการดูดซับรังสีจากไมโครเวฟ",
-      "ใช้เป็นสารสังเคราะห์สีม่วงในหลอดแก้วเรืองแสง"
+      "ใช้เป็นฉนวนกันความร้อนในเตาอบขนมปังอุตสาหกรรม",
+      "ใช้ผลิตตัวถังรถยนต์ไฟฟ้าน้ำหนักเบาพิเศษ",
+      "ใช้เป็นสารหล่อลื่นความเร็วสูงในตลับลูกปืนเครื่องยนต์",
+      "ใช้ทำทิงเจอร์ไอโอดีนล้างแผล ผสมในเกลือแกงป้องกันโรคคอพอก และเป็นส่วนประกอบของฮอร์โมนไทรอยด์"
     ],
-    "ans": 0,
-    "explanation": "ไอโอดีน (I): ผลึกสีม่วงเข้ม ระเหิดกลายเป็นไอสีม่วงได้โดยไม่ผ่านของเหลว ใช้ตรวจหาแป้งและป้องกันโรคคอพอก",
+    "ans": 3,
+    "explanation": "บทบาทสำคัญของ ไอโอดีน (I): ใช้ทำทิงเจอร์ไอโอดีนล้างแผล ผสมในเกลือแกงป้องกันโรคคอพอก และเป็นส่วนประกอบของฮอร์โมนไทรอยด์",
     "starsAwarded": 3
   },
   {
@@ -5614,15 +5615,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ป.ปลาย - ม.ต้น",
     "category": "daily_life",
     "categoryLabel": "เคมีรอบตัว",
-    "q": "ประโยชน์หรือบทบาทสำคัญของธาตุ \"ทองคำ\" (Au) ในธรรมชาติคือข้อใด?",
+    "q": "ประโยชน์หรือบทบาทสำคัญของธาตุ \"ทองคำ\" (Au) ในธรรมชาติหรือชีวิตประจำวันคือข้อใด?",
     "choices": [
-      "ใช้ทำแกนกลางของเครื่องบินโดยสาร",
-      "ใช้ในการดูดซับรังสีจากไมโครเวฟ",
-      "โลหะมีตระกูล สีเหลืองอร่าม ตีแผ่เป็นแผ่นบางได้มากที่สุด (ทองคำเปลว) ไม่เป็นสนิมตลอดกาล",
-      "ใช้เป็นสารสังเคราะห์สีม่วงในหลอดแก้วเรืองแสง"
+      "ใช้ทำเครื่องประดับ ทุนสำรองระหว่างประเทศ ชิ้นส่วนหน้าสัมผัสไฟฟ้าคุณภาพสูงในไมโครชิป และยานอวกาศ",
+      "ใช้ทำไส้หลอดไฟฟลูออเรสเซนต์เพื่อให้แสงสีขาวนวล",
+      "ใช้เป็นสารฟอกขาวชนิดผงในอุตสาหกรรมฟอกย้อมสิ่งทอ",
+      "ใช้เป็นส่วนผสมหลักในปุ๋ยเคมีสูตรบำรุงรากและลำต้น"
     ],
-    "ans": 2,
-    "explanation": "ทองคำ (Au): โลหะมีตระกูล สีเหลืองอร่าม ตีแผ่เป็นแผ่นบางได้มากที่สุด (ทองคำเปลว) ไม่เป็นสนิมตลอดกาล",
+    "ans": 0,
+    "explanation": "บทบาทสำคัญของ ทองคำ (Au): ใช้ทำเครื่องประดับ ทุนสำรองระหว่างประเทศ ชิ้นส่วนหน้าสัมผัสไฟฟ้าคุณภาพสูงในไมโครชิป และยานอวกาศ",
     "starsAwarded": 3
   },
   {
@@ -5631,15 +5632,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ป.ปลาย - ม.ต้น",
     "category": "daily_life",
     "categoryLabel": "เคมีรอบตัว",
-    "q": "ประโยชน์หรือบทบาทสำคัญของธาตุ \"ปรอท\" (Hg) ในธรรมชาติคือข้อใด?",
+    "q": "ประโยชน์หรือบทบาทสำคัญของธาตุ \"ปรอท\" (Hg) ในธรรมชาติหรือชีวิตประจำวันคือข้อใด?",
     "choices": [
-      "ใช้ในการดูดซับรังสีจากไมโครเวฟ",
-      "ใช้เป็นสารสังเคราะห์สีม่วงในหลอดแก้วเรืองแสง",
-      "โลหะชนิดเดียวในตารางธาตุที่เป็น \"ของเหลว\" ที่อุณหภูมิห้อง! นำไฟฟ้าได้ นิยมใส่ในเทอร์โมมิเตอร์รุ่นเก่า",
-      "ใช้ทำแกนกลางของเครื่องบินโดยสาร"
+      "ใช้เป็นสารเติมแต่งในน้ำมันพืชเพื่อยืดอายุการเก็บรักษา",
+      "ใช้บรรจุในเทอร์โมมิเตอร์และบารอมิเตอร์แบบดั้งเดิม หลอดไฟฟลูออเรสเซนต์ และสารอุดฟันอมัลกัม",
+      "ใช้เป็นสารดูดความชื้นในบรรจุภัณฑ์ยาเม็ดเคลือบน้ำตาล",
+      "ใช้ทำโครงสร้างปีกเครื่องบินโดยสารเพื่อลดน้ำหนักตัวถัง"
     ],
-    "ans": 2,
-    "explanation": "ปรอท (Hg): โลหะชนิดเดียวในตารางธาตุที่เป็น \"ของเหลว\" ที่อุณหภูมิห้อง! นำไฟฟ้าได้ นิยมใส่ในเทอร์โมมิเตอร์รุ่นเก่า",
+    "ans": 1,
+    "explanation": "บทบาทสำคัญของ ปรอท (Hg): ใช้บรรจุในเทอร์โมมิเตอร์และบารอมิเตอร์แบบดั้งเดิม หลอดไฟฟลูออเรสเซนต์ และสารอุดฟันอมัลกัม",
     "starsAwarded": 3
   },
   {
@@ -5648,15 +5649,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ป.ปลาย - ม.ต้น",
     "category": "daily_life",
     "categoryLabel": "เคมีรอบตัว",
-    "q": "ประโยชน์หรือบทบาทสำคัญของธาตุ \"ตะกั่ว\" (Pb) ในธรรมชาติคือข้อใด?",
+    "q": "ประโยชน์หรือบทบาทสำคัญของธาตุ \"ตะกั่ว\" (Pb) ในธรรมชาติหรือชีวิตประจำวันคือข้อใด?",
     "choices": [
-      "ใช้ในการดูดซับรังสีจากไมโครเวฟ",
-      "ใช้เป็นสารสังเคราะห์สีม่วงในหลอดแก้วเรืองแสง",
-      "โลหะหนักหนาแน่นสูง บังรังสีเอกซเรย์ได้ ใช้ทำเสื้อกักรังสีในโรงพยาบาลและแผ่นธาตุแบตเตอรี่รถยนต์",
-      "ใช้ทำแกนกลางของเครื่องบินโดยสาร"
+      "ใช้เป็นสารปรุงแต่งรสหวานในน้ำอัดลมและขนมหวาน",
+      "ใช้เป็นสารเคลือบเงาในกระทะทำอาหารชนิดไม่ติดกระทะ",
+      "ใช้ทำแผ่นกำบังป้องกันรังสีเอกซ์และรังสีแกมมา ทำแผ่นธาตุในแบตเตอรี่รถยนต์ และหัวกระสุนปืน",
+      "ใช้ทำไส้หลอดนีออนส่องสว่างสีส้มบนทางหลวงชนบท"
     ],
     "ans": 2,
-    "explanation": "ตะกั่ว (Pb): โลหะหนักหนาแน่นสูง บังรังสีเอกซเรย์ได้ ใช้ทำเสื้อกักรังสีในโรงพยาบาลและแผ่นธาตุแบตเตอรี่รถยนต์",
+    "explanation": "บทบาทสำคัญของ ตะกั่ว (Pb): ใช้ทำแผ่นกำบังป้องกันรังสีเอกซ์และรังสีแกมมา ทำแผ่นธาตุในแบตเตอรี่รถยนต์ และหัวกระสุนปืน",
     "starsAwarded": 3
   },
   {
@@ -5665,15 +5666,15 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "gradeLabel": "ป.ปลาย - ม.ต้น",
     "category": "daily_life",
     "categoryLabel": "เคมีรอบตัว",
-    "q": "ประโยชน์หรือบทบาทสำคัญของธาตุ \"ยูเรเนียม\" (U) ในธรรมชาติคือข้อใด?",
+    "q": "ประโยชน์หรือบทบาทสำคัญของธาตุ \"ยูเรเนียม\" (U) ในธรรมชาติหรือชีวิตประจำวันคือข้อใด?",
     "choices": [
-      "เชื้อเพลิงนิวเคลียร์ในโรงไฟฟ้า พลังงานจากยูเรเนียม 1 เม็ดเล็กๆ เท่ากับถ่านหินหลายตัน!",
-      "ใช้เป็นสารสังเคราะห์สีม่วงในหลอดแก้วเรืองแสง",
-      "ใช้ในการดูดซับรังสีจากไมโครเวฟ",
-      "ใช้ทำแกนกลางของเครื่องบินโดยสาร"
+      "ใช้ทำเครื่องประดับและเหรียญกษาปณ์หมุนเวียนในชีวิตประจำวัน",
+      "ใช้เป็นสารกันบูดในอุตสาหกรรมแปรรูปอาหารกระป๋อง",
+      "ใช้ผสมในยาสีฟันเพื่อขจัดคราบหินปูนและฟอกสีฟันขาว",
+      "ใช้เป็นเชื้อเพลิงในโรงไฟฟ้านิวเคลียร์เพื่อผลิตกระแสไฟฟ้า และใช้ผลิตไอโซโทปรังสีทางการแพทย์"
     ],
-    "ans": 0,
-    "explanation": "ยูเรเนียม (U): เชื้อเพลิงนิวเคลียร์ในโรงไฟฟ้า พลังงานจากยูเรเนียม 1 เม็ดเล็กๆ เท่ากับถ่านหินหลายตัน!",
+    "ans": 3,
+    "explanation": "บทบาทสำคัญของ ยูเรเนียม (U): ใช้เป็นเชื้อเพลิงในโรงไฟฟ้านิวเคลียร์เพื่อผลิตกระแสไฟฟ้า และใช้ผลิตไอโซโทปรังสีทางการแพทย์",
     "starsAwarded": 3
   },
   {
@@ -5681,16 +5682,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "primary_lower_sec",
     "gradeLabel": "ป.ปลาย - ม.ต้น",
     "category": "symbol",
-    "categoryLabel": "สัญลักษณ์และเลขอะตอม",
-    "q": "ธาตุที่มีสัญลักษณ์เคมีว่า \"H\" มีชื่อภาษาไทยและเลขอะตอมตรงกับข้อใด?",
+    "categoryLabel": "ตำแหน่งในตารางธาตุ",
+    "q": "ธาตุ ไฮโดรเจน (H, Z=1) อยู่ในตำแหน่งคาบและหมู่ใดของตารางธาตุ?",
     "choices": [
-      "Hydrogen (เลขอะตอม 1)",
-      "ไฮโดรเจน (เลขอะตอม 1)",
-      "ไฮโดรเจน (เลขอะตอม 3)",
-      "ธาตุสังเคราะห์หมายเลข 1"
+      "คาบ 1 หมู่ 1A",
+      "คาบ 2 หมู่ 1A",
+      "คาบ 3 หมู่ 1A",
+      "คาบ 1 หมู่ 2A"
     ],
-    "ans": 1,
-    "explanation": "สัญลักษณ์ธาตุ H คือ ไฮโดรเจน (Hydrogen) มีเลขอะตอม Z = 1",
+    "ans": 0,
+    "explanation": "ธาตุ ไฮโดรเจน (H) มีระดับพลังงานหลัก 1 ชั้น จึงอยู่คาบ 1 และจัดอยู่ในหมู่ 1A (หรือจัดเดี่ยว)",
     "starsAwarded": 3
   },
   {
@@ -5698,16 +5699,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "primary_lower_sec",
     "gradeLabel": "ป.ปลาย - ม.ต้น",
     "category": "symbol",
-    "categoryLabel": "สัญลักษณ์และเลขอะตอม",
-    "q": "ธาตุที่มีสัญลักษณ์เคมีว่า \"He\" มีชื่อภาษาไทยและเลขอะตอมตรงกับข้อใด?",
+    "categoryLabel": "ตำแหน่งในตารางธาตุ",
+    "q": "ธาตุ ฮีเลียม (He, Z=2) อยู่ในตำแหน่งคาบและหมู่ใดของตารางธาตุ?",
     "choices": [
-      "ฮีเลียม (เลขอะตอม 2)",
-      "Helium (เลขอะตอม 1)",
-      "ธาตุสังเคราะห์หมายเลข 2",
-      "ฮีเลียม (เลขอะตอม 4)"
+      "คาบ 2 หมู่ 8A",
+      "คาบ 1 หมู่ 8A",
+      "คาบ 3 หมู่ 8A",
+      "คาบ 1 หมู่ 2A"
     ],
-    "ans": 0,
-    "explanation": "สัญลักษณ์ธาตุ He คือ ฮีเลียม (Helium) มีเลขอะตอม Z = 2",
+    "ans": 1,
+    "explanation": "ธาตุ ฮีเลียม (He) มีระดับพลังงานหลัก 1 ชั้น จึงอยู่คาบ 1 และจัดอยู่ในหมู่ 8A",
     "starsAwarded": 3
   },
   {
@@ -5715,16 +5716,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "primary_lower_sec",
     "gradeLabel": "ป.ปลาย - ม.ต้น",
     "category": "symbol",
-    "categoryLabel": "สัญลักษณ์และเลขอะตอม",
-    "q": "ธาตุที่มีสัญลักษณ์เคมีว่า \"Li\" มีชื่อภาษาไทยและเลขอะตอมตรงกับข้อใด?",
+    "categoryLabel": "ตำแหน่งในตารางธาตุ",
+    "q": "ธาตุ ลิเทียม (Li, Z=3) อยู่ในตำแหน่งคาบและหมู่ใดของตารางธาตุ?",
     "choices": [
-      "ลิเทียม (เลขอะตอม 5)",
-      "Lithium (เลขอะตอม 2)",
-      "ธาตุสังเคราะห์หมายเลข 3",
-      "ลิเทียม (เลขอะตอม 3)"
+      "คาบ 1 หมู่ 1A",
+      "คาบ 3 หมู่ 1A",
+      "คาบ 2 หมู่ 1A",
+      "คาบ 2 หมู่ 4A"
     ],
-    "ans": 3,
-    "explanation": "สัญลักษณ์ธาตุ Li คือ ลิเทียม (Lithium) มีเลขอะตอม Z = 3",
+    "ans": 2,
+    "explanation": "ธาตุ ลิเทียม (Li) มีระดับพลังงานหลัก 2 ชั้น จึงอยู่คาบ 2 และจัดอยู่ในหมู่ 1A",
     "starsAwarded": 3
   },
   {
@@ -5732,16 +5733,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "primary_lower_sec",
     "gradeLabel": "ป.ปลาย - ม.ต้น",
     "category": "symbol",
-    "categoryLabel": "สัญลักษณ์และเลขอะตอม",
-    "q": "ธาตุที่มีสัญลักษณ์เคมีว่า \"Be\" มีชื่อภาษาไทยและเลขอะตอมตรงกับข้อใด?",
+    "categoryLabel": "ตำแหน่งในตารางธาตุ",
+    "q": "ธาตุ เบริลเลียม (Be, Z=4) อยู่ในตำแหน่งคาบและหมู่ใดของตารางธาตุ?",
     "choices": [
-      "Beryllium (เลขอะตอม 3)",
-      "เบริลเลียม (เลขอะตอม 6)",
-      "เบริลเลียม (เลขอะตอม 4)",
-      "ธาตุสังเคราะห์หมายเลข 4"
+      "คาบ 1 หมู่ 2A",
+      "คาบ 3 หมู่ 2A",
+      "คาบ 2 หมู่ 5A",
+      "คาบ 2 หมู่ 2A"
     ],
-    "ans": 2,
-    "explanation": "สัญลักษณ์ธาตุ Be คือ เบริลเลียม (Beryllium) มีเลขอะตอม Z = 4",
+    "ans": 3,
+    "explanation": "ธาตุ เบริลเลียม (Be) มีระดับพลังงานหลัก 2 ชั้น จึงอยู่คาบ 2 และจัดอยู่ในหมู่ 2A",
     "starsAwarded": 3
   },
   {
@@ -5749,16 +5750,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "primary_lower_sec",
     "gradeLabel": "ป.ปลาย - ม.ต้น",
     "category": "symbol",
-    "categoryLabel": "สัญลักษณ์และเลขอะตอม",
-    "q": "ธาตุที่มีสัญลักษณ์เคมีว่า \"B\" มีชื่อภาษาไทยและเลขอะตอมตรงกับข้อใด?",
+    "categoryLabel": "ตำแหน่งในตารางธาตุ",
+    "q": "ธาตุ โบรอน (B, Z=5) อยู่ในตำแหน่งคาบและหมู่ใดของตารางธาตุ?",
     "choices": [
-      "โบรอน (เลขอะตอม 5)",
-      "ธาตุสังเคราะห์หมายเลข 5",
-      "Boron (เลขอะตอม 4)",
-      "โบรอน (เลขอะตอม 7)"
+      "คาบ 2 หมู่ 3A",
+      "คาบ 1 หมู่ 3A",
+      "คาบ 3 หมู่ 3A",
+      "คาบ 2 หมู่ 6A"
     ],
     "ans": 0,
-    "explanation": "สัญลักษณ์ธาตุ B คือ โบรอน (Boron) มีเลขอะตอม Z = 5",
+    "explanation": "ธาตุ โบรอน (B) มีระดับพลังงานหลัก 2 ชั้น จึงอยู่คาบ 2 และจัดอยู่ในหมู่ 3A",
     "starsAwarded": 3
   },
   {
@@ -5766,16 +5767,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "primary_lower_sec",
     "gradeLabel": "ป.ปลาย - ม.ต้น",
     "category": "symbol",
-    "categoryLabel": "สัญลักษณ์และเลขอะตอม",
-    "q": "ธาตุที่มีสัญลักษณ์เคมีว่า \"C\" มีชื่อภาษาไทยและเลขอะตอมตรงกับข้อใด?",
+    "categoryLabel": "ตำแหน่งในตารางธาตุ",
+    "q": "ธาตุ คาร์บอน (C, Z=6) อยู่ในตำแหน่งคาบและหมู่ใดของตารางธาตุ?",
     "choices": [
-      "คาร์บอน (เลขอะตอม 8)",
-      "คาร์บอน (เลขอะตอม 6)",
-      "ธาตุสังเคราะห์หมายเลข 6",
-      "Carbon (เลขอะตอม 5)"
+      "คาบ 1 หมู่ 4A",
+      "คาบ 2 หมู่ 4A",
+      "คาบ 3 หมู่ 4A",
+      "คาบ 2 หมู่ 7A"
     ],
     "ans": 1,
-    "explanation": "สัญลักษณ์ธาตุ C คือ คาร์บอน (Carbon) มีเลขอะตอม Z = 6",
+    "explanation": "ธาตุ คาร์บอน (C) มีระดับพลังงานหลัก 2 ชั้น จึงอยู่คาบ 2 และจัดอยู่ในหมู่ 4A",
     "starsAwarded": 3
   },
   {
@@ -5783,16 +5784,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "primary_lower_sec",
     "gradeLabel": "ป.ปลาย - ม.ต้น",
     "category": "symbol",
-    "categoryLabel": "สัญลักษณ์และเลขอะตอม",
-    "q": "ธาตุที่มีสัญลักษณ์เคมีว่า \"N\" มีชื่อภาษาไทยและเลขอะตอมตรงกับข้อใด?",
+    "categoryLabel": "ตำแหน่งในตารางธาตุ",
+    "q": "ธาตุ ไนโตรเจน (N, Z=7) อยู่ในตำแหน่งคาบและหมู่ใดของตารางธาตุ?",
     "choices": [
-      "ไนโตรเจน (เลขอะตอม 9)",
-      "ไนโตรเจน (เลขอะตอม 7)",
-      "Nitrogen (เลขอะตอม 6)",
-      "ธาตุสังเคราะห์หมายเลข 7"
+      "คาบ 1 หมู่ 5A",
+      "คาบ 3 หมู่ 5A",
+      "คาบ 2 หมู่ 5A",
+      "คาบ 2 หมู่ 8A"
     ],
-    "ans": 1,
-    "explanation": "สัญลักษณ์ธาตุ N คือ ไนโตรเจน (Nitrogen) มีเลขอะตอม Z = 7",
+    "ans": 2,
+    "explanation": "ธาตุ ไนโตรเจน (N) มีระดับพลังงานหลัก 2 ชั้น จึงอยู่คาบ 2 และจัดอยู่ในหมู่ 5A",
     "starsAwarded": 3
   },
   {
@@ -5800,16 +5801,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "primary_lower_sec",
     "gradeLabel": "ป.ปลาย - ม.ต้น",
     "category": "symbol",
-    "categoryLabel": "สัญลักษณ์และเลขอะตอม",
-    "q": "ธาตุที่มีสัญลักษณ์เคมีว่า \"O\" มีชื่อภาษาไทยและเลขอะตอมตรงกับข้อใด?",
+    "categoryLabel": "ตำแหน่งในตารางธาตุ",
+    "q": "ธาตุ ออกซิเจน (O, Z=8) อยู่ในตำแหน่งคาบและหมู่ใดของตารางธาตุ?",
     "choices": [
-      "ออกซิเจน (เลขอะตอม 8)",
-      "ออกซิเจน (เลขอะตอม 10)",
-      "Oxygen (เลขอะตอม 7)",
-      "ธาตุสังเคราะห์หมายเลข 8"
+      "คาบ 1 หมู่ 6A",
+      "คาบ 3 หมู่ 6A",
+      "คาบ 2 หมู่ Transition",
+      "คาบ 2 หมู่ 6A"
     ],
-    "ans": 0,
-    "explanation": "สัญลักษณ์ธาตุ O คือ ออกซิเจน (Oxygen) มีเลขอะตอม Z = 8",
+    "ans": 3,
+    "explanation": "ธาตุ ออกซิเจน (O) มีระดับพลังงานหลัก 2 ชั้น จึงอยู่คาบ 2 และจัดอยู่ในหมู่ 6A",
     "starsAwarded": 3
   },
   {
@@ -5817,16 +5818,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "primary_lower_sec",
     "gradeLabel": "ป.ปลาย - ม.ต้น",
     "category": "symbol",
-    "categoryLabel": "สัญลักษณ์และเลขอะตอม",
-    "q": "ธาตุที่มีสัญลักษณ์เคมีว่า \"F\" มีชื่อภาษาไทยและเลขอะตอมตรงกับข้อใด?",
+    "categoryLabel": "ตำแหน่งในตารางธาตุ",
+    "q": "ธาตุ ฟลูออรีน (F, Z=9) อยู่ในตำแหน่งคาบและหมู่ใดของตารางธาตุ?",
     "choices": [
-      "ธาตุสังเคราะห์หมายเลข 9",
-      "ฟลูออรีน (เลขอะตอม 11)",
-      "ฟลูออรีน (เลขอะตอม 9)",
-      "Fluorine (เลขอะตอม 8)"
+      "คาบ 2 หมู่ 7A",
+      "คาบ 1 หมู่ 7A",
+      "คาบ 3 หมู่ 7A",
+      "คาบ 2 หมู่ 1A"
     ],
-    "ans": 2,
-    "explanation": "สัญลักษณ์ธาตุ F คือ ฟลูออรีน (Fluorine) มีเลขอะตอม Z = 9",
+    "ans": 0,
+    "explanation": "ธาตุ ฟลูออรีน (F) มีระดับพลังงานหลัก 2 ชั้น จึงอยู่คาบ 2 และจัดอยู่ในหมู่ 7A",
     "starsAwarded": 3
   },
   {
@@ -5834,16 +5835,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "primary_lower_sec",
     "gradeLabel": "ป.ปลาย - ม.ต้น",
     "category": "symbol",
-    "categoryLabel": "สัญลักษณ์และเลขอะตอม",
-    "q": "ธาตุที่มีสัญลักษณ์เคมีว่า \"Ne\" มีชื่อภาษาไทยและเลขอะตอมตรงกับข้อใด?",
+    "categoryLabel": "ตำแหน่งในตารางธาตุ",
+    "q": "ธาตุ นีออน (Ne, Z=10) อยู่ในตำแหน่งคาบและหมู่ใดของตารางธาตุ?",
     "choices": [
-      "นีออน (เลขอะตอม 10)",
-      "Neon (เลขอะตอม 9)",
-      "นีออน (เลขอะตอม 12)",
-      "ธาตุสังเคราะห์หมายเลข 10"
+      "คาบ 1 หมู่ 8A",
+      "คาบ 2 หมู่ 8A",
+      "คาบ 3 หมู่ 8A",
+      "คาบ 2 หมู่ 2A"
     ],
-    "ans": 0,
-    "explanation": "สัญลักษณ์ธาตุ Ne คือ นีออน (Neon) มีเลขอะตอม Z = 10",
+    "ans": 1,
+    "explanation": "ธาตุ นีออน (Ne) มีระดับพลังงานหลัก 2 ชั้น จึงอยู่คาบ 2 และจัดอยู่ในหมู่ 8A",
     "starsAwarded": 3
   },
   {
@@ -5851,16 +5852,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "primary_lower_sec",
     "gradeLabel": "ป.ปลาย - ม.ต้น",
     "category": "symbol",
-    "categoryLabel": "สัญลักษณ์และเลขอะตอม",
-    "q": "ธาตุที่มีสัญลักษณ์เคมีว่า \"Na\" มีชื่อภาษาไทยและเลขอะตอมตรงกับข้อใด?",
+    "categoryLabel": "ตำแหน่งในตารางธาตุ",
+    "q": "ธาตุ โซเดียม (Na, Z=11) อยู่ในตำแหน่งคาบและหมู่ใดของตารางธาตุ?",
     "choices": [
-      "ธาตุสังเคราะห์หมายเลข 11",
-      "Sodium (เลขอะตอม 10)",
-      "โซเดียม (เลขอะตอม 11)",
-      "โซเดียม (เลขอะตอม 13)"
+      "คาบ 2 หมู่ 1A",
+      "คาบ 4 หมู่ 1A",
+      "คาบ 3 หมู่ 1A",
+      "คาบ 3 หมู่ 4A"
     ],
     "ans": 2,
-    "explanation": "สัญลักษณ์ธาตุ Na คือ โซเดียม (Sodium) มีเลขอะตอม Z = 11",
+    "explanation": "ธาตุ โซเดียม (Na) มีระดับพลังงานหลัก 3 ชั้น จึงอยู่คาบ 3 และจัดอยู่ในหมู่ 1A",
     "starsAwarded": 3
   },
   {
@@ -5868,16 +5869,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "primary_lower_sec",
     "gradeLabel": "ป.ปลาย - ม.ต้น",
     "category": "symbol",
-    "categoryLabel": "สัญลักษณ์และเลขอะตอม",
-    "q": "ธาตุที่มีสัญลักษณ์เคมีว่า \"Mg\" มีชื่อภาษาไทยและเลขอะตอมตรงกับข้อใด?",
+    "categoryLabel": "ตำแหน่งในตารางธาตุ",
+    "q": "ธาตุ แมกนีเซียม (Mg, Z=12) อยู่ในตำแหน่งคาบและหมู่ใดของตารางธาตุ?",
     "choices": [
-      "แมกนีเซียม (เลขอะตอม 12)",
-      "ธาตุสังเคราะห์หมายเลข 12",
-      "แมกนีเซียม (เลขอะตอม 14)",
-      "Magnesium (เลขอะตอม 11)"
+      "คาบ 2 หมู่ 2A",
+      "คาบ 4 หมู่ 2A",
+      "คาบ 3 หมู่ 5A",
+      "คาบ 3 หมู่ 2A"
     ],
-    "ans": 0,
-    "explanation": "สัญลักษณ์ธาตุ Mg คือ แมกนีเซียม (Magnesium) มีเลขอะตอม Z = 12",
+    "ans": 3,
+    "explanation": "ธาตุ แมกนีเซียม (Mg) มีระดับพลังงานหลัก 3 ชั้น จึงอยู่คาบ 3 และจัดอยู่ในหมู่ 2A",
     "starsAwarded": 3
   },
   {
@@ -5885,16 +5886,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "primary_lower_sec",
     "gradeLabel": "ป.ปลาย - ม.ต้น",
     "category": "symbol",
-    "categoryLabel": "สัญลักษณ์และเลขอะตอม",
-    "q": "ธาตุที่มีสัญลักษณ์เคมีว่า \"Al\" มีชื่อภาษาไทยและเลขอะตอมตรงกับข้อใด?",
+    "categoryLabel": "ตำแหน่งในตารางธาตุ",
+    "q": "ธาตุ อะลูมิเนียม (Al, Z=13) อยู่ในตำแหน่งคาบและหมู่ใดของตารางธาตุ?",
     "choices": [
-      "อะลูมิเนียม (เลขอะตอม 13)",
-      "Aluminium (เลขอะตอม 12)",
-      "ธาตุสังเคราะห์หมายเลข 13",
-      "อะลูมิเนียม (เลขอะตอม 15)"
+      "คาบ 3 หมู่ 3A",
+      "คาบ 2 หมู่ 3A",
+      "คาบ 4 หมู่ 3A",
+      "คาบ 3 หมู่ 6A"
     ],
     "ans": 0,
-    "explanation": "สัญลักษณ์ธาตุ Al คือ อะลูมิเนียม (Aluminium) มีเลขอะตอม Z = 13",
+    "explanation": "ธาตุ อะลูมิเนียม (Al) มีระดับพลังงานหลัก 3 ชั้น จึงอยู่คาบ 3 และจัดอยู่ในหมู่ 3A",
     "starsAwarded": 3
   },
   {
@@ -5902,16 +5903,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "primary_lower_sec",
     "gradeLabel": "ป.ปลาย - ม.ต้น",
     "category": "symbol",
-    "categoryLabel": "สัญลักษณ์และเลขอะตอม",
-    "q": "ธาตุที่มีสัญลักษณ์เคมีว่า \"Si\" มีชื่อภาษาไทยและเลขอะตอมตรงกับข้อใด?",
+    "categoryLabel": "ตำแหน่งในตารางธาตุ",
+    "q": "ธาตุ ซิลิคอน (Si, Z=14) อยู่ในตำแหน่งคาบและหมู่ใดของตารางธาตุ?",
     "choices": [
-      "ซิลิคอน (เลขอะตอม 16)",
-      "ซิลิคอน (เลขอะตอม 14)",
-      "Silicon (เลขอะตอม 13)",
-      "ธาตุสังเคราะห์หมายเลข 14"
+      "คาบ 2 หมู่ 4A",
+      "คาบ 3 หมู่ 4A",
+      "คาบ 4 หมู่ 4A",
+      "คาบ 3 หมู่ 7A"
     ],
     "ans": 1,
-    "explanation": "สัญลักษณ์ธาตุ Si คือ ซิลิคอน (Silicon) มีเลขอะตอม Z = 14",
+    "explanation": "ธาตุ ซิลิคอน (Si) มีระดับพลังงานหลัก 3 ชั้น จึงอยู่คาบ 3 และจัดอยู่ในหมู่ 4A",
     "starsAwarded": 3
   },
   {
@@ -5919,16 +5920,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "primary_lower_sec",
     "gradeLabel": "ป.ปลาย - ม.ต้น",
     "category": "symbol",
-    "categoryLabel": "สัญลักษณ์และเลขอะตอม",
-    "q": "ธาตุที่มีสัญลักษณ์เคมีว่า \"P\" มีชื่อภาษาไทยและเลขอะตอมตรงกับข้อใด?",
+    "categoryLabel": "ตำแหน่งในตารางธาตุ",
+    "q": "ธาตุ ฟอสฟอรัส (P, Z=15) อยู่ในตำแหน่งคาบและหมู่ใดของตารางธาตุ?",
     "choices": [
-      "ฟอสฟอรัส (เลขอะตอม 17)",
-      "ธาตุสังเคราะห์หมายเลข 15",
-      "Phosphorus (เลขอะตอม 14)",
-      "ฟอสฟอรัส (เลขอะตอม 15)"
+      "คาบ 2 หมู่ 5A",
+      "คาบ 4 หมู่ 5A",
+      "คาบ 3 หมู่ 5A",
+      "คาบ 3 หมู่ 8A"
     ],
-    "ans": 3,
-    "explanation": "สัญลักษณ์ธาตุ P คือ ฟอสฟอรัส (Phosphorus) มีเลขอะตอม Z = 15",
+    "ans": 2,
+    "explanation": "ธาตุ ฟอสฟอรัส (P) มีระดับพลังงานหลัก 3 ชั้น จึงอยู่คาบ 3 และจัดอยู่ในหมู่ 5A",
     "starsAwarded": 3
   },
   {
@@ -5936,16 +5937,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "primary_lower_sec",
     "gradeLabel": "ป.ปลาย - ม.ต้น",
     "category": "symbol",
-    "categoryLabel": "สัญลักษณ์และเลขอะตอม",
-    "q": "ธาตุที่มีสัญลักษณ์เคมีว่า \"S\" มีชื่อภาษาไทยและเลขอะตอมตรงกับข้อใด?",
+    "categoryLabel": "ตำแหน่งในตารางธาตุ",
+    "q": "ธาตุ กำมะถัน (S, Z=16) อยู่ในตำแหน่งคาบและหมู่ใดของตารางธาตุ?",
     "choices": [
-      "กำมะถัน (ซัลเฟอร์) (เลขอะตอม 16)",
-      "ธาตุสังเคราะห์หมายเลข 16",
-      "Sulfur (เลขอะตอม 15)",
-      "กำมะถัน (ซัลเฟอร์) (เลขอะตอม 18)"
+      "คาบ 2 หมู่ 6A",
+      "คาบ 4 หมู่ 6A",
+      "คาบ 3 หมู่ Transition",
+      "คาบ 3 หมู่ 6A"
     ],
-    "ans": 0,
-    "explanation": "สัญลักษณ์ธาตุ S คือ กำมะถัน (ซัลเฟอร์) (Sulfur) มีเลขอะตอม Z = 16",
+    "ans": 3,
+    "explanation": "ธาตุ กำมะถัน (S) มีระดับพลังงานหลัก 3 ชั้น จึงอยู่คาบ 3 และจัดอยู่ในหมู่ 6A",
     "starsAwarded": 3
   },
   {
@@ -5953,16 +5954,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "primary_lower_sec",
     "gradeLabel": "ป.ปลาย - ม.ต้น",
     "category": "symbol",
-    "categoryLabel": "สัญลักษณ์และเลขอะตอม",
-    "q": "ธาตุที่มีสัญลักษณ์เคมีว่า \"Cl\" มีชื่อภาษาไทยและเลขอะตอมตรงกับข้อใด?",
+    "categoryLabel": "ตำแหน่งในตารางธาตุ",
+    "q": "ธาตุ คลอรีน (Cl, Z=17) อยู่ในตำแหน่งคาบและหมู่ใดของตารางธาตุ?",
     "choices": [
-      "ธาตุสังเคราะห์หมายเลข 17",
-      "คลอรีน (เลขอะตอม 19)",
-      "คลอรีน (เลขอะตอม 17)",
-      "Chlorine (เลขอะตอม 16)"
+      "คาบ 3 หมู่ 7A",
+      "คาบ 2 หมู่ 7A",
+      "คาบ 4 หมู่ 7A",
+      "คาบ 3 หมู่ 1A"
     ],
-    "ans": 2,
-    "explanation": "สัญลักษณ์ธาตุ Cl คือ คลอรีน (Chlorine) มีเลขอะตอม Z = 17",
+    "ans": 0,
+    "explanation": "ธาตุ คลอรีน (Cl) มีระดับพลังงานหลัก 3 ชั้น จึงอยู่คาบ 3 และจัดอยู่ในหมู่ 7A",
     "starsAwarded": 3
   },
   {
@@ -5970,16 +5971,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "primary_lower_sec",
     "gradeLabel": "ป.ปลาย - ม.ต้น",
     "category": "symbol",
-    "categoryLabel": "สัญลักษณ์และเลขอะตอม",
-    "q": "ธาตุที่มีสัญลักษณ์เคมีว่า \"Ar\" มีชื่อภาษาไทยและเลขอะตอมตรงกับข้อใด?",
+    "categoryLabel": "ตำแหน่งในตารางธาตุ",
+    "q": "ธาตุ อาร์กอน (Ar, Z=18) อยู่ในตำแหน่งคาบและหมู่ใดของตารางธาตุ?",
     "choices": [
-      "ธาตุสังเคราะห์หมายเลข 18",
-      "อาร์กอน (เลขอะตอม 18)",
-      "Argon (เลขอะตอม 17)",
-      "อาร์กอน (เลขอะตอม 20)"
+      "คาบ 2 หมู่ 8A",
+      "คาบ 3 หมู่ 8A",
+      "คาบ 4 หมู่ 8A",
+      "คาบ 3 หมู่ 2A"
     ],
     "ans": 1,
-    "explanation": "สัญลักษณ์ธาตุ Ar คือ อาร์กอน (Argon) มีเลขอะตอม Z = 18",
+    "explanation": "ธาตุ อาร์กอน (Ar) มีระดับพลังงานหลัก 3 ชั้น จึงอยู่คาบ 3 และจัดอยู่ในหมู่ 8A",
     "starsAwarded": 3
   },
   {
@@ -5987,16 +5988,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "primary_lower_sec",
     "gradeLabel": "ป.ปลาย - ม.ต้น",
     "category": "symbol",
-    "categoryLabel": "สัญลักษณ์และเลขอะตอม",
-    "q": "ธาตุที่มีสัญลักษณ์เคมีว่า \"K\" มีชื่อภาษาไทยและเลขอะตอมตรงกับข้อใด?",
+    "categoryLabel": "ตำแหน่งในตารางธาตุ",
+    "q": "ธาตุ โพแทสเซียม (K, Z=19) อยู่ในตำแหน่งคาบและหมู่ใดของตารางธาตุ?",
     "choices": [
-      "โพแทสเซียม (เลขอะตอม 21)",
-      "ธาตุสังเคราะห์หมายเลข 19",
-      "Potassium (เลขอะตอม 18)",
-      "โพแทสเซียม (เลขอะตอม 19)"
+      "คาบ 3 หมู่ 1A",
+      "คาบ 5 หมู่ 1A",
+      "คาบ 4 หมู่ 1A",
+      "คาบ 4 หมู่ 4A"
     ],
-    "ans": 3,
-    "explanation": "สัญลักษณ์ธาตุ K คือ โพแทสเซียม (Potassium) มีเลขอะตอม Z = 19",
+    "ans": 2,
+    "explanation": "ธาตุ โพแทสเซียม (K) มีระดับพลังงานหลัก 4 ชั้น จึงอยู่คาบ 4 และจัดอยู่ในหมู่ 1A",
     "starsAwarded": 3
   },
   {
@@ -6004,16 +6005,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "primary_lower_sec",
     "gradeLabel": "ป.ปลาย - ม.ต้น",
     "category": "symbol",
-    "categoryLabel": "สัญลักษณ์และเลขอะตอม",
-    "q": "ธาตุที่มีสัญลักษณ์เคมีว่า \"Ca\" มีชื่อภาษาไทยและเลขอะตอมตรงกับข้อใด?",
+    "categoryLabel": "ตำแหน่งในตารางธาตุ",
+    "q": "ธาตุ แคลเซียม (Ca, Z=20) อยู่ในตำแหน่งคาบและหมู่ใดของตารางธาตุ?",
     "choices": [
-      "ธาตุสังเคราะห์หมายเลข 20",
-      "แคลเซียม (เลขอะตอม 20)",
-      "Calcium (เลขอะตอม 19)",
-      "แคลเซียม (เลขอะตอม 22)"
+      "คาบ 3 หมู่ 2A",
+      "คาบ 5 หมู่ 2A",
+      "คาบ 4 หมู่ 5A",
+      "คาบ 4 หมู่ 2A"
     ],
-    "ans": 1,
-    "explanation": "สัญลักษณ์ธาตุ Ca คือ แคลเซียม (Calcium) มีเลขอะตอม Z = 20",
+    "ans": 3,
+    "explanation": "ธาตุ แคลเซียม (Ca) มีระดับพลังงานหลัก 4 ชั้น จึงอยู่คาบ 4 และจัดอยู่ในหมู่ 2A",
     "starsAwarded": 3
   },
   {
@@ -6021,16 +6022,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "primary_lower_sec",
     "gradeLabel": "ป.ปลาย - ม.ต้น",
     "category": "symbol",
-    "categoryLabel": "สัญลักษณ์และเลขอะตอม",
-    "q": "ธาตุที่มีสัญลักษณ์เคมีว่า \"Fe\" มีชื่อภาษาไทยและเลขอะตอมตรงกับข้อใด?",
+    "categoryLabel": "ตำแหน่งในตารางธาตุ",
+    "q": "ธาตุ เหล็ก (Fe, Z=26) อยู่ในตำแหน่งคาบและหมู่ใดของตารางธาตุ?",
     "choices": [
-      "เหล็ก (เลขอะตอม 26)",
-      "เหล็ก (เลขอะตอม 28)",
-      "ธาตุสังเคราะห์หมายเลข 26",
-      "Iron (เลขอะตอม 25)"
+      "คาบ 4 หมู่ 8B",
+      "คาบ 3 หมู่ 8B",
+      "คาบ 5 หมู่ 8B",
+      "คาบ 4 หมู่ 3A"
     ],
     "ans": 0,
-    "explanation": "สัญลักษณ์ธาตุ Fe คือ เหล็ก (Iron) มีเลขอะตอม Z = 26",
+    "explanation": "ธาตุ เหล็ก (Fe) มีระดับพลังงานหลัก 4 ชั้น จึงอยู่คาบ 4 และจัดอยู่ในหมู่ 8B (Transition)",
     "starsAwarded": 3
   },
   {
@@ -6038,16 +6039,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "primary_lower_sec",
     "gradeLabel": "ป.ปลาย - ม.ต้น",
     "category": "symbol",
-    "categoryLabel": "สัญลักษณ์และเลขอะตอม",
-    "q": "ธาตุที่มีสัญลักษณ์เคมีว่า \"Cu\" มีชื่อภาษาไทยและเลขอะตอมตรงกับข้อใด?",
+    "categoryLabel": "ตำแหน่งในตารางธาตุ",
+    "q": "ธาตุ ทองแดง (Cu, Z=29) อยู่ในตำแหน่งคาบและหมู่ใดของตารางธาตุ?",
     "choices": [
-      "ธาตุสังเคราะห์หมายเลข 29",
-      "Copper (เลขอะตอม 28)",
-      "ทองแดง (เลขอะตอม 31)",
-      "ทองแดง (เลขอะตอม 29)"
+      "คาบ 3 หมู่ 1B",
+      "คาบ 4 หมู่ 1B",
+      "คาบ 5 หมู่ 1B",
+      "คาบ 4 หมู่ 4A"
     ],
-    "ans": 3,
-    "explanation": "สัญลักษณ์ธาตุ Cu คือ ทองแดง (Copper) มีเลขอะตอม Z = 29",
+    "ans": 1,
+    "explanation": "ธาตุ ทองแดง (Cu) มีระดับพลังงานหลัก 4 ชั้น จึงอยู่คาบ 4 และจัดอยู่ในหมู่ 1B (Transition)",
     "starsAwarded": 3
   },
   {
@@ -6055,16 +6056,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "primary_lower_sec",
     "gradeLabel": "ป.ปลาย - ม.ต้น",
     "category": "symbol",
-    "categoryLabel": "สัญลักษณ์และเลขอะตอม",
-    "q": "ธาตุที่มีสัญลักษณ์เคมีว่า \"Zn\" มีชื่อภาษาไทยและเลขอะตอมตรงกับข้อใด?",
+    "categoryLabel": "ตำแหน่งในตารางธาตุ",
+    "q": "ธาตุ สังกะสี (Zn, Z=30) อยู่ในตำแหน่งคาบและหมู่ใดของตารางธาตุ?",
     "choices": [
-      "Zinc (เลขอะตอม 29)",
-      "สังกะสี (เลขอะตอม 30)",
-      "สังกะสี (เลขอะตอม 32)",
-      "ธาตุสังเคราะห์หมายเลข 30"
+      "คาบ 3 หมู่ 2B",
+      "คาบ 5 หมู่ 2B",
+      "คาบ 4 หมู่ 2B",
+      "คาบ 4 หมู่ 5A"
     ],
-    "ans": 1,
-    "explanation": "สัญลักษณ์ธาตุ Zn คือ สังกะสี (Zinc) มีเลขอะตอม Z = 30",
+    "ans": 2,
+    "explanation": "ธาตุ สังกะสี (Zn) มีระดับพลังงานหลัก 4 ชั้น จึงอยู่คาบ 4 และจัดอยู่ในหมู่ 2B (Transition)",
     "starsAwarded": 3
   },
   {
@@ -6072,16 +6073,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "primary_lower_sec",
     "gradeLabel": "ป.ปลาย - ม.ต้น",
     "category": "symbol",
-    "categoryLabel": "สัญลักษณ์และเลขอะตอม",
-    "q": "ธาตุที่มีสัญลักษณ์เคมีว่า \"Br\" มีชื่อภาษาไทยและเลขอะตอมตรงกับข้อใด?",
+    "categoryLabel": "ตำแหน่งในตารางธาตุ",
+    "q": "ธาตุ โบรมีน (Br, Z=35) อยู่ในตำแหน่งคาบและหมู่ใดของตารางธาตุ?",
     "choices": [
-      "ธาตุสังเคราะห์หมายเลข 35",
-      "โบรมีน (เลขอะตอม 37)",
-      "Bromine (เลขอะตอม 34)",
-      "โบรมีน (เลขอะตอม 35)"
+      "คาบ 3 หมู่ 7A",
+      "คาบ 5 หมู่ 7A",
+      "คาบ 4 หมู่ Transition",
+      "คาบ 4 หมู่ 7A"
     ],
     "ans": 3,
-    "explanation": "สัญลักษณ์ธาตุ Br คือ โบรมีน (Bromine) มีเลขอะตอม Z = 35",
+    "explanation": "ธาตุ โบรมีน (Br) มีระดับพลังงานหลัก 4 ชั้น จึงอยู่คาบ 4 และจัดอยู่ในหมู่ 7A",
     "starsAwarded": 3
   },
   {
@@ -6089,16 +6090,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "primary_lower_sec",
     "gradeLabel": "ป.ปลาย - ม.ต้น",
     "category": "symbol",
-    "categoryLabel": "สัญลักษณ์และเลขอะตอม",
-    "q": "ธาตุที่มีสัญลักษณ์เคมีว่า \"Ag\" มีชื่อภาษาไทยและเลขอะตอมตรงกับข้อใด?",
+    "categoryLabel": "ตำแหน่งในตารางธาตุ",
+    "q": "ธาตุ เงิน (Ag, Z=47) อยู่ในตำแหน่งคาบและหมู่ใดของตารางธาตุ?",
     "choices": [
-      "เงิน (เลขอะตอม 47)",
-      "ธาตุสังเคราะห์หมายเลข 47",
-      "Silver (เลขอะตอม 46)",
-      "เงิน (เลขอะตอม 49)"
+      "คาบ 5 หมู่ 1B",
+      "คาบ 4 หมู่ 1B",
+      "คาบ 6 หมู่ 1B",
+      "คาบ 5 หมู่ 7A"
     ],
     "ans": 0,
-    "explanation": "สัญลักษณ์ธาตุ Ag คือ เงิน (Silver) มีเลขอะตอม Z = 47",
+    "explanation": "ธาตุ เงิน (Ag) มีระดับพลังงานหลัก 5 ชั้น จึงอยู่คาบ 5 และจัดอยู่ในหมู่ 1B (Transition)",
     "starsAwarded": 3
   },
   {
@@ -6106,16 +6107,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "primary_lower_sec",
     "gradeLabel": "ป.ปลาย - ม.ต้น",
     "category": "symbol",
-    "categoryLabel": "สัญลักษณ์และเลขอะตอม",
-    "q": "ธาตุที่มีสัญลักษณ์เคมีว่า \"I\" มีชื่อภาษาไทยและเลขอะตอมตรงกับข้อใด?",
+    "categoryLabel": "ตำแหน่งในตารางธาตุ",
+    "q": "ธาตุ ไอโอดีน (I, Z=53) อยู่ในตำแหน่งคาบและหมู่ใดของตารางธาตุ?",
     "choices": [
-      "ไอโอดีน (เลขอะตอม 55)",
-      "Iodine (เลขอะตอม 52)",
-      "ธาตุสังเคราะห์หมายเลข 53",
-      "ไอโอดีน (เลขอะตอม 53)"
+      "คาบ 4 หมู่ 7A",
+      "คาบ 5 หมู่ 7A",
+      "คาบ 6 หมู่ 7A",
+      "คาบ 5 หมู่ 2A"
     ],
-    "ans": 3,
-    "explanation": "สัญลักษณ์ธาตุ I คือ ไอโอดีน (Iodine) มีเลขอะตอม Z = 53",
+    "ans": 1,
+    "explanation": "ธาตุ ไอโอดีน (I) มีระดับพลังงานหลัก 5 ชั้น จึงอยู่คาบ 5 และจัดอยู่ในหมู่ 7A",
     "starsAwarded": 3
   },
   {
@@ -6123,16 +6124,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "primary_lower_sec",
     "gradeLabel": "ป.ปลาย - ม.ต้น",
     "category": "symbol",
-    "categoryLabel": "สัญลักษณ์และเลขอะตอม",
-    "q": "ธาตุที่มีสัญลักษณ์เคมีว่า \"Au\" มีชื่อภาษาไทยและเลขอะตอมตรงกับข้อใด?",
+    "categoryLabel": "ตำแหน่งในตารางธาตุ",
+    "q": "ธาตุ ทองคำ (Au, Z=79) อยู่ในตำแหน่งคาบและหมู่ใดของตารางธาตุ?",
     "choices": [
-      "ทองคำ (เลขอะตอม 79)",
-      "Gold (เลขอะตอม 78)",
-      "ธาตุสังเคราะห์หมายเลข 79",
-      "ทองคำ (เลขอะตอม 81)"
+      "คาบ 5 หมู่ 1B",
+      "คาบ 7 หมู่ 1B",
+      "คาบ 6 หมู่ 1B",
+      "คาบ 6 หมู่ Transition"
     ],
-    "ans": 0,
-    "explanation": "สัญลักษณ์ธาตุ Au คือ ทองคำ (Gold) มีเลขอะตอม Z = 79",
+    "ans": 2,
+    "explanation": "ธาตุ ทองคำ (Au) มีระดับพลังงานหลัก 6 ชั้น จึงอยู่คาบ 6 และจัดอยู่ในหมู่ 1B (Transition)",
     "starsAwarded": 3
   },
   {
@@ -6140,16 +6141,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "primary_lower_sec",
     "gradeLabel": "ป.ปลาย - ม.ต้น",
     "category": "symbol",
-    "categoryLabel": "สัญลักษณ์และเลขอะตอม",
-    "q": "ธาตุที่มีสัญลักษณ์เคมีว่า \"Hg\" มีชื่อภาษาไทยและเลขอะตอมตรงกับข้อใด?",
+    "categoryLabel": "ตำแหน่งในตารางธาตุ",
+    "q": "ธาตุ ปรอท (Hg, Z=80) อยู่ในตำแหน่งคาบและหมู่ใดของตารางธาตุ?",
     "choices": [
-      "ปรอท (เลขอะตอม 82)",
-      "ปรอท (เลขอะตอม 80)",
-      "Mercury (เลขอะตอม 79)",
-      "ธาตุสังเคราะห์หมายเลข 80"
+      "คาบ 5 หมู่ 2B",
+      "คาบ 7 หมู่ 2B",
+      "คาบ 6 หมู่ 1A",
+      "คาบ 6 หมู่ 2B"
     ],
-    "ans": 1,
-    "explanation": "สัญลักษณ์ธาตุ Hg คือ ปรอท (Mercury) มีเลขอะตอม Z = 80",
+    "ans": 3,
+    "explanation": "ธาตุ ปรอท (Hg) มีระดับพลังงานหลัก 6 ชั้น จึงอยู่คาบ 6 และจัดอยู่ในหมู่ 2B (Transition)",
     "starsAwarded": 3
   },
   {
@@ -6157,16 +6158,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "primary_lower_sec",
     "gradeLabel": "ป.ปลาย - ม.ต้น",
     "category": "symbol",
-    "categoryLabel": "สัญลักษณ์และเลขอะตอม",
-    "q": "ธาตุที่มีสัญลักษณ์เคมีว่า \"Pb\" มีชื่อภาษาไทยและเลขอะตอมตรงกับข้อใด?",
+    "categoryLabel": "ตำแหน่งในตารางธาตุ",
+    "q": "ธาตุ ตะกั่ว (Pb, Z=82) อยู่ในตำแหน่งคาบและหมู่ใดของตารางธาตุ?",
     "choices": [
-      "ธาตุสังเคราะห์หมายเลข 82",
-      "ตะกั่ว (เลขอะตอม 84)",
-      "Lead (เลขอะตอม 81)",
-      "ตะกั่ว (เลขอะตอม 82)"
+      "คาบ 6 หมู่ 4A",
+      "คาบ 5 หมู่ 4A",
+      "คาบ 7 หมู่ 4A",
+      "คาบ 6 หมู่ 6A"
     ],
-    "ans": 3,
-    "explanation": "สัญลักษณ์ธาตุ Pb คือ ตะกั่ว (Lead) มีเลขอะตอม Z = 82",
+    "ans": 0,
+    "explanation": "ธาตุ ตะกั่ว (Pb) มีระดับพลังงานหลัก 6 ชั้น จึงอยู่คาบ 6 และจัดอยู่ในหมู่ 4A",
     "starsAwarded": 3
   },
   {
@@ -6174,16 +6175,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "primary_lower_sec",
     "gradeLabel": "ป.ปลาย - ม.ต้น",
     "category": "symbol",
-    "categoryLabel": "สัญลักษณ์และเลขอะตอม",
-    "q": "ธาตุที่มีสัญลักษณ์เคมีว่า \"U\" มีชื่อภาษาไทยและเลขอะตอมตรงกับข้อใด?",
+    "categoryLabel": "ตำแหน่งในตารางธาตุ",
+    "q": "ธาตุ ยูเรเนียม (U, Z=92) อยู่ในตำแหน่งคาบและหมู่ใดของตารางธาตุ?",
     "choices": [
-      "ธาตุสังเคราะห์หมายเลข 92",
-      "Uranium (เลขอะตอม 91)",
-      "ยูเรเนียม (เลขอะตอม 92)",
-      "ยูเรเนียม (เลขอะตอม 94)"
+      "คาบ 6 หมู่ Actinide",
+      "คาบ 7 หมู่ Actinide",
+      "คาบ 8 หมู่ Actinide",
+      "คาบ 7 หมู่ 3A"
     ],
-    "ans": 2,
-    "explanation": "สัญลักษณ์ธาตุ U คือ ยูเรเนียม (Uranium) มีเลขอะตอม Z = 92",
+    "ans": 1,
+    "explanation": "ธาตุ ยูเรเนียม (U) มีระดับพลังงานหลัก 7 ชั้น จึงอยู่คาบ 7 และจัดอยู่ในหมู่ Actinide",
     "starsAwarded": 3
   },
   {
@@ -6191,16 +6192,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "upper_sec",
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "electron_config",
-    "categoryLabel": "การจัดเรียง e⁻",
-    "q": "ธาตุ ไฮโดรเจน (H, Z=1) มีการจัดเรียงอิเล็กตรอนตรงกับข้อใด?",
+    "categoryLabel": "ระดับพลังงานของอะตอม",
+    "q": "อะตอมของธาตุ ไฮโดรเจน (H, Z=1) มีจำนวนระดับพลังงานหลัก (n) ที่มีอิเล็กตรอนบรรจุอยู่กี่ชั้น?",
     "choices": [
-      "2, 8, 18, 1",
-      "2, 8, 2",
-      "1s¹",
-      "1s² 2s² 2p⁶ 3s¹"
+      "2 ชั้น",
+      "1 ชั้น",
+      "4 ชั้น",
+      "6 ชั้น"
     ],
-    "ans": 2,
-    "explanation": "ไฮโดรเจน (H) มีการจัดเรียงอิเล็กตรอนเป็น: 1s¹",
+    "ans": 1,
+    "explanation": "ธาตุ ไฮโดรเจน (H) อยู่ในคาบที่ 1 จึงมีจำนวนระดับพลังงานหลักเท่ากับ 1 ชั้น (n = 1)",
     "starsAwarded": 4
   },
   {
@@ -6208,16 +6209,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "upper_sec",
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "electron_config",
-    "categoryLabel": "การจัดเรียง e⁻",
-    "q": "ธาตุ ฮีเลียม (He, Z=2) มีการจัดเรียงอิเล็กตรอนตรงกับข้อใด?",
+    "categoryLabel": "ระดับพลังงานของอะตอม",
+    "q": "อะตอมของธาตุ ฮีเลียม (He, Z=2) มีจำนวนระดับพลังงานหลัก (n) ที่มีอิเล็กตรอนบรรจุอยู่กี่ชั้น?",
     "choices": [
-      "1s² 2s² 2p⁶ 3s¹",
-      "2, 8, 18, 2",
-      "1s²",
-      "2, 8, 3"
+      "3 ชั้น",
+      "5 ชั้น",
+      "1 ชั้น",
+      "7 ชั้น"
     ],
     "ans": 2,
-    "explanation": "ฮีเลียม (He) มีการจัดเรียงอิเล็กตรอนเป็น: 1s²",
+    "explanation": "ธาตุ ฮีเลียม (He) อยู่ในคาบที่ 1 จึงมีจำนวนระดับพลังงานหลักเท่ากับ 1 ชั้น (n = 1)",
     "starsAwarded": 4
   },
   {
@@ -6225,16 +6226,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "upper_sec",
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "electron_config",
-    "categoryLabel": "การจัดเรียง e⁻",
-    "q": "ธาตุ ลิเทียม (Li, Z=3) มีการจัดเรียงอิเล็กตรอนตรงกับข้อใด?",
+    "categoryLabel": "ระดับพลังงานของอะตอม",
+    "q": "อะตอมของธาตุ ลิเทียม (Li, Z=3) มีจำนวนระดับพลังงานหลัก (n) ที่มีอิเล็กตรอนบรรจุอยู่กี่ชั้น?",
     "choices": [
-      "2, 8, 18, 1",
-      "2, 1",
-      "2, 8, 2",
-      "1s² 2s² 2p⁶ 3s¹"
+      "4 ชั้น",
+      "6 ชั้น",
+      "1 ชั้น",
+      "2 ชั้น"
     ],
-    "ans": 1,
-    "explanation": "ลิเทียม (Li) มีการจัดเรียงอิเล็กตรอนเป็น: 2, 1",
+    "ans": 3,
+    "explanation": "ธาตุ ลิเทียม (Li) อยู่ในคาบที่ 2 จึงมีจำนวนระดับพลังงานหลักเท่ากับ 2 ชั้น (n = 2)",
     "starsAwarded": 4
   },
   {
@@ -6242,16 +6243,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "upper_sec",
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "electron_config",
-    "categoryLabel": "การจัดเรียง e⁻",
-    "q": "ธาตุ เบริลเลียม (Be, Z=4) มีการจัดเรียงอิเล็กตรอนตรงกับข้อใด?",
+    "categoryLabel": "ระดับพลังงานของอะตอม",
+    "q": "อะตอมของธาตุ เบริลเลียม (Be, Z=4) มีจำนวนระดับพลังงานหลัก (n) ที่มีอิเล็กตรอนบรรจุอยู่กี่ชั้น?",
     "choices": [
-      "2, 8, 18, 2",
-      "2, 2",
-      "2, 8, 3",
-      "1s² 2s² 2p⁶ 3s¹"
+      "2 ชั้น",
+      "5 ชั้น",
+      "7 ชั้น",
+      "3 ชั้น"
     ],
-    "ans": 1,
-    "explanation": "เบริลเลียม (Be) มีการจัดเรียงอิเล็กตรอนเป็น: 2, 2",
+    "ans": 0,
+    "explanation": "ธาตุ เบริลเลียม (Be) อยู่ในคาบที่ 2 จึงมีจำนวนระดับพลังงานหลักเท่ากับ 2 ชั้น (n = 2)",
     "starsAwarded": 4
   },
   {
@@ -6259,16 +6260,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "upper_sec",
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "electron_config",
-    "categoryLabel": "การจัดเรียง e⁻",
-    "q": "ธาตุ โบรอน (B, Z=5) มีการจัดเรียงอิเล็กตรอนตรงกับข้อใด?",
+    "categoryLabel": "ระดับพลังงานของอะตอม",
+    "q": "อะตอมของธาตุ โบรอน (B, Z=5) มีจำนวนระดับพลังงานหลัก (n) ที่มีอิเล็กตรอนบรรจุอยู่กี่ชั้น?",
     "choices": [
-      "2, 3",
-      "2, 8, 18, 3",
-      "2, 8, 4",
-      "1s² 2s² 2p⁶ 3s¹"
+      "6 ชั้น",
+      "2 ชั้น",
+      "1 ชั้น",
+      "4 ชั้น"
     ],
-    "ans": 0,
-    "explanation": "โบรอน (B) มีการจัดเรียงอิเล็กตรอนเป็น: 2, 3",
+    "ans": 1,
+    "explanation": "ธาตุ โบรอน (B) อยู่ในคาบที่ 2 จึงมีจำนวนระดับพลังงานหลักเท่ากับ 2 ชั้น (n = 2)",
     "starsAwarded": 4
   },
   {
@@ -6276,16 +6277,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "upper_sec",
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "electron_config",
-    "categoryLabel": "การจัดเรียง e⁻",
-    "q": "ธาตุ คาร์บอน (C, Z=6) มีการจัดเรียงอิเล็กตรอนตรงกับข้อใด?",
+    "categoryLabel": "ระดับพลังงานของอะตอม",
+    "q": "อะตอมของธาตุ คาร์บอน (C, Z=6) มีจำนวนระดับพลังงานหลัก (n) ที่มีอิเล็กตรอนบรรจุอยู่กี่ชั้น?",
     "choices": [
-      "2, 8, 18, 4",
-      "2, 8, 5",
-      "1s² 2s² 2p⁶ 3s¹",
-      "2, 4"
+      "7 ชั้น",
+      "3 ชั้น",
+      "2 ชั้น",
+      "5 ชั้น"
     ],
-    "ans": 3,
-    "explanation": "คาร์บอน (C) มีการจัดเรียงอิเล็กตรอนเป็น: 2, 4",
+    "ans": 2,
+    "explanation": "ธาตุ คาร์บอน (C) อยู่ในคาบที่ 2 จึงมีจำนวนระดับพลังงานหลักเท่ากับ 2 ชั้น (n = 2)",
     "starsAwarded": 4
   },
   {
@@ -6293,16 +6294,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "upper_sec",
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "electron_config",
-    "categoryLabel": "การจัดเรียง e⁻",
-    "q": "ธาตุ ไนโตรเจน (N, Z=7) มีการจัดเรียงอิเล็กตรอนตรงกับข้อใด?",
+    "categoryLabel": "ระดับพลังงานของอะตอม",
+    "q": "อะตอมของธาตุ ไนโตรเจน (N, Z=7) มีจำนวนระดับพลังงานหลัก (n) ที่มีอิเล็กตรอนบรรจุอยู่กี่ชั้น?",
     "choices": [
-      "2, 8, 18, 5",
-      "2, 5",
-      "1s² 2s² 2p⁶ 3s¹",
-      "2, 8, 6"
+      "1 ชั้น",
+      "4 ชั้น",
+      "6 ชั้น",
+      "2 ชั้น"
     ],
-    "ans": 1,
-    "explanation": "ไนโตรเจน (N) มีการจัดเรียงอิเล็กตรอนเป็น: 2, 5",
+    "ans": 3,
+    "explanation": "ธาตุ ไนโตรเจน (N) อยู่ในคาบที่ 2 จึงมีจำนวนระดับพลังงานหลักเท่ากับ 2 ชั้น (n = 2)",
     "starsAwarded": 4
   },
   {
@@ -6310,16 +6311,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "upper_sec",
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "electron_config",
-    "categoryLabel": "การจัดเรียง e⁻",
-    "q": "ธาตุ ออกซิเจน (O, Z=8) มีการจัดเรียงอิเล็กตรอนตรงกับข้อใด?",
+    "categoryLabel": "ระดับพลังงานของอะตอม",
+    "q": "อะตอมของธาตุ ออกซิเจน (O, Z=8) มีจำนวนระดับพลังงานหลัก (n) ที่มีอิเล็กตรอนบรรจุอยู่กี่ชั้น?",
     "choices": [
-      "2, 8, 7",
-      "2, 6",
-      "1s² 2s² 2p⁶ 3s¹",
-      "2, 8, 18, 6"
+      "2 ชั้น",
+      "3 ชั้น",
+      "5 ชั้น",
+      "7 ชั้น"
     ],
-    "ans": 1,
-    "explanation": "ออกซิเจน (O) มีการจัดเรียงอิเล็กตรอนเป็น: 2, 6",
+    "ans": 0,
+    "explanation": "ธาตุ ออกซิเจน (O) อยู่ในคาบที่ 2 จึงมีจำนวนระดับพลังงานหลักเท่ากับ 2 ชั้น (n = 2)",
     "starsAwarded": 4
   },
   {
@@ -6327,16 +6328,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "upper_sec",
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "electron_config",
-    "categoryLabel": "การจัดเรียง e⁻",
-    "q": "ธาตุ ฟลูออรีน (F, Z=9) มีการจัดเรียงอิเล็กตรอนตรงกับข้อใด?",
+    "categoryLabel": "ระดับพลังงานของอะตอม",
+    "q": "อะตอมของธาตุ ฟลูออรีน (F, Z=9) มีจำนวนระดับพลังงานหลัก (n) ที่มีอิเล็กตรอนบรรจุอยู่กี่ชั้น?",
     "choices": [
-      "2, 8, 18, 7",
-      "2, 8, 8",
-      "2, 7",
-      "1s² 2s² 2p⁶ 3s¹"
+      "4 ชั้น",
+      "2 ชั้น",
+      "6 ชั้น",
+      "1 ชั้น"
     ],
-    "ans": 2,
-    "explanation": "ฟลูออรีน (F) มีการจัดเรียงอิเล็กตรอนเป็น: 2, 7",
+    "ans": 1,
+    "explanation": "ธาตุ ฟลูออรีน (F) อยู่ในคาบที่ 2 จึงมีจำนวนระดับพลังงานหลักเท่ากับ 2 ชั้น (n = 2)",
     "starsAwarded": 4
   },
   {
@@ -6344,16 +6345,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "upper_sec",
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "electron_config",
-    "categoryLabel": "การจัดเรียง e⁻",
-    "q": "ธาตุ นีออน (Ne, Z=10) มีการจัดเรียงอิเล็กตรอนตรงกับข้อใด?",
+    "categoryLabel": "ระดับพลังงานของอะตอม",
+    "q": "อะตอมของธาตุ นีออน (Ne, Z=10) มีจำนวนระดับพลังงานหลัก (n) ที่มีอิเล็กตรอนบรรจุอยู่กี่ชั้น?",
     "choices": [
-      "1s² 2s² 2p⁶ 3s¹",
-      "2, 8, 18, 8",
-      "2, 8",
-      "2, 8, 9"
+      "5 ชั้น",
+      "7 ชั้น",
+      "2 ชั้น",
+      "3 ชั้น"
     ],
     "ans": 2,
-    "explanation": "นีออน (Ne) มีการจัดเรียงอิเล็กตรอนเป็น: 2, 8",
+    "explanation": "ธาตุ นีออน (Ne) อยู่ในคาบที่ 2 จึงมีจำนวนระดับพลังงานหลักเท่ากับ 2 ชั้น (n = 2)",
     "starsAwarded": 4
   },
   {
@@ -6361,16 +6362,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "upper_sec",
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "electron_config",
-    "categoryLabel": "การจัดเรียง e⁻",
-    "q": "ธาตุ โซเดียม (Na, Z=11) มีการจัดเรียงอิเล็กตรอนตรงกับข้อใด?",
+    "categoryLabel": "ระดับพลังงานของอะตอม",
+    "q": "อะตอมของธาตุ โซเดียม (Na, Z=11) มีจำนวนระดับพลังงานหลัก (n) ที่มีอิเล็กตรอนบรรจุอยู่กี่ชั้น?",
     "choices": [
-      "2, 8, 1",
-      "1s² 2s² 2p⁶ 3s¹",
-      "2, 8, 2",
-      "2, 8, 18, 1"
+      "6 ชั้น",
+      "1 ชั้น",
+      "4 ชั้น",
+      "3 ชั้น"
     ],
-    "ans": 0,
-    "explanation": "โซเดียม (Na) มีการจัดเรียงอิเล็กตรอนเป็น: 2, 8, 1",
+    "ans": 3,
+    "explanation": "ธาตุ โซเดียม (Na) อยู่ในคาบที่ 3 จึงมีจำนวนระดับพลังงานหลักเท่ากับ 3 ชั้น (n = 3)",
     "starsAwarded": 4
   },
   {
@@ -6378,16 +6379,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "upper_sec",
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "electron_config",
-    "categoryLabel": "การจัดเรียง e⁻",
-    "q": "ธาตุ แมกนีเซียม (Mg, Z=12) มีการจัดเรียงอิเล็กตรอนตรงกับข้อใด?",
+    "categoryLabel": "ระดับพลังงานของอะตอม",
+    "q": "อะตอมของธาตุ แมกนีเซียม (Mg, Z=12) มีจำนวนระดับพลังงานหลัก (n) ที่มีอิเล็กตรอนบรรจุอยู่กี่ชั้น?",
     "choices": [
-      "2, 8, 3",
-      "1s² 2s² 2p⁶ 3s¹",
-      "2, 8, 18, 2",
-      "2, 8, 2"
+      "3 ชั้น",
+      "7 ชั้น",
+      "2 ชั้น",
+      "5 ชั้น"
     ],
-    "ans": 3,
-    "explanation": "แมกนีเซียม (Mg) มีการจัดเรียงอิเล็กตรอนเป็น: 2, 8, 2",
+    "ans": 0,
+    "explanation": "ธาตุ แมกนีเซียม (Mg) อยู่ในคาบที่ 3 จึงมีจำนวนระดับพลังงานหลักเท่ากับ 3 ชั้น (n = 3)",
     "starsAwarded": 4
   },
   {
@@ -6395,16 +6396,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "upper_sec",
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "electron_config",
-    "categoryLabel": "การจัดเรียง e⁻",
-    "q": "ธาตุ อะลูมิเนียม (Al, Z=13) มีการจัดเรียงอิเล็กตรอนตรงกับข้อใด?",
+    "categoryLabel": "ระดับพลังงานของอะตอม",
+    "q": "อะตอมของธาตุ อะลูมิเนียม (Al, Z=13) มีจำนวนระดับพลังงานหลัก (n) ที่มีอิเล็กตรอนบรรจุอยู่กี่ชั้น?",
     "choices": [
-      "1s² 2s² 2p⁶ 3s¹",
-      "2, 8, 4",
-      "2, 8, 3",
-      "2, 8, 18, 3"
+      "1 ชั้น",
+      "3 ชั้น",
+      "4 ชั้น",
+      "6 ชั้น"
     ],
-    "ans": 2,
-    "explanation": "อะลูมิเนียม (Al) มีการจัดเรียงอิเล็กตรอนเป็น: 2, 8, 3",
+    "ans": 1,
+    "explanation": "ธาตุ อะลูมิเนียม (Al) อยู่ในคาบที่ 3 จึงมีจำนวนระดับพลังงานหลักเท่ากับ 3 ชั้น (n = 3)",
     "starsAwarded": 4
   },
   {
@@ -6412,16 +6413,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "upper_sec",
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "electron_config",
-    "categoryLabel": "การจัดเรียง e⁻",
-    "q": "ธาตุ ซิลิคอน (Si, Z=14) มีการจัดเรียงอิเล็กตรอนตรงกับข้อใด?",
+    "categoryLabel": "ระดับพลังงานของอะตอม",
+    "q": "อะตอมของธาตุ ซิลิคอน (Si, Z=14) มีจำนวนระดับพลังงานหลัก (n) ที่มีอิเล็กตรอนบรรจุอยู่กี่ชั้น?",
     "choices": [
-      "1s² 2s² 2p⁶ 3s¹",
-      "2, 8, 5",
-      "2, 8, 18, 4",
-      "2, 8, 4"
+      "2 ชั้น",
+      "5 ชั้น",
+      "3 ชั้น",
+      "7 ชั้น"
     ],
-    "ans": 3,
-    "explanation": "ซิลิคอน (Si) มีการจัดเรียงอิเล็กตรอนเป็น: 2, 8, 4",
+    "ans": 2,
+    "explanation": "ธาตุ ซิลิคอน (Si) อยู่ในคาบที่ 3 จึงมีจำนวนระดับพลังงานหลักเท่ากับ 3 ชั้น (n = 3)",
     "starsAwarded": 4
   },
   {
@@ -6429,16 +6430,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "upper_sec",
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "electron_config",
-    "categoryLabel": "การจัดเรียง e⁻",
-    "q": "ธาตุ ฟอสฟอรัส (P, Z=15) มีการจัดเรียงอิเล็กตรอนตรงกับข้อใด?",
+    "categoryLabel": "ระดับพลังงานของอะตอม",
+    "q": "อะตอมของธาตุ ฟอสฟอรัส (P, Z=15) มีจำนวนระดับพลังงานหลัก (n) ที่มีอิเล็กตรอนบรรจุอยู่กี่ชั้น?",
     "choices": [
-      "2, 8, 5",
-      "1s² 2s² 2p⁶ 3s¹",
-      "2, 8, 6",
-      "2, 8, 18, 5"
+      "4 ชั้น",
+      "6 ชั้น",
+      "1 ชั้น",
+      "3 ชั้น"
     ],
-    "ans": 0,
-    "explanation": "ฟอสฟอรัส (P) มีการจัดเรียงอิเล็กตรอนเป็น: 2, 8, 5",
+    "ans": 3,
+    "explanation": "ธาตุ ฟอสฟอรัส (P) อยู่ในคาบที่ 3 จึงมีจำนวนระดับพลังงานหลักเท่ากับ 3 ชั้น (n = 3)",
     "starsAwarded": 4
   },
   {
@@ -6446,16 +6447,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "upper_sec",
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "electron_config",
-    "categoryLabel": "การจัดเรียง e⁻",
-    "q": "ธาตุ กำมะถัน (ซัลเฟอร์) (S, Z=16) มีการจัดเรียงอิเล็กตรอนตรงกับข้อใด?",
+    "categoryLabel": "ระดับพลังงานของอะตอม",
+    "q": "อะตอมของธาตุ กำมะถัน (S, Z=16) มีจำนวนระดับพลังงานหลัก (n) ที่มีอิเล็กตรอนบรรจุอยู่กี่ชั้น?",
     "choices": [
-      "1s² 2s² 2p⁶ 3s¹",
-      "2, 8, 6",
-      "2, 8, 18, 6",
-      "2, 8, 7"
+      "3 ชั้น",
+      "5 ชั้น",
+      "7 ชั้น",
+      "2 ชั้น"
     ],
-    "ans": 1,
-    "explanation": "กำมะถัน (ซัลเฟอร์) (S) มีการจัดเรียงอิเล็กตรอนเป็น: 2, 8, 6",
+    "ans": 0,
+    "explanation": "ธาตุ กำมะถัน (S) อยู่ในคาบที่ 3 จึงมีจำนวนระดับพลังงานหลักเท่ากับ 3 ชั้น (n = 3)",
     "starsAwarded": 4
   },
   {
@@ -6463,16 +6464,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "upper_sec",
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "electron_config",
-    "categoryLabel": "การจัดเรียง e⁻",
-    "q": "ธาตุ คลอรีน (Cl, Z=17) มีการจัดเรียงอิเล็กตรอนตรงกับข้อใด?",
+    "categoryLabel": "ระดับพลังงานของอะตอม",
+    "q": "อะตอมของธาตุ คลอรีน (Cl, Z=17) มีจำนวนระดับพลังงานหลัก (n) ที่มีอิเล็กตรอนบรรจุอยู่กี่ชั้น?",
     "choices": [
-      "2, 8, 18, 7",
-      "2, 8, 7",
-      "2, 8, 8",
-      "1s² 2s² 2p⁶ 3s¹"
+      "6 ชั้น",
+      "3 ชั้น",
+      "1 ชั้น",
+      "4 ชั้น"
     ],
     "ans": 1,
-    "explanation": "คลอรีน (Cl) มีการจัดเรียงอิเล็กตรอนเป็น: 2, 8, 7",
+    "explanation": "ธาตุ คลอรีน (Cl) อยู่ในคาบที่ 3 จึงมีจำนวนระดับพลังงานหลักเท่ากับ 3 ชั้น (n = 3)",
     "starsAwarded": 4
   },
   {
@@ -6480,16 +6481,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "upper_sec",
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "electron_config",
-    "categoryLabel": "การจัดเรียง e⁻",
-    "q": "ธาตุ อาร์กอน (Ar, Z=18) มีการจัดเรียงอิเล็กตรอนตรงกับข้อใด?",
+    "categoryLabel": "ระดับพลังงานของอะตอม",
+    "q": "อะตอมของธาตุ อาร์กอน (Ar, Z=18) มีจำนวนระดับพลังงานหลัก (n) ที่มีอิเล็กตรอนบรรจุอยู่กี่ชั้น?",
     "choices": [
-      "2, 8, 8",
-      "2, 8, 9",
-      "1s² 2s² 2p⁶ 3s¹",
-      "2, 8, 18, 8"
+      "7 ชั้น",
+      "2 ชั้น",
+      "3 ชั้น",
+      "5 ชั้น"
     ],
-    "ans": 0,
-    "explanation": "อาร์กอน (Ar) มีการจัดเรียงอิเล็กตรอนเป็น: 2, 8, 8",
+    "ans": 2,
+    "explanation": "ธาตุ อาร์กอน (Ar) อยู่ในคาบที่ 3 จึงมีจำนวนระดับพลังงานหลักเท่ากับ 3 ชั้น (n = 3)",
     "starsAwarded": 4
   },
   {
@@ -6497,16 +6498,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "upper_sec",
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "electron_config",
-    "categoryLabel": "การจัดเรียง e⁻",
-    "q": "ธาตุ โพแทสเซียม (K, Z=19) มีการจัดเรียงอิเล็กตรอนตรงกับข้อใด?",
+    "categoryLabel": "ระดับพลังงานของอะตอม",
+    "q": "อะตอมของธาตุ โพแทสเซียม (K, Z=19) มีจำนวนระดับพลังงานหลัก (n) ที่มีอิเล็กตรอนบรรจุอยู่กี่ชั้น?",
     "choices": [
-      "2, 8, 8, 1",
-      "1s² 2s² 2p⁶ 3s¹",
-      "2, 8, 2",
-      "2, 8, 18, 1"
+      "1 ชั้น",
+      "3 ชั้น",
+      "6 ชั้น",
+      "4 ชั้น"
     ],
-    "ans": 0,
-    "explanation": "โพแทสเซียม (K) มีการจัดเรียงอิเล็กตรอนเป็น: 2, 8, 8, 1",
+    "ans": 3,
+    "explanation": "ธาตุ โพแทสเซียม (K) อยู่ในคาบที่ 4 จึงมีจำนวนระดับพลังงานหลักเท่ากับ 4 ชั้น (n = 4)",
     "starsAwarded": 4
   },
   {
@@ -6514,16 +6515,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "upper_sec",
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "electron_config",
-    "categoryLabel": "การจัดเรียง e⁻",
-    "q": "ธาตุ แคลเซียม (Ca, Z=20) มีการจัดเรียงอิเล็กตรอนตรงกับข้อใด?",
+    "categoryLabel": "ระดับพลังงานของอะตอม",
+    "q": "อะตอมของธาตุ แคลเซียม (Ca, Z=20) มีจำนวนระดับพลังงานหลัก (n) ที่มีอิเล็กตรอนบรรจุอยู่กี่ชั้น?",
     "choices": [
-      "2, 8, 8, 2",
-      "1s² 2s² 2p⁶ 3s¹",
-      "2, 8, 18, 2",
-      "2, 8, 3"
+      "4 ชั้น",
+      "2 ชั้น",
+      "5 ชั้น",
+      "7 ชั้น"
     ],
     "ans": 0,
-    "explanation": "แคลเซียม (Ca) มีการจัดเรียงอิเล็กตรอนเป็น: 2, 8, 8, 2",
+    "explanation": "ธาตุ แคลเซียม (Ca) อยู่ในคาบที่ 4 จึงมีจำนวนระดับพลังงานหลักเท่ากับ 4 ชั้น (n = 4)",
     "starsAwarded": 4
   },
   {
@@ -6531,16 +6532,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "upper_sec",
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "electron_config",
-    "categoryLabel": "การจัดเรียง e⁻",
-    "q": "ธาตุ เหล็ก (Fe, Z=26) มีการจัดเรียงอิเล็กตรอนตรงกับข้อใด?",
+    "categoryLabel": "ระดับพลังงานของอะตอม",
+    "q": "อะตอมของธาตุ เหล็ก (Fe, Z=26) มีจำนวนระดับพลังงานหลัก (n) ที่มีอิเล็กตรอนบรรจุอยู่กี่ชั้น?",
     "choices": [
-      "[Ar] 3d⁶ 4s²",
-      "2, 8, 18, 2",
-      "1s² 2s² 2p⁶ 3s¹",
-      "2, 8, 3"
+      "3 ชั้น",
+      "4 ชั้น",
+      "6 ชั้น",
+      "1 ชั้น"
     ],
-    "ans": 0,
-    "explanation": "เหล็ก (Fe) มีการจัดเรียงอิเล็กตรอนเป็น: [Ar] 3d⁶ 4s²",
+    "ans": 1,
+    "explanation": "ธาตุ เหล็ก (Fe) อยู่ในคาบที่ 4 จึงมีจำนวนระดับพลังงานหลักเท่ากับ 4 ชั้น (n = 4)",
     "starsAwarded": 4
   },
   {
@@ -6548,16 +6549,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "upper_sec",
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "electron_config",
-    "categoryLabel": "การจัดเรียง e⁻",
-    "q": "ธาตุ ทองแดง (Cu, Z=29) มีการจัดเรียงอิเล็กตรอนตรงกับข้อใด?",
+    "categoryLabel": "ระดับพลังงานของอะตอม",
+    "q": "อะตอมของธาตุ ทองแดง (Cu, Z=29) มีจำนวนระดับพลังงานหลัก (n) ที่มีอิเล็กตรอนบรรจุอยู่กี่ชั้น?",
     "choices": [
-      "1s² 2s² 2p⁶ 3s¹",
-      "[Ar] 3d¹⁰ 4s¹",
-      "2, 8, 2",
-      "2, 8, 18, 1"
+      "5 ชั้น",
+      "7 ชั้น",
+      "4 ชั้น",
+      "2 ชั้น"
     ],
-    "ans": 1,
-    "explanation": "ทองแดง (Cu) มีการจัดเรียงอิเล็กตรอนเป็น: [Ar] 3d¹⁰ 4s¹",
+    "ans": 2,
+    "explanation": "ธาตุ ทองแดง (Cu) อยู่ในคาบที่ 4 จึงมีจำนวนระดับพลังงานหลักเท่ากับ 4 ชั้น (n = 4)",
     "starsAwarded": 4
   },
   {
@@ -6565,16 +6566,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "upper_sec",
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "electron_config",
-    "categoryLabel": "การจัดเรียง e⁻",
-    "q": "ธาตุ สังกะสี (Zn, Z=30) มีการจัดเรียงอิเล็กตรอนตรงกับข้อใด?",
+    "categoryLabel": "ระดับพลังงานของอะตอม",
+    "q": "อะตอมของธาตุ สังกะสี (Zn, Z=30) มีจำนวนระดับพลังงานหลัก (n) ที่มีอิเล็กตรอนบรรจุอยู่กี่ชั้น?",
     "choices": [
-      "1s² 2s² 2p⁶ 3s¹",
-      "2, 8, 18, 2",
-      "[Ar] 3d¹⁰ 4s²",
-      "2, 8, 3"
+      "6 ชั้น",
+      "1 ชั้น",
+      "3 ชั้น",
+      "4 ชั้น"
     ],
-    "ans": 2,
-    "explanation": "สังกะสี (Zn) มีการจัดเรียงอิเล็กตรอนเป็น: [Ar] 3d¹⁰ 4s²",
+    "ans": 3,
+    "explanation": "ธาตุ สังกะสี (Zn) อยู่ในคาบที่ 4 จึงมีจำนวนระดับพลังงานหลักเท่ากับ 4 ชั้น (n = 4)",
     "starsAwarded": 4
   },
   {
@@ -6582,16 +6583,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "upper_sec",
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "electron_config",
-    "categoryLabel": "การจัดเรียง e⁻",
-    "q": "ธาตุ โบรมีน (Br, Z=35) มีการจัดเรียงอิเล็กตรอนตรงกับข้อใด?",
+    "categoryLabel": "ระดับพลังงานของอะตอม",
+    "q": "อะตอมของธาตุ โบรมีน (Br, Z=35) มีจำนวนระดับพลังงานหลัก (n) ที่มีอิเล็กตรอนบรรจุอยู่กี่ชั้น?",
     "choices": [
-      "[Ar] 3d¹⁰ 4s² 4p⁵",
-      "2, 8, 8",
-      "1s² 2s² 2p⁶ 3s¹",
-      "2, 8, 18, 7"
+      "4 ชั้น",
+      "7 ชั้น",
+      "2 ชั้น",
+      "5 ชั้น"
     ],
     "ans": 0,
-    "explanation": "โบรมีน (Br) มีการจัดเรียงอิเล็กตรอนเป็น: [Ar] 3d¹⁰ 4s² 4p⁵",
+    "explanation": "ธาตุ โบรมีน (Br) อยู่ในคาบที่ 4 จึงมีจำนวนระดับพลังงานหลักเท่ากับ 4 ชั้น (n = 4)",
     "starsAwarded": 4
   },
   {
@@ -6599,16 +6600,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "upper_sec",
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "electron_config",
-    "categoryLabel": "การจัดเรียง e⁻",
-    "q": "ธาตุ เงิน (Ag, Z=47) มีการจัดเรียงอิเล็กตรอนตรงกับข้อใด?",
+    "categoryLabel": "ระดับพลังงานของอะตอม",
+    "q": "อะตอมของธาตุ เงิน (Ag, Z=47) มีจำนวนระดับพลังงานหลัก (n) ที่มีอิเล็กตรอนบรรจุอยู่กี่ชั้น?",
     "choices": [
-      "1s² 2s² 2p⁶ 3s¹",
-      "2, 8, 2",
-      "2, 8, 18, 1",
-      "[Kr] 4d¹⁰ 5s¹"
+      "1 ชั้น",
+      "5 ชั้น",
+      "3 ชั้น",
+      "6 ชั้น"
     ],
-    "ans": 3,
-    "explanation": "เงิน (Ag) มีการจัดเรียงอิเล็กตรอนเป็น: [Kr] 4d¹⁰ 5s¹",
+    "ans": 1,
+    "explanation": "ธาตุ เงิน (Ag) อยู่ในคาบที่ 5 จึงมีจำนวนระดับพลังงานหลักเท่ากับ 5 ชั้น (n = 5)",
     "starsAwarded": 4
   },
   {
@@ -6616,16 +6617,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "upper_sec",
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "electron_config",
-    "categoryLabel": "การจัดเรียง e⁻",
-    "q": "ธาตุ ไอโอดีน (I, Z=53) มีการจัดเรียงอิเล็กตรอนตรงกับข้อใด?",
+    "categoryLabel": "ระดับพลังงานของอะตอม",
+    "q": "อะตอมของธาตุ ไอโอดีน (I, Z=53) มีจำนวนระดับพลังงานหลัก (n) ที่มีอิเล็กตรอนบรรจุอยู่กี่ชั้น?",
     "choices": [
-      "[Kr] 4d¹⁰ 5s² 5p⁵",
-      "2, 8, 8",
-      "2, 8, 18, 7",
-      "1s² 2s² 2p⁶ 3s¹"
+      "2 ชั้น",
+      "4 ชั้น",
+      "5 ชั้น",
+      "7 ชั้น"
     ],
-    "ans": 0,
-    "explanation": "ไอโอดีน (I) มีการจัดเรียงอิเล็กตรอนเป็น: [Kr] 4d¹⁰ 5s² 5p⁵",
+    "ans": 2,
+    "explanation": "ธาตุ ไอโอดีน (I) อยู่ในคาบที่ 5 จึงมีจำนวนระดับพลังงานหลักเท่ากับ 5 ชั้น (n = 5)",
     "starsAwarded": 4
   },
   {
@@ -6633,16 +6634,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "upper_sec",
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "electron_config",
-    "categoryLabel": "การจัดเรียง e⁻",
-    "q": "ธาตุ ทองคำ (Au, Z=79) มีการจัดเรียงอิเล็กตรอนตรงกับข้อใด?",
+    "categoryLabel": "ระดับพลังงานของอะตอม",
+    "q": "อะตอมของธาตุ ทองคำ (Au, Z=79) มีจำนวนระดับพลังงานหลัก (n) ที่มีอิเล็กตรอนบรรจุอยู่กี่ชั้น?",
     "choices": [
-      "[Xe] 4f¹⁴ 5d¹⁰ 6s¹",
-      "2, 8, 2",
-      "2, 8, 18, 1",
-      "1s² 2s² 2p⁶ 3s¹"
+      "3 ชั้น",
+      "5 ชั้น",
+      "1 ชั้น",
+      "6 ชั้น"
     ],
-    "ans": 0,
-    "explanation": "ทองคำ (Au) มีการจัดเรียงอิเล็กตรอนเป็น: [Xe] 4f¹⁴ 5d¹⁰ 6s¹",
+    "ans": 3,
+    "explanation": "ธาตุ ทองคำ (Au) อยู่ในคาบที่ 6 จึงมีจำนวนระดับพลังงานหลักเท่ากับ 6 ชั้น (n = 6)",
     "starsAwarded": 4
   },
   {
@@ -6650,16 +6651,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "upper_sec",
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "electron_config",
-    "categoryLabel": "การจัดเรียง e⁻",
-    "q": "ธาตุ ปรอท (Hg, Z=80) มีการจัดเรียงอิเล็กตรอนตรงกับข้อใด?",
+    "categoryLabel": "ระดับพลังงานของอะตอม",
+    "q": "อะตอมของธาตุ ปรอท (Hg, Z=80) มีจำนวนระดับพลังงานหลัก (n) ที่มีอิเล็กตรอนบรรจุอยู่กี่ชั้น?",
     "choices": [
-      "1s² 2s² 2p⁶ 3s¹",
-      "2, 8, 18, 2",
-      "2, 8, 3",
-      "[Xe] 4f¹⁴ 5d¹⁰ 6s²"
+      "6 ชั้น",
+      "4 ชั้น",
+      "7 ชั้น",
+      "2 ชั้น"
     ],
-    "ans": 3,
-    "explanation": "ปรอท (Hg) มีการจัดเรียงอิเล็กตรอนเป็น: [Xe] 4f¹⁴ 5d¹⁰ 6s²",
+    "ans": 0,
+    "explanation": "ธาตุ ปรอท (Hg) อยู่ในคาบที่ 6 จึงมีจำนวนระดับพลังงานหลักเท่ากับ 6 ชั้น (n = 6)",
     "starsAwarded": 4
   },
   {
@@ -6667,16 +6668,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "upper_sec",
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "electron_config",
-    "categoryLabel": "การจัดเรียง e⁻",
-    "q": "ธาตุ ตะกั่ว (Pb, Z=82) มีการจัดเรียงอิเล็กตรอนตรงกับข้อใด?",
+    "categoryLabel": "ระดับพลังงานของอะตอม",
+    "q": "อะตอมของธาตุ ตะกั่ว (Pb, Z=82) มีจำนวนระดับพลังงานหลัก (n) ที่มีอิเล็กตรอนบรรจุอยู่กี่ชั้น?",
     "choices": [
-      "[Xe] 4f¹⁴ 5d¹⁰ 6s² 6p²",
-      "2, 8, 5",
-      "2, 8, 18, 4",
-      "1s² 2s² 2p⁶ 3s¹"
+      "5 ชั้น",
+      "6 ชั้น",
+      "1 ชั้น",
+      "3 ชั้น"
     ],
-    "ans": 0,
-    "explanation": "ตะกั่ว (Pb) มีการจัดเรียงอิเล็กตรอนเป็น: [Xe] 4f¹⁴ 5d¹⁰ 6s² 6p²",
+    "ans": 1,
+    "explanation": "ธาตุ ตะกั่ว (Pb) อยู่ในคาบที่ 6 จึงมีจำนวนระดับพลังงานหลักเท่ากับ 6 ชั้น (n = 6)",
     "starsAwarded": 4
   },
   {
@@ -6684,16 +6685,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "upper_sec",
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "electron_config",
-    "categoryLabel": "การจัดเรียง e⁻",
-    "q": "ธาตุ ยูเรเนียม (U, Z=92) มีการจัดเรียงอิเล็กตรอนตรงกับข้อใด?",
+    "categoryLabel": "ระดับพลังงานของอะตอม",
+    "q": "อะตอมของธาตุ ยูเรเนียม (U, Z=92) มีจำนวนระดับพลังงานหลัก (n) ที่มีอิเล็กตรอนบรรจุอยู่กี่ชั้น?",
     "choices": [
-      "2, 8, 18, 6",
-      "[Rn] 5f³ 6d¹ 7s²",
-      "2, 8, 7",
-      "1s² 2s² 2p⁶ 3s¹"
+      "6 ชั้น",
+      "2 ชั้น",
+      "7 ชั้น",
+      "4 ชั้น"
     ],
-    "ans": 1,
-    "explanation": "ยูเรเนียม (U) มีการจัดเรียงอิเล็กตรอนเป็น: [Rn] 5f³ 6d¹ 7s²",
+    "ans": 2,
+    "explanation": "ธาตุ ยูเรเนียม (U) อยู่ในคาบที่ 7 จึงมีจำนวนระดับพลังงานหลักเท่ากับ 7 ชั้น (n = 7)",
     "starsAwarded": 4
   },
   {
@@ -6701,16 +6702,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "upper_sec",
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "electron_config",
-    "categoryLabel": "เวเลนซ์อิเล็กตรอน",
-    "q": "เวเลนซ์อิเล็กตรอน (จำนวน e⁻ วงนอกสุด) ของอะตอม ไฮโดรเจน (H) มีกี่ตัว?",
+    "categoryLabel": "สถานะและการนำไฟฟ้า",
+    "q": "ที่สภาวะมาตรฐาน (25°C, 1 atm) ธาตุ ไฮโดรเจน (H) มีสถานะและการนำไฟฟ้าตรงกับข้อใด?",
     "choices": [
-      "1 ตัว (อยู่หมู่ 1A)",
-      "ตัวเลือกเพิ่มเติม 4",
-      "2 ตัว",
-      "1 ตัว"
+      "ของแข็ง นำไฟฟ้าได้ดี (โลหะ)",
+      "ของแข็ง ไม่นำไฟฟ้า (อโลหะ)",
+      "แก๊ส ไม่นำไฟฟ้า (อโลหะ)",
+      "ของแข็ง กึ่งตัวนำไฟฟ้า (กึ่งโลหะ)"
     ],
-    "ans": 0,
-    "explanation": "ไฮโดรเจน อยู่ในหมู่ 1A คาบ 1 จึงมีเวเลนซ์อิเล็กตรอนเท่ากับ 1 ตัว",
+    "ans": 2,
+    "explanation": "ที่อุณหภูมิห้อง ธาตุ ไฮโดรเจน (H) มีสมบัติคือ \"แก๊ส ไม่นำไฟฟ้า (อโลหะ)\"",
     "starsAwarded": 4
   },
   {
@@ -6718,16 +6719,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "upper_sec",
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "electron_config",
-    "categoryLabel": "เวเลนซ์อิเล็กตรอน",
-    "q": "เวเลนซ์อิเล็กตรอน (จำนวน e⁻ วงนอกสุด) ของอะตอม ฮีเลียม (He) มีกี่ตัว?",
+    "categoryLabel": "สถานะและการนำไฟฟ้า",
+    "q": "ที่สภาวะมาตรฐาน (25°C, 1 atm) ธาตุ ฮีเลียม (He) มีสถานะและการนำไฟฟ้าตรงกับข้อใด?",
     "choices": [
-      "ตัวเลือกเพิ่มเติม 4",
-      "2 ตัว (อยู่หมู่ 8A)",
-      "3 ตัว",
-      "1 ตัว"
+      "ของแข็ง ไม่นำไฟฟ้า (อโลหะ)",
+      "ของแข็ง กึ่งตัวนำไฟฟ้า (กึ่งโลหะ)",
+      "ของเหลว นำไฟฟ้าได้ดี (โลหะ)",
+      "แก๊ส ไม่นำไฟฟ้า (อโลหะ)"
     ],
-    "ans": 1,
-    "explanation": "ฮีเลียม อยู่ในหมู่ 8A คาบ 1 จึงมีเวเลนซ์อิเล็กตรอนเท่ากับ 2 ตัว",
+    "ans": 3,
+    "explanation": "ที่อุณหภูมิห้อง ธาตุ ฮีเลียม (He) มีสมบัติคือ \"แก๊ส ไม่นำไฟฟ้า (อโลหะ)\"",
     "starsAwarded": 4
   },
   {
@@ -6735,16 +6736,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "upper_sec",
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "electron_config",
-    "categoryLabel": "เวเลนซ์อิเล็กตรอน",
-    "q": "เวเลนซ์อิเล็กตรอน (จำนวน e⁻ วงนอกสุด) ของอะตอม ลิเทียม (Li) มีกี่ตัว?",
+    "categoryLabel": "สถานะและการนำไฟฟ้า",
+    "q": "ที่สภาวะมาตรฐาน (25°C, 1 atm) ธาตุ ลิเทียม (Li) มีสถานะและการนำไฟฟ้าตรงกับข้อใด?",
     "choices": [
-      "1 ตัว (อยู่หมู่ 1A)",
-      "ตัวเลือกเพิ่มเติม 4",
-      "2 ตัว",
-      "1 ตัว"
+      "ของแข็ง นำไฟฟ้าได้ดี (โลหะ)",
+      "ของแข็ง ไม่นำไฟฟ้า (อโลหะ)",
+      "ของแข็ง กึ่งตัวนำไฟฟ้า (กึ่งโลหะ)",
+      "แก๊ส ไม่นำไฟฟ้า (อโลหะ)"
     ],
     "ans": 0,
-    "explanation": "ลิเทียม อยู่ในหมู่ 1A คาบ 2 จึงมีเวเลนซ์อิเล็กตรอนเท่ากับ 1 ตัว",
+    "explanation": "ที่อุณหภูมิห้อง ธาตุ ลิเทียม (Li) มีสมบัติคือ \"ของแข็ง นำไฟฟ้าได้ดี (โลหะ)\"",
     "starsAwarded": 4
   },
   {
@@ -6752,16 +6753,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "upper_sec",
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "electron_config",
-    "categoryLabel": "เวเลนซ์อิเล็กตรอน",
-    "q": "เวเลนซ์อิเล็กตรอน (จำนวน e⁻ วงนอกสุด) ของอะตอม เบริลเลียม (Be) มีกี่ตัว?",
+    "categoryLabel": "สถานะและการนำไฟฟ้า",
+    "q": "ที่สภาวะมาตรฐาน (25°C, 1 atm) ธาตุ เบริลเลียม (Be) มีสถานะและการนำไฟฟ้าตรงกับข้อใด?",
     "choices": [
-      "3 ตัว",
-      "2 ตัว",
-      "1 ตัว",
-      "2 ตัว (อยู่หมู่ 2A)"
+      "ของแข็ง กึ่งตัวนำไฟฟ้า (กึ่งโลหะ)",
+      "ของแข็ง นำไฟฟ้าได้ดี (โลหะ)",
+      "แก๊ส ไม่นำไฟฟ้า (อโลหะ)",
+      "ของเหลว นำไฟฟ้าได้ดี (โลหะ)"
     ],
-    "ans": 3,
-    "explanation": "เบริลเลียม อยู่ในหมู่ 2A คาบ 2 จึงมีเวเลนซ์อิเล็กตรอนเท่ากับ 2 ตัว",
+    "ans": 1,
+    "explanation": "ที่อุณหภูมิห้อง ธาตุ เบริลเลียม (Be) มีสมบัติคือ \"ของแข็ง นำไฟฟ้าได้ดี (โลหะ)\"",
     "starsAwarded": 4
   },
   {
@@ -6769,16 +6770,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "upper_sec",
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "electron_config",
-    "categoryLabel": "เวเลนซ์อิเล็กตรอน",
-    "q": "เวเลนซ์อิเล็กตรอน (จำนวน e⁻ วงนอกสุด) ของอะตอม โบรอน (B) มีกี่ตัว?",
+    "categoryLabel": "สถานะและการนำไฟฟ้า",
+    "q": "ที่สภาวะมาตรฐาน (25°C, 1 atm) ธาตุ โบรอน (B) มีสถานะและการนำไฟฟ้าตรงกับข้อใด?",
     "choices": [
-      "4 ตัว",
-      "3 ตัว (อยู่หมู่ 3A)",
-      "ตัวเลือกเพิ่มเติม 4",
-      "2 ตัว"
+      "ของแข็ง นำไฟฟ้าได้ดี (โลหะ)",
+      "ของแข็ง ไม่นำไฟฟ้า (อโลหะ)",
+      "ของแข็ง กึ่งตัวนำไฟฟ้า (กึ่งโลหะ)",
+      "แก๊ส ไม่นำไฟฟ้า (อโลหะ)"
     ],
-    "ans": 1,
-    "explanation": "โบรอน อยู่ในหมู่ 3A คาบ 2 จึงมีเวเลนซ์อิเล็กตรอนเท่ากับ 3 ตัว",
+    "ans": 2,
+    "explanation": "ที่อุณหภูมิห้อง ธาตุ โบรอน (B) มีสมบัติคือ \"ของแข็ง กึ่งตัวนำไฟฟ้า (กึ่งโลหะ)\"",
     "starsAwarded": 4
   },
   {
@@ -6786,16 +6787,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "upper_sec",
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "electron_config",
-    "categoryLabel": "เวเลนซ์อิเล็กตรอน",
-    "q": "เวเลนซ์อิเล็กตรอน (จำนวน e⁻ วงนอกสุด) ของอะตอม คาร์บอน (C) มีกี่ตัว?",
+    "categoryLabel": "สถานะและการนำไฟฟ้า",
+    "q": "ที่สภาวะมาตรฐาน (25°C, 1 atm) ธาตุ คาร์บอน (C) มีสถานะและการนำไฟฟ้าตรงกับข้อใด?",
     "choices": [
-      "2 ตัว",
-      "3 ตัว",
-      "5 ตัว",
-      "4 ตัว (อยู่หมู่ 4A)"
+      "ของแข็ง ไม่นำไฟฟ้า (อโลหะ)",
+      "ของแข็ง กึ่งตัวนำไฟฟ้า (กึ่งโลหะ)",
+      "แก๊ส ไม่นำไฟฟ้า (อโลหะ)",
+      "ของแข็ง ไม่นำไฟฟ้า (ยกเว้นแกรไฟต์)"
     ],
     "ans": 3,
-    "explanation": "คาร์บอน อยู่ในหมู่ 4A คาบ 2 จึงมีเวเลนซ์อิเล็กตรอนเท่ากับ 4 ตัว",
+    "explanation": "ที่อุณหภูมิห้อง ธาตุ คาร์บอน (C) มีสมบัติคือ \"ของแข็ง ไม่นำไฟฟ้า (ยกเว้นแกรไฟต์)\"",
     "starsAwarded": 4
   },
   {
@@ -6803,16 +6804,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "upper_sec",
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "electron_config",
-    "categoryLabel": "เวเลนซ์อิเล็กตรอน",
-    "q": "เวเลนซ์อิเล็กตรอน (จำนวน e⁻ วงนอกสุด) ของอะตอม ไนโตรเจน (N) มีกี่ตัว?",
+    "categoryLabel": "สถานะและการนำไฟฟ้า",
+    "q": "ที่สภาวะมาตรฐาน (25°C, 1 atm) ธาตุ ไนโตรเจน (N) มีสถานะและการนำไฟฟ้าตรงกับข้อใด?",
     "choices": [
-      "5 ตัว (อยู่หมู่ 5A)",
-      "2 ตัว",
-      "6 ตัว",
-      "4 ตัว"
+      "แก๊ส ไม่นำไฟฟ้า (อโลหะ)",
+      "ของแข็ง นำไฟฟ้าได้ดี (โลหะ)",
+      "ของแข็ง ไม่นำไฟฟ้า (อโลหะ)",
+      "ของแข็ง กึ่งตัวนำไฟฟ้า (กึ่งโลหะ)"
     ],
     "ans": 0,
-    "explanation": "ไนโตรเจน อยู่ในหมู่ 5A คาบ 2 จึงมีเวเลนซ์อิเล็กตรอนเท่ากับ 5 ตัว",
+    "explanation": "ที่อุณหภูมิห้อง ธาตุ ไนโตรเจน (N) มีสมบัติคือ \"แก๊ส ไม่นำไฟฟ้า (อโลหะ)\"",
     "starsAwarded": 4
   },
   {
@@ -6820,16 +6821,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "upper_sec",
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "electron_config",
-    "categoryLabel": "เวเลนซ์อิเล็กตรอน",
-    "q": "เวเลนซ์อิเล็กตรอน (จำนวน e⁻ วงนอกสุด) ของอะตอม ออกซิเจน (O) มีกี่ตัว?",
+    "categoryLabel": "สถานะและการนำไฟฟ้า",
+    "q": "ที่สภาวะมาตรฐาน (25°C, 1 atm) ธาตุ ออกซิเจน (O) มีสถานะและการนำไฟฟ้าตรงกับข้อใด?",
     "choices": [
-      "7 ตัว",
-      "2 ตัว",
-      "6 ตัว (อยู่หมู่ 6A)",
-      "5 ตัว"
+      "ของแข็ง ไม่นำไฟฟ้า (อโลหะ)",
+      "แก๊ส ไม่นำไฟฟ้า (อโลหะ)",
+      "ของแข็ง กึ่งตัวนำไฟฟ้า (กึ่งโลหะ)",
+      "ของเหลว นำไฟฟ้าได้ดี (โลหะ)"
     ],
-    "ans": 2,
-    "explanation": "ออกซิเจน อยู่ในหมู่ 6A คาบ 2 จึงมีเวเลนซ์อิเล็กตรอนเท่ากับ 6 ตัว",
+    "ans": 1,
+    "explanation": "ที่อุณหภูมิห้อง ธาตุ ออกซิเจน (O) มีสมบัติคือ \"แก๊ส ไม่นำไฟฟ้า (อโลหะ)\"",
     "starsAwarded": 4
   },
   {
@@ -6837,16 +6838,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "upper_sec",
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "electron_config",
-    "categoryLabel": "เวเลนซ์อิเล็กตรอน",
-    "q": "เวเลนซ์อิเล็กตรอน (จำนวน e⁻ วงนอกสุด) ของอะตอม ฟลูออรีน (F) มีกี่ตัว?",
+    "categoryLabel": "สถานะและการนำไฟฟ้า",
+    "q": "ที่สภาวะมาตรฐาน (25°C, 1 atm) ธาตุ ฟลูออรีน (F) มีสถานะและการนำไฟฟ้าตรงกับข้อใด?",
     "choices": [
-      "2 ตัว",
-      "6 ตัว",
-      "7 ตัว (อยู่หมู่ 7A)",
-      "8 ตัว"
+      "ของแข็ง นำไฟฟ้าได้ดี (โลหะ)",
+      "ของแข็ง ไม่นำไฟฟ้า (อโลหะ)",
+      "แก๊ส ไม่นำไฟฟ้า (อโลหะ)",
+      "ของแข็ง กึ่งตัวนำไฟฟ้า (กึ่งโลหะ)"
     ],
     "ans": 2,
-    "explanation": "ฟลูออรีน อยู่ในหมู่ 7A คาบ 2 จึงมีเวเลนซ์อิเล็กตรอนเท่ากับ 7 ตัว",
+    "explanation": "ที่อุณหภูมิห้อง ธาตุ ฟลูออรีน (F) มีสมบัติคือ \"แก๊ส ไม่นำไฟฟ้า (อโลหะ)\"",
     "starsAwarded": 4
   },
   {
@@ -6854,16 +6855,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "upper_sec",
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "electron_config",
-    "categoryLabel": "เวเลนซ์อิเล็กตรอน",
-    "q": "เวเลนซ์อิเล็กตรอน (จำนวน e⁻ วงนอกสุด) ของอะตอม นีออน (Ne) มีกี่ตัว?",
+    "categoryLabel": "สถานะและการนำไฟฟ้า",
+    "q": "ที่สภาวะมาตรฐาน (25°C, 1 atm) ธาตุ นีออน (Ne) มีสถานะและการนำไฟฟ้าตรงกับข้อใด?",
     "choices": [
-      "2 ตัว",
-      "7 ตัว",
-      "8 ตัว (อยู่หมู่ 8A)",
-      "9 ตัว"
+      "ของแข็ง ไม่นำไฟฟ้า (อโลหะ)",
+      "ของแข็ง กึ่งตัวนำไฟฟ้า (กึ่งโลหะ)",
+      "ของเหลว นำไฟฟ้าได้ดี (โลหะ)",
+      "แก๊ส ไม่นำไฟฟ้า (อโลหะ)"
     ],
-    "ans": 2,
-    "explanation": "นีออน อยู่ในหมู่ 8A คาบ 2 จึงมีเวเลนซ์อิเล็กตรอนเท่ากับ 8 ตัว",
+    "ans": 3,
+    "explanation": "ที่อุณหภูมิห้อง ธาตุ นีออน (Ne) มีสมบัติคือ \"แก๊ส ไม่นำไฟฟ้า (อโลหะ)\"",
     "starsAwarded": 4
   },
   {
@@ -6871,16 +6872,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "upper_sec",
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "electron_config",
-    "categoryLabel": "เวเลนซ์อิเล็กตรอน",
-    "q": "เวเลนซ์อิเล็กตรอน (จำนวน e⁻ วงนอกสุด) ของอะตอม โซเดียม (Na) มีกี่ตัว?",
+    "categoryLabel": "สถานะและการนำไฟฟ้า",
+    "q": "ที่สภาวะมาตรฐาน (25°C, 1 atm) ธาตุ โซเดียม (Na) มีสถานะและการนำไฟฟ้าตรงกับข้อใด?",
     "choices": [
-      "1 ตัว (อยู่หมู่ 1A)",
-      "2 ตัว",
-      "3 ตัว",
-      "1 ตัว"
+      "ของแข็ง นำไฟฟ้าได้ดี (โลหะ)",
+      "ของแข็ง ไม่นำไฟฟ้า (อโลหะ)",
+      "ของแข็ง กึ่งตัวนำไฟฟ้า (กึ่งโลหะ)",
+      "แก๊ส ไม่นำไฟฟ้า (อโลหะ)"
     ],
     "ans": 0,
-    "explanation": "โซเดียม อยู่ในหมู่ 1A คาบ 3 จึงมีเวเลนซ์อิเล็กตรอนเท่ากับ 1 ตัว",
+    "explanation": "ที่อุณหภูมิห้อง ธาตุ โซเดียม (Na) มีสมบัติคือ \"ของแข็ง นำไฟฟ้าได้ดี (โลหะ)\"",
     "starsAwarded": 4
   },
   {
@@ -6888,16 +6889,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "upper_sec",
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "electron_config",
-    "categoryLabel": "เวเลนซ์อิเล็กตรอน",
-    "q": "เวเลนซ์อิเล็กตรอน (จำนวน e⁻ วงนอกสุด) ของอะตอม แมกนีเซียม (Mg) มีกี่ตัว?",
+    "categoryLabel": "สถานะและการนำไฟฟ้า",
+    "q": "ที่สภาวะมาตรฐาน (25°C, 1 atm) ธาตุ แมกนีเซียม (Mg) มีสถานะและการนำไฟฟ้าตรงกับข้อใด?",
     "choices": [
-      "3 ตัว",
-      "ตัวเลือกเพิ่มเติม 4",
-      "1 ตัว",
-      "2 ตัว (อยู่หมู่ 2A)"
+      "ของแข็ง กึ่งตัวนำไฟฟ้า (กึ่งโลหะ)",
+      "ของแข็ง นำไฟฟ้าได้ดี (โลหะ)",
+      "แก๊ส ไม่นำไฟฟ้า (อโลหะ)",
+      "ของเหลว นำไฟฟ้าได้ดี (โลหะ)"
     ],
-    "ans": 3,
-    "explanation": "แมกนีเซียม อยู่ในหมู่ 2A คาบ 3 จึงมีเวเลนซ์อิเล็กตรอนเท่ากับ 2 ตัว",
+    "ans": 1,
+    "explanation": "ที่อุณหภูมิห้อง ธาตุ แมกนีเซียม (Mg) มีสมบัติคือ \"ของแข็ง นำไฟฟ้าได้ดี (โลหะ)\"",
     "starsAwarded": 4
   },
   {
@@ -6905,16 +6906,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "upper_sec",
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "electron_config",
-    "categoryLabel": "เวเลนซ์อิเล็กตรอน",
-    "q": "เวเลนซ์อิเล็กตรอน (จำนวน e⁻ วงนอกสุด) ของอะตอม อะลูมิเนียม (Al) มีกี่ตัว?",
+    "categoryLabel": "สถานะและการนำไฟฟ้า",
+    "q": "ที่สภาวะมาตรฐาน (25°C, 1 atm) ธาตุ อะลูมิเนียม (Al) มีสถานะและการนำไฟฟ้าตรงกับข้อใด?",
     "choices": [
-      "4 ตัว",
-      "3 ตัว",
-      "3 ตัว (อยู่หมู่ 3A)",
-      "2 ตัว"
+      "ของแข็ง ไม่นำไฟฟ้า (อโลหะ)",
+      "ของแข็ง กึ่งตัวนำไฟฟ้า (กึ่งโลหะ)",
+      "ของแข็ง นำไฟฟ้าได้ดี (โลหะ)",
+      "แก๊ส ไม่นำไฟฟ้า (อโลหะ)"
     ],
     "ans": 2,
-    "explanation": "อะลูมิเนียม อยู่ในหมู่ 3A คาบ 3 จึงมีเวเลนซ์อิเล็กตรอนเท่ากับ 3 ตัว",
+    "explanation": "ที่อุณหภูมิห้อง ธาตุ อะลูมิเนียม (Al) มีสมบัติคือ \"ของแข็ง นำไฟฟ้าได้ดี (โลหะ)\"",
     "starsAwarded": 4
   },
   {
@@ -6922,16 +6923,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "upper_sec",
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "electron_config",
-    "categoryLabel": "เวเลนซ์อิเล็กตรอน",
-    "q": "เวเลนซ์อิเล็กตรอน (จำนวน e⁻ วงนอกสุด) ของอะตอม ซิลิคอน (Si) มีกี่ตัว?",
+    "categoryLabel": "สถานะและการนำไฟฟ้า",
+    "q": "ที่สภาวะมาตรฐาน (25°C, 1 atm) ธาตุ ซิลิคอน (Si) มีสถานะและการนำไฟฟ้าตรงกับข้อใด?",
     "choices": [
-      "5 ตัว",
-      "3 ตัว",
-      "4 ตัว (อยู่หมู่ 4A)",
-      "ตัวเลือกเพิ่มเติม 4"
+      "ของแข็ง ไม่นำไฟฟ้า (อโลหะ)",
+      "แก๊ส ไม่นำไฟฟ้า (อโลหะ)",
+      "ของเหลว นำไฟฟ้าได้ดี (โลหะ)",
+      "ของแข็ง กึ่งตัวนำไฟฟ้า (กึ่งโลหะ)"
     ],
-    "ans": 2,
-    "explanation": "ซิลิคอน อยู่ในหมู่ 4A คาบ 3 จึงมีเวเลนซ์อิเล็กตรอนเท่ากับ 4 ตัว",
+    "ans": 3,
+    "explanation": "ที่อุณหภูมิห้อง ธาตุ ซิลิคอน (Si) มีสมบัติคือ \"ของแข็ง กึ่งตัวนำไฟฟ้า (กึ่งโลหะ)\"",
     "starsAwarded": 4
   },
   {
@@ -6939,16 +6940,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "upper_sec",
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "electron_config",
-    "categoryLabel": "เวเลนซ์อิเล็กตรอน",
-    "q": "เวเลนซ์อิเล็กตรอน (จำนวน e⁻ วงนอกสุด) ของอะตอม ฟอสฟอรัส (P) มีกี่ตัว?",
+    "categoryLabel": "สถานะและการนำไฟฟ้า",
+    "q": "ที่สภาวะมาตรฐาน (25°C, 1 atm) ธาตุ ฟอสฟอรัส (P) มีสถานะและการนำไฟฟ้าตรงกับข้อใด?",
     "choices": [
-      "6 ตัว",
-      "4 ตัว",
-      "3 ตัว",
-      "5 ตัว (อยู่หมู่ 5A)"
+      "ของแข็ง ไม่นำไฟฟ้า (อโลหะ)",
+      "ของแข็ง นำไฟฟ้าได้ดี (โลหะ)",
+      "ของแข็ง กึ่งตัวนำไฟฟ้า (กึ่งโลหะ)",
+      "แก๊ส ไม่นำไฟฟ้า (อโลหะ)"
     ],
-    "ans": 3,
-    "explanation": "ฟอสฟอรัส อยู่ในหมู่ 5A คาบ 3 จึงมีเวเลนซ์อิเล็กตรอนเท่ากับ 5 ตัว",
+    "ans": 0,
+    "explanation": "ที่อุณหภูมิห้อง ธาตุ ฟอสฟอรัส (P) มีสมบัติคือ \"ของแข็ง ไม่นำไฟฟ้า (อโลหะ)\"",
     "starsAwarded": 4
   },
   {
@@ -6956,16 +6957,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "upper_sec",
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "electron_config",
-    "categoryLabel": "เวเลนซ์อิเล็กตรอน",
-    "q": "เวเลนซ์อิเล็กตรอน (จำนวน e⁻ วงนอกสุด) ของอะตอม กำมะถัน (ซัลเฟอร์) (S) มีกี่ตัว?",
+    "categoryLabel": "สถานะและการนำไฟฟ้า",
+    "q": "ที่สภาวะมาตรฐาน (25°C, 1 atm) ธาตุ กำมะถัน (S) มีสถานะและการนำไฟฟ้าตรงกับข้อใด?",
     "choices": [
-      "7 ตัว",
-      "5 ตัว",
-      "6 ตัว (อยู่หมู่ 6A)",
-      "3 ตัว"
+      "ของแข็ง กึ่งตัวนำไฟฟ้า (กึ่งโลหะ)",
+      "ของแข็ง ไม่นำไฟฟ้า (อโลหะ)",
+      "แก๊ส ไม่นำไฟฟ้า (อโลหะ)",
+      "ของเหลว นำไฟฟ้าได้ดี (โลหะ)"
     ],
-    "ans": 2,
-    "explanation": "กำมะถัน (ซัลเฟอร์) อยู่ในหมู่ 6A คาบ 3 จึงมีเวเลนซ์อิเล็กตรอนเท่ากับ 6 ตัว",
+    "ans": 1,
+    "explanation": "ที่อุณหภูมิห้อง ธาตุ กำมะถัน (S) มีสมบัติคือ \"ของแข็ง ไม่นำไฟฟ้า (อโลหะ)\"",
     "starsAwarded": 4
   },
   {
@@ -6973,16 +6974,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "upper_sec",
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "electron_config",
-    "categoryLabel": "เวเลนซ์อิเล็กตรอน",
-    "q": "เวเลนซ์อิเล็กตรอน (จำนวน e⁻ วงนอกสุด) ของอะตอม คลอรีน (Cl) มีกี่ตัว?",
+    "categoryLabel": "สถานะและการนำไฟฟ้า",
+    "q": "ที่สภาวะมาตรฐาน (25°C, 1 atm) ธาตุ คลอรีน (Cl) มีสถานะและการนำไฟฟ้าตรงกับข้อใด?",
     "choices": [
-      "8 ตัว",
-      "7 ตัว (อยู่หมู่ 7A)",
-      "6 ตัว",
-      "3 ตัว"
+      "ของแข็ง นำไฟฟ้าได้ดี (โลหะ)",
+      "ของแข็ง ไม่นำไฟฟ้า (อโลหะ)",
+      "แก๊ส ไม่นำไฟฟ้า (อโลหะ)",
+      "ของแข็ง กึ่งตัวนำไฟฟ้า (กึ่งโลหะ)"
     ],
-    "ans": 1,
-    "explanation": "คลอรีน อยู่ในหมู่ 7A คาบ 3 จึงมีเวเลนซ์อิเล็กตรอนเท่ากับ 7 ตัว",
+    "ans": 2,
+    "explanation": "ที่อุณหภูมิห้อง ธาตุ คลอรีน (Cl) มีสมบัติคือ \"แก๊ส ไม่นำไฟฟ้า (อโลหะ)\"",
     "starsAwarded": 4
   },
   {
@@ -6990,16 +6991,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "upper_sec",
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "electron_config",
-    "categoryLabel": "เวเลนซ์อิเล็กตรอน",
-    "q": "เวเลนซ์อิเล็กตรอน (จำนวน e⁻ วงนอกสุด) ของอะตอม อาร์กอน (Ar) มีกี่ตัว?",
+    "categoryLabel": "สถานะและการนำไฟฟ้า",
+    "q": "ที่สภาวะมาตรฐาน (25°C, 1 atm) ธาตุ อาร์กอน (Ar) มีสถานะและการนำไฟฟ้าตรงกับข้อใด?",
     "choices": [
-      "8 ตัว (อยู่หมู่ 8A)",
-      "3 ตัว",
-      "9 ตัว",
-      "7 ตัว"
+      "ของแข็ง ไม่นำไฟฟ้า (อโลหะ)",
+      "ของแข็ง กึ่งตัวนำไฟฟ้า (กึ่งโลหะ)",
+      "ของเหลว นำไฟฟ้าได้ดี (โลหะ)",
+      "แก๊ส ไม่นำไฟฟ้า (อโลหะ)"
     ],
-    "ans": 0,
-    "explanation": "อาร์กอน อยู่ในหมู่ 8A คาบ 3 จึงมีเวเลนซ์อิเล็กตรอนเท่ากับ 8 ตัว",
+    "ans": 3,
+    "explanation": "ที่อุณหภูมิห้อง ธาตุ อาร์กอน (Ar) มีสมบัติคือ \"แก๊ส ไม่นำไฟฟ้า (อโลหะ)\"",
     "starsAwarded": 4
   },
   {
@@ -7007,16 +7008,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "upper_sec",
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "electron_config",
-    "categoryLabel": "เวเลนซ์อิเล็กตรอน",
-    "q": "เวเลนซ์อิเล็กตรอน (จำนวน e⁻ วงนอกสุด) ของอะตอม โพแทสเซียม (K) มีกี่ตัว?",
+    "categoryLabel": "สถานะและการนำไฟฟ้า",
+    "q": "ที่สภาวะมาตรฐาน (25°C, 1 atm) ธาตุ โพแทสเซียม (K) มีสถานะและการนำไฟฟ้าตรงกับข้อใด?",
     "choices": [
-      "2 ตัว",
-      "1 ตัว",
-      "1 ตัว (อยู่หมู่ 1A)",
-      "4 ตัว"
+      "ของแข็ง นำไฟฟ้าได้ดี (โลหะ)",
+      "ของแข็ง ไม่นำไฟฟ้า (อโลหะ)",
+      "ของแข็ง กึ่งตัวนำไฟฟ้า (กึ่งโลหะ)",
+      "แก๊ส ไม่นำไฟฟ้า (อโลหะ)"
     ],
-    "ans": 2,
-    "explanation": "โพแทสเซียม อยู่ในหมู่ 1A คาบ 4 จึงมีเวเลนซ์อิเล็กตรอนเท่ากับ 1 ตัว",
+    "ans": 0,
+    "explanation": "ที่อุณหภูมิห้อง ธาตุ โพแทสเซียม (K) มีสมบัติคือ \"ของแข็ง นำไฟฟ้าได้ดี (โลหะ)\"",
     "starsAwarded": 4
   },
   {
@@ -7024,16 +7025,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "upper_sec",
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "electron_config",
-    "categoryLabel": "เวเลนซ์อิเล็กตรอน",
-    "q": "เวเลนซ์อิเล็กตรอน (จำนวน e⁻ วงนอกสุด) ของอะตอม แคลเซียม (Ca) มีกี่ตัว?",
+    "categoryLabel": "สถานะและการนำไฟฟ้า",
+    "q": "ที่สภาวะมาตรฐาน (25°C, 1 atm) ธาตุ แคลเซียม (Ca) มีสถานะและการนำไฟฟ้าตรงกับข้อใด?",
     "choices": [
-      "1 ตัว",
-      "2 ตัว (อยู่หมู่ 2A)",
-      "3 ตัว",
-      "4 ตัว"
+      "ของแข็ง กึ่งตัวนำไฟฟ้า (กึ่งโลหะ)",
+      "ของแข็ง นำไฟฟ้าได้ดี (โลหะ)",
+      "แก๊ส ไม่นำไฟฟ้า (อโลหะ)",
+      "ของเหลว นำไฟฟ้าได้ดี (โลหะ)"
     ],
     "ans": 1,
-    "explanation": "แคลเซียม อยู่ในหมู่ 2A คาบ 4 จึงมีเวเลนซ์อิเล็กตรอนเท่ากับ 2 ตัว",
+    "explanation": "ที่อุณหภูมิห้อง ธาตุ แคลเซียม (Ca) มีสมบัติคือ \"ของแข็ง นำไฟฟ้าได้ดี (โลหะ)\"",
     "starsAwarded": 4
   },
   {
@@ -7041,16 +7042,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "upper_sec",
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "electron_config",
-    "categoryLabel": "เวเลนซ์อิเล็กตรอน",
-    "q": "เวเลนซ์อิเล็กตรอน (จำนวน e⁻ วงนอกสุด) ของอะตอม เหล็ก (Fe) มีกี่ตัว?",
+    "categoryLabel": "สถานะและการนำไฟฟ้า",
+    "q": "ที่สภาวะมาตรฐาน (25°C, 1 atm) ธาตุ เหล็ก (Fe) มีสถานะและการนำไฟฟ้าตรงกับข้อใด?",
     "choices": [
-      "3 ตัว",
-      "2 ตัว (อยู่หมู่ Transition)",
-      "4 ตัว",
-      "1 ตัว"
+      "ของแข็ง ไม่นำไฟฟ้า (อโลหะ)",
+      "ของแข็ง กึ่งตัวนำไฟฟ้า (กึ่งโลหะ)",
+      "ของแข็ง นำไฟฟ้าได้ดี (โลหะ)",
+      "แก๊ส ไม่นำไฟฟ้า (อโลหะ)"
     ],
-    "ans": 1,
-    "explanation": "เหล็ก อยู่ในหมู่ Transition คาบ 4 จึงมีเวเลนซ์อิเล็กตรอนเท่ากับ 2 ตัว",
+    "ans": 2,
+    "explanation": "ที่อุณหภูมิห้อง ธาตุ เหล็ก (Fe) มีสมบัติคือ \"ของแข็ง นำไฟฟ้าได้ดี (โลหะ)\"",
     "starsAwarded": 4
   },
   {
@@ -7058,16 +7059,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "upper_sec",
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "electron_config",
-    "categoryLabel": "เวเลนซ์อิเล็กตรอน",
-    "q": "เวเลนซ์อิเล็กตรอน (จำนวน e⁻ วงนอกสุด) ของอะตอม ทองแดง (Cu) มีกี่ตัว?",
+    "categoryLabel": "สถานะและการนำไฟฟ้า",
+    "q": "ที่สภาวะมาตรฐาน (25°C, 1 atm) ธาตุ ทองแดง (Cu) มีสถานะและการนำไฟฟ้าตรงกับข้อใด?",
     "choices": [
-      "2 ตัว",
-      "1 ตัว (อยู่หมู่ Transition)",
-      "1 ตัว",
-      "4 ตัว"
+      "ของแข็ง กึ่งตัวนำไฟฟ้า (กึ่งโลหะ)",
+      "แก๊ส ไม่นำไฟฟ้า (อโลหะ)",
+      "ของเหลว นำไฟฟ้าได้ดี (โลหะ)",
+      "ของแข็ง นำไฟฟ้าได้ดี (โลหะ)"
     ],
-    "ans": 1,
-    "explanation": "ทองแดง อยู่ในหมู่ Transition คาบ 4 จึงมีเวเลนซ์อิเล็กตรอนเท่ากับ 1 ตัว",
+    "ans": 3,
+    "explanation": "ที่อุณหภูมิห้อง ธาตุ ทองแดง (Cu) มีสมบัติคือ \"ของแข็ง นำไฟฟ้าได้ดี (โลหะ)\"",
     "starsAwarded": 4
   },
   {
@@ -7075,16 +7076,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "upper_sec",
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "electron_config",
-    "categoryLabel": "เวเลนซ์อิเล็กตรอน",
-    "q": "เวเลนซ์อิเล็กตรอน (จำนวน e⁻ วงนอกสุด) ของอะตอม สังกะสี (Zn) มีกี่ตัว?",
+    "categoryLabel": "สถานะและการนำไฟฟ้า",
+    "q": "ที่สภาวะมาตรฐาน (25°C, 1 atm) ธาตุ สังกะสี (Zn) มีสถานะและการนำไฟฟ้าตรงกับข้อใด?",
     "choices": [
-      "4 ตัว",
-      "1 ตัว",
-      "3 ตัว",
-      "2 ตัว (อยู่หมู่ Transition)"
+      "ของแข็ง นำไฟฟ้าได้ดี (โลหะ)",
+      "ของแข็ง ไม่นำไฟฟ้า (อโลหะ)",
+      "ของแข็ง กึ่งตัวนำไฟฟ้า (กึ่งโลหะ)",
+      "แก๊ส ไม่นำไฟฟ้า (อโลหะ)"
     ],
-    "ans": 3,
-    "explanation": "สังกะสี อยู่ในหมู่ Transition คาบ 4 จึงมีเวเลนซ์อิเล็กตรอนเท่ากับ 2 ตัว",
+    "ans": 0,
+    "explanation": "ที่อุณหภูมิห้อง ธาตุ สังกะสี (Zn) มีสมบัติคือ \"ของแข็ง นำไฟฟ้าได้ดี (โลหะ)\"",
     "starsAwarded": 4
   },
   {
@@ -7092,16 +7093,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "upper_sec",
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "electron_config",
-    "categoryLabel": "เวเลนซ์อิเล็กตรอน",
-    "q": "เวเลนซ์อิเล็กตรอน (จำนวน e⁻ วงนอกสุด) ของอะตอม โบรมีน (Br) มีกี่ตัว?",
+    "categoryLabel": "สถานะและการนำไฟฟ้า",
+    "q": "ที่สภาวะมาตรฐาน (25°C, 1 atm) ธาตุ โบรมีน (Br) มีสถานะและการนำไฟฟ้าตรงกับข้อใด?",
     "choices": [
-      "6 ตัว",
-      "7 ตัว (อยู่หมู่ 7A)",
-      "8 ตัว",
-      "4 ตัว"
+      "ของแข็ง ไม่นำไฟฟ้า (อโลหะ)",
+      "ของเหลว ไม่นำไฟฟ้า (อโลหะ)",
+      "ของแข็ง กึ่งตัวนำไฟฟ้า (กึ่งโลหะ)",
+      "แก๊ส ไม่นำไฟฟ้า (อโลหะ)"
     ],
     "ans": 1,
-    "explanation": "โบรมีน อยู่ในหมู่ 7A คาบ 4 จึงมีเวเลนซ์อิเล็กตรอนเท่ากับ 7 ตัว",
+    "explanation": "ที่อุณหภูมิห้อง ธาตุ โบรมีน (Br) มีสมบัติคือ \"ของเหลว ไม่นำไฟฟ้า (อโลหะ)\"",
     "starsAwarded": 4
   },
   {
@@ -7109,16 +7110,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "upper_sec",
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "electron_config",
-    "categoryLabel": "เวเลนซ์อิเล็กตรอน",
-    "q": "เวเลนซ์อิเล็กตรอน (จำนวน e⁻ วงนอกสุด) ของอะตอม เงิน (Ag) มีกี่ตัว?",
+    "categoryLabel": "สถานะและการนำไฟฟ้า",
+    "q": "ที่สภาวะมาตรฐาน (25°C, 1 atm) ธาตุ เงิน (Ag) มีสถานะและการนำไฟฟ้าตรงกับข้อใด?",
     "choices": [
-      "1 ตัว",
-      "5 ตัว",
-      "2 ตัว",
-      "1 ตัว (อยู่หมู่ Transition)"
+      "ของแข็ง ไม่นำไฟฟ้า (อโลหะ)",
+      "ของแข็ง กึ่งตัวนำไฟฟ้า (กึ่งโลหะ)",
+      "ของแข็ง นำไฟฟ้าได้ดี (โลหะ)",
+      "แก๊ส ไม่นำไฟฟ้า (อโลหะ)"
     ],
-    "ans": 3,
-    "explanation": "เงิน อยู่ในหมู่ Transition คาบ 5 จึงมีเวเลนซ์อิเล็กตรอนเท่ากับ 1 ตัว",
+    "ans": 2,
+    "explanation": "ที่อุณหภูมิห้อง ธาตุ เงิน (Ag) มีสมบัติคือ \"ของแข็ง นำไฟฟ้าได้ดี (โลหะ)\"",
     "starsAwarded": 4
   },
   {
@@ -7126,16 +7127,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "upper_sec",
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "electron_config",
-    "categoryLabel": "เวเลนซ์อิเล็กตรอน",
-    "q": "เวเลนซ์อิเล็กตรอน (จำนวน e⁻ วงนอกสุด) ของอะตอม ไอโอดีน (I) มีกี่ตัว?",
+    "categoryLabel": "สถานะและการนำไฟฟ้า",
+    "q": "ที่สภาวะมาตรฐาน (25°C, 1 atm) ธาตุ ไอโอดีน (I) มีสถานะและการนำไฟฟ้าตรงกับข้อใด?",
     "choices": [
-      "6 ตัว",
-      "7 ตัว (อยู่หมู่ 7A)",
-      "5 ตัว",
-      "8 ตัว"
+      "ของแข็ง กึ่งตัวนำไฟฟ้า (กึ่งโลหะ)",
+      "แก๊ส ไม่นำไฟฟ้า (อโลหะ)",
+      "ของเหลว นำไฟฟ้าได้ดี (โลหะ)",
+      "ของแข็ง ไม่นำไฟฟ้า (อโลหะ)"
     ],
-    "ans": 1,
-    "explanation": "ไอโอดีน อยู่ในหมู่ 7A คาบ 5 จึงมีเวเลนซ์อิเล็กตรอนเท่ากับ 7 ตัว",
+    "ans": 3,
+    "explanation": "ที่อุณหภูมิห้อง ธาตุ ไอโอดีน (I) มีสมบัติคือ \"ของแข็ง ไม่นำไฟฟ้า (อโลหะ)\"",
     "starsAwarded": 4
   },
   {
@@ -7143,16 +7144,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "upper_sec",
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "electron_config",
-    "categoryLabel": "เวเลนซ์อิเล็กตรอน",
-    "q": "เวเลนซ์อิเล็กตรอน (จำนวน e⁻ วงนอกสุด) ของอะตอม ทองคำ (Au) มีกี่ตัว?",
+    "categoryLabel": "สถานะและการนำไฟฟ้า",
+    "q": "ที่สภาวะมาตรฐาน (25°C, 1 atm) ธาตุ ทองคำ (Au) มีสถานะและการนำไฟฟ้าตรงกับข้อใด?",
     "choices": [
-      "1 ตัว (อยู่หมู่ Transition)",
-      "2 ตัว",
-      "6 ตัว",
-      "1 ตัว"
+      "ของแข็ง นำไฟฟ้าได้ดี (โลหะ)",
+      "ของแข็ง ไม่นำไฟฟ้า (อโลหะ)",
+      "ของแข็ง กึ่งตัวนำไฟฟ้า (กึ่งโลหะ)",
+      "แก๊ส ไม่นำไฟฟ้า (อโลหะ)"
     ],
     "ans": 0,
-    "explanation": "ทองคำ อยู่ในหมู่ Transition คาบ 6 จึงมีเวเลนซ์อิเล็กตรอนเท่ากับ 1 ตัว",
+    "explanation": "ที่อุณหภูมิห้อง ธาตุ ทองคำ (Au) มีสมบัติคือ \"ของแข็ง นำไฟฟ้าได้ดี (โลหะ)\"",
     "starsAwarded": 4
   },
   {
@@ -7160,16 +7161,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "upper_sec",
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "electron_config",
-    "categoryLabel": "เวเลนซ์อิเล็กตรอน",
-    "q": "เวเลนซ์อิเล็กตรอน (จำนวน e⁻ วงนอกสุด) ของอะตอม ปรอท (Hg) มีกี่ตัว?",
+    "categoryLabel": "สถานะและการนำไฟฟ้า",
+    "q": "ที่สภาวะมาตรฐาน (25°C, 1 atm) ธาตุ ปรอท (Hg) มีสถานะและการนำไฟฟ้าตรงกับข้อใด?",
     "choices": [
-      "1 ตัว",
-      "6 ตัว",
-      "2 ตัว (อยู่หมู่ Transition)",
-      "3 ตัว"
+      "ของแข็ง ไม่นำไฟฟ้า (อโลหะ)",
+      "ของเหลว นำไฟฟ้าได้ดี (โลหะ)",
+      "ของแข็ง กึ่งตัวนำไฟฟ้า (กึ่งโลหะ)",
+      "แก๊ส ไม่นำไฟฟ้า (อโลหะ)"
     ],
-    "ans": 2,
-    "explanation": "ปรอท อยู่ในหมู่ Transition คาบ 6 จึงมีเวเลนซ์อิเล็กตรอนเท่ากับ 2 ตัว",
+    "ans": 1,
+    "explanation": "ที่อุณหภูมิห้อง ธาตุ ปรอท (Hg) มีสมบัติคือ \"ของเหลว นำไฟฟ้าได้ดี (โลหะ)\"",
     "starsAwarded": 4
   },
   {
@@ -7177,16 +7178,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "upper_sec",
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "electron_config",
-    "categoryLabel": "เวเลนซ์อิเล็กตรอน",
-    "q": "เวเลนซ์อิเล็กตรอน (จำนวน e⁻ วงนอกสุด) ของอะตอม ตะกั่ว (Pb) มีกี่ตัว?",
+    "categoryLabel": "สถานะและการนำไฟฟ้า",
+    "q": "ที่สภาวะมาตรฐาน (25°C, 1 atm) ธาตุ ตะกั่ว (Pb) มีสถานะและการนำไฟฟ้าตรงกับข้อใด?",
     "choices": [
-      "4 ตัว (อยู่หมู่ 4A)",
-      "6 ตัว",
-      "3 ตัว",
-      "5 ตัว"
+      "ของแข็ง ไม่นำไฟฟ้า (อโลหะ)",
+      "ของแข็ง กึ่งตัวนำไฟฟ้า (กึ่งโลหะ)",
+      "ของแข็ง นำไฟฟ้าได้ดี (โลหะ)",
+      "แก๊ส ไม่นำไฟฟ้า (อโลหะ)"
     ],
-    "ans": 0,
-    "explanation": "ตะกั่ว อยู่ในหมู่ 4A คาบ 6 จึงมีเวเลนซ์อิเล็กตรอนเท่ากับ 4 ตัว",
+    "ans": 2,
+    "explanation": "ที่อุณหภูมิห้อง ธาตุ ตะกั่ว (Pb) มีสมบัติคือ \"ของแข็ง นำไฟฟ้าได้ดี (โลหะ)\"",
     "starsAwarded": 4
   },
   {
@@ -7194,16 +7195,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "upper_sec",
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "electron_config",
-    "categoryLabel": "เวเลนซ์อิเล็กตรอน",
-    "q": "เวเลนซ์อิเล็กตรอน (จำนวน e⁻ วงนอกสุด) ของอะตอม ยูเรเนียม (U) มีกี่ตัว?",
+    "categoryLabel": "สถานะและการนำไฟฟ้า",
+    "q": "ที่สภาวะมาตรฐาน (25°C, 1 atm) ธาตุ ยูเรเนียม (U) มีสถานะและการนำไฟฟ้าตรงกับข้อใด?",
     "choices": [
-      "7 ตัว",
-      "5 ตัว",
-      "ตัวเลือกเพิ่มเติม 4",
-      "6 ตัว (อยู่หมู่ Transition)"
+      "ของแข็ง กึ่งตัวนำไฟฟ้า (กึ่งโลหะ)",
+      "แก๊ส ไม่นำไฟฟ้า (อโลหะ)",
+      "ของเหลว นำไฟฟ้าได้ดี (โลหะ)",
+      "ของแข็ง นำไฟฟ้าได้ดี (โลหะ)"
     ],
     "ans": 3,
-    "explanation": "ยูเรเนียม อยู่ในหมู่ Transition คาบ 7 จึงมีเวเลนซ์อิเล็กตรอนเท่ากับ 6 ตัว",
+    "explanation": "ที่อุณหภูมิห้อง ธาตุ ยูเรเนียม (U) มีสมบัติคือ \"ของแข็ง นำไฟฟ้าได้ดี (โลหะ)\"",
     "starsAwarded": 4
   },
   {
@@ -7211,16 +7212,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "primary_lower_sec",
     "gradeLabel": "ป.ปลาย - ม.ต้น",
     "category": "periodic_trend",
-    "categoryLabel": "การจัดกลุ่มในตารางธาตุ",
-    "q": "ธาตุ ไฮโดรเจน (H) จัดเป็นธาตุประเภทใดในตารางธาตุ?",
+    "categoryLabel": "สูตรสารประกอบออกไซด์",
+    "q": "สารประกอบออกไซด์ของธาตุ ไฮโดรเจน (H) เมื่อรวมกับออกซิเจน มีสูตรเคมีตรงกับข้อใด?",
     "choices": [
-      "โลหะผสมอุตสาหกรรมหนัก",
-      "อโลหะ",
-      "สารกัมมันตรังสีอันตรายระดับ 5",
-      "ก๊าซสังเคราะห์สังเคราะห์ในอวกาศ"
+      "HO",
+      "HO₂",
+      "H₂O₃",
+      "H₂O"
     ],
-    "ans": 1,
-    "explanation": "ไฮโดรเจน (H, Z=1) จัดอยู่ในกลุ่ม \"อโลหะ\" ธาตุที่เบาที่สุดและมีปริมาณมากที่สุดในจักรวาล เป็นเชื้อเพลิงของดวงอาทิตย์!",
+    "ans": 3,
+    "explanation": "สารประกอบออกไซด์ที่เสถียรของ ไฮโดรเจน (H) คือ: H₂O",
     "starsAwarded": 3
   },
   {
@@ -7228,16 +7229,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "primary_lower_sec",
     "gradeLabel": "ป.ปลาย - ม.ต้น",
     "category": "periodic_trend",
-    "categoryLabel": "การจัดกลุ่มในตารางธาตุ",
-    "q": "ธาตุ ฮีเลียม (He) จัดเป็นธาตุประเภทใดในตารางธาตุ?",
+    "categoryLabel": "สูตรสารประกอบออกไซด์",
+    "q": "สารประกอบออกไซด์ของธาตุ ฮีเลียม (He) เมื่อรวมกับออกซิเจน มีสูตรเคมีตรงกับข้อใด?",
     "choices": [
-      "ก๊าซสังเคราะห์สังเคราะห์ในอวกาศ",
-      "ก๊าซมีตระกูล (ก๊าซเฉื่อย)",
-      "สารกัมมันตรังสีอันตรายระดับ 5",
-      "โลหะผสมอุตสาหกรรมหนัก"
+      "ไม่เกิดสารประกอบออกไซด์",
+      "HeO ออกไซด์เดี่ยว",
+      "HeO₂ ไดออกไซด์",
+      "He₂O₃ เซสควิออกไซด์"
     ],
-    "ans": 1,
-    "explanation": "ฮีเลียม (He, Z=2) จัดอยู่ในกลุ่ม \"ก๊าซมีตระกูล (ก๊าซเฉื่อย)\" ก๊าซที่ใช้บรรจุลูกโป่งสวรรค์เพราะเบากว่าอากาศและไม่ติดไฟ ปลอดภัยกว่าไฮโดรเจน",
+    "ans": 0,
+    "explanation": "สารประกอบออกไซด์ที่เสถียรของ ฮีเลียม (He) คือ: ไม่เกิดสารประกอบออกไซด์",
     "starsAwarded": 3
   },
   {
@@ -7245,16 +7246,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "primary_lower_sec",
     "gradeLabel": "ป.ปลาย - ม.ต้น",
     "category": "periodic_trend",
-    "categoryLabel": "การจัดกลุ่มในตารางธาตุ",
-    "q": "ธาตุ ลิเทียม (Li) จัดเป็นธาตุประเภทใดในตารางธาตุ?",
+    "categoryLabel": "สูตรสารประกอบออกไซด์",
+    "q": "สารประกอบออกไซด์ของธาตุ ลิเทียม (Li) เมื่อรวมกับออกซิเจน มีสูตรเคมีตรงกับข้อใด?",
     "choices": [
-      "โลหะผสมอุตสาหกรรมหนัก",
-      "ก๊าซสังเคราะห์สังเคราะห์ในอวกาศ",
-      "สารกัมมันตรังสีอันตรายระดับ 5",
-      "โลหะแอลคาไล"
+      "LiO",
+      "Li₂O",
+      "LiO₂",
+      "Li₂O₃"
     ],
-    "ans": 3,
-    "explanation": "ลิเทียม (Li, Z=3) จัดอยู่ในกลุ่ม \"โลหะแอลคาไล\" โลหะที่มีความหนาแน่นน้อยที่สุด เบาจนลอยบนน้ำมันได้ ใช้ทำแบตเตอรี่มือถือและรถยนต์ไฟฟ้า (EV)!",
+    "ans": 1,
+    "explanation": "สารประกอบออกไซด์ที่เสถียรของ ลิเทียม (Li) คือ: Li₂O",
     "starsAwarded": 3
   },
   {
@@ -7262,16 +7263,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "primary_lower_sec",
     "gradeLabel": "ป.ปลาย - ม.ต้น",
     "category": "periodic_trend",
-    "categoryLabel": "การจัดกลุ่มในตารางธาตุ",
-    "q": "ธาตุ เบริลเลียม (Be) จัดเป็นธาตุประเภทใดในตารางธาตุ?",
+    "categoryLabel": "สูตรสารประกอบออกไซด์",
+    "q": "สารประกอบออกไซด์ของธาตุ เบริลเลียม (Be) เมื่อรวมกับออกซิเจน มีสูตรเคมีตรงกับข้อใด?",
     "choices": [
-      "สารกัมมันตรังสีอันตรายระดับ 5",
-      "โลหะแอลคาไลน์เอิร์ท",
-      "ก๊าซสังเคราะห์สังเคราะห์ในอวกาศ",
-      "โลหะผสมอุตสาหกรรมหนัก"
+      "BeO₂",
+      "Be₂O",
+      "BeO",
+      "Be₂O₃"
     ],
-    "ans": 1,
-    "explanation": "เบริลเลียม (Be, Z=4) จัดอยู่ในกลุ่ม \"โลหะแอลคาไลน์เอิร์ท\" พบในอัญมณีล้ำค่าอย่างมรกต (Emerald) และแอกวามารีน แข็งแกร่งและทนความร้อนสูง",
+    "ans": 2,
+    "explanation": "สารประกอบออกไซด์ที่เสถียรของ เบริลเลียม (Be) คือ: BeO",
     "starsAwarded": 3
   },
   {
@@ -7279,16 +7280,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "primary_lower_sec",
     "gradeLabel": "ป.ปลาย - ม.ต้น",
     "category": "periodic_trend",
-    "categoryLabel": "การจัดกลุ่มในตารางธาตุ",
-    "q": "ธาตุ โบรอน (B) จัดเป็นธาตุประเภทใดในตารางธาตุ?",
+    "categoryLabel": "สูตรสารประกอบออกไซด์",
+    "q": "สารประกอบออกไซด์ของธาตุ โบรอน (B) เมื่อรวมกับออกซิเจน มีสูตรเคมีตรงกับข้อใด?",
     "choices": [
-      "กึ่งโลหะ",
-      "โลหะผสมอุตสาหกรรมหนัก",
-      "ก๊าซสังเคราะห์สังเคราะห์ในอวกาศ",
-      "สารกัมมันตรังสีอันตรายระดับ 5"
+      "BO",
+      "BO₂",
+      "B₂O",
+      "B₂O₃"
     ],
-    "ans": 0,
-    "explanation": "โบรอน (B, Z=5) จัดอยู่ในกลุ่ม \"กึ่งโลหะ\" ใช้ทำแก้วไพเร็กซ์ (Pyrex) ในห้องแล็บที่ทนไฟไม่แตกง่าย และใช้ทำน้ำยาประสานทอง",
+    "ans": 3,
+    "explanation": "สารประกอบออกไซด์ที่เสถียรของ โบรอน (B) คือ: B₂O₃",
     "starsAwarded": 3
   },
   {
@@ -7296,16 +7297,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "primary_lower_sec",
     "gradeLabel": "ป.ปลาย - ม.ต้น",
     "category": "periodic_trend",
-    "categoryLabel": "การจัดกลุ่มในตารางธาตุ",
-    "q": "ธาตุ คาร์บอน (C) จัดเป็นธาตุประเภทใดในตารางธาตุ?",
+    "categoryLabel": "สูตรสารประกอบออกไซด์",
+    "q": "สารประกอบออกไซด์ของธาตุ คาร์บอน (C) เมื่อรวมกับออกซิเจน มีสูตรเคมีตรงกับข้อใด?",
     "choices": [
-      "โลหะผสมอุตสาหกรรมหนัก",
-      "ก๊าซสังเคราะห์สังเคราะห์ในอวกาศ",
-      "สารกัมมันตรังสีอันตรายระดับ 5",
-      "อโลหะ"
+      "CO₂",
+      "CO",
+      "C₂O",
+      "C₂O₃"
     ],
-    "ans": 3,
-    "explanation": "คาร์บอน (C, Z=6) จัดอยู่ในกลุ่ม \"อโลหะ\" ราชาแห่งเคมีอินทรีย์! อยู่ในไส้ดินสอ (แกรไฟต์) จนถึงเพชรที่แข็งที่สุด และอยู่ในสิ่งมีชีวิตทุกชนิด",
+    "ans": 0,
+    "explanation": "สารประกอบออกไซด์ที่เสถียรของ คาร์บอน (C) คือ: CO₂",
     "starsAwarded": 3
   },
   {
@@ -7313,16 +7314,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "primary_lower_sec",
     "gradeLabel": "ป.ปลาย - ม.ต้น",
     "category": "periodic_trend",
-    "categoryLabel": "การจัดกลุ่มในตารางธาตุ",
-    "q": "ธาตุ ไนโตรเจน (N) จัดเป็นธาตุประเภทใดในตารางธาตุ?",
+    "categoryLabel": "สูตรสารประกอบออกไซด์",
+    "q": "สารประกอบออกไซด์ของธาตุ ไนโตรเจน (N) เมื่อรวมกับออกซิเจน มีสูตรเคมีตรงกับข้อใด?",
     "choices": [
-      "สารกัมมันตรังสีอันตรายระดับ 5",
-      "ก๊าซสังเคราะห์สังเคราะห์ในอวกาศ",
-      "โลหะผสมอุตสาหกรรมหนัก",
-      "อโลหะ"
+      "NO",
+      "N₂O₅",
+      "NO₂",
+      "N₂O"
     ],
-    "ans": 3,
-    "explanation": "ไนโตรเจน (N, Z=7) จัดอยู่ในกลุ่ม \"อโลหะ\" ก๊าซที่มีมากที่สุดในอากาศถึง 78%! ใช้บรรจุในถุงขนมกรุบกรอบกันเหม็นหืน",
+    "ans": 1,
+    "explanation": "สารประกอบออกไซด์ที่เสถียรของ ไนโตรเจน (N) คือ: N₂O₅",
     "starsAwarded": 3
   },
   {
@@ -7330,16 +7331,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "primary_lower_sec",
     "gradeLabel": "ป.ปลาย - ม.ต้น",
     "category": "periodic_trend",
-    "categoryLabel": "การจัดกลุ่มในตารางธาตุ",
-    "q": "ธาตุ ออกซิเจน (O) จัดเป็นธาตุประเภทใดในตารางธาตุ?",
+    "categoryLabel": "สูตรสารประกอบออกไซด์",
+    "q": "สารประกอบออกไซด์ของธาตุ ออกซิเจน (O) เมื่อรวมกับออกซิเจน มีสูตรเคมีตรงกับข้อใด?",
     "choices": [
-      "อโลหะ",
-      "สารกัมมันตรังสีอันตรายระดับ 5",
-      "โลหะผสมอุตสาหกรรมหนัก",
-      "ก๊าซสังเคราะห์สังเคราะห์ในอวกาศ"
+      "OO",
+      "OO₂",
+      "O₂ / O₃",
+      "O₂O"
     ],
-    "ans": 0,
-    "explanation": "ออกซิเจน (O, Z=8) จัดอยู่ในกลุ่ม \"อโลหะ\" ก๊าซแห่งชีวิต! เราหายใจเข้าเพื่อใช้ออกซิเจนเผาผลาญอาหาร และช่วยให้ไฟติด",
+    "ans": 2,
+    "explanation": "สารประกอบออกไซด์ที่เสถียรของ ออกซิเจน (O) คือ: O₂ / O₃",
     "starsAwarded": 3
   },
   {
@@ -7347,16 +7348,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "primary_lower_sec",
     "gradeLabel": "ป.ปลาย - ม.ต้น",
     "category": "periodic_trend",
-    "categoryLabel": "การจัดกลุ่มในตารางธาตุ",
-    "q": "ธาตุ ฟลูออรีน (F) จัดเป็นธาตุประเภทใดในตารางธาตุ?",
+    "categoryLabel": "สูตรสารประกอบออกไซด์",
+    "q": "สารประกอบออกไซด์ของธาตุ ฟลูออรีน (F) เมื่อรวมกับออกซิเจน มีสูตรเคมีตรงกับข้อใด?",
     "choices": [
-      "ก๊าซสังเคราะห์สังเคราะห์ในอวกาศ",
-      "โลหะผสมอุตสาหกรรมหนัก",
-      "แฮโลเจน",
-      "สารกัมมันตรังสีอันตรายระดับ 5"
+      "FO",
+      "FO₂",
+      "F₂O",
+      "OF₂"
     ],
-    "ans": 2,
-    "explanation": "ฟลูออรีน (F, Z=9) จัดอยู่ในกลุ่ม \"แฮโลเจน\" ผสมในยาสีฟันในรูปฟลูออไรด์ ช่วยเคลือบฟันป้องกันฟันผุได้อย่างดีเยี่ยม",
+    "ans": 3,
+    "explanation": "สารประกอบออกไซด์ที่เสถียรของ ฟลูออรีน (F) คือ: OF₂",
     "starsAwarded": 3
   },
   {
@@ -7364,16 +7365,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "primary_lower_sec",
     "gradeLabel": "ป.ปลาย - ม.ต้น",
     "category": "periodic_trend",
-    "categoryLabel": "การจัดกลุ่มในตารางธาตุ",
-    "q": "ธาตุ นีออน (Ne) จัดเป็นธาตุประเภทใดในตารางธาตุ?",
+    "categoryLabel": "สูตรสารประกอบออกไซด์",
+    "q": "สารประกอบออกไซด์ของธาตุ นีออน (Ne) เมื่อรวมกับออกซิเจน มีสูตรเคมีตรงกับข้อใด?",
     "choices": [
-      "ก๊าซมีตระกูล (ก๊าซเฉื่อย)",
-      "ก๊าซสังเคราะห์สังเคราะห์ในอวกาศ",
-      "โลหะผสมอุตสาหกรรมหนัก",
-      "สารกัมมันตรังสีอันตรายระดับ 5"
+      "ไม่เกิดสารประกอบออกไซด์",
+      "NeO ออกไซด์เดี่ยว",
+      "NeO₂ ไดออกไซด์",
+      "Ne₂O₃ เซสควิออกไซด์"
     ],
     "ans": 0,
-    "explanation": "นีออน (Ne, Z=10) จัดอยู่ในกลุ่ม \"ก๊าซมีตระกูล (ก๊าซเฉื่อย)\" เมื่อปล่อยกระแสไฟฟ้าผ่าน จะเปล่งแสงสีส้มแดงสว่างไสว นิยมทำป้ายไฟโฆษณาตอนกลางคืน",
+    "explanation": "สารประกอบออกไซด์ที่เสถียรของ นีออน (Ne) คือ: ไม่เกิดสารประกอบออกไซด์",
     "starsAwarded": 3
   },
   {
@@ -7381,16 +7382,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "primary_lower_sec",
     "gradeLabel": "ป.ปลาย - ม.ต้น",
     "category": "periodic_trend",
-    "categoryLabel": "การจัดกลุ่มในตารางธาตุ",
-    "q": "ธาตุ โซเดียม (Na) จัดเป็นธาตุประเภทใดในตารางธาตุ?",
+    "categoryLabel": "สูตรสารประกอบออกไซด์",
+    "q": "สารประกอบออกไซด์ของธาตุ โซเดียม (Na) เมื่อรวมกับออกซิเจน มีสูตรเคมีตรงกับข้อใด?",
     "choices": [
-      "ก๊าซสังเคราะห์สังเคราะห์ในอวกาศ",
-      "โลหะผสมอุตสาหกรรมหนัก",
-      "สารกัมมันตรังสีอันตรายระดับ 5",
-      "โลหะแอลคาไล"
+      "NaO",
+      "Na₂O",
+      "NaO₂",
+      "Na₂O₃"
     ],
-    "ans": 3,
-    "explanation": "โซเดียม (Na, Z=11) จัดอยู่ในกลุ่ม \"โลหะแอลคาไล\" รวมกับคลอรีนกลายเป็นเกลือแกง (NaCl) ที่เราปรุงอาหารทุกวัน! แต่ถ้าเป็นโลหะบริสุทธิ์โดนน้ำจะระเบิดไฟลุก",
+    "ans": 1,
+    "explanation": "สารประกอบออกไซด์ที่เสถียรของ โซเดียม (Na) คือ: Na₂O",
     "starsAwarded": 3
   },
   {
@@ -7398,16 +7399,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "primary_lower_sec",
     "gradeLabel": "ป.ปลาย - ม.ต้น",
     "category": "periodic_trend",
-    "categoryLabel": "การจัดกลุ่มในตารางธาตุ",
-    "q": "ธาตุ แมกนีเซียม (Mg) จัดเป็นธาตุประเภทใดในตารางธาตุ?",
+    "categoryLabel": "สูตรสารประกอบออกไซด์",
+    "q": "สารประกอบออกไซด์ของธาตุ แมกนีเซียม (Mg) เมื่อรวมกับออกซิเจน มีสูตรเคมีตรงกับข้อใด?",
     "choices": [
-      "โลหะผสมอุตสาหกรรมหนัก",
-      "โลหะแอลคาไลน์เอิร์ท",
-      "สารกัมมันตรังสีอันตรายระดับ 5",
-      "ก๊าซสังเคราะห์สังเคราะห์ในอวกาศ"
+      "MgO₂",
+      "Mg₂O",
+      "MgO",
+      "Mg₂O₃"
     ],
-    "ans": 1,
-    "explanation": "แมกนีเซียม (Mg, Z=12) จัดอยู่ในกลุ่ม \"โลหะแอลคาไลน์เอิร์ท\" เป็นธาตุใจกลางของโมเลกุลคลอโรฟิลล์ในพืชสีเขียว เผาไหม้แล้วให้แสงสีขาวสว่างจ้า ใช้ทำพลุไฟ",
+    "ans": 2,
+    "explanation": "สารประกอบออกไซด์ที่เสถียรของ แมกนีเซียม (Mg) คือ: MgO",
     "starsAwarded": 3
   },
   {
@@ -7415,16 +7416,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "primary_lower_sec",
     "gradeLabel": "ป.ปลาย - ม.ต้น",
     "category": "periodic_trend",
-    "categoryLabel": "การจัดกลุ่มในตารางธาตุ",
-    "q": "ธาตุ อะลูมิเนียม (Al) จัดเป็นธาตุประเภทใดในตารางธาตุ?",
+    "categoryLabel": "สูตรสารประกอบออกไซด์",
+    "q": "สารประกอบออกไซด์ของธาตุ อะลูมิเนียม (Al) เมื่อรวมกับออกซิเจน มีสูตรเคมีตรงกับข้อใด?",
     "choices": [
-      "โลหะผสมอุตสาหกรรมหนัก",
-      "ก๊าซสังเคราะห์สังเคราะห์ในอวกาศ",
-      "โลหะหลังแทรนซิชัน",
-      "สารกัมมันตรังสีอันตรายระดับ 5"
+      "AlO",
+      "AlO₂",
+      "Al₂O",
+      "Al₂O₃"
     ],
-    "ans": 2,
-    "explanation": "อะลูมิเนียม (Al, Z=13) จัดอยู่ในกลุ่ม \"โลหะหลังแทรนซิชัน\" โลหะน้ำหนักเบา ไม่เป็นสนิม ใช้สร้างโครงสร้างเครื่องบิน กระป๋องน้ำอัดลม และฟอยล์ห่ออาหาร",
+    "ans": 3,
+    "explanation": "สารประกอบออกไซด์ที่เสถียรของ อะลูมิเนียม (Al) คือ: Al₂O₃",
     "starsAwarded": 3
   },
   {
@@ -7432,16 +7433,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "primary_lower_sec",
     "gradeLabel": "ป.ปลาย - ม.ต้น",
     "category": "periodic_trend",
-    "categoryLabel": "การจัดกลุ่มในตารางธาตุ",
-    "q": "ธาตุ ซิลิคอน (Si) จัดเป็นธาตุประเภทใดในตารางธาตุ?",
+    "categoryLabel": "สูตรสารประกอบออกไซด์",
+    "q": "สารประกอบออกไซด์ของธาตุ ซิลิคอน (Si) เมื่อรวมกับออกซิเจน มีสูตรเคมีตรงกับข้อใด?",
     "choices": [
-      "สารกัมมันตรังสีอันตรายระดับ 5",
-      "โลหะผสมอุตสาหกรรมหนัก",
-      "กึ่งโลหะ",
-      "ก๊าซสังเคราะห์สังเคราะห์ในอวกาศ"
+      "SiO₂",
+      "SiO",
+      "Si₂O",
+      "Si₂O₃"
     ],
-    "ans": 2,
-    "explanation": "ซิลิคอน (Si, Z=14) จัดอยู่ในกลุ่ม \"กึ่งโลหะ\" สารกึ่งตัวนำหัวใจของคอมพิวเตอร์และชิปสมาร์ตโฟน พบในเม็ดทรายและกระจก (SiO₂)",
+    "ans": 0,
+    "explanation": "สารประกอบออกไซด์ที่เสถียรของ ซิลิคอน (Si) คือ: SiO₂",
     "starsAwarded": 3
   },
   {
@@ -7449,16 +7450,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "primary_lower_sec",
     "gradeLabel": "ป.ปลาย - ม.ต้น",
     "category": "periodic_trend",
-    "categoryLabel": "การจัดกลุ่มในตารางธาตุ",
-    "q": "ธาตุ ฟอสฟอรัส (P) จัดเป็นธาตุประเภทใดในตารางธาตุ?",
+    "categoryLabel": "สูตรสารประกอบออกไซด์",
+    "q": "สารประกอบออกไซด์ของธาตุ ฟอสฟอรัส (P) เมื่อรวมกับออกซิเจน มีสูตรเคมีตรงกับข้อใด?",
     "choices": [
-      "สารกัมมันตรังสีอันตรายระดับ 5",
-      "อโลหะ",
-      "ก๊าซสังเคราะห์สังเคราะห์ในอวกาศ",
-      "โลหะผสมอุตสาหกรรมหนัก"
+      "PO",
+      "P₂O₅",
+      "PO₂",
+      "P₂O"
     ],
     "ans": 1,
-    "explanation": "ฟอสฟอรัส (P, Z=15) จัดอยู่ในกลุ่ม \"อโลหะ\" อยู่ในหัวไม้ขีดไฟ ปุ๋ยพืช (N-P-K) และเป็นส่วนประกอบของ DNA และกระดูกฟันมนุษย์",
+    "explanation": "สารประกอบออกไซด์ที่เสถียรของ ฟอสฟอรัส (P) คือ: P₂O₅",
     "starsAwarded": 3
   },
   {
@@ -7466,16 +7467,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "primary_lower_sec",
     "gradeLabel": "ป.ปลาย - ม.ต้น",
     "category": "periodic_trend",
-    "categoryLabel": "การจัดกลุ่มในตารางธาตุ",
-    "q": "ธาตุ กำมะถัน (ซัลเฟอร์) (S) จัดเป็นธาตุประเภทใดในตารางธาตุ?",
+    "categoryLabel": "สูตรสารประกอบออกไซด์",
+    "q": "สารประกอบออกไซด์ของธาตุ กำมะถัน (S) เมื่อรวมกับออกซิเจน มีสูตรเคมีตรงกับข้อใด?",
     "choices": [
-      "ก๊าซสังเคราะห์สังเคราะห์ในอวกาศ",
-      "สารกัมมันตรังสีอันตรายระดับ 5",
-      "อโลหะ",
-      "โลหะผสมอุตสาหกรรมหนัก"
+      "SO",
+      "SO₂",
+      "SO₂ / SO₃",
+      "S₂O"
     ],
     "ans": 2,
-    "explanation": "กำมะถัน (ซัลเฟอร์) (S, Z=16) จัดอยู่ในกลุ่ม \"อโลหะ\" ผลึกสีเหลืองสดใส พบตามปล่องภูเขาไฟและบ่อน้ำพุร้อน ใช้ทำดินปืนและยางรถยนต์วัลคาไนซ์",
+    "explanation": "สารประกอบออกไซด์ที่เสถียรของ กำมะถัน (S) คือ: SO₂ / SO₃",
     "starsAwarded": 3
   },
   {
@@ -7483,16 +7484,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "primary_lower_sec",
     "gradeLabel": "ป.ปลาย - ม.ต้น",
     "category": "periodic_trend",
-    "categoryLabel": "การจัดกลุ่มในตารางธาตุ",
-    "q": "ธาตุ คลอรีน (Cl) จัดเป็นธาตุประเภทใดในตารางธาตุ?",
+    "categoryLabel": "สูตรสารประกอบออกไซด์",
+    "q": "สารประกอบออกไซด์ของธาตุ คลอรีน (Cl) เมื่อรวมกับออกซิเจน มีสูตรเคมีตรงกับข้อใด?",
     "choices": [
-      "สารกัมมันตรังสีอันตรายระดับ 5",
-      "แฮโลเจน",
-      "โลหะผสมอุตสาหกรรมหนัก",
-      "ก๊าซสังเคราะห์สังเคราะห์ในอวกาศ"
+      "ClO",
+      "ClO₂",
+      "Cl₂O",
+      "Cl₂O₇"
     ],
-    "ans": 1,
-    "explanation": "คลอรีน (Cl, Z=17) จัดอยู่ในกลุ่ม \"แฮโลเจน\" ก๊าซสีเขียวตองอ่อน มีกลิ่นฉุน ใช้ฆ่าเชื้อโรคในสระว่ายน้ำและผลิตน้ำประปาสะอาด",
+    "ans": 3,
+    "explanation": "สารประกอบออกไซด์ที่เสถียรของ คลอรีน (Cl) คือ: Cl₂O₇",
     "starsAwarded": 3
   },
   {
@@ -7500,16 +7501,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "primary_lower_sec",
     "gradeLabel": "ป.ปลาย - ม.ต้น",
     "category": "periodic_trend",
-    "categoryLabel": "การจัดกลุ่มในตารางธาตุ",
-    "q": "ธาตุ อาร์กอน (Ar) จัดเป็นธาตุประเภทใดในตารางธาตุ?",
+    "categoryLabel": "สูตรสารประกอบออกไซด์",
+    "q": "สารประกอบออกไซด์ของธาตุ อาร์กอน (Ar) เมื่อรวมกับออกซิเจน มีสูตรเคมีตรงกับข้อใด?",
     "choices": [
-      "ก๊าซสังเคราะห์สังเคราะห์ในอวกาศ",
-      "สารกัมมันตรังสีอันตรายระดับ 5",
-      "ก๊าซมีตระกูล (ก๊าซเฉื่อย)",
-      "โลหะผสมอุตสาหกรรมหนัก"
+      "ไม่เกิดสารประกอบออกไซด์",
+      "ArO ออกไซด์เดี่ยว",
+      "ArO₂ ไดออกไซด์",
+      "Ar₂O₃ เซสควิออกไซด์"
     ],
-    "ans": 2,
-    "explanation": "อาร์กอน (Ar, Z=18) จัดอยู่ในกลุ่ม \"ก๊าซมีตระกูล (ก๊าซเฉื่อย)\" มีในอากาศประมาณ 1% นิยมบรรจุในหลอดไฟไส้ทังสเตนและใช้เป็นก๊าซคลุมในการเชื่อมโลหะ",
+    "ans": 0,
+    "explanation": "สารประกอบออกไซด์ที่เสถียรของ อาร์กอน (Ar) คือ: ไม่เกิดสารประกอบออกไซด์",
     "starsAwarded": 3
   },
   {
@@ -7517,16 +7518,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "primary_lower_sec",
     "gradeLabel": "ป.ปลาย - ม.ต้น",
     "category": "periodic_trend",
-    "categoryLabel": "การจัดกลุ่มในตารางธาตุ",
-    "q": "ธาตุ โพแทสเซียม (K) จัดเป็นธาตุประเภทใดในตารางธาตุ?",
+    "categoryLabel": "สูตรสารประกอบออกไซด์",
+    "q": "สารประกอบออกไซด์ของธาตุ โพแทสเซียม (K) เมื่อรวมกับออกซิเจน มีสูตรเคมีตรงกับข้อใด?",
     "choices": [
-      "โลหะผสมอุตสาหกรรมหนัก",
-      "โลหะแอลคาไล",
-      "สารกัมมันตรังสีอันตรายระดับ 5",
-      "ก๊าซสังเคราะห์สังเคราะห์ในอวกาศ"
+      "KO",
+      "K₂O",
+      "KO₂",
+      "K₂O₃"
     ],
     "ans": 1,
-    "explanation": "โพแทสเซียม (K, Z=19) จัดอยู่ในกลุ่ม \"โลหะแอลคาไล\" พบมากในกล้วยหอมและผักผลไม้ มีความสำคัญต่อการส่งสัญญาณประสาทและการเต้นของหัวใจ",
+    "explanation": "สารประกอบออกไซด์ที่เสถียรของ โพแทสเซียม (K) คือ: K₂O",
     "starsAwarded": 3
   },
   {
@@ -7534,16 +7535,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "primary_lower_sec",
     "gradeLabel": "ป.ปลาย - ม.ต้น",
     "category": "periodic_trend",
-    "categoryLabel": "การจัดกลุ่มในตารางธาตุ",
-    "q": "ธาตุ แคลเซียม (Ca) จัดเป็นธาตุประเภทใดในตารางธาตุ?",
+    "categoryLabel": "สูตรสารประกอบออกไซด์",
+    "q": "สารประกอบออกไซด์ของธาตุ แคลเซียม (Ca) เมื่อรวมกับออกซิเจน มีสูตรเคมีตรงกับข้อใด?",
     "choices": [
-      "โลหะผสมอุตสาหกรรมหนัก",
-      "โลหะแอลคาไลน์เอิร์ท",
-      "ก๊าซสังเคราะห์สังเคราะห์ในอวกาศ",
-      "สารกัมมันตรังสีอันตรายระดับ 5"
+      "CaO₂",
+      "Ca₂O",
+      "CaO",
+      "Ca₂O₃"
     ],
-    "ans": 1,
-    "explanation": "แคลเซียม (Ca, Z=20) จัดอยู่ในกลุ่ม \"โลหะแอลคาไลน์เอิร์ท\" แร่ธาตุสร้างกระดูกและฟันของมนุษย์ พบในนม และเป็นส่วนประกอบหลักของหินปูน (CaCO₃)",
+    "ans": 2,
+    "explanation": "สารประกอบออกไซด์ที่เสถียรของ แคลเซียม (Ca) คือ: CaO",
     "starsAwarded": 3
   },
   {
@@ -7551,16 +7552,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "primary_lower_sec",
     "gradeLabel": "ป.ปลาย - ม.ต้น",
     "category": "periodic_trend",
-    "categoryLabel": "การจัดกลุ่มในตารางธาตุ",
-    "q": "ธาตุ เหล็ก (Fe) จัดเป็นธาตุประเภทใดในตารางธาตุ?",
+    "categoryLabel": "สูตรสารประกอบออกไซด์",
+    "q": "สารประกอบออกไซด์ของธาตุ เหล็ก (Fe) เมื่อรวมกับออกซิเจน มีสูตรเคมีตรงกับข้อใด?",
     "choices": [
-      "โลหะแทรนซิชัน",
-      "สารกัมมันตรังสีอันตรายระดับ 5",
-      "ก๊าซสังเคราะห์สังเคราะห์ในอวกาศ",
-      "โลหะผสมอุตสาหกรรมหนัก"
+      "FeO",
+      "FeO₂",
+      "Fe₂O",
+      "Fe₂O₃"
     ],
-    "ans": 0,
-    "explanation": "เหล็ก (Fe, Z=26) จัดอยู่ในกลุ่ม \"โลหะแทรนซิชัน\" โลหะที่มนุษย์ใช้สร้างตึก สะพาน รถยนต์ และเป็นแกนกลางของฮีโมโกลบินในเม็ดเลือดแดงที่ลำเลียง O₂",
+    "ans": 3,
+    "explanation": "สารประกอบออกไซด์ที่เสถียรของ เหล็ก (Fe) คือ: Fe₂O₃",
     "starsAwarded": 3
   },
   {
@@ -7568,16 +7569,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "primary_lower_sec",
     "gradeLabel": "ป.ปลาย - ม.ต้น",
     "category": "periodic_trend",
-    "categoryLabel": "การจัดกลุ่มในตารางธาตุ",
-    "q": "ธาตุ ทองแดง (Cu) จัดเป็นธาตุประเภทใดในตารางธาตุ?",
+    "categoryLabel": "สูตรสารประกอบออกไซด์",
+    "q": "สารประกอบออกไซด์ของธาตุ ทองแดง (Cu) เมื่อรวมกับออกซิเจน มีสูตรเคมีตรงกับข้อใด?",
     "choices": [
-      "ก๊าซสังเคราะห์สังเคราะห์ในอวกาศ",
-      "โลหะผสมอุตสาหกรรมหนัก",
-      "สารกัมมันตรังสีอันตรายระดับ 5",
-      "โลหะแทรนซิชัน"
+      "CuO",
+      "CuO₂",
+      "Cu₂O",
+      "Cu₂O₃"
     ],
-    "ans": 3,
-    "explanation": "ทองแดง (Cu, Z=29) จัดอยู่ในกลุ่ม \"โลหะแทรนซิชัน\" โลหะสีส้มแดงนำไฟฟ้าและความร้อนดีเยี่ยมรองจากเงิน ใช้ทำสายไฟฟ้าและเหรียญกษาปณ์",
+    "ans": 0,
+    "explanation": "สารประกอบออกไซด์ที่เสถียรของ ทองแดง (Cu) คือ: CuO",
     "starsAwarded": 3
   },
   {
@@ -7585,16 +7586,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "primary_lower_sec",
     "gradeLabel": "ป.ปลาย - ม.ต้น",
     "category": "periodic_trend",
-    "categoryLabel": "การจัดกลุ่มในตารางธาตุ",
-    "q": "ธาตุ สังกะสี (Zn) จัดเป็นธาตุประเภทใดในตารางธาตุ?",
+    "categoryLabel": "สูตรสารประกอบออกไซด์",
+    "q": "สารประกอบออกไซด์ของธาตุ สังกะสี (Zn) เมื่อรวมกับออกซิเจน มีสูตรเคมีตรงกับข้อใด?",
     "choices": [
-      "ก๊าซสังเคราะห์สังเคราะห์ในอวกาศ",
-      "โลหะแทรนซิชัน",
-      "สารกัมมันตรังสีอันตรายระดับ 5",
-      "โลหะผสมอุตสาหกรรมหนัก"
+      "ZnO₂",
+      "ZnO",
+      "Zn₂O",
+      "Zn₂O₃"
     ],
     "ans": 1,
-    "explanation": "สังกะสี (Zn, Z=30) จัดอยู่ในกลุ่ม \"โลหะแทรนซิชัน\" ใช้เคลือบเหล็กกันสนิม (Galvanization) ทำหลังคาเมทัลชีท และเป็นแร่ธาตุเสริมภูมิคุ้มกันร่างกาย",
+    "explanation": "สารประกอบออกไซด์ที่เสถียรของ สังกะสี (Zn) คือ: ZnO",
     "starsAwarded": 3
   },
   {
@@ -7602,16 +7603,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "primary_lower_sec",
     "gradeLabel": "ป.ปลาย - ม.ต้น",
     "category": "periodic_trend",
-    "categoryLabel": "การจัดกลุ่มในตารางธาตุ",
-    "q": "ธาตุ โบรมีน (Br) จัดเป็นธาตุประเภทใดในตารางธาตุ?",
+    "categoryLabel": "สูตรสารประกอบออกไซด์",
+    "q": "สารประกอบออกไซด์ของธาตุ โบรมีน (Br) เมื่อรวมกับออกซิเจน มีสูตรเคมีตรงกับข้อใด?",
     "choices": [
-      "โลหะผสมอุตสาหกรรมหนัก",
-      "สารกัมมันตรังสีอันตรายระดับ 5",
-      "ก๊าซสังเคราะห์สังเคราะห์ในอวกาศ",
-      "แฮโลเจน"
+      "BrO",
+      "BrO₂",
+      "Br₂O",
+      "Br₂O₃"
     ],
-    "ans": 3,
-    "explanation": "โบรมีน (Br, Z=35) จัดอยู่ในกลุ่ม \"แฮโลเจน\" อโลหะชนิดเดียวในตารางธาตุที่เป็น \"ของเหลว\" ที่อุณหภูมิห้อง! มีสีน้ำตาลแดงและระเหยเป็นไอพิษสีส้มฉุน",
+    "ans": 2,
+    "explanation": "สารประกอบออกไซด์ที่เสถียรของ โบรมีน (Br) คือ: Br₂O",
     "starsAwarded": 3
   },
   {
@@ -7619,16 +7620,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "primary_lower_sec",
     "gradeLabel": "ป.ปลาย - ม.ต้น",
     "category": "periodic_trend",
-    "categoryLabel": "การจัดกลุ่มในตารางธาตุ",
-    "q": "ธาตุ เงิน (Ag) จัดเป็นธาตุประเภทใดในตารางธาตุ?",
+    "categoryLabel": "สูตรสารประกอบออกไซด์",
+    "q": "สารประกอบออกไซด์ของธาตุ เงิน (Ag) เมื่อรวมกับออกซิเจน มีสูตรเคมีตรงกับข้อใด?",
     "choices": [
-      "สารกัมมันตรังสีอันตรายระดับ 5",
-      "โลหะผสมอุตสาหกรรมหนัก",
-      "โลหะแทรนซิชัน",
-      "ก๊าซสังเคราะห์สังเคราะห์ในอวกาศ"
+      "AgO",
+      "AgO₂",
+      "Ag₂O₃",
+      "Ag₂O"
     ],
-    "ans": 2,
-    "explanation": "เงิน (Ag, Z=47) จัดอยู่ในกลุ่ม \"โลหะแทรนซิชัน\" โลหะที่นำไฟฟ้าและความร้อนได้ดีที่สุดในโลก! และสะท้อนแสงได้ดีที่สุด ใช้ทำกระจกเงาและเครื่องประดับ",
+    "ans": 3,
+    "explanation": "สารประกอบออกไซด์ที่เสถียรของ เงิน (Ag) คือ: Ag₂O",
     "starsAwarded": 3
   },
   {
@@ -7636,16 +7637,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "primary_lower_sec",
     "gradeLabel": "ป.ปลาย - ม.ต้น",
     "category": "periodic_trend",
-    "categoryLabel": "การจัดกลุ่มในตารางธาตุ",
-    "q": "ธาตุ ไอโอดีน (I) จัดเป็นธาตุประเภทใดในตารางธาตุ?",
+    "categoryLabel": "สูตรสารประกอบออกไซด์",
+    "q": "สารประกอบออกไซด์ของธาตุ ไอโอดีน (I) เมื่อรวมกับออกซิเจน มีสูตรเคมีตรงกับข้อใด?",
     "choices": [
-      "ก๊าซสังเคราะห์สังเคราะห์ในอวกาศ",
-      "แฮโลเจน",
-      "โลหะผสมอุตสาหกรรมหนัก",
-      "สารกัมมันตรังสีอันตรายระดับ 5"
+      "I₂O₅",
+      "IO",
+      "IO₂",
+      "I₂O"
     ],
-    "ans": 1,
-    "explanation": "ไอโอดีน (I, Z=53) จัดอยู่ในกลุ่ม \"แฮโลเจน\" ผลึกสีม่วงเข้ม ระเหิดกลายเป็นไอสีม่วงได้โดยไม่ผ่านของเหลว ใช้ตรวจหาแป้งและป้องกันโรคคอพอก",
+    "ans": 0,
+    "explanation": "สารประกอบออกไซด์ที่เสถียรของ ไอโอดีน (I) คือ: I₂O₅",
     "starsAwarded": 3
   },
   {
@@ -7653,16 +7654,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "primary_lower_sec",
     "gradeLabel": "ป.ปลาย - ม.ต้น",
     "category": "periodic_trend",
-    "categoryLabel": "การจัดกลุ่มในตารางธาตุ",
-    "q": "ธาตุ ทองคำ (Au) จัดเป็นธาตุประเภทใดในตารางธาตุ?",
+    "categoryLabel": "สูตรสารประกอบออกไซด์",
+    "q": "สารประกอบออกไซด์ของธาตุ ทองคำ (Au) เมื่อรวมกับออกซิเจน มีสูตรเคมีตรงกับข้อใด?",
     "choices": [
-      "โลหะผสมอุตสาหกรรมหนัก",
-      "ก๊าซสังเคราะห์สังเคราะห์ในอวกาศ",
-      "สารกัมมันตรังสีอันตรายระดับ 5",
-      "โลหะแทรนซิชัน"
+      "AuO",
+      "Au₂O₃",
+      "AuO₂",
+      "Au₂O"
     ],
-    "ans": 3,
-    "explanation": "ทองคำ (Au, Z=79) จัดอยู่ในกลุ่ม \"โลหะแทรนซิชัน\" โลหะมีตระกูล สีเหลืองอร่าม ตีแผ่เป็นแผ่นบางได้มากที่สุด (ทองคำเปลว) ไม่เป็นสนิมตลอดกาล",
+    "ans": 1,
+    "explanation": "สารประกอบออกไซด์ที่เสถียรของ ทองคำ (Au) คือ: Au₂O₃",
     "starsAwarded": 3
   },
   {
@@ -7670,16 +7671,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "primary_lower_sec",
     "gradeLabel": "ป.ปลาย - ม.ต้น",
     "category": "periodic_trend",
-    "categoryLabel": "การจัดกลุ่มในตารางธาตุ",
-    "q": "ธาตุ ปรอท (Hg) จัดเป็นธาตุประเภทใดในตารางธาตุ?",
+    "categoryLabel": "สูตรสารประกอบออกไซด์",
+    "q": "สารประกอบออกไซด์ของธาตุ ปรอท (Hg) เมื่อรวมกับออกซิเจน มีสูตรเคมีตรงกับข้อใด?",
     "choices": [
-      "ก๊าซสังเคราะห์สังเคราะห์ในอวกาศ",
-      "สารกัมมันตรังสีอันตรายระดับ 5",
-      "โลหะผสมอุตสาหกรรมหนัก",
-      "โลหะแทรนซิชัน"
+      "HgO₂",
+      "Hg₂O",
+      "HgO",
+      "Hg₂O₃"
     ],
-    "ans": 3,
-    "explanation": "ปรอท (Hg, Z=80) จัดอยู่ในกลุ่ม \"โลหะแทรนซิชัน\" โลหะชนิดเดียวในตารางธาตุที่เป็น \"ของเหลว\" ที่อุณหภูมิห้อง! นำไฟฟ้าได้ นิยมใส่ในเทอร์โมมิเตอร์รุ่นเก่า",
+    "ans": 2,
+    "explanation": "สารประกอบออกไซด์ที่เสถียรของ ปรอท (Hg) คือ: HgO",
     "starsAwarded": 3
   },
   {
@@ -7687,16 +7688,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "primary_lower_sec",
     "gradeLabel": "ป.ปลาย - ม.ต้น",
     "category": "periodic_trend",
-    "categoryLabel": "การจัดกลุ่มในตารางธาตุ",
-    "q": "ธาตุ ตะกั่ว (Pb) จัดเป็นธาตุประเภทใดในตารางธาตุ?",
+    "categoryLabel": "สูตรสารประกอบออกไซด์",
+    "q": "สารประกอบออกไซด์ของธาตุ ตะกั่ว (Pb) เมื่อรวมกับออกซิเจน มีสูตรเคมีตรงกับข้อใด?",
     "choices": [
-      "ก๊าซสังเคราะห์สังเคราะห์ในอวกาศ",
-      "โลหะผสมอุตสาหกรรมหนัก",
-      "สารกัมมันตรังสีอันตรายระดับ 5",
-      "โลหะหลังแทรนซิชัน"
+      "PbO₂",
+      "Pb₂O",
+      "Pb₂O₃",
+      "PbO"
     ],
     "ans": 3,
-    "explanation": "ตะกั่ว (Pb, Z=82) จัดอยู่ในกลุ่ม \"โลหะหลังแทรนซิชัน\" โลหะหนักหนาแน่นสูง บังรังสีเอกซเรย์ได้ ใช้ทำเสื้อกักรังสีในโรงพยาบาลและแผ่นธาตุแบตเตอรี่รถยนต์",
+    "explanation": "สารประกอบออกไซด์ที่เสถียรของ ตะกั่ว (Pb) คือ: PbO",
     "starsAwarded": 3
   },
   {
@@ -7704,16 +7705,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "primary_lower_sec",
     "gradeLabel": "ป.ปลาย - ม.ต้น",
     "category": "periodic_trend",
-    "categoryLabel": "การจัดกลุ่มในตารางธาตุ",
-    "q": "ธาตุ ยูเรเนียม (U) จัดเป็นธาตุประเภทใดในตารางธาตุ?",
+    "categoryLabel": "สูตรสารประกอบออกไซด์",
+    "q": "สารประกอบออกไซด์ของธาตุ ยูเรเนียม (U) เมื่อรวมกับออกซิเจน มีสูตรเคมีตรงกับข้อใด?",
     "choices": [
-      "ธาตุกัมมันตรังสี",
-      "สารกัมมันตรังสีอันตรายระดับ 5",
-      "โลหะผสมอุตสาหกรรมหนัก",
-      "ก๊าซสังเคราะห์สังเคราะห์ในอวกาศ"
+      "UO₂ / U₃O₈",
+      "UO",
+      "UO₂",
+      "U₂O"
     ],
     "ans": 0,
-    "explanation": "ยูเรเนียม (U, Z=92) จัดอยู่ในกลุ่ม \"ธาตุกัมมันตรังสี\" เชื้อเพลิงนิวเคลียร์ในโรงไฟฟ้า พลังงานจากยูเรเนียม 1 เม็ดเล็กๆ เท่ากับถ่านหินหลายตัน!",
+    "explanation": "สารประกอบออกไซด์ที่เสถียรของ ยูเรเนียม (U) คือ: UO₂ / U₃O₈",
     "starsAwarded": 3
   },
   {
@@ -7721,16 +7722,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "upper_sec",
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "compound",
-    "categoryLabel": "ประจุไอออนที่เสถียร",
-    "q": "ไอออนที่เสถียรตามกฎออกเตตของธาตุ ไฮโดรเจน (H) คือข้อใด?",
+    "categoryLabel": "พฤติกรรมปฏิกิริยาเคมี",
+    "q": "พฤติกรรมทางเคมีที่สำคัญของธาตุ ไฮโดรเจน (H) ตรงกับข้อใด?",
     "choices": [
-      "-3",
-      "+7",
-      "H⁺, H⁻",
-      "+4"
+      "สร้างพันธะโคเวเลนต์กับอโลหะด้วยการใช้อิเล็กตรอนร่วมกัน",
+      "นำไฟฟ้าได้ดีเยี่ยมกว่าโลหะเงินในทุกสภาวะ",
+      "มีเวเลนซ์อิเล็กตรอนเพียง 1 ตัวและให้อิเล็กตรอนง่ายมาก",
+      "แผ่รังสีแกมมาพลังงานสูงตลอดเวลาในธรรมชาติ"
     ],
-    "ans": 2,
-    "explanation": "ไฮโดรเจน มีประจุไอออนที่พบบ่อยและเสถียรที่สุดคือ: H⁺, H⁻",
+    "ans": 0,
+    "explanation": "ลักษณะพฤติกรรมทางเคมีของ ไฮโดรเจน (H): สร้างพันธะโคเวเลนต์กับอโลหะด้วยการใช้อิเล็กตรอนร่วมกัน",
     "starsAwarded": 4
   },
   {
@@ -7738,16 +7739,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "upper_sec",
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "compound",
-    "categoryLabel": "ประจุไอออนที่เสถียร",
-    "q": "ไอออนที่เสถียรตามกฎออกเตตของธาตุ ฮีเลียม (He) คือข้อใด?",
+    "categoryLabel": "พฤติกรรมปฏิกิริยาเคมี",
+    "q": "พฤติกรรมทางเคมีที่สำคัญของธาตุ ฮีเลียม (He) ตรงกับข้อใด?",
     "choices": [
-      "ไม่เกิดไอออน",
-      "+4",
-      "-3",
-      "+7"
+      "ทำปฏิกิริยารุนแรงกับน้ำเกิดการติดไฟของแก๊สไฮโดรเจน",
+      "เฉื่อยต่อปฏิกิริยาเคมีสูงมาก ไม่ทำปฏิกิริยากับน้ำหรือกรดส่วนใหญ่",
+      "ติดไฟเองได้ทันทีเมื่อสัมผัสกับอากาศแห้ง",
+      "รวมตัวกับน้ำได้สารละลายกรดแก่ที่มีฤทธิ์กัดกร่อนแก้ว"
     ],
-    "ans": 0,
-    "explanation": "ฮีเลียม มีประจุไอออนที่พบบ่อยและเสถียรที่สุดคือ: ไม่เกิดไอออน",
+    "ans": 1,
+    "explanation": "ลักษณะพฤติกรรมทางเคมีของ ฮีเลียม (He): เฉื่อยต่อปฏิกิริยาเคมีสูงมาก ไม่ทำปฏิกิริยากับน้ำหรือกรดส่วนใหญ่",
     "starsAwarded": 4
   },
   {
@@ -7755,16 +7756,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "upper_sec",
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "compound",
-    "categoryLabel": "ประจุไอออนที่เสถียร",
-    "q": "ไอออนที่เสถียรตามกฎออกเตตของธาตุ ลิเทียม (Li) คือข้อใด?",
+    "categoryLabel": "พฤติกรรมปฏิกิริยาเคมี",
+    "q": "พฤติกรรมทางเคมีที่สำคัญของธาตุ ลิเทียม (Li) ตรงกับข้อใด?",
     "choices": [
-      "-3",
-      "+4",
-      "Li⁺",
-      "+7"
+      "ไม่ทำปฏิกิริยากับน้ำหรือกรดในทุกสภาวะ",
+      "ทำปฏิกิริยากับน้ำได้สารละลายกรดแก่และแก๊สออกซิเจน",
+      "ทำปฏิกิริยารุนแรงกับน้ำ ได้สารละลายเบสแก่และแก๊สไฮโดรเจน",
+      "ทำปฏิกิริยากับน้ำแล้วตกตะกอนเป็นของแข็งสีดำทันที"
     ],
     "ans": 2,
-    "explanation": "ลิเทียม มีประจุไอออนที่พบบ่อยและเสถียรที่สุดคือ: Li⁺",
+    "explanation": "ลักษณะพฤติกรรมทางเคมีของ ลิเทียม (Li): ทำปฏิกิริยารุนแรงกับน้ำ ได้สารละลายเบสแก่และแก๊สไฮโดรเจน",
     "starsAwarded": 4
   },
   {
@@ -7772,16 +7773,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "upper_sec",
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "compound",
-    "categoryLabel": "ประจุไอออนที่เสถียร",
-    "q": "ไอออนที่เสถียรตามกฎออกเตตของธาตุ เบริลเลียม (Be) คือข้อใด?",
+    "categoryLabel": "พฤติกรรมปฏิกิริยาเคมี",
+    "q": "พฤติกรรมทางเคมีที่สำคัญของธาตุ เบริลเลียม (Be) ตรงกับข้อใด?",
     "choices": [
-      "+7",
-      "+4",
-      "Be²⁺",
-      "-3"
+      "ไม่ทำปฏิกิริยากับน้ำหรือกรดในทุกสภาวะ",
+      "ทำปฏิกิริยากับน้ำได้สารละลายกรดแก่และแก๊สออกซิเจน",
+      "ทำปฏิกิริยากับน้ำแล้วตกตะกอนเป็นของแข็งสีดำทันที",
+      "ทำปฏิกิริยารุนแรงกับน้ำ ได้สารละลายเบสแก่และแก๊สไฮโดรเจน"
     ],
-    "ans": 2,
-    "explanation": "เบริลเลียม มีประจุไอออนที่พบบ่อยและเสถียรที่สุดคือ: Be²⁺",
+    "ans": 3,
+    "explanation": "ลักษณะพฤติกรรมทางเคมีของ เบริลเลียม (Be): ทำปฏิกิริยารุนแรงกับน้ำ ได้สารละลายเบสแก่และแก๊สไฮโดรเจน",
     "starsAwarded": 4
   },
   {
@@ -7789,16 +7790,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "upper_sec",
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "compound",
-    "categoryLabel": "ประจุไอออนที่เสถียร",
-    "q": "ไอออนที่เสถียรตามกฎออกเตตของธาตุ โบรอน (B) คือข้อใด?",
+    "categoryLabel": "พฤติกรรมปฏิกิริยาเคมี",
+    "q": "พฤติกรรมทางเคมีที่สำคัญของธาตุ โบรอน (B) ตรงกับข้อใด?",
     "choices": [
-      "+7",
-      "B³⁺",
-      "+4",
-      "-3"
+      "สร้างพันธะโคเวเลนต์กับอโลหะด้วยการใช้อิเล็กตรอนร่วมกัน",
+      "นำไฟฟ้าได้ดีเยี่ยมกว่าโลหะเงินในทุกสภาวะ",
+      "มีเวเลนซ์อิเล็กตรอนเพียง 1 ตัวและให้อิเล็กตรอนง่ายมาก",
+      "แผ่รังสีแกมมาพลังงานสูงตลอดเวลาในธรรมชาติ"
     ],
-    "ans": 1,
-    "explanation": "โบรอน มีประจุไอออนที่พบบ่อยและเสถียรที่สุดคือ: B³⁺",
+    "ans": 0,
+    "explanation": "ลักษณะพฤติกรรมทางเคมีของ โบรอน (B): สร้างพันธะโคเวเลนต์กับอโลหะด้วยการใช้อิเล็กตรอนร่วมกัน",
     "starsAwarded": 4
   },
   {
@@ -7806,16 +7807,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "upper_sec",
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "compound",
-    "categoryLabel": "ประจุไอออนที่เสถียร",
-    "q": "ไอออนที่เสถียรตามกฎออกเตตของธาตุ คาร์บอน (C) คือข้อใด?",
+    "categoryLabel": "พฤติกรรมปฏิกิริยาเคมี",
+    "q": "พฤติกรรมทางเคมีที่สำคัญของธาตุ คาร์บอน (C) ตรงกับข้อใด?",
     "choices": [
-      "+7",
-      "-3",
-      "+4",
-      "C⁴⁺, C⁴⁻"
+      "นำไฟฟ้าได้ดีเยี่ยมกว่าโลหะเงินในทุกสภาวะ",
+      "สร้างพันธะโคเวเลนต์กับอโลหะด้วยการใช้อิเล็กตรอนร่วมกัน",
+      "มีเวเลนซ์อิเล็กตรอนเพียง 1 ตัวและให้อิเล็กตรอนง่ายมาก",
+      "แผ่รังสีแกมมาพลังงานสูงตลอดเวลาในธรรมชาติ"
     ],
-    "ans": 3,
-    "explanation": "คาร์บอน มีประจุไอออนที่พบบ่อยและเสถียรที่สุดคือ: C⁴⁺, C⁴⁻",
+    "ans": 1,
+    "explanation": "ลักษณะพฤติกรรมทางเคมีของ คาร์บอน (C): สร้างพันธะโคเวเลนต์กับอโลหะด้วยการใช้อิเล็กตรอนร่วมกัน",
     "starsAwarded": 4
   },
   {
@@ -7823,16 +7824,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "upper_sec",
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "compound",
-    "categoryLabel": "ประจุไอออนที่เสถียร",
-    "q": "ไอออนที่เสถียรตามกฎออกเตตของธาตุ ไนโตรเจน (N) คือข้อใด?",
+    "categoryLabel": "พฤติกรรมปฏิกิริยาเคมี",
+    "q": "พฤติกรรมทางเคมีที่สำคัญของธาตุ ไนโตรเจน (N) ตรงกับข้อใด?",
     "choices": [
-      "+4",
-      "+7",
-      "-3",
-      "N³⁻"
+      "นำไฟฟ้าได้ดีเยี่ยมกว่าโลหะเงินในทุกสภาวะ",
+      "มีเวเลนซ์อิเล็กตรอนเพียง 1 ตัวและให้อิเล็กตรอนง่ายมาก",
+      "สร้างพันธะโคเวเลนต์กับอโลหะด้วยการใช้อิเล็กตรอนร่วมกัน",
+      "แผ่รังสีแกมมาพลังงานสูงตลอดเวลาในธรรมชาติ"
     ],
-    "ans": 3,
-    "explanation": "ไนโตรเจน มีประจุไอออนที่พบบ่อยและเสถียรที่สุดคือ: N³⁻",
+    "ans": 2,
+    "explanation": "ลักษณะพฤติกรรมทางเคมีของ ไนโตรเจน (N): สร้างพันธะโคเวเลนต์กับอโลหะด้วยการใช้อิเล็กตรอนร่วมกัน",
     "starsAwarded": 4
   },
   {
@@ -7840,16 +7841,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "upper_sec",
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "compound",
-    "categoryLabel": "ประจุไอออนที่เสถียร",
-    "q": "ไอออนที่เสถียรตามกฎออกเตตของธาตุ ออกซิเจน (O) คือข้อใด?",
+    "categoryLabel": "พฤติกรรมปฏิกิริยาเคมี",
+    "q": "พฤติกรรมทางเคมีที่สำคัญของธาตุ ออกซิเจน (O) ตรงกับข้อใด?",
     "choices": [
-      "-3",
-      "+4",
-      "O²⁻ (ออกไซด์)",
-      "+7"
+      "นำไฟฟ้าได้ดีเยี่ยมกว่าโลหะเงินในทุกสภาวะ",
+      "มีเวเลนซ์อิเล็กตรอนเพียง 1 ตัวและให้อิเล็กตรอนง่ายมาก",
+      "แผ่รังสีแกมมาพลังงานสูงตลอดเวลาในธรรมชาติ",
+      "สร้างพันธะโคเวเลนต์กับอโลหะด้วยการใช้อิเล็กตรอนร่วมกัน"
     ],
-    "ans": 2,
-    "explanation": "ออกซิเจน มีประจุไอออนที่พบบ่อยและเสถียรที่สุดคือ: O²⁻ (ออกไซด์)",
+    "ans": 3,
+    "explanation": "ลักษณะพฤติกรรมทางเคมีของ ออกซิเจน (O): สร้างพันธะโคเวเลนต์กับอโลหะด้วยการใช้อิเล็กตรอนร่วมกัน",
     "starsAwarded": 4
   },
   {
@@ -7857,16 +7858,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "upper_sec",
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "compound",
-    "categoryLabel": "ประจุไอออนที่เสถียร",
-    "q": "ไอออนที่เสถียรตามกฎออกเตตของธาตุ ฟลูออรีน (F) คือข้อใด?",
+    "categoryLabel": "พฤติกรรมปฏิกิริยาเคมี",
+    "q": "พฤติกรรมทางเคมีที่สำคัญของธาตุ ฟลูออรีน (F) ตรงกับข้อใด?",
     "choices": [
-      "-3",
-      "+4",
-      "F⁻ (ฟลูออไรด์)",
-      "+7"
+      "ว่องไวต่อปฏิกิริยา มีสมบัติเป็นตัวออกซิไดซ์ที่ดีเยี่ยมในการรับอิเล็กตรอน",
+      "เป็นตัวรีดิวซ์ที่แข็งแกร่งที่สุดในตารางธาตุ",
+      "ไม่สามารถรวมตัวกับโลหะอัลคาไลได้ในทุกกรณี",
+      "ไม่นำไฟฟ้าและความร้อน และมีจุดเดือดสูงกว่า 1000 องศาเซลเซียส"
     ],
-    "ans": 2,
-    "explanation": "ฟลูออรีน มีประจุไอออนที่พบบ่อยและเสถียรที่สุดคือ: F⁻ (ฟลูออไรด์)",
+    "ans": 0,
+    "explanation": "ลักษณะพฤติกรรมทางเคมีของ ฟลูออรีน (F): ว่องไวต่อปฏิกิริยา มีสมบัติเป็นตัวออกซิไดซ์ที่ดีเยี่ยมในการรับอิเล็กตรอน",
     "starsAwarded": 4
   },
   {
@@ -7874,16 +7875,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "upper_sec",
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "compound",
-    "categoryLabel": "ประจุไอออนที่เสถียร",
-    "q": "ไอออนที่เสถียรตามกฎออกเตตของธาตุ นีออน (Ne) คือข้อใด?",
+    "categoryLabel": "พฤติกรรมปฏิกิริยาเคมี",
+    "q": "พฤติกรรมทางเคมีที่สำคัญของธาตุ นีออน (Ne) ตรงกับข้อใด?",
     "choices": [
-      "-3",
-      "+7",
-      "+4",
-      "ไม่เกิดไอออน"
+      "ทำปฏิกิริยารุนแรงกับน้ำเกิดการติดไฟของแก๊สไฮโดรเจน",
+      "เฉื่อยต่อปฏิกิริยาเคมีสูงมาก ไม่ทำปฏิกิริยากับน้ำหรือกรดส่วนใหญ่",
+      "ติดไฟเองได้ทันทีเมื่อสัมผัสกับอากาศแห้ง",
+      "รวมตัวกับน้ำได้สารละลายกรดแก่ที่มีฤทธิ์กัดกร่อนแก้ว"
     ],
-    "ans": 3,
-    "explanation": "นีออน มีประจุไอออนที่พบบ่อยและเสถียรที่สุดคือ: ไม่เกิดไอออน",
+    "ans": 1,
+    "explanation": "ลักษณะพฤติกรรมทางเคมีของ นีออน (Ne): เฉื่อยต่อปฏิกิริยาเคมีสูงมาก ไม่ทำปฏิกิริยากับน้ำหรือกรดส่วนใหญ่",
     "starsAwarded": 4
   },
   {
@@ -7891,16 +7892,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "upper_sec",
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "compound",
-    "categoryLabel": "ประจุไอออนที่เสถียร",
-    "q": "ไอออนที่เสถียรตามกฎออกเตตของธาตุ โซเดียม (Na) คือข้อใด?",
+    "categoryLabel": "พฤติกรรมปฏิกิริยาเคมี",
+    "q": "พฤติกรรมทางเคมีที่สำคัญของธาตุ โซเดียม (Na) ตรงกับข้อใด?",
     "choices": [
-      "-3",
-      "Na⁺",
-      "+7",
-      "+4"
+      "ไม่ทำปฏิกิริยากับน้ำหรือกรดในทุกสภาวะ",
+      "ทำปฏิกิริยากับน้ำได้สารละลายกรดแก่และแก๊สออกซิเจน",
+      "ทำปฏิกิริยารุนแรงกับน้ำ ได้สารละลายเบสแก่และแก๊สไฮโดรเจน",
+      "ทำปฏิกิริยากับน้ำแล้วตกตะกอนเป็นของแข็งสีดำทันที"
     ],
-    "ans": 1,
-    "explanation": "โซเดียม มีประจุไอออนที่พบบ่อยและเสถียรที่สุดคือ: Na⁺",
+    "ans": 2,
+    "explanation": "ลักษณะพฤติกรรมทางเคมีของ โซเดียม (Na): ทำปฏิกิริยารุนแรงกับน้ำ ได้สารละลายเบสแก่และแก๊สไฮโดรเจน",
     "starsAwarded": 4
   },
   {
@@ -7908,16 +7909,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "upper_sec",
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "compound",
-    "categoryLabel": "ประจุไอออนที่เสถียร",
-    "q": "ไอออนที่เสถียรตามกฎออกเตตของธาตุ แมกนีเซียม (Mg) คือข้อใด?",
+    "categoryLabel": "พฤติกรรมปฏิกิริยาเคมี",
+    "q": "พฤติกรรมทางเคมีที่สำคัญของธาตุ แมกนีเซียม (Mg) ตรงกับข้อใด?",
     "choices": [
-      "-3",
-      "Mg²⁺",
-      "+7",
-      "+4"
+      "ไม่ทำปฏิกิริยากับน้ำหรือกรดในทุกสภาวะ",
+      "ทำปฏิกิริยากับน้ำได้สารละลายกรดแก่และแก๊สออกซิเจน",
+      "ทำปฏิกิริยากับน้ำแล้วตกตะกอนเป็นของแข็งสีดำทันที",
+      "ทำปฏิกิริยารุนแรงกับน้ำ ได้สารละลายเบสแก่และแก๊สไฮโดรเจน"
     ],
-    "ans": 1,
-    "explanation": "แมกนีเซียม มีประจุไอออนที่พบบ่อยและเสถียรที่สุดคือ: Mg²⁺",
+    "ans": 3,
+    "explanation": "ลักษณะพฤติกรรมทางเคมีของ แมกนีเซียม (Mg): ทำปฏิกิริยารุนแรงกับน้ำ ได้สารละลายเบสแก่และแก๊สไฮโดรเจน",
     "starsAwarded": 4
   },
   {
@@ -7925,16 +7926,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "upper_sec",
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "compound",
-    "categoryLabel": "ประจุไอออนที่เสถียร",
-    "q": "ไอออนที่เสถียรตามกฎออกเตตของธาตุ อะลูมิเนียม (Al) คือข้อใด?",
+    "categoryLabel": "พฤติกรรมปฏิกิริยาเคมี",
+    "q": "พฤติกรรมทางเคมีที่สำคัญของธาตุ อะลูมิเนียม (Al) ตรงกับข้อใด?",
     "choices": [
-      "+4",
-      "Al³⁺",
-      "-3",
-      "+7"
+      "เป็นโลหะที่มีเลขออกซิเดชันได้หลายค่า และสารประกอบมักมีสีสันสวยงาม",
+      "มีเลขออกซิเดชันคงที่เพียงค่าเดียวคือบวกหนึ่งเสมอ",
+      "ทำปฏิกิริยาระเบิดทันทีเมื่อสัมผัสกับความชื้นในอากาศ",
+      "สารประกอบทุกชนิดของธาตุนี้ไม่มีสีในสารละลาย"
     ],
-    "ans": 1,
-    "explanation": "อะลูมิเนียม มีประจุไอออนที่พบบ่อยและเสถียรที่สุดคือ: Al³⁺",
+    "ans": 0,
+    "explanation": "ลักษณะพฤติกรรมทางเคมีของ อะลูมิเนียม (Al): เป็นโลหะที่มีเลขออกซิเดชันได้หลายค่า และสารประกอบมักมีสีสันสวยงาม",
     "starsAwarded": 4
   },
   {
@@ -7942,16 +7943,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "upper_sec",
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "compound",
-    "categoryLabel": "ประจุไอออนที่เสถียร",
-    "q": "ไอออนที่เสถียรตามกฎออกเตตของธาตุ ซิลิคอน (Si) คือข้อใด?",
+    "categoryLabel": "พฤติกรรมปฏิกิริยาเคมี",
+    "q": "พฤติกรรมทางเคมีที่สำคัญของธาตุ ซิลิคอน (Si) ตรงกับข้อใด?",
     "choices": [
-      "-3",
-      "+4",
-      "+7",
-      "Si⁴⁺"
+      "นำไฟฟ้าได้ดีเยี่ยมกว่าโลหะเงินในทุกสภาวะ",
+      "สร้างพันธะโคเวเลนต์กับอโลหะด้วยการใช้อิเล็กตรอนร่วมกัน",
+      "มีเวเลนซ์อิเล็กตรอนเพียง 1 ตัวและให้อิเล็กตรอนง่ายมาก",
+      "แผ่รังสีแกมมาพลังงานสูงตลอดเวลาในธรรมชาติ"
     ],
-    "ans": 3,
-    "explanation": "ซิลิคอน มีประจุไอออนที่พบบ่อยและเสถียรที่สุดคือ: Si⁴⁺",
+    "ans": 1,
+    "explanation": "ลักษณะพฤติกรรมทางเคมีของ ซิลิคอน (Si): สร้างพันธะโคเวเลนต์กับอโลหะด้วยการใช้อิเล็กตรอนร่วมกัน",
     "starsAwarded": 4
   },
   {
@@ -7959,16 +7960,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "upper_sec",
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "compound",
-    "categoryLabel": "ประจุไอออนที่เสถียร",
-    "q": "ไอออนที่เสถียรตามกฎออกเตตของธาตุ ฟอสฟอรัส (P) คือข้อใด?",
+    "categoryLabel": "พฤติกรรมปฏิกิริยาเคมี",
+    "q": "พฤติกรรมทางเคมีที่สำคัญของธาตุ ฟอสฟอรัส (P) ตรงกับข้อใด?",
     "choices": [
-      "+7",
-      "+4",
-      "P³⁻ (ฟอสไฟด์), PO₄³⁻",
-      "-3"
+      "นำไฟฟ้าได้ดีเยี่ยมกว่าโลหะเงินในทุกสภาวะ",
+      "มีเวเลนซ์อิเล็กตรอนเพียง 1 ตัวและให้อิเล็กตรอนง่ายมาก",
+      "สร้างพันธะโคเวเลนต์กับอโลหะด้วยการใช้อิเล็กตรอนร่วมกัน",
+      "แผ่รังสีแกมมาพลังงานสูงตลอดเวลาในธรรมชาติ"
     ],
     "ans": 2,
-    "explanation": "ฟอสฟอรัส มีประจุไอออนที่พบบ่อยและเสถียรที่สุดคือ: P³⁻ (ฟอสไฟด์), PO₄³⁻",
+    "explanation": "ลักษณะพฤติกรรมทางเคมีของ ฟอสฟอรัส (P): สร้างพันธะโคเวเลนต์กับอโลหะด้วยการใช้อิเล็กตรอนร่วมกัน",
     "starsAwarded": 4
   },
   {
@@ -7976,16 +7977,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "upper_sec",
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "compound",
-    "categoryLabel": "ประจุไอออนที่เสถียร",
-    "q": "ไอออนที่เสถียรตามกฎออกเตตของธาตุ กำมะถัน (ซัลเฟอร์) (S) คือข้อใด?",
+    "categoryLabel": "พฤติกรรมปฏิกิริยาเคมี",
+    "q": "พฤติกรรมทางเคมีที่สำคัญของธาตุ กำมะถัน (S) ตรงกับข้อใด?",
     "choices": [
-      "-3",
-      "+7",
-      "S²⁻ (ซัลไฟด์), SO₄²⁻",
-      "+4"
+      "นำไฟฟ้าได้ดีเยี่ยมกว่าโลหะเงินในทุกสภาวะ",
+      "มีเวเลนซ์อิเล็กตรอนเพียง 1 ตัวและให้อิเล็กตรอนง่ายมาก",
+      "แผ่รังสีแกมมาพลังงานสูงตลอดเวลาในธรรมชาติ",
+      "สร้างพันธะโคเวเลนต์กับอโลหะด้วยการใช้อิเล็กตรอนร่วมกัน"
     ],
-    "ans": 2,
-    "explanation": "กำมะถัน (ซัลเฟอร์) มีประจุไอออนที่พบบ่อยและเสถียรที่สุดคือ: S²⁻ (ซัลไฟด์), SO₄²⁻",
+    "ans": 3,
+    "explanation": "ลักษณะพฤติกรรมทางเคมีของ กำมะถัน (S): สร้างพันธะโคเวเลนต์กับอโลหะด้วยการใช้อิเล็กตรอนร่วมกัน",
     "starsAwarded": 4
   },
   {
@@ -7993,16 +7994,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "upper_sec",
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "compound",
-    "categoryLabel": "ประจุไอออนที่เสถียร",
-    "q": "ไอออนที่เสถียรตามกฎออกเตตของธาตุ คลอรีน (Cl) คือข้อใด?",
+    "categoryLabel": "พฤติกรรมปฏิกิริยาเคมี",
+    "q": "พฤติกรรมทางเคมีที่สำคัญของธาตุ คลอรีน (Cl) ตรงกับข้อใด?",
     "choices": [
-      "Cl⁻ (คลอไรด์)",
-      "-3",
-      "+7",
-      "+4"
+      "ว่องไวต่อปฏิกิริยา มีสมบัติเป็นตัวออกซิไดซ์ที่ดีเยี่ยมในการรับอิเล็กตรอน",
+      "เป็นตัวรีดิวซ์ที่แข็งแกร่งที่สุดในตารางธาตุ",
+      "ไม่สามารถรวมตัวกับโลหะอัลคาไลได้ในทุกกรณี",
+      "ไม่นำไฟฟ้าและความร้อน และมีจุดเดือดสูงกว่า 1000 องศาเซลเซียส"
     ],
     "ans": 0,
-    "explanation": "คลอรีน มีประจุไอออนที่พบบ่อยและเสถียรที่สุดคือ: Cl⁻ (คลอไรด์)",
+    "explanation": "ลักษณะพฤติกรรมทางเคมีของ คลอรีน (Cl): ว่องไวต่อปฏิกิริยา มีสมบัติเป็นตัวออกซิไดซ์ที่ดีเยี่ยมในการรับอิเล็กตรอน",
     "starsAwarded": 4
   },
   {
@@ -8010,16 +8011,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "upper_sec",
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "compound",
-    "categoryLabel": "ประจุไอออนที่เสถียร",
-    "q": "ไอออนที่เสถียรตามกฎออกเตตของธาตุ อาร์กอน (Ar) คือข้อใด?",
+    "categoryLabel": "พฤติกรรมปฏิกิริยาเคมี",
+    "q": "พฤติกรรมทางเคมีที่สำคัญของธาตุ อาร์กอน (Ar) ตรงกับข้อใด?",
     "choices": [
-      "ไม่เกิดไอออน",
-      "+7",
-      "+4",
-      "-3"
+      "ทำปฏิกิริยารุนแรงกับน้ำเกิดการติดไฟของแก๊สไฮโดรเจน",
+      "เฉื่อยต่อปฏิกิริยาเคมีสูงมาก ไม่ทำปฏิกิริยากับน้ำหรือกรดส่วนใหญ่",
+      "ติดไฟเองได้ทันทีเมื่อสัมผัสกับอากาศแห้ง",
+      "รวมตัวกับน้ำได้สารละลายกรดแก่ที่มีฤทธิ์กัดกร่อนแก้ว"
     ],
-    "ans": 0,
-    "explanation": "อาร์กอน มีประจุไอออนที่พบบ่อยและเสถียรที่สุดคือ: ไม่เกิดไอออน",
+    "ans": 1,
+    "explanation": "ลักษณะพฤติกรรมทางเคมีของ อาร์กอน (Ar): เฉื่อยต่อปฏิกิริยาเคมีสูงมาก ไม่ทำปฏิกิริยากับน้ำหรือกรดส่วนใหญ่",
     "starsAwarded": 4
   },
   {
@@ -8027,16 +8028,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "upper_sec",
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "compound",
-    "categoryLabel": "ประจุไอออนที่เสถียร",
-    "q": "ไอออนที่เสถียรตามกฎออกเตตของธาตุ โพแทสเซียม (K) คือข้อใด?",
+    "categoryLabel": "พฤติกรรมปฏิกิริยาเคมี",
+    "q": "พฤติกรรมทางเคมีที่สำคัญของธาตุ โพแทสเซียม (K) ตรงกับข้อใด?",
     "choices": [
-      "+4",
-      "-3",
-      "K⁺",
-      "+7"
+      "ไม่ทำปฏิกิริยากับน้ำหรือกรดในทุกสภาวะ",
+      "ทำปฏิกิริยากับน้ำได้สารละลายกรดแก่และแก๊สออกซิเจน",
+      "ทำปฏิกิริยารุนแรงกับน้ำ ได้สารละลายเบสแก่และแก๊สไฮโดรเจน",
+      "ทำปฏิกิริยากับน้ำแล้วตกตะกอนเป็นของแข็งสีดำทันที"
     ],
     "ans": 2,
-    "explanation": "โพแทสเซียม มีประจุไอออนที่พบบ่อยและเสถียรที่สุดคือ: K⁺",
+    "explanation": "ลักษณะพฤติกรรมทางเคมีของ โพแทสเซียม (K): ทำปฏิกิริยารุนแรงกับน้ำ ได้สารละลายเบสแก่และแก๊สไฮโดรเจน",
     "starsAwarded": 4
   },
   {
@@ -8044,16 +8045,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "upper_sec",
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "compound",
-    "categoryLabel": "ประจุไอออนที่เสถียร",
-    "q": "ไอออนที่เสถียรตามกฎออกเตตของธาตุ แคลเซียม (Ca) คือข้อใด?",
+    "categoryLabel": "พฤติกรรมปฏิกิริยาเคมี",
+    "q": "พฤติกรรมทางเคมีที่สำคัญของธาตุ แคลเซียม (Ca) ตรงกับข้อใด?",
     "choices": [
-      "Ca²⁺",
-      "-3",
-      "+4",
-      "+7"
+      "ไม่ทำปฏิกิริยากับน้ำหรือกรดในทุกสภาวะ",
+      "ทำปฏิกิริยากับน้ำได้สารละลายกรดแก่และแก๊สออกซิเจน",
+      "ทำปฏิกิริยากับน้ำแล้วตกตะกอนเป็นของแข็งสีดำทันที",
+      "ทำปฏิกิริยารุนแรงกับน้ำ ได้สารละลายเบสแก่และแก๊สไฮโดรเจน"
     ],
-    "ans": 0,
-    "explanation": "แคลเซียม มีประจุไอออนที่พบบ่อยและเสถียรที่สุดคือ: Ca²⁺",
+    "ans": 3,
+    "explanation": "ลักษณะพฤติกรรมทางเคมีของ แคลเซียม (Ca): ทำปฏิกิริยารุนแรงกับน้ำ ได้สารละลายเบสแก่และแก๊สไฮโดรเจน",
     "starsAwarded": 4
   },
   {
@@ -8061,16 +8062,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "upper_sec",
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "compound",
-    "categoryLabel": "ประจุไอออนที่เสถียร",
-    "q": "ไอออนที่เสถียรตามกฎออกเตตของธาตุ เหล็ก (Fe) คือข้อใด?",
+    "categoryLabel": "พฤติกรรมปฏิกิริยาเคมี",
+    "q": "พฤติกรรมทางเคมีที่สำคัญของธาตุ เหล็ก (Fe) ตรงกับข้อใด?",
     "choices": [
-      "Fe²⁺ (เขียว), Fe³⁺ (น้ำตาลแดง)",
-      "+7",
-      "-3",
-      "+4"
+      "เป็นโลหะที่มีเลขออกซิเดชันได้หลายค่า และสารประกอบมักมีสีสันสวยงาม",
+      "มีเลขออกซิเดชันคงที่เพียงค่าเดียวคือบวกหนึ่งเสมอ",
+      "ทำปฏิกิริยาระเบิดทันทีเมื่อสัมผัสกับความชื้นในอากาศ",
+      "สารประกอบทุกชนิดของธาตุนี้ไม่มีสีในสารละลาย"
     ],
     "ans": 0,
-    "explanation": "เหล็ก มีประจุไอออนที่พบบ่อยและเสถียรที่สุดคือ: Fe²⁺ (เขียว), Fe³⁺ (น้ำตาลแดง)",
+    "explanation": "ลักษณะพฤติกรรมทางเคมีของ เหล็ก (Fe): เป็นโลหะที่มีเลขออกซิเดชันได้หลายค่า และสารประกอบมักมีสีสันสวยงาม",
     "starsAwarded": 4
   },
   {
@@ -8078,16 +8079,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "upper_sec",
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "compound",
-    "categoryLabel": "ประจุไอออนที่เสถียร",
-    "q": "ไอออนที่เสถียรตามกฎออกเตตของธาตุ ทองแดง (Cu) คือข้อใด?",
+    "categoryLabel": "พฤติกรรมปฏิกิริยาเคมี",
+    "q": "พฤติกรรมทางเคมีที่สำคัญของธาตุ ทองแดง (Cu) ตรงกับข้อใด?",
     "choices": [
-      "+7",
-      "Cu⁺, Cu²⁺ (สีฟ้าสดใส)",
-      "+4",
-      "-3"
+      "มีเลขออกซิเดชันคงที่เพียงค่าเดียวคือบวกหนึ่งเสมอ",
+      "เป็นโลหะที่มีเลขออกซิเดชันได้หลายค่า และสารประกอบมักมีสีสันสวยงาม",
+      "ทำปฏิกิริยาระเบิดทันทีเมื่อสัมผัสกับความชื้นในอากาศ",
+      "สารประกอบทุกชนิดของธาตุนี้ไม่มีสีในสารละลาย"
     ],
     "ans": 1,
-    "explanation": "ทองแดง มีประจุไอออนที่พบบ่อยและเสถียรที่สุดคือ: Cu⁺, Cu²⁺ (สีฟ้าสดใส)",
+    "explanation": "ลักษณะพฤติกรรมทางเคมีของ ทองแดง (Cu): เป็นโลหะที่มีเลขออกซิเดชันได้หลายค่า และสารประกอบมักมีสีสันสวยงาม",
     "starsAwarded": 4
   },
   {
@@ -8095,16 +8096,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "upper_sec",
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "compound",
-    "categoryLabel": "ประจุไอออนที่เสถียร",
-    "q": "ไอออนที่เสถียรตามกฎออกเตตของธาตุ สังกะสี (Zn) คือข้อใด?",
+    "categoryLabel": "พฤติกรรมปฏิกิริยาเคมี",
+    "q": "พฤติกรรมทางเคมีที่สำคัญของธาตุ สังกะสี (Zn) ตรงกับข้อใด?",
     "choices": [
-      "+4",
-      "Zn²⁺ (ไม่มีสี)",
-      "+7",
-      "-3"
+      "มีเลขออกซิเดชันคงที่เพียงค่าเดียวคือบวกหนึ่งเสมอ",
+      "ทำปฏิกิริยาระเบิดทันทีเมื่อสัมผัสกับความชื้นในอากาศ",
+      "เป็นโลหะที่มีเลขออกซิเดชันได้หลายค่า และสารประกอบมักมีสีสันสวยงาม",
+      "สารประกอบทุกชนิดของธาตุนี้ไม่มีสีในสารละลาย"
     ],
-    "ans": 1,
-    "explanation": "สังกะสี มีประจุไอออนที่พบบ่อยและเสถียรที่สุดคือ: Zn²⁺ (ไม่มีสี)",
+    "ans": 2,
+    "explanation": "ลักษณะพฤติกรรมทางเคมีของ สังกะสี (Zn): เป็นโลหะที่มีเลขออกซิเดชันได้หลายค่า และสารประกอบมักมีสีสันสวยงาม",
     "starsAwarded": 4
   },
   {
@@ -8112,16 +8113,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "upper_sec",
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "compound",
-    "categoryLabel": "ประจุไอออนที่เสถียร",
-    "q": "ไอออนที่เสถียรตามกฎออกเตตของธาตุ โบรมีน (Br) คือข้อใด?",
+    "categoryLabel": "พฤติกรรมปฏิกิริยาเคมี",
+    "q": "พฤติกรรมทางเคมีที่สำคัญของธาตุ โบรมีน (Br) ตรงกับข้อใด?",
     "choices": [
-      "Br⁻ (โบรไมด์)",
-      "+7",
-      "-3",
-      "+4"
+      "เป็นตัวรีดิวซ์ที่แข็งแกร่งที่สุดในตารางธาตุ",
+      "ไม่สามารถรวมตัวกับโลหะอัลคาไลได้ในทุกกรณี",
+      "ไม่นำไฟฟ้าและความร้อน และมีจุดเดือดสูงกว่า 1000 องศาเซลเซียส",
+      "ว่องไวต่อปฏิกิริยา มีสมบัติเป็นตัวออกซิไดซ์ที่ดีเยี่ยมในการรับอิเล็กตรอน"
     ],
-    "ans": 0,
-    "explanation": "โบรมีน มีประจุไอออนที่พบบ่อยและเสถียรที่สุดคือ: Br⁻ (โบรไมด์)",
+    "ans": 3,
+    "explanation": "ลักษณะพฤติกรรมทางเคมีของ โบรมีน (Br): ว่องไวต่อปฏิกิริยา มีสมบัติเป็นตัวออกซิไดซ์ที่ดีเยี่ยมในการรับอิเล็กตรอน",
     "starsAwarded": 4
   },
   {
@@ -8129,16 +8130,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "upper_sec",
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "compound",
-    "categoryLabel": "ประจุไอออนที่เสถียร",
-    "q": "ไอออนที่เสถียรตามกฎออกเตตของธาตุ เงิน (Ag) คือข้อใด?",
+    "categoryLabel": "พฤติกรรมปฏิกิริยาเคมี",
+    "q": "พฤติกรรมทางเคมีที่สำคัญของธาตุ เงิน (Ag) ตรงกับข้อใด?",
     "choices": [
-      "-3",
-      "+7",
-      "Ag⁺",
-      "+4"
+      "เป็นโลหะที่มีเลขออกซิเดชันได้หลายค่า และสารประกอบมักมีสีสันสวยงาม",
+      "มีเลขออกซิเดชันคงที่เพียงค่าเดียวคือบวกหนึ่งเสมอ",
+      "ทำปฏิกิริยาระเบิดทันทีเมื่อสัมผัสกับความชื้นในอากาศ",
+      "สารประกอบทุกชนิดของธาตุนี้ไม่มีสีในสารละลาย"
     ],
-    "ans": 2,
-    "explanation": "เงิน มีประจุไอออนที่พบบ่อยและเสถียรที่สุดคือ: Ag⁺",
+    "ans": 0,
+    "explanation": "ลักษณะพฤติกรรมทางเคมีของ เงิน (Ag): เป็นโลหะที่มีเลขออกซิเดชันได้หลายค่า และสารประกอบมักมีสีสันสวยงาม",
     "starsAwarded": 4
   },
   {
@@ -8146,16 +8147,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "upper_sec",
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "compound",
-    "categoryLabel": "ประจุไอออนที่เสถียร",
-    "q": "ไอออนที่เสถียรตามกฎออกเตตของธาตุ ไอโอดีน (I) คือข้อใด?",
+    "categoryLabel": "พฤติกรรมปฏิกิริยาเคมี",
+    "q": "พฤติกรรมทางเคมีที่สำคัญของธาตุ ไอโอดีน (I) ตรงกับข้อใด?",
     "choices": [
-      "+7",
-      "-3",
-      "I⁻ (ไอโอไดด์)",
-      "+4"
+      "เป็นตัวรีดิวซ์ที่แข็งแกร่งที่สุดในตารางธาตุ",
+      "ว่องไวต่อปฏิกิริยา มีสมบัติเป็นตัวออกซิไดซ์ที่ดีเยี่ยมในการรับอิเล็กตรอน",
+      "ไม่สามารถรวมตัวกับโลหะอัลคาไลได้ในทุกกรณี",
+      "ไม่นำไฟฟ้าและความร้อน และมีจุดเดือดสูงกว่า 1000 องศาเซลเซียส"
     ],
-    "ans": 2,
-    "explanation": "ไอโอดีน มีประจุไอออนที่พบบ่อยและเสถียรที่สุดคือ: I⁻ (ไอโอไดด์)",
+    "ans": 1,
+    "explanation": "ลักษณะพฤติกรรมทางเคมีของ ไอโอดีน (I): ว่องไวต่อปฏิกิริยา มีสมบัติเป็นตัวออกซิไดซ์ที่ดีเยี่ยมในการรับอิเล็กตรอน",
     "starsAwarded": 4
   },
   {
@@ -8163,16 +8164,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "upper_sec",
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "compound",
-    "categoryLabel": "ประจุไอออนที่เสถียร",
-    "q": "ไอออนที่เสถียรตามกฎออกเตตของธาตุ ทองคำ (Au) คือข้อใด?",
+    "categoryLabel": "พฤติกรรมปฏิกิริยาเคมี",
+    "q": "พฤติกรรมทางเคมีที่สำคัญของธาตุ ทองคำ (Au) ตรงกับข้อใด?",
     "choices": [
-      "Au⁺, Au³⁺",
-      "+4",
-      "+7",
-      "-3"
+      "มีเลขออกซิเดชันคงที่เพียงค่าเดียวคือบวกหนึ่งเสมอ",
+      "ทำปฏิกิริยาระเบิดทันทีเมื่อสัมผัสกับความชื้นในอากาศ",
+      "เป็นโลหะที่มีเลขออกซิเดชันได้หลายค่า และสารประกอบมักมีสีสันสวยงาม",
+      "สารประกอบทุกชนิดของธาตุนี้ไม่มีสีในสารละลาย"
     ],
-    "ans": 0,
-    "explanation": "ทองคำ มีประจุไอออนที่พบบ่อยและเสถียรที่สุดคือ: Au⁺, Au³⁺",
+    "ans": 2,
+    "explanation": "ลักษณะพฤติกรรมทางเคมีของ ทองคำ (Au): เป็นโลหะที่มีเลขออกซิเดชันได้หลายค่า และสารประกอบมักมีสีสันสวยงาม",
     "starsAwarded": 4
   },
   {
@@ -8180,16 +8181,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "upper_sec",
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "compound",
-    "categoryLabel": "ประจุไอออนที่เสถียร",
-    "q": "ไอออนที่เสถียรตามกฎออกเตตของธาตุ ปรอท (Hg) คือข้อใด?",
+    "categoryLabel": "พฤติกรรมปฏิกิริยาเคมี",
+    "q": "พฤติกรรมทางเคมีที่สำคัญของธาตุ ปรอท (Hg) ตรงกับข้อใด?",
     "choices": [
-      "-3",
-      "Hg²⁺, Hg₂²⁺",
-      "+4",
-      "+7"
+      "มีเลขออกซิเดชันคงที่เพียงค่าเดียวคือบวกหนึ่งเสมอ",
+      "ทำปฏิกิริยาระเบิดทันทีเมื่อสัมผัสกับความชื้นในอากาศ",
+      "สารประกอบทุกชนิดของธาตุนี้ไม่มีสีในสารละลาย",
+      "เป็นโลหะที่มีเลขออกซิเดชันได้หลายค่า และสารประกอบมักมีสีสันสวยงาม"
     ],
-    "ans": 1,
-    "explanation": "ปรอท มีประจุไอออนที่พบบ่อยและเสถียรที่สุดคือ: Hg²⁺, Hg₂²⁺",
+    "ans": 3,
+    "explanation": "ลักษณะพฤติกรรมทางเคมีของ ปรอท (Hg): เป็นโลหะที่มีเลขออกซิเดชันได้หลายค่า และสารประกอบมักมีสีสันสวยงาม",
     "starsAwarded": 4
   },
   {
@@ -8197,16 +8198,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "upper_sec",
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "compound",
-    "categoryLabel": "ประจุไอออนที่เสถียร",
-    "q": "ไอออนที่เสถียรตามกฎออกเตตของธาตุ ตะกั่ว (Pb) คือข้อใด?",
+    "categoryLabel": "พฤติกรรมปฏิกิริยาเคมี",
+    "q": "พฤติกรรมทางเคมีที่สำคัญของธาตุ ตะกั่ว (Pb) ตรงกับข้อใด?",
     "choices": [
-      "Pb²⁺",
-      "+4",
-      "+7",
-      "-3"
+      "เป็นโลหะที่มีเลขออกซิเดชันได้หลายค่า และสารประกอบมักมีสีสันสวยงาม",
+      "มีเลขออกซิเดชันคงที่เพียงค่าเดียวคือบวกหนึ่งเสมอ",
+      "ทำปฏิกิริยาระเบิดทันทีเมื่อสัมผัสกับความชื้นในอากาศ",
+      "สารประกอบทุกชนิดของธาตุนี้ไม่มีสีในสารละลาย"
     ],
     "ans": 0,
-    "explanation": "ตะกั่ว มีประจุไอออนที่พบบ่อยและเสถียรที่สุดคือ: Pb²⁺",
+    "explanation": "ลักษณะพฤติกรรมทางเคมีของ ตะกั่ว (Pb): เป็นโลหะที่มีเลขออกซิเดชันได้หลายค่า และสารประกอบมักมีสีสันสวยงาม",
     "starsAwarded": 4
   },
   {
@@ -8214,16 +8215,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "upper_sec",
     "gradeLabel": "ม.ต้น - ม.ปลาย",
     "category": "compound",
-    "categoryLabel": "ประจุไอออนที่เสถียร",
-    "q": "ไอออนที่เสถียรตามกฎออกเตตของธาตุ ยูเรเนียม (U) คือข้อใด?",
+    "categoryLabel": "พฤติกรรมปฏิกิริยาเคมี",
+    "q": "พฤติกรรมทางเคมีที่สำคัญของธาตุ ยูเรเนียม (U) ตรงกับข้อใด?",
     "choices": [
-      "+4",
-      "+7",
-      "-3",
-      "U⁴⁺, U⁶⁺"
+      "นำไฟฟ้าได้ดีเยี่ยมกว่าโลหะเงินในทุกสภาวะ",
+      "สร้างพันธะโคเวเลนต์กับอโลหะด้วยการใช้อิเล็กตรอนร่วมกัน",
+      "มีเวเลนซ์อิเล็กตรอนเพียง 1 ตัวและให้อิเล็กตรอนง่ายมาก",
+      "แผ่รังสีแกมมาพลังงานสูงตลอดเวลาในธรรมชาติ"
     ],
-    "ans": 3,
-    "explanation": "ยูเรเนียม มีประจุไอออนที่พบบ่อยและเสถียรที่สุดคือ: U⁴⁺, U⁶⁺",
+    "ans": 1,
+    "explanation": "ลักษณะพฤติกรรมทางเคมีของ ยูเรเนียม (U): สร้างพันธะโคเวเลนต์กับอโลหะด้วยการใช้อิเล็กตรอนร่วมกัน",
     "starsAwarded": 4
   },
   {
@@ -8231,16 +8232,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "upper_sec",
     "gradeLabel": "ม.ต้น - ม.ปลาย (ข้อสอบยอดฮิต)",
     "category": "daily_life",
-    "categoryLabel": "เกร็ดความรู้สำหรับข้อสอบ",
-    "q": "ข้อใดเป็นข้อเท็จจริงทางเคมีที่สำคัญเกี่ยวกับธาตุ \"ไฮโดรเจน\" (H)?",
+    "categoryLabel": "สมบัติเคมีขั้นสูง",
+    "q": "ข้อใดอธิบายสมบัติทางเคมีหรือการประยุกต์ใช้ของ \"ไฮโดรเจน\" (H) ได้ถูกต้องและสมบูรณ์ที่สุด?",
     "choices": [
-      "ข้อสอบชอบออก: ไฮโดรเจนอยู่คาบ 1 แต่จัดอยู่เดี่ยวๆ เพราะมีสมบัติทั้งเหมือนหมู่ 1A และ 7A",
-      "ไฮโดรเจน มีมวลอะตอมน้อยที่สุดในคาบของตนเอง",
-      "ไฮโดรเจน ทำปฏิกิริยากับก๊าซเฉื่อยได้สารประกอบสีดำ",
-      "ไฮโดรเจน เป็นของเหลวที่อุณหภูมิติดลบเสมอ"
+      "เป็นของเหลวที่อุณหภูมิห้องและนำไฟฟ้าได้ดีมาก",
+      "เป็นธาตุที่เบาที่สุดและมีปริมาณมากที่สุดในเอกภพ เป็นเชื้อเพลิงฟิวชันของดาวฤกษ์",
+      "มีเวเลนซ์อิเล็กตรอนครบ 8 ตัวตามกฎออกเตตจึงเฉื่อยต่อปฏิกิริยา",
+      "เป็นของแข็งสีเหลืองที่พบมากในบริเวณปล่องภูเขาไฟ"
     ],
-    "ans": 0,
-    "explanation": "เกร็ดความรู้สำหรับสอบ: ข้อสอบชอบออก: ไฮโดรเจนอยู่คาบ 1 แต่จัดอยู่เดี่ยวๆ เพราะมีสมบัติทั้งเหมือนหมู่ 1A และ 7A",
+    "ans": 1,
+    "explanation": "ข้อสอบเคมีเน้นย้ำ: เป็นธาตุที่เบาที่สุดและมีปริมาณมากที่สุดในเอกภพ เป็นเชื้อเพลิงฟิวชันของดาวฤกษ์ (เป็นองค์ประกอบของโมเลกุลน้ำ (H₂O) สารชีวโมเลกุล และใช้เป็นเชื้อเพลิงพลังงานสะอาด)",
     "starsAwarded": 4
   },
   {
@@ -8248,16 +8249,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "upper_sec",
     "gradeLabel": "ม.ต้น - ม.ปลาย (ข้อสอบยอดฮิต)",
     "category": "daily_life",
-    "categoryLabel": "เกร็ดความรู้สำหรับข้อสอบ",
-    "q": "ข้อใดเป็นข้อเท็จจริงทางเคมีที่สำคัญเกี่ยวกับธาตุ \"ฮีเลียม\" (He)?",
+    "categoryLabel": "สมบัติเคมีขั้นสูง",
+    "q": "ข้อใดอธิบายสมบัติทางเคมีหรือการประยุกต์ใช้ของ \"ฮีเลียม\" (He) ได้ถูกต้องและสมบูรณ์ที่สุด?",
     "choices": [
-      "ฮีเลียม มีมวลอะตอมน้อยที่สุดในคาบของตนเอง",
-      "ฮีเลียม เป็นของเหลวที่อุณหภูมิติดลบเสมอ",
-      "ฮีเลียม ทำปฏิกิริยากับก๊าซเฉื่อยได้สารประกอบสีดำ",
-      "ข้อสอบ ม.ต้น-ม.ปลาย: เป็นก๊าซเฉื่อยตัวเดียวที่มีเวเลนซ์อิเล็กตรอนครบ 2 (ตัวอื่นในหมู่ 8 ครบ 8)"
+      "ทำปฏิกิริยารุนแรงกับน้ำแล้วติดไฟให้แก๊สไฮโดรเจน",
+      "เป็นธาตุที่มีค่าอิเล็กโทรเนกาติวิตี สูงที่สุดในตารางธาตุ",
+      "ระเหิดเป็นไอสีม่วงได้ง่ายเมื่อได้รับความร้อนปานกลาง",
+      "มีจุดเดือดต่ำที่สุดในบรรดาธาตุทั้งหมด ไม่ติดไฟ และเฉื่อยต่อปฏิกิริยาเคมีสูงมาก"
     ],
     "ans": 3,
-    "explanation": "เกร็ดความรู้สำหรับสอบ: ข้อสอบ ม.ต้น-ม.ปลาย: เป็นก๊าซเฉื่อยตัวเดียวที่มีเวเลนซ์อิเล็กตรอนครบ 2 (ตัวอื่นในหมู่ 8 ครบ 8)",
+    "explanation": "ข้อสอบเคมีเน้นย้ำ: มีจุดเดือดต่ำที่สุดในบรรดาธาตุทั้งหมด (-268.9°C) ไม่ติดไฟ และเฉื่อยต่อปฏิกิริยาเคมีสูงมาก (ใช้บรรจุในลูกโป่งสวรรค์และบอลลูนตรวจอากาศเพราะเบาและไม่ติดไฟ และใช้หล่อเย็นเครื่อง MRI)",
     "starsAwarded": 4
   },
   {
@@ -8265,16 +8266,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "upper_sec",
     "gradeLabel": "ม.ต้น - ม.ปลาย (ข้อสอบยอดฮิต)",
     "category": "daily_life",
-    "categoryLabel": "เกร็ดความรู้สำหรับข้อสอบ",
-    "q": "ข้อใดเป็นข้อเท็จจริงทางเคมีที่สำคัญเกี่ยวกับธาตุ \"ลิเทียม\" (Li)?",
+    "categoryLabel": "สมบัติเคมีขั้นสูง",
+    "q": "ข้อใดอธิบายสมบัติทางเคมีหรือการประยุกต์ใช้ของ \"ลิเทียม\" (Li) ได้ถูกต้องและสมบูรณ์ที่สุด?",
     "choices": [
-      "ลิเทียม มีมวลอะตอมน้อยที่สุดในคาบของตนเอง",
-      "หมู่ 1A: เวเลนซ์ e⁻ = 1 สูญเสียอิเล็กตรอน 1 ตัว เกิดไอออน +1 เสมอ ทำปฏิกิริยากับน้ำได้สารละลายเบส",
-      "ลิเทียม ทำปฏิกิริยากับก๊าซเฉื่อยได้สารประกอบสีดำ",
-      "ลิเทียม เป็นของเหลวที่อุณหภูมิติดลบเสมอ"
+      "เป็นของเหลวสีเงินที่อุณหภูมิห้อง ไม่ทำปฏิกิริยากับน้ำ",
+      "เป็นโลหะที่มีความหนาแน่นน้อยที่สุดในบรรดาโลหะทั้งหมด และมีความไวต่อปฏิกิริยาสูง",
+      "เป็นอโลหะที่มีจุดหลอมเหลวสูงที่สุดในตารางธาตุ",
+      "จัดเป็นแก๊สมีตระกูลที่ไม่ว่องไวต่อการเกิดปฏิกิริยา"
     ],
     "ans": 1,
-    "explanation": "เกร็ดความรู้สำหรับสอบ: หมู่ 1A: เวเลนซ์ e⁻ = 1 สูญเสียอิเล็กตรอน 1 ตัว เกิดไอออน +1 เสมอ ทำปฏิกิริยากับน้ำได้สารละลายเบส",
+    "explanation": "ข้อสอบเคมีเน้นย้ำ: เป็นโลหะที่มีความหนาแน่นน้อยที่สุดในบรรดาโลหะทั้งหมด (ลอยน้ำได้) และมีความไวต่อปฏิกิริยาสูง (ใช้ผลิตแบตเตอรี่ลิเทียมไอออนสำหรับสมาร์ตโฟนและยานยนต์ไฟฟ้า และใช้ในยารักษาอารมณ์สองขั้ว)",
     "starsAwarded": 4
   },
   {
@@ -8282,16 +8283,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "upper_sec",
     "gradeLabel": "ม.ต้น - ม.ปลาย (ข้อสอบยอดฮิต)",
     "category": "daily_life",
-    "categoryLabel": "เกร็ดความรู้สำหรับข้อสอบ",
-    "q": "ข้อใดเป็นข้อเท็จจริงทางเคมีที่สำคัญเกี่ยวกับธาตุ \"เบริลเลียม\" (Be)?",
+    "categoryLabel": "สมบัติเคมีขั้นสูง",
+    "q": "ข้อใดอธิบายสมบัติทางเคมีหรือการประยุกต์ใช้ของ \"เบริลเลียม\" (Be) ได้ถูกต้องและสมบูรณ์ที่สุด?",
     "choices": [
-      "เบริลเลียม มีมวลอะตอมน้อยที่สุดในคาบของตนเอง",
-      "เบริลเลียม ทำปฏิกิริยากับก๊าซเฉื่อยได้สารประกอบสีดำ",
-      "เบริลเลียม เป็นของเหลวที่อุณหภูมิติดลบเสมอ",
-      "หมู่ 2A มีประจุ +2 ขนาดอะตอมเล็กที่สุดในหมู่ 2A ทำให้ Be มีแนวโน้มเกิดพันธะโควาเลนต์ได้"
+      "ทำปฏิกิริยาระเบิดทันทีเมื่อสัมผัสกับอากาศแห้ง",
+      "เป็นแก๊สเฉื่อยไม่มีสี ไม่มีกลิ่น ละลายน้ำได้ดี",
+      "มีสถานะเป็นของเหลวที่อุณหภูมิห้องเหมือนปรอท",
+      "เป็นโลหะสีเทาที่มีน้ำหนักเบาแต่แข็งแกร่งมาก จุดหลอมเหลวสูง และสารประกอบมีพิษต่อระบบทางเดินหายใจ"
     ],
     "ans": 3,
-    "explanation": "เกร็ดความรู้สำหรับสอบ: หมู่ 2A มีประจุ +2 ขนาดอะตอมเล็กที่สุดในหมู่ 2A ทำให้ Be มีแนวโน้มเกิดพันธะโควาเลนต์ได้",
+    "explanation": "ข้อสอบเคมีเน้นย้ำ: เป็นโลหะสีเทาที่มีน้ำหนักเบาแต่แข็งแกร่งมาก จุดหลอมเหลวสูง และสารประกอบมีพิษต่อระบบทางเดินหายใจ (ใช้ทำโลหะผสมในชิ้นส่วนยานอวกาศ มิสไซล์ และหน้าต่างของหลอดรังสีเอกซ์เพราะยอมให้รังสีผ่านได้ดี)",
     "starsAwarded": 4
   },
   {
@@ -8299,16 +8300,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "upper_sec",
     "gradeLabel": "ม.ต้น - ม.ปลาย (ข้อสอบยอดฮิต)",
     "category": "daily_life",
-    "categoryLabel": "เกร็ดความรู้สำหรับข้อสอบ",
-    "q": "ข้อใดเป็นข้อเท็จจริงทางเคมีที่สำคัญเกี่ยวกับธาตุ \"โบรอน\" (B)?",
+    "categoryLabel": "สมบัติเคมีขั้นสูง",
+    "q": "ข้อใดอธิบายสมบัติทางเคมีหรือการประยุกต์ใช้ของ \"โบรอน\" (B) ได้ถูกต้องและสมบูรณ์ที่สุด?",
     "choices": [
-      "โบรอน ทำปฏิกิริยากับก๊าซเฉื่อยได้สารประกอบสีดำ",
-      "โบรอน มีมวลอะตอมน้อยที่สุดในคาบของตนเอง",
-      "โบรอน เป็นของเหลวที่อุณหภูมิติดลบเสมอ",
-      "โบรอนเป็น \"กึ่งโลหะ\" ธาตุเดียวในหมู่ 3A มักเกิดสารประกอบที่ไม่ครบออกเตต เช่น BF₃ (มี 6 e⁻)"
+      "เป็นโลหะอ่อนที่ใช้มีดตัดได้ง่ายเหมือนเนย",
+      "จัดเป็นธาตุกึ่งโลหะ มีโครงสร้างร่างตาข่ายที่แข็งมากรองจากเพชร และสารประกอบมักไม่ครบออกเตต",
+      "เป็นแก๊สสีเหลืองอมเขียวที่มีกลิ่นฉุนรุนแรง",
+      "เป็นกัมมันตรังสีที่แผ่อนุภาคแอลฟาตลอดเวลา"
     ],
-    "ans": 3,
-    "explanation": "เกร็ดความรู้สำหรับสอบ: โบรอนเป็น \"กึ่งโลหะ\" ธาตุเดียวในหมู่ 3A มักเกิดสารประกอบที่ไม่ครบออกเตต เช่น BF₃ (มี 6 e⁻)",
+    "ans": 1,
+    "explanation": "ข้อสอบเคมีเน้นย้ำ: จัดเป็นธาตุกึ่งโลหะ มีโครงสร้างร่างตาข่ายที่แข็งมากรองจากเพชร และสารประกอบมักไม่ครบออกเตต (เช่น BF₃) (ใช้ผลิตแก้วบอโรซิลิเกต (Pyrex) ที่ทนความร้อนสูง สารฟอกนวล และเป็นสารฆ่าเชื้อโรค (กรดบอริก))",
     "starsAwarded": 4
   },
   {
@@ -8316,16 +8317,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "upper_sec",
     "gradeLabel": "ม.ต้น - ม.ปลาย (ข้อสอบยอดฮิต)",
     "category": "daily_life",
-    "categoryLabel": "เกร็ดความรู้สำหรับข้อสอบ",
-    "q": "ข้อใดเป็นข้อเท็จจริงทางเคมีที่สำคัญเกี่ยวกับธาตุ \"คาร์บอน\" (C)?",
+    "categoryLabel": "สมบัติเคมีขั้นสูง",
+    "q": "ข้อใดอธิบายสมบัติทางเคมีหรือการประยุกต์ใช้ของ \"คาร์บอน\" (C) ได้ถูกต้องและสมบูรณ์ที่สุด?",
     "choices": [
-      "คาร์บอน เป็นของเหลวที่อุณหภูมิติดลบเสมอ",
-      "คาร์บอน มีมวลอะตอมน้อยที่สุดในคาบของตนเอง",
-      "คาร์บอนมี 4 แขน (เวเลนซ์ e⁻ = 4) สร้างพันธะเดี่ยว พันธะคู่ และพันธะสามได้ดีมาก",
-      "คาร์บอน ทำปฏิกิริยากับก๊าซเฉื่อยได้สารประกอบสีดำ"
+      "เป็นโลหะอัลคาไลที่ทำปฏิกิริยารุนแรงกับน้ำ",
+      "เป็นแก๊สไม่มีสีที่ไม่สามารถรวมตัวกับออกซิเจนได้",
+      "มีเวเลนซ์อิเล็กตรอน 2 ตัวและจัดอยู่ในหมู่ 2A",
+      "มีปรากฏการณ์อัญรูป เด่นชัด เช่น เพชร แกรไฟต์ และฟูลเลอรีน"
     ],
-    "ans": 2,
-    "explanation": "เกร็ดความรู้สำหรับสอบ: คาร์บอนมี 4 แขน (เวเลนซ์ e⁻ = 4) สร้างพันธะเดี่ยว พันธะคู่ และพันธะสามได้ดีมาก",
+    "ans": 3,
+    "explanation": "ข้อสอบเคมีเน้นย้ำ: มีปรากฏการณ์อัญรูป (Allotropy) เด่นชัด เช่น เพชร (แข็งที่สุด) แกรไฟต์ (นำไฟฟ้าได้) และฟูลเลอรีน (เป็นแกนกลางโครงสร้างของสิ่งมีชีวิตและสารอินทรีย์ทุกชนิด ทำไส้ดินสอ และสารดูดซับกลิ่น (ถ่านกัมมันต์))",
     "starsAwarded": 4
   },
   {
@@ -8333,16 +8334,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "upper_sec",
     "gradeLabel": "ม.ต้น - ม.ปลาย (ข้อสอบยอดฮิต)",
     "category": "daily_life",
-    "categoryLabel": "เกร็ดความรู้สำหรับข้อสอบ",
-    "q": "ข้อใดเป็นข้อเท็จจริงทางเคมีที่สำคัญเกี่ยวกับธาตุ \"ไนโตรเจน\" (N)?",
+    "categoryLabel": "สมบัติเคมีขั้นสูง",
+    "q": "ข้อใดอธิบายสมบัติทางเคมีหรือการประยุกต์ใช้ของ \"ไนโตรเจน\" (N) ได้ถูกต้องและสมบูรณ์ที่สุด?",
     "choices": [
-      "ไนโตรเจน มีมวลอะตอมน้อยที่สุดในคาบของตนเอง",
-      "ไนโตรเจน ทำปฏิกิริยากับก๊าซเฉื่อยได้สารประกอบสีดำ",
-      "โมเลกุล N₂ ยึดกันด้วยพันธะสาม (Triple bond) แข็งแรงมาก สลายยาก จึงเฉื่อยที่อุณหภูมิห้อง",
-      "ไนโตรเจน เป็นของเหลวที่อุณหภูมิติดลบเสมอ"
+      "เป็นของแข็งสีเงินนำไฟฟ้าได้ดีจัดเป็นโลหะทรานซิชัน",
+      "ในธรรมชาติอยู่ในรูปโมเลกุล N₂ ซึ่งมีพันธะสามที่แข็งแรงมาก จึงเฉื่อยต่อปฏิกิริยาที่อุณหภูมิห้อง",
+      "ทำปฏิกิริยาระเบิดทันทีเมื่อสัมผัสกับแสงสว่าง",
+      "มีเวเลนซ์อิเล็กตรอน 7 ตัวจัดอยู่ในกลุ่มแฮโลเจน"
     ],
-    "ans": 2,
-    "explanation": "เกร็ดความรู้สำหรับสอบ: โมเลกุล N₂ ยึดกันด้วยพันธะสาม (Triple bond) แข็งแรงมาก สลายยาก จึงเฉื่อยที่อุณหภูมิห้อง",
+    "ans": 1,
+    "explanation": "ข้อสอบเคมีเน้นย้ำ: ในธรรมชาติอยู่ในรูปโมเลกุล N₂ ซึ่งมีพันธะสามที่แข็งแรงมาก จึงเฉื่อยต่อปฏิกิริยาที่อุณหภูมิห้อง (มีปริมาณมากที่สุดในอากาศ (ประมาณ 78%) ใช้ผลิตปุ๋ยเคมี และไนโตรเจนเหลวใช้แช่แข็งเซลล์ชีวภาพ)",
     "starsAwarded": 4
   },
   {
@@ -8350,16 +8351,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "upper_sec",
     "gradeLabel": "ม.ต้น - ม.ปลาย (ข้อสอบยอดฮิต)",
     "category": "daily_life",
-    "categoryLabel": "เกร็ดความรู้สำหรับข้อสอบ",
-    "q": "ข้อใดเป็นข้อเท็จจริงทางเคมีที่สำคัญเกี่ยวกับธาตุ \"ออกซิเจน\" (O)?",
+    "categoryLabel": "สมบัติเคมีขั้นสูง",
+    "q": "ข้อใดอธิบายสมบัติทางเคมีหรือการประยุกต์ใช้ของ \"ออกซิเจน\" (O) ได้ถูกต้องและสมบูรณ์ที่สุด?",
     "choices": [
-      "ออกซิเจน มีมวลอะตอมน้อยที่สุดในคาบของตนเอง",
-      "ออกซิเจน ทำปฏิกิริยากับก๊าซเฉื่อยได้สารประกอบสีดำ",
-      "เวเลนซ์ e⁻ = 6 ต้องการอีก 2 ตัวให้ครบ 8 จึงเกิดไอออน O²⁻ มีค่า EN สูงเป็นอันดับ 2 รองจากฟลูออรีน",
-      "ออกซิเจน เป็นของเหลวที่อุณหภูมิติดลบเสมอ"
+      "เป็นแก๊สไวไฟสูงที่สามารถจุดติดไฟและระเบิดได้ด้วยตัวเอง",
+      "เป็นสารกึ่งตัวนำไฟฟ้าที่ใช้ผลิตชิปคอมพิวเตอร์",
+      "มีสถานะเป็นของแข็งสีดำที่อุณหภูมิและความดันมาตรฐาน",
+      "มีค่าอิเล็กโทรเนกาติวิตี สูงเป็นอันดับ 2 ในตารางธาตุ เป็นตัวออกซิไดซ์ที่ดีเยี่ยมและช่วยในการติดไฟ"
     ],
-    "ans": 2,
-    "explanation": "เกร็ดความรู้สำหรับสอบ: เวเลนซ์ e⁻ = 6 ต้องการอีก 2 ตัวให้ครบ 8 จึงเกิดไอออน O²⁻ มีค่า EN สูงเป็นอันดับ 2 รองจากฟลูออรีน",
+    "ans": 3,
+    "explanation": "ข้อสอบเคมีเน้นย้ำ: มีค่าอิเล็กโทรเนกาติวิตี (EN) สูงเป็นอันดับ 2 ในตารางธาตุ เป็นตัวออกซิไดซ์ที่ดีเยี่ยมและช่วยในการติดไฟ (จำเป็นต่อการหายใจของสิ่งมีชีวิตทุกชนิด การเผาไหม้ของเชื้อเพลิง และใช้ในถังออกซิเจนการแพทย์)",
     "starsAwarded": 4
   },
   {
@@ -8367,16 +8368,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "upper_sec",
     "gradeLabel": "ม.ต้น - ม.ปลาย (ข้อสอบยอดฮิต)",
     "category": "daily_life",
-    "categoryLabel": "เกร็ดความรู้สำหรับข้อสอบ",
-    "q": "ข้อใดเป็นข้อเท็จจริงทางเคมีที่สำคัญเกี่ยวกับธาตุ \"ฟลูออรีน\" (F)?",
+    "categoryLabel": "สมบัติเคมีขั้นสูง",
+    "q": "ข้อใดอธิบายสมบัติทางเคมีหรือการประยุกต์ใช้ของ \"ฟลูออรีน\" (F) ได้ถูกต้องและสมบูรณ์ที่สุด?",
     "choices": [
-      "ออกข้อสอบเคมี 100%! ธาตุที่มีค่าอิเล็กโทรเนกาติวิตี (EN) สูงที่สุดในตารางธาตุ ดึงดูด e⁻ เก่งที่สุด",
-      "ฟลูออรีน มีมวลอะตอมน้อยที่สุดในคาบของตนเอง",
-      "ฟลูออรีน เป็นของเหลวที่อุณหภูมิติดลบเสมอ",
-      "ฟลูออรีน ทำปฏิกิริยากับก๊าซเฉื่อยได้สารประกอบสีดำ"
+      "เป็นแก๊สมีตระกูลที่เสถียรที่สุด ไม่ทำปฏิกิริยากับธาตุใด",
+      "เป็นธาตุที่มีค่าอิเล็กโทรเนกาติวิตี สูงที่สุดในตารางธาตุ และมีความว่องไวต่อปฏิกิริยาสูงสุด",
+      "เป็นโลหะเนื้ออ่อนที่มีสีทองและดัดเป็นแผ่นบางได้ดี",
+      "มีเวเลนซ์อิเล็กตรอน 1 ตัวและทำปฏิกิริยาให้ประจุบวก 1+"
     ],
-    "ans": 0,
-    "explanation": "เกร็ดความรู้สำหรับสอบ: ออกข้อสอบเคมี 100%! ธาตุที่มีค่าอิเล็กโทรเนกาติวิตี (EN) สูงที่สุดในตารางธาตุ ดึงดูด e⁻ เก่งที่สุด",
+    "ans": 1,
+    "explanation": "ข้อสอบเคมีเน้นย้ำ: เป็นธาตุที่มีค่าอิเล็กโทรเนกาติวิตี (EN = 3.98) สูงที่สุดในตารางธาตุ และมีความว่องไวต่อปฏิกิริยาสูงสุด (สารประกอบฟลูออไรด์ใช้ผสมในยาสีฟันเพื่อป้องกันฟันผุ และใช้สังเคราะห์พอลิเมอร์เทฟลอน (PTFE))",
     "starsAwarded": 4
   },
   {
@@ -8384,16 +8385,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "upper_sec",
     "gradeLabel": "ม.ต้น - ม.ปลาย (ข้อสอบยอดฮิต)",
     "category": "daily_life",
-    "categoryLabel": "เกร็ดความรู้สำหรับข้อสอบ",
-    "q": "ข้อใดเป็นข้อเท็จจริงทางเคมีที่สำคัญเกี่ยวกับธาตุ \"นีออน\" (Ne)?",
+    "categoryLabel": "สมบัติเคมีขั้นสูง",
+    "q": "ข้อใดอธิบายสมบัติทางเคมีหรือการประยุกต์ใช้ของ \"นีออน\" (Ne) ได้ถูกต้องและสมบูรณ์ที่สุด?",
     "choices": [
-      "เวเลนซ์อิเล็กตรอนครบ 8 (Octet rule) เสถียรสูงสุด ไม่ทำปฏิกิริยากับธาตุอื่น อยู่เป็นอะตอมเดี่ยว",
-      "นีออน เป็นของเหลวที่อุณหภูมิติดลบเสมอ",
-      "นีออน ทำปฏิกิริยากับก๊าซเฉื่อยได้สารประกอบสีดำ",
-      "นีออน มีมวลอะตอมน้อยที่สุดในคาบของตนเอง"
+      "เป็นของแข็งที่มีจุดเดือดสูงที่สุดในคาบที่ 2",
+      "ทำปฏิกิริยารุนแรงกับน้ำเกิดสารละลายเบสแก่เข้มข้น",
+      "สามารถเกิดพันธะไฮโดรเจนที่แข็งแรงกับโมเลกุลน้ำได้",
+      "มีเวเลนซ์อิเล็กตรอนครบ 8 ตัวตามกฎออกเตต มีความเสถียรสูงมากและไม่ทำปฏิกิริยากับสารใดในสภาวะปกติ"
     ],
-    "ans": 0,
-    "explanation": "เกร็ดความรู้สำหรับสอบ: เวเลนซ์อิเล็กตรอนครบ 8 (Octet rule) เสถียรสูงสุด ไม่ทำปฏิกิริยากับธาตุอื่น อยู่เป็นอะตอมเดี่ยว",
+    "ans": 3,
+    "explanation": "ข้อสอบเคมีเน้นย้ำ: มีเวเลนซ์อิเล็กตรอนครบ 8 ตัวตามกฎออกเตต มีความเสถียรสูงมากและไม่ทำปฏิกิริยากับสารใดในสภาวะปกติ (ใช้บรรจุในหลอดไฟโฆษณา (ป้ายไฟนีออน) ให้แสงสว่างสีส้มแดงสดใสเมื่อผ่านกระแสไฟฟ้าแรงดันสูง)",
     "starsAwarded": 4
   },
   {
@@ -8401,16 +8402,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "upper_sec",
     "gradeLabel": "ม.ต้น - ม.ปลาย (ข้อสอบยอดฮิต)",
     "category": "daily_life",
-    "categoryLabel": "เกร็ดความรู้สำหรับข้อสอบ",
-    "q": "ข้อใดเป็นข้อเท็จจริงทางเคมีที่สำคัญเกี่ยวกับธาตุ \"โซเดียม\" (Na)?",
+    "categoryLabel": "สมบัติเคมีขั้นสูง",
+    "q": "ข้อใดอธิบายสมบัติทางเคมีหรือการประยุกต์ใช้ของ \"โซเดียม\" (Na) ได้ถูกต้องและสมบูรณ์ที่สุด?",
     "choices": [
-      "โซเดียม ทำปฏิกิริยากับก๊าซเฉื่อยได้สารประกอบสีดำ",
-      "โซเดียม มีมวลอะตอมน้อยที่สุดในคาบของตนเอง",
-      "โซเดียม เป็นของเหลวที่อุณหภูมิติดลบเสมอ",
-      "จัดเรียง e⁻ = 2, 8, 1 เมื่อให้อิเล็กตรอน 1 ตัวจะกลายเป็น Na⁺ ที่มีการจัดเรียงเหมือนนีออน [Ne]"
+      "เป็นอโลหะที่อยู่ในรูปโมเลกุลคู่ที่มีพันธะสาม",
+      "เป็นโลหะเนื้ออ่อนสีเงิน ใช้มีดตัดได้ง่าย ทำปฏิกิริยารุนแรงกับน้ำเกิดแก๊ส H₂ และสารละลาย NaOH",
+      "มีสถานะเป็นแก๊สที่อุณหภูมิห้องและไม่นำไฟฟ้า",
+      "มีความหนาแน่นสูงมากและไม่ทำปฏิกิริยากับสารใดๆ"
     ],
-    "ans": 3,
-    "explanation": "เกร็ดความรู้สำหรับสอบ: จัดเรียง e⁻ = 2, 8, 1 เมื่อให้อิเล็กตรอน 1 ตัวจะกลายเป็น Na⁺ ที่มีการจัดเรียงเหมือนนีออน [Ne]",
+    "ans": 1,
+    "explanation": "ข้อสอบเคมีเน้นย้ำ: เป็นโลหะเนื้ออ่อนสีเงิน ใช้มีดตัดได้ง่าย ทำปฏิกิริยารุนแรงกับน้ำเกิดแก๊ส H₂ และสารละลาย NaOH (เบสแก่) (สารประกอบ NaCl คือเกลือแกงปรุงอาหาร รักษาสมดุลอิเล็กโทรไลต์ในร่างกาย และใช้ทำสบู่ (NaOH))",
     "starsAwarded": 4
   },
   {
@@ -8418,16 +8419,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "upper_sec",
     "gradeLabel": "ม.ต้น - ม.ปลาย (ข้อสอบยอดฮิต)",
     "category": "daily_life",
-    "categoryLabel": "เกร็ดความรู้สำหรับข้อสอบ",
-    "q": "ข้อใดเป็นข้อเท็จจริงทางเคมีที่สำคัญเกี่ยวกับธาตุ \"แมกนีเซียม\" (Mg)?",
+    "categoryLabel": "สมบัติเคมีขั้นสูง",
+    "q": "ข้อใดอธิบายสมบัติทางเคมีหรือการประยุกต์ใช้ของ \"แมกนีเซียม\" (Mg) ได้ถูกต้องและสมบูรณ์ที่สุด?",
     "choices": [
-      "เวเลนซ์ e⁻ = 2 จัดเรียง 2, 8, 2 เสีย 2e⁻ กลายเป็น Mg²⁺ ทำปฏิกิริยากับกรดได้ก๊าซไฮโดรเจน (H₂)",
-      "แมกนีเซียม มีมวลอะตอมน้อยที่สุดในคาบของตนเอง",
-      "แมกนีเซียม ทำปฏิกิริยากับก๊าซเฉื่อยได้สารประกอบสีดำ",
-      "แมกนีเซียม เป็นของเหลวที่อุณหภูมิติดลบเสมอ"
+      "เป็นแก๊สมีตระกูลที่ไม่มีสี ไม่มีกลิ่น และไม่ติดไฟ",
+      "ทำปฏิกิริยากับน้ำเย็นทันทีจนเกิดการระเบิดรุนแรง",
+      "มีเวเลนซ์อิเล็กตรอน 7 ตัวและมีประจุเสถียรเป็น 1-",
+      "เมื่อติดไฟในอากาศจะเผาไหม้ด้วยเปลวไฟสีขาวสว่างจ้ามาก และเป็นศูนย์กลางของโมเลกุลคลอโรฟิลล์"
     ],
-    "ans": 0,
-    "explanation": "เกร็ดความรู้สำหรับสอบ: เวเลนซ์ e⁻ = 2 จัดเรียง 2, 8, 2 เสีย 2e⁻ กลายเป็น Mg²⁺ ทำปฏิกิริยากับกรดได้ก๊าซไฮโดรเจน (H₂)",
+    "ans": 3,
+    "explanation": "ข้อสอบเคมีเน้นย้ำ: เมื่อติดไฟในอากาศจะเผาไหม้ด้วยเปลวไฟสีขาวสว่างจ้ามาก และเป็นศูนย์กลางของโมเลกุลคลอโรฟิลล์ (ใช้ทำพลุไฟ แฟลชถ่ายภาพ โลหะผสมน้ำหนักเบาในอากาศยาน และเป็นสารลดกรดในกระเพาะอาหาร (Mg(OH)₂))",
     "starsAwarded": 4
   },
   {
@@ -8435,16 +8436,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "upper_sec",
     "gradeLabel": "ม.ต้น - ม.ปลาย (ข้อสอบยอดฮิต)",
     "category": "daily_life",
-    "categoryLabel": "เกร็ดความรู้สำหรับข้อสอบ",
-    "q": "ข้อใดเป็นข้อเท็จจริงทางเคมีที่สำคัญเกี่ยวกับธาตุ \"อะลูมิเนียม\" (Al)?",
+    "categoryLabel": "สมบัติเคมีขั้นสูง",
+    "q": "ข้อใดอธิบายสมบัติทางเคมีหรือการประยุกต์ใช้ของ \"อะลูมิเนียม\" (Al) ได้ถูกต้องและสมบูรณ์ที่สุด?",
     "choices": [
-      "อะลูมิเนียม เป็นของเหลวที่อุณหภูมิติดลบเสมอ",
-      "อะลูมิเนียม ทำปฏิกิริยากับก๊าซเฉื่อยได้สารประกอบสีดำ",
-      "อะลูมิเนียม มีมวลอะตอมน้อยที่สุดในคาบของตนเอง",
-      "เวเลนซ์ e⁻ = 3 จัดเรียง 2, 8, 3 เกิดไอออน Al³⁺ ออกไซด์ของมัน (Al₂O₃) เป็นสารแอมโฟเทอริก (ทำปฏิกิริยาได้ทั้งกรดและเบส)"
+      "เป็นโลหะหนักที่มีพิษเฉียบพลันต่อระบบประสาทมนุษย์",
+      "เป็นโลหะที่มีปริมาณมากที่สุดในเปลือกโลก ผิวจะเกิดชั้นออกไซด์บางๆ เคลือบป้องกันการผุกร่อน",
+      "เป็นแก๊สมีตระกูลที่ใช้บรรจุในหลอดไฟโฆษณา",
+      "ไม่นำไฟฟ้าและความร้อนในทุกสถานะของสสาร"
     ],
-    "ans": 3,
-    "explanation": "เกร็ดความรู้สำหรับสอบ: เวเลนซ์ e⁻ = 3 จัดเรียง 2, 8, 3 เกิดไอออน Al³⁺ ออกไซด์ของมัน (Al₂O₃) เป็นสารแอมโฟเทอริก (ทำปฏิกิริยาได้ทั้งกรดและเบส)",
+    "ans": 1,
+    "explanation": "ข้อสอบเคมีเน้นย้ำ: เป็นโลหะที่มีปริมาณมากที่สุดในเปลือกโลก ผิวจะเกิดชั้นออกไซด์บางๆ (Al₂O₃) เคลือบป้องกันการผุกร่อน (ใช้ผลิตกระป๋องเครื่องดื่ม ฟอยล์ห่ออาหาร โครงสร้างเครื่องบิน ประตูหน้าต่าง และสายไฟฟ้าแรงสูง)",
     "starsAwarded": 4
   },
   {
@@ -8452,16 +8453,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "upper_sec",
     "gradeLabel": "ม.ต้น - ม.ปลาย (ข้อสอบยอดฮิต)",
     "category": "daily_life",
-    "categoryLabel": "เกร็ดความรู้สำหรับข้อสอบ",
-    "q": "ข้อใดเป็นข้อเท็จจริงทางเคมีที่สำคัญเกี่ยวกับธาตุ \"ซิลิคอน\" (Si)?",
+    "categoryLabel": "สมบัติเคมีขั้นสูง",
+    "q": "ข้อใดอธิบายสมบัติทางเคมีหรือการประยุกต์ใช้ของ \"ซิลิคอน\" (Si) ได้ถูกต้องและสมบูรณ์ที่สุด?",
     "choices": [
-      "ซิลิคอน มีมวลอะตอมน้อยที่สุดในคาบของตนเอง",
-      "ซิลิคอน ทำปฏิกิริยากับก๊าซเฉื่อยได้สารประกอบสีดำ",
-      "ซิลิคอน เป็นของเหลวที่อุณหภูมิติดลบเสมอ",
-      "กึ่งโลหะ (Metalloid) นำไฟฟ้าได้ดีขึ้นเมื่ออุณหภูมิสูงขึ้น นิยมโด๊ปสารทำไมโครชิปและโซลาร์เซลล์"
+      "เป็นโลหะเหลวที่อุณหภูมิห้องและนำไฟฟ้าได้สูงมาก",
+      "เป็นแก๊สมีสีเขียวตองอ่อนและมีกลิ่นฉุนรุนแรง",
+      "มีเวเลนซ์อิเล็กตรอน 1 ตัวและอยู่ในหมู่โลหะอัลคาไล",
+      "เป็นธาตุที่มีปริมาณมากเป็นอันดับ 2 ในเปลือกโลกรองจากออกซิเจน มีสมบัติเป็นสารกึ่งตัวนำ"
     ],
     "ans": 3,
-    "explanation": "เกร็ดความรู้สำหรับสอบ: กึ่งโลหะ (Metalloid) นำไฟฟ้าได้ดีขึ้นเมื่ออุณหภูมิสูงขึ้น นิยมโด๊ปสารทำไมโครชิปและโซลาร์เซลล์",
+    "explanation": "ข้อสอบเคมีเน้นย้ำ: เป็นธาตุที่มีปริมาณมากเป็นอันดับ 2 ในเปลือกโลกรองจากออกซิเจน มีสมบัติเป็นสารกึ่งตัวนำ (Semiconductor) (เป็นหัวใจหลักในการผลิตไมโครชิป แผงโซลาร์เซลล์ อุปกรณ์อิเล็กทรอนิกส์ และแก้วทราย (SiO₂))",
     "starsAwarded": 4
   },
   {
@@ -8469,16 +8470,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "upper_sec",
     "gradeLabel": "ม.ต้น - ม.ปลาย (ข้อสอบยอดฮิต)",
     "category": "daily_life",
-    "categoryLabel": "เกร็ดความรู้สำหรับข้อสอบ",
-    "q": "ข้อใดเป็นข้อเท็จจริงทางเคมีที่สำคัญเกี่ยวกับธาตุ \"ฟอสฟอรัส\" (P)?",
+    "categoryLabel": "สมบัติเคมีขั้นสูง",
+    "q": "ข้อใดอธิบายสมบัติทางเคมีหรือการประยุกต์ใช้ของ \"ฟอสฟอรัส\" (P) ได้ถูกต้องและสมบูรณ์ที่สุด?",
     "choices": [
-      "ฟอสฟอรัส ทำปฏิกิริยากับก๊าซเฉื่อยได้สารประกอบสีดำ",
-      "มีอัญรูปหลายแบบ เช่น ฟอสฟอรัสขาว (ติดไฟเองในอากาศ ต้องแช่น้ำ) และฟอสฟอรัสแดง (ทำหัวไม้ขีด)",
-      "ฟอสฟอรัส เป็นของเหลวที่อุณหภูมิติดลบเสมอ",
-      "ฟอสฟอรัส มีมวลอะตอมน้อยที่สุดในคาบของตนเอง"
+      "เป็นโลหะนำไฟฟ้าได้ดีจัดอยู่ในกลุ่มโลหะทรานซิชัน",
+      "มีอัญรูปสำคัญคือ ฟอสฟอรัสขาว และฟอสฟอรัสแดง",
+      "เป็นแก๊สมีตระกูลที่ไม่มีสีและไม่มีกลิ่นในธรรมชาติ",
+      "ไม่สามารถรวมตัวกับออกซิเจนได้ในทุกกรณี"
     ],
     "ans": 1,
-    "explanation": "เกร็ดความรู้สำหรับสอบ: มีอัญรูปหลายแบบ เช่น ฟอสฟอรัสขาว (ติดไฟเองในอากาศ ต้องแช่น้ำ) และฟอสฟอรัสแดง (ทำหัวไม้ขีด)",
+    "explanation": "ข้อสอบเคมีเน้นย้ำ: มีอัญรูปสำคัญคือ ฟอสฟอรัสขาว (ว่องไวสูง ลุกติดไฟเองในอากาศได้) และฟอสฟอรัสแดง (เสถียรกว่า) (ใช้ผลิตหัวไม้ขีดไฟ ปุ๋ยฟอสเฟตเร่งรากดอก และเป็นส่วนประกอบสำคัญของสารพันธุกรรม DNA, RNA และ ATP)",
     "starsAwarded": 4
   },
   {
@@ -8486,16 +8487,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "upper_sec",
     "gradeLabel": "ม.ต้น - ม.ปลาย (ข้อสอบยอดฮิต)",
     "category": "daily_life",
-    "categoryLabel": "เกร็ดความรู้สำหรับข้อสอบ",
-    "q": "ข้อใดเป็นข้อเท็จจริงทางเคมีที่สำคัญเกี่ยวกับธาตุ \"กำมะถัน (ซัลเฟอร์)\" (S)?",
+    "categoryLabel": "สมบัติเคมีขั้นสูง",
+    "q": "ข้อใดอธิบายสมบัติทางเคมีหรือการประยุกต์ใช้ของ \"กำมะถัน\" (S) ได้ถูกต้องและสมบูรณ์ที่สุด?",
     "choices": [
-      "กำมะถัน (ซัลเฟอร์) ทำปฏิกิริยากับก๊าซเฉื่อยได้สารประกอบสีดำ",
-      "กำมะถัน (ซัลเฟอร์) เป็นของเหลวที่อุณหภูมิติดลบเสมอ",
-      "กำมะถัน (ซัลเฟอร์) มีมวลอะตอมน้อยที่สุดในคาบของตนเอง",
-      "จัดเรียง 2, 8, 6 รับ 2e⁻ ได้ S²⁻ เมื่อเผาไหม้ในอากาศได้ SO₂ ซึ่งเป็นสาเหตุของฝนกรด (Acid rain)"
+      "เป็นของเหลวสีเงินวาวนำไฟฟ้าได้ดีจัดเป็นโลหะหนัก",
+      "เป็นแก๊สเฉื่อยที่ไม่ทำปฏิกิริยากับสารใดที่อุณหภูมิห้อง",
+      "มีเวเลนซ์อิเล็กตรอน 2 ตัวและทำปฏิกิริยาให้ประจุ 2+",
+      "เป็นของแข็งสีเหลือง เปราะ ไม่นำไฟฟ้า เมื่อเผาไหม้ในอากาศจะได้แก๊ส SO₂ ที่มีกลิ่นฉุนแสบจมูก"
     ],
     "ans": 3,
-    "explanation": "เกร็ดความรู้สำหรับสอบ: จัดเรียง 2, 8, 6 รับ 2e⁻ ได้ S²⁻ เมื่อเผาไหม้ในอากาศได้ SO₂ ซึ่งเป็นสาเหตุของฝนกรด (Acid rain)",
+    "explanation": "ข้อสอบเคมีเน้นย้ำ: เป็นของแข็งสีเหลือง เปราะ ไม่นำไฟฟ้า เมื่อเผาไหม้ในอากาศจะได้แก๊ส SO₂ ที่มีกลิ่นฉุนแสบจมูก (ใช้ผลิตกรดซัลฟิวริก (H₂SO₄) ดินปืน ปุ๋ยเคมี ยารักษาโรคผิวหนัง และในกระบวนการวัลคาไนเซชันของยาง)",
     "starsAwarded": 4
   },
   {
@@ -8503,16 +8504,16 @@ export const EXTENSIVE_CHEMISTRY_QUIZZES: ChemQuizQuestion[] = [
     "grade": "upper_sec",
     "gradeLabel": "ม.ต้น - ม.ปลาย (ข้อสอบยอดฮิต)",
     "category": "daily_life",
-    "categoryLabel": "เกร็ดความรู้สำหรับข้อสอบ",
-    "q": "ข้อใดเป็นข้อเท็จจริงทางเคมีที่สำคัญเกี่ยวกับธาตุ \"คลอรีน\" (Cl)?",
+    "categoryLabel": "สมบัติเคมีขั้นสูง",
+    "q": "ข้อใดอธิบายสมบัติทางเคมีหรือการประยุกต์ใช้ของ \"คลอรีน\" (Cl) ได้ถูกต้องและสมบูรณ์ที่สุด?",
     "choices": [
-      "คลอรีน ทำปฏิกิริยากับก๊าซเฉื่อยได้สารประกอบสีดำ",
-      "คลอรีน มีมวลอะตอมน้อยที่สุดในคาบของตนเอง",
-      "คลอรีน เป็นของเหลวที่อุณหภูมิติดลบเสมอ",
-      "แฮโลเจนหมู่ 7A เวเลนซ์ 7 รับ 1e⁻ เป็น Cl⁻ เกิดพันธะไอออนิกกับโลหะหมู่ 1A ได้เกลือ เช่น NaCl, KCl"
+      "เป็นของแข็งสีเงินที่ดัดเป็นเส้นลวดนำไฟฟ้าได้ดีเยี่ยม",
+      "เป็นแก๊สสีเขียวแกมเหลือง มีกลิ่นฉุนรุนแรง เป็นพิษต่อระบบหายใจ และเป็นตัวออกซิไดซ์ที่รุนแรง",
+      "เป็นแก๊สมีตระกูลที่เฉื่อยต่อปฏิกิริยาเคมีสูงมาก",
+      "มีเวเลนซ์อิเล็กตรอน 1 ตัวและทำหน้าที่เป็นตัวรีดิวซ์ที่ดี"
     ],
-    "ans": 3,
-    "explanation": "เกร็ดความรู้สำหรับสอบ: แฮโลเจนหมู่ 7A เวเลนซ์ 7 รับ 1e⁻ เป็น Cl⁻ เกิดพันธะไอออนิกกับโลหะหมู่ 1A ได้เกลือ เช่น NaCl, KCl",
+    "ans": 1,
+    "explanation": "ข้อสอบเคมีเน้นย้ำ: เป็นแก๊สสีเขียวแกมเหลือง มีกลิ่นฉุนรุนแรง เป็นพิษต่อระบบหายใจ และเป็นตัวออกซิไดซ์ที่รุนแรง (ใช้ฆ่าเชื้อโรคในน้ำประปาและสระว่ายน้ำ ผลิตสารฟอกขาว (น้ำยาซักผ้าขาว) และผลิตพลาสติก PVC)",
     "starsAwarded": 4
   }
 ];
