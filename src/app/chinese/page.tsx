@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react';
 import { Navbar } from '@/components/Navbar';
 import { HanziCanvas } from '@/components/HanziCanvas';
 import { FlashcardsSRS } from '@/components/FlashcardsSRS';
-import { ToneCoach } from '@/components/ToneCoach';
+import { ChineseSpeakingStudio } from '@/components/ChineseSpeakingStudio';
 import { AiTutorChat } from '@/components/AiTutorChat';
 import { PetCompanion } from '@/components/PetCompanion';
 import { ParentDashboard } from '@/components/ParentDashboard';
@@ -383,9 +383,9 @@ export default function ChinesePage() {
           />
         )}
 
-        {/* Tab 3: Pronunciation & Tone Coach */}
+        {/* Tab 3: Pronunciation & Speaking Studio */}
         {activeTab === 'tone' && (
-          <ToneCoach onEarnReward={handleEarnReward} />
+          <ChineseSpeakingStudio onEarnReward={handleEarnReward} />
         )}
 
         {/* Tab 4: AI Tutor Chat */}

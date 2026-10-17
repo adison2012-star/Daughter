@@ -1,0 +1,295 @@
+export interface PhraseToken {
+  char: string;
+  pinyin: string;
+}
+
+export interface ShadowingPhrase {
+  id: string;
+  category: string;
+  categoryIcon: string;
+  hanzi: string;
+  pinyin: string;
+  thai: string;
+  tokens: PhraseToken[];
+  difficulty: 'easy' | 'medium' | 'hard';
+  tip: string;
+}
+
+export const SHADOWING_PHRASES: ShadowingPhrase[] = [
+  // Category 1: ทักทายและสุภาพ (Greetings & Politeness)
+  {
+    id: 'sh_1',
+    category: 'ทักทายและสุภาพ',
+    categoryIcon: '👋',
+    hanzi: '你好！',
+    pinyin: 'Nǐ hǎo!',
+    thai: 'สวัสดีครับ/ค่ะ',
+    tokens: [
+      { char: '你', pinyin: 'nǐ' },
+      { char: '好', pinyin: 'hǎo' },
+    ],
+    difficulty: 'easy',
+    tip: 'เสียง 3 สองตัวติดกัน "nǐ hǎo" ตัวหน้าให้ออกเสียงเป็นเสียง 2 ("ní hǎo")',
+  },
+  {
+    id: 'sh_2',
+    category: 'ทักทายและสุภาพ',
+    categoryIcon: '👋',
+    hanzi: '早上好！',
+    pinyin: 'Zǎoshang hǎo!',
+    thai: 'อรุณสวัสดิ์ตอนเช้า',
+    tokens: [
+      { char: '早', pinyin: 'zǎo' },
+      { char: '上', pinyin: 'shang' },
+      { char: '好', pinyin: 'hǎo' },
+    ],
+    difficulty: 'easy',
+    tip: '"shang" ออกเสียงเบา สั้น และนุ่มนวล',
+  },
+  {
+    id: 'sh_3',
+    category: 'ทักทายและสุภาพ',
+    categoryIcon: '👋',
+    hanzi: '谢谢你！',
+    pinyin: 'Xièxie nǐ!',
+    thai: 'ขอบคุณเธอนะ',
+    tokens: [
+      { char: '谢', pinyin: 'xiè' },
+      { char: '谢', pinyin: 'xie' },
+      { char: '你', pinyin: 'nǐ' },
+    ],
+    difficulty: 'easy',
+    tip: '"xiè" เสียงตก 4 คำหลังเป็นเสียงเบา xie นุ่มๆ',
+  },
+  {
+    id: 'sh_4',
+    category: 'ทักทายและสุภาพ',
+    categoryIcon: '👋',
+    hanzi: '不客气。',
+    pinyin: 'Bú kèqi.',
+    thai: 'ไม่เป็นไร / ยินดีด้วยความเต็มใจ',
+    tokens: [
+      { char: '不', pinyin: 'bú' },
+      { char: '客', pinyin: 'kè' },
+      { char: '气', pinyin: 'qi' },
+    ],
+    difficulty: 'easy',
+    tip: 'เมื่อ "bù" อยู่หน้าเสียง 4 ("kè") จะเปลี่ยนเป็นเสียง 2 ("bú")',
+  },
+  {
+    id: 'sh_5',
+    category: 'ทักทายและสุภาพ',
+    categoryIcon: '👋',
+    hanzi: '明天见！',
+    pinyin: 'Míngtiān jiàn!',
+    thai: 'พรุ่งนี้เจอกันนะ',
+    tokens: [
+      { char: '明', pinyin: 'míng' },
+      { char: '天', pinyin: 'tiān' },
+      { char: '见', pinyin: 'jiàn' },
+    ],
+    difficulty: 'easy',
+    tip: '"tiān" เสียง 1 สูงราบเรียบ "jiàn" เสียง 4 มั่นคงเด็ดขาด',
+  },
+
+  // Category 2: ชีวิตประจำวัน (Daily Life)
+  {
+    id: 'sh_6',
+    category: 'ชีวิตประจำวัน',
+    categoryIcon: '🍚',
+    hanzi: '我想吃饭。',
+    pinyin: 'Wǒ xiǎng chīfàn.',
+    thai: 'ฉันอยากทานข้าว',
+    tokens: [
+      { char: '我', pinyin: 'wǒ' },
+      { char: '想', pinyin: 'xiǎng' },
+      { char: '吃', pinyin: 'chī' },
+      { char: '饭', pinyin: 'fàn' },
+    ],
+    difficulty: 'easy',
+    tip: 'คำว่า "chī" ต้องม้วนลิ้นขึ้นแตะเพดานปาก และพ่นลมเบาๆ',
+  },
+  {
+    id: 'sh_7',
+    category: 'ชีวิตประจำวัน',
+    categoryIcon: '💧',
+    hanzi: '请喝温水。',
+    pinyin: 'Qǐng hē wēnshuǐ.',
+    thai: 'กรุณาดื่มน้ำอุ่น',
+    tokens: [
+      { char: '请', pinyin: 'qǐng' },
+      { char: '喝', pinyin: 'hē' },
+      { char: '温', pinyin: 'wēn' },
+      { char: '水', pinyin: 'shuǐ' },
+    ],
+    difficulty: 'easy',
+    tip: '"hē" แปลว่า ดื่ม "shuǐ" ม้วนลิ้นเสียง sh',
+  },
+  {
+    id: 'sh_8',
+    category: 'ชีวิตประจำวัน',
+    categoryIcon: '🏫',
+    hanzi: '我去上学。',
+    pinyin: 'Wǒ qù shàngxué.',
+    thai: 'ฉันไปโรงเรียน',
+    tokens: [
+      { char: '我', pinyin: 'wǒ' },
+      { char: '去', pinyin: 'qù' },
+      { char: '上', pinyin: 'shàng' },
+      { char: '学', pinyin: 'xué' },
+    ],
+    difficulty: 'easy',
+    tip: '"qù" ทำปากจู๋กลม พ่นลมเบาๆ',
+  },
+  {
+    id: 'sh_9',
+    category: 'ชีวิตประจำวัน',
+    categoryIcon: '📖',
+    hanzi: '我很喜欢看书。',
+    pinyin: 'Wǒ hěn xǐhuan kànshū.',
+    thai: 'ฉันชอบอ่านหนังสือมาก',
+    tokens: [
+      { char: '我', pinyin: 'wǒ' },
+      { char: '很', pinyin: 'hěn' },
+      { char: '喜', pinyin: 'xǐ' },
+      { char: '欢', pinyin: 'huan' },
+      { char: '看', pinyin: 'kàn' },
+      { char: '书', pinyin: 'shū' },
+    ],
+    difficulty: 'medium',
+    tip: '"xǐhuan" (ชอบ) "shū" (หนังสือ) เสียง 1 สูงยาว',
+  },
+  {
+    id: 'sh_10',
+    category: 'ชีวิตประจำวัน',
+    categoryIcon: '😴',
+    hanzi: '晚安，做个好梦！',
+    pinyin: 'Wǎn\'ān, zuò gè hǎomèng!',
+    thai: 'ราตรีสวัสดิ์ ขอให้ฝันดีนะ',
+    tokens: [
+      { char: '晚', pinyin: 'wǎn' },
+      { char: '安', pinyin: 'ān' },
+      { char: '做', pinyin: 'zuò' },
+      { char: '个', pinyin: 'gè' },
+      { char: '好', pinyin: 'hǎo' },
+      { char: '梦', pinyin: 'mèng' },
+    ],
+    difficulty: 'medium',
+    tip: '"zuò gè hǎomèng" แปลว่า ฝันดีนะจ๊ะ',
+  },
+
+  // Category 3: อารมณ์และความรู้สึก (Emotions & Praises)
+  {
+    id: 'sh_11',
+    category: 'อารมณ์และคำชม',
+    categoryIcon: '💖',
+    hanzi: '我爱你，爸爸妈妈！',
+    pinyin: 'Wǒ ài nǐ, bàba māma!',
+    thai: 'หนูรักคุณพ่อคุณแม่ค่ะ/ครับ!',
+    tokens: [
+      { char: '我', pinyin: 'wǒ' },
+      { char: '爱', pinyin: 'ài' },
+      { char: '你', pinyin: 'nǐ' },
+      { char: '爸', pinyin: 'bà' },
+      { char: '爸', pinyin: 'ba' },
+      { char: '妈', pinyin: 'mā' },
+      { char: '妈', pinyin: 'ma' },
+    ],
+    difficulty: 'easy',
+    tip: '"ài" เสียง 4 มั่นใจ "bàba" และ "māma" พยางค์หลังออกเสียงเบา',
+  },
+  {
+    id: 'sh_12',
+    category: 'อารมณ์และคำชม',
+    categoryIcon: '🌟',
+    hanzi: '你太棒了！',
+    pinyin: 'Nǐ tài bàng le!',
+    thai: 'เธอเก่งสุดยอดไปเลย!',
+    tokens: [
+      { char: '你', pinyin: 'nǐ' },
+      { char: '太', pinyin: 'tài' },
+      { char: '棒', pinyin: 'bàng' },
+      { char: '了', pinyin: 'le' },
+    ],
+    difficulty: 'easy',
+    tip: '"tài bàng le" เป็นประโยคชมเชยยอดนิยมในประเทศจีน',
+  },
+  {
+    id: 'sh_13',
+    category: 'อารมณ์และคำชม',
+    categoryIcon: '😋',
+    hanzi: '这个西瓜真甜！',
+    pinyin: 'Zhège xīguā zhēn tián!',
+    thai: 'แตงโมลูกนี้หวานจริงๆ!',
+    tokens: [
+      { char: '这', pinyin: 'zhè' },
+      { char: '个', pinyin: 'ge' },
+      { char: '西', pinyin: 'xī' },
+      { char: '瓜', pinyin: 'guā' },
+      { char: '真', pinyin: 'zhēn' },
+      { char: '甜', pinyin: 'tián' },
+    ],
+    difficulty: 'medium',
+    tip: '"zhēn" (จริงๆ) ม้วนลิ้น "tián" (หวาน) เสียง 2 พุ่งขึ้น',
+  },
+  {
+    id: 'sh_14',
+    category: 'อารมณ์และคำชม',
+    categoryIcon: '🌈',
+    hanzi: '今天天气非常好。',
+    pinyin: 'Jīntiān tiānqì fēicháng hǎo.',
+    thai: 'วันนี้อากาศดีมากๆ เลย',
+    tokens: [
+      { char: '今', pinyin: 'jīn' },
+      { char: '天', pinyin: 'tiān' },
+      { char: '天', pinyin: 'tiān' },
+      { char: '气', pinyin: 'qì' },
+      { char: '非', pinyin: 'fēi' },
+      { char: '常', pinyin: 'cháng' },
+      { char: '好', pinyin: 'hǎo' },
+    ],
+    difficulty: 'medium',
+    tip: '"fēicháng" แปลว่า มากๆ ระดับสูงกว่า hěn',
+  },
+
+  // Category 4: ประโยคสื่อสารคล่องแคล่ว (Pro Fluent Expressions)
+  {
+    id: 'sh_15',
+    category: 'สื่อสารคล่องแคล่ว',
+    categoryIcon: '🚀',
+    hanzi: '加油，你一定可以的！',
+    pinyin: 'Jiāyóu, nǐ yídìng kěyǐ de!',
+    thai: 'สู้ๆ นะ เธอทำได้แน่นอน!',
+    tokens: [
+      { char: '加', pinyin: 'jiā' },
+      { char: '油', pinyin: 'yóu' },
+      { char: '你', pinyin: 'nǐ' },
+      { char: '一', pinyin: 'yí' },
+      { char: '定', pinyin: 'dìng' },
+      { char: '可', pinyin: 'kě' },
+      { char: '以', pinyin: 'yǐ' },
+      { char: '的', pinyin: 'de' },
+    ],
+    difficulty: 'hard',
+    tip: '"jiāyóu" แปลว่า สู้ๆ เติมน้ำมัน และ "yídìng kěyǐ" แปลว่า ทำได้แน่นอน',
+  },
+  {
+    id: 'sh_16',
+    category: 'สื่อสารคล่องแคล่ว',
+    categoryIcon: '🚀',
+    hanzi: '学中文非常有趣！',
+    pinyin: 'Xué zhōngwén fēicháng yǒuqù!',
+    thai: 'เรียนภาษาจีนสนุกมากๆ เลย!',
+    tokens: [
+      { char: '学', pinyin: 'xué' },
+      { char: '中', pinyin: 'zhōng' },
+      { char: '文', pinyin: 'wén' },
+      { char: '非', pinyin: 'fēi' },
+      { char: '常', pinyin: 'cháng' },
+      { char: '有', pinyin: 'yǒu' },
+      { char: '趣', pinyin: 'qù' },
+    ],
+    difficulty: 'hard',
+    tip: '"yǒuqù" แปลว่า สนุกสนาน น่าสนใจ',
+  },
+];

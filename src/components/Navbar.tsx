@@ -18,7 +18,7 @@ interface NavbarProps {
 const NAV_ITEMS = [
   { id: 'learn', label: 'ฝึกเขียน', icon: '✍️', desc: 'เขียนอักษรจีน' },
   { id: 'flashcards', label: 'ท่องศัพท์ & สอบ', icon: '🃏', desc: 'แฟลชการ์ด & วัดผลจริง' },
-  { id: 'tone', label: 'ออกเสียง', icon: '🎙️', desc: 'กราฟวรรณยุกต์' },
+  { id: 'tone', label: 'ฝึกพูด & ออกเสียง', icon: '🎙️', desc: 'วัดคะแนน & สนทนา' },
   { id: 'ai-tutor', label: 'ติวเตอร์', icon: '🐼', desc: 'คุยกับ AI เป่าเปา' },
   { id: 'roadmap', label: '6 ระดับ', icon: '🗺️', desc: 'สู่เจ้าของภาษา' },
   { id: 'pet', label: 'สัตว์เลี้ยง', icon: '🐾', desc: 'Lv.1–100 อวดสัตว์เลี้ยง' },
