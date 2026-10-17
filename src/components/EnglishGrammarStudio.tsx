@@ -149,6 +149,11 @@ export const EnglishGrammarStudio: React.FC<EnglishGrammarStudioProps> = ({
     }
   };
 
+  const handleSelectHungryS = (newIdx: number) => {
+    setHungryFeedback(null);
+    setHungryIndex(newIdx);
+  };
+
   const handleNextHungryS = () => {
     setHungryFeedback(null);
     setHungryIndex((prev) => (prev + 1) % HUNGRY_S_CHALLENGES.length);
@@ -164,6 +169,11 @@ export const EnglishGrammarStudio: React.FC<EnglishGrammarStudioProps> = ({
     chosen: string;
     message: string;
   } | null>(null);
+
+  const handleSelectDetective = (newIdx: number) => {
+    setDetectiveFeedback(null);
+    setDetectiveIndex(newIdx);
+  };
 
   const handleSolveDetective = (option: string) => {
     if (detectiveFeedback?.solved) return;
@@ -320,14 +330,63 @@ export const EnglishGrammarStudio: React.FC<EnglishGrammarStudioProps> = ({
               </div>
             </div>
 
-            <div className="bg-white/20 backdrop-blur-md px-3.5 py-1.5 rounded-2xl text-xs font-black border border-white/30 flex items-center gap-1.5 shrink-0">
-              <Sparkles className="w-4 h-4 text-amber-300" />
-              <span>ด่านที่ {trainIndex + 1} / {TRAIN_CHALLENGES.length}</span>
+            <div className="flex items-center gap-2 shrink-0">
+              <button
+                onClick={() => {
+                  const prevIdx = trainIndex > 0 ? trainIndex - 1 : TRAIN_CHALLENGES.length - 1;
+                  handleResetTrain(prevIdx);
+                  sfx.playCorrect();
+                }}
+                className="w-9 h-9 rounded-2xl bg-white/20 hover:bg-white/30 active:scale-95 flex items-center justify-center text-white border border-white/30 transition-all cursor-pointer shadow-xs"
+                title="ด่านก่อนหน้า"
+              >
+                <ChevronLeft className="w-5 h-5" />
+              </button>
+              <div className="bg-white/20 backdrop-blur-md px-3.5 py-1.5 rounded-2xl text-xs font-black border border-white/30 flex items-center gap-1.5 shrink-0">
+                <Sparkles className="w-4 h-4 text-amber-300" />
+                <span>ด่านที่ {trainIndex + 1} / {TRAIN_CHALLENGES.length}</span>
+              </div>
+              <button
+                onClick={() => {
+                  const nextIdx = (trainIndex + 1) % TRAIN_CHALLENGES.length;
+                  handleResetTrain(nextIdx);
+                  sfx.playCorrect();
+                }}
+                className="w-9 h-9 rounded-2xl bg-white/20 hover:bg-white/30 active:scale-95 flex items-center justify-center text-white border border-white/30 transition-all cursor-pointer shadow-xs"
+                title="ด่านถัดไป"
+              >
+                <ChevronRight className="w-5 h-5" />
+              </button>
             </div>
           </div>
 
           {/* Main Stage */}
           <div className="bg-white rounded-3xl p-6 sm:p-8 border-2 border-sky-100 shadow-lg space-y-6">
+            {/* Quick Stage Selector Bar (25 Challenges) */}
+            <div className="flex items-center gap-1.5 overflow-x-auto pb-1 px-1 scrollbar-thin">
+              <span className="text-[11px] font-black text-slate-400 shrink-0 mr-1 flex items-center gap-1">
+                <Train className="w-3.5 h-3.5 text-sky-500" />
+                <span>เลือกด่าน:</span>
+              </span>
+              {TRAIN_CHALLENGES.map((ch, idx) => (
+                <button
+                  key={ch.id}
+                  onClick={() => {
+                    handleResetTrain(idx);
+                    sfx.playCorrect();
+                  }}
+                  className={`shrink-0 h-7 min-w-[28px] px-2 rounded-xl text-xs font-black transition-all flex items-center justify-center cursor-pointer ${
+                    idx === trainIndex
+                      ? 'bg-gradient-to-r from-sky-500 to-blue-600 text-white shadow-sm scale-105'
+                      : 'bg-sky-50 text-slate-600 hover:bg-sky-100 border border-sky-100'
+                  }`}
+                  title={`${ch.levelTitle}: ${ch.correctSentence}`}
+                >
+                  {idx + 1}
+                </button>
+              ))}
+            </div>
+
             {/* Mission Target */}
             <div className="text-center pb-4 border-b border-sky-100">
               <span className="text-xs font-extrabold text-sky-600 uppercase tracking-wider block mb-1">
@@ -702,13 +761,57 @@ export const EnglishGrammarStudio: React.FC<EnglishGrammarStudioProps> = ({
               </div>
             </div>
 
-            <div className="bg-white/20 backdrop-blur-md px-3.5 py-1.5 rounded-2xl text-xs font-black border border-white/30 shrink-0">
-              ข้อที่ {hungryIndex + 1} / {HUNGRY_S_CHALLENGES.length}
+            <div className="flex items-center gap-2 shrink-0">
+              <button
+                onClick={() => {
+                  const prevIdx = hungryIndex > 0 ? hungryIndex - 1 : HUNGRY_S_CHALLENGES.length - 1;
+                  handleSelectHungryS(prevIdx);
+                  sfx.playCorrect();
+                }}
+                className="w-9 h-9 rounded-2xl bg-white/20 hover:bg-white/30 active:scale-95 flex items-center justify-center text-white border border-white/30 transition-all cursor-pointer shadow-xs"
+                title="ข้อก่อนหน้า"
+              >
+                <ChevronLeft className="w-5 h-5" />
+              </button>
+              <div className="bg-white/20 backdrop-blur-md px-3.5 py-1.5 rounded-2xl text-xs font-black border border-white/30 shrink-0">
+                ข้อที่ {hungryIndex + 1} / {HUNGRY_S_CHALLENGES.length}
+              </div>
+              <button
+                onClick={() => {
+                  const nextIdx = (hungryIndex + 1) % HUNGRY_S_CHALLENGES.length;
+                  handleSelectHungryS(nextIdx);
+                  sfx.playCorrect();
+                }}
+                className="w-9 h-9 rounded-2xl bg-white/20 hover:bg-white/30 active:scale-95 flex items-center justify-center text-white border border-white/30 transition-all cursor-pointer shadow-xs"
+                title="ข้อถัดไป"
+              >
+                <ChevronRight className="w-5 h-5" />
+              </button>
             </div>
           </div>
 
           {/* Game Stage */}
           <div className="bg-white rounded-3xl p-6 sm:p-8 border-2 border-amber-100 shadow-lg text-center space-y-6">
+            {/* Quick Question Selector */}
+            <div className="flex items-center justify-center gap-2 pb-1">
+              {HUNGRY_S_CHALLENGES.map((h, idx) => (
+                <button
+                  key={h.id}
+                  onClick={() => {
+                    handleSelectHungryS(idx);
+                    sfx.playCorrect();
+                  }}
+                  className={`h-7 w-7 rounded-xl text-xs font-black transition-all flex items-center justify-center cursor-pointer ${
+                    idx === hungryIndex
+                      ? 'bg-gradient-to-r from-amber-400 to-orange-500 text-white shadow-sm scale-110'
+                      : 'bg-amber-50 text-slate-600 hover:bg-amber-100 border border-amber-200'
+                  }`}
+                  title={`${h.subject} (${h.verbBase})`}
+                >
+                  {idx + 1}
+                </button>
+              ))}
+            </div>
             {/* Subject Presentation */}
             <div className="inline-block bg-amber-50 border-2 border-amber-200 px-8 py-5 rounded-3xl shadow-xs">
               <span className="text-5xl block mb-2">{currentHungry.subjectEmoji}</span>
@@ -829,13 +932,62 @@ export const EnglishGrammarStudio: React.FC<EnglishGrammarStudioProps> = ({
               </div>
             </div>
 
-            <div className="bg-white/20 backdrop-blur-md px-3.5 py-1.5 rounded-2xl text-xs font-black border border-white/30 shrink-0">
-              คดีที่ {detectiveIndex + 1} / {DETECTIVE_CASES.length}
+            <div className="flex items-center gap-2 shrink-0">
+              <button
+                onClick={() => {
+                  const prevIdx = detectiveIndex > 0 ? detectiveIndex - 1 : DETECTIVE_CASES.length - 1;
+                  handleSelectDetective(prevIdx);
+                  sfx.playCorrect();
+                }}
+                className="w-9 h-9 rounded-2xl bg-white/20 hover:bg-white/30 active:scale-95 flex items-center justify-center text-white border border-white/30 transition-all cursor-pointer shadow-xs"
+                title="คดีก่อนหน้า"
+              >
+                <ChevronLeft className="w-5 h-5" />
+              </button>
+              <div className="bg-white/20 backdrop-blur-md px-3.5 py-1.5 rounded-2xl text-xs font-black border border-white/30 shrink-0">
+                คดีที่ {detectiveIndex + 1} / {DETECTIVE_CASES.length}
+              </div>
+              <button
+                onClick={() => {
+                  const nextIdx = (detectiveIndex + 1) % DETECTIVE_CASES.length;
+                  handleSelectDetective(nextIdx);
+                  sfx.playCorrect();
+                }}
+                className="w-9 h-9 rounded-2xl bg-white/20 hover:bg-white/30 active:scale-95 flex items-center justify-center text-white border border-white/30 transition-all cursor-pointer shadow-xs"
+                title="คดีถัดไป"
+              >
+                <ChevronRight className="w-5 h-5" />
+              </button>
             </div>
           </div>
 
           {/* Detective Case Stage */}
           <div className="bg-white rounded-3xl p-6 sm:p-8 border-2 border-emerald-100 shadow-lg space-y-6">
+            {/* Quick Case Selector Bar (25 Cases) */}
+            <div className="flex items-center gap-1.5 overflow-x-auto pb-1 px-1 scrollbar-thin">
+              <span className="text-[11px] font-black text-slate-400 shrink-0 mr-1 flex items-center gap-1">
+                <Search className="w-3.5 h-3.5 text-emerald-500" />
+                <span>เลือกคดี:</span>
+              </span>
+              {DETECTIVE_CASES.map((c, idx) => (
+                <button
+                  key={c.id}
+                  onClick={() => {
+                    handleSelectDetective(idx);
+                    sfx.playCorrect();
+                  }}
+                  className={`shrink-0 h-7 min-w-[28px] px-2 rounded-xl text-xs font-black transition-all flex items-center justify-center cursor-pointer ${
+                    idx === detectiveIndex
+                      ? 'bg-gradient-to-r from-emerald-500 to-teal-600 text-white shadow-sm scale-105'
+                      : 'bg-emerald-50 text-slate-600 hover:bg-emerald-100 border border-emerald-100'
+                  }`}
+                  title={`${c.caseTitle}: ${c.glitchedSentence}`}
+                >
+                  {idx + 1}
+                </button>
+              ))}
+            </div>
+
             <div className="text-center">
               <span className="text-xs bg-emerald-100 text-emerald-800 font-black px-3 py-1 rounded-full mb-2 inline-block">
                 {currentDetective.caseTitle}
