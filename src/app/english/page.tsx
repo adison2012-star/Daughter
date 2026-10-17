@@ -18,6 +18,7 @@ import { PetModal } from '@/components/PetModal';
 import { RewardShopModal } from '@/components/RewardShopModal';
 import { ProfileManagerModal } from '@/components/ProfileManagerModal';
 import { AuthModal } from '@/components/AuthModal';
+import { EnglishGrammarStudio } from '@/components/EnglishGrammarStudio';
 import { sfx } from '@/lib/speech';
 import confetti from 'canvas-confetti';
 import {
@@ -86,7 +87,7 @@ export default function EnglishPage() {
   const [isProfileManagerOpen, setIsProfileManagerOpen] = useState(false);
   const [isAuthModalOpen, setIsAuthModalOpen] = useState(false);
   const [cloudUser, setCloudUser] = useState<CloudUser | null>(null);
-  const [activeTab, setActiveTab] = useState<'vocab' | 'spelling' | 'phonics'>('vocab');
+  const [activeTab, setActiveTab] = useState<'vocab' | 'grammar' | 'spelling' | 'phonics'>('vocab');
 
   // Vocab Library State
   const [selectedLevel, setSelectedLevel] = useState<string>('ALL');
@@ -389,36 +390,48 @@ export default function EnglishPage() {
             </div>
           </div>
 
-          <div className="flex flex-wrap items-center gap-2.5 z-10 w-full sm:w-auto justify-end">
+          <div className="flex flex-wrap items-center gap-2 z-10 w-full sm:w-auto justify-end">
+            <button
+              onClick={() => {
+                sfx.playCorrect();
+                setActiveTab('grammar');
+              }}
+              className="flex items-center justify-center gap-1.5 bg-emerald-400 hover:bg-emerald-300 active:bg-emerald-500 text-slate-950 font-black text-xs px-3.5 py-2.5 rounded-2xl shadow-md transition-all active:scale-95 flex-1 sm:flex-initial"
+            >
+              <span>🚂 ไวยากรณ์รถไฟ</span>
+              <ArrowRight className="w-3.5 h-3.5" />
+            </button>
             <button
               onClick={() => {
                 sfx.playCorrect();
                 setActiveTab('spelling');
               }}
-              className="flex items-center justify-center gap-1.5 bg-amber-400 hover:bg-amber-300 active:bg-amber-500 text-slate-900 font-black text-xs px-4 py-2.5 rounded-2xl shadow-md transition-all active:scale-95 flex-1 sm:flex-initial"
+              className="flex items-center justify-center gap-1.5 bg-amber-400 hover:bg-amber-300 active:bg-amber-500 text-slate-900 font-black text-xs px-3.5 py-2.5 rounded-2xl shadow-md transition-all active:scale-95 flex-1 sm:flex-initial"
             >
               <Gamepad2 className="w-4 h-4 text-amber-950" />
               <span>เริ่มเรียนสะกดคำ</span>
-              <ArrowRight className="w-3.5 h-3.5" />
             </button>
             <button
               onClick={() =>
                 speakEnglish(
-                  "Welcome to English Safari with Xiao Long! Let's discover new words and level up your English!"
+                  "Welcome to English Safari with Xiao Long! Let's discover new words, explore the grammar train, and level up your English!"
                 )
               }
-              className="flex items-center justify-center gap-2 bg-white/95 hover:bg-white text-indigo-700 font-black text-xs px-3.5 py-2.5 rounded-2xl shadow-md transition-all active:scale-95 flex-1 sm:flex-initial"
+              className="flex items-center justify-center gap-1.5 bg-white/95 hover:bg-white text-indigo-700 font-black text-xs px-3 py-2.5 rounded-2xl shadow-md transition-all active:scale-95 flex-1 sm:flex-initial"
             >
               <Volume2 className="w-4 h-4 text-indigo-500" />
-              <span>ฟังเสียงเสี่ยวหลง</span>
+              <span>ฟังเสี่ยวหลง</span>
             </button>
           </div>
         </div>
 
         {/* Tab Navigation (Glassmorphic) */}
-        <div className="grid grid-cols-3 gap-2 glass-card p-2 rounded-2xl border border-white/90 shadow-sm max-w-xl mx-auto">
+        <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 glass-card p-2 rounded-2xl border border-white/90 shadow-sm max-w-2xl mx-auto">
           <button
-            onClick={() => setActiveTab('vocab')}
+            onClick={() => {
+              sfx.playCorrect();
+              setActiveTab('vocab');
+            }}
             className={`flex items-center justify-center gap-1.5 py-2.5 px-3 rounded-xl text-xs sm:text-sm font-black transition-all ${
               activeTab === 'vocab'
                 ? 'bg-blue-600 text-white shadow-md shadow-blue-200'
@@ -426,10 +439,27 @@ export default function EnglishPage() {
             }`}
           >
             <BookOpen className="w-4 h-4" />
-            <span>คลังคำศัพท์ ({OXFORD_STATS.total.toLocaleString()})</span>
+            <span>คำศัพท์ ({OXFORD_STATS.total.toLocaleString()})</span>
           </button>
           <button
-            onClick={() => setActiveTab('spelling')}
+            onClick={() => {
+              sfx.playCorrect();
+              setActiveTab('grammar');
+            }}
+            className={`flex items-center justify-center gap-1.5 py-2.5 px-3 rounded-xl text-xs sm:text-sm font-black transition-all ${
+              activeTab === 'grammar'
+                ? 'bg-emerald-600 text-white shadow-md shadow-emerald-200'
+                : 'text-slate-600 hover:bg-white/60'
+            }`}
+          >
+            <span className="text-base leading-none">🚂</span>
+            <span>ไวยากรณ์ & รถไฟ</span>
+          </button>
+          <button
+            onClick={() => {
+              sfx.playCorrect();
+              setActiveTab('spelling');
+            }}
             className={`flex items-center justify-center gap-1.5 py-2.5 px-3 rounded-xl text-xs sm:text-sm font-black transition-all ${
               activeTab === 'spelling'
                 ? 'bg-amber-500 text-white shadow-md shadow-amber-200'
@@ -440,7 +470,10 @@ export default function EnglishPage() {
             <span>เริ่มสะกดคำ 🐝</span>
           </button>
           <button
-            onClick={() => setActiveTab('phonics')}
+            onClick={() => {
+              sfx.playCorrect();
+              setActiveTab('phonics');
+            }}
             className={`flex items-center justify-center gap-1.5 py-2.5 px-3 rounded-xl text-xs sm:text-sm font-black transition-all ${
               activeTab === 'phonics'
                 ? 'bg-sky-600 text-white shadow-md shadow-sky-200'
@@ -894,6 +927,11 @@ export default function EnglishPage() {
               ))}
             </div>
           </div>
+        )}
+
+        {/* TAB 4: ENGLISH GRAMMAR WONDERLAND */}
+        {activeTab === 'grammar' && (
+          <EnglishGrammarStudio onEarnReward={handleEarnReward} />
         )}
       </main>
 
