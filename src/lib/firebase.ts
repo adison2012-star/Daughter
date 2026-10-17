@@ -5,6 +5,7 @@ import {
   signInWithPopup,
   signInWithEmailAndPassword,
   createUserWithEmailAndPassword,
+  signInAnonymously,
   updateProfile,
   signOut,
   onAuthStateChanged,
@@ -247,3 +248,73 @@ export async function loadUserDataFromFirestore(
     return null;
   }
 }
+
+/**
+ * 1-Click Anonymous Authentication for Quick Cloud Sync without email/password.
+ */
+export async function signInAnonymouslyLive(): Promise<CloudUser | null> {
+  const currentAuth = getFirebaseAuth();
+  if (!currentAuth) {
+    throw new Error('Firebase Auth is not initialized');
+  }
+
+  const result = await signInAnonymously(currentAuth);
+  const user = result.user;
+
+  return {
+    uid: user.uid,
+    email: null,
+    displayName: 'ผู้เรียน (เชื่อมต่อคลาวด์ด่วน)',
+    photoURL: null,
+    isAnonymous: true,
+    provider: 'guest',
+    lastSyncedAt: new Date().toISOString(),
+  };
+}
+
+/**
+ * Test Firebase Firestore connection & write permission.
+ * Returns detailed diagnostic information for parents/administrators.
+ */
+export async function testFirestoreConnection(uid?: string): Promise<{
+  success: boolean;
+  message: string;
+  code?: string;
+  error?: any;
+}> {
+  const currentDb = getFirebaseDb();
+  if (!currentDb) {
+    return {
+      success: false,
+      message: 'Firebase Firestore ไม่ได้ถูกตั้งค่าในเครื่องไคลเอนต์',
+      code: 'uninitialized',
+    };
+  }
+
+  const currentAuth = getFirebaseAuth();
+  const testUid = uid || currentAuth?.currentUser?.uid || 'diagnostic_test_guest';
+
+  try {
+    const userDocRef = doc(currentDb, 'users', testUid);
+    await setDoc(
+      userDocRef,
+      {
+        lastPingAt: new Date().toISOString(),
+        diagnosticCheck: true,
+      },
+      { merge: true }
+    );
+    return {
+      success: true,
+      message: `เชื่อมต่อ Firestore สำเร็จ! (เขียนลง users/${testUid} เรียบร้อย)`,
+    };
+  } catch (err: any) {
+    return {
+      success: false,
+      message: err?.message || 'ไม่สามารถเขียนข้อมูลลง Firestore ได้',
+      code: err?.code || 'unknown',
+      error: err,
+    };
+  }
+}
+

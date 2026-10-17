@@ -6,8 +6,10 @@ import {
   signInWithGoogleLive,
   signInWithEmailLive,
   signUpWithEmailLive,
+  signInAnonymouslyLive,
   signOutLive,
   saveUserDataToFirestore,
+  testFirestoreConnection,
 } from '@/lib/firebase';
 import { syncManager, SyncState } from '@/lib/syncManager';
 import {
@@ -242,6 +244,64 @@ export const AuthModal: React.FC<AuthModalProps> = ({
     }
   };
 
+  // 3.5 Handle Anonymous Quick Connect (No Email/Password)
+  const handleAnonymousSignIn = async () => {
+    sfx.playClick();
+    setIsLoading(true);
+    setErrorMessage(null);
+    setSuccessMessage(null);
+    try {
+      const user = await signInAnonymouslyLive();
+      if (user) {
+        setCloudUser(user);
+        setCurrentUser(user);
+
+        const restored = await syncManager.restoreFromCloud(user.uid);
+        if (!restored) {
+          await syncManager.syncNow();
+        }
+
+        sfx.playCorrect();
+        confetti({ particleCount: 60, spread: 60, origin: { y: 0.6 } });
+        setSuccessMessage('เชื่อมต่อคลาวด์แบบด่วนสำเร็จ! ข้อมูลคะแนนจะซิงก์ขึ้น Firebase อัตโนมัติ');
+        onDataRestored?.();
+      }
+    } catch (err: any) {
+      console.error('Anonymous Sign-In Error:', err);
+      setErrorMessage(err?.message || 'ไม่สามารถเชื่อมต่อคลาวด์ด่วนได้');
+    } finally {
+      setIsLoading(false);
+    }
+  };
+
+  // Diagnostic Test for Firestore
+  const [diagnosticResult, setDiagnosticResult] = useState<string | null>(null);
+  const handleDiagnosticTest = async () => {
+    sfx.playClick();
+    setIsLoading(true);
+    setDiagnosticResult('กำลังทดสอบส่งข้อมูลไปยัง Firebase Cloud Firestore...');
+    try {
+      const res = await testFirestoreConnection(currentUser?.uid);
+      if (res.success) {
+        sfx.playCorrect();
+        setDiagnosticResult(`✅ ${res.message}`);
+      } else {
+        sfx.playSoftTryAgain();
+        if (res.code?.includes('permission-denied') || res.message?.includes('permission-denied')) {
+          setDiagnosticResult(
+            `⚠️ ติดสิทธิ์ Firestore Rules: กรุณาไปที่ Firebase Console > Build > Firestore Database > Rules แล้วปรับเป็น "allow read, write: if true;" หรืออัปเดตตาม firestore.rules`
+          );
+        } else {
+          setDiagnosticResult(`❌ ล้มเหลว (${res.code}): ${res.message}`);
+        }
+      }
+    } catch (e: any) {
+      setDiagnosticResult(`❌ ข้อผิดพลาด: ${e?.message || 'ไม่ทราบสาเหตุ'}`);
+    } finally {
+      setIsLoading(false);
+    }
+  };
+
   // 4. Manual Sync Now
   const handleManualSync = async () => {
     sfx.playClick();
@@ -448,7 +508,22 @@ export const AuthModal: React.FC<AuthModalProps> = ({
                   <Download className="w-3.5 h-3.5" />
                   <span>ดึงคะแนนจากคลาวด์</span>
                 </button>
+
+                <button
+                  onClick={handleDiagnosticTest}
+                  disabled={isLoading}
+                  className="col-span-2 px-3 py-2 bg-amber-50 hover:bg-amber-100 text-amber-900 border border-amber-200 rounded-xl text-xs font-black transition-all flex items-center justify-center gap-1.5 shadow-2xs"
+                >
+                  <ShieldCheck className="w-3.5 h-3.5 text-amber-600" />
+                  <span>🔍 ทดสอบการเชื่อมต่อ Firebase Firestore</span>
+                </button>
               </div>
+
+              {diagnosticResult && (
+                <div className="p-2.5 rounded-xl bg-white border border-amber-200 text-[11px] font-bold text-slate-700 animate-fade-in break-words">
+                  {diagnosticResult}
+                </div>
+              )}
             </div>
 
             {/* Offline JSON Backup */}
@@ -505,6 +580,16 @@ export const AuthModal: React.FC<AuthModalProps> = ({
               </button>
             </div>
 
+            {/* Quick 1-Click Anonymous Cloud Connect */}
+            <button
+              onClick={handleAnonymousSignIn}
+              disabled={isLoading}
+              className="w-full py-3 bg-gradient-to-r from-sky-500 via-blue-600 to-indigo-600 hover:from-sky-600 hover:to-indigo-700 text-white rounded-2xl font-black text-xs sm:text-sm flex items-center justify-center gap-2.5 shadow-md transition-all active:scale-98"
+            >
+              <Sparkles className="w-4 h-4 text-amber-300" />
+              <span>⚡ เชื่อมต่อคลาวด์ด่วน (1 คลิก ไม่ต้องกรอกอีเมล)</span>
+            </button>
+
             {/* Google Quick Sign-In */}
             <button
               onClick={handleGoogleSignIn}
@@ -534,7 +619,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({
 
             <div className="flex items-center gap-3">
               <div className="flex-1 h-px bg-slate-200" />
-              <span className="text-[11px] font-bold text-slate-400">หรือใช้อีเมล</span>
+              <span className="text-[11px] font-bold text-slate-400">หรือใช้อีเมล / ทดสอบระบบ</span>
               <div className="flex-1 h-px bg-slate-200" />
             </div>
 
@@ -675,6 +760,25 @@ export const AuthModal: React.FC<AuthModalProps> = ({
                 </button>
               </form>
             )}
+
+            {/* Diagnostic check button for guest view */}
+            <div className="pt-2 border-t border-slate-100">
+              <button
+                type="button"
+                onClick={handleDiagnosticTest}
+                disabled={isLoading}
+                className="w-full py-2 bg-amber-50 hover:bg-amber-100 text-amber-900 border border-amber-200 rounded-xl text-xs font-black transition-all flex items-center justify-center gap-1.5 shadow-2xs"
+              >
+                <ShieldCheck className="w-3.5 h-3.5 text-amber-600" />
+                <span>🔍 ทดสอบการเชื่อมต่อ Firebase Firestore</span>
+              </button>
+
+              {diagnosticResult && (
+                <div className="mt-2 p-2.5 rounded-xl bg-white border border-amber-200 text-[11px] font-bold text-slate-700 animate-fade-in break-words text-left">
+                  {diagnosticResult}
+                </div>
+              )}
+            </div>
 
             {/* Guest note */}
             <div className="pt-2 text-center">

@@ -1,0 +1,196 @@
+rules_version = '2';
+
+// ===============================================================
+// Assumed Data Model
+// ===============================================================
+//
+// Application: Duo Wonder Academy (zhongwen-duo)
+// Database: Cloud Firestore
+//
+// Collection: users
+// Document ID: {userId} (Matches authenticated request.auth.uid)
+// Primary Purpose: Securely stores child learning profiles, stars earned,
+//                  pet companion states, reward redemptions, and answered exam IDs.
+//
+// Fields:
+//   - profiles: list of map (required, max 20)
+//       Array of child profiles (name, nickname, avatar, level, stars, subjectStars, pets, etc.)
+//   - activeProfileId: string (required, 1-100 chars)
+//       ID of currently selected child profile
+//   - redemptions: list of map (optional, max 1000 items)
+//       Reward redemption history and fulfillment statuses
+//   - customRewards: list of map (optional, max 200 items)
+//       Parent-created custom rewards
+//   - chemistrySolvedIds: list of string (optional, max 2000 items)
+//       Chemistry quiz question IDs solved by the child
+//   - mathSolvedIds: list of string (optional, max 2000 items)
+//       Math exam question IDs solved by the child
+//   - updatedAt: string or timestamp (optional, max 100 chars if string)
+//       Last sync timestamp from client
+//   - createdAt: string or timestamp (optional, max 100 chars, immutable)
+//       Timestamp when the user account record was first initialized
+//   - uid: string (optional, max 128 chars, immutable)
+//       User ID matching document ID and request.auth.uid
+//   - email: string (optional, max 150 chars)
+//       Account email address
+//   - displayName: string (optional, max 100 chars)
+//       User display name or nickname
+//   - photoURL: string (optional, max 500 chars)
+//       User avatar profile image URL
+//   - lastSyncedAt: string or timestamp (optional, max 100 chars)
+//       Client synchronization marker
+//
+// Access Control Policy:
+//   - Strict Ownership (User Isolation): Only the authenticated user matching {userId}
+//     can read, create, update, or delete their document.
+//   - Public Read: DENIED. No unauthenticated or cross-user reads permitted.
+//   - Schema Enforcement: Extraneous fields are strictly rejected.
+//   - DoS / Resource Exhaustion Limits: All string lengths and list capacities are bounded.
+//   - Update Bypass Prevention: Both create and update operations invoke isValidUserData().
+//
+// ===============================================================
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // ===============================================================
+    // Helper Functions
+    // ===============================================================
+
+    // Check if the request is from an authenticated Firebase Auth session
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+
+    // Check if the authenticated user owns the resource path
+    function isOwner(userId) {
+      return isAuthenticated() && request.auth.uid == userId;
+    }
+
+    // Validate that only whitelisted fields are present in the document
+    function hasOnlyAllowedFields(fields) {
+      return request.resource.data.keys().hasOnly(fields);
+    }
+
+    // Validate that mandatory fields are present in the document
+    function hasRequiredFields(fields) {
+      return request.resource.data.keys().hasAll(fields);
+    }
+
+    // Validate optional string length if field is present
+    function isValidOptionalString(field, minLen, maxLen) {
+      return !(field in request.resource.data) ||
+        (request.resource.data[field] is string &&
+         request.resource.data[field].size() >= minLen &&
+         request.resource.data[field].size() <= maxLen);
+    }
+
+    // Validate optional list length if field is present
+    function isValidOptionalList(field, maxSize) {
+      return !(field in request.resource.data) ||
+        (request.resource.data[field] is list &&
+         request.resource.data[field].size() <= maxSize);
+    }
+
+    // Validate timestamp or ISO date string
+    function isValidTimestampOrString(field, maxLen) {
+      return !(field in request.resource.data) ||
+        (request.resource.data[field] is string &&
+         request.resource.data[field].size() <= maxLen) ||
+        (request.resource.data[field] is timestamp);
+    }
+
+    // Ensure uid field matches the document owner if present
+    function uidUnchanged(userId) {
+      return !('uid' in request.resource.data) ||
+        (request.resource.data.uid is string &&
+         request.resource.data.uid == userId);
+    }
+
+    // Ensure uid is immutable on update
+    function uidNotModified() {
+      return !('uid' in resource.data) || !('uid' in request.resource.data) ||
+        request.resource.data.uid == resource.data.uid;
+    }
+
+    // Ensure createdAt is immutable on update
+    function createdAtNotModified() {
+      return !('createdAt' in resource.data) || !('createdAt' in request.resource.data) ||
+        request.resource.data.createdAt == resource.data.createdAt;
+    }
+
+    // ===============================================================
+    // Domain Validator (Validator Function Pattern)
+    // ===============================================================
+
+    function isValidUserData(userId) {
+      return hasOnlyAllowedFields([
+          'profiles',
+          'activeProfileId',
+          'redemptions',
+          'customRewards',
+          'chemistrySolvedIds',
+          'mathSolvedIds',
+          'updatedAt',
+          'createdAt',
+          'uid',
+          'email',
+          'displayName',
+          'photoURL',
+          'lastSyncedAt'
+        ]) &&
+        hasRequiredFields(['profiles', 'activeProfileId']) &&
+        // profiles list validation
+        request.resource.data.profiles is list &&
+        request.resource.data.profiles.size() <= 20 &&
+        // activeProfileId string validation
+        request.resource.data.activeProfileId is string &&
+        request.resource.data.activeProfileId.size() > 0 &&
+        request.resource.data.activeProfileId.size() <= 100 &&
+        // Optional list fields bounded to prevent resource exhaustion / DoS
+        isValidOptionalList('redemptions', 1000) &&
+        isValidOptionalList('customRewards', 200) &&
+        isValidOptionalList('chemistrySolvedIds', 2000) &&
+        isValidOptionalList('mathSolvedIds', 2000) &&
+        // Timestamps and metadata length checks
+        isValidTimestampOrString('updatedAt', 100) &&
+        isValidTimestampOrString('createdAt', 100) &&
+        isValidTimestampOrString('lastSyncedAt', 100) &&
+        isValidOptionalString('email', 3, 150) &&
+        isValidOptionalString('displayName', 1, 100) &&
+        isValidOptionalString('photoURL', 1, 500) &&
+        uidUnchanged(userId);
+    }
+
+    // ===============================================================
+    // Default Deny Rule
+    // ===============================================================
+
+    // Deny all reads and writes by default across the entire database
+    match /{document=**} {
+      allow read, write: false;
+    }
+
+    // ===============================================================
+    // Collection Rules: users/{userId}
+    // ===============================================================
+
+    match /users/{userId} {
+      // 1. Read: Only the authenticated account owner may read their data
+      allow read: if isOwner(userId);
+
+      // 2. Create: Authenticated owner only, strictly validated
+      allow create: if isOwner(userId) &&
+                       isValidUserData(userId);
+
+      // 3. Update: Authenticated owner only, strictly validated, immutable fields protected
+      allow update: if isOwner(userId) &&
+                       isValidUserData(userId) &&
+                       uidNotModified() &&
+                       createdAtNotModified();
+
+      // 4. Delete: Authenticated owner only
+      allow delete: if isOwner(userId);
+    }
+  }
+}
