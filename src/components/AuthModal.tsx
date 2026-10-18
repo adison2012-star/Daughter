@@ -91,18 +91,22 @@ export const AuthModal: React.FC<AuthModalProps> = ({
   }, []);
 
   useEffect(() => {
-    checkGoogleRedirectResultLive().then(async (user) => {
-      if (user) {
-        setCloudUser(user);
-        setCurrentUser(user);
-        const restored = await syncManager.restoreFromCloud(user.uid);
-        if (!restored) {
-          await syncManager.syncNow();
+    checkGoogleRedirectResultLive()
+      .then(async (user) => {
+        if (user) {
+          setCloudUser(user);
+          setCurrentUser(user);
+          const restored = await syncManager.restoreFromCloud(user.uid);
+          if (!restored) {
+            await syncManager.syncNow();
+          }
+          setSuccessMessage('เข้าสู่ระบบสำเร็จเรียบร้อยแล้ว!');
+          onDataRestored?.();
         }
-        setSuccessMessage('เข้าสู่ระบบสำเร็จเรียบร้อยแล้ว!');
-        onDataRestored?.();
-      }
-    });
+      })
+      .catch((err) => {
+        console.warn('Redirect result check ignored:', err);
+      });
   }, []);
 
   if (!isOpen) return null;

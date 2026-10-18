@@ -240,7 +240,7 @@ export const PetCompanion: React.FC<PetCompanionProps> = ({
                 ดาวสะสมรวม
               </span>
               <span className="text-sm font-black text-amber-950">
-                {activeProfile.stars.toLocaleString()} ⭐
+                {(activeProfile?.stars ?? 0).toLocaleString()} ⭐
               </span>
             </div>
           </div>

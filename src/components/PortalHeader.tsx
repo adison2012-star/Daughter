@@ -90,12 +90,12 @@ export const PortalHeader: React.FC<PortalHeaderProps> = ({
           <div className="hidden sm:flex items-center glass-pill px-3 py-1.5 shadow-xs gap-3 text-xs font-black">
             <div className="flex items-center gap-1 text-amber-600">
               <Star className="w-4 h-4 fill-amber-400 text-amber-500" />
-              <span>{activeProfile.stars.toLocaleString()}</span>
+              <span>{(activeProfile?.stars ?? 0).toLocaleString()}</span>
             </div>
             <div className="w-px h-3.5 bg-slate-200/70" />
             <div className="flex items-center gap-1 text-rose-500">
               <Flame className="w-4 h-4 fill-rose-500 text-rose-500" />
-              <span>{activeProfile.streak} วัน</span>
+              <span>{activeProfile?.streak ?? 1} วัน</span>
             </div>
           </div>
 

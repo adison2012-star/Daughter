@@ -109,10 +109,21 @@ export default function CentralPortal() {
   }, []);
 
   const activeProfile = profiles.find((p) => p.id === activeProfileId) || profiles[0] || DEFAULT_PROFILES[0];
-  const activePetType = activeProfile.activePetType || activeProfile.pet?.type || 'dragon';
+  const activePetType: PetType = (activeProfile?.activePetType || activeProfile?.pet?.type || 'dragon') as PetType;
   const activeDef = PET_CATALOG[activePetType] || PET_CATALOG.dragon;
-  const activePetData = activeProfile.pets?.[activePetType] || activeProfile.pet;
-  const progress = calculatePetProgress(activePetType, activePetData.totalStarsFed || 0);
+  const activePetData = activeProfile?.pets?.[activePetType] || activeProfile?.pet || {
+    name: activeDef?.name || 'เสี่ยวหลง',
+    type: activePetType,
+    level: 1,
+    totalStarsFed: 0,
+    stage: 1,
+    happiness: 90,
+    experience: 0,
+  };
+  const totalStarsFed = typeof activePetData?.totalStarsFed === 'number'
+    ? activePetData.totalStarsFed
+    : (typeof activePetData?.experience === 'number' ? activePetData.experience : 0);
+  const progress = calculatePetProgress(activePetType, totalStarsFed);
 
   const handleSwitchProfile = (id: string) => {
     setActiveId(id);
@@ -182,7 +193,7 @@ export default function CentralPortal() {
               <span className="text-base">⭐</span>
               <div>
                 <span className="block text-sm leading-none font-black text-slate-800">
-                  {activeProfile.stars.toLocaleString()}
+                  {(activeProfile?.stars ?? 0).toLocaleString()}
                 </span>
                 <span className="text-[10px] text-slate-400 font-bold">ดาวสะสม</span>
               </div>
@@ -385,7 +396,7 @@ export default function CentralPortal() {
                 />
               </div>
               <div className="text-[11px] text-slate-400 font-bold text-right">
-                กินดาวแล้ว: {activePetData.totalStarsFed.toLocaleString()} / 1,000,000 ⭐
+                กินดาวแล้ว: {totalStarsFed.toLocaleString()} / 1,000,000 ⭐
               </div>
             </div>
 
