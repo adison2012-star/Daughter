@@ -12,7 +12,10 @@ import {
   feedActivePet,
   switchActivePetType,
   getCloudUser,
+  setCloudUser as setStoredCloudUser,
 } from '@/lib/storage';
+import { onAuthChange } from '@/lib/firebase';
+import { syncManager } from '@/lib/syncManager';
 import { UserProfile, PetType, SubjectType, CloudUser } from '@/types';
 import { PET_CATALOG, calculatePetProgress, getPetGrowthImage } from '@/lib/petSystem';
 import { PetModal } from '@/components/PetModal';
@@ -105,7 +108,38 @@ export default function CentralPortal() {
     const user = getCloudUser();
     if (loaded && loaded.length > 0) setProfiles(loaded);
     if (active) setActiveId(active);
-    if (user) setCloudUser(user);
+    if (user && user.uid) {
+      setCloudUser(user);
+      syncManager.startRealtimeListener(user.uid);
+    }
+
+    const handleProfilesUpdated = () => {
+      const freshProfiles = getStoredProfiles();
+      const freshActiveId = getActiveProfileId();
+      if (freshProfiles && freshProfiles.length > 0) setProfiles(freshProfiles);
+      if (freshActiveId) setActiveId(freshActiveId);
+    };
+
+    window.addEventListener('duo_profiles_updated', handleProfilesUpdated);
+
+    const unsubscribeAuth = onAuthChange((firebaseUser) => {
+      if (firebaseUser) {
+        setCloudUser(firebaseUser);
+        setStoredCloudUser(firebaseUser);
+        syncManager.startRealtimeListener(firebaseUser.uid);
+      } else {
+        // User logged out or was deleted in Firebase console
+        setCloudUser(null);
+        setStoredCloudUser(null);
+        syncManager.stopRealtimeListener();
+      }
+    });
+
+    return () => {
+      window.removeEventListener('duo_profiles_updated', handleProfilesUpdated);
+      unsubscribeAuth();
+      syncManager.stopRealtimeListener();
+    };
   }, []);
 
   const activeProfile = profiles.find((p) => p.id === activeProfileId) || profiles[0] || DEFAULT_PROFILES[0];

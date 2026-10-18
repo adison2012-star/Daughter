@@ -1,6 +1,11 @@
 'use client';
 
-import { saveUserDataToFirestore, loadUserDataFromFirestore, UserCloudSyncPayload } from '@/lib/firebase';
+import {
+  saveUserDataToFirestore,
+  loadUserDataFromFirestore,
+  subscribeToUserDataFromFirestore,
+  UserCloudSyncPayload,
+} from '@/lib/firebase';
 import { getCloudUser, getStoredProfiles, getActiveProfileId } from '@/lib/storage';
 
 export type SyncStatus = 'synced' | 'pending' | 'syncing' | 'error' | 'offline';
@@ -209,6 +214,53 @@ class CloudSyncManager {
       this.state.status = 'error';
       this.notify();
       return false;
+    }
+  }
+
+  private unsubscribeFirestore: (() => void) | null = null;
+
+  /**
+   * Listen to real-time changes in Firestore.
+   * If a parent edits stars or rewards in Firebase Console, the app receives it live!
+   */
+  public startRealtimeListener(uid: string) {
+    if (this.unsubscribeFirestore) {
+      this.unsubscribeFirestore();
+      this.unsubscribeFirestore = null;
+    }
+
+    if (typeof window === 'undefined' || !uid) return;
+
+    this.unsubscribeFirestore = subscribeToUserDataFromFirestore(uid, (cloudData) => {
+      if (cloudData.profiles && cloudData.profiles.length > 0) {
+        localStorage.setItem('zhongwen_profiles', JSON.stringify(cloudData.profiles));
+      }
+      if (cloudData.activeProfileId) {
+        localStorage.setItem('zhongwen_active_profile_id', cloudData.activeProfileId);
+      }
+      if (cloudData.redemptions) {
+        localStorage.setItem('duo_academy_redemptions', JSON.stringify(cloudData.redemptions));
+      }
+      if (cloudData.customRewards) {
+        localStorage.setItem('duo_academy_custom_rewards_v2', JSON.stringify(cloudData.customRewards));
+      }
+      if (cloudData.chemistrySolvedIds) {
+        localStorage.setItem('duo_academy_chemistry_quizzes_answered_v1', JSON.stringify(cloudData.chemistrySolvedIds));
+      }
+      if (cloudData.mathSolvedIds) {
+        localStorage.setItem('duo_academy_math_exam_answered_v1', JSON.stringify(cloudData.mathSolvedIds));
+      }
+
+      this.state.lastSyncedAt = new Date();
+      this.notify();
+      window.dispatchEvent(new Event('duo_profiles_updated'));
+    });
+  }
+
+  public stopRealtimeListener() {
+    if (this.unsubscribeFirestore) {
+      this.unsubscribeFirestore();
+      this.unsubscribeFirestore = null;
     }
   }
 }

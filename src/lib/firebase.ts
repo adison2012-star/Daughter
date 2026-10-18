@@ -19,6 +19,7 @@ import {
   doc,
   setDoc,
   getDoc,
+  onSnapshot,
   Firestore,
 } from 'firebase/firestore';
 import { CloudUser, UserProfile, RedemptionRecord, RewardItem } from '@/types';
@@ -287,6 +288,36 @@ export async function loadUserDataFromFirestore(
   } catch (err) {
     console.warn('Failed to load from Firestore:', err);
     return null;
+  }
+}
+
+/**
+ * Listen to real-time changes in Firestore.
+ * When a parent changes stars or profiles in Firebase Console, the app updates live!
+ */
+export function subscribeToUserDataFromFirestore(
+  uid: string,
+  onUpdate: (data: UserCloudSyncPayload) => void
+): () => void {
+  const currentDb = getFirebaseDb();
+  if (!currentDb || !uid) return () => {};
+
+  try {
+    const userDocRef = doc(currentDb, 'users', uid);
+    return onSnapshot(
+      userDocRef,
+      (snap) => {
+        if (snap.exists()) {
+          onUpdate(snap.data() as UserCloudSyncPayload);
+        }
+      },
+      (err) => {
+        console.warn('Realtime Firestore subscription error:', err);
+      }
+    );
+  } catch (e) {
+    console.warn('Failed to subscribe to Firestore:', e);
+    return () => {};
   }
 }
 
