@@ -3,6 +3,8 @@ import {
   getAuth,
   GoogleAuthProvider,
   signInWithPopup,
+  signInWithRedirect,
+  getRedirectResult,
   signInWithEmailAndPassword,
   createUserWithEmailAndPassword,
   signInAnonymously,
@@ -92,6 +94,45 @@ export async function signInWithGoogleLive(): Promise<CloudUser | null> {
     provider: 'google',
     lastSyncedAt: new Date().toISOString(),
   };
+}
+
+/**
+ * Sign in with Google using redirect (Ideal for iPad Safari / iOS PWA Standalone).
+ */
+export async function signInWithGoogleRedirectLive(): Promise<void> {
+  const currentAuth = getFirebaseAuth();
+  if (!currentAuth) {
+    throw new Error('Firebase Auth is not initialized');
+  }
+
+  const provider = new GoogleAuthProvider();
+  provider.setCustomParameters({ prompt: 'select_account' });
+  await signInWithRedirect(currentAuth, provider);
+}
+
+/**
+ * Check if the user just returned from Google OAuth redirect.
+ */
+export async function checkGoogleRedirectResultLive(): Promise<CloudUser | null> {
+  const currentAuth = getFirebaseAuth();
+  if (!currentAuth) return null;
+  try {
+    const result = await getRedirectResult(currentAuth);
+    if (result && result.user) {
+      const user = result.user;
+      return {
+        uid: user.uid,
+        email: user.email,
+        displayName: user.displayName,
+        photoURL: user.photoURL,
+        provider: 'google',
+        lastSyncedAt: new Date().toISOString(),
+      };
+    }
+  } catch (err) {
+    console.warn('Redirect result check error:', err);
+  }
+  return null;
 }
 
 /**
